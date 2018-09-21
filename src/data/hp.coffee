@@ -1,4 +1,4 @@
-values = Array
+values = [
     id: 'ant'
     name: 'Ant, Standard'
     hp: 60
@@ -71,8 +71,8 @@ values = Array
     credit: 3000
   ,
 
-    id: 'drg'
-    name: 'Dragon, Standard'
+  id: 'drg'
+  name: 'Dragon, Standard'
     hp: 50
   ,
     id: 'drgy'
@@ -143,10 +143,6 @@ values = Array
   ,
     id: 'hecb'
     name: 'Hector, Blue'
-    hp: 1200
-  ,
-    id: 'hecf'
-    name: 'Hector, Fast'
     hp: 1200
   ,
     id: 'shd'
@@ -263,5 +259,6 @@ values = Array
     id: 'brain'
     name: 'The Brain'
     hp: 4800
+  ]
 
-console.log values
+module.exports = values

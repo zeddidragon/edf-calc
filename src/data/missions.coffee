@@ -1,4 +1,4 @@
-missions = [
+campaign = [
     name: 'Reconvene'
     enemies: [ 'ant' ]
   ,
@@ -454,6 +454,8 @@ missions = [
     ]
   ]
 
-m.id = "m#{(i + 1).toString().padStart(2, '0')}" for m, i in missions
+m.id = "m#{(i + 1).toString().padStart(2, '0')}" for m, i in campaign
+dlc1 = []
+dlc2 = []
 
-module.exports = missions
+module.exports = { campaign, dlc1, dlc2 }

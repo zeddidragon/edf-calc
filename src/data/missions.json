@@ -1,0 +1,1166 @@
+{
+  "campaign": [
+    {
+      "name": "Reconvene",
+      "enemies": [
+        "ant"
+      ],
+      "id": "m01"
+    },
+    {
+      "name": "Spreading Disaster",
+      "enemies": [
+        "ant"
+      ],
+      "id": "m02"
+    },
+    {
+      "name": "Winged War Goddess",
+      "enemies": [
+        "ant"
+      ],
+      "id": "m03"
+    },
+    {
+      "name": "Setting Sun",
+      "enemies": [
+        "ret"
+      ],
+      "id": "m04"
+    },
+    {
+      "name": "Wind Shear",
+      "enemies": [
+        "ant",
+        "ret"
+      ],
+      "id": "m05"
+    },
+    {
+      "name": "Underground Cave",
+      "enemies": [
+        "ant",
+        "spd"
+      ],
+      "id": "m06"
+    },
+    {
+      "name": "Eruption",
+      "enemies": [
+        "spd"
+      ],
+      "id": "m07"
+    },
+    {
+      "name": "Retaliation",
+      "enemies": [
+        "spd"
+      ],
+      "id": "m08"
+    },
+    {
+      "name": "Beach Fear",
+      "enemies": [
+        "ant",
+        "spd",
+        "ret"
+      ],
+      "id": "m09"
+    },
+    {
+      "name": "The Return",
+      "enemies": [
+        "ant",
+        "drn"
+      ],
+      "id": "m10"
+    },
+    {
+      "name": "Air Force",
+      "enemies": [
+        "drn"
+      ],
+      "id": "m11"
+    },
+    {
+      "name": "Day of the Demons",
+      "enemies": [
+        "ant"
+      ],
+      "id": "m12"
+    },
+    {
+      "name": "Takedown",
+      "enemies": [
+        "ant",
+        "trn"
+      ],
+      "id": "m13"
+    },
+    {
+      "name": "Preventing Landfall",
+      "enemies": [
+        "drn",
+        "hec"
+      ],
+      "id": "m14"
+    },
+    {
+      "name": "Land Collapse",
+      "enemies": [
+        "ant",
+        "spd",
+        "xit"
+      ],
+      "id": "m15"
+    },
+    {
+      "name": "Fortress Siege",
+      "enemies": [
+        "drn",
+        "hec"
+      ],
+      "id": "m16"
+    },
+    {
+      "name": "Valley Shadow",
+      "enemies": [
+        "spd",
+        "trn"
+      ],
+      "id": "m17"
+    },
+    {
+      "name": "Artillery",
+      "enemies": [
+        "hec"
+      ],
+      "id": "m18"
+    },
+    {
+      "name": "Breaking Through",
+      "enemies": [
+        "hec",
+        "shd"
+      ],
+      "id": "m19"
+    },
+    {
+      "name": "Shining Stronghold",
+      "enemies": [
+        "ant",
+        "antr",
+        "xit",
+        "shd"
+      ],
+      "id": "m20"
+    },
+    {
+      "name": "Into the Depths",
+      "enemies": [
+        "ant",
+        "antr",
+        "spd"
+      ],
+      "id": "m21"
+    },
+    {
+      "name": "A Trap",
+      "enemies": [
+        "ant",
+        "spd"
+      ],
+      "id": "m22"
+    },
+    {
+      "name": "Giant Robots",
+      "enemies": [
+        "hec",
+        [
+          "hec",
+          0.75
+        ],
+        [
+          "hec",
+          0.5625
+        ]
+      ],
+      "id": "m23"
+    },
+    {
+      "name": "Summit Ship",
+      "online": true,
+      "enemies": [
+        "ant",
+        "antr",
+        "spd",
+        "shd"
+      ],
+      "id": "m24"
+    },
+    {
+      "name": "Anchored",
+      "enemies": [
+        "ant",
+        "antr",
+        "spd",
+        "drn",
+        "trn",
+        "momplt"
+      ],
+      "id": "m25"
+    },
+    {
+      "name": "Silver City",
+      "enemies": [
+        "spd",
+        "ret",
+        "xit"
+      ],
+      "id": "m26"
+    },
+    {
+      "name": "Crimson",
+      "enemies": [
+        "antr",
+        "antp"
+      ],
+      "id": "m27"
+    },
+    {
+      "name": "Assault",
+      "enemies": [
+        "ant",
+        "antr",
+        "spd",
+        "trn"
+      ],
+      "id": "m28"
+    },
+    {
+      "name": "High-Speed",
+      "enemies": [
+        "drnr"
+      ],
+      "id": "m29"
+    },
+    {
+      "name": "Bloody Mountain",
+      "online": true,
+      "enemies": [
+        "redr",
+        "xit"
+      ],
+      "id": "m30"
+    },
+    {
+      "name": "Brute Force",
+      "enemies": [
+        "ant",
+        "antr",
+        "drn",
+        [
+          "hec",
+          0.9
+        ],
+        "shd"
+      ],
+      "id": "m31"
+    },
+    {
+      "name": "Charge Phase 1",
+      "enemies": [
+        "ant",
+        "antgl",
+        "antr",
+        "antp",
+        "spd"
+      ],
+      "id": "m32"
+    },
+    {
+      "name": "Charge Phase 2",
+      "enemies": [
+        "ant",
+        "spd",
+        "spds"
+      ],
+      "id": "m33"
+    },
+    {
+      "name": "Dark Prisoner",
+      "online": true,
+      "enemies": [
+        "ant",
+        "ret",
+        "xit"
+      ],
+      "id": "m34"
+    },
+    {
+      "name": "Charge Phase 3",
+      "enemies": [
+        "ant",
+        "antr",
+        "spd",
+        "antq"
+      ],
+      "id": "m35"
+    },
+    {
+      "name": "Thunder",
+      "enemies": [
+        "ant",
+        "antgl",
+        "antr",
+        "drn",
+        "hec",
+        "shd",
+        "momplt"
+      ],
+      "id": "m36"
+    },
+    {
+      "name": "Infiltration",
+      "enemies": [
+        "spd",
+        "ret",
+        "xit"
+      ],
+      "id": "m37"
+    },
+    {
+      "name": "Convergence",
+      "enemies": [
+        "ant",
+        "andgl",
+        "antr",
+        "spd",
+        "spdsl",
+        "drn",
+        "hec",
+        "trn"
+      ],
+      "id": "m38"
+    },
+    {
+      "name": "Inferno",
+      "enemies": [
+        "ant",
+        "antr",
+        "spd",
+        "drn",
+        [
+          "drnr",
+          0.8
+        ],
+        "hec",
+        [
+          "antq",
+          0.8
+        ],
+        [
+          "antgq",
+          0.7
+        ],
+        "trn"
+      ],
+      "id": "m39"
+    },
+    {
+      "name": "Starship",
+      "enemies": [
+        "ant",
+        "drn",
+        "drnr",
+        "hec",
+        "trn",
+        "mom",
+        "momgen",
+        "momplt",
+        "momcan"
+      ],
+      "id": "m40"
+    },
+    {
+      "name": "High Density",
+      "enemies": [
+        "ant",
+        "antgl",
+        "antr",
+        "spd",
+        "spds",
+        [
+          "xit",
+          0.1
+        ]
+      ],
+      "id": "m41"
+    },
+    {
+      "name": "Dozing Beast",
+      "enemies": [
+        "erg"
+      ],
+      "id": "m42"
+    },
+    {
+      "name": "Crossing",
+      "enemies": [
+        "ant",
+        "spd",
+        "hec",
+        "xit"
+      ],
+      "id": "m43"
+    },
+    {
+      "name": "Search",
+      "enemies": [
+        "ant",
+        "bee"
+      ],
+      "id": "m44"
+    },
+    {
+      "name": "Waterside Bugs",
+      "enemies": [
+        "ant",
+        "antgl",
+        "antr",
+        "antp",
+        "spd",
+        "spds",
+        "bee",
+        [
+          "beer",
+          5
+        ],
+        "xit"
+      ],
+      "id": "m45"
+    },
+    {
+      "name": "Annihilation",
+      "enemies": [
+        "ant",
+        "veh",
+        "trn",
+        "eemin"
+      ],
+      "id": "m46"
+    },
+    {
+      "name": "Natural Calamity",
+      "enemies": [
+        "drn",
+        "veh",
+        "eehtc"
+      ],
+      "id": "m47"
+    },
+    {
+      "name": "Steel Beast",
+      "enemies": [
+        [
+          "derm",
+          0.75
+        ],
+        "eehtc"
+      ],
+      "id": "m48"
+    },
+    {
+      "name": "Void Ship",
+      "enemies": [
+        "ant",
+        "spd",
+        "bee",
+        "trnv",
+        [
+          "trnv",
+          0.7
+        ]
+      ],
+      "id": "m49"
+    },
+    {
+      "name": "Blue Fighters",
+      "enemies": [
+        "hec",
+        "trnv"
+      ],
+      "id": "m50"
+    },
+    {
+      "name": "Earth Defenders",
+      "enemies": [
+        "ant",
+        "antr",
+        "spd",
+        "bee",
+        "shd"
+      ],
+      "id": "m51"
+    },
+    {
+      "name": "Fleet Attack",
+      "online": true,
+      "enemies": [
+        "ant",
+        "drn",
+        "hec",
+        "trn"
+      ],
+      "id": "m52"
+    },
+    {
+      "name": "Mountain Pass Trap",
+      "enemies": [
+        "ant",
+        "spd",
+        "spds",
+        "bee",
+        "beer",
+        "ret"
+      ],
+      "id": "m53"
+    },
+    {
+      "name": "Fortress Frenzy",
+      "enemies": [
+        "ant",
+        "drn",
+        "hec",
+        "quadgat",
+        "quadlaz"
+      ],
+      "id": "m54"
+    },
+    {
+      "name": "Pincer",
+      "enemies": [
+        "ant",
+        "hec"
+      ],
+      "id": "m55"
+    },
+    {
+      "name": "Ravages of War",
+      "enemies": [
+        "ant",
+        "antr",
+        "spd",
+        "bee",
+        "xit"
+      ],
+      "id": "m56"
+    },
+    {
+      "name": "Crash",
+      "enemies": [
+        "ant",
+        "erg"
+      ],
+      "id": "m57"
+    },
+    {
+      "name": "Air Mobilization",
+      "enemies": [
+        "drn",
+        "drnr",
+        "veh",
+        "trn"
+      ],
+      "id": "m58"
+    },
+    {
+      "name": "Bug Invasion",
+      "enemies": [
+        "spd"
+      ],
+      "id": "m59"
+    },
+    {
+      "name": "Transport Ship Surprise Attack",
+      "enemies": [
+        "ant",
+        "antr",
+        "antgl",
+        "drn",
+        "veh",
+        "trnv"
+      ],
+      "id": "m60"
+    },
+    {
+      "name": "Bug King",
+      "enemies": [
+        "spd",
+        "spds",
+        "spdk"
+      ],
+      "id": "m61"
+    },
+    {
+      "name": "Crazy Skies",
+      "enemies": [
+        "drn",
+        "veh",
+        "derm",
+        "eeblu",
+        "eeprp",
+        "eecor",
+        "eehtc"
+      ],
+      "id": "m62"
+    },
+    {
+      "name": "The Fleet Below",
+      "enemies": [
+        "ant",
+        "spd",
+        "hec",
+        [
+          "trn",
+          0.5
+        ]
+      ],
+      "id": "m63"
+    },
+    {
+      "name": "Ill Omen",
+      "enemies": [
+        "ant",
+        "drg"
+      ],
+      "id": "m64"
+    },
+    {
+      "name": "City of Horror",
+      "enemies": [
+        "drg"
+      ],
+      "id": "m65"
+    },
+    {
+      "name": "Mountains Ablaze",
+      "enemies": [
+        "drg",
+        "derm"
+      ],
+      "id": "m66"
+    },
+    {
+      "name": "Breaking Through (2)",
+      "enemies": [
+        "spd",
+        "ret",
+        "xit"
+      ],
+      "id": "m67"
+    },
+    {
+      "name": "Bug Tower",
+      "enemies": [
+        "bee",
+        "beer"
+      ],
+      "id": "m68"
+    },
+    {
+      "name": "Fortress Attack",
+      "enemies": [
+        "ant",
+        "drn",
+        "hec",
+        "quad",
+        "quadgat",
+        "quadlaz"
+      ],
+      "id": "m69"
+    },
+    {
+      "name": "Mountain Liberation",
+      "enemies": [
+        "ant",
+        "antr",
+        "spd",
+        "drg",
+        "drgr"
+      ],
+      "id": "m70"
+    },
+    {
+      "name": "Battle of Giants",
+      "enemies": [
+        [
+          "ant",
+          0.5
+        ],
+        "antr",
+        [
+          "bee",
+          0.52
+        ],
+        "erg",
+        "ergr"
+      ],
+      "id": "m71"
+    },
+    {
+      "name": "Sniper Attack",
+      "enemies": [
+        "spd",
+        "drn",
+        [
+          "drnr",
+          0.9
+        ],
+        "veh",
+        [
+          "trnv",
+          0.9
+        ],
+        "trnv"
+      ],
+      "id": "m72"
+    },
+    {
+      "name": "Mountain Giants",
+      "online": true,
+      "enemies": [
+        "ant",
+        "antq",
+        "xit"
+      ],
+      "id": "m73"
+    },
+    {
+      "name": "Towering Beast",
+      "enemies": [
+        "hec",
+        "ders",
+        "derm",
+        "derx"
+      ],
+      "id": "m74"
+    },
+    {
+      "name": "Teeth of the Universe",
+      "enemies": [
+        "antr",
+        "drg",
+        "drgr",
+        "drgy",
+        [
+          "trnv",
+          0.8
+        ]
+      ],
+      "id": "m75"
+    },
+    {
+      "name": "Giant Ship",
+      "enemies": [
+        "veh",
+        "arg"
+      ],
+      "id": "m76"
+    },
+    {
+      "name": "Spearhead",
+      "enemies": [
+        "ant",
+        "antgl",
+        "antr",
+        "antp",
+        "spd",
+        "spds",
+        "hec",
+        "xit",
+        "shd"
+      ],
+      "id": "m77"
+    },
+    {
+      "name": "Tower Siege",
+      "enemies": [
+        "bee",
+        "beer",
+        "hiv"
+      ],
+      "id": "m78"
+    },
+    {
+      "name": "Den of Thieves",
+      "enemies": [
+        "spd",
+        "spdk"
+      ],
+      "id": "m79"
+    },
+    {
+      "name": "Death Queen",
+      "enemies": [
+        "spd",
+        "bee",
+        "beer",
+        "beeq"
+      ],
+      "id": "m80"
+    },
+    {
+      "name": "Machine Squad",
+      "enemies": [
+        "ders",
+        "derx",
+        "eehtc"
+      ],
+      "id": "m81"
+    },
+    {
+      "name": "Monster Party",
+      "enemies": [
+        [
+          "drg",
+          0.7
+        ],
+        [
+          "drgr",
+          0.7
+        ],
+        "drgy"
+      ],
+      "id": "m82"
+    },
+    {
+      "name": "Labyrinth of Light",
+      "enemies": [
+        "ant",
+        "drn",
+        "ders",
+        "trnv",
+        "shd"
+      ],
+      "id": "m83"
+    },
+    {
+      "name": "City Flaws",
+      "enemies": [
+        "bee",
+        "beer",
+        "beeq",
+        "hec",
+        "shd"
+      ],
+      "id": "m84"
+    },
+    {
+      "name": "Monster Camp",
+      "enemies": [
+        "ant",
+        "antr",
+        "spd",
+        "drg",
+        "drgr",
+        "drgy"
+      ],
+      "id": "m85"
+    },
+    {
+      "name": "Fallen Flagship",
+      "enemies": [
+        "veh",
+        "hec",
+        "derm",
+        "derx",
+        "eeblu",
+        "eeprp",
+        "eecor",
+        "eehtc",
+        "brain"
+      ],
+      "id": "m86"
+    },
+    {
+      "name": "Heaven's Army",
+      "enemies": [
+        "bee",
+        "beer",
+        "drg",
+        "drgr",
+        [
+          "trnv",
+          2
+        ]
+      ],
+      "id": "m87"
+    },
+    {
+      "name": "Encircling",
+      "enemies": [
+        "ant",
+        "spd",
+        "bee",
+        "trn",
+        "trnv"
+      ],
+      "id": "m88"
+    },
+    {
+      "name": "Divine",
+      "enemies": [
+        [
+          "drg",
+          0.7
+        ],
+        "drgg",
+        [
+          "drgg",
+          0.3
+        ],
+        [
+          "drgg",
+          0.2
+        ]
+      ],
+      "id": "m89"
+    },
+    {
+      "name": "The Threat",
+      "enemies": [
+        "ant",
+        "antr",
+        "spd",
+        "bee"
+      ],
+      "id": "m90"
+    },
+    {
+      "name": "Troubled Valley",
+      "online": true,
+      "enemies": [
+        "spd",
+        "ret",
+        [
+          "trn",
+          3
+        ]
+      ],
+      "id": "m91"
+    },
+    {
+      "name": "Battle to the Death",
+      "enemies": [
+        "ant",
+        "antgl",
+        "veh",
+        [
+          "hec",
+          0.8
+        ],
+        [
+          "hec",
+          0.64
+        ],
+        [
+          "trnv",
+          0.8
+        ],
+        [
+          "trnv",
+          0.4
+        ],
+        "arg"
+      ],
+      "id": "m92"
+    },
+    {
+      "name": "Legion of Monsters",
+      "online": true,
+      "enemies": [
+        "ant",
+        "antq",
+        "spd",
+        "spdk",
+        "bee",
+        "beeq",
+        "drg",
+        [
+          "drgg",
+          0.9
+        ],
+        "erg"
+      ],
+      "id": "m93"
+    },
+    {
+      "name": "Massive Mobilization",
+      "enemies": [
+        "ant",
+        "antgl",
+        "antr",
+        "antp",
+        "spd",
+        "spds",
+        "veh",
+        "hec",
+        "ders",
+        "trnv",
+        "quad",
+        "quadgat",
+        "quadlaz"
+      ],
+      "id": "m94"
+    },
+    {
+      "name": "Scorching",
+      "enemies": [
+        [
+          "ant",
+          0.9
+        ],
+        "antr",
+        [
+          "spd",
+          0.9
+        ],
+        "spdk",
+        [
+          "bee",
+          0.72
+        ],
+        [
+          "beeq",
+          0.5
+        ],
+        [
+          "drg",
+          0.9
+        ],
+        [
+          "drgr",
+          0.9
+        ],
+        [
+          "drnr",
+          0.72
+        ],
+        [
+          "veh",
+          0.7
+        ],
+        "hec",
+        "derm",
+        "trnv"
+      ],
+      "id": "m95"
+    },
+    {
+      "name": "Demon Army",
+      "online": true,
+      "enemies": [
+        "ant",
+        "antgl",
+        "spd",
+        "spds",
+        "bee",
+        "beer",
+        "beeq",
+        "veh",
+        "hec",
+        [
+          "hiv",
+          0.66
+        ]
+      ],
+      "id": "m96"
+    },
+    {
+      "name": "Surrounded!",
+      "online": true,
+      "enemies": [
+        [
+          "ant",
+          0.608
+        ],
+        [
+          "antgl",
+          0.608
+        ],
+        [
+          "antr",
+          0.608
+        ],
+        [
+          "antglq",
+          0.18
+        ],
+        [
+          "spd",
+          0.608
+        ],
+        [
+          "spds",
+          0.608
+        ],
+        [
+          "drg",
+          0.36
+        ],
+        [
+          "drgr",
+          0.36
+        ],
+        [
+          "drgy",
+          0.36
+        ],
+        [
+          "bee",
+          0.608
+        ],
+        [
+          "beer",
+          0.608
+        ],
+        [
+          "drn",
+          0.6
+        ],
+        "ders",
+        "derm",
+        [
+          "trnv",
+          0.18
+        ]
+      ],
+      "id": "m97"
+    },
+    {
+      "name": "Star Eaters",
+      "enemies": [
+        "veh",
+        "derm",
+        "eeblu",
+        "eeprp",
+        "eered",
+        "eegrn",
+        "eemin",
+        "eecor",
+        "eehtc",
+        "eetnd",
+        "eespw",
+        "brain",
+        [
+          "brain",
+          1.2
+        ]
+      ],
+      "id": "m98"
+    }
+  ],
+  "dlc1": [],
+  "dlc2": []
+}

@@ -248,7 +248,7 @@
       "name": "Bloody Mountain",
       "online": true,
       "enemies": [
-        "redr",
+        "antr",
         "xit"
       ],
       "id": "m30"
@@ -333,10 +333,10 @@
       "name": "Convergence",
       "enemies": [
         "ant",
-        "andgl",
+        "antgl",
         "antr",
         "spd",
-        "spdsl",
+        "spds",
         "drn",
         "hec",
         "trn"
@@ -1094,7 +1094,7 @@
           0.608
         ],
         [
-          "antglq",
+          "antgq",
           0.18
         ],
         [

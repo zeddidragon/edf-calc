@@ -1141,6 +1141,7 @@
     {
       "name": "Star Eaters",
       "enemies": [
+        "drg",
         "veh",
         "derm",
         "eeblu",

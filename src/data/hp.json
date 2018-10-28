@@ -86,9 +86,7 @@
   },
   {
     "id": "drg",
-    "name": "Dragon, Standard"
-  },
-  {
+    "name": "Dragon, Standard",
     "hp": 50
   },
   {
@@ -264,47 +262,47 @@
   },
   {
     "id": "eeblu",
-    "name": "Earth Eater: Blue Spike Laser",
+    "name": "Blue Spike Laser",
     "hp": 100
   },
   {
     "id": "eeprp",
-    "name": "Earth Eater: Purple Dome Projectile",
+    "name": "Purple Dome Projectile",
     "hp": 130
   },
   {
     "id": "eered",
-    "name": "Earth Eater: Red Claw Launcher",
+    "name": "Red Claw Launcher",
     "hp": 180
   },
   {
     "id": "eegrn",
-    "name": "Earth Eater: Green Emerald Laser",
+    "name": "Green Emerald Laser",
     "hp": 200
   },
   {
     "id": "eemin",
-    "name": "Earth Eater: Giant Mining Laser",
+    "name": "Giant Mining Laser",
     "hp": 1000
   },
   {
     "id": "eecor",
-    "name": "Earth Eater: Core",
+    "name": "Core",
     "hp": 1000
   },
   {
     "id": "eehtc",
-    "name": "Earth Eater: Hatch",
+    "name": "Hatch",
     "hp": 1000
   },
   {
     "id": "eetnd",
-    "name": "Earth Eater: Thunder Block",
+    "name": "Thunder Block",
     "hp": 700
   },
   {
     "id": "eespw",
-    "name": "Earth Eater: Spawner Block",
+    "name": "Spawner Block",
     "hp": 1200
   },
   {

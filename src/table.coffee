@@ -18,9 +18,6 @@ difficulties = [
 ]
 
 offI = 0
-offline = factors[0].missions.length
-online = factors[1].missions.length
-
 headers = [
   '[tr]',
   '[th]Type[/th]',
@@ -31,26 +28,33 @@ headers = [
   '[/tr]',
 ].join ''
 
-for mission, i in factors[1].missions
+campaignNo = 'offline'
+campaign = factors.find (f) -> f.id is campaignNo
+offline = campaign.missions.length - 1
+online = if campaignNo then offline else factors[1].missions.length - 1
+
+for mission, i in campaign.missions
   missionNumber =
     if mission.online then "-- {#{i + 1}}"
     else if i is offI then "#{i + 1}"
     else "#{offI + 1} {#{i + 1}}"
   output.push "[h1]#{missionNumber}. #{mission.name}[/h1]"
+  output.push "[table]"
+  output.push headers
   for difficulty, j in difficulties
     output.push "[b]#{difficulty}[/b]"
-    output.push "[table]"
-    output.push headers
-    {min, max} = factors[0].difficulties[j]
+    {min, max} = campaign.difficulties[j]
     for eId in mission.enemies
-      output.push '[tr]'
+      factor = 1
+      difficultyMask = null
       if Array.isArray eId
-        [eId, factor] = eId
-      else
-        factor = 1
+        [eId, factor, difficultyMask] = eId
+      if difficultyMask and not difficultyMask.includes difficulty
+        continue
+      output.push '[tr]'
       enemy = byId[eId] or id: eId, name: "Unknown (#{eId})", hp: 0
       output.push "[td]#{enemy.name}[/td]"
-      
+
       if mission.online
         output.push '[td] - [/td]'
       else
@@ -68,8 +72,7 @@ for mission, i in factors[1].missions
       if factor isnt 1
         output.push "[td]x#{factor}[/td]"
       output.push '[/tr]'
-    output.push '[/table]'
+  output.push '[/table]'
   offI++ unless mission.online
 
-
-console.log output.join '\n'
+console.log output.join '\r\n'

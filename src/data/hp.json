@@ -1,7 +1,7 @@
 [
   {
     "id": "ant",
-    "name": "Ant, Standard",
+    "name": "Ant",
     "hp": 60
   },
   {
@@ -43,7 +43,7 @@
   },
   {
     "id": "spd",
-    "name": "Spider, Standard",
+    "name": "Spider",
     "hp": 55
   },
   {
@@ -64,7 +64,7 @@
   },
   {
     "id": "bee",
-    "name": "Bee, Standard",
+    "name": "Bee",
     "hp": 45
   },
   {
@@ -86,7 +86,7 @@
   },
   {
     "id": "drg",
-    "name": "Dragon, Standard",
+    "name": "Dragon",
     "hp": 50
   },
   {
@@ -106,7 +106,7 @@
   },
   {
     "id": "ret",
-    "name": "Retarius, Standard",
+    "name": "Retarius",
     "hp": 600
   },
   {
@@ -116,7 +116,7 @@
   },
   {
     "id": "erg",
-    "name": "Erginus, Standard",
+    "name": "Erginus",
     "hp": 32000
   },
   {
@@ -126,7 +126,7 @@
   },
   {
     "id": "xit",
-    "name": "Tunnel, Standard",
+    "name": "Tunnel",
     "hp": 1500
   },
   {
@@ -141,7 +141,7 @@
   },
   {
     "id": "drn",
-    "name": "Drone, Standard",
+    "name": "Drone",
     "hp": 50
   },
   {
@@ -152,7 +152,7 @@
   },
   {
     "id": "veh",
-    "name": "Vehicle, Standard",
+    "name": "Vehicle",
     "hp": 75
   },
   {
@@ -163,7 +163,7 @@
   },
   {
     "id": "hec",
-    "name": "Hector, Standard",
+    "name": "Hector",
     "hp": 1200
   },
   {
@@ -217,7 +217,7 @@
   },
   {
     "id": "trn",
-    "name": "Transport, Standard",
+    "name": "Transport",
     "hp": 1000
   },
   {

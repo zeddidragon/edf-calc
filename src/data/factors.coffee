@@ -1,4 +1,7 @@
 missions = require './missions'
+{dlc1, dlc2} = require './dlc1.coffee'
+missions.dlc1 = dlc1
+missions.dlc2 = dlc2
 
 factors = [
     { min:  0.5, max:  1.5 },

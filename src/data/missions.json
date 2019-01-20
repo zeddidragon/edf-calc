@@ -118,7 +118,9 @@
       "name": "Fortress Siege",
       "enemies": [
         "drn",
-        "hec"
+        "hec",
+        "quadgat",
+        "quadlaz"
       ],
       "id": "m16"
     },
@@ -1130,7 +1132,7 @@
           0.6
         ],
         "ders",
-        "derm",
+        "derx",
         [
           "trnv",
           0.18

@@ -28,15 +28,21 @@ headers = [
   '[/tr]',
 ].join ''
 
-campaignNo = 'offline'
+campaignNo = 'online'
 campaign = factors.find (f) -> f.id is campaignNo
 offline = campaign.missions.length - 1
 online = if campaignNo then offline else factors[1].missions.length - 1
+multipliers = [
+  [1.44, 1.8, 2.16],
+  [1.664, 2.08, 2.496],
+  [1.8, 2.1, 2.4],
+  [2.0, 2.2, 2.4],
+  [2.2, 2.3, 2.4],
+]
 
 for mission, i in campaign.missions
   missionNumber =
     if mission.online then "-- {#{i + 1}}"
-    else if i is offI then "#{i + 1}"
     else "#{offI + 1} {#{i + 1}}"
   output.push "[h1]#{missionNumber}. #{mission.name}[/h1]"
   output.push "[table]"
@@ -56,19 +62,19 @@ for mission, i in campaign.missions
       output.push "[td]#{enemy.name}[/td]"
 
       if mission.online
-        output.push '[td] - [/td]'
+        output.push '[td]-[/td]'
       else
         hp = enemy.hp *
           (min + (max - min) * offI / offline) *
           factor
-        output.push "[td]#{Math.round hp}[/td]"
+        output.push "[td]#{Math.ceil hp}[/td]"
 
       hp = enemy.hp *
         (min + (max - min) * i / online) *
         (enemy.online or 1) *
         factor
-      for multi in [2.2, 2.3, 2.4]
-        output.push "[td]#{Math.round hp * multi}[/td]"
+      for multi in multipliers[j]
+        output.push "[td]#{Math.ceil hp * multi}[/td]"
       if factor isnt 1
         output.push "[td]x#{factor}[/td]"
       output.push '[/tr]'

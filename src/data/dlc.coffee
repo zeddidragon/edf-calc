@@ -128,7 +128,7 @@ dlc1 = [
 
 dlc2 = [
   name: 'Tracking Bogeys'
-  enemies: ['ant', 'spd', 'bee', ['trnv', 1.8]]
+  enemies: ['ant', 'spd', 'bee', ['trn', 1.8]]
   id: 'd2m01'
 ,
   name: 'Underground Complex'
@@ -165,11 +165,11 @@ dlc2 = [
   id: 'd2m06'
 ,
   name: 'Overflight'
-  enemies: ['veh', 'vehr', 'eecor']
+  enemies: ['veh', 'vehr', 'eehtc']
   id: 'd2m07'
 ,
   name: 'Dangerous Goldmines'
-  enemies: ['ant', 'antg', 'xit','xitm', ['antgq', 0.7]]
+  enemies: ['ant', 'antgl', 'xit','xitm', ['antgq', 0.7]]
   id: 'd2m08'
 ,
   name: 'Beast Mobilization'

@@ -1,5 +1,5 @@
 missions = require './missions'
-{dlc1, dlc2} = require './dlc1.coffee'
+{dlc1, dlc2} = require './dlc.coffee'
 missions.dlc1 = dlc1
 missions.dlc2 = dlc2
 

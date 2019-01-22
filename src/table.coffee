@@ -28,7 +28,7 @@ headers = [
   '[/tr]',
 ].join ''
 
-campaignNo = 'online'
+campaignNo = process.argv[2] or 'online'
 campaign = factors.find (f) -> f.id is campaignNo
 offline = campaign.missions.length - 1
 online = if campaignNo then offline else factors[1].missions.length - 1

@@ -34,7 +34,7 @@ offline = campaign.missions.length - 1
 online = if campaignNo then offline else factors[1].missions.length - 1
 multipliers = [
   [1.44, 1.8, 2.16],
-  [1.6, 2.0, 2.4],
+  [1.664, 2.08, 2.496],
   [1.8, 2.1, 2.4],
   [2.0, 2.2, 2.4],
   [2.2, 2.3, 2.4],

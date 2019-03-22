@@ -28,10 +28,15 @@ headers = [
   '[/tr]',
 ].join ''
 
-campaignNo = process.argv[2] or 'online'
-campaign = factors.find (f) -> f.id is campaignNo
-offline = campaign.missions.length - 1
-online = if campaignNo then offline else factors[1].missions.length - 1
+campaignName = process.argv[2] or 'main'
+campaign = factors.find (f) -> f.id is campaignName
+offline =
+  campaign
+    .missions
+    .filter (m) -> not m.online
+    .length - 1
+online = campaign.missions.length - 1
+
 multipliers = [
   [1.44, 1.8, 2.16],
   [1.664, 2.08, 2.496],

@@ -12,11 +12,7 @@ factors = [
   ]
 
 campaigns = [
-      id: 'offline',
-      missions: missions.campaign.filter (m) -> not m.online
-      difficulties: factors
-    ,
-      id: 'online',
+      id: 'main',
       missions: missions.campaign
       difficulties: factors
     ,

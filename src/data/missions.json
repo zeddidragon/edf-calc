@@ -446,6 +446,8 @@
       "name": "Annihilation",
       "enemies": [
         "ant",
+        "antr",
+        "bee",
         "veh",
         "trn",
         "eemin"

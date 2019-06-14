@@ -29,6 +29,7 @@ headers = [
 ].join ''
 
 campaignName = process.argv[2] or 'main'
+onlyMission = +process.argv[3]
 campaign = factors.find (f) -> f.id is campaignName
 offline =
   campaign
@@ -45,15 +46,57 @@ multipliers = [
   [2.2, 2.3, 2.4],
 ]
 
+currentMission = null
+currentDifficulty = null
+currentEnemy = null
+addMission = (number, name, rawNum) ->
+  currentMission =
+    number: number
+    name: name
+    rawNum: rawNum
+    difficulties: []
+
+addDifficulty = (diff) ->
+  currentDifficulty =
+    mode: diff
+    enemies: []
+  currentMission.difficulties.push currentDifficulty
+
+addEnemy = (name, factor) ->
+  currentEnemy =
+    name: name
+    factor: factor
+    hps: []
+  currentDifficulty.enemies.push currentEnemy
+
+addHp = (hp) ->
+  currentEnemy.hps.push hp
+
+write = ->
+  return if onlyMission and onlyMission isnt currentMission.rawNum
+  output.push "[h1]#{currentMission.number}. #{currentMission.name}[/h1]"
+  output.push "[table]"
+  output.push headers
+  for difficulty in currentMission.difficulties
+    output.push "[b]#{difficulty.mode}[/b]"
+    for enemy in difficulty.enemies
+      output.push '[tr]'
+      output.push "[td]#{enemy.name}[/td]"
+      for hp in enemy.hps
+        output.push "[td]#{hp}[/td]"
+      if enemy.factor isnt 1
+        output.push "[td]x#{enemy.factor}[/td]"
+      output.push '[/tr]'
+  output.push '[/table]'
+
 for mission, i in campaign.missions
   missionNumber =
     if mission.online then "-- {#{i + 1}}"
     else "#{offI + 1} {#{i + 1}}"
-  output.push "[h1]#{missionNumber}. #{mission.name}[/h1]"
-  output.push "[table]"
-  output.push headers
+
+  addMission missionNumber, mission.name, i + 1
   for difficulty, j in difficulties
-    output.push "[b]#{difficulty}[/b]"
+    addDifficulty difficulty
     {min, max} = campaign.difficulties[j]
     for eId in mission.enemies
       factor = 1
@@ -62,28 +105,24 @@ for mission, i in campaign.missions
         [eId, factor, difficultyMask] = eId
       if difficultyMask and not difficultyMask.includes difficulty
         continue
-      output.push '[tr]'
       enemy = byId[eId] or id: eId, name: "Unknown (#{eId})", hp: 0
-      output.push "[td]#{enemy.name}[/td]"
+      addEnemy enemy.name, factor
 
       if mission.online
-        output.push '[td]-[/td]'
+        addHp '-'
       else
         hp = enemy.hp *
           (min + (max - min) * offI / offline) *
           factor
-        output.push "[td]#{Math.ceil hp}[/td]"
+        addHp Math.ceil hp
 
       hp = enemy.hp *
         (min + (max - min) * i / online) *
         (enemy.online or 1) *
         factor
       for multi in multipliers[j]
-        output.push "[td]#{Math.ceil hp * multi}[/td]"
-      if factor isnt 1
-        output.push "[td]x#{factor}[/td]"
-      output.push '[/tr]'
-  output.push '[/table]'
+        addHp Math.ceil hp * multi
   offI++ unless mission.online
+  write()
 
 console.log output.join '\r\n'

@@ -678,6 +678,7 @@
       "enemies": [
         "ant",
         "drn",
+        "veh",
         "hec",
         "quad",
         "quadgat",
@@ -1012,6 +1013,7 @@
         "veh",
         "hec",
         "ders",
+        "derm",
         "trnv",
         "quad",
         "quadgat",

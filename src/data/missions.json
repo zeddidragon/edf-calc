@@ -478,6 +478,7 @@
       "name": "Void Ship",
       "enemies": [
         "ant",
+        "antr",
         "spd",
         "bee",
         "trnv",
@@ -533,7 +534,7 @@
     {
       "name": "Fortress Frenzy",
       "enemies": [
-        "ant",
+        "antr",
         "drn",
         "hec",
         "quadgat",

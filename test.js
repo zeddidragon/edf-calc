@@ -95,8 +95,7 @@ const hpModifier = {
   bomber: 1,
 }
 
-function generateChallenge() {
-  const avatar = avatars[Math.floor(random() * 4)]
+function getMission() {
   const difficulty = ['hard', 'hardest', 'inferno'][Math.floor(random() * 3)]
   const mission = random.pick(missions)
   const pivot = missions.indexOf(mission) / missions.length
@@ -105,27 +104,46 @@ function generateChallenge() {
   const maxWpn = tween(...diffCfg.weaponMax, pivot)
   const levelRange = [minWpn, maxWpn]
 
-  const weps = []
-  weps.push(pickWeapon(avatar, weps, levelRange))
-  weps.push(pickWeapon(avatar, weps, levelRange))
-  if(avatar === 'bomber') {
-    weps.push(pickVehicle(avatar, weps, levelRange))
-  } else if(avatar === 'fencer') {
-    weps.push(pickWeapon(avatar, weps, levelRange))
-    weps.push(pickWeapon(avatar, weps, levelRange))
-  }
-
   const challenge = {
-    avatar,
-    mission: mission,
-    hp: Math.floor(tween(...diffCfg.hp, pivot) * hpModifier[avatar]),
     difficulty,
-    weapons: weps,
+    mission,
+    pivot,
+    levelRange: [ minWpn, maxWpn ],
+    hp: tween(...diffCfg.hp, pivot),
   }
 
-  if(mission.online) {
-    challenge.hp *= 2
+  if(mission.online) challenge.hp *= 2
+  
+  return challenge
+}
+
+function getAvatar(challenge) {
+  const avatar = avatars[Math.floor(random() * 4)]
+
+  const weps = []
+  weps.push(pickWeapon(avatar, weps, challenge.levelRange))
+  weps.push(pickWeapon(avatar, weps, challenge.levelRange))
+  if(avatar === 'bomber') {
+    weps.push(pickVehicle(avatar, weps, challenge.levelRange))
+  } else if(avatar === 'fencer') {
+    weps.push(pickWeapon(avatar, weps, challenge.levelRange))
+    weps.push(pickWeapon(avatar, weps, challenge.levelRange))
   }
+
+  const player = {
+    "class": avatar,
+    weapons: weps,
+    hp: Math.floor(challenge.hp * hpModifier[avatar])
+  }
+
+  return player
+}
+
+function generateChallenge() {
+  const challenge = getMission()
+  challenge.players = []
+  challenge.players.push(getAvatar(challenge))
+  challenge.players.push(getAvatar(challenge))
 
   return challenge
 }
@@ -138,31 +156,33 @@ const avatarPrint = {
 }
 
 function print(challenge) {
-  var message = `
-Complete mission "${challenge.mission.name}" (${challenge.mission.id}) on ${challenge.difficulty} mode
+  var message = `Complete mission "${challenge.mission.name}" (${challenge.mission.id}) on ${challenge.difficulty} mode`
 
-Play as ${avatarPrint[challenge.avatar]} with ${challenge.hp} AP
+  for(const player of challenge.players) {
+    message += `\n\nPlay as ${avatarPrint[player.class]} with ${player.hp} AP\n`
+    for(var i = 0; i < player.weapons.length; i++) {
+      const weapon = player.weapons[i]
+      const label =
+        i == 2 && player.class === 'bomber' ? 'Vehicle' : `Weapon ${i + 1}`
+      message += `${label}: ${weapon.name} (Lv${weapon.level})\n`
+    }
+    if(player.class === 'fencer') {
+      message += '\nYou can equip in any order you want\n'
+    }
 
-`
-  for(var i = 0; i < challenge.weapons.length; i++) {
-    const weapon = challenge.weapons[i]
-    const label =
-      i == 2 && challenge.avatar === 'bomber' ? 'Vehicle' : `Weapon ${i + 1}`
-    message += `${label}: ${weapon.name} (Lv${weapon.level})\n`
   }
-  if(challenge.avatar === 'fencer') {
-    message += '\nYou can equip in any order you want\n'
-  }
+
   if(challenge.mission.online) {
     message += `\n====WARNING====\n`
     message += `\nThis mission is online only.\n`
     message += `There is no guarantee that this challenge is beatable.\n`
   }
+
   console.log(message)
 }
 
 const precision = (1000 * 60 * 60 * 24 * 3)
-const seed = (Math.floor(Date.now() / precision) + 5) * precision
+const seed = Math.floor(Date.now() / precision) * precision + 9
 console.log(new Date(seed))
 random.setSeed(seed)
 print(generateChallenge())

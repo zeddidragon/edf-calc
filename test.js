@@ -1,5 +1,10 @@
 const weapons = require('./src/data/weapons')
 const missions = require('./src/data/missions').campaign
+const enemies = require('./src/data/hp')
+  .reduce((obj, m) => {
+    obj[m.id] = m
+    return obj
+  }, {})
 
 function random() {
   return Math.abs((Math.sin(random.seed++) * 10000) % 1)
@@ -22,7 +27,7 @@ function isAvailable(weapon) {
 }
 
 function isWeapon(weapon) {
-  if(weapon.category === 'guide') return false
+  if(weapon.category === 'guide') return /Beacon/i.test(weapon.name)
   if(weapon.raw > 35) return false // Vehicles
   if(weapon.category === 'support') return !/plasma/i.test(weapon.name)
   return !/speed star|torch|leviathan|haytal|phoenix/i.test(weapon.name)
@@ -37,9 +42,32 @@ function isRanged(weapon, range) {
   return weapon.range >= range
 }
 
-function print(weapon) {
-  console.log(weapon.name)
-  return weapon.name
+function isUnderground(weapon, range) {
+  if(weapon.category === 'raid') return false
+  if(weapon.category === 'missile') return false
+  if(weapon.category === 'tank') return false
+  if(weapon.category === 'heli') return false
+  if(weapon.category === 'ground') return /SDL1/i.test(weapon.name)
+  if(weapon.category === 'mech') return /Depth/i.test(weapon.name)
+  return true
+}
+
+function isMissileVehicle(weapon) {
+  if(!weapon) return false
+  if(/Naegling/i.test(weapon.name)) return true
+  if(/Proteus/i.test(weapon.name)) return true
+  return false
+}
+
+function isVehicleRanged(weapon, range) {
+  if(/Melt Buster|Caravan|Nereid|Flame|Fire|Balam/i.test(weapon.name)) return false
+  if(weapon.id === 'Weapon745') return true // L-Range Custom
+  if(/Depth Crawler/i.test(weapon.name)) return false
+  if(weapon.category = 'mech' && /Revolver|Missile/i.test(weapon.name)) {
+    return range <= 300
+  }
+
+  return true
 }
 
 const avatars = [
@@ -49,20 +77,35 @@ const avatars = [
   'bomber',
 ]
 
-function pickWeapon(avatar, weps, range) {
+function getWeapon(avatar, weps, challenge, sniper, vehicle) {
+  const { levelRange, sniperRequired, mission } = challenge
+  var minRange = (sniper && sniperRequired) || 0
+  const missileVehicle = isMissileVehicle(vehicle)
+  if(avatar === 'winger') minRange = Math.max(0, minRange - 150)
   const choices =  weapons
     .filter(isAvailable)
     .filter(w => w.character === avatar)
     .filter(isWeapon)
-    .filter(w => w.level >= range[0] && w.level <= range[1])
+    .filter(w => w.level >= levelRange[0] && w.level <= levelRange[1])
     .filter(w => avatar === 'fencer' || !weps.includes(w))
+    .filter(w => !minRange || isRanged(w, minRange))
+    .filter(w => !mission.underground || isUnderground(w))
+    .filter(w => missileVehicle || w.category !== 'guide')
   return random.pick(choices)
 }
 
-function pickVehicle(avatar, weps, range) {
+function getVehicle(avatar, challenge, sniper) {
+  const { levelRange, sniperRequired, mission } = challenge
+  const minRange = (
+    sniper &&
+    !challenge.mission.underground &&
+    sniperRequired
+  ) || 0
   const choices =  weapons
     .filter(w => w.raw > 35)
-    .filter(w => w.level >= range[0] && w.level <= range[1])
+    .filter(w => w.level >= levelRange[0] && w.level <= levelRange[1])
+    .filter(w => !minRange || isRangedVehicle(w, minRange))
+    .filter(w => !mission.underground || isUnderground(w))
   return random.pick(choices)
 }
 
@@ -103,11 +146,16 @@ function getMission() {
   const minWpn = tween(...diffCfg.weaponMin, pivot)
   const maxWpn = tween(...diffCfg.weaponMax, pivot)
   const levelRange = [minWpn, maxWpn]
+  const sniperRequired = mission.enemies.reduce((range, enemy) => {
+    if(Array.isArray(enemy)) enemy = enemy[0]
+    return Math.max(0, enemies[enemy].sniper || 0)
+  }, 0)
 
   const challenge = {
     difficulty,
     mission,
     pivot,
+    sniperRequired,
     levelRange: [ minWpn, maxWpn ],
     hp: tween(...diffCfg.hp, pivot),
   }
@@ -121,29 +169,32 @@ function getAvatar(challenge) {
   const avatar = avatars[Math.floor(random() * 4)]
 
   const weps = []
-  weps.push(pickWeapon(avatar, weps, challenge.levelRange))
-  weps.push(pickWeapon(avatar, weps, challenge.levelRange))
+  const sniper = avatar !== 'bomber' || random() * 2 > 1
+  const vehicle = avatar === 'bomber' && getVehicle(avatar, challenge, !sniper)
+  weps.push(getWeapon(avatar, weps, challenge, sniper, vehicle))
+  weps.push(getWeapon(avatar, weps, challenge, false, vehicle))
   if(avatar === 'bomber') {
-    weps.push(pickVehicle(avatar, weps, challenge.levelRange))
+    weps.push(vehicle)
   } else if(avatar === 'fencer') {
-    weps.push(pickWeapon(avatar, weps, challenge.levelRange))
-    weps.push(pickWeapon(avatar, weps, challenge.levelRange))
+    weps.push(getWeapon(avatar, weps, challenge))
+    weps.push(getWeapon(avatar, weps, challenge))
   }
 
   const player = {
     "class": avatar,
     weapons: weps,
-    hp: Math.floor(challenge.hp * hpModifier[avatar])
+    hp: Math.max(Math.floor(challenge.hp * hpModifier[avatar] / 50) * 50, 150)
   }
 
   return player
 }
 
-function generateChallenge() {
+function generateChallenge(players=1) {
   const challenge = getMission()
   challenge.players = []
-  challenge.players.push(getAvatar(challenge))
-  challenge.players.push(getAvatar(challenge))
+  for(var i = 0; i < players; i++) {
+    challenge.players.push(getAvatar(challenge))
+  }
 
   return challenge
 }
@@ -156,10 +207,9 @@ const avatarPrint = {
 }
 
 function print(challenge) {
-  var message = `Complete mission "${challenge.mission.name}" (${challenge.mission.id}) on ${challenge.difficulty} mode`
-
+  var message = `Complete mission "${challenge.mission.name}" (${challenge.mission.id}) on ${challenge.difficulty} mode\n`
   for(const player of challenge.players) {
-    message += `\n\nPlay as ${avatarPrint[player.class]} with ${player.hp} AP\n`
+    message += `\nPlay as ${avatarPrint[player.class]} with ${player.hp} AP\n`
     for(var i = 0; i < player.weapons.length; i++) {
       const weapon = player.weapons[i]
       const label =
@@ -172,6 +222,14 @@ function print(challenge) {
 
   }
 
+  if(challenge.sniperRequired) {
+    message += `\nYou'll likely need a ranged weapon with at least ${challenge.sniperRequired}m range\n`
+  }
+
+  if(challenge.mission.underground) {
+    message += `\nThis mission takes place underground.\n`
+  }
+
   if(challenge.mission.online) {
     message += `\n====WARNING====\n`
     message += `\nThis mission is online only.\n`
@@ -182,7 +240,10 @@ function print(challenge) {
 }
 
 const precision = (1000 * 60 * 60 * 24 * 3)
-const seed = Math.floor(Date.now() / precision) * precision + 9
-console.log(new Date(seed))
-random.setSeed(seed)
-print(generateChallenge())
+
+for(var i = 0; i < 20; i++) {
+  const seed = (Math.floor(Date.now() / precision) + i) * precision
+  random.setSeed(seed)
+  console.log(new Date(seed))
+  print(generateChallenge(1))
+}

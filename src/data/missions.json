@@ -42,7 +42,8 @@
         "ant",
         "spd"
       ],
-      "id": "m06"
+      "id": "m06",
+      "underground": true
     },
     {
       "name": "Eruption",
@@ -164,7 +165,8 @@
         "antr",
         "spd"
       ],
-      "id": "m21"
+      "id": "m21",
+      "underground": true
     },
     {
       "name": "A Trap",
@@ -172,7 +174,8 @@
         "ant",
         "spd"
       ],
-      "id": "m22"
+      "id": "m22",
+      "underground": true
     },
     {
       "name": "Giant Robots",
@@ -278,7 +281,8 @@
         "antp",
         "spd"
       ],
-      "id": "m32"
+      "id": "m32",
+      "underground": true
     },
     {
       "name": "Charge Phase 2",
@@ -287,7 +291,8 @@
         "spd",
         "spds"
       ],
-      "id": "m33"
+      "id": "m33",
+      "underground": true
     },
     {
       "name": "Dark Prisoner",
@@ -297,7 +302,8 @@
         "ret",
         "xit"
       ],
-      "id": "m34"
+      "id": "m34",
+      "underground": true
     },
     {
       "name": "Charge Phase 3",
@@ -307,7 +313,8 @@
         "spd",
         "antq"
       ],
-      "id": "m35"
+      "id": "m35",
+      "underground": true
     },
     {
       "name": "Thunder",
@@ -770,7 +777,7 @@
       "name": "Giant Ship",
       "enemies": [
         "veh",
-        "arg"
+        "argf"
       ],
       "id": "m76"
     },
@@ -804,7 +811,8 @@
         "spd",
         "spdk"
       ],
-      "id": "m79"
+      "id": "m79",
+      "underground": true
     },
     {
       "name": "Death Queen",
@@ -814,7 +822,8 @@
         "beer",
         "beeq"
       ],
-      "id": "m80"
+      "id": "m80",
+      "underground": true
     },
     {
       "name": "Machine Squad",

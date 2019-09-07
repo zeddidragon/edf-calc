@@ -99,7 +99,7 @@ dlc1 = [
   id: 'd1m23'
 ,
   name: 'Floating Fleet'
-  enemies: ['veh', ['arg', 0.75], ['arg', 0.8]]
+  enemies: ['veh', ['argf', 0.75], ['argf', 0.8]]
   id: 'd1m24'
 ,
   name: 'Into Destruction'

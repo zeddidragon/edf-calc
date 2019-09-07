@@ -65,54 +65,64 @@
   {
     "id": "bee",
     "name": "Bee",
-    "hp": 45
+    "hp": 45,
+    "sniper": 100
   },
   {
     "id": "beer",
     "name": "Bee, Red",
     "hp": 135,
-    "credit": 90
+    "credit": 90,
+    "sniper": 150
   },
   {
     "id": "beeq",
     "name": "Bee, Queen",
-    "hp": 3000
+    "hp": 3000,
+    "sniper": 250
   },
   {
     "id": "beerq",
     "name": "Bee, Red Queen",
     "hp": 4500,
-    "credit": 3000
+    "credit": 3000,
+    "sniper": 250
   },
   {
     "id": "drg",
     "name": "Dragon",
-    "hp": 50
+    "hp": 50,
+    "sniper": 150
   },
   {
     "id": "drgy",
     "name": "Dragon, Yellow",
-    "hp": 20
+    "hp": 20,
+    "sniper": 150
   },
   {
     "id": "drgr",
     "name": "Dragon, Red",
-    "hp": 1200
+    "hp": 1200,
+    "sniper": 150
   },
   {
     "id": "drgg",
     "name": "Dragon, Great Elder",
-    "hp": 13000
+    "hp": 13000,
+    "sniper": 250
   },
   {
     "id": "ret",
     "name": "Retarius",
-    "hp": 600
+    "hp": 600,
+    "sniper": 100
   },
   {
     "id": "retp",
     "name": "Retarius, Purple",
-    "hp": 900
+    "hp": 900,
+    "sniper": 250
   },
   {
     "id": "erg",
@@ -142,24 +152,28 @@
   {
     "id": "drn",
     "name": "Drone",
-    "hp": 50
+    "hp": 50,
+    "sniper": 150
   },
   {
     "id": "drnr",
     "name": "Drone, Red",
     "hp": 1000,
-    "credit": 200
+    "credit": 200,
+    "sniper": 200
   },
   {
     "id": "veh",
     "name": "Vehicle",
-    "hp": 75
+    "hp": 75,
+    "sniper": 150
   },
   {
     "id": "vehr",
     "name": "Vehicle, Red",
     "hp": 1200,
-    "credit": 300
+    "credit": 300,
+    "sniper": 250
   },
   {
     "id": "hec",
@@ -178,32 +192,43 @@
     "online": 1.2
   },
   {
+    "id": "argf",
+    "name": "Argo, Flying",
+    "hp": 12000,
+    "sniper": 600
+  },
+  {
     "id": "arg",
     "name": "Argo",
-    "hp": 12000
+    "hp": 12000,
+    "sniper": 600
   },
   {
     "id": "ders",
     "name": "Deroy, Small",
     "hp": 385,
-    "credit": 550
+    "credit": 550,
+    "sniper": 150
   },
   {
     "id": "derm",
     "name": "Deroy, Medium",
     "hp": 1200,
-    "credit": 900
+    "credit": 900,
+    "sniper": 250
   },
   {
     "id": "derl",
     "name": "Deroy, Large",
-    "hp": 1100
+    "hp": 1100,
+    "sniper": 350
   },
   {
     "id": "derx",
     "name": "Deroy, Massive",
     "hp": 2000,
-    "credit": 1500
+    "credit": 1500,
+    "sniper": 600
   },
   {
     "id": "derlaz",
@@ -218,17 +243,20 @@
   {
     "id": "trn",
     "name": "Transport",
-    "hp": 1000
+    "hp": 1000,
+    "sniper": 500
   },
   {
     "id": "trnv",
     "name": "Transport, Large",
-    "hp": 2000
+    "hp": 2000,
+    "sniper": 400
   },
   {
     "id": "mom",
     "name": "Mothership",
-    "hp": 4000
+    "hp": 4000,
+    "sniper": 400
   },
   {
     "id": "momgen",
@@ -248,12 +276,14 @@
   {
     "id": "quad",
     "name": "Quadruped",
-    "hp": 5000
+    "hp": 5000,
+    "sniper": 250
   },
   {
     "id": "quadgat",
     "name": "Quadruped: Gatling Cannon",
-    "hp": 700
+    "hp": 700,
+    "sniper": 250
   },
   {
     "id": "quadlaz",
@@ -288,12 +318,14 @@
   {
     "id": "eecor",
     "name": "Core",
-    "hp": 1000
+    "hp": 1000,
+    "sniper": 400
   },
   {
     "id": "eehtc",
     "name": "Hatch",
-    "hp": 1000
+    "hp": 1000,
+    "sniper": 400
   },
   {
     "id": "eetnd",
@@ -308,6 +340,7 @@
   {
     "id": "brain",
     "name": "The Brain",
-    "hp": 4800
+    "hp": 4800,
+    "sniper": 700
   }
 ]

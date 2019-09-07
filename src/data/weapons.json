@@ -13474,6 +13474,7 @@
     "character": "fencer",
     "category": "missile",
     "raw": 25,
+    "sniper": 400,
     "ammo": 1,
     "weapon": "Weapon_HomingShoot",
     "damage": 600,

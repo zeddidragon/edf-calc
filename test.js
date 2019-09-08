@@ -35,8 +35,9 @@ function isWeapon(weapon) {
 
 function isRanged(weapon, range) {
   if(weapon.weapon === 'Weapon_Throw') return false
+  if(weapon.category === 'hammer') return false
   if(weapon.damage <= 0) return false
-  if(/decoy/i.test(weapon.name)) return false
+  if(weapon.raw >= 30) return weapon.category === 'limpet'
   if(weapon.accuracy < 76) return false
   if(/dispersal/i.test(weapon.name)) return false
   return weapon.range >= range
@@ -82,7 +83,10 @@ function getWeapon(avatar, weps, challenge, sniper, vehicle) {
   const { levelRange, sniperRequired, mission } = challenge
   var minRange = (sniper && sniperRequired) || 0
   const missileVehicle = weps.find(isMissileVehicle)
+  // Wing Diver can fly, can get away with less range on weapons
   if(avatar === 'winger') minRange = Math.max(0, minRange - 150)
+  // Ensure one limpet gun for air raider
+  if(sniper && avatar === 'bomber') minRange = Math.max(150, minRange)
   const choices =  weapons
     .filter(isAvailable)
     .filter(w => w.character === avatar)
@@ -173,12 +177,13 @@ function getAvatar(challenge) {
   }))
 
   const weps = []
-  const sniper = avatar !== 'bomber' || random() * 2 > 1
   if(avatar === 'bomber') {
-    weps.push(getVehicle(avatar, weps, challenge, !sniper))
-    weps.push(getVehicle(avatar, weps, challenge, !sniper))
+    const veh1 = getVehicle(avatar, weps, challenge)
+    weps.push(veh1)
+    const veh2 = getVehicle(avatar, weps, challenge)
+    if(veh2) weps.push(veh2)
   }
-  weps.push(getWeapon(avatar, weps, challenge, sniper))
+  weps.push(getWeapon(avatar, weps, challenge, true))
   const wpnCount = {
     ranger: 4,
     winger: 4,
@@ -186,7 +191,8 @@ function getAvatar(challenge) {
     fencer: 5,
   }[avatar]
   for(var i = 1; i < wpnCount; i++) {
-    weps.push(getWeapon(avatar, weps, challenge, false))
+    const wep = getWeapon(avatar, weps, challenge, false)
+    if(wep) weps.push(wep)
   }
 
   weps.sort((a, b) => (a.raw - b.raw) || (b.level - a.level))
@@ -248,7 +254,7 @@ function print(challenge) {
 
 const precision = (1000 * 60 * 60 * 24 * 3)
 
-for(var i = 0; i < 10; i++) {
+for(var i = 0; i < 1; i++) {
   const seed = (Math.floor(Date.now() / precision) + i) * precision
   random.setSeed(seed)
   console.log(new Date(seed))

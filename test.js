@@ -166,7 +166,9 @@ function getMission() {
 }
 
 function getAvatar(challenge) {
-  const avatar = avatars[Math.floor(random() * 4)]
+  const avatar = random.pick(avatars.filter(a => {
+    return !challenge.players.find(p => p["class"] === a)
+  }))
 
   const weps = []
   const sniper = avatar !== 'bomber' || random() * 2 > 1
@@ -241,9 +243,9 @@ function print(challenge) {
 
 const precision = (1000 * 60 * 60 * 24 * 3)
 
-for(var i = 0; i < 20; i++) {
+for(var i = 0; i < 1; i++) {
   const seed = (Math.floor(Date.now() / precision) + i) * precision
   random.setSeed(seed)
   console.log(new Date(seed))
-  print(generateChallenge(1))
+  print(generateChallenge(4))
 }

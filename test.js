@@ -54,6 +54,7 @@ function isUnderground(weapon, range) {
 
 function isMissileVehicle(weapon) {
   if(!weapon) return false
+  if(weapon.raw < 36) return false
   if(/Naegling/i.test(weapon.name)) return true
   if(/Proteus/i.test(weapon.name)) return true
   return false
@@ -80,21 +81,21 @@ const avatars = [
 function getWeapon(avatar, weps, challenge, sniper, vehicle) {
   const { levelRange, sniperRequired, mission } = challenge
   var minRange = (sniper && sniperRequired) || 0
-  const missileVehicle = isMissileVehicle(vehicle)
+  const missileVehicle = weps.find(isMissileVehicle)
   if(avatar === 'winger') minRange = Math.max(0, minRange - 150)
   const choices =  weapons
     .filter(isAvailable)
     .filter(w => w.character === avatar)
     .filter(isWeapon)
     .filter(w => w.level >= levelRange[0] && w.level <= levelRange[1])
-    .filter(w => avatar === 'fencer' || !weps.includes(w))
     .filter(w => !minRange || isRanged(w, minRange))
     .filter(w => !mission.underground || isUnderground(w))
     .filter(w => missileVehicle || w.category !== 'guide')
+    .filter(w => !weps.includes(w))
   return random.pick(choices)
 }
 
-function getVehicle(avatar, challenge, sniper) {
+function getVehicle(avatar, weps, challenge, sniper) {
   const { levelRange, sniperRequired, mission } = challenge
   const minRange = (
     sniper &&
@@ -106,6 +107,7 @@ function getVehicle(avatar, challenge, sniper) {
     .filter(w => w.level >= levelRange[0] && w.level <= levelRange[1])
     .filter(w => !minRange || isRangedVehicle(w, minRange))
     .filter(w => !mission.underground || isUnderground(w))
+    .filter(w => !weps.includes(w))
   return random.pick(choices)
 }
 
@@ -172,15 +174,22 @@ function getAvatar(challenge) {
 
   const weps = []
   const sniper = avatar !== 'bomber' || random() * 2 > 1
-  const vehicle = avatar === 'bomber' && getVehicle(avatar, challenge, !sniper)
-  weps.push(getWeapon(avatar, weps, challenge, sniper, vehicle))
-  weps.push(getWeapon(avatar, weps, challenge, false, vehicle))
   if(avatar === 'bomber') {
-    weps.push(vehicle)
-  } else if(avatar === 'fencer') {
-    weps.push(getWeapon(avatar, weps, challenge))
-    weps.push(getWeapon(avatar, weps, challenge))
+    weps.push(getVehicle(avatar, weps, challenge, !sniper))
+    weps.push(getVehicle(avatar, weps, challenge, !sniper))
   }
+  weps.push(getWeapon(avatar, weps, challenge, sniper))
+  const wpnCount = {
+    ranger: 4,
+    winger: 4,
+    bomber: 5,
+    fencer: 5,
+  }[avatar]
+  for(var i = 1; i < wpnCount; i++) {
+    weps.push(getWeapon(avatar, weps, challenge, false))
+  }
+
+  weps.sort((a, b) => (a.raw - b.raw) || (b.level - a.level))
 
   const player = {
     "class": avatar,
@@ -212,16 +221,12 @@ function print(challenge) {
   var message = `Complete mission "${challenge.mission.name}" (${challenge.mission.id}) on ${challenge.difficulty} mode\n`
   for(const player of challenge.players) {
     message += `\nPlay as ${avatarPrint[player.class]} with ${player.hp} AP\n`
+
+    message += `\nYou can choose between the following equipment:\n`
     for(var i = 0; i < player.weapons.length; i++) {
       const weapon = player.weapons[i]
-      const label =
-        i == 2 && player.class === 'bomber' ? 'Vehicle' : `Weapon ${i + 1}`
-      message += `${label}: ${weapon.name} (Lv${weapon.level})\n`
+      message += `- ${weapon.name} (${weapon.category} lv${weapon.level})\n`
     }
-    if(player.class === 'fencer') {
-      message += '\nYou can equip in any order you want\n'
-    }
-
   }
 
   if(challenge.sniperRequired) {
@@ -243,9 +248,9 @@ function print(challenge) {
 
 const precision = (1000 * 60 * 60 * 24 * 3)
 
-for(var i = 0; i < 1; i++) {
+for(var i = 0; i < 10; i++) {
   const seed = (Math.floor(Date.now() / precision) + i) * precision
   random.setSeed(seed)
   console.log(new Date(seed))
-  print(generateChallenge(4))
+  print(generateChallenge(1))
 }

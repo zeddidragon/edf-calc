@@ -3,10 +3,115 @@
   <head>
     <meta charset="UTF-8">
     <title>EDF4.1 Trials</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      html {
+        color: #fafafa;
+        background-color: #141414;
+        font-family: "Helvetica Neue", Meiryo, sans-serif
+      }
+      ul {
+        list-style: none;
+        padding: 0.1em;
+        margin: 0.1em 0.3em;
+      }
+      li {
+        padding: 0.12em;
+      }
+      .player-header, .weapon-header {
+        padding: 0.3em 0;
+      }
+
+      header, .player {
+        padding: 0.7em;
+        margin: 0.3em;
+        background-color: #484848;
+      }
+      .timing {
+        background-color: #141414;
+      }
+      section {
+        padding: 1em;
+      }
+      .title {
+        font-weight: bold;
+      }
+      .name .mission-name {
+        font-weight: bold;
+      }
+      .player-header {
+        background-color: #141414;
+        padding: 0.4em 1.2em;
+        margin: 0 -1em;
+      }
+      .ranger {
+        color: #fa6464;
+      }
+      .winger {
+        color: #6464fa;
+      }
+      .bomber {
+        color: #64fa64;
+      }
+      .fencer {
+        color: #afafaf;
+      }
+      .sub, .num {
+        opacity: 0.8;
+        padding: 0 0.3em;
+      }
+      .weapon, header {
+        display: flex;
+      }
+      .wpn-name, .name, #time {
+        flex: 1;
+      }
+      .challenge {
+        max-width: 30em;
+        padding: 0.3em 0.1em;
+      }
+
+      .difficulty {
+        text-align: right;
+        flex: 1;
+      }
+
+      .prismatic {
+        grid-column: 1;
+        grid-row: 1 / span 1;
+      }
+      .dlc {
+        grid-column: 1;
+        grid-row: 2 / span 1;
+      }
+      .coop {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+      }
+
+      @media only screen and (min-width: 700px) {
+        #challenges {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr 1fr;
+        )
+      }
+    </style>
     <script src="./src/challenge/generator.js"></script>
   </head>
   <body>
     <h1>EDF4.1 Prismatic Trials</h1>
+    <header class="timing">
+      <span id="time"></span>
+      <span id="counter"></span>
+    </header>
     <div id="challenges"></div>
+    <footer>
+      <h3>Rules</h3>
+      <p>Every 72 hours a new set of challenges are generated. Your mission, should you choose to accept it, is to beat the stated mission in the given difficulty using the provided class and a maximum of the provided armour.</p>
+      <p>You may select any set of weapons from the provided options, but except for Fencer no weapons your loadout should have no repeats.</p>
+      <h3>Co-Op Challenge</h3>
+      <p>You and 1 partner can select from the classes provided. You must play two different classes.</p>
+    </footer>
   </body>
 </html>

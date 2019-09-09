@@ -19,6 +19,7 @@ function load(prop, source) {
 load('enemies', './src/data/hp.json')
 load('weapons', './src/data/weapons.json')
 load('missions', './src/data/missions.json')
+load('dlc', './src/data/dlc.json')
 
 function random() {
   return Math.abs((Math.sin(random.seed++) * 10000) % 1)
@@ -33,6 +34,8 @@ random.seed = Date.now()
 random.setSeed = function(s) {
   random.seed = s
 }
+
+var missions, weapons, enemies, wpnCounts, difficulties
 
 function isAvailable(weapon) {
   return (
@@ -129,24 +132,6 @@ function getVehicle(avatar, weps, challenge, sniper) {
   return random.pick(choices)
 }
 
-const difficulties = {
-  hard: {
-    weaponMin: [0, 25],
-    weaponMax: [10, 40],
-    hp: [200, 500],
-  },
-  hardest: {
-    weaponMin: [25, 40],
-    weaponMax: [40, 70],
-    hp: [500, 2000],
-  },
-  inferno: {
-    weaponMin: [40, 40],
-    weaponMax: [60, 100],
-    hp: [1000, 4000],
-  },
-}
-
 function tween(min, max, pivot) {
   return min + (max - min) * pivot
 }
@@ -157,6 +142,8 @@ const hpModifier = {
   fencer: 1.25,
   bomber: 1,
 }
+
+var missions
 
 function getMission() {
   const difficulty = ['hard', 'hardest', 'inferno'][Math.floor(random() * 3)]
@@ -198,18 +185,13 @@ function getAvatar(challenge) {
     if(veh2) weps.push(veh2)
   }
   weps.push(getWeapon(avatar, weps, challenge, true))
-  const wpnCount = {
-    ranger: 4,
-    winger: 4,
-    bomber: 5,
-    fencer: 5,
-  }[avatar]
+  const wpnCount = wpnCounts[avatar]
   for(var i = 1; i < wpnCount; i++) {
     const wep = getWeapon(avatar, weps, challenge, false)
     if(wep) weps.push(wep)
   }
 
-  weps.sort((a, b) => (a.raw - b.raw) || (b.level - a.level))
+  weps.sort((a, b) => (a.raw - b.raw) || (a.level - b.level))
 
   const player = {
     "class": avatar,
@@ -226,10 +208,20 @@ function generateChallenge(players=1) {
   for(var i = 0; i < players; i++) {
     challenge.players.push(getAvatar(challenge))
   }
+  challenge
+    .players
+    .sort((a, b) => avatars.indexOf(a.class) - avatars.indexOf(b.class))
 
   return challenge
 }
 
+const difficultyPrint = {
+  easy: 'Easy',
+  normal: 'Normal',
+  hard: 'Hard',
+  hardest: 'Hardest',
+  inferno: 'Inferno',
+}
 const avatarPrint = {
   ranger: 'Ranger',
   winger: 'Wing Diver',
@@ -269,10 +261,150 @@ function print(challenge) {
 
 const precision = (1000 * 60 * 60 * 24 * 3)
 
+function challengeToDom(challenge) {
+  const node = document.createElement('section')
+  node.classList.add('challenge')
+  node.classList.add(challenge.type)
+  node.innerHTML = `
+    <header class="title">${challenge.title}</header>
+    <header class="mission">
+      <span class="mission-name">${challenge.mission.name}</span>
+      <span class="num">(${challenge.mission.id})</span>
+      <span class="difficulty">${difficultyPrint[challenge.difficulty]}</span>
+    </header>
+    ${
+      challenge.players.map(player => {
+        return `
+          <div class="player">
+            <header class="player-header">
+            <span class="name ${player.class}">${avatarPrint[player.class]}</span>
+            <span class="hp">${player.hp}AP</span>
+            </header>
+            <ul class="weapons">
+              ${
+                player.weapons.map(weapon => {
+                  return `
+                    <li>
+                      <div class="weapon">
+                        <span class="wpn-name">${weapon.name}</span>
+                        <span class="sub">(${weapon.category} lv${weapon.level})</span>
+                      </div>
+                  `
+                }).join('\n')
+              }
+            </ul>
+          </div>
+        `
+      }).join('\n')
+    }
+  `
+  return node
+}
+
 function run() {
-  data.enemies = data.enemies.reduce((obj, m) => {
+  const dailySeed = Math.floor(Date.now() / precision) * precision
+  enemies = data.enemies.reduce((obj, m) => {
     obj[m.id] = m
     return obj
   }, {})
-  data.missions = data.missions.campaign
+  missions = data.missions.campaign
+  weapons = data.weapons
+  wpnCounts = {
+    ranger: 4,
+    winger: 4,
+    bomber: 5,
+    fencer: 5,
+  }
+  difficulties = {
+    hard: {
+      weaponMin: [0, 25],
+      weaponMax: [10, 40],
+      hp: [200, 500],
+    },
+    hardest: {
+      weaponMin: [25, 40],
+      weaponMax: [40, 70],
+      hp: [500, 2000],
+    },
+    inferno: {
+      weaponMin: [40, 40],
+      weaponMax: [60, 100],
+      hp: [1000, 4000],
+    },
+  }
+
+
+  random.setSeed(dailySeed)
+  const prismatic = generateChallenge()
+  prismatic.title = 'Prismatic Challenge'
+  prismatic.type = 'prismatic'
+
+  random.setSeed(dailySeed + 100)
+  const coop = generateChallenge(3)
+  coop.title = 'Coop Challenge'
+  coop.type = 'coop'
+
+  difficulties = {
+    hard: {
+      weaponMin: [20, 40],
+      weaponMax: [30, 60],
+      hp: [600, 1200],
+    },
+    hardest: {
+      weaponMin: [40, 70],
+      weaponMax: [50, 85],
+      hp: [1500, 3000],
+    },
+    inferno: {
+      weaponMin: [50, 50],
+      weaponMax: [70, 120],
+      hp: [3000, 6000],
+    },
+  }
+  wpnCounts = {
+    ranger: 5,
+    winger: 5,
+    bomber: 6,
+    fencer: 6,
+  }
+
+  random.setSeed(dailySeed + 200)
+  missions = random.pick(Object.values(data.dlc))
+  const dlc = generateChallenge()
+  dlc.title = 'DLC Challenge'
+  dlc.type = 'dlc'
+
+  challenges.appendChild(challengeToDom(prismatic))
+  challenges.appendChild(challengeToDom(coop))
+  challenges.appendChild(challengeToDom(dlc))
+
+  time.textContent = `Challenges for ${new Date(dailySeed).toLocaleString()}`
+
+  const roll = dailySeed + precision
+
+  function refreshCounter() {
+    const seconds = Math.floor((roll - Date.now()) / 1000)
+    const minutes = Math.floor(seconds / 60)
+    const hours = Math.floor(minutes / 60)
+    const days = Math.floor(hours / 24)
+
+    var str = ''
+    str += `${hours}:${twoDigits(minutes % 60)}:${twoDigits(seconds % 60)}`
+    counter.textContent = str
+
+    if(seconds <= 0 && interval) {
+      clearInterval(interval)
+      challenges.innerHTML = ''
+      run()
+    }
+  }
+
+  refreshCounter()
+  var interval = setInterval(refreshCounter, 1000)
+}
+
+function twoDigits(n) {
+  if(n < 10) return `0${n}`
+
+  return `${n}`
 }

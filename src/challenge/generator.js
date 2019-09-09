@@ -341,7 +341,7 @@ function run() {
 
   random.setSeed(dailySeed + 100)
   const coop = generateChallenge(3)
-  coop.title = 'Coop Challenge'
+  coop.title = 'Co-Op Challenge'
   coop.type = 'coop'
 
   difficulties = {

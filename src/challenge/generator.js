@@ -1,10 +1,24 @@
-const weapons = require('./src/data/weapons')
-const missions = require('./src/data/missions').campaign
-const enemies = require('./src/data/hp')
-  .reduce((obj, m) => {
-    obj[m.id] = m
-    return obj
-  }, {})
+const data = {}
+var dataMissing = 0
+
+function load(prop, source) {
+  dataMissing++
+  const xobj = new XMLHttpRequest()
+  xobj.overrideMimeType("application/json")
+  xobj.open('GET', source, true)
+  xobj.onreadystatechange = function () {
+    if(xobj.readyState === 4 && +xobj.status === 200) {
+      data[prop] = JSON.parse(xobj.responseText)
+      dataMissing--
+      if(!dataMissing) run()
+    }
+  }
+  xobj.send(null);  
+}
+
+load('enemies', './src/data/hp.json')
+load('weapons', './src/data/weapons.json')
+load('missions', './src/data/missions.json')
 
 function random() {
   return Math.abs((Math.sin(random.seed++) * 10000) % 1)
@@ -252,11 +266,13 @@ function print(challenge) {
   console.log(message)
 }
 
+
 const precision = (1000 * 60 * 60 * 24 * 3)
 
-for(var i = 0; i < 1; i++) {
-  const seed = (Math.floor(Date.now() / precision) + i) * precision
-  random.setSeed(seed)
-  console.log(new Date(seed))
-  print(generateChallenge(1))
+function run() {
+  data.enemies = data.enemies.reduce((obj, m) => {
+    obj[m.id] = m
+    return obj
+  }, {})
+  data.missions = data.missions.campaign
 }

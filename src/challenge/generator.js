@@ -97,6 +97,8 @@ function getWeapon(avatar, weps, challenge, sniper, vehicle) {
   // Ensure one limpet gun for lone air raider
   if(sniper && avatar === 'bomber' && challenge.playerCount < 2) {
     minRange = Math.max(150, minRange)
+  } else if(avatar === 'bomber') {
+    minRange = 0
   }
   const choices =  weapons
     .filter(isAvailable)

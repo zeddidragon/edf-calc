@@ -38,9 +38,7 @@ random.setSeed = function(s) {
 var missions, weapons, enemies, wpnCounts, difficulties
 
 function isAvailable(weapon) {
-  return (
-    weapon.level < 100
-  )
+  return weapon.odds !== 'dlc'
 }
 
 function isWeapon(weapon) {
@@ -61,9 +59,8 @@ function isRanged(weapon, range) {
 }
 
 function isUnderground(weapon, range) {
-  if(weapon.raw > 35) return /SDL1|Depth/.test(weapon.name)
-  if(['raid', 'missile'].includes(weapon.category)) return false
-  return true
+  if(weapon.category === 'missile') return false
+  return weapon.underground
 }
 
 function isMissileVehicle(weapon) {
@@ -98,8 +95,10 @@ function getWeapon(avatar, weps, challenge, sniper, vehicle) {
   const missileVehicle = weps.find(isMissileVehicle)
   // Wing Diver can fly, can get away with less range on weapons
   if(avatar === 'winger') minRange = Math.max(0, minRange - 150)
-  // Ensure one limpet gun for air raider
-  if(sniper && avatar === 'bomber') minRange = Math.max(150, minRange)
+  // Ensure one limpet gun for lone air raider
+  if(sniper && avatar === 'bomber' && challenge.playerCount < 2) {
+    minRange = Math.max(150, minRange)
+  }
   const choices =  weapons
     .filter(isAvailable)
     .filter(w => w.character === avatar)
@@ -142,7 +141,7 @@ const hpModifier = {
 var missions
 
 function getMission() {
-  const difficulty = ['hard', 'hardest', 'inferno'][Math.floor(random() * 3)]
+  const difficulty = random.pick(['hard', 'hardest', 'inferno'])
   const mission = random.pick(missions)
   const pivot = missions.indexOf(mission) / missions.length
   const diffCfg = difficulties[difficulty]
@@ -200,6 +199,7 @@ function getAvatar(challenge) {
 
 function generateChallenge(players=1) {
   const challenge = getMission()
+  challenge.playerCount = players
   challenge.players = []
   for(var i = 0; i < players; i++) {
     challenge.players.push(getAvatar(challenge))
@@ -309,7 +309,7 @@ function run() {
   wpnCounts = {
     ranger: 3,
     winger: 3,
-    bomber: 3,
+    bomber: 4,
     fencer: 4,
   }
   difficulties = {

@@ -61,12 +61,8 @@ function isRanged(weapon, range) {
 }
 
 function isUnderground(weapon, range) {
-  if(weapon.category === 'raid') return false
-  if(weapon.category === 'missile') return false
-  if(weapon.category === 'tank') return false
-  if(weapon.category === 'heli') return false
-  if(weapon.category === 'ground') return /SDL1/i.test(weapon.name)
-  if(weapon.category === 'mech') return /Depth/i.test(weapon.name)
+  if(weapon.raw > 35) return /SDL1|Depth/.test(weapon.name)
+  if(['raid', 'missile'].includes(weapon.category)) return false
   return true
 }
 
@@ -182,7 +178,7 @@ function getAvatar(challenge) {
     const veh1 = getVehicle(avatar, weps, challenge)
     weps.push(veh1)
     const veh2 = getVehicle(avatar, weps, challenge)
-    if(veh2) weps.push(veh2)
+    if(veh2 && wpnCounts[avatar] > 3) weps.push(veh2)
   }
   weps.push(getWeapon(avatar, weps, challenge, true))
   const wpnCount = wpnCounts[avatar]
@@ -270,6 +266,7 @@ function challengeToDom(challenge) {
     <header class="mission">
       <span class="mission-name">${challenge.mission.name}</span>
       <span class="num">(${challenge.mission.id})</span>
+      ${challenge.mission.online ? '<span class="warning">DANGER</span>' : ''}
       <span class="difficulty">${difficultyPrint[challenge.difficulty]}</span>
     </header>
     ${
@@ -310,10 +307,10 @@ function run() {
   missions = data.missions.campaign
   weapons = data.weapons
   wpnCounts = {
-    ranger: 4,
-    winger: 4,
-    bomber: 5,
-    fencer: 5,
+    ranger: 3,
+    winger: 3,
+    bomber: 3,
+    fencer: 4,
   }
   difficulties = {
     hard: {
@@ -324,12 +321,12 @@ function run() {
     hardest: {
       weaponMin: [25, 40],
       weaponMax: [40, 70],
-      hp: [500, 2000],
+      hp: [300, 1250],
     },
     inferno: {
       weaponMin: [40, 40],
       weaponMax: [60, 100],
-      hp: [1000, 4000],
+      hp: [400, 2500],
     },
   }
 
@@ -338,6 +335,13 @@ function run() {
   const prismatic = generateChallenge()
   prismatic.title = 'Prismatic Challenge'
   prismatic.type = 'prismatic'
+
+  wpnCounts = {
+    ranger: 2,
+    winger: 2,
+    bomber: 2,
+    fencer: 3,
+  }
 
   random.setSeed(dailySeed + 100)
   const coop = generateChallenge(3)
@@ -362,10 +366,10 @@ function run() {
     },
   }
   wpnCounts = {
-    ranger: 5,
-    winger: 5,
-    bomber: 6,
-    fencer: 6,
+    ranger: 4,
+    winger: 4,
+    bomber: 4,
+    fencer: 4,
   }
 
   random.setSeed(dailySeed + 200)
@@ -378,7 +382,7 @@ function run() {
   challenges.appendChild(challengeToDom(coop))
   challenges.appendChild(challengeToDom(dlc))
 
-  time.textContent = `Challenges for ${new Date(dailySeed).toLocaleString()}`
+  time.textContent = `Challenges for ${new Date(dailySeed).toLocaleDateString()}`
 
   const roll = dailySeed + precision
 

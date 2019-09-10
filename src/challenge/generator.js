@@ -53,7 +53,7 @@ function isRanged(weapon, range) {
   if(weapon.category === 'hammer') return false
   if(weapon.damage <= 0) return false
   if(weapon.raw >= 30) return weapon.category === 'limpet'
-  if(weapon.accuracy < 76) return false
+  if(weapon.accuracy < 0.76) return false
   if(/dispersal/i.test(weapon.name)) return false
   return weapon.range >= range
 }
@@ -88,7 +88,6 @@ const avatars = [
   'fencer',
   'bomber',
 ]
-
 function getWeapon(avatar, weps, challenge, sniper, vehicle) {
   const { levelRange, sniperRequired, mission } = challenge
   var minRange = (sniper && sniperRequired) || 0
@@ -177,7 +176,7 @@ function getAvatar(challenge) {
     const veh1 = getVehicle(avatar, weps, challenge)
     weps.push(veh1)
     const veh2 = getVehicle(avatar, weps, challenge)
-    if(veh2 && wpnCounts[avatar] > 3) weps.push(veh2)
+    if(veh2 && wpnCounts[avatar] > 4) weps.push(veh2)
   }
   weps.push(getWeapon(avatar, weps, challenge, true))
   const wpnCount = wpnCounts[avatar]
@@ -368,7 +367,7 @@ function run() {
   wpnCounts = {
     ranger: 4,
     winger: 4,
-    bomber: 4,
+    bomber: 5,
     fencer: 4,
   }
 

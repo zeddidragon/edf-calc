@@ -10,6 +10,9 @@
         background-color: #141414;
         font-family: "Helvetica Neue", Meiryo, sans-serif
       }
+      body {
+        max-width: 62em;
+      }
       ul {
         list-style: none;
         padding: 0.1em;
@@ -95,11 +98,17 @@
         grid-row: 1 / span 2;
       }
 
+      @media only screen and (min-width: 1024px) {
+        body {
+          padding-left: 2em;
+        }
+      }
+
       @media only screen and (min-width: 700px) {
         #challenges {
           display: grid;
           grid-template-columns: 1fr 1fr;
-          grid-template-rows: 1fr 1fr;
+          grid-template-rows: auto auto;
         )
       }
     </style>

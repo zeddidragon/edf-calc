@@ -88,7 +88,7 @@ const avatars = [
   'fencer',
   'bomber',
 ]
-function getWeapon(avatar, weps, challenge, sniper, vehicle) {
+function getWeapon(avatar, weps, challenge, sniper) {
   const { levelRange, sniperRequired, mission } = challenge
   var minRange = (sniper && sniperRequired) || 0
   const missileVehicle = weps.find(isMissileVehicle)
@@ -151,7 +151,8 @@ function getMission() {
   const levelRange = [minWpn, maxWpn]
   const sniperRequired = mission.enemies.reduce((range, enemy) => {
     if(Array.isArray(enemy)) enemy = enemy[0]
-    return Math.max(0, enemies[enemy].sniper || 0)
+    const enemyRange = enemies[enemy].sniper || 0
+    return Math.max(enemyRange, range)
   }, 0)
 
   const challenge = {

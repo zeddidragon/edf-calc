@@ -357,7 +357,7 @@ function run() {
     hardest: {
       weaponMin: [40, 70],
       weaponMax: [50, 85],
-      hp: [1500, 3000],
+      hp: [1000, 2000],
     },
     inferno: {
       weaponMin: [50, 50],

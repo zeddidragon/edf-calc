@@ -114,7 +114,8 @@
           7.5
         ]
       ],
-      "id": "d1m10"
+      "id": "d1m10",
+      "underground": true
     },
     {
       "name": "Beast Mountain",
@@ -245,7 +246,8 @@
         "spds",
         "antgl"
       ],
-      "id": "d1m21"
+      "id": "d1m21",
+      "underground": true
     },
     {
       "name": "True Sovereign",

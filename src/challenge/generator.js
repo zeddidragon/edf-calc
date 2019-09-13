@@ -16,10 +16,10 @@ function load(prop, source) {
   xobj.send(null);  
 }
 
-load('enemies', './src/data/hp.json')
-load('weapons', './src/data/weapons.json')
-load('missions', './src/data/missions.json')
-load('dlc', './src/data/dlc.json')
+load('enemies', './src/data/41/hp.json')
+load('weapons', './src/data/41/weapons.json')
+load('missions', './src/data/41/missions.json')
+load('dlc', './src/data/41/dlc.json')
 
 function random() {
   return Math.abs((Math.sin(random.seed++) * 10000) % 1)

@@ -100,11 +100,16 @@ function getWeapon(avatar, weps, challenge, sniper) {
   } else if(avatar === 'bomber') {
     minRange = 0
   }
+
+  const minLevel = levelRange[0]
+  var maxLevel = levelRange[1]
+  if(challenge.mission.online) maxLevel += 10
+  if(challenge.mission.online && challenge.playerCount === 1) maxLevel += 15
   const choices =  weapons
     .filter(isAvailable)
     .filter(w => w.character === avatar)
     .filter(isWeapon)
-    .filter(w => w.level >= levelRange[0] && w.level <= levelRange[1])
+    .filter(w => w.level >= minLevel && w.level <= maxLevel)
     .filter(w => !minRange || isRanged(w, minRange))
     .filter(w => !mission.underground || isUnderground(w))
     .filter(w => missileVehicle || w.category !== 'guide')
@@ -141,9 +146,9 @@ const hpModifier = {
 
 var missions
 
-function getMission() {
+function getMission(players) {
   const difficulty = random.pick(['hard', 'hardest', 'inferno'])
-  const mission = random.pick(missions)
+  const mission = random.pick(missions.filter(m => players > 1 || !m.online))
   const pivot = missions.indexOf(mission) / missions.length
   const diffCfg = difficulties[difficulty]
   const minWpn = tween(...diffCfg.weaponMin, pivot)
@@ -165,6 +170,7 @@ function getMission() {
   }
 
   if(mission.online) challenge.hp *= 2
+  if(mission.online && players === 1) challenge.hp *= 2
   
   return challenge
 }
@@ -173,17 +179,24 @@ function getAvatar(challenge) {
   const avatar = random.pick(avatars.filter(a => {
     return !challenge.players.find(p => p["class"] === a)
   }))
+  const { mission, hp } = challenge
+  const online = !!mission.online
+
+  const weaponCount = wpnCounts[avatar] + +online
+  const vehicleCount
+    = avatar !== 'bomber' ? 0
+    : online ? 3
+    : weaponCount > 3 ? 2
+    : 1
 
   const weps = []
-  if(avatar === 'bomber') {
-    const veh1 = getVehicle(avatar, weps, challenge)
-    weps.push(veh1)
-    const veh2 = getVehicle(avatar, weps, challenge)
-    if(veh2 && wpnCounts[avatar] > 4) weps.push(veh2)
+  for(var i = 0; i < vehicleCount; i++) {
+    const veh = getVehicle(avatar, weps, challenge)
+    if(veh) weps.push(veh)
   }
+
   weps.push(getWeapon(avatar, weps, challenge, true))
-  const wpnCount = wpnCounts[avatar]
-  for(var i = 1; i < wpnCount; i++) {
+  for(var i = 1; i < weaponCount; i++) {
     const wep = getWeapon(avatar, weps, challenge, false)
     if(wep) weps.push(wep)
   }
@@ -193,14 +206,14 @@ function getAvatar(challenge) {
   const player = {
     "class": avatar,
     weapons: weps,
-    hp: Math.max(Math.round(challenge.hp * hpModifier[avatar] / 50) * 50, 150)
+    hp: Math.max(Math.round(hp * hpModifier[avatar] / 50) * 50, 150)
   }
 
   return player
 }
 
 function generateChallenge(players=1) {
-  const challenge = getMission()
+  const challenge = getMission(players)
   challenge.playerCount = players
   challenge.players = []
   for(var i = 0; i < players; i++) {

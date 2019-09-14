@@ -193,7 +193,7 @@ function getAvatar(challenge) {
   const player = {
     "class": avatar,
     weapons: weps,
-    hp: Math.max(Math.floor(challenge.hp * hpModifier[avatar] / 50) * 50, 150)
+    hp: Math.max(Math.round(challenge.hp * hpModifier[avatar] / 50) * 50, 150)
   }
 
   return player
@@ -318,17 +318,17 @@ function run() {
     hard: {
       weaponMin: [0, 25],
       weaponMax: [10, 40],
-      hp: [200, 500],
+      hp: [200, 1000],
     },
     hardest: {
       weaponMin: [25, 40],
       weaponMax: [40, 70],
-      hp: [300, 1250],
+      hp: [400, 2000],
     },
     inferno: {
       weaponMin: [40, 40],
       weaponMax: [60, 100],
-      hp: [400, 2500],
+      hp: [800, 4000],
     },
   }
 
@@ -354,12 +354,12 @@ function run() {
     hard: {
       weaponMin: [20, 40],
       weaponMax: [30, 60],
-      hp: [600, 1200],
+      hp: [750, 1500],
     },
     hardest: {
       weaponMin: [40, 70],
       weaponMax: [50, 85],
-      hp: [1000, 2000],
+      hp: [1500, 3000],
     },
     inferno: {
       weaponMin: [50, 50],

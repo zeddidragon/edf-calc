@@ -1,0 +1,1163 @@
+{
+  "campaign": [
+    {
+      "id": "m1",
+      "name": "Today's Schedule",
+      "enemies": [
+        "black_ant"
+      ],
+      "offline": false
+    },
+    {
+      "id": "m2",
+      "name": "Escape from Darkness",
+      "enemies": [
+        "black_ant"
+      ]
+    },
+    {
+      "id": "m3",
+      "name": "Crisis in Base 228: Part 1",
+      "enemies": [
+        "black_ant"
+      ]
+    },
+    {
+      "id": "m4",
+      "name": "Crisis in Base 228: Part 2",
+      "enemies": [
+        "black_ant",
+        "teleportation_anchor"
+      ]
+    },
+    {
+      "id": "m5",
+      "name": "Shattered Peace",
+      "enemies": [
+        "black_ant",
+        "teleportation_anchor"
+      ]
+    },
+    {
+      "id": "m6",
+      "name": "Unidentified Flying Objects",
+      "enemies": [
+        "battle_drone"
+      ]
+    },
+    {
+      "id": "m7",
+      "name": "The Quiet Threat",
+      "enemies": [
+        "battle_drone",
+        "blue_drone"
+      ]
+    },
+    {
+      "id": "m8",
+      "name": "Monsters Attack!",
+      "enemies": [
+        "spider"
+      ]
+    },
+    {
+      "id": "m9",
+      "name": "Wedge of Destruction",
+      "enemies": [
+        "spider",
+        "teleportation_anchor"
+      ]
+    },
+    {
+      "id": "m10",
+      "name": "Escape",
+      "enemies": [
+        "red_ant"
+      ]
+    },
+    {
+      "id": "m11",
+      "name": "Burning Sky",
+      "enemies": [
+        "black_ant",
+        "golden_ant"
+      ]
+    },
+    {
+      "id": "m12",
+      "name": "Spreading Disaster",
+      "enemies": [
+        "spider"
+      ]
+    },
+    {
+      "id": "m13",
+      "name": "Turning Point",
+      "enemies": [
+        "black_ant",
+        "teleportation_ship"
+      ]
+    },
+    {
+      "id": "m14",
+      "name": "Extermination",
+      "enemies": [
+        "black_ant",
+        "red_ant",
+        "spider"
+      ]
+    },
+    {
+      "id": "m15",
+      "name": "Destroy the Giant Ship",
+      "enemies": [
+        "battle_drone",
+        "black_ant",
+        "colonist"
+      ]
+    },
+    {
+      "id": "m16",
+      "name": "Isoloation",
+      "enemies": [
+        "colonist"
+      ]
+    },
+    {
+      "id": "m17",
+      "name": "Mastermind Revealed",
+      "enemies": [
+        "black_ant",
+        "colonist",
+        "golden_ant",
+        "red_ant",
+        "spider"
+      ]
+    },
+    {
+      "id": "m18",
+      "name": "Secret of the Cave",
+      "enemies": [
+        "black_ant",
+        "colonist",
+        "golden_ant",
+        "red_ant",
+        "spider"
+      ]
+    },
+    {
+      "id": "m19",
+      "name": "Eradication Plan",
+      "enemies": [
+        "black_ant",
+        "erginus"
+      ]
+    },
+    {
+      "id": "m20",
+      "name": "Encounters on Return",
+      "enemies": [
+        "purple_ant",
+        "red_ant"
+      ]
+    },
+    {
+      "id": "m21",
+      "name": "Surprise Attack at Night",
+      "enemies": [
+        "colonist",
+        "red_ant",
+        "red_colonist",
+        "spider"
+      ]
+    },
+    {
+      "id": "m22",
+      "name": "Scouting the Outpost",
+      "enemies": [
+        "battle_drone",
+        "black_ant"
+      ]
+    },
+    {
+      "id": "m23",
+      "name": "Mountain of Wedges",
+      "enemies": [
+        "colonist",
+        "red_ant",
+        "spider",
+        "teleportation_anchor"
+      ]
+    },
+    {
+      "id": "m24",
+      "name": "The Landing Ships",
+      "enemies": [
+        "colonist",
+        "red_colonist"
+      ]
+    },
+    {
+      "id": "m25",
+      "name": "Reinvasion",
+      "enemies": [
+        "battle_drone",
+        "black_ant",
+        "red_ant",
+        "spider"
+      ]
+    },
+    {
+      "id": "m26",
+      "name": "Artillery Unit",
+      "enemies": [
+        "colonist"
+      ]
+    },
+    {
+      "id": "m27",
+      "name": "Sniper Team",
+      "enemies": [
+        "colonist",
+        "red_colonist",
+        "spider"
+      ]
+    },
+    {
+      "id": "m28",
+      "name": "Red Drones",
+      "enemies": [
+        "red_drone"
+      ]
+    },
+    {
+      "id": "m29",
+      "name": "Iron Wall",
+      "enemies": [
+        "colonist",
+        "red_colonist"
+      ]
+    },
+    {
+      "id": "m30",
+      "name": "Destroy the Outpost: Plan A",
+      "enemies": [
+        "battle_drone",
+        "black_ant",
+        "colonist",
+        "red_colonist",
+        "spider",
+        "teleportation_ship"
+      ]
+    },
+    {
+      "id": "m31",
+      "name": "Destroy the Outpost: Plan B",
+      "enemies": [
+        "battle_drone",
+        "black_ant",
+        "colonist"
+      ]
+    },
+    {
+      "id": "m32",
+      "name": "Cave Invasion Stage 1",
+      "enemies": [
+        "black_ant",
+        "colonist",
+        "golden_ant",
+        "purple_ant",
+        "red_ant",
+        "red_colonist",
+        "spider"
+      ]
+    },
+    {
+      "id": "m33",
+      "name": "Cave Invasion Stage 2",
+      "enemies": [
+        "black_ant",
+        "golden_ant",
+        "silver_spider",
+        "spider"
+      ]
+    },
+    {
+      "id": "m34",
+      "name": "Cave Invasion Final Stage",
+      "enemies": [
+        "black_ant",
+        "colonist",
+        "golden_ant",
+        "golden_mother_ant",
+        "green_ant",
+        "mother_ant",
+        "red_ant"
+      ]
+    },
+    {
+      "id": "m35",
+      "name": "Berth",
+      "enemies": [
+        "battle_drone",
+        "black_ant",
+        "colonist",
+        "golden_ant",
+        "red_ant",
+        "red_colonist",
+        "teleportation_ship"
+      ]
+    },
+    {
+      "id": "m36",
+      "name": "Flying Killers",
+      "enemies": [
+        "bee",
+        "queen",
+        "red_bee"
+      ]
+    },
+    {
+      "id": "m37",
+      "name": "Monster Elimination Plan",
+      "enemies": [
+        "archelus",
+        "erginus"
+      ]
+    },
+    {
+      "id": "m38",
+      "name": "Plain of Conflict",
+      "enemies": [
+        "battle_drone",
+        "black_ant",
+        "colonist",
+        "mother_ant",
+        "red_colonist",
+        "spider"
+      ]
+    },
+    {
+      "id": "m39",
+      "name": "Current Headquarters",
+      "enemies": [
+        "battle_drone",
+        "bee",
+        "colonist",
+        "purple_ant",
+        "red_ant",
+        "red_colonist",
+        "silver_spider",
+        "spider",
+        "teleportation_ship"
+      ]
+    },
+    {
+      "id": "m40",
+      "name": "Brutal Battlefield",
+      "enemies": [
+        "battle_drone",
+        "black_ant",
+        "colonist",
+        "mother_ant",
+        "red_ant",
+        "red_drone",
+        "spider",
+        "teleportation_ship"
+      ]
+    },
+    {
+      "id": "m41",
+      "name": "Assaulting the Outpost",
+      "enemies": [
+        "battle_drone",
+        "black_ant",
+        "colonist",
+        "kichi",
+        "red_colonist"
+      ]
+    },
+    {
+      "id": "m42",
+      "name": "Saving Europe: Operation 1",
+      "enemies": [
+        "spider"
+      ]
+    },
+    {
+      "id": "m43",
+      "name": "Saving Europe: Operation 2",
+      "enemies": [
+        "battle_drone",
+        "big_anchor",
+        "black_ant",
+        "red_ant",
+        "spider",
+        "teleportation_anchor"
+      ]
+    },
+    {
+      "id": "m44",
+      "name": "Culling the Flying-type",
+      "enemies": [
+        "bee",
+        "queen",
+        "red_bee"
+      ]
+    },
+    {
+      "id": "m45",
+      "name": "Circle Formation",
+      "enemies": [
+        "black_ant",
+        "colonist",
+        "red_ant",
+        "red_colonist",
+        "spider",
+        "teleportation_ship"
+      ]
+    },
+    {
+      "id": "m46",
+      "name": "Giant Ship Attack: 2nd Attempt",
+      "enemies": [
+        "black_ant",
+        "colonist",
+        "cosmonaut",
+        "red_ant"
+      ]
+    },
+    {
+      "id": "m47",
+      "name": "Survivors",
+      "enemies": [
+        "cosmonaut"
+      ]
+    },
+    {
+      "id": "m48",
+      "name": "The Flying Saucers",
+      "enemies": [
+        "battle_drone",
+        "type2_drone"
+      ]
+    },
+    {
+      "id": "m49",
+      "name": "Airborne Fighters:Part 1",
+      "enemies": [
+        "deroy"
+      ]
+    },
+    {
+      "id": "m50",
+      "name": "Airborne Fighters:Part 2",
+      "enemies": [
+        "deroy",
+        "deroyL"
+      ]
+    },
+    {
+      "id": "m51",
+      "name": "Attacking the Fleet",
+      "enemies": [
+        "archelus",
+        "bee",
+        "black_ant",
+        "red_ant",
+        "teleportation_ship"
+      ]
+    },
+    {
+      "id": "m52",
+      "name": "Underground Trap",
+      "enemies": [
+        "black_ant",
+        "golden_ant",
+        "silver_spider",
+        "spider"
+      ]
+    },
+    {
+      "id": "m53",
+      "name": "The Army Group Raid",
+      "enemies": [
+        "colonist",
+        "cosmonaut"
+      ]
+    },
+    {
+      "id": "m54",
+      "name": "Wire-puller",
+      "enemies": [
+        "black_ant",
+        "cosmonaut",
+        "golden_ant",
+        "golden_mother_ant",
+        "mother_ant"
+      ]
+    },
+    {
+      "id": "m55",
+      "name": "Hiding Behind the Web",
+      "enemies": [
+        "aranea",
+        "spider",
+        "teleportation_ship"
+      ]
+    },
+    {
+      "id": "m56",
+      "name": "Predators on Thread",
+      "enemies": [
+        "aranea",
+        "black_ant",
+        "red_ant"
+      ]
+    },
+    {
+      "id": "m57",
+      "name": "Scuffle in the City",
+      "enemies": [
+        "cosmonaut"
+      ]
+    },
+    {
+      "id": "m58",
+      "name": "Hidding Threat",
+      "enemies": [
+        "aranea",
+        "deroy",
+        "spider"
+      ]
+    },
+    {
+      "id": "m59",
+      "name": "Break the Barrier",
+      "enemies": [
+        "black_ant",
+        "colonist",
+        "cosmonaut",
+        "red_ant",
+        "shield_bearer"
+      ]
+    },
+    {
+      "id": "m60",
+      "name": "Mountain Investigation",
+      "enemies": [
+        "bee",
+        "queen",
+        "red_bee"
+      ]
+    },
+    {
+      "id": "m61",
+      "name": "Destroying Large Flying Saucers",
+      "enemies": [
+        "archelus",
+        "bee",
+        "black_ant",
+        "red_ant",
+        "spider",
+        "teleportation_ship"
+      ]
+    },
+    {
+      "id": "m62",
+      "name": "Sweeping Monster Balls",
+      "enemies": [
+        "gamma"
+      ]
+    },
+    {
+      "id": "m63",
+      "name": "Recapturing the Industrial Area",
+      "enemies": [
+        "colonist",
+        "cosmonaut",
+        "deroy",
+        "shield_bearer"
+      ]
+    },
+    {
+      "id": "m64",
+      "name": "Winged Legion",
+      "enemies": [
+        "colonist",
+        "tadpole"
+      ]
+    },
+    {
+      "id": "m65",
+      "name": "Landing Giant Ship",
+      "enemies": [
+        "black_ant",
+        "cosmonaut",
+        "gamma",
+        "red_ant",
+        "shield_bearer",
+        "type2_drone"
+      ]
+    },
+    {
+      "id": "m66",
+      "name": "Falling Monster Balls",
+      "enemies": [
+        "gamma",
+        "teleportation_ship"
+      ]
+    },
+    {
+      "id": "m67",
+      "name": "Extraterrestrial Riders",
+      "enemies": [
+        "cosmonaut",
+        "cosmonautG"
+      ]
+    },
+    {
+      "id": "m68",
+      "name": "Crashing Giant Pylons",
+      "enemies": [
+        "bee",
+        "big_anchor",
+        "gamma",
+        "golden_ant",
+        "red_ant",
+        "red_bee",
+        "silver_spider",
+        "spider",
+        "tadpole"
+      ]
+    },
+    {
+      "id": "m69",
+      "name": "Enormous Mutants",
+      "enemies": [
+        "cosmonaut",
+        "king",
+        "silver_king",
+        "silver_spider",
+        "spider"
+      ]
+    },
+    {
+      "id": "m70",
+      "name": "Aircrafts",
+      "enemies": [
+        "imperial_drone"
+      ]
+    },
+    {
+      "id": "m71",
+      "name": "Anchors Destruction Plan",
+      "enemies": [
+        "archelus",
+        "big_anchor",
+        "black_ant",
+        "colonist",
+        "red_colonist",
+        "tadpole",
+        "teleportation_anchor"
+      ]
+    },
+    {
+      "id": "m72",
+      "name": "Battle in the Fog",
+      "enemies": [
+        "colonist",
+        "cosmonaut",
+        "cosmonautG",
+        "red_colonist"
+      ]
+    },
+    {
+      "id": "m73",
+      "name": "Light Defensees",
+      "enemies": [
+        "bee",
+        "black_ant",
+        "golden_ant",
+        "red_ant",
+        "shield_bearer",
+        "silver_spider",
+        "spider",
+        "teleportation_anchor"
+      ]
+    },
+    {
+      "id": "m74",
+      "name": "Flying Unit",
+      "enemies": [
+        "battle_drone",
+        "bee",
+        "death_queen",
+        "imperial_drone",
+        "red_bee",
+        "red_drone",
+        "tadpole",
+        "tadpoleL",
+        "tadpoleS",
+        "type2_drone"
+      ]
+    },
+    {
+      "id": "m75",
+      "name": "Fighters Ambush",
+      "enemies": [
+        "deroy",
+        "deroyL",
+        "deroyS",
+        "spider"
+      ]
+    },
+    {
+      "id": "m76",
+      "name": "Sieged City",
+      "enemies": [
+        "aranea",
+        "gamma",
+        "red_ant",
+        "spider"
+      ]
+    },
+    {
+      "id": "m77",
+      "name": "Doomed Queens",
+      "enemies": [
+        "bee",
+        "colonist",
+        "cosmonaut",
+        "queen",
+        "red_bee"
+      ]
+    },
+    {
+      "id": "m78",
+      "name": "Monster Extermination",
+      "enemies": [
+        "archelus",
+        "bee",
+        "black_ant",
+        "gamma",
+        "red_ant"
+      ]
+    },
+    {
+      "id": "m79",
+      "name": "Reclaiming Base 228: Stage 1",
+      "enemies": [
+        "black_ant",
+        "colonist",
+        "cosmonaut",
+        "cosmonautG",
+        "red_ant",
+        "spider",
+        "tadpole"
+      ]
+    },
+    {
+      "id": "m80",
+      "name": "Reclaiming Base 228: Stage 2",
+      "enemies": [
+        "black_ant",
+        "colonist",
+        "cosmonaut",
+        "cosmonautG",
+        "gamma",
+        "golden_ant",
+        "silver_spider",
+        "spider",
+        "tadpole",
+        "teleportation_anchor"
+      ]
+    },
+    {
+      "id": "m81",
+      "name": "Reclaiming Base 228: Stage 3",
+      "enemies": [
+        "black_ant",
+        "colonist",
+        "cosmonaut",
+        "gamma",
+        "red_ant",
+        "red_colonist",
+        "spider"
+      ]
+    },
+    {
+      "id": "m82",
+      "name": "Reclaiming Base 228: Retreat",
+      "enemies": [
+        "black_ant",
+        "colonist",
+        "cosmonaut"
+      ]
+    },
+    {
+      "id": "m83",
+      "name": "Defeat Archelus",
+      "enemies": [
+        "archelus",
+        "black_ant"
+      ]
+    },
+    {
+      "id": "m84",
+      "name": "City of Giant Pylons",
+      "enemies": [
+        "battle_drone",
+        "bee",
+        "big_anchor",
+        "black_ant",
+        "gamma",
+        "red_ant",
+        "spider"
+      ]
+    },
+    {
+      "id": "m85",
+      "name": "Incoming Larvae",
+      "enemies": [
+        "tadpole",
+        "tadpoleL",
+        "tadpoleS"
+      ]
+    },
+    {
+      "id": "m86",
+      "name": "Secret in the Dark",
+      "enemies": [
+        "bee",
+        "black_ant",
+        "red_ant",
+        "teleportation_device"
+      ]
+    },
+    {
+      "id": "m87",
+      "name": "Approating Monster Balls",
+      "enemies": [
+        "gamma"
+      ]
+    },
+    {
+      "id": "m88",
+      "name": "Threads Everywhere",
+      "enemies": [
+        "aranea",
+        "black_ant",
+        "red_ant",
+        "spider",
+        "teleportation_anchor"
+      ]
+    },
+    {
+      "id": "m89",
+      "name": "Flying-type Extermination",
+      "enemies": [
+        "battle_drone",
+        "bee",
+        "big_anchor",
+        "black_ant",
+        "hive",
+        "queen",
+        "red_bee",
+        "spider"
+      ]
+    },
+    {
+      "id": "m90",
+      "name": "Broken Land",
+      "enemies": [
+        "deroy",
+        "gamma",
+        "red_ant",
+        "spider",
+        "tadpole"
+      ]
+    },
+    {
+      "id": "m91",
+      "name": "Sparkling Abyss",
+      "enemies": [
+        "black_ant",
+        "cosmonaut",
+        "gamma",
+        "teleportation_device"
+      ]
+    },
+    {
+      "id": "m92",
+      "name": "Attack of the Flying Fleet",
+      "enemies": [
+        "battle_drone",
+        "bee",
+        "tadpole",
+        "type2_drone"
+      ]
+    },
+    {
+      "id": "m93",
+      "name": "Mountain Traps",
+      "enemies": [
+        "aranea",
+        "black_ant",
+        "red_ant",
+        "spider",
+        "teleportation_anchor"
+      ]
+    },
+    {
+      "id": "m94",
+      "name": "Bloody Battle",
+      "enemies": [
+        "big_anchor",
+        "black_ant",
+        "colonist",
+        "cosmonaut",
+        "cosmonautG",
+        "spider",
+        "tadpole"
+      ]
+    },
+    {
+      "id": "m95",
+      "name": "Drop Location",
+      "enemies": [
+        "bee",
+        "big_anchor",
+        "black_ant",
+        "deroy",
+        "gamma",
+        "red_ant",
+        "spider"
+      ]
+    },
+    {
+      "id": "m96",
+      "name": "Land of Monsters",
+      "enemies": [
+        "black_ant",
+        "cosmonaut",
+        "cosmonautG",
+        "golden_ant",
+        "golden_mother_ant",
+        "mother_ant",
+        "red_ant"
+      ]
+    },
+    {
+      "id": "m97",
+      "name": "Steel Covered by Threads",
+      "enemies": [
+        "aranea",
+        "king",
+        "spider",
+        "teleportation_anchor"
+      ]
+    },
+    {
+      "id": "m98",
+      "name": "Coastal Defense Line",
+      "enemies": [
+        "battle_drone",
+        "colonist",
+        "cosmonaut",
+        "cosmonautG",
+        "imperial_drone",
+        "red_colonist",
+        "tadpole",
+        "teleportation_ship",
+        "type2_drone"
+      ]
+    },
+    {
+      "id": "m99",
+      "name": "Intense Battle Underground",
+      "enemies": [
+        "black_ant",
+        "gamma",
+        "king",
+        "spider",
+        "teleportation_anchor"
+      ]
+    },
+    {
+      "id": "m100",
+      "name": "Greatest Final Confrontation",
+      "enemies": [
+        "archelus",
+        "bee",
+        "black_ant",
+        "colonist",
+        "cosmonaut",
+        "cosmonautG",
+        "erginus",
+        "red_ant",
+        "shield_bearer",
+        "spider",
+        "tadpole"
+      ]
+    },
+    {
+      "id": "m101",
+      "name": "Crumbling City",
+      "enemies": [
+        "green_ant"
+      ]
+    },
+    {
+      "id": "m102",
+      "name": "Forced Entry",
+      "enemies": [
+        "bee",
+        "black_ant",
+        "cosmonaut",
+        "cosmonautG",
+        "green_ant",
+        "red_ant",
+        "shield_bearer",
+        "spider",
+        "teleportation_anchor"
+      ]
+    },
+    {
+      "id": "m103",
+      "name": "Tornado",
+      "enemies": [
+        "black_ant",
+        "colonist",
+        "gamma",
+        "red_ant",
+        "red_colonist",
+        "spider",
+        "tadpole"
+      ]
+    },
+    {
+      "id": "m104",
+      "name": "Against All Odds",
+      "enemies": [
+        "bee",
+        "black_ant",
+        "cosmonaut",
+        "cosmonautG",
+        "gamma",
+        "teleportation_ship"
+      ]
+    },
+    {
+      "id": "m105",
+      "name": "Monster Banquet",
+      "enemies": [
+        "bee",
+        "black_ant",
+        "colonist",
+        "erginus",
+        "green_ant",
+        "king",
+        "mother_ant",
+        "queen",
+        "spider",
+        "tadpole",
+        "tadpoleL"
+      ]
+    },
+    {
+      "id": "m106",
+      "name": "Suicide Squad",
+      "enemies": [
+        "bee",
+        "gamma",
+        "spider",
+        "tadpole"
+      ]
+    },
+    {
+      "id": "m107",
+      "name": "Invader Assembly",
+      "enemies": [
+        "battle_drone",
+        "bee",
+        "black_ant",
+        "colonist",
+        "cosmonaut",
+        "cosmonautG",
+        "gamma",
+        "red_colonist",
+        "shield_bearer",
+        "teleportation_ship",
+        "type2_drone"
+      ]
+    },
+    {
+      "id": "m108",
+      "name": "Scortched Earth",
+      "enemies": [
+        "bee",
+        "big_anchor",
+        "black_ant",
+        "cosmonaut",
+        "cosmonautG",
+        "deroy",
+        "gamma",
+        "imperial_drone",
+        "king",
+        "mother_ant",
+        "queen",
+        "red_ant",
+        "red_bee",
+        "spider",
+        "tadpole",
+        "tadpoleL",
+        "type2_drone"
+      ]
+    },
+    {
+      "id": "m109",
+      "name": "",
+      "enemies": [
+        "battle_drone",
+        "bee",
+        "black_ant",
+        "cosmonaut",
+        "cosmonautG",
+        "death_queen",
+        "gamma",
+        "golden_ant",
+        "golden_mother_ant",
+        "huge_anchor",
+        "king",
+        "mother_ant",
+        "queen",
+        "red_bee",
+        "silver_king",
+        "silver_spider",
+        "spider",
+        "teleportation_anchor",
+        "type2_drone"
+      ]
+    },
+    {
+      "id": "m110",
+      "name": "",
+      "enemies": []
+    },
+    {
+      "id": "m111",
+      "name": "No. 11",
+      "enemies": [
+        "mother_ship"
+      ]
+    },
+    {
+      "id": "m112",
+      "name": "The Nameless",
+      "enemies": [
+        "cosmonaut"
+      ]
+    }
+  ]
+}

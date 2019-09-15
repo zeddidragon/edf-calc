@@ -1,0 +1,176 @@
+[
+  {
+    "id": "black_ant",
+    "name": "Alpha",
+    "hp": 60
+  },
+  {
+    "id": "red_ant",
+    "name": "Red α",
+    "hp": 180
+  },
+  {
+    "id": "purple_ant",
+    "name": "Purple α",
+    "hp": 270
+  },
+  {
+    "id": "golden_ant",
+    "name": "Gold α",
+    "hp": 150
+  },
+  {
+    "id": "green_ant",
+    "name": "Green α",
+    "hp": 15
+  },
+  {
+    "id": "spider",
+    "name": "Beta",
+    "hp": 55
+  },
+  {
+    "id": "silver_spider",
+    "name": "Silver β",
+    "hp": 675,
+    "credit": 1700
+  },
+  {
+    "id": "gamma",
+    "name": "Gamma",
+    "hp": 90
+  },
+  {
+    "id": "bee",
+    "name": "Flying",
+    "hp": 45
+  },
+  {
+    "id": "red_bee",
+    "name": "Red Flying",
+    "hp": 135,
+    "credit": 90
+  },
+  {
+    "id": "tadpole",
+    "name": "Tadpole",
+    "hp": 50
+  },
+  {
+    "id": "tadpoleS",
+    "name": "Small Tadpol",
+    "hp": 20
+  },
+  {
+    "id": "tadpoleL",
+    "name": "Large Tadpole",
+    "hp": 1200,
+    "credit": 1950
+  },
+  {
+    "id": "mother_ant",
+    "name": "Mother",
+    "hp": 4000,
+    "credit": 2000
+  },
+  {
+    "id": "golden_mother_ant",
+    "name": "Gold Mother",
+    "hp": 9800,
+    "credit": 1800
+  },
+  {
+    "id": "king",
+    "name": "King",
+    "hp": 3000,
+    "credit": 1850
+  },
+  {
+    "id": "queen",
+    "name": "Queen",
+    "hp": 3000,
+    "credit": 1850
+  },
+  {
+    "id": "hive",
+    "name": "Hive",
+    "hp": 47600
+  },
+  {
+    "id": "aranea",
+    "name": "Aranea",
+    "hp": 600
+  },
+  {
+    "id": "teleportation_anchor",
+    "name": "Anchor",
+    "hp": 1250
+  },
+  {
+    "id": "big_anchor",
+    "name": "Big Anchor",
+    "hp": 2500,
+    "credit": 1750
+  },
+  {
+    "id": "huge_anchor",
+    "name": "Huge Anchor",
+    "hp": 14000
+  },
+  {
+    "id": "teleportation_ship",
+    "name": "Teleportation Ship",
+    "hp": 1000
+  },
+  {
+    "id": "teleportation_device",
+    "name": "Teleportation Device",
+    "hp": 1500
+  },
+  {
+    "id": "battle_drone",
+    "name": "Drone",
+    "hp": 75
+  },
+  {
+    "id": "blue_drone",
+    "name": "Blue Drone",
+    "hp": 112.5,
+    "credit": 75
+  },
+  {
+    "id": "red_drone",
+    "name": "Red Drone",
+    "hp": 1000
+  },
+  {
+    "id": "type2_drone",
+    "name": "Type-2 Drone",
+    "hp": 120
+  },
+  {
+    "id": "deroy",
+    "name": "Deroy",
+    "hp": 1350
+  },
+  {
+    "id": "shield_bearer",
+    "name": "Shield Bearer",
+    "hp": 1000
+  },
+  {
+    "id": "erginus",
+    "name": "Erginus",
+    "hp": 32000
+  },
+  {
+    "id": "archelus",
+    "name": "Archelus",
+    "hp": 32000
+  },
+  {
+    "id": "mother_ship",
+    "name": "Mother Ship",
+    "hp": 5600
+  }
+]

@@ -172,5 +172,25 @@
     "id": "mother_ship",
     "name": "Mother Ship",
     "hp": 5600
+  },
+  {
+    "id": "colonist",
+    "name": "Colonist",
+    "hp": 500
+  },
+  {
+    "id": "red_colonist",
+    "name": "Red Colonist",
+    "hp": 500
+  },
+  {
+    "id": "cosmonaut",
+    "name": "Cosmonaut",
+    "hp": 400
+  },
+  {
+    "id": "cosmonautG",
+    "name": "Heavy Cosmonaut",
+    "hp": 400
   }
 ]

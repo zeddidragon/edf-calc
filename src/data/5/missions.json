@@ -1117,7 +1117,8 @@
     },
     {
       "id": "m109",
-      "name": "",
+      "name": "Demon's Army but easier",
+      "online": true,
       "enemies": [
         "battle_drone",
         "bee",
@@ -1142,7 +1143,8 @@
     },
     {
       "id": "m110",
-      "name": "",
+      "online": true,
+      "name": "Surrounded but EDF5",
       "enemies": []
     },
     {

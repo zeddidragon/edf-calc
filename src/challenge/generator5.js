@@ -1,6 +1,7 @@
 const data = {}
 const isWeb = typeof process === 'undefined'
 var dataMissing = 0
+const dailySeed = Math.floor(Date.now() / precision) * precision
 
 const {
   load,
@@ -468,7 +469,6 @@ function challengeToDom(challenge) {
 }
 
 function run() {
-  const dailySeed = Math.floor(Date.now() / precision) * precision
   enemies = data.enemies.reduce((obj, m) => {
     obj[m.id] = m
     return obj

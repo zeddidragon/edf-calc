@@ -344,7 +344,7 @@ function getAvatar(challenge) {
     weps.push(getSpecificWeapon(avatar, weps, challenge,
       w => w.name.startsWith('Limpet Sniper')))
   }
-  if(avatar === 'bomber') {
+  if(avatar === 'bomber' && !challenge.mission.underground) {
     weps.push(getSpecificWeapon(avatar, weps, challenge,
       w => w.category === 'gunship' || w.name.startsWith('Bulge Laser')))
   } else {

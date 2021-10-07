@@ -1145,7 +1145,9 @@
       "id": "m110",
       "online": true,
       "name": "Surrounded but EDF5",
-      "enemies": []
+      "enemies": [
+        "teleportation_anchor"
+      ]
     },
     {
       "id": "m111",

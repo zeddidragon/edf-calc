@@ -144,8 +144,6 @@ const hpModifier = {
   bomber: 1,
 }
 
-var missions
-
 function getMission(players) {
   const difficulty = random.pick(['hard', 'hardest', 'inferno'])
   const mission = random.pick(missions.filter(m => players > 1 || !m.online))

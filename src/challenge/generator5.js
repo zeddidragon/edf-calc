@@ -1,19 +1,65 @@
 const data = {}
+const isWeb = typeof process === 'undefined'
 var dataMissing = 0
 
-function load(prop, source) {
-  dataMissing++
-  const xobj = new XMLHttpRequest()
-  xobj.overrideMimeType("application/json")
-  xobj.open('GET', source, true)
-  xobj.onreadystatechange = function () {
-    if(xobj.readyState === 4 && +xobj.status === 200) {
-      data[prop] = JSON.parse(xobj.responseText)
-      dataMissing--
-      if(!dataMissing) run()
+const {
+  load,
+  addChallenge,
+  finalize,
+} = isWeb ? {
+  load: (prop, source) => {
+    dataMissing++
+    const xobj = new XMLHttpRequest()
+    xobj.overrideMimeType("application/json")
+    xobj.open('GET', source, true)
+    xobj.onreadystatechange = function () {
+      if(xobj.readyState === 4 && +xobj.status === 200) {
+        data[prop] = JSON.parse(xobj.responseText)
+        dataMissing--
+        if(!dataMissing) run()
+      }
+    }
+    xobj.send(null);
+  },
+
+  addChallenge: (challenge) => {
+    challenges.appendChild(challengeToDom(challenge))
+  },
+
+  finalize: () => {
+    time.textContent = `Challenges for ${new Date(dailySeed).toLocaleDateString()}`
+
+  const roll = dailySeed + precision
+
+  function refreshCounter() {
+    const seconds = Math.floor((roll - Date.now()) / 1000)
+    const minutes = Math.floor(seconds / 60)
+    const hours = Math.floor(minutes / 60)
+    const days = Math.floor(hours / 24)
+
+    var str = ''
+    str += `${hours}:${twoDigits(minutes % 60)}:${twoDigits(seconds % 60)}`
+    counter.textContent = str
+
+    if(seconds <= 0 && interval) {
+      clearInterval(interval)
+      challenges.innerHTML = ''
+      run()
     }
   }
-  xobj.send(null);  
+
+  refreshCounter()
+  var interval = setInterval(refreshCounter, 1000)
+  },
+} : {
+  load: (prop, source) => {
+    data[prop] = JSON.parse(require('fs').readFileSync(source, 'utf8'))
+  },
+
+  addChallenge: print,
+
+  finalize: () => {
+  },
 }
 
 load('enemies', './src/data/5/hp.json')
@@ -29,7 +75,6 @@ random.pick = function(arr) {
 }
 
 random.seed = Date.now()
-
 random.setSeed = function(s) {
   random.seed = s
 }
@@ -63,6 +108,16 @@ const onlyOne = [
   'support',
   'special',
 ]
+
+const secondaries = {
+  NONE: 0,
+  ZOOM: 1,
+  ACTIVATE: 2,
+  DETONATE: 3,
+  BOOST: 4,
+  DASH: 5,
+  REFLECT: 6,
+}
 
 function isWeapon(weapon) {
   if(weapon.category === 'guide') return /Beacon/i.test(weapon.name)
@@ -166,13 +221,42 @@ function getVehicle(avatar, weps, challenge, sniper) {
   return random.pick(choices)
 }
 
-function getBooster(avatar, weps, challenge) {
+function fencerSupportCategory(w) {
+  if(w.name.startsWith('Dash Cell')) return 'dash'
+  if(w.name.startsWith('Add Booster')) return 'boost'
+  if(w.name.startsWith('Multi-Charger')) return 'multi'
+  if(w.name.startsWith('Deflect Cell')) return 'deflect'
+  if(w.name.startsWith('Shield Protection')) return 'protect'
+  if(w.name.startsWith('Barricade')) return 'barricade'
+  if(w.name.endsWith('Leg Exoskeleton')) return 'legs'
+  if(w.name.endsWith('Arm Exoskeleton')) return 'arms'
+  return w.category
+}
+
+function fencerWeaponSupportCompatibility(w) {
+  if(w.category === 'spear') return ['dash', 'arms']
+  if(w.secondary === secondaries.DASH) return ['dash']
+  if(w.category === 'light') return ['boost', 'legs', 'arms', 'exo', 'muzzle']
+  if(w.secondary === secondaries.BOOST) return ['boost', 'legs', 'exo']
+  if(w.secondary === secondaries.ZOOM) return ['arms', 'legs', 'exo', 'muzzle']
+  if(w.category === 'shield') return ['deflect', 'protect', 'barricade']
+  return []
+}
+
+function getFencerSupport(avatar, supports, challenge, weps) {
   const { levelRange, mission } = challenge
+  const compatible = new Set(weps.flatMap(fencerWeaponSupportCompatibility))
+  if(compatible.has('boost') && compatible.has('dash')) {
+    compatible.add('multi')
+  }
+  const equipped = new Set(supports.map(fencerSupportCategory))
   const choices =  weapons
     .filter(w => w.character === avatar)
-    .filter(w => w.category === 'booster')
+    .filter(w => {
+      const cat = fencerSupportCategory(w)
+      return compatible.has(cat) && !equipped.has(cat)
+    })
     .filter(w => w.level >= levelRange[0] && w.level <= levelRange[1])
-    .filter(w => !weps.includes(w))
   return random.pick(choices)
 }
 
@@ -180,7 +264,7 @@ const getSupports = {
   ranger: [getSupport, getVehicle],
   bomber: [getVehicle, getVehicle],
   winger: [getSupport, getSupport],
-  fencer: [getBooster, getSupport, getSupport],
+  fencer: [getFencerSupport, getFencerSupport, getFencerSupport],
 }
 
 function tween(min, max, pivot) {
@@ -193,8 +277,6 @@ const hpModifier = {
   fencer: 1.25,
   bomber: 1,
 }
-
-var missions
 
 function getMission(players) {
   const difficulty = random.pick(['hard', 'hardest', 'inferno'])
@@ -235,15 +317,19 @@ function getAvatar(challenge) {
   const online = !!mission.online
 
   const weaponCount = wpnCounts[avatar] + +online
-  const supports = []
-  for(const auxFunc of getSupports[avatar]) {
-    supports.push(auxFunc(avatar, supports, challenge))
-  }
+
   const weps = []
   weps.push(getWeapon(avatar, weps, challenge, true))
   for(var i = 1; i < weaponCount; i++) {
     const wep = getWeapon(avatar, weps, challenge, false)
     if(wep) weps.push(wep)
+  }
+
+  const supports = []
+  for(const auxFunc of getSupports[avatar]) {
+    const found = auxFunc(avatar, supports, challenge, weps)
+    if(!found) continue
+    supports.push(found)
   }
 
   weps.sort(wpnOrder)
@@ -292,9 +378,15 @@ function print(challenge) {
   for(const player of challenge.players) {
     message += `\nPlay as ${avatarPrint[player.class]} with ${player.hp} AP\n`
 
-    message += `\nYou can choose between the following equipment:\n`
+    message += `\nYou can choose between the following weapons:\n`
     for(var i = 0; i < player.weapons.length; i++) {
       const weapon = player.weapons[i]
+      message += `- ${weapon.name} (${weapon.category} lv${weapon.level})\n`
+    }
+
+    message += `\nYou can choose between the following equipment:\n`
+    for(var i = 0; i < player.supports.length; i++) {
+      const weapon = player.supports[i]
       message += `- ${weapon.name} (${weapon.category} lv${weapon.level})\n`
     }
   }
@@ -461,34 +553,10 @@ function run() {
   dlc.type = 'dlc'
   */
 
-  challenges.appendChild(challengeToDom(prismatic))
-  challenges.appendChild(challengeToDom(second))
-  challenges.appendChild(challengeToDom(coop))
-  // challenges.appendChild(challengeToDom(dlc))
-
-  time.textContent = `Challenges for ${new Date(dailySeed).toLocaleDateString()}`
-
-  const roll = dailySeed + precision
-
-  function refreshCounter() {
-    const seconds = Math.floor((roll - Date.now()) / 1000)
-    const minutes = Math.floor(seconds / 60)
-    const hours = Math.floor(minutes / 60)
-    const days = Math.floor(hours / 24)
-
-    var str = ''
-    str += `${hours}:${twoDigits(minutes % 60)}:${twoDigits(seconds % 60)}`
-    counter.textContent = str
-
-    if(seconds <= 0 && interval) {
-      clearInterval(interval)
-      challenges.innerHTML = ''
-      run()
-    }
-  }
-
-  refreshCounter()
-  var interval = setInterval(refreshCounter, 1000)
+  addChallenge(prismatic)
+  addChallenge(second)
+  addChallenge(coop)
+  finalize()
 }
 
 function twoDigits(n) {
@@ -496,3 +564,5 @@ function twoDigits(n) {
 
   return `${n}`
 }
+
+if(!isWeb) run()

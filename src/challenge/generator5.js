@@ -503,8 +503,8 @@ function run() {
   missions = data.missions.campaign
   weapons = data.weapons
   wpnCounts = {
-    ranger: 3,
-    winger: 3,
+    ranger: 4,
+    winger: 4,
     bomber: 5,
     fencer: 4,
   }
@@ -544,6 +544,7 @@ function run() {
   coop.title = 'Co-Op Challenge'
   coop.type = 'coop'
 
+  /*
   difficulties = {
     hard: {
       weaponMin: [0, 30],
@@ -567,6 +568,7 @@ function run() {
     bomber: 5,
     fencer: 4,
   }
+  */
 
   const second = generateChallenge(2)
   second.title = 'Round 2'

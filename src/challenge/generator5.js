@@ -123,7 +123,8 @@ const secondaries = {
 }
 
 function isWeapon(weapon) {
-  if(weapon.category === 'guide') return /Beacon/i.test(weapon.name)
+  if(weapon.name.includes('Beacon Gun')) return false
+  if(weapon.name.includes('Laser Guide')) return false
   if(vehicles.includes(weapon.category)) return false // Vehicles
   if(equipment.includes(weapon.category)) return false // Equipment
   if(weapon.category === 'support') return !/plasma/i.test(weapon.name)
@@ -137,7 +138,8 @@ function isRanged(weapon, range) {
   if(weapon.character === 'bomber') return weapon.category === 'limpet'
   if(weapon.accuracy < 0.76) return false
   if(/dispersal/i.test(weapon.name)) return false
-  return weapon.range >= range
+  const weaponRange = weapon.life * (weapon.speed?.base || weapon.speed)
+  return weaponRange >= range
 }
 
 function isUnderground(weapon, range) {
@@ -175,12 +177,6 @@ function getWeapon(avatar, weps, challenge, sniper) {
   var minRange = (sniper && sniperRequired) || 0
   // Wing Diver can fly, can get away with less range on weapons
   if(avatar === 'winger') minRange = Math.max(0, minRange - 150)
-  // Ensure one limpet gun for lone air raider
-  if(sniper && avatar === 'bomber' && challenge.playerCount < 2) {
-    minRange = Math.max(150, minRange)
-  } else if(avatar === 'bomber') {
-    minRange = 0
-  }
 
   const minLevel = levelRange[0]
   var maxLevel = levelRange[1]
@@ -195,6 +191,28 @@ function getWeapon(avatar, weps, challenge, sniper) {
     .filter(w => !mission.underground || isUnderground(w))
     .filter(w => !weps.includes(w))
     .filter(w => !onlyOne.includes(w.category) || !weps.find(w2 => w2.category === w.category))
+  return random.pick(choices)
+}
+
+function getSpecificWeapon(avatar, weps, challenge, cb) {
+  const { levelRange } = challenge
+  const minLevel = levelRange[0]
+  var maxLevel = levelRange[1]
+  if(challenge.mission.online) maxLevel += 10
+  if(challenge.mission.online && challenge.playerCount === 1) maxLevel += 15
+  let choices =  weapons
+    .filter(isAvailable)
+    .filter(w => w.character === avatar)
+    .filter(isWeapon)
+    .filter(cb)
+    .filter(w => w.level <= maxLevel)
+    .filter(w => !weps.includes(w))
+    .filter(w => !onlyOne.includes(w.category) || !weps.find(w2 => w2.category === w.category))
+  if(choices.find(w => w.level >= minLevel)) {
+    choices = choices.filter(w => w.level >= minLevel)
+  } else {
+    return choices.sort((a, b) => a.level - b.level).pop()
+  }
   return random.pick(choices)
 }
 
@@ -237,7 +255,6 @@ function fencerSupportCategory(w) {
 }
 
 function fencerWeaponSupportCompatibility(w) {
-  if(w.category === 'spear') return ['dash', 'arms']
   if(w.secondary === secondaries.DASH) return ['dash']
   if(w.category === 'light') return ['boost', 'legs', 'arms', 'exo', 'muzzle']
   if(w.secondary === secondaries.BOOST) return ['boost', 'legs', 'exo']
@@ -291,6 +308,7 @@ function getMission(players) {
   const levelRange = [minWpn, maxWpn]
   const sniperRequired = mission.enemies.reduce((range, enemy) => {
     if(Array.isArray(enemy)) enemy = enemy[0]
+    if(!enemies[enemy]) return 0
     const enemyRange = enemies[enemy].sniper || 0
     return Math.max(enemyRange, range)
   }, 0)
@@ -322,7 +340,16 @@ function getAvatar(challenge) {
   const weaponCount = wpnCounts[avatar] + +online
 
   const weps = []
-  weps.push(getWeapon(avatar, weps, challenge, true))
+  if(challenge.sniperRequired >= 400 && avatar == 'bomber') {
+    weps.push(getSpecificWeapon(avatar, weps, challenge,
+      w => w.name.startsWith('Limpet Sniper')))
+  }
+  if(avatar === 'bomber') {
+    weps.push(getSpecificWeapon(avatar, weps, challenge,
+      w => w.category === 'gunship' || w.name.startsWith('Bulge Laser')))
+  } else {
+    weps.push(getWeapon(avatar, weps, challenge, true))
+  }
   for(var i = 1; i < weaponCount; i++) {
     const wep = getWeapon(avatar, weps, challenge, false)
     if(wep) weps.push(wep)
@@ -485,53 +512,52 @@ function run() {
     hard: {
       weaponMin: [0, 25],
       weaponMax: [10, 40],
-      hp: [200, 1000],
+      hp: [300, 1000],
     },
     hardest: {
       weaponMin: [25, 40],
       weaponMax: [40, 70],
-      hp: [400, 2000],
+      hp: [800, 2000],
     },
     inferno: {
       weaponMin: [40, 40],
       weaponMax: [60, 100],
-      hp: [800, 4000],
+      hp: [1200, 4000],
     },
   }
 
 
   random.setSeed(dailySeed)
-  const prismatic = generateChallenge()
+  const prismatic = generateChallenge(2)
   prismatic.title = 'Prismatic Challenge'
   prismatic.type = 'prismatic'
 
   wpnCounts = {
-    ranger: 3,
-    winger: 3,
+    ranger: 3, winger: 3,
     bomber: 3,
     fencer: 3,
   }
 
   random.setSeed(dailySeed + 100)
-  const coop = generateChallenge(3)
+  const coop = generateChallenge(4)
   coop.title = 'Co-Op Challenge'
   coop.type = 'coop'
 
   difficulties = {
     hard: {
-      weaponMin: [20, 40],
+      weaponMin: [0, 30],
       weaponMax: [30, 60],
-      hp: [750, 1500],
+      hp: [250, 1500],
     },
     hardest: {
-      weaponMin: [40, 70],
+      weaponMin: [30, 60],
       weaponMax: [50, 85],
-      hp: [1500, 3000],
+      hp: [400, 2500],
     },
     inferno: {
-      weaponMin: [50, 50],
-      weaponMax: [70, 120],
-      hp: [3000, 6000],
+      weaponMin: [30, 60],
+      weaponMax: [50, 100],
+      hp: [500, 3500],
     },
   }
   wpnCounts = {
@@ -541,7 +567,7 @@ function run() {
     fencer: 4,
   }
 
-  const second = generateChallenge()
+  const second = generateChallenge(2)
   second.title = 'Round 2'
   secondtype = 'prismatic'
 

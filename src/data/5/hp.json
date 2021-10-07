@@ -43,29 +43,34 @@
   {
     "id": "bee",
     "name": "Flying",
-    "hp": 45
+    "hp": 45,
+    "sniper": 100
   },
   {
     "id": "red_bee",
     "name": "Red Flying",
     "hp": 135,
-    "credit": 90
+    "credit": 90,
+    "sniper": 150
   },
   {
     "id": "tadpole",
     "name": "Tadpole",
-    "hp": 50
+    "hp": 50,
+    "sniper": 150
   },
   {
     "id": "tadpoleS",
     "name": "Small Tadpol",
-    "hp": 20
+    "hp": 20,
+    "sniper": 150
   },
   {
     "id": "tadpoleL",
     "name": "Large Tadpole",
     "hp": 1200,
-    "credit": 1950
+    "credit": 1950,
+    "sniper": 150
   },
   {
     "id": "mother_ant",
@@ -89,7 +94,8 @@
     "id": "queen",
     "name": "Queen",
     "hp": 3000,
-    "credit": 1850
+    "credit": 1850,
+    "sniper": 250
   },
   {
     "id": "hive",
@@ -99,28 +105,33 @@
   {
     "id": "aranea",
     "name": "Aranea",
-    "hp": 600
+    "hp": 600,
+    "sniper": 100
   },
   {
     "id": "teleportation_anchor",
     "name": "Anchor",
-    "hp": 1250
+    "hp": 1250,
+    "sniper": 250
   },
   {
     "id": "big_anchor",
     "name": "Big Anchor",
     "hp": 2500,
-    "credit": 1750
+    "credit": 1750,
+    "sniper": 300
   },
   {
     "id": "huge_anchor",
     "name": "Huge Anchor",
-    "hp": 14000
+    "hp": 14000,
+    "sniper": 350
   },
   {
     "id": "teleportation_ship",
     "name": "Teleportation Ship",
-    "hp": 1000
+    "hp": 1000,
+    "sniper": 400
   },
   {
     "id": "teleportation_device",
@@ -130,28 +141,33 @@
   {
     "id": "battle_drone",
     "name": "Drone",
-    "hp": 75
+    "hp": 75,
+    "sniper": 150
   },
   {
     "id": "blue_drone",
     "name": "Blue Drone",
     "hp": 112.5,
-    "credit": 75
+    "credit": 75,
+    "sniper": 150
   },
   {
     "id": "red_drone",
     "name": "Red Drone",
-    "hp": 1000
+    "hp": 1000,
+    "sniper": 200
   },
   {
     "id": "type2_drone",
     "name": "Type-2 Drone",
-    "hp": 120
+    "hp": 120,
+    "sniper": 150
   },
   {
     "id": "deroy",
     "name": "Deroy",
-    "hp": 1350
+    "hp": 1350,
+    "sniper": 250
   },
   {
     "id": "shield_bearer",
@@ -171,7 +187,8 @@
   {
     "id": "mother_ship",
     "name": "Mother Ship",
-    "hp": 5600
+    "hp": 5600,
+    "sniper": 500
   },
   {
     "id": "colonist",

@@ -282,7 +282,7 @@ function getFencerSupport(avatar, supports, challenge, weps) {
 
 const getSupports = {
   ranger: [getSupport, getVehicle],
-  bomber: [getVehicle, getVehicle],
+  bomber: [getVehicle, getVehicle, getVehicle],
   winger: [getSupport, getSupport],
   fencer: [getFencerSupport, getFencerSupport, getFencerSupport],
 }
@@ -533,8 +533,9 @@ function run() {
   prismatic.type = 'prismatic'
 
   wpnCounts = {
-    ranger: 3, winger: 3,
-    bomber: 3,
+    ranger: 3,
+    winger: 3,
+    bomber: 4,
     fencer: 3,
   }
 

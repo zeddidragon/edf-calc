@@ -1,7 +1,9 @@
 const data = {}
 const isWeb = typeof process === 'undefined'
-var dataMissing = 0
+const precision = (1000 * 60 * 60 * 24 * 3)
 const dailySeed = Math.floor(Date.now() / precision) * precision
+
+var dataMissing = 0
 
 const {
   load,
@@ -30,27 +32,27 @@ const {
   finalize: () => {
     time.textContent = `Challenges for ${new Date(dailySeed).toLocaleDateString()}`
 
-  const roll = dailySeed + precision
+    const roll = dailySeed + precision
 
-  function refreshCounter() {
-    const seconds = Math.floor((roll - Date.now()) / 1000)
-    const minutes = Math.floor(seconds / 60)
-    const hours = Math.floor(minutes / 60)
-    const days = Math.floor(hours / 24)
+    function refreshCounter() {
+      const seconds = Math.floor((roll - Date.now()) / 1000)
+      const minutes = Math.floor(seconds / 60)
+      const hours = Math.floor(minutes / 60)
+      const days = Math.floor(hours / 24)
 
-    var str = ''
-    str += `${hours}:${twoDigits(minutes % 60)}:${twoDigits(seconds % 60)}`
-    counter.textContent = str
+      var str = ''
+      str += `${hours}:${twoDigits(minutes % 60)}:${twoDigits(seconds % 60)}`
+      counter.textContent = str
 
-    if(seconds <= 0 && interval) {
-      clearInterval(interval)
-      challenges.innerHTML = ''
-      run()
+      if(seconds <= 0 && interval) {
+        clearInterval(interval)
+        challenges.innerHTML = ''
+        run()
+      }
     }
-  }
 
-  refreshCounter()
-  var interval = setInterval(refreshCounter, 1000)
+    refreshCounter()
+    var interval = setInterval(refreshCounter, 1000)
   },
 } : {
   load: (prop, source) => {
@@ -409,8 +411,6 @@ function print(challenge) {
   console.log(message)
 }
 
-
-const precision = (1000 * 60 * 60 * 24 * 3)
 
 function challengeToDom(challenge) {
   const node = document.createElement('section')

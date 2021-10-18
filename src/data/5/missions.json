@@ -373,8 +373,8 @@
         "battle_drone",
         "black_ant",
         "colonist",
-        "kichi",
-        "red_colonist"
+        "red_colonist",
+        "base"
       ]
     },
     {
@@ -674,7 +674,7 @@
     },
     {
       "id": "m73",
-      "name": "Light Defensees",
+      "name": "Light Defenses",
       "enemies": [
         "bee",
         "black_ant",
@@ -1117,7 +1117,7 @@
     },
     {
       "id": "m109",
-      "name": "Demon's Army but easier",
+      "name": "Despair",
       "online": true,
       "enemies": [
         "battle_drone",
@@ -1138,21 +1138,44 @@
         "silver_spider",
         "spider",
         "teleportation_anchor",
+        "huge_anchor",
         "type2_drone"
       ]
     },
     {
       "id": "m110",
       "online": true,
-      "name": "Surrounded but EDF5",
+      "name": "Under Siege",
       "enemies": [
-        "teleportation_anchor"
+        "spider",
+        "battle_drone",
+        "colonist",
+        "red_colonist",
+        "deroy",
+        "type2_drone",
+        "tadpole",
+        "teleportation_ship",
+        "golden_ant",
+        "bee",
+        "gamma",
+        "spider",
+        "silver_spider",
+        "cosmonaut",
+        "cosmonautG"
       ]
     },
     {
       "id": "m111",
       "name": "No. 11",
       "enemies": [
+        "battle_drone",
+        "teleportation_ship",
+        "ant",
+        "spider",
+        "gamma",
+        "colonist",
+        "cosmonaut",
+        "cosmonautG",
         "mother_ship"
       ]
     },
@@ -1160,6 +1183,7 @@
       "id": "m112",
       "name": "The Nameless",
       "enemies": [
+        "silver_man",
         "cosmonaut"
       ]
     }

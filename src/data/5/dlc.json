@@ -1,0 +1,362 @@
+{
+  "dlc1": [
+    {
+      "name": "Engage Aggressors 1",
+      "enemies": [
+        "ant",
+        "red_ant",
+        "mother_ant"
+      ],
+      "id": "d1m01"
+    },
+    {
+      "name": "Engage Aggressors 2",
+      "enemies": [
+        "ant",
+        "golden_ant"
+      ],
+      "id": "d1m02"
+    },
+    {
+      "name": "Airborne Enemies",
+      "enemies": [
+        "ant",
+        "spider",
+        "red_ant",
+        "colonist",
+        "cosmonaut"
+      ],
+      "id": "d1m03"
+    },
+    {
+      "name": "Reclaim Base 236",
+      "enemies": [
+        "ant",
+        "spider",
+        "red_ant",
+        "red_bee",
+        "colonist",
+        "red_colonist",
+        "teleportation_ship"
+      ],
+      "id": "d1m04"
+    },
+    {
+      "name": "Infiltrate Base 236",
+      "enemies": [
+        "green_ant",
+        "ant",
+        "spider",
+        "teleportation_device",
+        "golden_ant",
+        "silver_spider",
+        "colonistG"
+      ],
+      "id": "d1m05"
+    },
+    {
+      "name": "Defend Base 236",
+      "enemies": [
+        "colonist",
+        "colonistG",
+        "golden_ant",
+        "silver_spider"
+      ],
+      "id": "d1m06"
+    },
+    {
+      "name": "Engage Teleportation Anchors 1",
+      "enemies": [
+        "big_anchor",
+        "bee",
+        "red_bee",
+        "red_ant",
+        "spider",
+        "silver_spider",
+        "battle_drone",
+        "teleportation_anchor"
+      ],
+      "id": "d1m07"
+    },
+    {
+      "name": "Engage Aliens 1",
+      "enemies": [
+        "colonistG",
+        "golden_ant"
+      ],
+      "id": "d1m08"
+    },
+    {
+      "name": "Engage Aggressors 3",
+      "enemies": [
+        "silver_spider",
+        "silver_king"
+      ],
+      "id": "d1m09"
+    },
+    {
+      "name": "Engage Aliens 1",
+      "enemies": [
+        "colonist",
+        "red_colonist",
+        "colonistG"
+      ],
+      "id": "d1m10"
+    },
+    {
+      "name": "Underground 1",
+      "enemies": [
+        "golden_ant",
+        "spider",
+        "silver_spider",
+        "gamma",
+        "cosmonautG"
+      ],
+      "id": "d1m11"
+    },
+    {
+      "name": "Underground 2",
+      "enemies": [
+        "aranea",
+        ["teleportation_device", 2.0],
+        "ant",
+        "golden_ant",
+        "red_ant",
+        "purple_ant",
+        "spider",
+        "silver_spider"
+      ],
+      "id": "d1m12"
+    },
+    {
+      "name": "Engage Aliens 3",
+      "enemies": [
+        "colonist",
+        "colonistG",
+        "deroy",
+        "tadpole",
+        "tadpoleL"
+      ],
+      "id": "d1m13"
+    },
+    {
+      "name": "Engage Aggressors 4",
+      "enemies": [
+        "golden_ant"
+      ],
+      "id": "d1m14"
+    },
+    {
+      "name": "Engage Outpost Base",
+      "enemies": [
+        "tadpole",
+        "golden_ant",
+        "silver_spider",
+        "teleportation_ship",
+        "cosmonautG",
+        "base"
+      ],
+      "id": "d1m15"
+    }
+  ],
+  "dlc2": [
+    {
+      "name": "Engage Teleportation Ships",
+      "enemies": [
+        "teleportation_ship",
+        "gamma",
+        "tadpole",
+        "ant",
+        "golden_ant",
+        "spider",
+        "silver_spider",
+        "bee",
+        "red_bee",
+        "mother_ant",
+        "queen",
+        "king"
+      ],
+      "id": "d2m01"
+    },
+    {
+      "name": "Engage Aliens 4",
+      "enemies": [
+        "cosmonautG"
+      ],
+      "id": "d2m02"
+    },
+    {
+      "name": "Engage Drones",
+      "enemies": [
+        "blue_drone",
+        "bomber"
+      ],
+      "id": "d2m03"
+    },
+    {
+      "name": "Engage Aliens Troops 1",
+      "enemies": [
+        "shield_bearer",
+        "cosmonautG",
+        "deroy"
+      ],
+      "id": "d2m04"
+    },
+    {
+      "name": "Engage Teleportation Anchors 2",
+      "enemies": [
+        "spider",
+        "ant",
+        "red_ant",
+        "golden_ant",
+        "spider",
+        "silver_spider",
+        "bee",
+        "red_bee",
+        ["teleportation_device", 0.6],
+        ["teleportation_anchor", 0.6],
+        ["big_anchor", 0.6],
+        ["huge_anchor", 0.18],
+        "golden_mother_ant",
+        "silver_king",
+        "queen"
+      ],
+      "id": "d2m05"
+    },
+    {
+      "name": "Underground 3",
+      "enemies": [
+        "aranea",
+        "ant",
+        "golden_ant",
+        "red_ant",
+        "purple_ant",
+        "spider",
+        "silver_spider",
+        "gamma",
+        "mother_ant",
+        "golden_mother_ant"
+      ],
+      "id": "d2m06"
+    },
+    {
+      "name": "Engage Aliens 5",
+      "enemies": [
+        "ant",
+        "golden_ant",
+        "purple_ant",
+        "spider",
+        "silver_spider",
+        "colonist",
+        "red_colonist",
+        "colonistG",
+        "cosmonaut",
+        "cosmonautG"
+      ],
+      "id": "d2m07"
+    },
+    {
+      "name": "Engage Aggressors 5",
+      "enemies": [
+        "silver_spider"
+      ],
+      "id": "d2m08"
+    },
+    {
+      "name": "Engage Teleportation Anchors 3",
+      "enemies": [
+        ["anchor", 0.4],
+        ["anchor", 0.2],
+        "anchor",
+        "big_anchor",
+        ["big_anchor", 5],
+        "ant",
+        "golden_ant",
+        "spider",
+        "silver_spider",
+        "bee",
+        "red_bee"
+      ],
+      "id": "d2m09"
+    },
+    {
+      "name": "Engage Aliens Troops 2",
+      "enemies": [
+        "deroy",
+        "red_drone",
+        "imperial_drone",
+        "bomber",
+        "cosmonautG",
+        "shield_bearer"
+      ],
+      "id": "d2m10"
+    },
+    {
+      "name": "Engage Mysterious Monster",
+      "enemies": [
+        "erginus",
+        "archelus"
+      ],
+      "id": "d2m11"
+    },
+    {
+      "name": "The Last Stand 1",
+      "enemies": [
+        "red_bee",
+        "silver_spider",
+        "golden_ant",
+        ["huge_anchor", 0.3],
+        ["hive", 0.198],
+        "colonistG",
+        "king",
+        "silver_king",
+        "mother_ant",
+        "golden_mother_ant",
+        "queen",
+        "death_queen"
+      ],
+      "id": "d2m12"
+    },
+    {
+      "name": "The Last Stand 2",
+      "enemies": [
+        "golden_ant",
+        "silver_spider",
+        "bee",
+        "red_bee",
+        "tadpole",
+        "tadpoleL",
+        "tadpoleS",
+        "king",
+        "silver_king",
+        "mother_ant",
+        "golden_mother_ant",
+        "queen",
+        "death_queen",
+        "deroy",
+        "battle_drone",
+        "bomber",
+        "colonistG",
+        "teleportation_ship"
+      ],
+      "id": "d2m13"
+    },
+    {
+      "name": "The Last Stand 3",
+      "enemies": [
+        "colonistG",
+        "deroy",
+        ["anchor", 0.4],
+        "ant",
+        "golden_ant",
+        "bee",
+        "red_bee",
+        "golden_mother_ant",
+        "silver_spider",
+        "silver_king",
+        "mother_ship"
+      ],
+      "id": "d2m14"
+    }
+  ]
+}

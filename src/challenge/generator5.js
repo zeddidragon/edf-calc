@@ -68,6 +68,7 @@ const {
 load('enemies', './src/data/5/hp.json')
 load('weapons', './src/data/5/weapons.json')
 load('missions', './src/data/5/missions.json')
+load('dlc', './src/data/5/dlc.json')
 
 function random() {
   return Math.abs((Math.sin(random.seed++) * 10000) % 1)
@@ -520,7 +521,7 @@ function run() {
       hp: [800, 2000],
     },
     inferno: {
-      weaponMin: [40, 40],
+      weaponMin: [40, 50],
       weaponMax: [60, 100],
       hp: [1200, 4000],
     },
@@ -544,46 +545,58 @@ function run() {
   coop.title = 'Co-Op Challenge'
   coop.type = 'coop'
 
-  /*
+  const dlcPack = random.pick(['dlc1', 'dlc2'])
   difficulties = {
-    hard: {
-      weaponMin: [0, 30],
-      weaponMax: [30, 60],
-      hp: [250, 1500],
+    dlc1: {
+      hard: {
+        weaponMin: [0, 10],
+        weaponMax: [26, 40],
+        hp: [400, 1600],
+      },
+      hardest: {
+        weaponMin: [30, 50],
+        weaponMax: [60, 75],
+        hp: [800, 3200],
+      },
+      inferno: {
+        weaponMin: [40, 50],
+        weaponMax: [100, 105],
+        hp: [1600, 4800],
+      },
     },
-    hardest: {
-      weaponMin: [30, 60],
-      weaponMax: [50, 85],
-      hp: [400, 2500],
+    dlc2: {
+      hard: {
+        weaponMin: [0, 30],
+        weaponMax: [30, 60],
+        hp: [500, 2000],
+      },
+      hardest: {
+        weaponMin: [30, 50],
+        weaponMax: [75, 89],
+        hp: [1000, 4000],
+      },
+      inferno: {
+        weaponMin: [40, 50],
+        weaponMax: [100, 120],
+        hp: [2000, 6000],
+      },
     },
-    inferno: {
-      weaponMin: [30, 60],
-      weaponMax: [50, 100],
-      hp: [500, 3500],
-    },
-  }
+  }[dlcPack]
   wpnCounts = {
-    ranger: 4,
-    winger: 4,
-    bomber: 5,
-    fencer: 4,
+    ranger: 5,
+    winger: 5,
+    bomber: 6,
+    fencer: 5,
   }
-  */
-
-  const second = generateChallenge(2)
-  second.title = 'Round 2'
-  secondtype = 'prismatic'
 
   random.setSeed(dailySeed + 200)
-  /*
-  missions = random.pick(Object.values(data.dlc))
-  const dlc = generateChallenge()
+  missions = data.dlc[dlcPack]
+  const dlc = generateChallenge(2)
   dlc.title = 'DLC Challenge'
   dlc.type = 'dlc'
-  */
 
   addChallenge(prismatic)
-  addChallenge(second)
+  addChallenge(dlc)
   addChallenge(coop)
   finalize()
 }

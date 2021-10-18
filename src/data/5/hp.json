@@ -164,6 +164,12 @@
     "sniper": 150
   },
   {
+    "id": "bomber",
+    "name": "Bomber",
+    "hp": 1,
+    "sniper": 250
+  },
+  {
     "id": "deroy",
     "name": "Deroy",
     "hp": 1350,
@@ -201,6 +207,11 @@
     "hp": 500
   },
   {
+    "id": "colonistG",
+    "name": "Heavy Colonist",
+    "hp": 500
+  },
+  {
     "id": "cosmonaut",
     "name": "Cosmonaut",
     "hp": 400
@@ -209,5 +220,17 @@
     "id": "cosmonautG",
     "name": "Heavy Cosmonaut",
     "hp": 400
+  },
+  {
+    "id": "base",
+    "name": "Outpost",
+    "hp": 1,
+    "sniper": 350
+  },
+  {
+    "id": "silver_man",
+    "name": "Silver man",
+    "hp": 1,
+    "sniper": 150
   }
 ]

@@ -545,6 +545,7 @@ function run() {
   coop.title = 'Co-Op Challenge'
   coop.type = 'coop'
 
+  random.setSeed(dailySeed + 200)
   const dlcPack = random.pick(['dlc1', 'dlc2'])
   difficulties = {
     dlc1: {
@@ -589,7 +590,6 @@ function run() {
     fencer: 5,
   }
 
-  random.setSeed(dailySeed + 200)
   missions = data.dlc[dlcPack]
   const dlc = generateChallenge(2)
   dlc.title = 'DLC Challenge'

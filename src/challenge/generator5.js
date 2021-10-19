@@ -513,17 +513,17 @@ function run() {
     hard: {
       weaponMin: [0, 25],
       weaponMax: [10, 40],
-      hp: [300, 1000],
+      hp: [500, 2000],
     },
     hardest: {
       weaponMin: [25, 40],
       weaponMax: [40, 70],
-      hp: [800, 2000],
+      hp: [2000, 4000],
     },
     inferno: {
       weaponMin: [40, 50],
       weaponMax: [60, 100],
-      hp: [1200, 4000],
+      hp: [4000, 8000],
     },
   }
 
@@ -552,34 +552,34 @@ function run() {
       hard: {
         weaponMin: [0, 10],
         weaponMax: [26, 40],
-        hp: [400, 1600],
+        hp: [1800, 3000],
       },
       hardest: {
         weaponMin: [30, 50],
         weaponMax: [60, 75],
-        hp: [800, 3200],
+        hp: [4000, 5000],
       },
       inferno: {
         weaponMin: [40, 50],
         weaponMax: [100, 105],
-        hp: [1600, 4800],
+        hp: [9000, 13000],
       },
     },
     dlc2: {
       hard: {
         weaponMin: [0, 30],
         weaponMax: [30, 60],
-        hp: [500, 2000],
+        hp: [3000, 4600],
       },
       hardest: {
         weaponMin: [30, 50],
         weaponMax: [75, 89],
-        hp: [1000, 4000],
+        hp: [5000, 9000],
       },
       inferno: {
         weaponMin: [40, 50],
         weaponMax: [100, 120],
-        hp: [2000, 6000],
+        hp: [12000, 16000],
       },
     },
   }[dlcPack]

@@ -95,9 +95,22 @@ function populateWeapons(ch, cat) {
 const FPS = 60
 const headers = [{
   label: '✓',
-  cb: () => {
+  cb: wpn => {
     const el = $('input')
+    const key = `owned.${wpn.id}`
     el.setAttribute('type', 'checkbox')
+    if(localStorage[key]) {
+      el.setAttribute('checked', '1')
+    }
+    el.addEventListener('change', () => {
+      const v = 1 - (localStorage[key] || 0)
+      localStorage[key] = v
+      if(v) {
+        el.setAttribute('checked', '1')
+      } else {
+        el.removeAttribute('checked')
+      }
+    })
     return el
   },
 }, {
@@ -136,7 +149,13 @@ const headers = [{
     return true
   },
   label: 'Dmg',
-  cb: wpn => +wpn.damage.toFixed(1),
+  cb: wpn => {
+    const dmg = +Math.abs(wpn.damage).toFixed(1)
+    if(wpn.count > 1) {
+      return `${wpn.count} x ${dmg}`
+    }
+    return dmg
+  },
 }, {
   iff: (ch, cat, wpn) => {
     if([
@@ -160,15 +179,32 @@ const headers = [{
     if(wpn.category == 'missile' && wpn.character === 'winger') {
       return +(FPS / wpn.reload).toFixed(1)
     }
-    const rof = +(FPS / wpn.interval).toFixed(1)
-    if(rof === Infinity) return '-'
+    if(wpn.ammo < 2 && !wpn.reload) {
+      return 60
+    }
+    if(wpn.ammo < 2) {
+      return '-'
+    }
+    if(wpn.burst > 1 && wpn.interval > 1) {
+      const burstRof = FPS / wpn.burstRate
+      const rof = FPS / (wpn.burst * wpn.burstRate + wpn.interval)
+      return `${wpn.burst} / ${rof.toFixed(1)}`
+    }
+    const rof = +(FPS / (wpn.interval || 1)).toFixed(1)
+    if(rof === Infinity) {
+      return '-'
+    }
     return rof
   }
 }, {
   label: 'Rel',
   cb: wpn => {
-    if(wpn.reload <= 0) return '-'
-    if(wpn.credits) return wpn.reload
+    if(wpn.reload <= 0) {
+      return '-'
+    }
+    if(wpn.credits) {
+      return wpn.reload
+    }
     return (wpn.reload / FPS).toFixed(1)
   }
 }, {
@@ -194,7 +230,12 @@ const headers = [{
     return true
   },
   label: 'Rng',
-  cb: wpn => wpn.range.toFixed(0),
+  cb: wpn => {
+    if(wpn.category === 'missile') {
+      return wpn.lockRange
+    }
+    return wpn.range.toFixed(0)
+  },
 }, {
   iff: (ch, cat, wpn) => {
     if([
@@ -203,6 +244,7 @@ const headers = [{
       'ground',
       'heli',
       'mech',
+      'missile',
     ].includes(cat)) {
       return false
     }
@@ -218,6 +260,72 @@ const headers = [{
     const spd = (wpn.speed * FPS)
     if(spd > 10000) return '-'
     return spd.toFixed(0)
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'particle',
+      'plasma',
+      'guide',
+      'shield',
+    ].includes(cat)) {
+      return false
+    }
+    if(ch === 'winger' && [
+      'sniper',
+      'missile',
+      'special',
+    ].includes(cat)) {
+      return false
+    }
+    return true
+  },
+  label: 'DPS',
+  cb: wpn => {
+    if(wpn.ammo < 2) {
+      return '-'
+    }
+    if(wpn.burst > 100) {
+      return wpn.damage * FPS / wpn.burstRate
+    }
+    const burstTime = wpn.burst * wpn.burstRate + (wpn.interval || 1)
+    const burstDamage = Math.abs(wpn.damage * wpn.count * (wpn.burst || 1))
+    return +(burstDamage * FPS / burstTime).toFixed(1)
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'guide',
+      'shield',
+    ].includes(cat)) {
+      return false
+    }
+    return true
+  },
+  label: 'TDPS',
+  cb: wpn => {
+    if(wpn.reload < 0) {
+      return '-'
+    }
+    const magDamage = wpn.damage * wpn.count * wpn.ammo
+    const bursts = wpn.ammo / (wpn.burst || 1)
+    const burstTime = (wpn.burst * wpn.burstRate) + (wpn.interval || 1)
+    const magTime = bursts * burstTime + wpn.reload
+    return +(magDamage * FPS / magTime).toFixed(1)
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'guide',
+      'shield',
+    ].includes(cat)) {
+      return false
+    }
+    return true
+  },
+  label: 'Dump',
+  cb: wpn => {
+    return Math.abs((magDamage = wpn.damage * wpn.count * wpn.ammo).toFixed(1))
   },
 }]
 
@@ -3323,6 +3431,9 @@ const table = [
     "burstRate": 20,
     "count": 1,
     "interval": 60,
+    "lockRange": 400,
+    "lockTime": 420,
+    "lockType": 1,
     "reload": 120,
     "reloadInit": 1,
     "credits": false,
@@ -3352,6 +3463,9 @@ const table = [
     "burstRate": 30,
     "count": 1,
     "interval": 60,
+    "lockRange": 250,
+    "lockTime": 30,
+    "lockType": 1,
     "reload": 90,
     "reloadInit": 1,
     "credits": false,
@@ -3381,6 +3495,9 @@ const table = [
     "burstRate": 10,
     "count": 1,
     "interval": 10,
+    "lockRange": 200,
+    "lockTime": 10,
+    "lockType": 1,
     "reload": 60,
     "reloadInit": 1,
     "credits": false,
@@ -3410,6 +3527,9 @@ const table = [
     "burstRate": 20,
     "count": 1,
     "interval": 0,
+    "lockRange": 550,
+    "lockTime": 180,
+    "lockType": 1,
     "reload": 60,
     "reloadInit": 1,
     "credits": false,
@@ -3439,6 +3559,9 @@ const table = [
     "burstRate": 20,
     "count": 1,
     "interval": 60,
+    "lockRange": 250,
+    "lockTime": 30,
+    "lockType": 1,
     "reload": 90,
     "reloadInit": 1,
     "credits": false,
@@ -3468,6 +3591,9 @@ const table = [
     "burstRate": 20,
     "count": 15,
     "interval": 0,
+    "lockRange": 250,
+    "lockTime": 15,
+    "lockType": 1,
     "reload": 180,
     "reloadInit": 1,
     "credits": false,
@@ -3497,6 +3623,9 @@ const table = [
     "burstRate": 4,
     "count": 1,
     "interval": 10,
+    "lockRange": 200,
+    "lockTime": 8,
+    "lockType": 1,
     "reload": 60,
     "reloadInit": 1,
     "credits": false,
@@ -3526,6 +3655,9 @@ const table = [
     "burstRate": 20,
     "count": 1,
     "interval": 60,
+    "lockRange": 300,
+    "lockTime": 35,
+    "lockType": 1,
     "reload": 90,
     "reloadInit": 1,
     "credits": false,
@@ -3555,6 +3687,9 @@ const table = [
     "burstRate": 3,
     "count": 1,
     "interval": 6,
+    "lockRange": 200,
+    "lockTime": 5,
+    "lockType": 1,
     "reload": 50,
     "reloadInit": 1,
     "credits": false,
@@ -3584,6 +3719,9 @@ const table = [
     "burstRate": 20,
     "count": 1,
     "interval": 0,
+    "lockRange": 800,
+    "lockTime": 300,
+    "lockType": 1,
     "reload": 90,
     "reloadInit": 1,
     "credits": false,
@@ -3613,6 +3751,9 @@ const table = [
     "burstRate": 20,
     "count": 20,
     "interval": 0,
+    "lockRange": 250,
+    "lockTime": 15,
+    "lockType": 1,
     "reload": 180,
     "reloadInit": 1,
     "credits": false,
@@ -3642,6 +3783,9 @@ const table = [
     "burstRate": 20,
     "count": 1,
     "interval": 60,
+    "lockRange": 400,
+    "lockTime": 20,
+    "lockType": 1,
     "reload": 45,
     "reloadInit": 1,
     "credits": false,
@@ -3671,6 +3815,9 @@ const table = [
     "burstRate": 20,
     "count": 1,
     "interval": 0,
+    "lockRange": 600,
+    "lockTime": 300,
+    "lockType": 1,
     "reload": 600,
     "reloadInit": 1,
     "credits": false,
@@ -3700,6 +3847,9 @@ const table = [
     "burstRate": 6,
     "count": 2,
     "interval": 6,
+    "lockRange": 250,
+    "lockTime": 5,
+    "lockType": 1,
     "reload": 100,
     "reloadInit": 1,
     "credits": false,
@@ -3729,6 +3879,9 @@ const table = [
     "burstRate": 20,
     "count": 1,
     "interval": 0,
+    "lockRange": 1000,
+    "lockTime": 420,
+    "lockType": 1,
     "reload": 60,
     "reloadInit": 1,
     "credits": false,
@@ -3758,6 +3911,9 @@ const table = [
     "burstRate": 0,
     "count": 20,
     "interval": 0,
+    "lockRange": 300,
+    "lockTime": 10,
+    "lockType": 1,
     "reload": 180,
     "reloadInit": 1,
     "credits": false,
@@ -3787,6 +3943,9 @@ const table = [
     "burstRate": 7,
     "count": 1,
     "interval": 60,
+    "lockRange": 500,
+    "lockTime": 15,
+    "lockType": 1,
     "reload": 45,
     "reloadInit": 1,
     "credits": false,
@@ -3816,6 +3975,9 @@ const table = [
     "burstRate": 20,
     "count": 1,
     "interval": 0,
+    "lockRange": 1000,
+    "lockTime": 1260,
+    "lockType": 1,
     "reload": 60,
     "reloadInit": 1,
     "credits": false,
@@ -10495,6 +10657,9 @@ const table = [
     "burstRate": 0,
     "count": 1,
     "interval": 0,
+    "lockRange": 300,
+    "lockTime": 4,
+    "lockType": 3,
     "reload": 10,
     "reloadInit": 1,
     "credits": false,
@@ -10524,6 +10689,9 @@ const table = [
     "burstRate": 0,
     "count": 1,
     "interval": 0,
+    "lockRange": 300,
+    "lockTime": 4,
+    "lockType": 3,
     "reload": 60,
     "reloadInit": 1,
     "credits": false,
@@ -10553,6 +10721,9 @@ const table = [
     "burstRate": 0,
     "count": 1,
     "interval": 0,
+    "lockRange": 300,
+    "lockTime": 4,
+    "lockType": 3,
     "reload": 6,
     "reloadInit": 1,
     "credits": false,
@@ -10582,6 +10753,9 @@ const table = [
     "burstRate": 0,
     "count": 5,
     "interval": 0,
+    "lockRange": 300,
+    "lockTime": 4,
+    "lockType": 3,
     "reload": 60,
     "reloadInit": 1,
     "credits": false,
@@ -10611,6 +10785,9 @@ const table = [
     "burstRate": 0,
     "count": 1,
     "interval": 0,
+    "lockRange": 300,
+    "lockTime": 4,
+    "lockType": 3,
     "reload": 60,
     "reloadInit": 1,
     "credits": false,
@@ -10640,6 +10817,9 @@ const table = [
     "burstRate": 0,
     "count": 5,
     "interval": 0,
+    "lockRange": 350,
+    "lockTime": 4,
+    "lockType": 3,
     "reload": 45,
     "reloadInit": 1,
     "credits": false,
@@ -10669,6 +10849,9 @@ const table = [
     "burstRate": 0,
     "count": 1,
     "interval": 0,
+    "lockRange": 500,
+    "lockTime": 4,
+    "lockType": 3,
     "reload": 10,
     "reloadInit": 1,
     "credits": false,
@@ -10698,6 +10881,9 @@ const table = [
     "burstRate": 0,
     "count": 15,
     "interval": 0,
+    "lockRange": 350,
+    "lockTime": 3,
+    "lockType": 3,
     "reload": 10,
     "reloadInit": 1,
     "credits": false,
@@ -10727,6 +10913,9 @@ const table = [
     "burstRate": 0,
     "count": 1,
     "interval": 0,
+    "lockRange": 700,
+    "lockTime": 120,
+    "lockType": 3,
     "reload": 120,
     "reloadInit": 1,
     "credits": false,
@@ -10756,6 +10945,9 @@ const table = [
     "burstRate": 0,
     "count": 3,
     "interval": 0,
+    "lockRange": 400,
+    "lockTime": 4,
+    "lockType": 3,
     "reload": 20,
     "reloadInit": 1,
     "credits": false,
@@ -10785,6 +10977,9 @@ const table = [
     "burstRate": 0,
     "count": 15,
     "interval": 0,
+    "lockRange": 400,
+    "lockTime": 2,
+    "lockType": 3,
     "reload": 10,
     "reloadInit": 1,
     "credits": false,
@@ -10814,6 +11009,9 @@ const table = [
     "burstRate": 0,
     "count": 1,
     "interval": 0,
+    "lockRange": 300,
+    "lockTime": 4,
+    "lockType": 3,
     "reload": 6,
     "reloadInit": 1,
     "credits": false,
@@ -10843,6 +11041,9 @@ const table = [
     "burstRate": 0,
     "count": 5,
     "interval": 0,
+    "lockRange": 400,
+    "lockTime": 3,
+    "lockType": 3,
     "reload": 85,
     "reloadInit": 1,
     "credits": false,
@@ -10872,6 +11073,9 @@ const table = [
     "burstRate": 0,
     "count": 1,
     "interval": 0,
+    "lockRange": 1000,
+    "lockTime": 60,
+    "lockType": 3,
     "reload": 120,
     "reloadInit": 1,
     "credits": false,
@@ -10901,6 +11105,9 @@ const table = [
     "burstRate": 0,
     "count": 3,
     "interval": 0,
+    "lockRange": 500,
+    "lockTime": 4,
+    "lockType": 3,
     "reload": 20,
     "reloadInit": 1,
     "credits": false,
@@ -10930,6 +11137,9 @@ const table = [
     "burstRate": 0,
     "count": 30,
     "interval": 0,
+    "lockRange": 600,
+    "lockTime": 2,
+    "lockType": 3,
     "reload": 90,
     "reloadInit": 1,
     "credits": false,
@@ -10959,6 +11169,9 @@ const table = [
     "burstRate": 0,
     "count": 15,
     "interval": 0,
+    "lockRange": 500,
+    "lockTime": 1,
+    "lockType": 3,
     "reload": 10,
     "reloadInit": 1,
     "credits": false,
@@ -10988,6 +11201,9 @@ const table = [
     "burstRate": 0,
     "count": 3,
     "interval": 0,
+    "lockRange": 350,
+    "lockTime": 4,
+    "lockType": 3,
     "reload": 6,
     "reloadInit": 1,
     "credits": false,
@@ -15512,6 +15728,9 @@ const table = [
     "burstRate": 0,
     "count": 1,
     "interval": 0,
+    "lockRange": 300,
+    "lockTime": 400,
+    "lockType": 1,
     "reload": 120,
     "reloadInit": 1,
     "credits": false,
@@ -15541,6 +15760,9 @@ const table = [
     "burstRate": 10,
     "count": 1,
     "interval": 4,
+    "lockRange": 200,
+    "lockTime": 30,
+    "lockType": 1,
     "reload": 180,
     "reloadInit": 1,
     "credits": false,
@@ -15570,6 +15792,9 @@ const table = [
     "burstRate": 60,
     "count": 1,
     "interval": 0,
+    "lockRange": 300,
+    "lockTime": 120,
+    "lockType": 1,
     "reload": 360,
     "reloadInit": 1,
     "credits": false,
@@ -15599,6 +15824,9 @@ const table = [
     "burstRate": 0,
     "count": 1,
     "interval": 0,
+    "lockRange": 300,
+    "lockTime": 1500,
+    "lockType": 1,
     "reload": 360,
     "reloadInit": 1,
     "credits": false,
@@ -15628,6 +15856,9 @@ const table = [
     "burstRate": 0,
     "count": 15,
     "interval": 0,
+    "lockRange": 250,
+    "lockTime": 15,
+    "lockType": 1,
     "reload": 180,
     "reloadInit": 1,
     "credits": false,
@@ -15657,6 +15888,9 @@ const table = [
     "burstRate": 8,
     "count": 1,
     "interval": 0,
+    "lockRange": 250,
+    "lockTime": 15,
+    "lockType": 1,
     "reload": 500,
     "reloadInit": 1,
     "credits": false,
@@ -15686,6 +15920,9 @@ const table = [
     "burstRate": 4,
     "count": 1,
     "interval": 0,
+    "lockRange": 400,
+    "lockTime": 30,
+    "lockType": 1,
     "reload": 600,
     "reloadInit": 1,
     "credits": false,
@@ -15715,6 +15952,9 @@ const table = [
     "burstRate": 0,
     "count": 1,
     "interval": 0,
+    "lockRange": 500,
+    "lockTime": 400,
+    "lockType": 1,
     "reload": 120,
     "reloadInit": 1,
     "credits": false,
@@ -15744,6 +15984,9 @@ const table = [
     "burstRate": 10,
     "count": 1,
     "interval": 4,
+    "lockRange": 400,
+    "lockTime": 30,
+    "lockType": 1,
     "reload": 120,
     "reloadInit": 1,
     "credits": false,
@@ -15773,6 +16016,9 @@ const table = [
     "burstRate": 0,
     "count": 20,
     "interval": 0,
+    "lockRange": 350,
+    "lockTime": 15,
+    "lockType": 1,
     "reload": 180,
     "reloadInit": 1,
     "credits": false,
@@ -15802,6 +16048,9 @@ const table = [
     "burstRate": 60,
     "count": 1,
     "interval": 0,
+    "lockRange": 300,
+    "lockTime": 120,
+    "lockType": 1,
     "reload": 360,
     "reloadInit": 1,
     "credits": false,
@@ -15831,6 +16080,9 @@ const table = [
     "burstRate": 0,
     "count": 1,
     "interval": 0,
+    "lockRange": 400,
+    "lockTime": 1500,
+    "lockType": 1,
     "reload": 360,
     "reloadInit": 1,
     "credits": false,
@@ -15860,6 +16112,9 @@ const table = [
     "burstRate": 4,
     "count": 1,
     "interval": 0,
+    "lockRange": 500,
+    "lockTime": 30,
+    "lockType": 1,
     "reload": 600,
     "reloadInit": 1,
     "credits": false,
@@ -15889,6 +16144,9 @@ const table = [
     "burstRate": 0,
     "count": 1,
     "interval": 0,
+    "lockRange": 700,
+    "lockTime": 400,
+    "lockType": 1,
     "reload": 120,
     "reloadInit": 1,
     "credits": false,
@@ -15918,6 +16176,9 @@ const table = [
     "burstRate": 8,
     "count": 1,
     "interval": 0,
+    "lockRange": 400,
+    "lockTime": 15,
+    "lockType": 1,
     "reload": 500,
     "reloadInit": 1,
     "credits": false,
@@ -15947,6 +16208,9 @@ const table = [
     "burstRate": 0,
     "count": 25,
     "interval": 0,
+    "lockRange": 500,
+    "lockTime": 15,
+    "lockType": 1,
     "reload": 180,
     "reloadInit": 1,
     "credits": false,
@@ -15976,6 +16240,9 @@ const table = [
     "burstRate": 6,
     "count": 1,
     "interval": 4,
+    "lockRange": 400,
+    "lockTime": 30,
+    "lockType": 1,
     "reload": 180,
     "reloadInit": 1,
     "credits": false,
@@ -16005,6 +16272,9 @@ const table = [
     "burstRate": 0,
     "count": 1,
     "interval": 0,
+    "lockRange": 1000,
+    "lockTime": 1500,
+    "lockType": 1,
     "reload": 180,
     "reloadInit": 1,
     "credits": false,
@@ -16034,6 +16304,9 @@ const table = [
     "burstRate": 0,
     "count": 1,
     "interval": 0,
+    "lockRange": 800,
+    "lockTime": 400,
+    "lockType": 1,
     "reload": 120,
     "reloadInit": 1,
     "credits": false,
@@ -16063,6 +16336,9 @@ const table = [
     "burstRate": 8,
     "count": 1,
     "interval": 0,
+    "lockRange": 500,
+    "lockTime": 15,
+    "lockType": 1,
     "reload": 200,
     "reloadInit": 1,
     "credits": false,
@@ -16092,6 +16368,9 @@ const table = [
     "burstRate": 4,
     "count": 1,
     "interval": 0,
+    "lockRange": 700,
+    "lockTime": 30,
+    "lockType": 1,
     "reload": 600,
     "reloadInit": 1,
     "credits": false,
@@ -16121,6 +16400,9 @@ const table = [
     "burstRate": 0,
     "count": 30,
     "interval": 0,
+    "lockRange": 600,
+    "lockTime": 15,
+    "lockType": 1,
     "reload": 180,
     "reloadInit": 1,
     "credits": false,
@@ -16150,6 +16432,9 @@ const table = [
     "burstRate": 0,
     "count": 1,
     "interval": 0,
+    "lockRange": 1200,
+    "lockTime": 300,
+    "lockType": 1,
     "reload": 120,
     "reloadInit": 1,
     "credits": false,

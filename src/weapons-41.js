@@ -1,7 +1,7 @@
 const $ = document.createElement.bind(document)
 let active = {}
 
-function pickChar(ch) {
+function pickChar(ch, cat) {
   const chIdx = characters.indexOf(ch)
   const item = document
     .querySelector(`#char-tabs .${ch}`)
@@ -34,7 +34,7 @@ function pickChar(ch) {
     catTabs.appendChild(li)
   }
 
-  pickCategory(ch, categories[from])
+  pickCategory(ch, cat || categories[from])
 }
 
 function pickCategory(ch, cat) {
@@ -158,6 +158,35 @@ const headers = [{
   },
 }, {
   iff: (ch, cat, wpn) => {
+    if(cat === 'special' && [
+      'winger',
+      'bomber',
+    ].includes(ch)) {
+      return false
+    }
+    if([
+      'rocket',
+      'grenade',
+      'missile',
+      'special',
+      'plasma',
+      'heavy',
+      'raid',
+      'support',
+      'limpet',
+      'deploy',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Area',
+  cb: wpn => {
+    if(!wpn.radius) return '-'
+    return wpn.radius
+  },
+}, {
+  iff: (ch, cat, wpn) => {
     if([
       'shield',
       'raid',
@@ -267,6 +296,7 @@ const headers = [{
       'particle',
       'plasma',
       'guide',
+      'raid',
       'shield',
     ].includes(cat)) {
       return false
@@ -296,6 +326,7 @@ const headers = [{
   iff: (ch, cat, wpn) => {
     if([
       'guide',
+      'raid',
       'shield',
     ].includes(cat)) {
       return false
@@ -317,6 +348,7 @@ const headers = [{
   iff: (ch, cat, wpn) => {
     if([
       'guide',
+      'raid',
       'shield',
     ].includes(cat)) {
       return false
@@ -433,7 +465,7 @@ const catLabels = [
   'Shields',
   'Automatic Artillery',
   'Artillery',
-  'Missile Launcheres',
+  'Missile Launchers',
   null,
   null,
   null,
@@ -24804,3 +24836,4 @@ const table = [
 ]
 
 pickChar('ranger')
+// pickChar('bomber', 'raid')

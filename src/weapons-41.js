@@ -143,6 +143,10 @@ const headers = [{
     if([
       'guide',
       'shield',
+      'tank',
+      'ground',
+      'heli',
+      'mech',
     ].includes(cat)) {
       return false
     }
@@ -190,6 +194,10 @@ const headers = [{
     if([
       'shield',
       'raid',
+      'tank',
+      'ground',
+      'heli',
+      'mech',
     ].includes(cat)) {
       return false
     }
@@ -238,6 +246,50 @@ const headers = [{
   }
 }, {
   iff: (ch, cat, wpn) => {
+    if([
+      'missile',
+      'special',
+      'raid',
+      'deploy',
+      'hammer',
+      'spear',
+      'shield',
+      'tank',
+      'ground',
+      'heli',
+      'mech',
+    ].includes(cat)) {
+      return false
+    }
+    return true
+  },
+  label: 'Acc',
+  cb: wpn => {
+    return [
+      [0.9995, 'S++'],
+      [0.9975, 'S+'],
+      [0.99, 'A+'],
+      [0.985, 'A'],
+      [0.98, 'A-'],
+      [0.97, 'B+'],
+      [0.95, 'B'],
+      [0.9, 'B-'],
+      [0.85, 'C+'],
+      [0.8, 'C'],
+      [0.75, 'C-'],
+      [0.7, 'D'],
+      [0.6, 'E'],
+      [0.5, 'F'],
+      [0.4, 'G'],
+      [0.2, 'I'],
+      [0.0, 'J'],
+      [-0.2, 'K'],
+      [-0.4, 'L'],
+      [-Infinity, 'Z'],
+    ].find(([a]) => a <= wpn.accuracy)[1]
+  }
+}, {
+  iff: (ch, cat, wpn) => {
     return ch === 'winger'
   },
   label: 'Enr',
@@ -248,6 +300,10 @@ const headers = [{
   iff: (ch, cat, wpn) => {
     if([
       'shield',
+      'tank',
+      'ground',
+      'heli',
+      'mech',
     ].includes(cat)) {
       return false
     }
@@ -298,6 +354,10 @@ const headers = [{
       'guide',
       'raid',
       'shield',
+      'tank',
+      'ground',
+      'heli',
+      'mech',
     ].includes(cat)) {
       return false
     }
@@ -328,6 +388,10 @@ const headers = [{
       'guide',
       'raid',
       'shield',
+      'tank',
+      'ground',
+      'heli',
+      'mech',
     ].includes(cat)) {
       return false
     }
@@ -350,6 +414,10 @@ const headers = [{
       'guide',
       'raid',
       'shield',
+      'tank',
+      'ground',
+      'heli',
+      'mech',
     ].includes(cat)) {
       return false
     }

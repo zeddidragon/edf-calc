@@ -1,3 +1,4 @@
+const $ = document.createElement.bind(document)
 let active = {}
 
 function pickChar(ch) {
@@ -22,9 +23,13 @@ function pickChar(ch) {
     const cat = categories[i]
     if(!cat) continue
     const label = catLabels[i]
-    const li = document.createElement('li')
+    const li = $('li')
     li.classList.add(cat)
-    boldify(li, label, 2)
+    if(label === 'CC Strikers' || label === 'CC Piercers') {
+      boldify(li, label, 4)
+    } else {
+      boldify(li, label, 2)
+    }
     li.addEventListener('click', () => pickCategory(ch, cat))
     catTabs.appendChild(li)
   }
@@ -52,22 +57,33 @@ function populateWeapons(ch, cat) {
   weaponTable.innerHTML = ''
   const weapons = table
     .filter(t => t.character === ch && t.category === cat)
-  const thead = document.createElement('thead')
-  const theadrow = document.createElement('tr')
+  const thead = $('thead')
+  const theadrow = $('tr')
   for(const header of headers) {
-    const cell = document.createElement('th')
+    if(header.iff && !header.iff(ch, cat)) {
+      continue
+    }
+    const cell = $('th')
     cell.textContent = header.label
     theadrow.appendChild(cell)
   }
   thead.appendChild(theadrow)
   weaponTable.appendChild(thead)
 
-  const tbody = document.createElement('tbody')
+  const tbody = $('tbody')
   for(const weapon of weapons) {
-    const row = document.createElement('tr')
+    const row = $('tr')
     for(const header of headers) {
-      const cell = document.createElement('td')
-      cell.textContent = header.cb(weapon)
+      if(header.iff && !header.iff(ch, cat)) {
+        continue
+      }
+      const cell = $('td')
+      const contents = header.cb(weapon)
+      if(contents instanceof HTMLElement) {
+        cell.appendChild(contents)
+      } else {
+        cell.textContent = contents
+      }
       cell.classList.add(header.label)
       row.appendChild(cell)
     }
@@ -78,36 +94,131 @@ function populateWeapons(ch, cat) {
 
 const FPS = 60
 const headers = [{
-  label: 'Name',
-  cb: wpn => wpn.name,
+  label: '✓',
+  cb: () => {
+    const el = $('input')
+    el.setAttribute('type', 'checkbox')
+    return el
+  },
 }, {
   label: 'Lv',
   cb: wpn => wpn.level,
 }, {
+  label: 'Name',
+  cb: wpn => wpn.name,
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'raid',
+      'particle',
+      'plasma',
+    ].includes(cat)) {
+      return false
+    }
+    if(ch === 'winger' && [
+      'sniper',
+      'missile'
+    ].includes(cat)) {
+      return false
+    }
+    return true
+  },
   label: 'Cap',
   cb: wpn => wpn.ammo,
 }, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'guide',
+      'shield',
+    ].includes(cat)) {
+      return false
+    }
+    return true
+  },
+  label: 'Dmg',
+  cb: wpn => +wpn.damage.toFixed(1),
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'shield',
+      'raid',
+    ].includes(cat)) {
+      return false
+    }
+    if(ch === 'winger' && [
+      'special',
+    ].includes(cat)) {
+      return false
+    }
+    return true
+  },
   label: 'RoF',
   cb: wpn => {
+    if(wpn.category === 'particle') {
+      return +(FPS / wpn.reload).toFixed(1)
+    }
+    if(wpn.category == 'missile' && wpn.character === 'winger') {
+      return +(FPS / wpn.reload).toFixed(1)
+    }
     const rof = +(FPS / wpn.interval).toFixed(1)
     if(rof === Infinity) return '-'
     return rof
   }
 }, {
-  label: 'Dmg',
-  cb: wpn => +wpn.damage.toFixed(1),
-}, {
   label: 'Rel',
   cb: wpn => {
-    if(wpn.reload < 0) return '-'
+    if(wpn.reload <= 0) return '-'
+    if(wpn.credits) return wpn.reload
     return (wpn.reload / FPS).toFixed(1)
   }
 }, {
+  iff: (ch, cat, wpn) => {
+    return ch === 'winger'
+  },
+  label: 'Enr',
+  cb: wpn => {
+    return +wpn.energy.toFixed(1)
+  }
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'shield',
+    ].includes(cat)) {
+      return false
+    }
+    if(ch === 'winger' && [
+      'special',
+    ].includes(cat)) {
+      return false
+    }
+    return true
+  },
   label: 'Rng',
   cb: wpn => wpn.range.toFixed(0),
 }, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'raid',
+      'tank',
+      'ground',
+      'heli',
+      'mech',
+    ].includes(cat)) {
+      return false
+    }
+    if(ch === 'winger' && [
+      'special',
+    ].includes(cat)) {
+      return false
+    }
+    return true
+  },
   label: 'Spd',
-  cb: wpn => (wpn.speed * FPS).toFixed(0),
+  cb: wpn => {
+    const spd = (wpn.speed * FPS)
+    if(spd > 10000) return '-'
+    return spd.toFixed(0)
+  },
 }]
 
 const characters = [
@@ -128,7 +239,7 @@ const charMenu = document.querySelector('#char-tabs')
 for(let i = 0; i < characters.length; i++) {
   const c = characters[i]
   const cLabel = charLabels[i]
-  const item = document.createElement('li')
+  const item = $('li')
   item.classList.add(c)
   boldify(item, cLabel, 3)
   charMenu.appendChild(item)
@@ -138,7 +249,7 @@ for(let i = 0; i < characters.length; i++) {
 function boldify(el, str, cutPoint=2) {
   const bolded = str.slice(0, cutPoint)
   const rem = str.slice(cutPoint)
-  const bold = document.createElement('b')
+  const bold = $('b')
   bold.textContent = bolded
   el.appendChild(bold)
   el.innerHTML += rem

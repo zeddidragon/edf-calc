@@ -23,6 +23,7 @@ menu li {
 td {
   padding: 0 0.2em;
   text-align: right;
+  white-space: nowrap;
 }
 
 .Name {

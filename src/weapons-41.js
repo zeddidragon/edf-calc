@@ -154,11 +154,65 @@ const headers = [{
   },
   label: 'Dmg',
   cb: wpn => {
-    const dmg = +Math.abs(wpn.damage).toFixed(1)
+    let dmg = +Math.abs(wpn.damage).toFixed(1)
     if(wpn.count > 1) {
-      return `${wpn.count} x ${dmg}`
+      dmg = `${wpn.count} x ${dmg}`
     }
     return dmg
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if(cat === 'special' && [
+      'winger',
+      'bomber',
+    ].includes(ch)) {
+      return false
+    }
+    if([
+      'rocket',
+      'grenade',
+      'missile',
+      'special',
+      'plasma',
+      'heavy',
+      'raid',
+      'support',
+      'limpet',
+      'deploy',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Area',
+  cb: wpn => {
+    if(!wpn.radius) return '-'
+    return wpn.radius
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'winger',
+      'bomber',
+    ].includes(ch)) {
+      return false
+    }
+    if([
+      'shotgun',
+      'sniper',
+      'spear',
+      'heavy',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'P',
+  cb: wpn => {
+    if(wpn.piercing) {
+      return '✓'
+    }
+    return ''
   },
 }, {
   iff: (ch, cat, wpn) => {

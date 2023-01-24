@@ -464,9 +464,9 @@ const headers = [{
   },
   label: 'Spd',
   cb: wpn => {
-    if(wpn.speed < 2) return '-'
     const spd = (wpn.speed * FPS)
     if(spd > 10000) return '-'
+    if(!spd) return '-'
     return spd.toFixed(0)
   },
 }, {

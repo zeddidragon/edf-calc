@@ -178,9 +178,12 @@ const headers = [{
   },
   label: 'Dmg',
   cb: wpn => {
+    if(wpn.damage < 1) {
+      return +(wpn.damage).toFixed(2)
+    }
     let dmg = +Math.abs(wpn.damage).toFixed(1)
     if(wpn.count > 1) {
-      dmg = `${dmg} x ${wpn.count}`
+      dmg = `${+dmg.toFixed(1)} x ${wpn.count}`
     }
     return dmg
   },
@@ -609,7 +612,7 @@ const headers = [{
       if(['guard', 'power'].includes(wpn.supportType)) {
         return '-'
       }
-      return +(wpn.damage * wpn.duration).toFixed(1)
+      return +(wpn.damage * wpn.duration * wpn.ammo).toFixed(1)
     }
     if(wpn.type === 'DecoyBullet01') {
       return '-'

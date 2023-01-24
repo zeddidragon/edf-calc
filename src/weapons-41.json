@@ -3901,7 +3901,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 600
   },
   {
     "id": "Weapon114",
@@ -4029,7 +4030,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 1800
   },
   {
     "id": "Weapon118",
@@ -4093,7 +4095,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 300
   },
   {
     "id": "Weapon120",
@@ -4189,7 +4192,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 600
   },
   {
     "id": "Weapon123",
@@ -4253,7 +4257,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 600
   },
   {
     "id": "Weapon125",
@@ -4349,7 +4354,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 240
   },
   {
     "id": "aNapalmLauncher01",
@@ -4381,7 +4387,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 360
   },
   {
     "id": "Weapon128",
@@ -4477,7 +4484,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 240
   },
   {
     "id": "Weapon131",
@@ -4541,7 +4549,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 240
   },
   {
     "id": "Weapon133",
@@ -4573,7 +4582,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 600
   },
   {
     "id": "Weapon134",
@@ -4605,7 +4615,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 240
   },
   {
     "id": "Weapon135",
@@ -4669,7 +4680,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 240
   },
   {
     "id": "Weapon137",
@@ -4701,7 +4713,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 900
   },
   {
     "id": "Weapon138",
@@ -4733,7 +4746,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 600
   },
   {
     "id": "Weapon139",
@@ -4765,7 +4779,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 360
   },
   {
     "id": "Weapon140",
@@ -4829,7 +4844,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 240
   },
   {
     "id": "Weapon142",
@@ -4925,7 +4941,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 1800
   },
   {
     "id": "Weapon145",
@@ -4957,7 +4974,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 240
   },
   {
     "id": "Weapon146",
@@ -5021,7 +5039,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 900
   },
   {
     "id": "Weapon148",
@@ -5085,7 +5104,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 360
   },
   {
     "id": "Weapon150",
@@ -11770,7 +11790,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "shots": 1800,
+    "duration": 1800
   },
   {
     "id": "pClusterHoming01",
@@ -11802,7 +11824,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "shots": 600,
+    "duration": 1800
   },
   {
     "id": "Weapon342",
@@ -11834,7 +11858,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "shots": 600,
+    "duration": 1800
   },
   {
     "id": "Weapon343",
@@ -11866,7 +11892,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "shots": 500,
+    "duration": 2000
   },
   {
     "id": "Weapon344",
@@ -11898,7 +11926,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "shots": 1800,
+    "duration": 1800
   },
   {
     "id": "Weapon345",
@@ -11930,7 +11960,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "shots": 1800,
+    "duration": 1800
   },
   {
     "id": "Weapon346",
@@ -11962,7 +11994,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "shots": 1800,
+    "duration": 1800
   },
   {
     "id": "Weapon347",
@@ -11994,7 +12028,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "shots": 1800,
+    "duration": 1800
   },
   {
     "id": "Weapon348",
@@ -12026,7 +12062,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "shots": 1800,
+    "duration": 1800
   },
   {
     "id": "Weapon349",
@@ -12058,7 +12096,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "shots": 600,
+    "duration": 1800
   },
   {
     "id": "Weapon350",
@@ -12090,7 +12130,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "shots": 500,
+    "duration": 2000
   },
   {
     "id": "Weapon351",
@@ -12122,7 +12164,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "shots": 600,
+    "duration": 1800
   },
   {
     "id": "Weapon352",
@@ -12154,7 +12198,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "shots": 1000,
+    "duration": 2000
   },
   {
     "id": "Weapon353",
@@ -12186,7 +12232,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "shots": 600,
+    "duration": 1800
   },
   {
     "id": "pGenocideCluster",
@@ -12218,7 +12266,8 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "shots": 5
   },
   {
     "id": "hImpactHammer01",
@@ -17823,7 +17872,9 @@
         "value": 4
       }
     ],
-    "underground": true
+    "underground": true,
+    "duration": 3600,
+    "supportType": "life"
   },
   {
     "id": "Weapon518",
@@ -17855,7 +17906,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 3600,
+    "supportType": "life"
   },
   {
     "id": "Weapon519",
@@ -17887,7 +17940,9 @@
     "credits": false,
     "secondary": 1,
     "zoom": 4,
-    "underground": true
+    "underground": true,
+    "duration": 600,
+    "supportType": "life"
   },
   {
     "id": "Weapon520",
@@ -17919,7 +17974,9 @@
     "credits": false,
     "secondary": 1,
     "zoom": 4,
-    "underground": true
+    "underground": true,
+    "duration": 600,
+    "supportType": "life"
   },
   {
     "id": "Weapon521",
@@ -17951,7 +18008,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 3600,
+    "supportType": "life"
   },
   {
     "id": "Weapon522",
@@ -17983,7 +18042,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 3600,
+    "supportType": "life"
   },
   {
     "id": "Weapon523",
@@ -18015,7 +18076,9 @@
     "credits": false,
     "secondary": 1,
     "zoom": 4,
-    "underground": true
+    "underground": true,
+    "duration": 600,
+    "supportType": "life"
   },
   {
     "id": "Weapon524",
@@ -18047,7 +18110,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 3600,
+    "supportType": "life"
   },
   {
     "id": "Weapon525",
@@ -18079,7 +18144,9 @@
     "credits": false,
     "secondary": 1,
     "zoom": 4,
-    "underground": true
+    "underground": true,
+    "duration": 600,
+    "supportType": "life"
   },
   {
     "id": "Weapon526",
@@ -18116,7 +18183,9 @@
         "value": 4
       }
     ],
-    "underground": true
+    "underground": true,
+    "duration": 5400,
+    "supportType": "plasma"
   },
   {
     "id": "Weapon527",
@@ -18148,7 +18217,9 @@
     "credits": false,
     "secondary": 1,
     "zoom": 6,
-    "underground": true
+    "underground": true,
+    "duration": 1800,
+    "supportType": "plasma"
   },
   {
     "id": "Weapon528",
@@ -18185,7 +18256,9 @@
         "value": 4
       }
     ],
-    "underground": true
+    "underground": true,
+    "duration": 5400,
+    "supportType": "plasma"
   },
   {
     "id": "Weapon529",
@@ -18222,7 +18295,9 @@
         "value": 4
       }
     ],
-    "underground": true
+    "underground": true,
+    "duration": 800,
+    "supportType": "plasma"
   },
   {
     "id": "Weapon530",
@@ -18259,7 +18334,9 @@
         "value": 4
       }
     ],
-    "underground": true
+    "underground": true,
+    "duration": 5400,
+    "supportType": "plasma"
   },
   {
     "id": "Weapon531",
@@ -18291,7 +18368,9 @@
     "credits": false,
     "secondary": 1,
     "zoom": 8,
-    "underground": true
+    "underground": true,
+    "duration": 1800,
+    "supportType": "plasma"
   },
   {
     "id": "Weapon532",
@@ -18328,7 +18407,9 @@
         "value": 4
       }
     ],
-    "underground": true
+    "underground": true,
+    "duration": 1200,
+    "supportType": "plasma"
   },
   {
     "id": "Weapon533",
@@ -18365,7 +18446,9 @@
         "value": 4
       }
     ],
-    "underground": true
+    "underground": true,
+    "duration": 5400,
+    "supportType": "plasma"
   },
   {
     "id": "Weapon534",
@@ -18397,7 +18480,9 @@
     "credits": false,
     "secondary": 1,
     "zoom": 12,
-    "underground": true
+    "underground": true,
+    "duration": 1800,
+    "supportType": "plasma"
   },
   {
     "id": "Weapon535",
@@ -18429,7 +18514,9 @@
     "credits": false,
     "secondary": 1,
     "zoom": 4,
-    "underground": true
+    "underground": true,
+    "duration": 1800,
+    "supportType": "guard"
   },
   {
     "id": "Weapon536",
@@ -18461,7 +18548,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 3600,
+    "supportType": "guard"
   },
   {
     "id": "Weapon537",
@@ -18493,7 +18582,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 5400,
+    "supportType": "guard"
   },
   {
     "id": "Weapon538",
@@ -18525,7 +18616,9 @@
     "credits": false,
     "secondary": 1,
     "zoom": 4,
-    "underground": true
+    "underground": true,
+    "duration": 2700,
+    "supportType": "guard"
   },
   {
     "id": "Weapon539",
@@ -18557,7 +18650,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 5400,
+    "supportType": "guard"
   },
   {
     "id": "Weapon540",
@@ -18589,7 +18684,9 @@
     "credits": false,
     "secondary": 1,
     "zoom": 4,
-    "underground": true
+    "underground": true,
+    "duration": 3600,
+    "supportType": "guard"
   },
   {
     "id": "Weapon541",
@@ -18621,7 +18718,9 @@
     "credits": false,
     "secondary": 0,
     "zoom": 0,
-    "underground": true
+    "underground": true,
+    "duration": 5400,
+    "supportType": "guard"
   },
   {
     "id": "Weapon542",
@@ -18658,7 +18757,9 @@
         "value": 4
       }
     ],
-    "underground": true
+    "underground": true,
+    "duration": 7200,
+    "supportType": "power"
   },
   {
     "id": "Weapon543",
@@ -18690,7 +18791,9 @@
     "credits": false,
     "secondary": 1,
     "zoom": 4,
-    "underground": true
+    "underground": true,
+    "duration": 3600,
+    "supportType": "power"
   },
   {
     "id": "Weapon544",
@@ -18727,7 +18830,9 @@
         "value": 0
       }
     ],
-    "underground": true
+    "underground": true,
+    "duration": 7200,
+    "supportType": "power"
   },
   {
     "id": "Weapon545",
@@ -18764,7 +18869,9 @@
         "value": 0
       }
     ],
-    "underground": true
+    "underground": true,
+    "duration": 7200,
+    "supportType": "power"
   },
   {
     "id": "Weapon546",
@@ -18796,7 +18903,9 @@
     "credits": false,
     "secondary": 1,
     "zoom": 4,
-    "underground": true
+    "underground": true,
+    "duration": 5400,
+    "supportType": "power"
   },
   {
     "id": "Weapon547",
@@ -18833,7 +18942,9 @@
         "value": 0
       }
     ],
-    "underground": true
+    "underground": true,
+    "duration": 7200,
+    "supportType": "power"
   },
   {
     "id": "Weapon548",
@@ -18870,7 +18981,9 @@
         "value": 0
       }
     ],
-    "underground": true
+    "underground": true,
+    "duration": 7200,
+    "supportType": "power"
   },
   {
     "id": "eRequestMortar01",
@@ -18904,7 +19017,7 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 10
+    "shots": 10
   },
   {
     "id": "eRequestMortar02",
@@ -18938,7 +19051,7 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 20
+    "shots": 20
   },
   {
     "id": "Weapon549",
@@ -18972,7 +19085,7 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 10
+    "shots": 10
   },
   {
     "id": "Weapon550",
@@ -19006,7 +19119,7 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 20
+    "shots": 20
   },
   {
     "id": "Weapon551",
@@ -19040,7 +19153,7 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 20
+    "shots": 20
   },
   {
     "id": "Weapon552",
@@ -19074,7 +19187,7 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 10
+    "shots": 10
   },
   {
     "id": "Weapon553",
@@ -19108,7 +19221,7 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 10
+    "shots": 10
   },
   {
     "id": "Weapon554",
@@ -19142,7 +19255,7 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 20
+    "shots": 20
   },
   {
     "id": "eRequestAirStrike01",
@@ -19176,7 +19289,7 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 300
+    "shots": 300
   },
   {
     "id": "Weapon555",
@@ -19210,7 +19323,7 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 20
+    "shots": 20
   },
   {
     "id": "Weapon556",
@@ -19244,7 +19357,7 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 1
+    "shots": 1
   },
   {
     "id": "Weapon557",
@@ -19278,7 +19391,7 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 300
+    "shots": 300
   },
   {
     "id": "Weapon558",
@@ -19312,7 +19425,7 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 20
+    "shots": 20
   },
   {
     "id": "Weapon559",
@@ -19346,7 +19459,7 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 1
+    "shots": 1
   },
   {
     "id": "Weapon560",
@@ -19380,7 +19493,7 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 20
+    "shots": 20
   },
   {
     "id": "Weapon561",
@@ -19414,7 +19527,7 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 300
+    "shots": 300
   },
   {
     "id": "Weapon562",
@@ -19448,7 +19561,7 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 300
+    "shots": 300
   },
   {
     "id": "Weapon563",
@@ -19482,7 +19595,7 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 1
+    "shots": 1
   },
   {
     "id": "Weapon564",
@@ -19516,7 +19629,7 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 20
+    "shots": 20
   },
   {
     "id": "eRequestBomber01",
@@ -19550,8 +19663,8 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "bomber",
-    "bomberCount": 1,
-    "bomberShots": 10
+    "bombers": 1,
+    "shots": 10
   },
   {
     "id": "Weapon565",
@@ -19585,8 +19698,8 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "bomber",
-    "bomberCount": 3,
-    "bomberShots": 100
+    "bombers": 3,
+    "shots": 100
   },
   {
     "id": "Weapon566",
@@ -19620,8 +19733,8 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "bomber",
-    "bomberCount": 2,
-    "bomberShots": 10
+    "bombers": 2,
+    "shots": 10
   },
   {
     "id": "Weapon567",
@@ -19655,8 +19768,8 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "bomber",
-    "bomberCount": 3,
-    "bomberShots": 20
+    "bombers": 3,
+    "shots": 20
   },
   {
     "id": "Weapon568",
@@ -19690,8 +19803,8 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "bomber",
-    "bomberCount": 4,
-    "bomberShots": 120
+    "bombers": 4,
+    "shots": 120
   },
   {
     "id": "Weapon569",
@@ -19725,8 +19838,8 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "bomber",
-    "bomberCount": 4,
-    "bomberShots": 20
+    "bombers": 4,
+    "shots": 20
   },
   {
     "id": "Weapon570",
@@ -19760,8 +19873,8 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "bomber",
-    "bomberCount": 10,
-    "bomberShots": 5
+    "bombers": 10,
+    "shots": 5
   },
   {
     "id": "Weapon571",
@@ -19795,8 +19908,8 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "bomber",
-    "bomberCount": 1,
-    "bomberShots": 50
+    "bombers": 1,
+    "shots": 50
   },
   {
     "id": "Weapon572",
@@ -19830,8 +19943,8 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "bomber",
-    "bomberCount": 1,
-    "bomberShots": 10
+    "bombers": 1,
+    "shots": 10
   },
   {
     "id": "Weapon573",
@@ -19865,8 +19978,8 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "bomber",
-    "bomberCount": 5,
-    "bomberShots": 150
+    "bombers": 5,
+    "shots": 150
   },
   {
     "id": "Weapon574",
@@ -19900,8 +20013,8 @@
     "zoom": 0,
     "underground": false,
     "strikeType": "bomber",
-    "bomberCount": 4,
-    "bomberShots": 10
+    "bombers": 4,
+    "shots": 10
   },
   {
     "id": "Weapon575",
@@ -19935,7 +20048,7 @@
     "zoom": 4,
     "underground": false,
     "strikeType": "satellite",
-    "shellCount": 4
+    "shots": 4
   },
   {
     "id": "Weapon576",
@@ -19969,7 +20082,7 @@
     "zoom": 4,
     "underground": false,
     "strikeType": "satellite",
-    "shellCount": 15
+    "shots": 15
   },
   {
     "id": "Weapon577",
@@ -20003,7 +20116,7 @@
     "zoom": 4,
     "underground": false,
     "strikeType": "satellite",
-    "shellCount": 1
+    "shots": 1
   },
   {
     "id": "Weapon578",
@@ -20037,7 +20150,7 @@
     "zoom": 4,
     "underground": false,
     "strikeType": "satellite",
-    "shellCount": 5
+    "shots": 5
   },
   {
     "id": "Weapon579",
@@ -20071,7 +20184,7 @@
     "zoom": 4,
     "underground": false,
     "strikeType": "satellite",
-    "shellCount": 20
+    "shots": 20
   },
   {
     "id": "Weapon580",
@@ -20105,7 +20218,7 @@
     "zoom": 4,
     "underground": false,
     "strikeType": "satellite",
-    "shellCount": 1
+    "shots": 1
   },
   {
     "id": "Weapon581",
@@ -20139,7 +20252,7 @@
     "zoom": 4,
     "underground": false,
     "strikeType": "satellite",
-    "shellCount": 6
+    "shots": 6
   },
   {
     "id": "Weapon582",
@@ -20173,7 +20286,7 @@
     "zoom": 4,
     "underground": false,
     "strikeType": "satellite",
-    "shellCount": 1
+    "shots": 1
   },
   {
     "id": "Weapon583",
@@ -20207,7 +20320,7 @@
     "zoom": 4,
     "underground": false,
     "strikeType": "satellite",
-    "shellCount": 30
+    "shots": 30
   },
   {
     "id": "Weapon584",
@@ -20241,7 +20354,7 @@
     "zoom": 4,
     "underground": false,
     "strikeType": "satellite",
-    "shellCount": 1
+    "shots": 1
   },
   {
     "id": "Weapon585",
@@ -20275,7 +20388,7 @@
     "zoom": 4,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 600
+    "shots": 600
   },
   {
     "id": "Weapon586",
@@ -20309,7 +20422,7 @@
     "zoom": 4,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 45
+    "shots": 45
   },
   {
     "id": "Weapon587",
@@ -20343,7 +20456,7 @@
     "zoom": 4,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 600
+    "shots": 600
   },
   {
     "id": "Weapon588",
@@ -20377,7 +20490,7 @@
     "zoom": 4,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 600
+    "shots": 600
   },
   {
     "id": "Weapon589",
@@ -20411,7 +20524,7 @@
     "zoom": 4,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 60
+    "shots": 60
   },
   {
     "id": "Weapon590",
@@ -20445,7 +20558,7 @@
     "zoom": 4,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 600
+    "shots": 600
   },
   {
     "id": "Weapon591",
@@ -20479,7 +20592,7 @@
     "zoom": 4,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 80
+    "shots": 80
   },
   {
     "id": "Weapon592",
@@ -20513,7 +20626,7 @@
     "zoom": 4,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 600
+    "shots": 600
   },
   {
     "id": "Weapon593",
@@ -20547,7 +20660,7 @@
     "zoom": 4,
     "underground": false,
     "strikeType": "shelling",
-    "shellCount": 200
+    "shots": 200
   },
   {
     "id": "Weapon594",

@@ -8,7 +8,7 @@ fetch('src/weapons-41.json')
     console.log(data)
     table = data
     pickChar('ranger')
-    // pickChar('bomber', 'raid')
+    pickChar('ranger', 'grenade')
   })
 
 function pickChar(ch, cat) {
@@ -166,7 +166,7 @@ const headers = [{
   cb: wpn => {
     let dmg = +Math.abs(wpn.damage).toFixed(1)
     if(wpn.count > 1) {
-      dmg = `${wpn.count} x ${dmg}`
+      dmg = `${dmg} x ${wpn.count}`
     }
     return dmg
   },
@@ -202,7 +202,33 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
+      'support',
+      'grenade',
+    ].includes(cat)) {
+      return true
+    }
+    if(ch === 'winger' && [
+      'special',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Dur',
+  cb: wpn => {
+    if(!wpn.duration) return '-'
+    return +(wpn.duration / FPS).toFixed(1)
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
       'raid',
+      'deploy',
+    ].includes(cat)) {
+      return true
+    }
+    if(ch === 'winger' && [
+      'special',
     ].includes(cat)) {
       return true
     }
@@ -212,13 +238,13 @@ const headers = [{
   cb: wpn => {
     switch(wpn.strikeType) {
       case 'rog': {
-        return '------'
+        return '-'
       }
       case 'bomber': {
-        return `${wpn.bomberShots} x ${wpn.bomberCount}`
+        return `${wpn.shots} x ${wpn.bombers}`
       }
       default: { // Shelling
-        return wpn.shellCount
+        return wpn.shots
       }
     }
   },
@@ -250,12 +276,13 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
-      'shield',
       'raid',
+      'support',
       'tank',
       'ground',
       'heli',
       'mech',
+      'shield',
     ].includes(cat)) {
       return false
     }
@@ -357,6 +384,7 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
+      'support',
       'shield',
       'tank',
       'ground',
@@ -422,7 +450,6 @@ const headers = [{
     if(ch === 'winger' && [
       'sniper',
       'missile',
-      'special',
     ].includes(cat)) {
       return false
     }
@@ -430,14 +457,23 @@ const headers = [{
   },
   label: 'DPS',
   cb: wpn => {
-    if(wpn.ammo < 2) {
+    if(wpn.ammo < 2 && !wpn.duration) {
       return '-'
     }
     if(wpn.burst > 100) {
       return wpn.damage * FPS / wpn.burstRate
     }
-    const burstTime = wpn.burst * wpn.burstRate + (wpn.interval || 1)
+    let burstTime = wpn.burst * wpn.burstRate + (wpn.interval || 1)
     const burstDamage = Math.abs(wpn.damage * wpn.count * (wpn.burst || 1))
+    if(wpn.category === 'support') {
+      if(['guard', 'power'].includes(wpn.supportType)) {
+        return '-'
+      }
+      return +(wpn.damage * FPS).toFixed(1)
+    }
+    if(wpn.duration) {
+      return +(burstDamage * (wpn.shots || 1) * FPS / wpn.duration).toFixed(1)
+    }
     return +(burstDamage * FPS / burstTime).toFixed(1)
   },
 }, {
@@ -445,6 +481,7 @@ const headers = [{
     if([
       'guide',
       'raid',
+      'support',
       'shield',
       'tank',
       'ground',
@@ -462,9 +499,9 @@ const headers = [{
     }
     const magDamage = wpn.damage * wpn.count * wpn.ammo
     const bursts = wpn.ammo / (wpn.burst || 1)
-    const burstTime = (wpn.burst * wpn.burstRate) + (wpn.interval || 1)
+    const burstTime = (wpn.burst * wpn.burstRate) + wpn.interval
     const magTime = bursts * burstTime + wpn.reload
-    return +(magDamage * FPS / magTime).toFixed(1)
+    return +(magDamage * (wpn.shots || 1) * FPS / magTime).toFixed(1)
   },
 }, {
   iff: (ch, cat, wpn) => {
@@ -483,7 +520,14 @@ const headers = [{
   },
   label: 'Dump',
   cb: wpn => {
-    return Math.abs((magDamage = wpn.damage * wpn.count * wpn.ammo).toFixed(1))
+    if(wpn.category === 'support') {
+      if(['guard', 'power'].includes(wpn.supportType)) {
+        return '-'
+      }
+      return +(wpn.damage * wpn.duration).toFixed(1)
+    }
+    return +Math.abs(wpn.damage * wpn.count * wpn.ammo * (wpn.shots || 1))
+      .toFixed(1)
   },
 }]
 

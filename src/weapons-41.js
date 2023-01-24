@@ -499,7 +499,7 @@ const headers = [{
     const magDamage = wpn.damage * wpn.count * wpn.ammo
     const bursts = wpn.ammo / (wpn.burst || 1)
     const burstTime = (wpn.burst * wpn.burstRate) + wpn.interval
-    const magTime = bursts * burstTime + wpn.reload
+    const magTime = bursts * burstTime + wpn.reload - wpn.interval
     return +(magDamage * (wpn.shots || 1) * FPS / magTime).toFixed(1)
   },
 }, {

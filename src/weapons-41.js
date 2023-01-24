@@ -184,6 +184,9 @@ const headers = [{
       return +(wpn.damage).toFixed(2)
     }
     let dmg = +Math.abs(wpn.damage).toFixed(1)
+    if(!dmg) {
+      return '-'
+    }
     if(wpn.count > 1) {
       dmg = `${+dmg.toFixed(1)} x ${wpn.count}`
     }
@@ -363,7 +366,7 @@ const headers = [{
 }, {
   label: 'Rel',
   cb: wpn => {
-    if(wpn.reload <= 0) {
+    if(wpn.reload <= 0 || !wpn.reload) {
       return '-'
     }
     if(wpn.credits) {
@@ -448,7 +451,7 @@ const headers = [{
     if(wpn.category === 'missile') {
       return wpn.lockRange
     }
-    return wpn.range.toFixed(0)
+    return (wpn.range || 0).toFixed(0)
   },
 }, {
   iff: (ch, cat, wpn) => {
@@ -501,6 +504,9 @@ const headers = [{
   },
   label: 'DPS',
   cb: wpn => {
+    if(!wpn.damage) {
+      return '-'
+    }
     if(wpn.type === 'DecoyBullet01') {
       return '-'
     }
@@ -510,8 +516,8 @@ const headers = [{
     if(wpn.burst > 100) {
       return wpn.damage * FPS / wpn.burstRate
     }
-    let burstTime = wpn.burst * wpn.burstRate + (wpn.interval || 1)
-    const burstDamage = Math.abs(wpn.damage * wpn.count * (wpn.burst || 1))
+    let burstTime = (wpn.burst || 1) * (wpn.burstRate || 0) + (wpn.interval || 1)
+    const burstDamage = Math.abs(wpn.damage * (wpn.count || 1) * (wpn.burst || 1))
     if(wpn.category === 'support') {
       if(['guard', 'power'].includes(wpn.supportType)) {
         return '-'
@@ -572,16 +578,19 @@ const headers = [{
   },
   label: 'TDPS',
   cb: wpn => {
+    if(!wpn.damage) {
+      return '-'
+    }
     if(wpn.reload < 0) {
       return '-'
     }
     if(wpn.type === 'DecoyBullet01') {
       return '-'
     }
-    const magDamage = wpn.damage * wpn.count * wpn.ammo
+    const magDamage = wpn.damage * (wpn.count || 1) * wpn.ammo
     const interval = wpn.interval || 1
     const bursts = wpn.ammo / (wpn.burst || 1)
-    const burstTime = (wpn.burst * wpn.burstRate) + interval
+    const burstTime = ((wpn.burst || 1) * (wpn.burstRate || 0)) + interval
     const magTime = bursts * burstTime + wpn.reload - interval
     const tdps = (magDamage * (wpn.shots || 1) * FPS / (magTime || interval))
     return +tdps.toFixed(1)
@@ -600,10 +609,10 @@ const headers = [{
     if(!wpn.continous) {
       return '-'
     }
-    const magDamage = wpn.damage * wpn.count * wpn.ammo
+    const magDamage = wpn.damage * (wpn.count || 1) * wpn.ammo
     const interval = wpn.interval || 1
     const bursts = wpn.ammo / (wpn.burst || 1)
-    const burstTime = (wpn.burst * wpn.burstRate) + interval
+    const burstTime = ((wpn.burst || 1) * (wpn.burstRate || 0)) + interval
     const magTime = bursts * burstTime + wpn.reload - interval
     const tdps = (magDamage * (wpn.shots || 1) * FPS / (magTime || interval))
     return +(tdps * wpn.duration).toFixed(1)
@@ -625,6 +634,9 @@ const headers = [{
   },
   label: 'Total',
   cb: wpn => {
+    if(!wpn.damage) {
+      return '-'
+    }
     if(wpn.category === 'support') {
       if(['guard', 'power'].includes(wpn.supportType)) {
         return '-'
@@ -634,7 +646,7 @@ const headers = [{
     if(wpn.type === 'DecoyBullet01') {
       return '-'
     }
-    const dump = Math.abs(wpn.damage * wpn.count * wpn.ammo * (wpn.shots || 1))
+    const dump = Math.abs(wpn.damage * (wpn.count || 1) * wpn.ammo * (wpn.shots || 1))
     return +dump.toFixed(1)
   },
 }, {
@@ -663,7 +675,10 @@ const headers = [{
       return +(wpn.damage * wpn.duration * wpn.ammo).toFixed(1)
     }
     if(wpn.continous) {
-      const dump = Math.abs(wpn.damage * wpn.count * wpn.ammo * (wpn.shots || 1))
+      const dump = Math.abs( wpn.damage
+        * (wpn.count || 1)
+        * wpn.ammo
+        * (wpn.shots || 1))
       return +(dump * wpn.duration).toFixed(1)
     }
     return '-'

@@ -4024,7 +4024,7 @@
     "secondary": 0,
     "zoom": 0,
     "underground": true,
-    "duration": 600
+    "fuse": 600
   },
   {
     "id": "Weapon114",
@@ -4157,7 +4157,7 @@
     "secondary": 0,
     "zoom": 0,
     "underground": true,
-    "duration": 1800
+    "fuse": 1800
   },
   {
     "id": "Weapon118",
@@ -4224,7 +4224,7 @@
     "secondary": 0,
     "zoom": 0,
     "underground": true,
-    "duration": 300
+    "fuse": 300
   },
   {
     "id": "Weapon120",
@@ -4324,7 +4324,7 @@
     "secondary": 0,
     "zoom": 0,
     "underground": true,
-    "duration": 600
+    "fuse": 600
   },
   {
     "id": "Weapon123",
@@ -4391,7 +4391,7 @@
     "secondary": 0,
     "zoom": 0,
     "underground": true,
-    "duration": 600
+    "fuse": 600
   },
   {
     "id": "Weapon125",
@@ -4491,7 +4491,7 @@
     "secondary": 0,
     "zoom": 0,
     "underground": true,
-    "duration": 240
+    "fuse": 240
   },
   {
     "id": "aNapalmLauncher01",
@@ -4625,7 +4625,7 @@
     "secondary": 0,
     "zoom": 0,
     "underground": true,
-    "duration": 240
+    "fuse": 240
   },
   {
     "id": "Weapon131",
@@ -4692,7 +4692,7 @@
     "secondary": 0,
     "zoom": 0,
     "underground": true,
-    "duration": 240
+    "fuse": 240
   },
   {
     "id": "Weapon133",
@@ -4726,7 +4726,7 @@
     "secondary": 0,
     "zoom": 0,
     "underground": true,
-    "duration": 600
+    "fuse": 600
   },
   {
     "id": "Weapon134",
@@ -4760,7 +4760,7 @@
     "secondary": 0,
     "zoom": 0,
     "underground": true,
-    "duration": 240
+    "fuse": 240
   },
   {
     "id": "Weapon135",
@@ -4827,7 +4827,7 @@
     "secondary": 0,
     "zoom": 0,
     "underground": true,
-    "duration": 240
+    "fuse": 240
   },
   {
     "id": "Weapon137",
@@ -4895,7 +4895,7 @@
     "secondary": 0,
     "zoom": 0,
     "underground": true,
-    "duration": 600
+    "fuse": 600
   },
   {
     "id": "Weapon139",
@@ -4996,7 +4996,7 @@
     "secondary": 0,
     "zoom": 0,
     "underground": true,
-    "duration": 240
+    "fuse": 240
   },
   {
     "id": "Weapon142",
@@ -5130,7 +5130,7 @@
     "secondary": 0,
     "zoom": 0,
     "underground": true,
-    "duration": 240
+    "fuse": 240
   },
   {
     "id": "Weapon146",

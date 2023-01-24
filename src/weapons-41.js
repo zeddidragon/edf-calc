@@ -101,6 +101,8 @@ function populateWeapons(ch, cat) {
   weaponTable.appendChild(tbody)
   if(ch === 'ranger' && cat === 'special') {
     extra.innerHTML = '*Assuming flame hits every frame of duration.'
+  } else if(cat === 'support') {
+    extra.innerHTML = '*All ammo combined'
   } else {
     extra.innerHTML = ''
   }
@@ -250,8 +252,9 @@ const headers = [{
   },
   label: 'Dur',
   cb: wpn => {
-    if(!wpn.duration) return '-'
-    return +(wpn.duration / FPS).toFixed(1)
+    const duration = wpn.fuse || wpn.duration
+    if(!duration) return '-'
+    return +(duration / FPS).toFixed(1)
   },
 }, {
   iff: (ch, cat, wpn) => {
@@ -523,6 +526,11 @@ const headers = [{
   },
 }, {
   iff: (ch, cat, wpn) => {
+    if([
+      'support',
+    ].includes(cat)) {
+      return true
+    }
     if(ch === 'ranger' && [
       'special',
     ].includes(cat)) {
@@ -532,10 +540,19 @@ const headers = [{
   },
   label: 'DPS*',
   cb: wpn => {
-    if(!wpn.continous) {
-      return '-'
+    if(wpn.category === 'support') {
+      if(['guard', 'power'].includes(wpn.supportType)) {
+        return '-'
+      }
+      if(wpn.ammo < 2) {
+        return '-'
+      }
+      return +(wpn.damage * FPS * wpn.ammo).toFixed(1)
     }
-    return +(wpn.damage * wpn.duration * FPS / (wpn.interval || 1)).toFixed(1)
+    if(wpn.continous) {
+      return +(wpn.damage * wpn.duration * FPS / (wpn.interval || 1)).toFixed(1)
+    }
+    return '-'
   },
 }, {
   iff: (ch, cat, wpn) => {
@@ -606,13 +623,13 @@ const headers = [{
     }
     return true
   },
-  label: 'Dump',
+  label: 'Total',
   cb: wpn => {
     if(wpn.category === 'support') {
       if(['guard', 'power'].includes(wpn.supportType)) {
         return '-'
       }
-      return +(wpn.damage * wpn.duration * wpn.ammo).toFixed(1)
+      return +(wpn.damage * wpn.duration).toFixed(1)
     }
     if(wpn.type === 'DecoyBullet01') {
       return '-'
@@ -622,6 +639,11 @@ const headers = [{
   },
 }, {
   iff: (ch, cat, wpn) => {
+    if([
+      'support',
+    ].includes(cat)) {
+      return true
+    }
     if(ch === 'ranger' && [
       'special',
     ].includes(cat)) {
@@ -629,13 +651,22 @@ const headers = [{
     }
     return false
   },
-  label: 'Dump*',
+  label: 'Total*',
   cb: wpn => {
-    if(!wpn.continous) {
-      return '-'
+    if(wpn.category === 'support') {
+      if(['guard', 'power'].includes(wpn.supportType)) {
+        return '-'
+      }
+      if(wpn.ammo < 2) {
+        return '-'
+      }
+      return +(wpn.damage * wpn.duration * wpn.ammo).toFixed(1)
     }
-    const dump = Math.abs(wpn.damage * wpn.count * wpn.ammo * (wpn.shots || 1))
-    return +(dump * wpn.duration).toFixed(1)
+    if(wpn.continous) {
+      const dump = Math.abs(wpn.damage * wpn.count * wpn.ammo * (wpn.shots || 1))
+      return +(dump * wpn.duration).toFixed(1)
+    }
+    return '-'
   },
 }]
 

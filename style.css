@@ -26,9 +26,11 @@ td {
   white-space: nowrap;
 }
 
-.Name {
+.name {
   color: #80c3f5;
   text-align: left;
+  width: 15em;
+  overflow: hidden;
 }
 
 .ranger b {
@@ -77,4 +79,12 @@ td {
 
 .selected {
   border-bottom: thick solid #edf;
+}
+
+@media only screen and (max-width: 540px) {
+  .name {
+    width: 6em;
+    text-align: right;
+    direction: rtl;
+  }
 }

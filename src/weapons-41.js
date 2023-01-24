@@ -124,10 +124,20 @@ const headers = [{
   },
 }, {
   label: 'Lv',
-  cb: wpn => wpn.level,
+  cb: wpn => {
+    if(wpn.level === 100) {
+      return '-'
+    }
+    return wpn.level
+  }
 }, {
   label: 'Name',
-  cb: wpn => wpn.name,
+  cb: wpn => {
+    const el = $('div')
+    el.classList.add('name')
+    el.textContent = wpn.name
+    return el
+  },
 }, {
   iff: (ch, cat, wpn) => {
     if([

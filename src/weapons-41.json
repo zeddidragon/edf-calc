@@ -6388,7 +6388,7 @@
   {
     "id": "pRapier01",
     "name": "Rapier",
-    "level": -25,
+    "level": 0,
     "character": "winger",
     "category": "short",
     "raw": 10,

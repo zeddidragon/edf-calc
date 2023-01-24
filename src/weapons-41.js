@@ -8,7 +8,6 @@ fetch('src/weapons-41.json')
     console.log(data)
     table = data
     pickChar('ranger')
-    pickChar('ranger', 'grenade')
   })
 
 function pickChar(ch, cat) {

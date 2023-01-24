@@ -7,7 +7,6 @@ fetch('src/weapons-41.json')
   .then(data => {
     table = data
     pickChar('ranger')
-    pickChar('ranger', 'special')
   })
 
 function pickChar(ch, cat) {

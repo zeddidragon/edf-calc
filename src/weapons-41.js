@@ -386,6 +386,7 @@ const headers = [{
   },
   label: 'Acc',
   cb: wpn => {
+    if(!wpn.speed) return '-'
     return [
       [0.9995, 'S++'],
       [0.9975, 'S+'],

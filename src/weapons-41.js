@@ -5,9 +5,9 @@ let table
 fetch('src/weapons-41.json')
   .then(res => res.json())
   .then(data => {
-    console.log(data)
     table = data
     pickChar('ranger')
+    pickChar('ranger', 'special')
   })
 
 function pickChar(ch, cat) {
@@ -24,7 +24,7 @@ function pickChar(ch, cat) {
     charEl: item,
   })
 
-  const catTabs = document.querySelector('#category-tabs')
+  const catTabs = document.getElementById('category-tabs')
   catTabs.innerHTML = ''
   const from = chIdx * 10
   const to = from + 10
@@ -62,7 +62,8 @@ function pickCategory(ch, cat) {
 }
 
 function populateWeapons(ch, cat) {
-  const weaponTable = document.querySelector('#weapons-table')
+  const extra = document.getElementById('extra')
+  const weaponTable = document.getElementById('weapons-table')
   weaponTable.innerHTML = ''
   const weapons = table
     .filter(t => t.character === ch && t.category === cat)
@@ -99,6 +100,11 @@ function populateWeapons(ch, cat) {
     tbody.appendChild(row)
   }
   weaponTable.appendChild(tbody)
+  if(ch === 'ranger' && cat === 'special') {
+    extra.innerHTML = '*Assuming flame hits every frame of duration.'
+  } else {
+    extra.innerHTML = ''
+  }
 }
 
 const FPS = 60
@@ -178,6 +184,23 @@ const headers = [{
       dmg = `${dmg} x ${wpn.count}`
     }
     return dmg
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if(ch === 'ranger' && [
+      'special',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Dmg*',
+  cb: wpn => {
+    if(!wpn.continous) {
+      return '-'
+    }
+    let dmg = +Math.abs(wpn.damage).toFixed(1)
+    return +(dmg * wpn.duration).toFixed(1)
   },
 }, {
   iff: (ch, cat, wpn) => {
@@ -270,6 +293,11 @@ const headers = [{
       'sniper',
       'spear',
       'heavy',
+    ].includes(cat)) {
+      return true
+    }
+    if(ch === 'ranger' && [
+      'special',
     ].includes(cat)) {
       return true
     }
@@ -466,6 +494,9 @@ const headers = [{
   },
   label: 'DPS',
   cb: wpn => {
+    if(wpn.type === 'DecoyBullet01') {
+      return '-'
+    }
     if(wpn.ammo < 2 && !wpn.duration) {
       return '-'
     }
@@ -480,10 +511,27 @@ const headers = [{
       }
       return +(wpn.damage * FPS).toFixed(1)
     }
-    if(wpn.duration) {
+    if(wpn.duration && !wpn.continous) {
       return +(burstDamage * (wpn.shots || 1) * FPS / wpn.duration).toFixed(1)
     }
-    return +(burstDamage * FPS / burstTime).toFixed(1)
+    const dps = (burstDamage * FPS / burstTime)
+    return +dps.toFixed(1)
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if(ch === 'ranger' && [
+      'special',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'DPS*',
+  cb: wpn => {
+    if(!wpn.continous) {
+      return '-'
+    }
+    return +(wpn.damage * wpn.duration * FPS / (wpn.interval || 1)).toFixed(1)
   },
 }, {
   iff: (ch, cat, wpn) => {
@@ -506,11 +554,38 @@ const headers = [{
     if(wpn.reload < 0) {
       return '-'
     }
+    if(wpn.type === 'DecoyBullet01') {
+      return '-'
+    }
     const magDamage = wpn.damage * wpn.count * wpn.ammo
+    const interval = wpn.interval || 1
     const bursts = wpn.ammo / (wpn.burst || 1)
-    const burstTime = (wpn.burst * wpn.burstRate) + wpn.interval
-    const magTime = bursts * burstTime + wpn.reload - wpn.interval
-    return +(magDamage * (wpn.shots || 1) * FPS / magTime).toFixed(1)
+    const burstTime = (wpn.burst * wpn.burstRate) + interval
+    const magTime = bursts * burstTime + wpn.reload - interval
+    const tdps = (magDamage * (wpn.shots || 1) * FPS / (magTime || interval))
+    return +tdps.toFixed(1)
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if(ch === 'ranger' && [
+      'special',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'TDPS*',
+  cb: wpn => {
+    if(!wpn.continous) {
+      return '-'
+    }
+    const magDamage = wpn.damage * wpn.count * wpn.ammo
+    const interval = wpn.interval || 1
+    const bursts = wpn.ammo / (wpn.burst || 1)
+    const burstTime = (wpn.burst * wpn.burstRate) + interval
+    const magTime = bursts * burstTime + wpn.reload - interval
+    const tdps = (magDamage * (wpn.shots || 1) * FPS / (magTime || interval))
+    return +(tdps * wpn.duration).toFixed(1)
   },
 }, {
   iff: (ch, cat, wpn) => {
@@ -535,8 +610,28 @@ const headers = [{
       }
       return +(wpn.damage * wpn.duration).toFixed(1)
     }
-    return +Math.abs(wpn.damage * wpn.count * wpn.ammo * (wpn.shots || 1))
-      .toFixed(1)
+    if(wpn.type === 'DecoyBullet01') {
+      return '-'
+    }
+    const dump = Math.abs(wpn.damage * wpn.count * wpn.ammo * (wpn.shots || 1))
+    return +dump.toFixed(1)
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if(ch === 'ranger' && [
+      'special',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Dump*',
+  cb: wpn => {
+    if(!wpn.continous) {
+      return '-'
+    }
+    const dump = Math.abs(wpn.damage * wpn.count * wpn.ammo * (wpn.shots || 1))
+    return +(dump * wpn.duration).toFixed(1)
   },
 }]
 

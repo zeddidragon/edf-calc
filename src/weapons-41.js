@@ -33,7 +33,7 @@ function pickChar(ch, cat) {
     const cat = categories[i]
     if(!cat) continue
     const label = catLabels[i]
-    const li = $('li')
+    const li = $('a')
     li.classList.add(cat)
     if(label === 'CC Strikers' || label === 'CC Piercers') {
       boldify(li, label, 4)
@@ -709,7 +709,7 @@ const charMenu = document.querySelector('#char-tabs')
 for(let i = 0; i < characters.length; i++) {
   const c = characters[i]
   const cLabel = charLabels[i]
-  const item = $('li')
+  const item = $('a')
   item.classList.add(c)
   boldify(item, cLabel, 3)
   charMenu.appendChild(item)

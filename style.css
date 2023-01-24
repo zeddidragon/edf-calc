@@ -12,7 +12,7 @@ menu {
   color: #4e5d6f;
 }
 
-menu li {
+menu a {
   cursor: pointer;
   flex: 1;
   white-space: nowrap;

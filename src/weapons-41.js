@@ -25,6 +25,8 @@ function pickChar(ch, cat) {
 
   const catTabs = document.getElementById('category-tabs')
   catTabs.innerHTML = ''
+  const supTabs = document.getElementById('support-tabs')
+  supTabs.innerHTML = ''
   const from = chIdx * 10
   const to = from + 10
   for(let i = from; i < to; i++) {
@@ -39,7 +41,11 @@ function pickChar(ch, cat) {
       boldify(li, label, 2)
     }
     li.addEventListener('click', () => pickCategory(ch, cat))
-    catTabs.appendChild(li)
+    if(supports.includes(cat)) {
+      supTabs.appendChild(li)
+    } else {
+      catTabs.appendChild(li)
+    }
   }
 
   pickCategory(ch, cat || categories[from])
@@ -47,7 +53,7 @@ function pickChar(ch, cat) {
 
 function pickCategory(ch, cat) {
   const item = document
-    .querySelector(`#category-tabs .${cat}`)
+    .querySelector(`#category-tabs .${cat}, #support-tabs .${cat}`)
 
   if(active.catEl) {
     active.catEl.classList.remove('selected')
@@ -757,6 +763,13 @@ const categories = [
   'limpet',
   'deploy',
   'special',
+  'tank',
+  'ground',
+  'heli',
+  'mech',
+]
+
+const supports = [
   'tank',
   'ground',
   'heli',

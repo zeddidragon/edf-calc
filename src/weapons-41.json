@@ -68,7 +68,7 @@
   {
     "id": "Weapon002",
     "name": "AF14-ST",
-    "level": 3,
+    "level": 2,
     "character": "ranger",
     "category": "assault",
     "raw": 0,
@@ -101,7 +101,7 @@
   {
     "id": "Weapon003",
     "name": "Fusion Blaster",
-    "level": 3,
+    "level": 2,
     "character": "ranger",
     "category": "assault",
     "raw": 0,
@@ -134,7 +134,7 @@
   {
     "id": "Weapon004",
     "name": "AF14-RAR",
-    "level": 5,
+    "level": 4,
     "character": "ranger",
     "category": "assault",
     "raw": 0,
@@ -167,7 +167,7 @@
   {
     "id": "Weapon005",
     "name": "AF14-B3",
-    "level": 6,
+    "level": 5,
     "character": "ranger",
     "category": "assault",
     "raw": 0,
@@ -200,7 +200,7 @@
   {
     "id": "AssultRifle_18K",
     "name": "AF15",
-    "level": 8,
+    "level": 7,
     "character": "ranger",
     "category": "assault",
     "raw": 0,
@@ -266,7 +266,7 @@
   {
     "id": "Weapon007",
     "name": "Fusion Blaster G1",
-    "level": 13,
+    "level": 12,
     "character": "ranger",
     "category": "assault",
     "raw": 0,
@@ -299,7 +299,7 @@
   {
     "id": "Weapon008",
     "name": "AF16",
-    "level": 13,
+    "level": 12,
     "character": "ranger",
     "category": "assault",
     "raw": 0,
@@ -332,7 +332,7 @@
   {
     "id": "Weapon009",
     "name": "AF-V",
-    "level": 14,
+    "level": 13,
     "character": "ranger",
     "category": "assault",
     "raw": 0,
@@ -398,7 +398,7 @@
   {
     "id": "Weapon011",
     "name": "AF17",
-    "level": 19,
+    "level": 18,
     "character": "ranger",
     "category": "assault",
     "raw": 0,
@@ -497,7 +497,7 @@
   {
     "id": "Weapon014",
     "name": "AF18-X",
-    "level": 27,
+    "level": 26,
     "character": "ranger",
     "category": "assault",
     "raw": 0,
@@ -530,7 +530,7 @@
   {
     "id": "Weapon015",
     "name": "AF19-ST",
-    "level": 29,
+    "level": 28,
     "character": "ranger",
     "category": "assault",
     "raw": 0,
@@ -662,7 +662,7 @@
   {
     "id": "Weapon019",
     "name": "AF19X-B3",
-    "level": 44,
+    "level": 43,
     "character": "ranger",
     "category": "assault",
     "raw": 0,
@@ -794,7 +794,7 @@
   {
     "id": "Weapon023",
     "name": "AF21-B4",
-    "level": 61,
+    "level": 60,
     "character": "ranger",
     "category": "assault",
     "raw": 0,
@@ -1058,7 +1058,7 @@
   {
     "id": "Weapon030",
     "name": "Buffalo G2",
-    "level": 4,
+    "level": 3,
     "character": "ranger",
     "category": "shotgun",
     "raw": 1,
@@ -1091,7 +1091,7 @@
   {
     "id": "Weapon031",
     "name": "Governor 25",
-    "level": 9,
+    "level": 8,
     "character": "ranger",
     "category": "shotgun",
     "raw": 1,
@@ -1190,7 +1190,7 @@
   {
     "id": "Weapon034",
     "name": "Slug Shot",
-    "level": 11,
+    "level": 10,
     "character": "ranger",
     "category": "shotgun",
     "raw": 1,
@@ -1322,7 +1322,7 @@
   {
     "id": "Weapon038",
     "name": "Sparrow Shot M2",
-    "level": 28,
+    "level": 27,
     "character": "ranger",
     "category": "shotgun",
     "raw": 1,
@@ -1487,7 +1487,7 @@
   {
     "id": "Weapon043",
     "name": "Wideshot A1-VR",
-    "level": 45,
+    "level": 44,
     "character": "ranger",
     "category": "shotgun",
     "raw": 1,
@@ -1685,7 +1685,7 @@
   {
     "id": "Weapon049",
     "name": "Sparrow Shot MX",
-    "level": 73,
+    "level": 72,
     "character": "ranger",
     "category": "shotgun",
     "raw": 1,
@@ -1751,7 +1751,7 @@
   {
     "id": "Weapon051",
     "name": "Buffalo Wide",
-    "level": 93,
+    "level": 92,
     "character": "ranger",
     "category": "shotgun",
     "raw": 1,
@@ -2015,7 +2015,7 @@
   {
     "id": "Weapon059",
     "name": "Nova Buster",
-    "level": 19,
+    "level": 18,
     "character": "ranger",
     "category": "sniper",
     "raw": 2,
@@ -2345,7 +2345,7 @@
   {
     "id": "Weapon069",
     "name": "Five Card XB",
-    "level": 49,
+    "level": 48,
     "character": "ranger",
     "category": "sniper",
     "raw": 2,
@@ -2510,7 +2510,7 @@
   {
     "id": "Weapon074",
     "name": "Nova Buster ZD",
-    "level": 73,
+    "level": 72,
     "character": "ranger",
     "category": "sniper",
     "raw": 2,
@@ -2708,7 +2708,7 @@
   {
     "id": "Weapon079",
     "name": "Volcano 3A",
-    "level": 5,
+    "level": 4,
     "character": "ranger",
     "category": "rocket",
     "raw": 3,
@@ -2840,7 +2840,7 @@
   {
     "id": "Weapon083",
     "name": "A1 Plasma Bomber",
-    "level": 12,
+    "level": 11,
     "character": "ranger",
     "category": "rocket",
     "raw": 3,
@@ -3104,7 +3104,7 @@
   {
     "id": "Weapon091",
     "name": "Volcano B10",
-    "level": 44,
+    "level": 43,
     "character": "ranger",
     "category": "rocket",
     "raw": 3,
@@ -3170,7 +3170,7 @@
   {
     "id": "Weapon093",
     "name": "Volcano 6W",
-    "level": 54,
+    "level": 53,
     "character": "ranger",
     "category": "rocket",
     "raw": 3,
@@ -3236,7 +3236,7 @@
   {
     "id": "Weapon095",
     "name": "Stingray M99",
-    "level": 63,
+    "level": 62,
     "character": "ranger",
     "category": "rocket",
     "raw": 3,
@@ -3302,7 +3302,7 @@
   {
     "id": "Weapon097",
     "name": "Stingray MF",
-    "level": 79,
+    "level": 78,
     "character": "ranger",
     "category": "rocket",
     "raw": 3,
@@ -3500,7 +3500,7 @@
   {
     "id": "Weapon100",
     "name": "ME2 Emerald",
-    "level": 5,
+    "level": 4,
     "character": "ranger",
     "category": "missile",
     "raw": 4,
@@ -3533,7 +3533,7 @@
   {
     "id": "Weapon101",
     "name": "FORK-A15",
-    "level": 8,
+    "level": 7,
     "character": "ranger",
     "category": "missile",
     "raw": 4,
@@ -3665,7 +3665,7 @@
   {
     "id": "Weapon105",
     "name": "Prominence M1",
-    "level": 24,
+    "level": 23,
     "character": "ranger",
     "category": "missile",
     "raw": 4,
@@ -3863,7 +3863,7 @@
   {
     "id": "Weapon111",
     "name": "FORK-X20",
-    "level": 68,
+    "level": 67,
     "character": "ranger",
     "category": "missile",
     "raw": 4,
@@ -4095,7 +4095,7 @@
   {
     "id": "Weapon116",
     "name": "MG13",
-    "level": 9,
+    "level": 8,
     "character": "ranger",
     "category": "grenade",
     "raw": 5,
@@ -4195,7 +4195,7 @@
   {
     "id": "Weapon119",
     "name": "MG14J",
-    "level": 16,
+    "level": 15,
     "character": "ranger",
     "category": "grenade",
     "raw": 5,
@@ -4229,7 +4229,7 @@
   {
     "id": "Weapon120",
     "name": "DNG2",
-    "level": 22,
+    "level": 21,
     "character": "ranger",
     "category": "grenade",
     "raw": 5,
@@ -4262,7 +4262,7 @@
   {
     "id": "Weapon121",
     "name": "MG20",
-    "level": 28,
+    "level": 27,
     "character": "ranger",
     "category": "grenade",
     "raw": 5,
@@ -4295,7 +4295,7 @@
   {
     "id": "Weapon122",
     "name": "MG21J",
-    "level": 39,
+    "level": 38,
     "character": "ranger",
     "category": "grenade",
     "raw": 5,
@@ -4396,7 +4396,7 @@
   {
     "id": "Weapon125",
     "name": "DNG9",
-    "level": 73,
+    "level": 72,
     "character": "ranger",
     "category": "grenade",
     "raw": 5,
@@ -4462,7 +4462,7 @@
   {
     "id": "Weapon127",
     "name": "UM1-J Grenade Launcher",
-    "level": 3,
+    "level": 2,
     "character": "ranger",
     "category": "grenade",
     "raw": 5,
@@ -4496,7 +4496,7 @@
   {
     "id": "aNapalmLauncher01",
     "name": "Volatile Napalm",
-    "level": 3,
+    "level": 2,
     "character": "ranger",
     "category": "grenade",
     "raw": 5,
@@ -4563,7 +4563,7 @@
   {
     "id": "Weapon129",
     "name": "UM2 Grenade Launcher",
-    "level": 8,
+    "level": 7,
     "character": "ranger",
     "category": "grenade",
     "raw": 5,
@@ -4596,7 +4596,7 @@
   {
     "id": "Weapon130",
     "name": "UM2-J Grenade Launcher",
-    "level": 13,
+    "level": 12,
     "character": "ranger",
     "category": "grenade",
     "raw": 5,
@@ -4798,7 +4798,7 @@
   {
     "id": "Weapon136",
     "name": "BRUTE-J Triple Grenade Launcher",
-    "level": 32,
+    "level": 31,
     "character": "ranger",
     "category": "grenade",
     "raw": 5,
@@ -4866,7 +4866,7 @@
   {
     "id": "Weapon138",
     "name": "Splash Grenade α",
-    "level": 38,
+    "level": 37,
     "character": "ranger",
     "category": "grenade",
     "raw": 5,
@@ -4934,7 +4934,7 @@
   {
     "id": "Weapon140",
     "name": "BRUTE Triple Grenade Launcher",
-    "level": 43,
+    "level": 42,
     "character": "ranger",
     "category": "grenade",
     "raw": 5,
@@ -5302,7 +5302,7 @@
   {
     "id": "aDecoyShooter01",
     "name": "Pure Decoy Launcher [Karia]",
-    "level": 3,
+    "level": 2,
     "character": "ranger",
     "category": "special",
     "raw": 6,
@@ -5335,7 +5335,7 @@
   {
     "id": "aDecoyShooter02",
     "name": "Pure Decoy Launcher [Moegi]",
-    "level": 3,
+    "level": 2,
     "character": "ranger",
     "category": "special",
     "raw": 6,
@@ -5368,7 +5368,7 @@
   {
     "id": "aDecoyShooter03",
     "name": "Pure Decoy Launcher [Ouka]",
-    "level": 3,
+    "level": 2,
     "character": "ranger",
     "category": "special",
     "raw": 6,
@@ -5401,7 +5401,7 @@
   {
     "id": "aDecoyShooter04",
     "name": "Pure Decoy Launcher [Rinrin]",
-    "level": 3,
+    "level": 2,
     "character": "ranger",
     "category": "special",
     "raw": 6,
@@ -5434,7 +5434,7 @@
   {
     "id": "aDecoyShooter05",
     "name": "Pure Decoy Launcher [Chiri]",
-    "level": 3,
+    "level": 2,
     "character": "ranger",
     "category": "special",
     "raw": 6,
@@ -5467,7 +5467,7 @@
   {
     "id": "Weapon151",
     "name": "Acid Shot Prototype",
-    "level": 8,
+    "level": 7,
     "character": "ranger",
     "category": "special",
     "raw": 6,
@@ -5500,7 +5500,7 @@
   {
     "id": "Weapon152",
     "name": "Acid Gun",
-    "level": 21,
+    "level": 20,
     "character": "ranger",
     "category": "special",
     "raw": 6,
@@ -5533,7 +5533,7 @@
   {
     "id": "Weapon153",
     "name": "Acid Shot",
-    "level": 38,
+    "level": 37,
     "character": "ranger",
     "category": "special",
     "raw": 6,
@@ -5735,7 +5735,7 @@
   {
     "id": "Weapon159",
     "name": "Flame Cannon",
-    "level": 56,
+    "level": 55,
     "character": "ranger",
     "category": "special",
     "raw": 6,
@@ -5838,7 +5838,7 @@
   {
     "id": "Weapon162",
     "name": "Firecracker 2",
-    "level": 19,
+    "level": 18,
     "character": "ranger",
     "category": "special",
     "raw": 6,
@@ -5904,7 +5904,7 @@
   {
     "id": "Weapon164",
     "name": "Firecracker 4",
-    "level": 43,
+    "level": 42,
     "character": "ranger",
     "category": "special",
     "raw": 6,
@@ -6003,7 +6003,7 @@
   {
     "id": "Weapon167",
     "name": "P79 Bound Gun",
-    "level": 11,
+    "level": 10,
     "character": "ranger",
     "category": "special",
     "raw": 6,
@@ -6036,7 +6036,7 @@
   {
     "id": "Weapon168",
     "name": "P80 Bound Gun",
-    "level": 34,
+    "level": 33,
     "character": "ranger",
     "category": "special",
     "raw": 6,
@@ -6069,7 +6069,7 @@
   {
     "id": "Weapon169",
     "name": "P89 Bound Gun",
-    "level": 59,
+    "level": 58,
     "character": "ranger",
     "category": "special",
     "raw": 6,
@@ -6102,7 +6102,7 @@
   {
     "id": "Weapon170",
     "name": "PX50 Bound Shot",
-    "level": 74,
+    "level": 73,
     "character": "ranger",
     "category": "special",
     "raw": 6,
@@ -6211,7 +6211,7 @@
   {
     "id": "Weapon173",
     "name": "Reverse Gun",
-    "level": 13,
+    "level": 12,
     "character": "ranger",
     "category": "special",
     "raw": 6,
@@ -6244,7 +6244,7 @@
   {
     "id": "Weapon174",
     "name": "High Cycle Reverser",
-    "level": 21,
+    "level": 20,
     "character": "ranger",
     "category": "special",
     "raw": 6,
@@ -6353,7 +6353,7 @@
   {
     "id": "Weapon177",
     "name": "Reverser M3",
-    "level": 43,
+    "level": 42,
     "character": "ranger",
     "category": "special",
     "raw": 6,
@@ -6457,7 +6457,7 @@
   {
     "id": "Weapon180",
     "name": "Reverse Shooter T2",
-    "level": 63,
+    "level": 62,
     "character": "ranger",
     "category": "special",
     "raw": 6,
@@ -6792,7 +6792,7 @@
   {
     "id": "Weapon187",
     "name": "2-Way Lance",
-    "level": 13,
+    "level": 12,
     "character": "winger",
     "category": "short",
     "raw": 10,
@@ -7386,7 +7386,7 @@
   {
     "id": "Weapon205",
     "name": "Master Rapier",
-    "level": 73,
+    "level": 72,
     "character": "winger",
     "category": "short",
     "raw": 10,
@@ -7452,7 +7452,7 @@
   {
     "id": "Weapon207",
     "name": "Sacred Lance",
-    "level": 79,
+    "level": 78,
     "character": "winger",
     "category": "short",
     "raw": 10,
@@ -7655,7 +7655,7 @@
   {
     "id": "pReflectLaser01",
     "name": "Reflectron Laser",
-    "level": 3,
+    "level": 2,
     "character": "winger",
     "category": "laser",
     "raw": 11,
@@ -7693,7 +7693,7 @@
   {
     "id": "Weapon212",
     "name": "LARG-V",
-    "level": 4,
+    "level": 3,
     "character": "winger",
     "category": "laser",
     "raw": 11,
@@ -8149,7 +8149,7 @@
   {
     "id": "Weapon224",
     "name": "LAZR-300",
-    "level": 63,
+    "level": 62,
     "character": "winger",
     "category": "laser",
     "raw": 11,
@@ -8438,7 +8438,7 @@
   {
     "id": "Weapon231",
     "name": "Ixion Mark II",
-    "level": 6,
+    "level": 5,
     "character": "winger",
     "category": "particle",
     "raw": 13,
@@ -8504,7 +8504,7 @@
   {
     "id": "Weapon233",
     "name": "Power Stinger",
-    "level": 9,
+    "level": 8,
     "character": "winger",
     "category": "particle",
     "raw": 13,
@@ -8537,7 +8537,7 @@
   {
     "id": "Weapon234",
     "name": "Ixion Wide",
-    "level": 13,
+    "level": 12,
     "character": "winger",
     "category": "particle",
     "raw": 13,
@@ -8636,7 +8636,7 @@
   {
     "id": "Weapon237",
     "name": "Dynastrike",
-    "level": 24,
+    "level": 23,
     "character": "winger",
     "category": "particle",
     "raw": 13,
@@ -8669,7 +8669,7 @@
   {
     "id": "Weapon238",
     "name": "Ixion Mark III",
-    "level": 29,
+    "level": 28,
     "character": "winger",
     "category": "particle",
     "raw": 13,
@@ -8768,7 +8768,7 @@
   {
     "id": "Weapon241",
     "name": "Dynastrike X",
-    "level": 43,
+    "level": 42,
     "character": "winger",
     "category": "particle",
     "raw": 13,
@@ -8933,7 +8933,7 @@
   {
     "id": "Weapon246",
     "name": "Power Stinger S",
-    "level": 63,
+    "level": 62,
     "character": "winger",
     "category": "particle",
     "raw": 13,
@@ -9032,7 +9032,7 @@
   {
     "id": "Weapon249",
     "name": "Luxard",
-    "level": 88,
+    "level": 87,
     "character": "winger",
     "category": "particle",
     "raw": 13,
@@ -9197,7 +9197,7 @@
   {
     "id": "Weapon254",
     "name": "Idunn-C Custom",
-    "level": 8,
+    "level": 7,
     "character": "winger",
     "category": "electro",
     "raw": 12,
@@ -9263,7 +9263,7 @@
   {
     "id": "Weapon256",
     "name": "Thunder Bow 15",
-    "level": 14,
+    "level": 13,
     "character": "winger",
     "category": "electro",
     "raw": 12,
@@ -9296,7 +9296,7 @@
   {
     "id": "Weapon257",
     "name": "Thunder Bow 15S",
-    "level": 19,
+    "level": 18,
     "character": "winger",
     "category": "electro",
     "raw": 12,
@@ -9428,7 +9428,7 @@
   {
     "id": "Weapon261",
     "name": "Grom SS",
-    "level": 39,
+    "level": 38,
     "character": "winger",
     "category": "electro",
     "raw": 12,
@@ -9461,7 +9461,7 @@
   {
     "id": "Weapon262",
     "name": "Thunder Bow 20R",
-    "level": 44,
+    "level": 43,
     "character": "winger",
     "category": "electro",
     "raw": 12,
@@ -9593,7 +9593,7 @@
   {
     "id": "Weapon266",
     "name": "Thunder Bow 30",
-    "level": 68,
+    "level": 67,
     "character": "winger",
     "category": "electro",
     "raw": 12,
@@ -9692,7 +9692,7 @@
   {
     "id": "Weapon269",
     "name": "Thunder Bow XD",
-    "level": 93,
+    "level": 92,
     "character": "winger",
     "category": "electro",
     "raw": 12,
@@ -9791,7 +9791,7 @@
   {
     "id": "Weapon271",
     "name": "LRSL-34",
-    "level": 3,
+    "level": 2,
     "character": "winger",
     "category": "sniper",
     "raw": 14,
@@ -9890,7 +9890,7 @@
   {
     "id": "Weapon274",
     "name": "LRSL-36",
-    "level": 8,
+    "level": 7,
     "character": "winger",
     "category": "sniper",
     "raw": 14,
@@ -9989,7 +9989,7 @@
   {
     "id": "Weapon277",
     "name": "Thunder Sniper 15",
-    "level": 13,
+    "level": 12,
     "character": "winger",
     "category": "sniper",
     "raw": 14,
@@ -10154,7 +10154,7 @@
   {
     "id": "Weapon282",
     "name": "LRSL-38",
-    "level": 38,
+    "level": 37,
     "character": "winger",
     "category": "sniper",
     "raw": 14,
@@ -10187,7 +10187,7 @@
   {
     "id": "Weapon283",
     "name": "Thunder Sniper D",
-    "level": 38,
+    "level": 37,
     "character": "winger",
     "category": "sniper",
     "raw": 14,
@@ -10220,7 +10220,7 @@
   {
     "id": "Weapon284",
     "name": "LRSL-S",
-    "level": 43,
+    "level": 42,
     "character": "winger",
     "category": "sniper",
     "raw": 14,
@@ -10319,7 +10319,7 @@
   {
     "id": "Weapon287",
     "name": "Thunder Sniper 40",
-    "level": 63,
+    "level": 62,
     "character": "winger",
     "category": "sniper",
     "raw": 14,
@@ -10451,7 +10451,7 @@
   {
     "id": "Weapon291",
     "name": "Gungnir",
-    "level": 93,
+    "level": 92,
     "character": "winger",
     "category": "sniper",
     "raw": 14,
@@ -10583,7 +10583,7 @@
   {
     "id": "Weapon294",
     "name": "E2 Plasma Launcher",
-    "level": 1,
+    "level": 0,
     "character": "winger",
     "category": "plasma",
     "raw": 15,
@@ -10649,7 +10649,7 @@
   {
     "id": "Weapon296",
     "name": "E3 Plasma Launcher",
-    "level": 3,
+    "level": 2,
     "character": "winger",
     "category": "plasma",
     "raw": 15,
@@ -11111,7 +11111,7 @@
   {
     "id": "Weapon310",
     "name": "E5 Plasma Launcher",
-    "level": 37,
+    "level": 36,
     "character": "winger",
     "category": "plasma",
     "raw": 15,
@@ -11342,7 +11342,7 @@
   {
     "id": "Weapon317",
     "name": "RSR Plasma Launcher",
-    "level": 63,
+    "level": 62,
     "character": "winger",
     "category": "plasma",
     "raw": 15,
@@ -11408,7 +11408,7 @@
   {
     "id": "Weapon319",
     "name": "XSX Plasma Launcher",
-    "level": 68,
+    "level": 67,
     "character": "winger",
     "category": "plasma",
     "raw": 15,
@@ -11474,7 +11474,7 @@
   {
     "id": "Weapon321",
     "name": "Plasmafall Σ",
-    "level": 88,
+    "level": 87,
     "character": "winger",
     "category": "plasma",
     "raw": 15,
@@ -11507,7 +11507,7 @@
   {
     "id": "Weapon322",
     "name": "RZR Plasma Launcher",
-    "level": 93,
+    "level": 92,
     "character": "winger",
     "category": "plasma",
     "raw": 15,
@@ -11573,7 +11573,7 @@
   {
     "id": "Weapon324",
     "name": "Geist",
-    "level": 3,
+    "level": 2,
     "character": "winger",
     "category": "missile",
     "raw": 16,
@@ -11639,7 +11639,7 @@
   {
     "id": "Weapon326",
     "name": "Mirage 5-Way",
-    "level": 9,
+    "level": 8,
     "character": "winger",
     "category": "missile",
     "raw": 16,
@@ -11672,7 +11672,7 @@
   {
     "id": "Weapon327",
     "name": "Geist 2",
-    "level": 14,
+    "level": 13,
     "character": "winger",
     "category": "missile",
     "raw": 16,
@@ -11771,7 +11771,7 @@
   {
     "id": "Weapon330",
     "name": "Mirage 15",
-    "level": 28,
+    "level": 27,
     "character": "winger",
     "category": "missile",
     "raw": 16,
@@ -12002,7 +12002,7 @@
   {
     "id": "Weapon337",
     "name": "Geist D",
-    "level": 64,
+    "level": 63,
     "character": "winger",
     "category": "missile",
     "raw": 16,
@@ -12035,7 +12035,7 @@
   {
     "id": "Weapon338",
     "name": "Ghost Chaser",
-    "level": 68,
+    "level": 67,
     "character": "winger",
     "category": "missile",
     "raw": 16,
@@ -12134,7 +12134,7 @@
   {
     "id": "Weapon341",
     "name": "Pandora",
-    "level": 3,
+    "level": 2,
     "character": "winger",
     "category": "special",
     "raw": 17,
@@ -12169,7 +12169,7 @@
   {
     "id": "pClusterHoming01",
     "name": "Gleipnir",
-    "level": 3,
+    "level": 2,
     "character": "winger",
     "category": "special",
     "raw": 17,
@@ -12239,7 +12239,7 @@
   {
     "id": "Weapon343",
     "name": "Thunder Cluster",
-    "level": 8,
+    "level": 7,
     "character": "winger",
     "category": "special",
     "raw": 17,
@@ -12309,7 +12309,7 @@
   {
     "id": "Weapon345",
     "name": "Pandora β",
-    "level": 21,
+    "level": 20,
     "character": "winger",
     "category": "special",
     "raw": 17,
@@ -12379,7 +12379,7 @@
   {
     "id": "Weapon347",
     "name": "Pandora α",
-    "level": 35,
+    "level": 34,
     "character": "winger",
     "category": "special",
     "raw": 17,
@@ -12554,7 +12554,7 @@
   {
     "id": "Weapon352",
     "name": "Thunder Orb",
-    "level": 88,
+    "level": 87,
     "character": "winger",
     "category": "special",
     "raw": 17,
@@ -12589,7 +12589,7 @@
   {
     "id": "Weapon353",
     "name": "Final Days",
-    "level": 88,
+    "level": 87,
     "character": "winger",
     "category": "special",
     "raw": 17,
@@ -12757,7 +12757,7 @@
   {
     "id": "Weapon356",
     "name": "Vibro Roller",
-    "level": 5,
+    "level": 4,
     "character": "fencer",
     "category": "hammer",
     "raw": 20,
@@ -13087,7 +13087,7 @@
   {
     "id": "Weapon366",
     "name": "Vulcan Hammer D",
-    "level": 44,
+    "level": 43,
     "character": "fencer",
     "category": "hammer",
     "raw": 20,
@@ -13252,7 +13252,7 @@
   {
     "id": "Weapon371",
     "name": "Force Blade MA",
-    "level": 62,
+    "level": 61,
     "character": "fencer",
     "category": "hammer",
     "raw": 20,
@@ -13285,7 +13285,7 @@
   {
     "id": "Weapon372",
     "name": "Force Ax G2",
-    "level": 67,
+    "level": 66,
     "character": "fencer",
     "category": "hammer",
     "raw": 20,
@@ -13351,7 +13351,7 @@
   {
     "id": "Weapon374",
     "name": "Force Ax G3",
-    "level": 77,
+    "level": 76,
     "character": "fencer",
     "category": "hammer",
     "raw": 20,
@@ -13384,7 +13384,7 @@
   {
     "id": "Weapon375",
     "name": "Vibro Roller D9",
-    "level": 80,
+    "level": 79,
     "character": "fencer",
     "category": "hammer",
     "raw": 20,
@@ -13483,7 +13483,7 @@
   {
     "id": "Weapon377",
     "name": "Flashing Spear",
-    "level": 4,
+    "level": 3,
     "character": "fencer",
     "category": "spear",
     "raw": 21,
@@ -13549,7 +13549,7 @@
   {
     "id": "Weapon379",
     "name": "Spine Driver",
-    "level": 12,
+    "level": 11,
     "character": "fencer",
     "category": "spear",
     "raw": 21,
@@ -13582,7 +13582,7 @@
   {
     "id": "Weapon380",
     "name": "Blasthole Spear M2",
-    "level": 17,
+    "level": 16,
     "character": "fencer",
     "category": "spear",
     "raw": 21,
@@ -13780,7 +13780,7 @@
   {
     "id": "Weapon386",
     "name": "Blasthole Spear M3",
-    "level": 37,
+    "level": 36,
     "character": "fencer",
     "category": "spear",
     "raw": 21,
@@ -13879,7 +13879,7 @@
   {
     "id": "Weapon389",
     "name": "Jackhammer M3",
-    "level": 47,
+    "level": 46,
     "character": "fencer",
     "category": "spear",
     "raw": 21,
@@ -14011,7 +14011,7 @@
   {
     "id": "Weapon393",
     "name": "Jackhammer M4",
-    "level": 60,
+    "level": 59,
     "character": "fencer",
     "category": "spear",
     "raw": 21,
@@ -14044,7 +14044,7 @@
   {
     "id": "Weapon394",
     "name": "Blast Twin Spears M3",
-    "level": 64,
+    "level": 63,
     "character": "fencer",
     "category": "spear",
     "raw": 21,
@@ -14077,7 +14077,7 @@
   {
     "id": "Weapon395",
     "name": "Blasthole Spear M6",
-    "level": 68,
+    "level": 67,
     "character": "fencer",
     "category": "spear",
     "raw": 21,
@@ -14176,7 +14176,7 @@
   {
     "id": "Weapon398",
     "name": "Blasthole Spear MS",
-    "level": 79,
+    "level": 78,
     "character": "fencer",
     "category": "spear",
     "raw": 21,
@@ -14473,7 +14473,7 @@
   {
     "id": "Weapon404",
     "name": "Deflection Shield 3",
-    "level": 16,
+    "level": 15,
     "character": "fencer",
     "category": "shield",
     "raw": 22,
@@ -14539,7 +14539,7 @@
   {
     "id": "Weapon406",
     "name": "Deflection Shield 4",
-    "level": 22,
+    "level": 21,
     "character": "fencer",
     "category": "shield",
     "raw": 22,
@@ -14704,7 +14704,7 @@
   {
     "id": "Weapon411",
     "name": "Deflection Shield 6",
-    "level": 40,
+    "level": 39,
     "character": "fencer",
     "category": "shield",
     "raw": 22,
@@ -15100,7 +15100,7 @@
   {
     "id": "Weapon422",
     "name": "Galleon Lightweight Cannon",
-    "level": 1,
+    "level": 0,
     "character": "fencer",
     "category": "light",
     "raw": 23,
@@ -15133,7 +15133,7 @@
   {
     "id": "Weapon423",
     "name": "Dexter Automatic Shotgun",
-    "level": 2,
+    "level": 1,
     "character": "fencer",
     "category": "light",
     "raw": 23,
@@ -15199,7 +15199,7 @@
   {
     "id": "Weapon425",
     "name": "FG8 Hand Gatling",
-    "level": 8,
+    "level": 7,
     "character": "fencer",
     "category": "light",
     "raw": 23,
@@ -15430,7 +15430,7 @@
   {
     "id": "Weapon432",
     "name": "FG9 Hand Gatling",
-    "level": 28,
+    "level": 27,
     "character": "fencer",
     "category": "light",
     "raw": 23,
@@ -15496,7 +15496,7 @@
   {
     "id": "Weapon434",
     "name": "Dexter Automatic Shotgun D2",
-    "level": 36,
+    "level": 35,
     "character": "fencer",
     "category": "light",
     "raw": 23,
@@ -15529,7 +15529,7 @@
   {
     "id": "Weapon435",
     "name": "Galleon Triple Burst Cannon",
-    "level": 38,
+    "level": 37,
     "character": "fencer",
     "category": "light",
     "raw": 23,
@@ -15661,7 +15661,7 @@
   {
     "id": "Weapon439",
     "name": "Dexter Automatic Shotgun G",
-    "level": 51,
+    "level": 50,
     "character": "fencer",
     "category": "light",
     "raw": 23,
@@ -15760,7 +15760,7 @@
   {
     "id": "Weapon442",
     "name": "Flame Revolver DC2",
-    "level": 61,
+    "level": 60,
     "character": "fencer",
     "category": "light",
     "raw": 23,
@@ -15859,7 +15859,7 @@
   {
     "id": "Weapon445",
     "name": "Galleon Rapid Fire Cannon M2",
-    "level": 69,
+    "level": 68,
     "character": "fencer",
     "category": "light",
     "raw": 23,
@@ -16057,7 +16057,7 @@
   {
     "id": "Weapon451",
     "name": "FGZ Hand Gatling",
-    "level": 81,
+    "level": 80,
     "character": "fencer",
     "category": "light",
     "raw": 23,
@@ -16189,7 +16189,7 @@
   {
     "id": "Weapon454",
     "name": "Powerdyne",
-    "level": 3,
+    "level": 2,
     "character": "fencer",
     "category": "heavy",
     "raw": 24,
@@ -16486,7 +16486,7 @@
   {
     "id": "Weapon463",
     "name": "NC104 Hand Cannon",
-    "level": 41,
+    "level": 40,
     "character": "fencer",
     "category": "heavy",
     "raw": 24,
@@ -16519,7 +16519,7 @@
   {
     "id": "Weapon464",
     "name": "NCS2 Cannon Shot",
-    "level": 46,
+    "level": 45,
     "character": "fencer",
     "category": "heavy",
     "raw": 24,
@@ -16717,7 +16717,7 @@
   {
     "id": "Weapon470",
     "name": "Javelin Storm ZD",
-    "level": 73,
+    "level": 72,
     "character": "fencer",
     "category": "heavy",
     "raw": 24,
@@ -16750,7 +16750,7 @@
   {
     "id": "Weapon471",
     "name": "NCSS Cannon Shot",
-    "level": 76,
+    "level": 75,
     "character": "fencer",
     "category": "heavy",
     "raw": 24,
@@ -16882,7 +16882,7 @@
   {
     "id": "hHellStorm01",
     "name": "Ifrit",
-    "level": 3,
+    "level": 2,
     "character": "fencer",
     "category": "heavy",
     "raw": 24,
@@ -16981,7 +16981,7 @@
   {
     "id": "Weapon477",
     "name": "YH2 Dispersal Mortar",
-    "level": 13,
+    "level": 12,
     "character": "fencer",
     "category": "heavy",
     "raw": 24,
@@ -17080,7 +17080,7 @@
   {
     "id": "Weapon480",
     "name": "FHD3 Heavy Mortar",
-    "level": 34,
+    "level": 33,
     "character": "fencer",
     "category": "heavy",
     "raw": 24,
@@ -17146,7 +17146,7 @@
   {
     "id": "Weapon482",
     "name": "YH3 Dispersal Mortar",
-    "level": 43,
+    "level": 42,
     "character": "fencer",
     "category": "heavy",
     "raw": 24,
@@ -17179,7 +17179,7 @@
   {
     "id": "Weapon483",
     "name": "FH22 Light Mortar",
-    "level": 54,
+    "level": 53,
     "character": "fencer",
     "category": "heavy",
     "raw": 24,
@@ -17212,7 +17212,7 @@
   {
     "id": "Weapon484",
     "name": "FHER Explosive Mortar",
-    "level": 63,
+    "level": 62,
     "character": "fencer",
     "category": "heavy",
     "raw": 24,
@@ -17377,7 +17377,7 @@
   {
     "id": "Weapon488",
     "name": "Leviathan",
-    "level": 4,
+    "level": 3,
     "character": "fencer",
     "category": "missile",
     "raw": 25,
@@ -17443,7 +17443,7 @@
   {
     "id": "Weapon490",
     "name": "Arcane 6-Barrel Launcher",
-    "level": 14,
+    "level": 13,
     "character": "fencer",
     "category": "missile",
     "raw": 25,
@@ -17476,7 +17476,7 @@
   {
     "id": "Weapon491",
     "name": "FG01 High Altitude Impact Launcher",
-    "level": 19,
+    "level": 18,
     "character": "fencer",
     "category": "missile",
     "raw": 25,
@@ -17575,7 +17575,7 @@
   {
     "id": "Weapon494",
     "name": "Haytal Multi-Missile M2",
-    "level": 31,
+    "level": 30,
     "character": "fencer",
     "category": "missile",
     "raw": 25,
@@ -17806,7 +17806,7 @@
   {
     "id": "Weapon501",
     "name": "G3 Arm Hound",
-    "level": 56,
+    "level": 55,
     "character": "fencer",
     "category": "missile",
     "raw": 25,
@@ -17839,7 +17839,7 @@
   {
     "id": "Weapon502",
     "name": "Wild Leviathan",
-    "level": 59,
+    "level": 58,
     "character": "fencer",
     "category": "missile",
     "raw": 25,
@@ -18004,7 +18004,7 @@
   {
     "id": "Weapon507",
     "name": "Phoenix WX",
-    "level": 85,
+    "level": 84,
     "character": "fencer",
     "category": "missile",
     "raw": 25,
@@ -18268,7 +18268,7 @@
   {
     "id": "Weapon513",
     "name": "High Output Beacon Gun",
-    "level": 41,
+    "level": 40,
     "character": "bomber",
     "category": "guide",
     "raw": 30,
@@ -18440,7 +18440,7 @@
   {
     "id": "Weapon518",
     "name": "Life Vendor M2",
-    "level": 12,
+    "level": 11,
     "character": "bomber",
     "category": "support",
     "raw": 32,
@@ -18545,7 +18545,7 @@
   {
     "id": "Weapon521",
     "name": "Life Vendor M3",
-    "level": 37,
+    "level": 36,
     "character": "bomber",
     "category": "support",
     "raw": 32,
@@ -18580,7 +18580,7 @@
   {
     "id": "Weapon522",
     "name": "Life Vendor MH",
-    "level": 51,
+    "level": 50,
     "character": "bomber",
     "category": "support",
     "raw": 32,
@@ -18875,7 +18875,7 @@
   {
     "id": "Weapon530",
     "name": "Plasma Charger M3",
-    "level": 46,
+    "level": 45,
     "character": "bomber",
     "category": "support",
     "raw": 32,
@@ -18990,7 +18990,7 @@
   {
     "id": "Weapon533",
     "name": "Plasma Charger ZM",
-    "level": 79,
+    "level": 78,
     "character": "bomber",
     "category": "support",
     "raw": 32,
@@ -19030,7 +19030,7 @@
   {
     "id": "Weapon534",
     "name": "Plasma Battery Gun ZM",
-    "level": 87,
+    "level": 86,
     "character": "bomber",
     "category": "support",
     "raw": 32,
@@ -19170,7 +19170,7 @@
   {
     "id": "Weapon538",
     "name": "Power Assist Gun M2",
-    "level": 36,
+    "level": 35,
     "character": "bomber",
     "category": "support",
     "raw": 32,
@@ -19240,7 +19240,7 @@
   {
     "id": "Weapon540",
     "name": "Power Assist Gun MG",
-    "level": 67,
+    "level": 66,
     "character": "bomber",
     "category": "support",
     "raw": 32,
@@ -19425,7 +19425,7 @@
   {
     "id": "Weapon545",
     "name": "Zone Protector",
-    "level": 32,
+    "level": 31,
     "character": "bomber",
     "category": "support",
     "raw": 32,
@@ -19685,7 +19685,7 @@
   {
     "id": "Weapon550",
     "name": "Cannon B (Artillery Squad)",
-    "level": 40,
+    "level": 39,
     "character": "bomber",
     "category": "raid",
     "raw": 31,
@@ -19755,7 +19755,7 @@
   {
     "id": "Weapon552",
     "name": "Enhanced Howitzer (Artillery Squad)",
-    "level": 69,
+    "level": 68,
     "character": "bomber",
     "category": "raid",
     "raw": 31,
@@ -19790,7 +19790,7 @@
   {
     "id": "Weapon553",
     "name": "Gigantic Howitzer (Artillery Squad)",
-    "level": 78,
+    "level": 77,
     "character": "bomber",
     "category": "raid",
     "raw": 31,
@@ -20210,7 +20210,7 @@
   {
     "id": "Weapon564",
     "name": "120mm Cannon C (Attack Whale)",
-    "level": 86,
+    "level": 85,
     "character": "bomber",
     "category": "raid",
     "raw": 31,
@@ -20353,7 +20353,7 @@
   {
     "id": "Weapon567",
     "name": "Bombing Plan C (Bomber Charon)",
-    "level": 28,
+    "level": 27,
     "character": "bomber",
     "category": "raid",
     "raw": 31,
@@ -20569,7 +20569,7 @@
   {
     "id": "Weapon573",
     "name": "Strafe Plan C (Bomber Charon)",
-    "level": 80,
+    "level": 79,
     "character": "bomber",
     "category": "raid",
     "raw": 31,
@@ -20605,7 +20605,7 @@
   {
     "id": "Weapon574",
     "name": "Bombing Plan F (Bomber Charon)",
-    "level": 85,
+    "level": 84,
     "character": "bomber",
     "category": "raid",
     "raw": 31,
@@ -20641,7 +20641,7 @@
   {
     "id": "Weapon575",
     "name": "AH Coastal Missiles",
-    "level": 3,
+    "level": 2,
     "character": "bomber",
     "category": "raid",
     "raw": 31,
@@ -20746,7 +20746,7 @@
   {
     "id": "Weapon578",
     "name": "N5 Coastal Missiles",
-    "level": 38,
+    "level": 37,
     "character": "bomber",
     "category": "raid",
     "raw": 31,
@@ -20921,7 +20921,7 @@
   {
     "id": "Weapon583",
     "name": "Lionic 30",
-    "level": 81,
+    "level": 80,
     "character": "bomber",
     "category": "raid",
     "raw": 31,
@@ -21131,7 +21131,7 @@
   {
     "id": "Weapon589",
     "name": "Spritefall B",
-    "level": 55,
+    "level": 54,
     "character": "bomber",
     "category": "raid",
     "raw": 31,
@@ -21373,7 +21373,7 @@
   {
     "id": "Weapon595",
     "name": "Limpet Splendor",
-    "level": 1,
+    "level": 0,
     "character": "bomber",
     "category": "limpet",
     "raw": 33,
@@ -21439,7 +21439,7 @@
   {
     "id": "Weapon597",
     "name": "Limpet Gun D",
-    "level": 3,
+    "level": 2,
     "character": "bomber",
     "category": "limpet",
     "raw": 33,
@@ -21505,7 +21505,7 @@
   {
     "id": "Weapon599",
     "name": "Limpet Gun M2",
-    "level": 9,
+    "level": 8,
     "character": "bomber",
     "category": "limpet",
     "raw": 33,
@@ -21538,7 +21538,7 @@
   {
     "id": "Weapon600",
     "name": "Limpet Sniper D",
-    "level": 13,
+    "level": 12,
     "character": "bomber",
     "category": "limpet",
     "raw": 33,
@@ -21571,7 +21571,7 @@
   {
     "id": "Weapon601",
     "name": "Limpet Splendor M2",
-    "level": 16,
+    "level": 15,
     "character": "bomber",
     "category": "limpet",
     "raw": 33,
@@ -21604,7 +21604,7 @@
   {
     "id": "Weapon602",
     "name": "Limpet Launcher",
-    "level": 19,
+    "level": 18,
     "character": "bomber",
     "category": "limpet",
     "raw": 33,
@@ -21802,7 +21802,7 @@
   {
     "id": "Weapon608",
     "name": "Limpet Sniper A3",
-    "level": 34,
+    "level": 33,
     "character": "bomber",
     "category": "limpet",
     "raw": 33,
@@ -21868,7 +21868,7 @@
   {
     "id": "Weapon610",
     "name": "Limpet Shot",
-    "level": 44,
+    "level": 43,
     "character": "bomber",
     "category": "limpet",
     "raw": 33,
@@ -22033,7 +22033,7 @@
   {
     "id": "Weapon615",
     "name": "Limpet Detector ME",
-    "level": 62,
+    "level": 61,
     "character": "bomber",
     "category": "limpet",
     "raw": 33,
@@ -22099,7 +22099,7 @@
   {
     "id": "Weapon617",
     "name": "Limpet Sniper MA2",
-    "level": 68,
+    "level": 67,
     "character": "bomber",
     "category": "limpet",
     "raw": 33,
@@ -22132,7 +22132,7 @@
   {
     "id": "Weapon618",
     "name": "Splendor Chain Gun",
-    "level": 72,
+    "level": 71,
     "character": "bomber",
     "category": "limpet",
     "raw": 33,
@@ -22297,7 +22297,7 @@
   {
     "id": "Weapon623",
     "name": "Limpet Sniper ZD",
-    "level": 88,
+    "level": 87,
     "character": "bomber",
     "category": "limpet",
     "raw": 33,
@@ -22363,7 +22363,7 @@
   {
     "id": "Weapon625",
     "name": "C20 Bomb",
-    "level": 2,
+    "level": 1,
     "character": "bomber",
     "category": "deploy",
     "raw": 34,
@@ -22396,7 +22396,7 @@
   {
     "id": "Weapon626",
     "name": "Roller Bomb",
-    "level": 11,
+    "level": 10,
     "character": "bomber",
     "category": "deploy",
     "raw": 34,
@@ -22429,7 +22429,7 @@
   {
     "id": "Weapon627",
     "name": "Assault Beetle",
-    "level": 13,
+    "level": 12,
     "character": "bomber",
     "category": "deploy",
     "raw": 34,
@@ -22462,7 +22462,7 @@
   {
     "id": "Weapon628",
     "name": "C24 Bomb",
-    "level": 17,
+    "level": 16,
     "character": "bomber",
     "category": "deploy",
     "raw": 34,
@@ -22561,7 +22561,7 @@
   {
     "id": "Weapon631",
     "name": "Patroller",
-    "level": 39,
+    "level": 38,
     "character": "bomber",
     "category": "deploy",
     "raw": 34,
@@ -22594,7 +22594,7 @@
   {
     "id": "Weapon632",
     "name": "Assault Beetle DA",
-    "level": 43,
+    "level": 42,
     "character": "bomber",
     "category": "deploy",
     "raw": 34,
@@ -22627,7 +22627,7 @@
   {
     "id": "Weapon633",
     "name": "C30 Bomb",
-    "level": 47,
+    "level": 46,
     "character": "bomber",
     "category": "deploy",
     "raw": 34,
@@ -22660,7 +22660,7 @@
   {
     "id": "Weapon634",
     "name": "Roller Bomb D2",
-    "level": 54,
+    "level": 53,
     "character": "bomber",
     "category": "deploy",
     "raw": 34,
@@ -22693,7 +22693,7 @@
   {
     "id": "Weapon635",
     "name": "Stag Beetle",
-    "level": 61,
+    "level": 60,
     "character": "bomber",
     "category": "deploy",
     "raw": 34,
@@ -22726,7 +22726,7 @@
   {
     "id": "Weapon636",
     "name": "Speed Star",
-    "level": 63,
+    "level": 62,
     "character": "bomber",
     "category": "deploy",
     "raw": 34,
@@ -22792,7 +22792,7 @@
   {
     "id": "Weapon638",
     "name": "Roller Bomb DZ",
-    "level": 77,
+    "level": 76,
     "character": "bomber",
     "category": "deploy",
     "raw": 34,
@@ -22924,7 +22924,7 @@
   {
     "id": "Weapon642",
     "name": "Y10 Impulse",
-    "level": 8,
+    "level": 7,
     "character": "bomber",
     "category": "deploy",
     "raw": 34,
@@ -22990,7 +22990,7 @@
   {
     "id": "Weapon644",
     "name": "Y10 Wide Impulse",
-    "level": 22,
+    "level": 21,
     "character": "bomber",
     "category": "deploy",
     "raw": 34,
@@ -23023,7 +23023,7 @@
   {
     "id": "Weapon645",
     "name": "Y11 Impulse",
-    "level": 31,
+    "level": 30,
     "character": "bomber",
     "category": "deploy",
     "raw": 34,
@@ -23089,7 +23089,7 @@
   {
     "id": "Weapon647",
     "name": "Y20 Impulse",
-    "level": 49,
+    "level": 48,
     "character": "bomber",
     "category": "deploy",
     "raw": 34,
@@ -23254,7 +23254,7 @@
   {
     "id": "Weapon652",
     "name": "ZER-GUN",
-    "level": 12,
+    "level": 11,
     "character": "bomber",
     "category": "deploy",
     "raw": 34,
@@ -23452,7 +23452,7 @@
   {
     "id": "Weapon658",
     "name": "ZEXR-GUN",
-    "level": 80,
+    "level": 79,
     "character": "bomber",
     "category": "deploy",
     "raw": 34,
@@ -23485,7 +23485,7 @@
   {
     "id": "eDecoyShooter01",
     "name": "Pure Decoy Launcher [Anju]",
-    "level": 3,
+    "level": 2,
     "character": "bomber",
     "category": "special",
     "raw": 35,
@@ -23518,7 +23518,7 @@
   {
     "id": "eDecoyShooter02",
     "name": "Pure Decoy Launcher [Miyabi]",
-    "level": 3,
+    "level": 2,
     "character": "bomber",
     "category": "special",
     "raw": 35,
@@ -23551,7 +23551,7 @@
   {
     "id": "eDecoyShooter03",
     "name": "Pure Decoy Launcher [Noko]",
-    "level": 3,
+    "level": 2,
     "character": "bomber",
     "category": "special",
     "raw": 35,
@@ -23584,7 +23584,7 @@
   {
     "id": "eDecoyShooter04",
     "name": "Pure Decoy Launcher [Mitsuki]",
-    "level": 3,
+    "level": 2,
     "character": "bomber",
     "category": "special",
     "raw": 35,
@@ -23617,7 +23617,7 @@
   {
     "id": "eDecoyShooter05",
     "name": "Pure Decoy Launcher [Seira]",
-    "level": 3,
+    "level": 2,
     "character": "bomber",
     "category": "special",
     "raw": 35,
@@ -23716,7 +23716,7 @@
   {
     "id": "Weapon661",
     "name": "Anti-Aircraft Bunker",
-    "level": 14,
+    "level": 13,
     "character": "bomber",
     "category": "special",
     "raw": 35,
@@ -23980,7 +23980,7 @@
   {
     "id": "Weapon669",
     "name": "Electromagnetic Bunker GH",
-    "level": 73,
+    "level": 72,
     "character": "bomber",
     "category": "special",
     "raw": 35,
@@ -24150,7 +24150,7 @@
   {
     "id": "Weapon674",
     "name": "Caesar Wire",
-    "level": 4,
+    "level": 3,
     "character": "bomber",
     "category": "special",
     "raw": 35,
@@ -24183,7 +24183,7 @@
   {
     "id": "Weapon675",
     "name": "Rapidfire Wire",
-    "level": 9,
+    "level": 8,
     "character": "bomber",
     "category": "special",
     "raw": 35,
@@ -24249,7 +24249,7 @@
   {
     "id": "Weapon677",
     "name": "Wire Shot",
-    "level": 27,
+    "level": 26,
     "character": "bomber",
     "category": "special",
     "raw": 35,
@@ -24315,7 +24315,7 @@
   {
     "id": "Weapon679",
     "name": "Rapidfire Wire DA",
-    "level": 56,
+    "level": 55,
     "character": "bomber",
     "category": "special",
     "raw": 35,
@@ -24513,7 +24513,7 @@
   {
     "id": "eVehicle_Begaruta01",
     "name": "BM03 Vegalta Gold",
-    "level": 3,
+    "level": 2,
     "character": "bomber",
     "category": "mech",
     "raw": 39,
@@ -24579,7 +24579,7 @@
   {
     "id": "GroundRobo01",
     "name": "Depth Crawler I",
-    "level": 2,
+    "level": 1,
     "character": "bomber",
     "category": "mech",
     "raw": 39,
@@ -24612,7 +24612,7 @@
   {
     "id": "GroundRobo01_Gold",
     "name": "Depth Crawler Gold Coat",
-    "level": 3,
+    "level": 2,
     "character": "bomber",
     "category": "mech",
     "raw": 39,
@@ -24711,7 +24711,7 @@
   {
     "id": "Weapon686",
     "name": "Naegling Self-Propelled Rocket",
-    "level": 7,
+    "level": 6,
     "character": "bomber",
     "category": "ground",
     "raw": 37,
@@ -24744,7 +24744,7 @@
   {
     "id": "Weapon687",
     "name": "E551 Gigantus D2",
-    "level": 8,
+    "level": 7,
     "character": "bomber",
     "category": "tank",
     "raw": 36,
@@ -25140,7 +25140,7 @@
   {
     "id": "Weapon694",
     "name": "E551 Gigantus J",
-    "level": 16,
+    "level": 15,
     "character": "bomber",
     "category": "tank",
     "raw": 36,
@@ -25206,7 +25206,7 @@
   {
     "id": "Weapon696",
     "name": "Armored Vehicle Grape AP1",
-    "level": 17,
+    "level": 16,
     "character": "bomber",
     "category": "ground",
     "raw": 37,
@@ -25305,7 +25305,7 @@
   {
     "id": "Weapon699",
     "name": "Melt Buster",
-    "level": 19,
+    "level": 18,
     "character": "bomber",
     "category": "tank",
     "raw": 36,
@@ -25338,7 +25338,7 @@
   {
     "id": "Weapon700",
     "name": "SDL1 Bike",
-    "level": 19,
+    "level": 18,
     "character": "bomber",
     "category": "ground",
     "raw": 37,
@@ -25536,7 +25536,7 @@
   {
     "id": "Weapon705",
     "name": "E551 Gigantus JS Custom",
-    "level": 24,
+    "level": 23,
     "character": "bomber",
     "category": "tank",
     "raw": 36,
@@ -25635,7 +25635,7 @@
   {
     "id": "Weapon708",
     "name": "BM03 Vegalta A1",
-    "level": 28,
+    "level": 27,
     "character": "bomber",
     "category": "mech",
     "raw": 39,
@@ -25668,7 +25668,7 @@
   {
     "id": "Weapon709",
     "name": "BMX10 Proteus",
-    "level": 29,
+    "level": 28,
     "character": "bomber",
     "category": "mech",
     "raw": 39,
@@ -25899,7 +25899,7 @@
   {
     "id": "Weapon716",
     "name": "E651 Titan M2",
-    "level": 38,
+    "level": 37,
     "character": "bomber",
     "category": "tank",
     "raw": 36,
@@ -25932,7 +25932,7 @@
   {
     "id": "Weapon717",
     "name": "Armored Vehicle Grape RA",
-    "level": 38,
+    "level": 37,
     "character": "bomber",
     "category": "ground",
     "raw": 37,
@@ -25998,7 +25998,7 @@
   {
     "id": "Weapon719",
     "name": "HU04 Brute Hell Flame",
-    "level": 39,
+    "level": 38,
     "character": "bomber",
     "category": "heli",
     "raw": 38,
@@ -26097,7 +26097,7 @@
   {
     "id": "Weapon722",
     "name": "BM03 Vegalta A2",
-    "level": 41,
+    "level": 40,
     "character": "bomber",
     "category": "mech",
     "raw": 39,
@@ -26163,7 +26163,7 @@
   {
     "id": "Weapon724",
     "name": "EF24 Bazelart Blaze",
-    "level": 43,
+    "level": 42,
     "character": "bomber",
     "category": "heli",
     "raw": 38,
@@ -26196,7 +26196,7 @@
   {
     "id": "Weapon725",
     "name": "Naegling Self-Propelled Rocket D1",
-    "level": 44,
+    "level": 43,
     "character": "bomber",
     "category": "ground",
     "raw": 37,
@@ -26427,7 +26427,7 @@
   {
     "id": "Weapon732",
     "name": "BMX10 Proteus Burst",
-    "level": 54,
+    "level": 53,
     "character": "bomber",
     "category": "mech",
     "raw": 39,
@@ -26526,7 +26526,7 @@
   {
     "id": "Weapon735",
     "name": "Caravan Armored Vehicle Turbo",
-    "level": 59,
+    "level": 58,
     "character": "bomber",
     "category": "ground",
     "raw": 37,
@@ -26625,7 +26625,7 @@
   {
     "id": "Weapon738",
     "name": "Walking Fortress Balam Laser Fort",
-    "level": 59,
+    "level": 58,
     "character": "bomber",
     "category": "mech",
     "raw": 39,
@@ -26691,7 +26691,7 @@
   {
     "id": "Weapon740",
     "name": "E551 Gigantus RG1",
-    "level": 63,
+    "level": 62,
     "character": "bomber",
     "category": "tank",
     "raw": 36,
@@ -26757,7 +26757,7 @@
   {
     "id": "Weapon742",
     "name": "HU04 Brute D7",
-    "level": 64,
+    "level": 63,
     "character": "bomber",
     "category": "heli",
     "raw": 38,
@@ -26889,7 +26889,7 @@
   {
     "id": "Weapon746",
     "name": "EF24 Bazelart Vulture 2",
-    "level": 68,
+    "level": 67,
     "character": "bomber",
     "category": "heli",
     "raw": 38,
@@ -26922,7 +26922,7 @@
   {
     "id": "Weapon747",
     "name": "BM03 Vegalta Fireknight",
-    "level": 69,
+    "level": 68,
     "character": "bomber",
     "category": "mech",
     "raw": 39,
@@ -27054,7 +27054,7 @@
   {
     "id": "Weapon751",
     "name": "Caravan Armored Vehicle M3",
-    "level": 73,
+    "level": 72,
     "character": "bomber",
     "category": "ground",
     "raw": 37,
@@ -27153,7 +27153,7 @@
   {
     "id": "Weapon754",
     "name": "Caravan Armored Vehicle S Turbo",
-    "level": 77,
+    "level": 76,
     "character": "bomber",
     "category": "ground",
     "raw": 37,
@@ -27285,7 +27285,7 @@
   {
     "id": "Weapon758",
     "name": "EF24 Bazelart Vulture F",
-    "level": 79,
+    "level": 78,
     "character": "bomber",
     "category": "heli",
     "raw": 38,
@@ -27351,7 +27351,7 @@
   {
     "id": "Weapon760",
     "name": "Naegling Self-Propelled Rocket XEM",
-    "level": 81,
+    "level": 80,
     "character": "bomber",
     "category": "ground",
     "raw": 37,
@@ -27483,7 +27483,7 @@
   {
     "id": "Weapon764",
     "name": "E651 Titan M3",
-    "level": 84,
+    "level": 83,
     "character": "bomber",
     "category": "tank",
     "raw": 36,
@@ -27648,7 +27648,7 @@
   {
     "id": "Weapon769",
     "name": "E551 Gigantus ZA",
-    "level": 88,
+    "level": 87,
     "character": "bomber",
     "category": "tank",
     "raw": 36,
@@ -27681,7 +27681,7 @@
   {
     "id": "Weapon770",
     "name": "Walking Fortress Balam Type F",
-    "level": 88,
+    "level": 87,
     "character": "bomber",
     "category": "mech",
     "raw": 39,

@@ -627,7 +627,6 @@ const headers = [{
   iff: (ch, cat, wpn) => {
     if([
       'guide',
-      'raid',
       'shield',
       'tank',
       'ground',

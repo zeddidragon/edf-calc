@@ -109,6 +109,8 @@ function populateWeapons(ch, cat) {
     extra.innerHTML = '*Assuming flame hits every frame of duration.'
   } else if(cat === 'support') {
     extra.innerHTML = '*All ammo combined'
+  } else if(cat === 'deploy') {
+    extra.innerHTML = '*All sentries combined'
   } else {
     extra.innerHTML = ''
   }
@@ -230,7 +232,13 @@ const headers = [{
     if(wpn.count > 1) {
       dmg = `${dmg} x ${wpn.count}`
     }
-    if(wpn.shots > 1 && wpn.category !== 'raid') {
+    if(wpn.type === 'SentryGunBullet01') {
+      return dmg
+    }
+    if(wpn.category === 'raid') {
+      return dmg
+    }
+    if(wpn.shots > 1) {
       dmg = `${dmg} x ${wpn.shots}`
     }
     return dmg
@@ -322,6 +330,9 @@ const headers = [{
     if(!wpn.shots) {
       return '-'
     }
+    if(wpn.type === 'BombBullet01') {
+      return '-'
+    }
     switch(wpn.strikeType) {
       case 'bomber': {
         return `${wpn.shots} x ${wpn.units}`
@@ -399,6 +410,9 @@ const headers = [{
       const burstRof = FPS / wpn.burstRate
       const rof = FPS / ((wpn.burst - 1) * wpn.burstRate + wpn.interval)
       return `${+rof.toFixed(2)} x ${wpn.burst}`
+    }
+    if(wpn.shotInterval) {
+      return +(FPS / wpn.shotInterval).toFixed(2)
     }
     const rof = +(FPS / (wpn.interval || 1)).toFixed(2)
     if(rof === Infinity) {
@@ -494,7 +508,10 @@ const headers = [{
     if(wpn.category === 'missile') {
       return wpn.lockRange
     }
-    return (wpn.range || 0).toFixed(0)
+    if(!wpn.range) {
+      return '-'
+    }
+    return wpn.range.toFixed(0)
   },
 }, {
   iff: (ch, cat, wpn) => {
@@ -556,6 +573,13 @@ const headers = [{
     if(wpn.ammo < 2 && !wpn.duration) {
       return '-'
     }
+    if(wpn.shotInterval) { // Turret
+      return quickDps({
+        ...wpn,
+        shots: 1,
+        interval: wpn.shotInterval,
+      })
+    }
     if(wpn.burst > 100) {
       return wpn.damage * FPS / wpn.burstRate
     }
@@ -575,6 +599,7 @@ const headers = [{
   iff: (ch, cat, wpn) => {
     if([
       'support',
+      'deploy',
     ].includes(cat)) {
       return true
     }
@@ -595,6 +620,13 @@ const headers = [{
         return '-'
       }
       return +(wpn.damage * FPS * wpn.ammo).toFixed(1)
+    }
+    if(wpn.shotInterval) { // Turret
+      return quickDps({
+        ...wpn,
+        shots: wpn.ammo,
+        interval: wpn.shotInterval,
+      })
     }
     if(wpn.continous) {
       return +(wpn.damage
@@ -632,6 +664,14 @@ const headers = [{
     if(wpn.type === 'DecoyBullet01') {
       return '-'
     }
+    if(wpn.shotInterval) { // Turret
+      return +tacticalDps({
+        ...wpn,
+        shots: 1,
+        interval: wpn.shotInterval,
+        ammo: wpn.shots,
+      }).toFixed(1)
+    }
     return +tacticalDps(wpn).toFixed(1)
   },
 }, {
@@ -641,14 +681,27 @@ const headers = [{
     ].includes(cat)) {
       return true
     }
+    if([
+      'deploy',
+    ].includes(cat)) {
+      return true
+    }
     return false
   },
   label: 'TDPS*',
   cb: wpn => {
-    if(!wpn.continous) {
-      return '-'
+    if(wpn.shotInterval) { // Turret
+      return +tacticalDps({
+        ...wpn,
+        shots: wpn.ammo,
+        interval: wpn.shotInterval,
+        ammo: wpn.shots,
+      }).toFixed(1)
     }
-    return +(tacticalDps(wpn) * wpn.duration).toFixed(1)
+    if(wpn.continous) { // Flamethrower
+      return +(tacticalDps(wpn) * wpn.duration).toFixed(1)
+    }
+    return '-'
   },
 }, {
   iff: (ch, cat, wpn) => {

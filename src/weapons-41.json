@@ -13905,7 +13905,9 @@
     "reload": 1200,
     "reloadInit": 1,
     "secondary": 2,
-    "accuracy": 1
+    "accuracy": 1,
+    "shots": 200,
+    "shotInterval": 8
   },
   {
     "id": "Weapon652",
@@ -13924,7 +13926,9 @@
     "reload": 1200,
     "reloadInit": 1,
     "secondary": 2,
-    "accuracy": 1
+    "accuracy": 1,
+    "shots": 400,
+    "shotInterval": 4
   },
   {
     "id": "Weapon653",
@@ -13943,7 +13947,9 @@
     "reload": 1200,
     "reloadInit": 1,
     "secondary": 2,
-    "accuracy": 1
+    "accuracy": 1,
+    "shots": 20,
+    "shotInterval": 120
   },
   {
     "id": "Weapon654",
@@ -13963,7 +13969,9 @@
     "reload": 1200,
     "reloadInit": 1,
     "secondary": 2,
-    "accuracy": 1
+    "accuracy": 1,
+    "shots": 20,
+    "shotInterval": 120
   },
   {
     "id": "Weapon655",
@@ -13982,7 +13990,9 @@
     "reload": 1200,
     "reloadInit": 1,
     "secondary": 2,
-    "accuracy": 1
+    "accuracy": 1,
+    "shots": 400,
+    "shotInterval": 4
   },
   {
     "id": "Weapon656",
@@ -14001,7 +14011,9 @@
     "reload": 1200,
     "reloadInit": 1,
     "secondary": 2,
-    "accuracy": 1
+    "accuracy": 1,
+    "shots": 100,
+    "shotInterval": 16
   },
   {
     "id": "Weapon657",
@@ -14021,7 +14033,9 @@
     "reload": 1200,
     "reloadInit": 1,
     "secondary": 2,
-    "accuracy": 1
+    "accuracy": 1,
+    "shots": 40,
+    "shotInterval": 60
   },
   {
     "id": "Weapon658",
@@ -14041,7 +14055,9 @@
     "reload": 1200,
     "reloadInit": 1,
     "secondary": 2,
-    "accuracy": 1
+    "accuracy": 1,
+    "shots": 500,
+    "shotInterval": 4
   },
   {
     "id": "eDecoyShooter01",

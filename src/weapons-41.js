@@ -560,14 +560,16 @@ const headers = [{
     ].includes(cat)) {
       return false
     }
+    if(ch === 'bomber' && [
+      'special',
+    ].includes(cat)) {
+      return false
+    }
     return true
   },
   label: 'DPS',
   cb: wpn => {
     if(!wpn.damage) {
-      return '-'
-    }
-    if(wpn.type === 'DecoyBullet01') {
       return '-'
     }
     if(wpn.ammo < 2 && !wpn.duration) {
@@ -651,6 +653,11 @@ const headers = [{
     ].includes(cat)) {
       return false
     }
+    if(ch === 'bomber' && [
+      'special',
+    ].includes(cat)) {
+      return false
+    }
     return true
   },
   label: 'TDPS',
@@ -661,13 +668,10 @@ const headers = [{
     if(wpn.reload < 0) {
       return '-'
     }
-    if(wpn.type === 'DecoyBullet01') {
-      return '-'
-    }
     if(wpn.shotInterval) { // Turret
       return +tacticalDps({
         ...wpn,
-        shots: 1,
+        shots: wpn.ammo,
         interval: wpn.shotInterval,
         ammo: wpn.shots,
       }).toFixed(1)
@@ -681,23 +685,10 @@ const headers = [{
     ].includes(cat)) {
       return true
     }
-    if([
-      'deploy',
-    ].includes(cat)) {
-      return true
-    }
     return false
   },
   label: 'TDPS*',
   cb: wpn => {
-    if(wpn.shotInterval) { // Turret
-      return +tacticalDps({
-        ...wpn,
-        shots: wpn.ammo,
-        interval: wpn.shotInterval,
-        ammo: wpn.shots,
-      }).toFixed(1)
-    }
     if(wpn.continous) { // Flamethrower
       return +(tacticalDps(wpn) * wpn.duration).toFixed(1)
     }
@@ -715,6 +706,11 @@ const headers = [{
     ].includes(cat)) {
       return false
     }
+    if(ch === 'bomber' && [
+      'special',
+    ].includes(cat)) {
+      return false
+    }
     return true
   },
   label: 'Total',
@@ -727,9 +723,6 @@ const headers = [{
         return '-'
       }
       return +(wpn.damage * wpn.duration).toFixed(1)
-    }
-    if(wpn.type === 'DecoyBullet01') {
-      return '-'
     }
     const dump = Math.abs(wpn.damage
       * (wpn.count || 1)

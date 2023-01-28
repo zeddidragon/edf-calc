@@ -7,7 +7,6 @@ fetch('src/weapons-41.json')
   .then(data => {
     table = data
     pickChar('ranger')
-    pickChar('bomber', 'tank')
   })
 
 function pickChar(ch, cat) {
@@ -113,6 +112,8 @@ function populateWeapons(ch, cat) {
     extra.innerHTML = '*All ammo combined'
   } else if(cat === 'deploy') {
     extra.innerHTML = '*All sentries combined'
+  } else if(cat === 'missile') {
+    extra.innerHTML = '*With 0 lock time'
   } else {
     extra.innerHTML = ''
   }
@@ -148,7 +149,10 @@ function tacticalDps(wpn) {
   const interval = wpn.interval || 1
   const bursts = wpn.ammo / (wpn.burst || 1)
   const bTime = burstTime(wpn)
-  const magTime = bursts * bTime + wpn.reload - interval
+  let magTime = bursts * bTime + wpn.reload - interval
+  if(wpn.lockType === 1) {
+    magTime += (wpn.lockTime || 0) * wpn.ammo
+  }
   return (mDmg * FPS / (magTime || interval))
 }
 
@@ -223,6 +227,9 @@ const headers = [{
   },
   label: 'Dmg',
   cb: wpn => {
+    if(['power', 'guard'].includes(wpn.supportType)) {
+      return `${wpn.damage}x`
+    }
     if(wpn.damage < 1) {
       return +(wpn.damage).toFixed(2)
     }
@@ -426,6 +433,23 @@ const headers = [{
     return rof
   }
 }, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'missile',
+      'homing',
+      'ground',
+      'heli',
+      'mech',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Lock',
+  cb: wpn => {
+    return +(wpn.lockTime / FPS).toFixed(2)
+  }
+}, {
   label: 'Rel',
   cb: wpn => {
     if(wpn.reload <= 0 || !wpn.reload) {
@@ -434,7 +458,7 @@ const headers = [{
     if(wpn.credits) {
       return wpn.reload
     }
-    return (wpn.reload / FPS).toFixed(1)
+    return +(wpn.reload / FPS).toFixed(2)
   }
 }, {
   iff: (ch, cat, wpn) => {
@@ -540,17 +564,43 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
+      'guide',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'L.Spd',
+  cb: wpn => {
+    return `${wpn.guideSpeed}x`
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'guide',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'L.Rng',
+  cb: wpn => {
+    return `${wpn.guideRange}x`
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
       'particle',
       'plasma',
       'guide',
       'raid',
       'shield',
+      'missile',
     ].includes(cat)) {
       return false
     }
     if(ch === 'winger' && [
       'sniper',
-      'missile',
     ].includes(cat)) {
       return false
     }
@@ -679,12 +729,18 @@ const headers = [{
     ].includes(cat)) {
       return true
     }
+    if(cat === 'missile') {
+      return true
+    }
     return false
   },
   label: 'TDPS*',
   cb: wpn => {
     if(wpn.continous) { // Flamethrower
       return +(tacticalDps(wpn) * wpn.duration).toFixed(1)
+    }
+    if(wpn.lockType === 1) {
+      return +tacticalDps({ ...wpn, lockType: 0 }).toFixed(1)
     }
     return '-'
   },

@@ -7,6 +7,7 @@ fetch('src/weapons-41.json')
   .then(data => {
     table = data
     pickChar('ranger')
+    pickChar('bomber', 'tank')
   })
 
 function pickChar(ch, cat) {
@@ -72,6 +73,7 @@ function populateWeapons(ch, cat) {
   weaponTable.innerHTML = ''
   const weapons = table
     .filter(t => t.character === ch && t.category === cat)
+    .flatMap(w => [w, ...(w.weapons || [])])
   const thead = $('thead')
   const theadrow = $('tr')
   for(const header of headers) {
@@ -154,6 +156,9 @@ const FPS = 60
 const headers = [{
   label: '✓',
   cb: wpn => {
+    if(!wpn.id) {
+      return ''
+    }
     const el = $('input')
     const key = `owned.${wpn.id}`
     el.setAttribute('type', 'checkbox')
@@ -184,7 +189,7 @@ const headers = [{
   cb: wpn => {
     const el = $('div')
     el.classList.add('name')
-    el.textContent = wpn.name
+    el.textContent += wpn.name
     return el
   },
 }, {
@@ -211,10 +216,6 @@ const headers = [{
     if([
       'guide',
       'shield',
-      'tank',
-      'ground',
-      'heli',
-      'mech',
     ].includes(cat)) {
       return false
     }
@@ -279,6 +280,10 @@ const headers = [{
       'support',
       'limpet',
       'deploy',
+      'tank',
+      'ground',
+      'heli',
+      'mech',
     ].includes(cat)) {
       return true
     }
@@ -345,18 +350,22 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
-      'winger',
-      'bomber',
-    ].includes(ch)) {
-      return false
-    }
-    if([
       'shotgun',
       'sniper',
       'spear',
       'heavy',
+      'tank',
+      'ground',
+      'heli',
+      'mech',
     ].includes(cat)) {
       return true
+    }
+    if([
+      'winger',
+      'bomber',
+    ].includes(ch)) {
+      return false
     }
     if(ch === 'ranger' && [
       'special',
@@ -377,10 +386,6 @@ const headers = [{
     if([
       'raid',
       'support',
-      'tank',
-      'ground',
-      'heli',
-      'mech',
       'shield',
     ].includes(cat)) {
       return false
@@ -441,10 +446,6 @@ const headers = [{
       'hammer',
       'spear',
       'shield',
-      'tank',
-      'ground',
-      'heli',
-      'mech',
     ].includes(cat)) {
       return false
     }
@@ -453,6 +454,7 @@ const headers = [{
   label: 'Acc',
   cb: wpn => {
     if(!wpn.speed) return '-'
+    if(wpn.accuracy == null) return '-'
     return [
       [0.9995, 'S++'],
       [0.9975, 'S+'],
@@ -517,10 +519,6 @@ const headers = [{
   iff: (ch, cat, wpn) => {
     if([
       'raid',
-      'tank',
-      'ground',
-      'heli',
-      'mech',
       'missile',
     ].includes(cat)) {
       return false
@@ -547,10 +545,6 @@ const headers = [{
       'guide',
       'raid',
       'shield',
-      'tank',
-      'ground',
-      'heli',
-      'mech',
     ].includes(cat)) {
       return false
     }
@@ -699,10 +693,6 @@ const headers = [{
     if([
       'guide',
       'shield',
-      'tank',
-      'ground',
-      'heli',
-      'mech',
     ].includes(cat)) {
       return false
     }

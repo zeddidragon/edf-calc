@@ -14681,7 +14681,8 @@
         "gravity": -1,
         "burst": 1,
         "count": 1,
-        "interval": 2
+        "interval": 2,
+        "piercing": true
       },
       {
         "name": "Combat Burner",
@@ -14695,7 +14696,8 @@
         "gravity": -1,
         "burst": 1,
         "count": 1,
-        "interval": 2
+        "interval": 2,
+        "piercing": true
       }
     ],
     "underground": "blocked"
@@ -15308,7 +15310,8 @@
         "gravity": -1,
         "burst": 1,
         "count": 1,
-        "interval": 2
+        "interval": 2,
+        "piercing": true
       },
       {
         "name": "Combat Burner",
@@ -15322,7 +15325,8 @@
         "gravity": -1,
         "burst": 1,
         "count": 1,
-        "interval": 2
+        "interval": 2,
+        "piercing": true
       },
       {
         "name": "Canister Shot (Right)",
@@ -15396,7 +15400,8 @@
         "range": 42,
         "burst": 1,
         "count": 1,
-        "accuracy": 1
+        "accuracy": 1,
+        "piercing": true
       },
       {
         "name": "Incinerator (Right)",
@@ -15408,7 +15413,8 @@
         "range": 42,
         "burst": 1,
         "count": 1,
-        "accuracy": 1
+        "accuracy": 1,
+        "piercing": true
       }
     ]
   },
@@ -16831,7 +16837,8 @@
         "gravity": -1,
         "burst": 1,
         "count": 1,
-        "interval": 2
+        "interval": 2,
+        "piercing": true
       }
     ],
     "underground": "blocked"
@@ -17159,7 +17166,8 @@
         "gravity": -1,
         "burst": 1,
         "count": 1,
-        "interval": 2
+        "interval": 2,
+        "piercing": true
       },
       {
         "name": "Combat Burner",
@@ -17173,7 +17181,8 @@
         "gravity": -1,
         "burst": 1,
         "count": 1,
-        "interval": 2
+        "interval": 2,
+        "piercing": true
       },
       {
         "name": "Canister Shot (Right)",
@@ -17461,7 +17470,8 @@
         "range": 42,
         "burst": 1,
         "count": 1,
-        "accuracy": 1
+        "accuracy": 1,
+        "piercing": true
       },
       {
         "name": "Heavy Shotgun (Right)",
@@ -17687,7 +17697,8 @@
         "gravity": -1,
         "burst": 1,
         "count": 1,
-        "interval": 2
+        "interval": 2,
+        "piercing": true
       },
       {
         "name": "Unguided Bomb",
@@ -17736,7 +17747,8 @@
         "gravity": -1,
         "burst": 1,
         "count": 1,
-        "interval": 2
+        "interval": 2,
+        "piercing": true
       },
       {
         "name": "Revolver Cannon",
@@ -18236,7 +18248,8 @@
         "gravity": -1,
         "burst": 1,
         "count": 1,
-        "interval": 2
+        "interval": 2,
+        "piercing": true
       },
       {
         "name": "Combat Burner",
@@ -18250,7 +18263,8 @@
         "gravity": -1,
         "burst": 1,
         "count": 1,
-        "interval": 2
+        "interval": 2,
+        "piercing": true
       },
       {
         "name": "Canister Shot (Right)",
@@ -18932,7 +18946,8 @@
         "gravity": -1,
         "burst": 1,
         "count": 1,
-        "interval": 2
+        "interval": 2,
+        "piercing": true
       },
       {
         "name": "Combat Burner",
@@ -18946,7 +18961,8 @@
         "gravity": -1,
         "burst": 1,
         "count": 1,
-        "interval": 2
+        "interval": 2,
+        "piercing": true
       },
       {
         "name": "Canister Shot (Right)",
@@ -19175,7 +19191,8 @@
         "gravity": -1,
         "burst": 1,
         "count": 1,
-        "interval": 2
+        "interval": 2,
+        "piercing": true
       },
       {
         "name": "Revolver Cannon",

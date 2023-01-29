@@ -151,7 +151,8 @@ function tacticalDps(wpn) {
   const bTime = burstTime(wpn)
   let magTime = bursts * bTime + wpn.reload - interval
   if(wpn.lockType === 1) {
-    magTime += (wpn.lockTime || 0) * wpn.ammo
+    let count = wpn.lockDist === 1 ? wpn.count : wpn.ammo
+    magTime += (wpn.lockTime || 0) * count
   }
   return (mDmg * FPS / (magTime || interval))
 }
@@ -199,6 +200,25 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
+      'tank',
+      'ground',
+      'heli',
+      'mech',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'HP',
+  cb: wpn => {
+    if(!wpn.hp) {
+      return '-'
+    }
+    return wpn.hp
+  }
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
       'raid',
       'particle',
       'plasma',
@@ -214,7 +234,12 @@ const headers = [{
     return true
   },
   label: 'Cap',
-  cb: wpn => wpn.ammo,
+  cb: wpn => {
+    if(!wpn.ammo) {
+      return '-'
+    }
+    return wpn.ammo
+  }
 }, {
   iff: (ch, cat, wpn) => {
     if([
@@ -447,6 +472,9 @@ const headers = [{
   },
   label: 'Lock',
   cb: wpn => {
+    if(!wpn.lockTime) {
+      return '-'
+    }
     return +(wpn.lockTime / FPS).toFixed(2)
   }
 }, {
@@ -740,7 +768,10 @@ const headers = [{
       return +(tacticalDps(wpn) * wpn.duration).toFixed(1)
     }
     if(wpn.lockType === 1) {
-      return +tacticalDps({ ...wpn, lockType: 0 }).toFixed(1)
+      return +tacticalDps({
+        ...wpn,
+        lockType: 0,
+      }).toFixed(1)
     }
     return '-'
   },
@@ -772,7 +803,7 @@ const headers = [{
     }
     const dump = Math.abs(wpn.damage
       * (wpn.count || 1)
-      * wpn.ammo
+      * (wpn.ammo || 1)
       * (wpn.shots || 1)
       * (wpn.units || 1))
     return +dump.toFixed(1)

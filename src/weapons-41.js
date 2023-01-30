@@ -244,7 +244,6 @@ const headers = [{
   iff: (ch, cat, wpn) => {
     if([
       'guide',
-      'shield',
     ].includes(cat)) {
       return false
     }
@@ -252,6 +251,9 @@ const headers = [{
   },
   label: 'Dmg',
   cb: wpn => {
+    if(wpn.category === 'shield') {
+      return `${wpn.damage * 100}%`
+    }
     if(['power', 'guard'].includes(wpn.supportType)) {
       return `${wpn.damage}x`
     }
@@ -532,7 +534,13 @@ const headers = [{
   }
 }, {
   iff: (ch, cat, wpn) => {
-    return ch === 'winger'
+    if(cat === 'shield') {
+      return true
+    }
+    if(ch === 'winger') {
+      return true
+    }
+    return false
   },
   label: 'Enr',
   cb: wpn => {
@@ -542,7 +550,6 @@ const headers = [{
   iff: (ch, cat, wpn) => {
     if([
       'support',
-      'shield',
       'tank',
       'ground',
       'heli',
@@ -559,6 +566,9 @@ const headers = [{
   },
   label: 'Rng',
   cb: wpn => {
+    if(wpn.category === 'shield') {
+      return `${wpn.range}°`
+    }
     if(wpn.category === 'missile') {
       return wpn.lockRange
     }
@@ -572,6 +582,7 @@ const headers = [{
     if([
       'raid',
       'missile',
+      'shield',
     ].includes(cat)) {
       return false
     }

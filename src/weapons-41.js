@@ -580,6 +580,8 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
+      'hammer',
+      'spear',
       'raid',
       'missile',
       'shield',

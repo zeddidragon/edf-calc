@@ -243,7 +243,26 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
+      'hammer',
+      'shield',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Def',
+  cb: wpn => {
+    if(!wpn.damage) {
+      return '-'
+    }
+    return `${wpn.damage * 100}%`
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
       'guide',
+      'hammer',
+      'spear',
     ].includes(cat)) {
       return false
     }
@@ -251,8 +270,8 @@ const headers = [{
   },
   label: 'Dmg',
   cb: wpn => {
-    if(wpn.category === 'shield') {
-      return `${wpn.damage * 100}%`
+    if(!wpn.damage) {
+      return '-'
     }
     if(['power', 'guard'].includes(wpn.supportType)) {
       return `${wpn.damage}x`
@@ -261,9 +280,6 @@ const headers = [{
       return +(wpn.damage).toFixed(2)
     }
     let dmg = +Math.abs(wpn.damage).toFixed(1)
-    if(!dmg) {
-      return '-'
-    }
     if(wpn.count > 1) {
       dmg = `${dmg} x ${wpn.count}`
     }
@@ -278,7 +294,72 @@ const headers = [{
     }
     return dmg
   },
-}, {
+}, ...['Low', 'M', 'H'].flatMap((n, i) => {
+  return [{
+    iff: (ch, cat, wpn) => {
+      if([
+        'hammer',
+      ].includes(cat)) {
+        return !!i
+      }
+      return false
+    },
+    label: `Chg-${n}`,
+    cb: wpn => {
+      if(!wpn.attacks) return '-'
+      const atk = wpn.attacks?.[i]
+      if(!atk) return '-'
+      return +(atk.charge / FPS).toFixed(2)
+    },
+  }, {
+    iff: (ch, cat, wpn) => {
+      if([
+        'hammer',
+        'spear',
+      ].includes(cat)) {
+        return true
+      }
+      return false
+    },
+    label: 'Dmg',
+    cb: wpn => {
+      const atk = wpn.attacks?.[i]
+      if(!atk) return '-'
+      return atk.damage
+    },
+  }, {
+    iff: (ch, cat, wpn) => {
+      if([
+        'hammer',
+        'spear',
+      ].includes(cat)) {
+        return true
+      }
+      return false
+    },
+    label: 'Rng',
+    cb: wpn => {
+      const atk = wpn.attacks?.[i]
+      if(!atk) return '-'
+      return atk.range
+    },
+  }, {
+    iff: (ch, cat, wpn) => {
+      if([
+        'hammer',
+      ].includes(cat)) {
+        return true
+      }
+      return false
+    },
+    label: 'Area',
+    cb: wpn => {
+      const atk = wpn.attacks?.[i]
+      if(!atk) return '-'
+      return atk.radius
+    },
+  }]
+}), {
   iff: (ch, cat, wpn) => {
     if(ch === 'ranger' && [
       'special',
@@ -420,6 +501,7 @@ const headers = [{
     if([
       'raid',
       'support',
+      'hammer',
       'shield',
     ].includes(cat)) {
       return false
@@ -549,6 +631,8 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
+      'hammer',
+      'spear',
       'support',
       'tank',
       'ground',
@@ -637,6 +721,7 @@ const headers = [{
       'raid',
       'shield',
       'missile',
+      'hammer',
     ].includes(cat)) {
       return false
     }
@@ -730,6 +815,8 @@ const headers = [{
       'guide',
       'raid',
       'support',
+      'hammer',
+      'spear',
       'shield',
       'tank',
       'ground',
@@ -792,6 +879,7 @@ const headers = [{
   iff: (ch, cat, wpn) => {
     if([
       'guide',
+      'hammer',
       'shield',
     ].includes(cat)) {
       return false

@@ -72,7 +72,7 @@ function populateWeapons(ch, cat) {
   weaponTable.innerHTML = ''
   const weapons = table
     .filter(t => t.character === ch && t.category === cat)
-    .flatMap(w => [w, ...(w.weapons || [])])
+    .flatMap(w => [w, ...(w.weapons || []), ...(w.attacks || [])])
   const thead = $('thead')
   const theadrow = $('tr')
   for(const header of headers) {
@@ -252,17 +252,31 @@ const headers = [{
   },
   label: 'Def',
   cb: wpn => {
-    if(!wpn.damage) {
+    if(!wpn.defense) {
       return '-'
     }
-    return `${wpn.damage * 100}%`
+    return `${wpn.defense}%`
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'hammer',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Chg',
+  cb: wpn => {
+    if(!wpn.charge) {
+      return '-'
+    }
+    return +(wpn.charge / FPS).toFixed(1)
   },
 }, {
   iff: (ch, cat, wpn) => {
     if([
       'guide',
-      'hammer',
-      'spear',
     ].includes(cat)) {
       return false
     }
@@ -294,72 +308,7 @@ const headers = [{
     }
     return dmg
   },
-}, ...['Low', 'M', 'H'].flatMap((n, i) => {
-  return [{
-    iff: (ch, cat, wpn) => {
-      if([
-        'hammer',
-      ].includes(cat)) {
-        return !!i
-      }
-      return false
-    },
-    label: `Chg-${n}`,
-    cb: wpn => {
-      if(!wpn.attacks) return '-'
-      const atk = wpn.attacks?.[i]
-      if(!atk) return '-'
-      return +(atk.charge / FPS).toFixed(2)
-    },
-  }, {
-    iff: (ch, cat, wpn) => {
-      if([
-        'hammer',
-        'spear',
-      ].includes(cat)) {
-        return true
-      }
-      return false
-    },
-    label: 'Dmg',
-    cb: wpn => {
-      const atk = wpn.attacks?.[i]
-      if(!atk) return '-'
-      return atk.damage
-    },
-  }, {
-    iff: (ch, cat, wpn) => {
-      if([
-        'hammer',
-        'spear',
-      ].includes(cat)) {
-        return true
-      }
-      return false
-    },
-    label: 'Rng',
-    cb: wpn => {
-      const atk = wpn.attacks?.[i]
-      if(!atk) return '-'
-      return atk.range
-    },
-  }, {
-    iff: (ch, cat, wpn) => {
-      if([
-        'hammer',
-      ].includes(cat)) {
-        return true
-      }
-      return false
-    },
-    label: 'Area',
-    cb: wpn => {
-      const atk = wpn.attacks?.[i]
-      if(!atk) return '-'
-      return atk.radius
-    },
-  }]
-}), {
+}, {
   iff: (ch, cat, wpn) => {
     if(ch === 'ranger' && [
       'special',
@@ -390,6 +339,7 @@ const headers = [{
       'missile',
       'special',
       'plasma',
+      'hammer',
       'heavy',
       'raid',
       'support',
@@ -631,8 +581,6 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
-      'hammer',
-      'spear',
       'support',
       'tank',
       'ground',

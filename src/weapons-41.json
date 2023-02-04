@@ -7448,31 +7448,27 @@
     "type": "ShockWaveBullet01",
     "ammo": 8,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0.5,
+    "damage": 45,
     "speed": 2,
-    "range": 40,
+    "range": 80,
     "piercing": true,
     "interval": 1,
     "reload": 120,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 50,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_knock",
-        "damage": 45,
-        "range": 40,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 60,
-        "animation": "hammer_knock",
+        "type": "ShockWaveBullet01Exp",
         "damage": 68,
         "range": 120,
         "radius": 2
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon354",
@@ -7483,38 +7479,35 @@
     "type": "ShockWaveBullet01",
     "ammo": 8,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0.5,
+    "damage": 60,
     "speed": 2,
-    "range": 40,
+    "range": 80,
     "piercing": true,
     "interval": 1,
     "reload": 120,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 50,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_knock",
-        "damage": 60,
-        "range": 40,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 60,
-        "animation": "hammer_knock",
+        "type": "ShockWaveBullet01Exp",
         "damage": 90,
         "range": 120,
         "radius": 2
       },
       {
+        "name": "Max",
         "charge": 120,
-        "animation": "hammer_jumpKnock",
+        "type": "ShockWaveBullet01Exp",
         "damage": 120,
         "range": 120,
         "radius": 3
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon355",
@@ -7525,31 +7518,27 @@
     "type": "ShockWaveBullet01",
     "ammo": 10,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0,
+    "damage": 45,
     "speed": 10,
-    "range": 100,
+    "range": 1000,
     "piercing": true,
     "interval": 1,
     "reload": 180,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 0,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_swing",
-        "damage": 45,
-        "range": 100,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 60,
-        "animation": "hammer_turnImpact",
+        "type": "SlashWaveBullet01Exp",
         "damage": 90,
         "range": 100,
         "radius": 6
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon356",
@@ -7560,38 +7549,35 @@
     "type": "ShockWaveBullet01",
     "ammo": 4,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0.4,
+    "damage": 75,
     "speed": 1.3,
-    "range": 25,
+    "range": 6.3,
     "piercing": true,
     "interval": 1,
     "reload": 120,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 40,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_knock",
-        "damage": 75,
-        "range": 5,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 60,
-        "animation": "hammer_KnockRoller",
+        "type": "ShockWaveBullet01Exp",
         "damage": 113,
         "range": 13,
         "radius": 2
       },
       {
+        "name": "Max",
         "charge": 120,
-        "animation": "hammer_KnockRoller2",
+        "type": "ShockWaveBullet01Exp",
         "damage": 150,
         "range": 25,
         "radius": 6
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon357",
@@ -7602,38 +7588,35 @@
     "type": "ShockWaveBullet01",
     "ammo": 8,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0.5,
+    "damage": 120,
     "speed": 2,
-    "range": 40,
+    "range": 80,
     "piercing": true,
     "interval": 1,
     "reload": 120,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 50,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_knock",
-        "damage": 120,
-        "range": 40,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 60,
-        "animation": "hammer_knock",
+        "type": "ShockWaveBullet01Exp",
         "damage": 180,
         "range": 120,
         "radius": 2
       },
       {
+        "name": "Max",
         "charge": 120,
-        "animation": "hammer_jumpKnock",
+        "type": "ShockWaveBullet01Exp",
         "damage": 240,
         "range": 120,
         "radius": 3
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon358",
@@ -7644,31 +7627,27 @@
     "type": "ShockWaveBullet01",
     "ammo": 10,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0,
+    "damage": 60,
     "speed": 10,
-    "range": 100,
+    "range": 1000,
     "piercing": true,
     "interval": 1,
     "reload": 180,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 0,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_swing",
-        "damage": 60,
-        "range": 100,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 60,
-        "animation": "hammer_turnImpact",
+        "type": "SlashWaveBullet01Exp",
         "damage": 120,
         "range": 100,
         "radius": 6
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon359",
@@ -7679,38 +7658,35 @@
     "type": "ShockWaveBullet01",
     "ammo": 6,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0.5,
+    "damage": 50,
     "speed": 2,
-    "range": 40,
+    "range": 80,
     "piercing": true,
     "interval": 1,
     "reload": 120,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 50,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_knock",
-        "damage": 50,
-        "range": 40,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 60,
-        "animation": "hammer_knock",
+        "type": "ShockWaveBullet01Exp",
         "damage": 20,
         "range": 40,
         "radius": 2
       },
       {
+        "name": "Max",
         "charge": 120,
-        "animation": "hammer_jumpKnock",
+        "type": "ShockWaveBullet01Exp",
         "damage": 40,
         "range": 40,
         "radius": 3
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon360",
@@ -7721,38 +7697,35 @@
     "type": "ShockWaveBullet01",
     "ammo": 5,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0.6,
+    "damage": 200,
     "speed": 2,
-    "range": 40,
+    "range": 80,
     "piercing": true,
     "interval": 1,
     "reload": 120,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 65,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_swingK",
-        "damage": 200,
-        "range": 40,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 60,
-        "animation": "hammer_turnImpact",
+        "type": "ShockWaveBullet02Exp",
         "damage": 1000,
         "range": 8,
         "radius": 4
       },
       {
+        "name": "Max",
         "charge": 120,
-        "animation": "hammer_turnImpact",
+        "type": "ShockWaveBullet02Exp",
         "damage": 2400,
         "range": 8,
         "radius": 6
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon361",
@@ -7763,38 +7736,35 @@
     "type": "ShockWaveBullet01",
     "ammo": 10,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0,
+    "damage": 90,
     "speed": 10,
-    "range": 100,
+    "range": 1000,
     "piercing": true,
     "interval": 1,
     "reload": 180,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 0,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_swing",
-        "damage": 90,
-        "range": 100,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 80,
-        "animation": "hammer_turnImpact",
+        "type": "SlashWaveBullet01Exp",
         "damage": 180,
         "range": 100,
         "radius": 4
       },
       {
+        "name": "Max",
         "charge": 300,
-        "animation": "hammer_knockH",
+        "type": "SlashWaveBullet01Exp",
         "damage": 450,
         "range": 500,
         "radius": 2
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon362",
@@ -7805,38 +7775,35 @@
     "type": "ShockWaveBullet01",
     "ammo": 4,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0.4,
+    "damage": 200,
     "speed": 1.3,
-    "range": 25,
+    "range": 12.5,
     "piercing": true,
     "interval": 1,
     "reload": 120,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 40,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_KnockRoller",
-        "damage": 200,
-        "range": 10,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 60,
-        "animation": "hammer_KnockRoller2",
+        "type": "ShockWaveBullet01Exp",
         "damage": 300,
         "range": 25,
         "radius": 2
       },
       {
+        "name": "Max",
         "charge": 600,
-        "animation": "hammer_KnockRoller3",
+        "type": "ShockWaveBullet01Exp",
         "damage": 400,
         "range": 50,
         "radius": 6
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon363",
@@ -7847,38 +7814,35 @@
     "type": "ShockWaveBullet01",
     "ammo": 8,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0.5,
+    "damage": 240,
     "speed": 2,
-    "range": 40,
+    "range": 80,
     "piercing": true,
     "interval": 1,
     "reload": 120,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 50,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_knock",
-        "damage": 240,
-        "range": 40,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 60,
-        "animation": "hammer_knock",
+        "type": "ShockWaveBullet01Exp",
         "damage": 360,
         "range": 120,
         "radius": 2
       },
       {
+        "name": "Max",
         "charge": 120,
-        "animation": "hammer_jumpKnock",
+        "type": "ShockWaveBullet01Exp",
         "damage": 480,
         "range": 120,
         "radius": 3
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon364",
@@ -7889,31 +7853,27 @@
     "type": "ShockWaveBullet01",
     "ammo": 8,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0,
+    "damage": 180,
     "speed": 10,
-    "range": 80,
+    "range": 800,
     "piercing": true,
     "interval": 1,
     "reload": 120,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 0,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_swingUp",
-        "damage": 180,
-        "range": 80,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 30,
-        "animation": "hammer_turnSwing",
+        "type": "SlashWaveBullet01Exp",
         "damage": 270,
         "range": 120,
         "radius": 3
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon365",
@@ -7924,38 +7884,35 @@
     "type": "ShockWaveBullet01",
     "ammo": 6,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0.7,
+    "damage": 150,
     "speed": 2,
-    "range": 40,
+    "range": 80,
     "piercing": true,
     "interval": 1,
     "reload": 120,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 70,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_knock",
-        "damage": 150,
-        "range": 40,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 60,
-        "animation": "hammer_knockH",
+        "type": "ShockWaveBullet01Exp",
         "damage": 60,
         "range": 60,
         "radius": 4
       },
       {
+        "name": "Max",
         "charge": 120,
-        "animation": "hammer_backKnock",
+        "type": "ShockWaveBullet01Exp",
         "damage": 120,
         "range": 60,
         "radius": 4
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon366",
@@ -7966,38 +7923,35 @@
     "type": "ShockWaveBullet01",
     "ammo": 5,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0.8,
+    "damage": 600,
     "speed": 2,
-    "range": 40,
+    "range": 80,
     "piercing": true,
     "interval": 1,
     "reload": 120,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 75,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_swingK",
-        "damage": 600,
-        "range": 40,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 60,
-        "animation": "hammer_turnImpact",
+        "type": "ShockWaveBullet02Exp",
         "damage": 3000,
         "range": 8,
         "radius": 5
       },
       {
+        "name": "Max",
         "charge": 120,
-        "animation": "hammer_turnImpact2",
+        "type": "ShockWaveBullet02Exp",
         "damage": 9000,
         "range": 8,
         "radius": 10
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon367",
@@ -8008,38 +7962,35 @@
     "type": "ShockWaveBullet01",
     "ammo": 4,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0.6,
+    "damage": 450,
     "speed": 1,
-    "range": 40,
+    "range": 16,
     "piercing": true,
     "interval": 1,
     "reload": 120,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 60,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_KnockRoller",
-        "damage": 450,
-        "range": 16,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 60,
-        "animation": "hammer_KnockRoller2",
+        "type": "ShockWaveBullet01Exp",
         "damage": 675,
         "range": 40,
         "radius": 2
       },
       {
+        "name": "Max",
         "charge": 240,
-        "animation": "hammer_KnockRoller3",
+        "type": "ShockWaveBullet01Exp",
         "damage": 1125,
         "range": 80,
         "radius": 6
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon368",
@@ -8050,38 +8001,35 @@
     "type": "ShockWaveBullet01",
     "ammo": 10,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0,
+    "damage": 240,
     "speed": 10,
-    "range": 100,
+    "range": 1000,
     "piercing": true,
     "interval": 1,
     "reload": 180,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 0,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_swing",
-        "damage": 240,
-        "range": 100,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 80,
-        "animation": "hammer_turnImpact",
+        "type": "SlashWaveBullet01Exp",
         "damage": 600,
         "range": 100,
         "radius": 4
       },
       {
+        "name": "Max",
         "charge": 300,
-        "animation": "hammer_jumpKnock",
+        "type": "SlashWaveBullet01Exp",
         "damage": 1920,
         "range": 1000,
         "radius": 2
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon369",
@@ -8092,38 +8040,35 @@
     "type": "ShockWaveBullet01",
     "ammo": 8,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0.7,
+    "damage": 180,
     "speed": 2,
-    "range": 40,
+    "range": 80,
     "piercing": true,
     "interval": 1,
     "reload": 120,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 70,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_knock",
-        "damage": 180,
-        "range": 40,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 60,
-        "animation": "hammer_knockH",
+        "type": "ShockWaveBullet01Exp",
         "damage": 72,
         "range": 60,
         "radius": 4
       },
       {
+        "name": "Max",
         "charge": 120,
-        "animation": "hammer_backKnock",
+        "type": "ShockWaveBullet01Exp",
         "damage": 144,
         "range": 60,
         "radius": 4
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon370",
@@ -8134,38 +8079,35 @@
     "type": "ShockWaveBullet01",
     "ammo": 5,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0.9,
+    "damage": 800,
     "speed": 2,
-    "range": 40,
+    "range": 80,
     "piercing": true,
     "interval": 1,
     "reload": 120,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 90,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_swingK",
-        "damage": 800,
-        "range": 40,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 60,
-        "animation": "hammer_turnImpact",
+        "type": "ShockWaveBullet02Exp",
         "damage": 4000,
         "range": 8,
         "radius": 4
       },
       {
+        "name": "Max",
         "charge": 120,
-        "animation": "hammer_turnImpact2",
+        "type": "ShockWaveBullet02Exp",
         "damage": 12000,
         "range": 8,
         "radius": 8
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon371",
@@ -8176,31 +8118,27 @@
     "type": "ShockWaveBullet01",
     "ammo": 10,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0,
+    "damage": 300,
     "speed": 10,
-    "range": 100,
+    "range": 1000,
     "piercing": true,
     "interval": 1,
     "reload": 180,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 0,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_swing",
-        "damage": 300,
-        "range": 100,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 60,
-        "animation": "hammer_turnImpact",
+        "type": "SlashWaveBullet01Exp",
         "damage": 750,
         "range": 100,
         "radius": 6
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon372",
@@ -8211,38 +8149,35 @@
     "type": "ShockWaveBullet01",
     "ammo": 8,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0,
+    "damage": 450,
     "speed": 10,
-    "range": 80,
+    "range": 800,
     "piercing": true,
     "interval": 1,
     "reload": 120,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 0,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_swingUp",
-        "damage": 450,
-        "range": 80,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 30,
-        "animation": "hammer_turnSwing",
+        "type": "SlashWaveBullet01Exp",
         "damage": 765,
         "range": 160,
         "radius": 3
       },
       {
+        "name": "Max",
         "charge": 60,
-        "animation": "hammer_KnockRoller2",
+        "type": "ShockWaveBullet01Exp",
         "damage": 1350,
         "range": 160,
         "radius": 3
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon373",
@@ -8253,38 +8188,35 @@
     "type": "ShockWaveBullet01",
     "ammo": 8,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0.9,
+    "damage": 700,
     "speed": 2,
-    "range": 40,
+    "range": 80,
     "piercing": true,
     "interval": 1,
     "reload": 120,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 90,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_knock",
-        "damage": 700,
-        "range": 40,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 60,
-        "animation": "hammer_turnImpact",
+        "type": "ShockWaveBullet01Exp",
         "damage": 1400,
         "range": 120,
         "radius": 3
       },
       {
+        "name": "Max",
         "charge": 120,
-        "animation": "hammer_jumpKnock",
+        "type": "ShockWaveBullet01Exp",
         "damage": 1750,
         "range": 120,
         "radius": 4
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon374",
@@ -8296,38 +8228,35 @@
     "type": "ShockWaveBullet01",
     "ammo": 10,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0,
+    "damage": 800,
     "speed": 10,
-    "range": 80,
+    "range": 800,
     "piercing": true,
     "interval": 1,
     "reload": 120,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 0,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_swingUp",
-        "damage": 800,
-        "range": 80,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 30,
-        "animation": "hammer_turnSwing",
+        "type": "SlashWaveBullet01Exp",
         "damage": 1600,
         "range": 160,
         "radius": 3
       },
       {
+        "name": "Max",
         "charge": 120,
-        "animation": "hammer_knockH",
+        "type": "ShockWaveBullet01Exp",
         "damage": 2800,
         "range": 160,
         "radius": 3
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon375",
@@ -8339,38 +8268,35 @@
     "type": "ShockWaveBullet01",
     "ammo": 4,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0.8,
+    "damage": 1000,
     "speed": 1,
-    "range": 40,
+    "range": 16,
     "piercing": true,
     "interval": 1,
     "reload": 120,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 75,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_KnockRoller",
-        "damage": 1000,
-        "range": 16,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 60,
-        "animation": "hammer_KnockRoller2",
+        "type": "ShockWaveBullet01Exp",
         "damage": 2000,
         "range": 40,
         "radius": 2
       },
       {
+        "name": "Max",
         "charge": 120,
-        "animation": "hammer_KnockRoller3",
+        "type": "ShockWaveBullet01Exp",
         "damage": 3000,
         "range": 80,
         "radius": 6
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "Weapon376",
@@ -8382,38 +8308,35 @@
     "type": "ShockWaveBullet01",
     "ammo": 10,
     "weapon": "Weapon_ImpactHammer",
-    "damage": 0,
+    "damage": 600,
     "speed": 10,
-    "range": 100,
+    "range": 1000,
     "piercing": true,
     "interval": 1,
     "reload": 180,
     "reloadInit": 1,
     "secondary": 5,
     "accuracy": 1,
+    "defense": 0,
     "attacks": [
       {
-        "charge": 0,
-        "animation": "hammer_turnSwing",
-        "damage": 600,
-        "range": 100,
-        "radius": 2
-      },
-      {
+        "name": "Mid",
         "charge": 45,
-        "animation": "hammer_turnImpact",
+        "type": "SlashWaveBullet01Exp",
         "damage": 1800,
         "range": 150,
         "radius": 4
       },
       {
+        "name": "Max",
         "charge": 360,
-        "animation": "hammer_jumpKnock",
+        "type": "SlashWaveBullet01Exp",
         "damage": 6000,
         "range": 1000,
         "radius": 2
       }
-    ]
+    ],
+    "radius": 2
   },
   {
     "id": "hPileBanker01",
@@ -8930,7 +8853,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.7
+    "defense": 70
   },
   {
     "id": "hBbuckler01",
@@ -8948,7 +8871,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.5
+    "defense": 50
   },
   {
     "id": "hTowershield01",
@@ -8966,7 +8889,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.8
+    "defense": 80
   },
   {
     "id": "Weapon402",
@@ -8984,7 +8907,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.7
+    "defense": 70
   },
   {
     "id": "Weapon403",
@@ -9002,7 +8925,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.6
+    "defense": 60
   },
   {
     "id": "Weapon404",
@@ -9020,7 +8943,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.7
+    "defense": 70
   },
   {
     "id": "Weapon405",
@@ -9038,7 +8961,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.8
+    "defense": 80
   },
   {
     "id": "Weapon406",
@@ -9056,7 +8979,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.7
+    "defense": 70
   },
   {
     "id": "Weapon407",
@@ -9074,7 +8997,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.6
+    "defense": 60
   },
   {
     "id": "Weapon408",
@@ -9092,7 +9015,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.1
+    "defense": 10
   },
   {
     "id": "Weapon409",
@@ -9110,7 +9033,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.7
+    "defense": 70
   },
   {
     "id": "Weapon410",
@@ -9128,7 +9051,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.8
+    "defense": 80
   },
   {
     "id": "Weapon411",
@@ -9146,7 +9069,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.7
+    "defense": 70
   },
   {
     "id": "Weapon412",
@@ -9164,7 +9087,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.6
+    "defense": 65
   },
   {
     "id": "Weapon413",
@@ -9182,7 +9105,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.7
+    "defense": 70
   },
   {
     "id": "Weapon414",
@@ -9200,7 +9123,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.9
+    "defense": 85
   },
   {
     "id": "Weapon415",
@@ -9218,7 +9141,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.6
+    "defense": 65
   },
   {
     "id": "Weapon416",
@@ -9236,7 +9159,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.8
+    "defense": 75
   },
   {
     "id": "Weapon417",
@@ -9254,7 +9177,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.1
+    "defense": 10
   },
   {
     "id": "Weapon418",
@@ -9272,7 +9195,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.8
+    "defense": 80
   },
   {
     "id": "Weapon419",
@@ -9291,7 +9214,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.7
+    "defense": 70
   },
   {
     "id": "Weapon420",
@@ -9310,7 +9233,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.8
+    "defense": 80
   },
   {
     "id": "Weapon421",
@@ -9329,7 +9252,7 @@
     "reloadInit": 1,
     "secondary": 6,
     "accuracy": 1,
-    "damage": 0.9
+    "defense": 90
   },
   {
     "id": "hGatling01",

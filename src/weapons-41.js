@@ -7,6 +7,7 @@ fetch('src/weapons-41.json')
   .then(data => {
     table = data
     pickChar('ranger')
+    pickChar('fencer', 'spear')
   })
 
 function pickChar(ch, cat) {
@@ -465,6 +466,9 @@ const headers = [{
   },
   label: 'RoF',
   cb: wpn => {
+    if(!wpn.interval) {
+      return '-'
+    }
     if(wpn.category === 'particle') {
       return +(FPS / wpn.reload).toFixed(2)
     }
@@ -690,6 +694,9 @@ const headers = [{
     if(!wpn.damage) {
       return '-'
     }
+    if(!wpn.interval) {
+      return '-'
+    }
     if(wpn.ammo < 2 && !wpn.duration) {
       return '-'
     }
@@ -842,6 +849,9 @@ const headers = [{
   label: 'Total',
   cb: wpn => {
     if(!wpn.damage) {
+      return '-'
+    }
+    if(!wpn.ammo) {
       return '-'
     }
     if(wpn.category === 'support') {

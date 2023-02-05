@@ -8350,13 +8350,19 @@
     "weapon": "Weapon_Swing",
     "damage": 300,
     "speed": 8,
-    "range": 40,
     "piercing": true,
-    "interval": 1,
     "reload": 120,
     "reloadInit": 1,
     "secondary": 5,
-    "accuracy": 1
+    "accuracy": 1,
+    "attacks": [
+      {
+        "name": "Combo",
+        "damage": 600,
+        "range": 0,
+        "piercing": 1
+      }
+    ]
   },
   {
     "id": "Weapon377",
@@ -8406,12 +8412,12 @@
     "weapon": "Weapon_Swing",
     "damage": 400,
     "speed": 8,
-    "range": 64,
     "interval": 80,
     "reload": 180,
     "reloadInit": 1,
     "secondary": 5,
-    "accuracy": 1
+    "accuracy": 1,
+    "attacks": []
   },
   {
     "id": "Weapon380",
@@ -8424,13 +8430,19 @@
     "weapon": "Weapon_Swing",
     "damage": 500,
     "speed": 8,
-    "range": 40,
     "piercing": true,
-    "interval": 1,
     "reload": 90,
     "reloadInit": 1,
     "secondary": 5,
-    "accuracy": 1
+    "accuracy": 1,
+    "attacks": [
+      {
+        "name": "Combo",
+        "damage": 1000,
+        "range": 0,
+        "piercing": 1
+      }
+    ]
   },
   {
     "id": "Weapon381",
@@ -8443,15 +8455,22 @@
     "weapon": "Weapon_Swing",
     "damage": 400,
     "speed": 8,
-    "range": 40,
     "piercing": true,
-    "burst": 2,
     "burstRate": 4,
-    "interval": 1,
+    "count": 2,
     "reload": 240,
     "reloadInit": 1,
     "secondary": 5,
-    "accuracy": 1
+    "accuracy": 1,
+    "attacks": [
+      {
+        "name": "Combo",
+        "damage": 600,
+        "range": 0,
+        "piercing": 1,
+        "count": 2
+      }
+    ]
   },
   {
     "id": "Weapon382",
@@ -8501,12 +8520,12 @@
     "weapon": "Weapon_Swing",
     "damage": 650,
     "speed": 8,
-    "range": 72,
     "interval": 80,
     "reload": 180,
     "reloadInit": 1,
     "secondary": 5,
-    "accuracy": 1
+    "accuracy": 1,
+    "attacks": []
   },
   {
     "id": "Weapon385",
@@ -8538,13 +8557,19 @@
     "weapon": "Weapon_Swing",
     "damage": 700,
     "speed": 8,
-    "range": 56,
     "piercing": true,
-    "interval": 1,
     "reload": 90,
     "reloadInit": 1,
     "secondary": 5,
-    "accuracy": 1
+    "accuracy": 1,
+    "attacks": [
+      {
+        "name": "Combo",
+        "damage": 2100,
+        "range": 0,
+        "piercing": 1
+      }
+    ]
   },
   {
     "id": "Weapon387",
@@ -8557,15 +8582,22 @@
     "weapon": "Weapon_Swing",
     "damage": 750,
     "speed": 8,
-    "range": 40,
     "piercing": true,
-    "burst": 2,
     "burstRate": 4,
-    "interval": 1,
+    "count": 2,
     "reload": 240,
     "reloadInit": 1,
     "secondary": 5,
-    "accuracy": 1
+    "accuracy": 1,
+    "attacks": [
+      {
+        "name": "Combo",
+        "damage": 1125,
+        "range": 0,
+        "piercing": 1,
+        "count": 2
+      }
+    ]
   },
   {
     "id": "Weapon388",
@@ -8578,13 +8610,19 @@
     "weapon": "Weapon_Swing",
     "damage": 900,
     "speed": 8,
-    "range": 56,
     "piercing": true,
-    "interval": 1,
     "reload": 90,
     "reloadInit": 1,
     "secondary": 5,
-    "accuracy": 1
+    "accuracy": 1,
+    "attacks": [
+      {
+        "name": "Combo",
+        "damage": 2700,
+        "range": 0,
+        "piercing": 1
+      }
+    ]
   },
   {
     "id": "Weapon389",
@@ -8615,12 +8653,12 @@
     "weapon": "Weapon_Swing",
     "damage": 1200,
     "speed": 8,
-    "range": 80,
     "interval": 70,
     "reload": 180,
     "reloadInit": 1,
     "secondary": 5,
-    "accuracy": 1
+    "accuracy": 1,
+    "attacks": []
   },
   {
     "id": "Weapon391",
@@ -8652,13 +8690,19 @@
     "weapon": "Weapon_Swing",
     "damage": 1600,
     "speed": 9,
-    "range": 72,
     "piercing": true,
-    "interval": 1,
     "reload": 90,
     "reloadInit": 1,
     "secondary": 5,
-    "accuracy": 1
+    "accuracy": 1,
+    "attacks": [
+      {
+        "name": "Combo",
+        "damage": 4800,
+        "range": 0,
+        "piercing": 1
+      }
+    ]
   },
   {
     "id": "Weapon393",
@@ -8689,15 +8733,22 @@
     "weapon": "Weapon_Swing",
     "damage": 1500,
     "speed": 8,
-    "range": 48,
     "piercing": true,
-    "burst": 2,
     "burstRate": 4,
-    "interval": 1,
+    "count": 2,
     "reload": 240,
     "reloadInit": 1,
     "secondary": 5,
-    "accuracy": 1
+    "accuracy": 1,
+    "attacks": [
+      {
+        "name": "Combo",
+        "damage": 2250,
+        "range": 0,
+        "piercing": 1,
+        "count": 2
+      }
+    ]
   },
   {
     "id": "Weapon395",
@@ -8710,13 +8761,19 @@
     "weapon": "Weapon_Swing",
     "damage": 2000,
     "speed": 10,
-    "range": 80,
     "piercing": true,
-    "interval": 1,
     "reload": 90,
     "reloadInit": 1,
     "secondary": 5,
-    "accuracy": 1
+    "accuracy": 1,
+    "attacks": [
+      {
+        "name": "Combo",
+        "damage": 8000,
+        "range": 0,
+        "piercing": 1
+      }
+    ]
   },
   {
     "id": "Weapon396",
@@ -8729,12 +8786,12 @@
     "weapon": "Weapon_Swing",
     "damage": 2400,
     "speed": 8,
-    "range": 120,
     "interval": 60,
     "reload": 120,
     "reloadInit": 1,
     "secondary": 5,
-    "accuracy": 1
+    "accuracy": 1,
+    "attacks": []
   },
   {
     "id": "Weapon397",
@@ -8767,13 +8824,19 @@
     "weapon": "Weapon_Swing",
     "damage": 2500,
     "speed": 12.8,
-    "range": 89.6,
     "piercing": true,
-    "interval": 1,
     "reload": 90,
     "reloadInit": 1,
     "secondary": 5,
-    "accuracy": 1
+    "accuracy": 1,
+    "attacks": [
+      {
+        "name": "Combo",
+        "damage": 7500,
+        "range": 0,
+        "piercing": 1
+      }
+    ]
   },
   {
     "id": "Weapon399",
@@ -8787,15 +8850,22 @@
     "weapon": "Weapon_Swing",
     "damage": 2800,
     "speed": 8,
-    "range": 56,
     "piercing": true,
-    "burst": 2,
     "burstRate": 4,
-    "interval": 1,
+    "count": 2,
     "reload": 240,
     "reloadInit": 1,
     "secondary": 5,
-    "accuracy": 1
+    "accuracy": 1,
+    "attacks": [
+      {
+        "name": "Combo",
+        "damage": 4200,
+        "range": 0,
+        "piercing": 1,
+        "count": 2
+      }
+    ]
   },
   {
     "id": "Weapon400",
@@ -8829,12 +8899,12 @@
     "weapon": "Weapon_Swing",
     "damage": 3500,
     "speed": 8,
-    "range": 160,
     "interval": 60,
     "reload": 180,
     "reloadInit": 1,
     "secondary": 5,
-    "accuracy": 1
+    "accuracy": 1,
+    "attacks": []
   },
   {
     "id": "hShield01",

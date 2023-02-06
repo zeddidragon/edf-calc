@@ -771,7 +771,6 @@ const headers = [{
       'raid',
       'support',
       'hammer',
-      'spear',
       'shield',
       'tank',
       'ground',
@@ -790,6 +789,12 @@ const headers = [{
   label: 'TDPS',
   cb: wpn => {
     if(!wpn.damage) {
+      return '-'
+    }
+    if(!wpn.ammo) {
+      return '-'
+    }
+    if(wpn.attacks?.length) {
       return '-'
     }
     if(wpn.reload < 0) {
@@ -848,6 +853,14 @@ const headers = [{
   },
   label: 'Total',
   cb: wpn => {
+    if(wpn.attacks?.length) {
+      const attacks = [wpn.damage, ...wpn.attacks.map(a => a.damage)]
+      const dump = Array(wpn.ammo)
+        .fill(0)
+        .map((w, i) => attacks[i % attacks.length])
+        .reduce((dmg, sum) => dmg + sum, 0)
+      return +(dump * (wpn.count || 1)).toFixed(1)
+    }
     if(!wpn.damage) {
       return '-'
     }

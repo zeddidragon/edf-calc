@@ -6,9 +6,22 @@ fetch('src/weapons-41.json')
   .then(res => res.json())
   .then(data => {
     table = data
-    pickChar('ranger')
-    pickChar('fencer', 'spear')
+    readState()
   })
+
+function readState() {
+  const [game, ch, cat] = window.location.hash.split('/')
+  pickChar(ch || 'ranger', cat)
+}
+
+function writeState() {
+  window.location.hash = [
+    '41',
+    active.ch,
+    active.cat,
+  ] .filter(v => v)
+    .join('/')
+}
 
 function pickChar(ch, cat) {
   const chIdx = characters.indexOf(ch)
@@ -41,7 +54,10 @@ function pickChar(ch, cat) {
     } else {
       boldify(li, label, 2)
     }
-    li.addEventListener('click', () => pickCategory(ch, cat))
+    li.addEventListener('click', () => {
+      pickCategory(ch, cat)
+      writeState()
+    })
     if(supports.includes(cat)) {
       supTabs.appendChild(li)
     } else {
@@ -939,7 +955,10 @@ for(let i = 0; i < characters.length; i++) {
   item.classList.add(c)
   boldify(item, cLabel, 3)
   charMenu.appendChild(item)
-  item.addEventListener('click', () => pickChar(c))
+  item.addEventListener('click', () => {
+    pickChar(c)
+    writeState()
+  })
 }
 
 function boldify(el, str, cutPoint=2) {

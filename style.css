@@ -28,26 +28,30 @@ td {
   white-space: nowrap;
 }
 
+td.Weight {
+  color: #888;
+}
+
 .name {
   color: #80c3f5;
   text-align: left;
   overflow: hidden;
 }
 
-.ranger b {
+.ranger b, .dlc2 b, .Inferno, .lowOdds {
   color: #e88;
 }
-.winger b {
+.winger b, .offline b, .Normal {
   color: #88e;
 }
-.bomber b {
+.bomber b, .online b, .Hard, .highOdds {
   color: #8e8;
 }
-.fencer b {
+.fencer b, .dlc1 b, .Hardest  {
   color: #ea8;
 }
 
-.short b, .spear b, .heli b {
+.short b, .spear b, .heli b, .stats b {
   color: #eee;
 }
 .assault b, .laser b, .light b, .ground b {
@@ -59,10 +63,10 @@ td {
 .sniper b, .heavy b, .limpet b {
   color: #88e;
 }
-.rocket b, .particle b, .hammer b, .tank b {
+.rocket b, .particle b, .hammer b, .tank b, .dlc {
   color: #ee8;
 }
-.missile b, .guide b {
+.missile b, .guide b, .na {
   color: #a8e;
 }
 .grenade b, .plasma b, .raid b {
@@ -71,7 +75,7 @@ td {
 .special b {
   color: #e8a;
 }
-.deploy b {
+.deploy b, .Easy, .starter {
   color: #8aa;
 }
 .mech b {

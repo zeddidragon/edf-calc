@@ -1,26 +1,55 @@
 const $ = document.createElement.bind(document)
 let active = {}
 let table
+let modes
 
 fetch('src/weapons-41.json')
   .then(res => res.json())
   .then(data => {
-    table = data
+    table = data.weapons
+    modes = data.modes
+    populateModes()
     readState()
   })
 
+const stateKeys = [
+  'g',
+  'm',
+  'c',
+  'w',
+]
 function readState() {
-  const [game, ch, cat] = window.location.hash.split('/')
-  pickChar(ch || 'ranger', cat)
+  const params = window.location.hash.slice(1).split('&')
+  for(const p of params) {
+    const [k, v] = p.split('=')
+    if(!stateKeys.includes(k)) continue
+    active[k] = v
+  }
+  pickMode(active.m || 'stats')
+  pickChar(active.c || 'ranger', active.w)
+  populateWeapons(active.m, active.c, active.w)
 }
 
 function writeState() {
-  window.location.hash = [
-    '41',
-    active.ch,
-    active.cat,
-  ] .filter(v => v)
-    .join('/')
+  window.location.hash = stateKeys
+    .filter(k => active[k])
+    .map(k => `${k}=${active[k]}`)
+    .join('&')
+  populateWeapons(active.m, active.c, active.w)
+}
+
+function pickMode(mode) {
+  const item = document
+    .querySelector(`#mode-tabs .${mode}`)
+
+  if(active.modeEl) {
+    active.modeEl.classList.remove('selected')
+  }
+  item.classList.add('selected')
+  Object.assign(active, {
+    m: mode,
+    modeEl: item,
+  })
 }
 
 function pickChar(ch, cat) {
@@ -33,7 +62,7 @@ function pickChar(ch, cat) {
   }
   item.classList.add('selected')
   Object.assign(active, {
-    ch,
+    c: ch,
     charEl: item,
   })
 
@@ -77,13 +106,115 @@ function pickCategory(ch, cat) {
   }
   item.classList.add('selected')
   Object.assign(active, {
-    cat,
+    w: cat,
     catEl: item,
   })
-  populateWeapons(ch, cat)
 }
 
-function populateWeapons(ch, cat) {
+function populateModes() {
+  const modeMenu = document.querySelector('#mode-tabs')
+  for(const mode of modes) {
+    const mLabel = mode.name
+    const id = mode.name.toLowerCase()
+    const item = $('a')
+    item.classList.add(id)
+    boldify(item, mLabel, 4)
+    modeMenu.appendChild(item)
+    item.addEventListener('click', () => {
+      pickMode(id)
+      writeState()
+    })
+  }
+}
+
+function populateWeapons(m, ch, cat) {
+  const mode = modes.find(mode => mode.name.toLowerCase() === m)
+  if(mode) {
+    populateWeaponDrops(mode, ch, cat)
+  } else {
+    populateWeaponStats(ch, cat)
+  }
+}
+
+function missionFor(missions, min, max, v) {
+  const ratio = (v - min) / (max - min)
+  return Math.min(Math.max((missions - 1) * ratio, 0) + 1, missions)
+}
+
+function populateWeaponDrops(mode, ch, cat) {
+  const weaponTable = document.getElementById('weapons-table')
+  weaponTable.innerHTML = ''
+  const weapons = table
+    .filter(t => t.character === ch && t.category === cat)
+  const thead = $('thead')
+  const theadrow = $('tr')
+  const dropHeaders = headers.slice(0, 4)
+  for(const header of dropHeaders) {
+    const cell = $('th')
+    cell.textContent = header.label
+    theadrow.appendChild(cell)
+  }
+  const { difficulties, missions } = mode
+
+  for(const difficulty of difficulties) {
+    const cell = $('th')
+    cell.textContent = difficulty.name
+    cell.classList.add(difficulty.name)
+    cell.setAttribute('colspan', 2)
+    theadrow.appendChild(cell)
+  }
+
+  thead.appendChild(theadrow)
+  weaponTable.appendChild(thead)
+
+  const tbody = $('tbody')
+  for(const weapon of weapons) {
+    const row = $('tr')
+    const { level, odds } = weapon
+    for(const header of dropHeaders) {
+      const cell = $('td')
+      const contents = header.cb(weapon)
+      if(contents instanceof HTMLElement) {
+        cell.appendChild(contents)
+      } else {
+        cell.textContent = contents
+      }
+      cell.classList.add(header.label)
+      row.appendChild(cell)
+    }
+    for(const difficulty of difficulties) {
+      const { drops: [start, end], dropSpread: spread } = difficulty
+      const isDropped = +(odds || 100)
+        && level >= start - spread
+        && level <= end
+      if(!isDropped) {
+        const cell = $('td')
+        cell.textContent = '-'
+        cell.setAttribute('colspan', 2)
+        row.appendChild(cell)
+        continue
+      }
+      const minCell = $('td')
+      const maxCell = $('td')
+      minCell.textContent = Math.ceil(missionFor(
+        missions,
+        start,
+        end,
+        level))
+      maxCell.textContent = Math.floor(missionFor(
+        missions,
+        start - spread,
+        end - spread,
+        level))
+      row.appendChild(minCell)
+      row.appendChild(maxCell)
+    }
+    tbody.appendChild(row)
+  }
+  weaponTable.appendChild(tbody)
+}
+
+function populateWeaponStats(ch, cat) {
   const extra = document.getElementById('extra')
   const weaponTable = document.getElementById('weapons-table')
   weaponTable.innerHTML = ''
@@ -201,10 +332,15 @@ const headers = [{
 }, {
   label: 'Lv',
   cb: wpn => {
-    if(wpn.level === 100) {
-      return '-'
-    }
-    return wpn.level
+    const { level } = wpn
+    const el = $('div')
+    const difficulty = modes[0]
+      .difficulties
+      .slice(1)
+      .find(d => d.drops[1] >= level)
+    el.classList.add(difficulty.name)
+    el.textContent = level
+    return el
   }
 }, {
   label: 'Name',
@@ -214,6 +350,33 @@ const headers = [{
     el.textContent += wpn.name
     return el
   },
+}, {
+  label: 'Weight',
+  iff: (ch, cat, wpn) => {
+    return active.mode && activemode !== 'state'
+  },
+  cb: wpn => {
+    const odds = wpn.odds || 100
+    if(!+odds) {
+      const el = $('div')
+      if(wpn.level === 100) { // Genocide weapons
+        el.classList.add('na')
+        el.textContent = 'N/A'
+      } else {
+        el.classList.add(odds)
+        el.textContent = odds.toUpperCase()
+      }
+      return el
+    }
+    const label = `${odds}%`
+    if(odds !== 100) {
+      const el = $('div')
+      el.classList.add(odds < 100 ? 'lowOdds' : 'highOdds')
+      el.textContent = label
+      return el
+    }
+    return label
+  }
 }, {
   iff: (ch, cat, wpn) => {
     if([
@@ -946,6 +1109,19 @@ const charLabels = [
   'Fencer',
   'Air Raider',
 ]
+
+const modeMenu = document.querySelector('#mode-tabs')
+{
+  const label = 'Stats'
+  const item = $('a')
+  item.classList.add('stats')
+  boldify(item, label, 4)
+  modeMenu.appendChild(item)
+  item.addEventListener('click', () => {
+    pickMode('stats')
+    writeState()
+  })
+}
 
 const charMenu = document.querySelector('#char-tabs')
 for(let i = 0; i < characters.length; i++) {

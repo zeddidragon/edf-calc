@@ -12,7 +12,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 10,
       "speed": 2,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 150,
       "interval": 5,
       "reload": 90,
@@ -30,7 +30,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 6,
       "speed": 2,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 120,
       "interval": 2,
       "reload": 150,
@@ -48,7 +48,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 70,
       "speed": 2,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 250,
       "interval": 20,
       "reload": 90,
@@ -72,7 +72,7 @@
       "interval": 1,
       "reload": -1,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon004",
@@ -86,7 +86,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 5.4,
       "speed": 2,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 120,
       "interval": 1,
       "reload": 120,
@@ -104,7 +104,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 40,
       "speed": 6,
-      "accuracy": 0.98,
+      "accuracy": 0.02,
       "range": 240,
       "burst": 3,
       "burstRate": 3,
@@ -126,7 +126,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 17,
       "speed": 2.3,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 138,
       "interval": 5,
       "reload": 90,
@@ -144,7 +144,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 105,
       "speed": 8,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 256,
       "interval": 20,
       "reload": 90,
@@ -168,7 +168,7 @@
       "interval": 1,
       "reload": -1,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon008",
@@ -182,7 +182,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 23,
       "speed": 2.5,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 180,
       "interval": 5,
       "reload": 90,
@@ -200,7 +200,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 12,
       "speed": 2.5,
-      "accuracy": 0.97,
+      "accuracy": 0.03,
       "range": 180,
       "count": 2,
       "interval": 5,
@@ -219,7 +219,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 12,
       "speed": 2,
-      "accuracy": 0.8,
+      "accuracy": 0.2,
       "range": 120,
       "interval": 2,
       "reload": 150,
@@ -237,7 +237,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 26,
       "speed": 2.5,
-      "accuracy": 0.96,
+      "accuracy": 0.04,
       "range": 180,
       "interval": 5,
       "reload": 90,
@@ -255,7 +255,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 30,
       "speed": 5,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 80,
       "interval": 4,
       "reload": 120,
@@ -273,7 +273,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 18,
       "speed": 3,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 150,
       "interval": 2,
       "reload": 150,
@@ -291,7 +291,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 50,
       "speed": 1,
-      "accuracy": 0.6,
+      "accuracy": 0.4,
       "range": 150,
       "interval": 5,
       "reload": 120,
@@ -309,7 +309,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 230,
       "speed": 10,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 300,
       "interval": 15,
       "reload": 90,
@@ -333,7 +333,7 @@
       "interval": 1,
       "reload": -1,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon017",
@@ -347,7 +347,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 44,
       "speed": 2.5,
-      "accuracy": 0.97,
+      "accuracy": 0.03,
       "range": 150,
       "interval": 4,
       "reload": 90,
@@ -367,7 +367,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 33,
       "speed": 4,
-      "accuracy": 0.97,
+      "accuracy": 0.03,
       "range": 200,
       "interval": 2,
       "reload": 300,
@@ -385,7 +385,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 150,
       "speed": 7.5,
-      "accuracy": 0.96,
+      "accuracy": 0.04,
       "range": 247.5,
       "burst": 3,
       "burstRate": 3,
@@ -407,7 +407,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 92,
       "speed": 3,
-      "accuracy": 0.98,
+      "accuracy": 0.02,
       "range": 180,
       "interval": 5,
       "reload": 120,
@@ -425,7 +425,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 1200,
       "speed": 40,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 480,
       "interval": 15,
       "reload": 300,
@@ -443,7 +443,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 26,
       "speed": 4,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 140,
       "interval": 1,
       "reload": 180,
@@ -461,7 +461,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 260,
       "speed": 10,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 300,
       "burst": 4,
       "burstRate": 3,
@@ -487,7 +487,7 @@
       "interval": 1,
       "reload": -1,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon025",
@@ -501,7 +501,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 150,
       "speed": 3,
-      "accuracy": 0.985,
+      "accuracy": 0.015,
       "range": 240,
       "interval": 4,
       "reload": 120,
@@ -521,7 +521,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 900,
       "speed": 40,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 680,
       "interval": 15,
       "reload": 180,
@@ -545,7 +545,7 @@
       "interval": 1,
       "reload": -1,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon028",
@@ -559,7 +559,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 290,
       "speed": 12,
-      "accuracy": 0.985,
+      "accuracy": 0.015,
       "range": 264,
       "interval": 4,
       "reload": 120,
@@ -579,7 +579,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 19,
       "speed": 2,
-      "accuracy": 0.925,
+      "accuracy": 0.075,
       "range": 130,
       "count": 10,
       "interval": 60,
@@ -598,7 +598,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 10,
       "speed": 6,
-      "accuracy": 0.925,
+      "accuracy": 0.075,
       "range": 90,
       "piercing": true,
       "count": 15,
@@ -618,7 +618,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 15,
       "speed": 3,
-      "accuracy": 0.85,
+      "accuracy": 0.15,
       "range": 72,
       "count": 20,
       "interval": 60,
@@ -637,7 +637,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 18,
       "speed": 3,
-      "accuracy": 0.75,
+      "accuracy": 0.25,
       "range": 72,
       "count": 25,
       "interval": 60,
@@ -656,7 +656,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 22,
       "speed": 3,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 72,
       "count": 20,
       "interval": 60,
@@ -675,7 +675,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 26,
       "speed": 3,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 72,
       "count": 20,
       "interval": 60,
@@ -694,7 +694,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 450,
       "speed": 5,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 50,
       "piercing": true,
       "interval": 120,
@@ -713,7 +713,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 20,
       "speed": 3,
-      "accuracy": 0.925,
+      "accuracy": 0.075,
       "range": 99,
       "count": 10,
       "interval": 15,
@@ -732,7 +732,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 40,
       "speed": 5,
-      "accuracy": 0.925,
+      "accuracy": 0.075,
       "range": 150,
       "burst": 2,
       "burstRate": 3,
@@ -753,7 +753,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 40,
       "speed": 5,
-      "accuracy": 0.955,
+      "accuracy": 0.045,
       "range": 150,
       "count": 15,
       "interval": 60,
@@ -772,7 +772,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 25,
       "speed": 4,
-      "accuracy": 0.925,
+      "accuracy": 0.075,
       "range": 120,
       "count": 15,
       "interval": 12,
@@ -791,7 +791,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 900,
       "speed": 5,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 70,
       "piercing": true,
       "interval": 60,
@@ -810,7 +810,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 40,
       "speed": 2,
-      "accuracy": 0.75,
+      "accuracy": 0.25,
       "range": 150,
       "count": 50,
       "interval": 60,
@@ -829,7 +829,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 60,
       "speed": 5,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 160,
       "count": 25,
       "interval": 55,
@@ -848,7 +848,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 90,
       "speed": 7,
-      "accuracy": 0.915,
+      "accuracy": 0.085,
       "range": 154,
       "count": 15,
       "interval": 60,
@@ -867,7 +867,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 72,
       "speed": 7,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 168,
       "count": 25,
       "interval": 60,
@@ -886,7 +886,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 110,
       "speed": 8,
-      "accuracy": 0.915,
+      "accuracy": 0.085,
       "range": 176,
       "count": 15,
       "interval": 60,
@@ -905,7 +905,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 40,
       "speed": 10,
-      "accuracy": 0.92,
+      "accuracy": 0.08,
       "range": 150,
       "count": 15,
       "interval": 10,
@@ -924,7 +924,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 60,
       "speed": 10,
-      "accuracy": 0.75,
+      "accuracy": 0.25,
       "range": 170,
       "count": 100,
       "interval": 90,
@@ -943,7 +943,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 170,
       "speed": 13,
-      "accuracy": 0.915,
+      "accuracy": 0.085,
       "range": 221,
       "count": 15,
       "interval": 60,
@@ -962,7 +962,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 3700,
       "speed": 7.5,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 75,
       "piercing": true,
       "interval": 85,
@@ -981,7 +981,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 80,
       "speed": 8,
-      "accuracy": 0.93,
+      "accuracy": 0.07,
       "range": 184,
       "count": 15,
       "interval": 15,
@@ -1000,7 +1000,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 6700,
       "speed": 10,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 90,
       "piercing": true,
       "interval": 80,
@@ -1019,7 +1019,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 300,
       "speed": 13,
-      "accuracy": 0.93,
+      "accuracy": 0.07,
       "range": 221,
       "count": 15,
       "interval": 60,
@@ -1038,7 +1038,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 110,
       "speed": 3,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 600,
       "interval": 90,
       "reload": 120,
@@ -1058,7 +1058,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 65,
       "speed": 5,
-      "accuracy": 0.9975,
+      "accuracy": 0.0025,
       "range": 600,
       "interval": 30,
       "reload": 120,
@@ -1084,7 +1084,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 8,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon055",
@@ -1098,7 +1098,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 200,
       "speed": 10,
-      "accuracy": 0.98,
+      "accuracy": 0.02,
       "range": 600,
       "interval": 90,
       "reload": 120,
@@ -1118,7 +1118,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 110,
       "speed": 8,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 720,
       "burst": 3,
       "burstRate": 3,
@@ -1140,7 +1140,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 400,
       "speed": 40,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 720,
       "interval": 180,
       "reload": 240,
@@ -1160,7 +1160,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 270,
       "speed": 50,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 600,
       "interval": 90,
       "reload": 120,
@@ -1186,7 +1186,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 5,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon060",
@@ -1200,7 +1200,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 50,
       "speed": 10,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 400,
       "interval": 6,
       "reload": 120,
@@ -1226,7 +1226,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon062",
@@ -1240,7 +1240,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 440,
       "speed": 20,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 600,
       "interval": 90,
       "reload": 200,
@@ -1260,7 +1260,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 300,
       "speed": 20,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 500,
       "burst": 2,
       "burstRate": 5,
@@ -1288,7 +1288,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon065",
@@ -1302,7 +1302,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 660,
       "speed": 30,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 810,
       "interval": 60,
       "reload": 300,
@@ -1322,7 +1322,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 120,
       "speed": 25,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 500,
       "count": 5,
       "interval": 90,
@@ -1349,7 +1349,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 8,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon068",
@@ -1363,7 +1363,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 820,
       "speed": 20,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 600,
       "interval": 54,
       "reload": 200,
@@ -1383,7 +1383,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 240,
       "speed": 25,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 2000,
       "count": 5,
       "interval": 90,
@@ -1410,7 +1410,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon071",
@@ -1430,7 +1430,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 5,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon072",
@@ -1444,7 +1444,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 1100,
       "speed": 35,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 770,
       "interval": 60,
       "reload": 200,
@@ -1470,7 +1470,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 10,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon074",
@@ -1491,7 +1491,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 5,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon075",
@@ -1511,7 +1511,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon076",
@@ -1525,7 +1525,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 2500,
       "speed": 55,
-      "accuracy": 0.998,
+      "accuracy": 0.002,
       "range": 1210,
       "interval": 60,
       "reload": 180,
@@ -1551,7 +1551,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 10,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "RocketLauncher01",
@@ -1565,7 +1565,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 100,
       "speed": 1,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 150,
       "radius": 5,
       "interval": 60,
@@ -1584,7 +1584,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 130,
       "speed": 1,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 150,
       "radius": 7,
       "interval": 60,
@@ -1603,7 +1603,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 100,
       "speed": 0.1,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 60,
       "radius": 6,
       "gravity": 0.5,
@@ -1624,7 +1624,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 180,
       "speed": 2,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 300,
       "radius": 10,
       "interval": 60,
@@ -1643,7 +1643,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 65,
       "speed": 0.1,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 60,
       "radius": 6,
       "gravity": 0.5,
@@ -1666,7 +1666,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 70,
       "speed": 0.1,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 24,
       "radius": 4,
       "interval": 10,
@@ -1690,7 +1690,7 @@
       "interval": 30,
       "reload": -1,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon084",
@@ -1704,7 +1704,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 600,
       "speed": 0.5,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 150,
       "radius": 12,
       "reload": 180,
@@ -1724,7 +1724,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 230,
       "speed": 2,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 300,
       "radius": 8,
       "interval": 60,
@@ -1743,7 +1743,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 280,
       "speed": 2,
-      "accuracy": 0.992,
+      "accuracy": 0.008,
       "range": 300,
       "radius": 9,
       "interval": 60,
@@ -1762,7 +1762,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 300,
       "speed": 2,
-      "accuracy": 0.8,
+      "accuracy": 0.2,
       "range": 600,
       "radius": 6,
       "count": 10,
@@ -1782,7 +1782,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 200,
       "speed": 0.2,
-      "accuracy": 0.985,
+      "accuracy": 0.015,
       "range": 48,
       "radius": 6,
       "interval": 10,
@@ -1801,7 +1801,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 1200,
       "speed": 5,
-      "accuracy": 0.992,
+      "accuracy": 0.008,
       "range": 1500,
       "radius": 15,
       "reload": 240,
@@ -1821,7 +1821,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 500,
       "speed": 2.5,
-      "accuracy": 0.992,
+      "accuracy": 0.008,
       "range": 375,
       "radius": 10,
       "interval": 60,
@@ -1840,7 +1840,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 400,
       "speed": 0.1,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 60,
       "radius": 10,
       "gravity": 0.5,
@@ -1862,7 +1862,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 2500,
       "speed": 10,
-      "accuracy": 0.992,
+      "accuracy": 0.008,
       "range": 3000,
       "radius": 20,
       "reload": 240,
@@ -1882,7 +1882,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 500,
       "speed": 0.1,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 60,
       "radius": 10,
       "gravity": 0.5,
@@ -1908,7 +1908,7 @@
       "interval": 30,
       "reload": -1,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon095",
@@ -1922,7 +1922,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 1200,
       "speed": 3,
-      "accuracy": 0.992,
+      "accuracy": 0.008,
       "range": 450,
       "radius": 15,
       "interval": 60,
@@ -1941,7 +1941,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 600,
       "speed": 4,
-      "accuracy": 0.988,
+      "accuracy": 0.012,
       "range": 960,
       "radius": 8,
       "interval": 8,
@@ -1960,7 +1960,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 2000,
       "speed": 10,
-      "accuracy": 0.992,
+      "accuracy": 0.008,
       "range": 1500,
       "radius": 19,
       "interval": 60,
@@ -1988,7 +1988,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 6,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Missile_SkyTT",
@@ -2002,7 +2002,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 400,
       "speed": 0.1,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 240,
       "radius": 10,
       "gravity": 0.75,
@@ -2026,7 +2026,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 120,
       "speed": 0.1,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 120,
       "radius": 5,
       "gravity": 0.75,
@@ -2051,7 +2051,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 32,
       "speed": 0.1,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 120,
       "radius": 1,
       "gravity": 0.75,
@@ -2076,7 +2076,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 800,
       "speed": 0.1,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 240,
       "radius": 20,
       "gravity": 0.75,
@@ -2099,7 +2099,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 150,
       "speed": 0.1,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 120,
       "radius": 5,
       "gravity": 0.75,
@@ -2134,7 +2134,7 @@
       "lockType": 1,
       "reload": 180,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon102",
@@ -2148,7 +2148,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 32,
       "speed": 0.1,
-      "accuracy": 0.6,
+      "accuracy": 0.4,
       "range": 42,
       "radius": 1,
       "gravity": 0.75,
@@ -2173,7 +2173,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 260,
       "speed": 0.1,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 120,
       "radius": 7.5,
       "gravity": 0.75,
@@ -2198,7 +2198,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 50,
       "speed": 0.1,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 60,
       "radius": 1,
       "gravity": 0.75,
@@ -2223,7 +2223,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 1500,
       "speed": 0.1,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 240,
       "radius": 15,
       "gravity": 0.75,
@@ -2258,7 +2258,7 @@
       "lockType": 1,
       "reload": 180,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon107",
@@ -2272,7 +2272,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 300,
       "speed": 0.1,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 120,
       "radius": 8,
       "gravity": 0.75,
@@ -2297,7 +2297,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 4000,
       "speed": 0.1,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 480,
       "radius": 30,
       "gravity": 0.75,
@@ -2320,7 +2320,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 100,
       "speed": 0.1,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 45,
       "radius": 1,
       "gravity": 0.75,
@@ -2346,7 +2346,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 4000,
       "speed": 0.1,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 240,
       "radius": 20,
       "gravity": 0.75,
@@ -2380,7 +2380,7 @@
       "lockType": 1,
       "reload": 180,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon112",
@@ -2394,7 +2394,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 800,
       "speed": 0.1,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 120,
       "radius": 10,
       "gravity": 0.75,
@@ -2419,7 +2419,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 15000,
       "speed": 0.5,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 3000,
       "radius": 40,
       "gravity": 0.75,
@@ -2449,7 +2449,7 @@
       "gravity": 1,
       "interval": 60,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "HandGrenade01J",
@@ -2468,7 +2468,7 @@
       "gravity": 1,
       "interval": 120,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "fuse": 600
     },
     {
@@ -2488,7 +2488,7 @@
       "gravity": 1,
       "interval": 60,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon115",
@@ -2507,7 +2507,7 @@
       "gravity": 1,
       "interval": 60,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon116",
@@ -2526,7 +2526,7 @@
       "gravity": 1,
       "interval": 60,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon117",
@@ -2545,7 +2545,7 @@
       "gravity": 1,
       "interval": 120,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "fuse": 1800
     },
     {
@@ -2565,7 +2565,7 @@
       "gravity": 1,
       "interval": 60,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon119",
@@ -2584,7 +2584,7 @@
       "gravity": 1,
       "interval": 120,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "fuse": 300
     },
     {
@@ -2604,7 +2604,7 @@
       "gravity": 1,
       "interval": 60,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon121",
@@ -2623,7 +2623,7 @@
       "gravity": 1,
       "interval": 60,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon122",
@@ -2642,7 +2642,7 @@
       "gravity": 1,
       "interval": 120,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "fuse": 600
     },
     {
@@ -2662,7 +2662,7 @@
       "gravity": 1,
       "interval": 60,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon124",
@@ -2681,7 +2681,7 @@
       "gravity": 1,
       "interval": 120,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "fuse": 600
     },
     {
@@ -2701,7 +2701,7 @@
       "gravity": 1,
       "interval": 60,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon126",
@@ -2715,7 +2715,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 110,
       "speed": 1.5,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 900,
       "radius": 7,
       "gravity": 1,
@@ -2735,7 +2735,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 180,
       "speed": 1.5,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 360,
       "radius": 11,
       "gravity": 1,
@@ -2756,7 +2756,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 240,
       "speed": 3,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 375,
       "gravity": 1,
       "interval": 50,
@@ -2776,7 +2776,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 100,
       "speed": 0.6,
-      "accuracy": 0.75,
+      "accuracy": 0.25,
       "range": 720,
       "radius": 5,
       "gravity": 1,
@@ -2797,7 +2797,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 200,
       "speed": 1.5,
-      "accuracy": 0.985,
+      "accuracy": 0.015,
       "range": 900,
       "radius": 8,
       "gravity": 1,
@@ -2817,7 +2817,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 280,
       "speed": 1.5,
-      "accuracy": 0.975,
+      "accuracy": 0.025,
       "range": 360,
       "radius": 12,
       "gravity": 1,
@@ -2838,7 +2838,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 100,
       "speed": 2,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 1200,
       "radius": 5,
       "gravity": 1,
@@ -2858,7 +2858,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 400,
       "speed": 1.5,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 360,
       "radius": 13,
       "gravity": 1,
@@ -2900,7 +2900,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 150,
       "speed": 1,
-      "accuracy": 0.6,
+      "accuracy": 0.4,
       "range": 240,
       "radius": 8,
       "gravity": 1,
@@ -2927,7 +2927,7 @@
       "interval": 30,
       "reload": 180,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon136",
@@ -2948,7 +2948,7 @@
       "interval": 30,
       "reload": 160,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "fuse": 240
     },
     {
@@ -2963,7 +2963,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 1400,
       "speed": 1.5,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 375,
       "gravity": 1,
       "interval": 50,
@@ -3004,7 +3004,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 900,
       "speed": 1.5,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 375,
       "gravity": 1,
       "interval": 50,
@@ -3031,7 +3031,7 @@
       "interval": 30,
       "reload": 240,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon141",
@@ -3045,7 +3045,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 400,
       "speed": 1,
-      "accuracy": 0.6,
+      "accuracy": 0.4,
       "range": 240,
       "radius": 10,
       "gravity": 1,
@@ -3066,7 +3066,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 400,
       "speed": 1,
-      "accuracy": 0.75,
+      "accuracy": 0.25,
       "range": 1200,
       "radius": 7,
       "gravity": 1,
@@ -3094,7 +3094,7 @@
       "interval": 60,
       "reload": 180,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon144",
@@ -3108,7 +3108,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 20000,
       "speed": 1.5,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 375,
       "gravity": 1,
       "interval": 50,
@@ -3133,7 +3133,7 @@
       "gravity": 1,
       "reload": 180,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "fuse": 240
     },
     {
@@ -3154,7 +3154,7 @@
       "interval": 60,
       "reload": 300,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon147",
@@ -3168,7 +3168,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 3500,
       "speed": 1.5,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 375,
       "gravity": 1,
       "interval": 50,
@@ -3188,7 +3188,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 1000,
       "speed": 1,
-      "accuracy": 0.7,
+      "accuracy": 0.3,
       "range": 1200,
       "radius": 12,
       "gravity": 1,
@@ -3209,7 +3209,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 2000,
       "speed": 1.5,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 375,
       "gravity": 1,
       "interval": 50,
@@ -3237,7 +3237,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 2,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "aDecoyShooter01",
@@ -3251,7 +3251,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 40,
       "speed": 2,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 28800,
       "gravity": 0.10000000149011612,
       "interval": 60,
@@ -3272,7 +3272,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 40,
       "speed": 2,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 28800,
       "gravity": 0.10000000149011612,
       "interval": 60,
@@ -3293,7 +3293,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 40,
       "speed": 2,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 28800,
       "gravity": 0.10000000149011612,
       "interval": 60,
@@ -3314,7 +3314,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 40,
       "speed": 2,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 28800,
       "gravity": 0.10000000149011612,
       "interval": 60,
@@ -3335,7 +3335,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 40,
       "speed": 2,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 28800,
       "gravity": 0.10000000149011612,
       "interval": 60,
@@ -3356,7 +3356,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 10,
       "speed": 0.3,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 54,
       "gravity": 1,
       "count": 6,
@@ -3376,7 +3376,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 15,
       "speed": 0.6,
-      "accuracy": 0.98,
+      "accuracy": 0.02,
       "range": 108,
       "gravity": 1,
       "interval": 1,
@@ -3395,7 +3395,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 35,
       "speed": 4,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 240,
       "gravity": 1,
       "count": 40,
@@ -3415,7 +3415,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 47,
       "speed": 0.6,
-      "accuracy": 0.98,
+      "accuracy": 0.02,
       "range": 108,
       "gravity": 1,
       "count": 20,
@@ -3435,7 +3435,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 75,
       "speed": 0.9,
-      "accuracy": 0.98,
+      "accuracy": 0.02,
       "range": 324,
       "gravity": 1,
       "interval": 1,
@@ -3457,7 +3457,7 @@
       "range": 0.2,
       "reload": 180,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "piercing": true
     },
     {
@@ -3472,7 +3472,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 0.2,
       "speed": 0.3,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 18,
       "reload": 180,
       "reloadInit": 1,
@@ -3492,7 +3492,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 0.6,
       "speed": 0.6,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 18,
       "reload": 180,
       "reloadInit": 1,
@@ -3515,7 +3515,7 @@
       "range": 42,
       "reload": 180,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "piercing": true,
       "duration": 30,
       "continous": true
@@ -3535,7 +3535,7 @@
       "range": 42,
       "reload": 180,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "piercing": true,
       "duration": 30,
       "continous": true
@@ -3552,7 +3552,7 @@
       "weapon": "Weapon_Throw",
       "damage": 30,
       "speed": 1,
-      "accuracy": 0.7,
+      "accuracy": 0.3,
       "range": 600,
       "radius": 1,
       "gravity": 1,
@@ -3572,7 +3572,7 @@
       "weapon": "Weapon_Throw",
       "damage": 50,
       "speed": 1,
-      "accuracy": 0.7,
+      "accuracy": 0.3,
       "range": 600,
       "radius": 1,
       "gravity": 1,
@@ -3592,7 +3592,7 @@
       "weapon": "Weapon_Throw",
       "damage": 100,
       "speed": 1.4,
-      "accuracy": 0.7,
+      "accuracy": 0.3,
       "range": 840,
       "radius": 2,
       "gravity": 1,
@@ -3612,7 +3612,7 @@
       "weapon": "Weapon_Throw",
       "damage": 90,
       "speed": 1.4,
-      "accuracy": 0.7,
+      "accuracy": 0.3,
       "range": 840,
       "radius": 1,
       "gravity": 1,
@@ -3632,7 +3632,7 @@
       "weapon": "Weapon_Throw",
       "damage": 320,
       "speed": 2,
-      "accuracy": 0.7,
+      "accuracy": 0.3,
       "range": 1200,
       "radius": 4,
       "gravity": 1,
@@ -3652,7 +3652,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 12,
       "speed": 2,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 220,
       "interval": 5,
       "reload": 90,
@@ -3670,7 +3670,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 8,
       "speed": 2,
-      "accuracy": 0.8,
+      "accuracy": 0.2,
       "range": 240,
       "interval": 2,
       "reload": 150,
@@ -3688,7 +3688,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 28,
       "speed": 2.5,
-      "accuracy": 0.97,
+      "accuracy": 0.03,
       "range": 325,
       "interval": 4,
       "reload": 90,
@@ -3706,7 +3706,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 200,
       "speed": 0.1,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 90,
       "interval": 5,
       "reload": 180,
@@ -3724,7 +3724,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 40,
       "speed": 3,
-      "accuracy": 0.75,
+      "accuracy": 0.25,
       "range": 540,
       "count": 50,
       "interval": 60,
@@ -3743,7 +3743,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": -0.5,
       "speed": 0.1,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 2,
       "reload": -1,
       "reloadInit": 1,
@@ -3767,7 +3767,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": -1.6,
       "speed": 0.1,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 2,
       "interval": 1,
       "reload": -1,
@@ -3792,7 +3792,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": -40,
       "speed": 10,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 12000,
       "radius": 1,
       "interval": 60,
@@ -3813,7 +3813,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": -3,
       "speed": 0.8,
-      "accuracy": 0.98,
+      "accuracy": 0.02,
       "range": 144,
       "gravity": 1,
       "interval": 1,
@@ -3838,7 +3838,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": -3.2,
       "speed": 0.1,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 2,
       "interval": 1,
       "reload": -1,
@@ -3863,7 +3863,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": -1000,
       "speed": 10,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 12000,
       "radius": 15,
       "gravity": 0.03700000047683716,
@@ -3885,7 +3885,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": -8.8,
       "speed": 0.2,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 4,
       "interval": 1,
       "reload": -1,
@@ -3910,7 +3910,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": -300,
       "speed": 1,
-      "accuracy": 0.7,
+      "accuracy": 0.3,
       "range": 1200,
       "radius": 10,
       "gravity": 1.399999976158142,
@@ -3933,7 +3933,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": -15,
       "speed": 1.6,
-      "accuracy": 0.98,
+      "accuracy": 0.02,
       "range": 288,
       "gravity": 1,
       "interval": 1,
@@ -3954,7 +3954,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": -1600,
       "speed": 10,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 12000,
       "radius": 20,
       "gravity": 0.03700000047683716,
@@ -3976,7 +3976,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": -16,
       "speed": 0.2,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 4,
       "interval": 1,
       "reload": -1,
@@ -4001,7 +4001,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": -3000,
       "speed": 10,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 12000,
       "radius": 45,
       "gravity": 0.03700000047683716,
@@ -4023,7 +4023,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": -24,
       "speed": 2.4,
-      "accuracy": 0.98,
+      "accuracy": 0.02,
       "range": 432,
       "gravity": 1,
       "interval": 1,
@@ -4044,7 +4044,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 1,
       "speed": 10,
-      "accuracy": 0.4,
+      "accuracy": 0.6,
       "range": 30,
       "energy": 25,
       "count": 6,
@@ -4069,7 +4069,7 @@
       "interval": 60,
       "reload": 90,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "pSparkLancer",
@@ -4089,7 +4089,7 @@
       "interval": 60,
       "reload": 90,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon184",
@@ -4103,7 +4103,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 1.5,
       "speed": 10,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 30,
       "energy": 25,
       "count": 6,
@@ -4128,7 +4128,7 @@
       "interval": 60,
       "reload": 150,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon186",
@@ -4142,7 +4142,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 3,
       "speed": 10,
-      "accuracy": 0.4,
+      "accuracy": 0.6,
       "range": 30,
       "energy": 28,
       "count": 6,
@@ -4168,7 +4168,7 @@
       "interval": 60,
       "reload": 120,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon188",
@@ -4186,7 +4186,7 @@
       "energy": 20,
       "reload": 150,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon189",
@@ -4200,7 +4200,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 400,
       "speed": 10.5,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 73.5,
       "energy": 20,
       "interval": 30,
@@ -4219,7 +4219,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 4.5,
       "speed": 10,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 30,
       "energy": 22,
       "count": 6,
@@ -4244,7 +4244,7 @@
       "interval": 60,
       "reload": 1800,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon192",
@@ -4258,7 +4258,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 3,
       "speed": 25,
-      "accuracy": -0.5,
+      "accuracy": 1.5,
       "range": 75,
       "energy": 120,
       "count": 10,
@@ -4283,7 +4283,7 @@
       "interval": 60,
       "reload": 120,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon194",
@@ -4303,7 +4303,7 @@
       "interval": 60,
       "reload": 240,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon195",
@@ -4317,7 +4317,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 9,
       "speed": 10,
-      "accuracy": 0.75,
+      "accuracy": 0.25,
       "range": 30,
       "energy": 0.0010000000474974513,
       "count": 6,
@@ -4342,7 +4342,7 @@
       "interval": 60,
       "reload": 210,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon197",
@@ -4356,7 +4356,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 13.5,
       "speed": 12,
-      "accuracy": 0.85,
+      "accuracy": 0.15,
       "range": 36,
       "energy": 12,
       "count": 6,
@@ -4382,7 +4382,7 @@
       "interval": 60,
       "reload": 90,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon199",
@@ -4401,7 +4401,7 @@
       "interval": 60,
       "reload": 180,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon200",
@@ -4415,7 +4415,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 21,
       "speed": 10,
-      "accuracy": 0.85,
+      "accuracy": 0.15,
       "range": 30,
       "energy": 28,
       "count": 6,
@@ -4435,7 +4435,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 6,
       "speed": 25,
-      "accuracy": -0.5,
+      "accuracy": 1.5,
       "range": 75,
       "energy": 120,
       "count": 20,
@@ -4459,7 +4459,7 @@
       "energy": 30,
       "reload": 180,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon203",
@@ -4479,7 +4479,7 @@
       "interval": 60,
       "reload": 240,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon204",
@@ -4493,7 +4493,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 15,
       "speed": 10,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 30,
       "energy": 34,
       "count": 10,
@@ -4538,7 +4538,7 @@
       "interval": 40,
       "reload": 90,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon207",
@@ -4558,7 +4558,7 @@
       "interval": 60,
       "reload": 240,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon208",
@@ -4572,7 +4572,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 800,
       "speed": 2,
-      "accuracy": 0.98,
+      "accuracy": 0.02,
       "range": 72,
       "energy": 28,
       "count": 8,
@@ -4592,7 +4592,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 21,
       "speed": 10,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 30,
       "energy": 26,
       "count": 15,
@@ -4618,7 +4618,7 @@
       "interval": 40,
       "reload": 180,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon211",
@@ -4637,7 +4637,7 @@
       "interval": 40,
       "reload": 90,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "LAZR01",
@@ -4662,7 +4662,7 @@
           "value": 0
         }
       ],
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "pReflectLaser01",
@@ -4687,7 +4687,7 @@
           "value": 0
         }
       ],
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon212",
@@ -4713,7 +4713,7 @@
           "value": 0
         }
       ],
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon213",
@@ -4738,7 +4738,7 @@
           "value": 0
         }
       ],
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon214",
@@ -4763,7 +4763,7 @@
           "value": 0
         }
       ],
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon215",
@@ -4788,7 +4788,7 @@
           "value": 0
         }
       ],
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon216",
@@ -4814,7 +4814,7 @@
           "value": 0
         }
       ],
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon217",
@@ -4839,7 +4839,7 @@
           "value": 0
         }
       ],
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon218",
@@ -4865,7 +4865,7 @@
           "value": 0
         }
       ],
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon219",
@@ -4890,7 +4890,7 @@
           "value": 0
         }
       ],
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon220",
@@ -4916,7 +4916,7 @@
           "value": 0
         }
       ],
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon221",
@@ -4941,7 +4941,7 @@
           "value": 0
         }
       ],
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon222",
@@ -4967,7 +4967,7 @@
           "value": 0
         }
       ],
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon223",
@@ -4992,7 +4992,7 @@
           "value": 0
         }
       ],
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon224",
@@ -5017,7 +5017,7 @@
           "value": 0
         }
       ],
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon225",
@@ -5043,7 +5043,7 @@
           "value": 0
         }
       ],
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon226",
@@ -5068,7 +5068,7 @@
           "value": 0
         }
       ],
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon227",
@@ -5093,7 +5093,7 @@
           "value": 0
         }
       ],
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon228",
@@ -5118,7 +5118,7 @@
           "value": 0
         }
       ],
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "pIxion01",
@@ -5132,7 +5132,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 12,
       "speed": 2,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 200,
       "energy": 1.100000023841858,
       "reload": 5,
@@ -5150,7 +5150,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 12,
       "speed": 2,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 200,
       "energy": 0.8500000238418579,
       "count": 2,
@@ -5169,7 +5169,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 27,
       "speed": 2,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 200,
       "energy": 0.0010000000474974513,
       "reload": 12,
@@ -5187,7 +5187,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 18,
       "speed": 2,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 200,
       "energy": 0.75,
       "reload": 5,
@@ -5205,7 +5205,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 9,
       "speed": 2,
-      "accuracy": 0.987,
+      "accuracy": 0.013,
       "range": 200,
       "energy": 1.100000023841858,
       "count": 3,
@@ -5224,7 +5224,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 16,
       "speed": 2,
-      "accuracy": 0.92,
+      "accuracy": 0.08,
       "range": 200,
       "radius": 1,
       "gravity": 1,
@@ -5244,7 +5244,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 25,
       "speed": 2,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 200,
       "energy": 0.949999988079071,
       "count": 2,
@@ -5263,7 +5263,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 10,
       "speed": 2,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 180,
       "energy": 1.399999976158142,
       "count": 5,
@@ -5282,7 +5282,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 19,
       "speed": 2,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 180,
       "energy": 1.2999999523162842,
       "count": 4,
@@ -5301,7 +5301,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 24,
       "speed": 2,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 200,
       "energy": 2.700000047683716,
       "count": 8,
@@ -5320,7 +5320,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 87,
       "speed": 2,
-      "accuracy": 0.92,
+      "accuracy": 0.08,
       "range": 200,
       "energy": 0.699999988079071,
       "reload": 5,
@@ -5338,7 +5338,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 60,
       "speed": 2,
-      "accuracy": 0.92,
+      "accuracy": 0.08,
       "range": 200,
       "radius": 3,
       "gravity": 1,
@@ -5358,7 +5358,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 45,
       "speed": 2,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 180,
       "energy": 1.2999999523162842,
       "count": 6,
@@ -5377,7 +5377,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 30,
       "speed": 2,
-      "accuracy": 0.92,
+      "accuracy": 0.08,
       "range": 260,
       "energy": 10,
       "count": 12,
@@ -5396,7 +5396,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 30,
       "speed": 2,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 180,
       "energy": 1.2999999523162842,
       "count": 6,
@@ -5415,7 +5415,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 36,
       "speed": 2,
-      "accuracy": 0.8,
+      "accuracy": 0.2,
       "range": 260,
       "energy": 9,
       "count": 14,
@@ -5434,7 +5434,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 55,
       "speed": 2,
-      "accuracy": 0.92,
+      "accuracy": 0.08,
       "range": 260,
       "energy": 1.2999999523162842,
       "count": 8,
@@ -5453,7 +5453,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 45,
       "speed": 2,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 250,
       "energy": 1.2999999523162842,
       "count": 9,
@@ -5472,7 +5472,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 60,
       "speed": 2,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 200,
       "radius": 4,
       "gravity": 1,
@@ -5493,7 +5493,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 370,
       "speed": 2,
-      "accuracy": 0.985,
+      "accuracy": 0.015,
       "range": 300,
       "energy": 0.699999988079071,
       "reload": 5,
@@ -5511,7 +5511,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 75,
       "speed": 2,
-      "accuracy": 0.985,
+      "accuracy": 0.015,
       "range": 300,
       "energy": 1.2000000476837158,
       "count": 9,
@@ -5530,7 +5530,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 90,
       "speed": 2,
-      "accuracy": 0.985,
+      "accuracy": 0.015,
       "range": 300,
       "energy": 1.2999999523162842,
       "count": 9,
@@ -5549,7 +5549,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 13,
       "speed": 2.5,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 112.5,
       "energy": 60,
       "interval": 6,
@@ -5573,7 +5573,7 @@
       "count": 10,
       "reload": 60,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon252",
@@ -5593,7 +5593,7 @@
       "interval": 60,
       "reload": 120,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon253",
@@ -5612,7 +5612,7 @@
       "interval": 6,
       "reload": 120,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon254",
@@ -5626,7 +5626,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 23,
       "speed": 2.5,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 137.5,
       "energy": 50,
       "interval": 6,
@@ -5650,7 +5650,7 @@
       "count": 20,
       "reload": 60,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon256",
@@ -5664,7 +5664,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 21,
       "speed": 5,
-      "accuracy": 0.8,
+      "accuracy": 0.2,
       "range": 275,
       "energy": 60,
       "count": 15,
@@ -5684,7 +5684,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 30,
       "speed": 5,
-      "accuracy": 0.83,
+      "accuracy": 0.17,
       "range": 275,
       "energy": 45,
       "count": 15,
@@ -5704,7 +5704,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 60,
       "speed": 3.5,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 192.5,
       "energy": 48,
       "interval": 4,
@@ -5723,7 +5723,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 45,
       "speed": 5,
-      "accuracy": 0.8,
+      "accuracy": 0.2,
       "range": 275,
       "energy": 59,
       "count": 20,
@@ -5743,7 +5743,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 690,
       "speed": 3.5,
-      "accuracy": -0.2,
+      "accuracy": 1.2,
       "range": 332.5,
       "energy": 59,
       "interval": 20,
@@ -5762,7 +5762,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 540,
       "speed": 3.5,
-      "accuracy": 0.94,
+      "accuracy": 0.06,
       "range": 297.5,
       "energy": 62,
       "interval": 20,
@@ -5781,7 +5781,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 38,
       "speed": 5,
-      "accuracy": 0.75,
+      "accuracy": 0.25,
       "range": 275,
       "energy": 71,
       "count": 20,
@@ -5801,7 +5801,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 80,
       "speed": 3.5,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 122.5,
       "energy": 55,
       "interval": 3,
@@ -5825,7 +5825,7 @@
       "count": 30,
       "reload": 72,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon265",
@@ -5839,7 +5839,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 110,
       "speed": 3.5,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 122.5,
       "energy": 60,
       "interval": 3,
@@ -5858,7 +5858,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 110,
       "speed": 8,
-      "accuracy": 0.8,
+      "accuracy": 0.2,
       "range": 600,
       "energy": 50,
       "count": 30,
@@ -5883,7 +5883,7 @@
       "count": 30,
       "reload": 72,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon268",
@@ -5897,7 +5897,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 150,
       "speed": 5,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 225,
       "energy": 55,
       "interval": 2,
@@ -5916,7 +5916,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 130,
       "speed": 8,
-      "accuracy": 0.8,
+      "accuracy": 0.2,
       "range": 600,
       "energy": 55,
       "count": 30,
@@ -5936,7 +5936,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 50,
       "speed": 20,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 1900,
       "energy": 15,
       "count": 2,
@@ -5962,7 +5962,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 5,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon271",
@@ -5976,7 +5976,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 0.6,
       "speed": 45,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 450,
       "energy": 0.15000000596046448,
       "reloadInit": 1,
@@ -5995,7 +5995,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 50,
       "speed": 20,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 1900,
       "energy": 15,
       "count": 3,
@@ -6016,7 +6016,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 0.9,
       "speed": 45,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 450,
       "energy": 0.5,
       "reloadInit": 1,
@@ -6040,7 +6040,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 5.5,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon275",
@@ -6059,7 +6059,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 8,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon276",
@@ -6073,7 +6073,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 70,
       "speed": 20,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 1900,
       "energy": 16,
       "count": 3,
@@ -6094,7 +6094,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 20,
       "speed": 20,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 1900,
       "energy": 20,
       "count": 15,
@@ -6115,7 +6115,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 100,
       "speed": 20,
-      "accuracy": 0.993,
+      "accuracy": 0.007,
       "range": 1900,
       "energy": 17,
       "count": 3,
@@ -6136,7 +6136,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 30,
       "speed": 20,
-      "accuracy": 0.993,
+      "accuracy": 0.007,
       "range": 1900,
       "energy": 1.600000023841858,
       "reload": 6,
@@ -6156,7 +6156,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 8,
       "speed": 60,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 600,
       "energy": 0.23999999463558197,
       "reloadInit": 1,
@@ -6181,7 +6181,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 12,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon282",
@@ -6200,7 +6200,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 7,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon283",
@@ -6214,7 +6214,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 200,
       "speed": 20,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 1900,
       "energy": 14,
       "count": 4,
@@ -6235,7 +6235,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 14,
       "speed": 60,
-      "accuracy": 0.98,
+      "accuracy": 0.02,
       "range": 600,
       "energy": 0.25,
       "reloadInit": 1,
@@ -6254,7 +6254,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 200,
       "speed": 20,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 1900,
       "energy": 24,
       "count": 6,
@@ -6275,7 +6275,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 6000,
       "speed": 40,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 1200,
       "energy": 39,
       "reloadInit": 1,
@@ -6294,7 +6294,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 200,
       "speed": 20,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 1900,
       "energy": 35,
       "count": 40,
@@ -6315,7 +6315,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 200,
       "speed": 20,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 1900,
       "energy": 0.0010000000474974513,
       "count": 40,
@@ -6341,7 +6341,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 10,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon290",
@@ -6360,7 +6360,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 10,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon291",
@@ -6381,7 +6381,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 12,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "pPlasmaLauncher01",
@@ -6395,7 +6395,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 90,
       "speed": 1.5,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 1800,
       "radius": 10,
       "gravity": 0.25,
@@ -6415,7 +6415,7 @@
       "weapon": "Weapon_Throw",
       "damage": 250,
       "speed": 0.1,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 120,
       "radius": 7,
       "gravity": 0.02500000037252903,
@@ -6435,7 +6435,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 7,
       "speed": 4,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 400,
       "radius": 2,
       "gravity": 0.25,
@@ -6456,7 +6456,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 150,
       "speed": 2,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 2400,
       "radius": 10,
       "gravity": 0.25,
@@ -6476,7 +6476,7 @@
       "weapon": "Weapon_Throw",
       "damage": 260,
       "speed": 0.1,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 120,
       "radius": 10,
       "gravity": 0.02500000037252903,
@@ -6496,7 +6496,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 210,
       "speed": 1.7,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 2040,
       "radius": 10,
       "gravity": 0.25,
@@ -6516,7 +6516,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 100,
       "speed": 1,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 1200,
       "radius": 10,
       "gravity": 0.25,
@@ -6537,7 +6537,7 @@
       "weapon": "Weapon_Throw",
       "damage": 320,
       "speed": 1,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 1200,
       "radius": 5,
       "gravity": 2.5,
@@ -6557,7 +6557,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 400,
       "speed": 0.8,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 1800,
       "radius": 15,
       "gravity": 0.25,
@@ -6577,7 +6577,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 260,
       "speed": 1.7,
-      "accuracy": 0.975,
+      "accuracy": 0.025,
       "range": 2040,
       "radius": 12,
       "gravity": 0.25,
@@ -6597,7 +6597,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 1000,
       "speed": 6,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 7200,
       "radius": 20,
       "gravity": 0.02500000037252903,
@@ -6617,7 +6617,7 @@
       "weapon": "Weapon_Throw",
       "damage": 1000,
       "speed": 0.3,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 360,
       "radius": 15,
       "gravity": 0.02500000037252903,
@@ -6637,7 +6637,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 140,
       "speed": 1.6,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 1920,
       "radius": 10,
       "gravity": 0.02500000037252903,
@@ -6658,7 +6658,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 260,
       "speed": 1.1,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 1320,
       "radius": 15,
       "gravity": 0.02500000037252903,
@@ -6678,7 +6678,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 400,
       "speed": 0.9,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 1080,
       "radius": 15,
       "gravity": 2.5,
@@ -6705,7 +6705,7 @@
       "count": 15,
       "reload": 60,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon307",
@@ -6740,7 +6740,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 200,
       "speed": 1.6,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 400,
       "radius": 7,
       "gravity": 0.25,
@@ -6761,7 +6761,7 @@
       "weapon": "Weapon_Throw",
       "damage": 200,
       "speed": 0.9,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 1080,
       "radius": 20,
       "gravity": 2.5,
@@ -6781,7 +6781,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 520,
       "speed": 1,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 1200,
       "radius": 15,
       "gravity": 0.25,
@@ -6801,7 +6801,7 @@
       "weapon": "Weapon_Throw",
       "damage": 650,
       "speed": 2,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 2400,
       "radius": 15,
       "gravity": 10,
@@ -6821,7 +6821,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 310,
       "speed": 1.6,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 400,
       "radius": 7,
       "gravity": 0.25,
@@ -6842,7 +6842,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 650,
       "speed": 15,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 900,
       "radius": 25,
       "gravity": 0.25,
@@ -6862,7 +6862,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 650,
       "speed": 15,
-      "accuracy": 0.985,
+      "accuracy": 0.015,
       "range": 900,
       "radius": 20,
       "gravity": 0.25,
@@ -6890,7 +6890,7 @@
       "count": 30,
       "reload": 60,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon316",
@@ -6925,7 +6925,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 1000,
       "speed": 2.5,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 600,
       "radius": 15,
       "gravity": 0.25,
@@ -6945,7 +6945,7 @@
       "weapon": "Weapon_Throw",
       "damage": 2300,
       "speed": 0.7,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 840,
       "radius": 15,
       "gravity": 0.5,
@@ -6965,7 +6965,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 1500,
       "speed": 1.7,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 1020,
       "radius": 22,
       "gravity": 0.25,
@@ -6986,7 +6986,7 @@
       "weapon": "Weapon_Throw",
       "damage": 3200,
       "speed": 0.7,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 840,
       "radius": 17,
       "gravity": 0.5,
@@ -7006,7 +7006,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 2500,
       "speed": 6,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 3600,
       "radius": 30,
       "gravity": 5,
@@ -7027,7 +7027,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 3500,
       "speed": 6,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 2160,
       "radius": 25,
       "gravity": 0.25,
@@ -7047,7 +7047,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 30,
       "speed": 1,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 300,
       "radius": 5,
       "energy": 4,
@@ -7070,7 +7070,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 70,
       "speed": 0.2,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 500,
       "radius": 10,
       "energy": 6,
@@ -7101,7 +7101,7 @@
       "lockDist": 1,
       "reload": 6,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon326",
@@ -7125,7 +7125,7 @@
       "lockDist": 1,
       "reload": 60,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon327",
@@ -7139,7 +7139,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 200,
       "speed": 0.2,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 499.9,
       "radius": 12,
       "energy": 7,
@@ -7172,7 +7172,7 @@
       "lockDist": 1,
       "reload": 45,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon329",
@@ -7186,7 +7186,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 75,
       "speed": 1,
-      "accuracy": 0,
+      "accuracy": 1,
       "range": 240,
       "radius": 5,
       "energy": 2,
@@ -7218,7 +7218,7 @@
       "lockDist": 1,
       "reload": 10,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon331",
@@ -7241,7 +7241,7 @@
       "lockDist": 1,
       "reload": 120,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon332",
@@ -7255,7 +7255,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 200,
       "speed": 0.2,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 450,
       "radius": 20,
       "energy": 4,
@@ -7288,7 +7288,7 @@
       "lockDist": 1,
       "reload": 10,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon334",
@@ -7311,7 +7311,7 @@
       "lockDist": 1,
       "reload": 6,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon335",
@@ -7335,7 +7335,7 @@
       "lockDist": 1,
       "reload": 85,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon336",
@@ -7358,7 +7358,7 @@
       "lockDist": 1,
       "reload": 120,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon337",
@@ -7372,7 +7372,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 400,
       "speed": 0.2,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 450,
       "radius": 20,
       "energy": 4,
@@ -7396,7 +7396,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 320,
       "speed": 1.5,
-      "accuracy": -0.5,
+      "accuracy": 1.5,
       "range": 90,
       "radius": 5,
       "energy": 16,
@@ -7429,7 +7429,7 @@
       "lockDist": 1,
       "reload": 10,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon340",
@@ -7453,7 +7453,7 @@
       "lockDist": 1,
       "reload": 6,
       "reloadInit": 1,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon341",
@@ -7471,7 +7471,7 @@
       "energy": 45,
       "reload": 3600,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 1800,
       "duration": 1800
     },
@@ -7491,7 +7491,7 @@
       "energy": 65,
       "reload": 3600,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 600,
       "duration": 1800
     },
@@ -7511,7 +7511,7 @@
       "energy": 45,
       "reload": 3600,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 600,
       "duration": 1800
     },
@@ -7527,7 +7527,7 @@
       "weapon": "Weapon_Throw",
       "damage": 20,
       "speed": 0.3,
-      "accuracy": 0.3,
+      "accuracy": 0.7,
       "range": 36,
       "energy": 45,
       "reload": 3600,
@@ -7551,7 +7551,7 @@
       "energy": 45,
       "reload": 3600,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 1800,
       "duration": 1800
     },
@@ -7571,7 +7571,7 @@
       "energy": 45,
       "reload": 3600,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 1800,
       "duration": 1800
     },
@@ -7591,7 +7591,7 @@
       "energy": 45,
       "reload": 3600,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 1800,
       "duration": 1800
     },
@@ -7611,7 +7611,7 @@
       "energy": 45,
       "reload": 3600,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 1800,
       "duration": 1800
     },
@@ -7627,7 +7627,7 @@
       "weapon": "Weapon_Throw",
       "damage": 60,
       "speed": 0.3,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 36,
       "energy": 45,
       "reload": 3600,
@@ -7647,7 +7647,7 @@
       "weapon": "Weapon_Throw",
       "damage": 30,
       "speed": 0.3,
-      "accuracy": 0.3,
+      "accuracy": 0.7,
       "range": 36,
       "energy": 45,
       "count": 10,
@@ -7668,7 +7668,7 @@
       "weapon": "Weapon_Throw",
       "damage": 45,
       "speed": 0.3,
-      "accuracy": 0.3,
+      "accuracy": 0.7,
       "range": 36,
       "energy": 45,
       "reload": 3600,
@@ -7688,7 +7688,7 @@
       "weapon": "Weapon_Throw",
       "damage": 60,
       "speed": 0.3,
-      "accuracy": 0.3,
+      "accuracy": 0.7,
       "range": 36,
       "energy": 45,
       "count": 10,
@@ -7709,7 +7709,7 @@
       "weapon": "Weapon_Throw",
       "damage": 100,
       "speed": 0.3,
-      "accuracy": 0.3,
+      "accuracy": 0.7,
       "range": 36,
       "energy": 240,
       "count": 2,
@@ -7735,7 +7735,7 @@
       "count": 10,
       "reload": 3600,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 600,
       "duration": 1800
     },
@@ -7755,7 +7755,7 @@
       "energy": 300,
       "reload": 2400,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 5
     },
     {
@@ -7776,7 +7776,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 50,
       "attacks": [
         {
@@ -7808,7 +7808,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 50,
       "attacks": [
         {
@@ -7848,7 +7848,7 @@
       "reload": 180,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 0,
       "attacks": [
         {
@@ -7880,7 +7880,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 40,
       "attacks": [
         {
@@ -7920,7 +7920,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 50,
       "attacks": [
         {
@@ -7960,7 +7960,7 @@
       "reload": 180,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 0,
       "attacks": [
         {
@@ -7992,7 +7992,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 50,
       "attacks": [
         {
@@ -8032,7 +8032,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 65,
       "attacks": [
         {
@@ -8072,7 +8072,7 @@
       "reload": 180,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 0,
       "attacks": [
         {
@@ -8112,7 +8112,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 40,
       "attacks": [
         {
@@ -8152,7 +8152,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 50,
       "attacks": [
         {
@@ -8192,7 +8192,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 0,
       "attacks": [
         {
@@ -8224,7 +8224,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 70,
       "attacks": [
         {
@@ -8264,7 +8264,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 75,
       "attacks": [
         {
@@ -8304,7 +8304,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 60,
       "attacks": [
         {
@@ -8344,7 +8344,7 @@
       "reload": 180,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 0,
       "attacks": [
         {
@@ -8384,7 +8384,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 70,
       "attacks": [
         {
@@ -8424,7 +8424,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 90,
       "attacks": [
         {
@@ -8464,7 +8464,7 @@
       "reload": 180,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 0,
       "attacks": [
         {
@@ -8496,7 +8496,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 0,
       "attacks": [
         {
@@ -8536,7 +8536,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 90,
       "attacks": [
         {
@@ -8576,7 +8576,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 0,
       "attacks": [
         {
@@ -8616,7 +8616,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 75,
       "attacks": [
         {
@@ -8656,7 +8656,7 @@
       "reload": 180,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 0,
       "attacks": [
         {
@@ -8694,7 +8694,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "attacks": [
         {
           "name": "Combo",
@@ -8722,7 +8722,7 @@
       "reload": 150,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon378",
@@ -8741,7 +8741,7 @@
       "reload": 90,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon379",
@@ -8759,7 +8759,7 @@
       "reload": 180,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "attacks": []
     },
     {
@@ -8778,7 +8778,7 @@
       "reload": 90,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "attacks": [
         {
           "name": "Combo",
@@ -8806,7 +8806,7 @@
       "reload": 240,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "attacks": [
         {
           "name": "Combo",
@@ -8835,7 +8835,7 @@
       "reload": 150,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon383",
@@ -8854,7 +8854,7 @@
       "reload": 90,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon384",
@@ -8872,7 +8872,7 @@
       "reload": 180,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "attacks": []
     },
     {
@@ -8893,7 +8893,7 @@
       "reload": 150,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon386",
@@ -8911,7 +8911,7 @@
       "reload": 90,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "attacks": [
         {
           "name": "Combo",
@@ -8939,7 +8939,7 @@
       "reload": 240,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "attacks": [
         {
           "name": "Combo",
@@ -8966,7 +8966,7 @@
       "reload": 90,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "attacks": [
         {
           "name": "Combo",
@@ -8993,7 +8993,7 @@
       "reload": 100,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon390",
@@ -9011,7 +9011,7 @@
       "reload": 180,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "attacks": []
     },
     {
@@ -9032,7 +9032,7 @@
       "reload": 150,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon392",
@@ -9050,7 +9050,7 @@
       "reload": 90,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "attacks": [
         {
           "name": "Combo",
@@ -9077,7 +9077,7 @@
       "reload": 80,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon394",
@@ -9097,7 +9097,7 @@
       "reload": 240,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "attacks": [
         {
           "name": "Combo",
@@ -9124,7 +9124,7 @@
       "reload": 90,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "attacks": [
         {
           "name": "Combo",
@@ -9150,7 +9150,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "attacks": []
     },
     {
@@ -9170,7 +9170,7 @@
       "reload": 80,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon398",
@@ -9188,7 +9188,7 @@
       "reload": 90,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "attacks": [
         {
           "name": "Combo",
@@ -9216,7 +9216,7 @@
       "reload": 240,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "attacks": [
         {
           "name": "Combo",
@@ -9245,7 +9245,7 @@
       "reload": 150,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon401",
@@ -9263,7 +9263,7 @@
       "reload": 180,
       "reloadInit": 1,
       "secondary": 5,
-      "accuracy": 1,
+      "accuracy": 0,
       "attacks": []
     },
     {
@@ -9282,7 +9282,7 @@
       "reload": 600,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 70
     },
     {
@@ -9301,7 +9301,7 @@
       "reload": 240,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 50
     },
     {
@@ -9320,7 +9320,7 @@
       "reload": 900,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 80
     },
     {
@@ -9339,7 +9339,7 @@
       "reload": 600,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 70
     },
     {
@@ -9358,7 +9358,7 @@
       "reload": 480,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 60
     },
     {
@@ -9377,7 +9377,7 @@
       "reload": 600,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 70
     },
     {
@@ -9396,7 +9396,7 @@
       "reload": 900,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 80
     },
     {
@@ -9415,7 +9415,7 @@
       "reload": 600,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 70
     },
     {
@@ -9434,7 +9434,7 @@
       "reload": 480,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 60
     },
     {
@@ -9453,7 +9453,7 @@
       "reload": 240,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 10
     },
     {
@@ -9472,7 +9472,7 @@
       "reload": 600,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 70
     },
     {
@@ -9491,7 +9491,7 @@
       "reload": 900,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 80
     },
     {
@@ -9510,7 +9510,7 @@
       "reload": 600,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 70
     },
     {
@@ -9529,7 +9529,7 @@
       "reload": 480,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 65
     },
     {
@@ -9548,7 +9548,7 @@
       "reload": 600,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 70
     },
     {
@@ -9567,7 +9567,7 @@
       "reload": 900,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 85
     },
     {
@@ -9586,7 +9586,7 @@
       "reload": 480,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 65
     },
     {
@@ -9605,7 +9605,7 @@
       "reload": 600,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 75
     },
     {
@@ -9624,7 +9624,7 @@
       "reload": 240,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 10
     },
     {
@@ -9643,7 +9643,7 @@
       "reload": 600,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 80
     },
     {
@@ -9662,7 +9662,7 @@
       "reload": 480,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 70
     },
     {
@@ -9681,7 +9681,7 @@
       "reload": 600,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 80
     },
     {
@@ -9700,7 +9700,7 @@
       "reload": 900,
       "reloadInit": 1,
       "secondary": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "defense": 90
     },
     {
@@ -9715,7 +9715,7 @@
       "weapon": "Weapon_Gatling",
       "damage": 10,
       "speed": 4,
-      "accuracy": 0.93,
+      "accuracy": 0.07,
       "range": 160,
       "interval": 3,
       "reload": 480,
@@ -9734,7 +9734,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 55,
       "speed": 5,
-      "accuracy": 0.97,
+      "accuracy": 0.03,
       "range": 275,
       "gravity": 1,
       "interval": 40,
@@ -9754,7 +9754,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 15,
       "speed": 4,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 120,
       "gravity": 2,
       "count": 8,
@@ -9775,7 +9775,7 @@
       "weapon": "Weapon_Gatling",
       "damage": 20,
       "speed": 1.4,
-      "accuracy": 0.97,
+      "accuracy": 0.03,
       "range": 28,
       "interval": 3,
       "reload": 300,
@@ -9795,7 +9795,7 @@
       "weapon": "Weapon_Gatling",
       "damage": 10,
       "speed": 4,
-      "accuracy": 0.92,
+      "accuracy": 0.08,
       "range": 160,
       "interval": 2,
       "reload": 540,
@@ -9814,7 +9814,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 40,
       "speed": 6,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 330,
       "gravity": 2,
       "interval": 20,
@@ -9834,7 +9834,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 35,
       "speed": 4,
-      "accuracy": 0.88,
+      "accuracy": 0.12,
       "range": 120,
       "gravity": 2,
       "count": 10,
@@ -9855,7 +9855,7 @@
       "weapon": "Weapon_Gatling",
       "damage": 50,
       "speed": 1.8,
-      "accuracy": 0.97,
+      "accuracy": 0.03,
       "range": 36,
       "interval": 3,
       "reload": 330,
@@ -9875,7 +9875,7 @@
       "weapon": "Weapon_Gatling",
       "damage": 30,
       "speed": 4,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 160,
       "interval": 3,
       "reload": 600,
@@ -9894,7 +9894,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 150,
       "speed": 6,
-      "accuracy": 0.975,
+      "accuracy": 0.025,
       "range": 300,
       "gravity": 1,
       "interval": 40,
@@ -9914,7 +9914,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 40,
       "speed": 30,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 120,
       "burst": 1200,
       "burstRate": 1,
@@ -9935,7 +9935,7 @@
       "weapon": "Weapon_Gatling",
       "damage": 45,
       "speed": 4,
-      "accuracy": 0.97,
+      "accuracy": 0.03,
       "range": 160,
       "interval": 3,
       "reload": 480,
@@ -9954,7 +9954,7 @@
       "weapon": "Weapon_Gatling",
       "damage": 35,
       "speed": 4,
-      "accuracy": 0.85,
+      "accuracy": 0.15,
       "range": 160,
       "interval": 2,
       "reload": 540,
@@ -9973,7 +9973,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 38,
       "speed": 5,
-      "accuracy": 0.88,
+      "accuracy": 0.12,
       "range": 150,
       "gravity": 2,
       "count": 15,
@@ -9994,7 +9994,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 400,
       "speed": 10,
-      "accuracy": 0.965,
+      "accuracy": 0.035,
       "range": 350,
       "gravity": 2,
       "burst": 3,
@@ -10016,7 +10016,7 @@
       "weapon": "Weapon_Gatling",
       "damage": 140,
       "speed": 1.3,
-      "accuracy": 0.97,
+      "accuracy": 0.03,
       "range": 26,
       "interval": 3,
       "reload": 300,
@@ -10036,7 +10036,7 @@
       "weapon": "Weapon_Gatling",
       "damage": 65,
       "speed": 4,
-      "accuracy": 0.925,
+      "accuracy": 0.075,
       "range": 160,
       "interval": 4,
       "reload": 600,
@@ -10055,7 +10055,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 340,
       "speed": 14,
-      "accuracy": 0.975,
+      "accuracy": 0.025,
       "range": 448,
       "gravity": 2,
       "interval": 30,
@@ -10075,7 +10075,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 90,
       "speed": 5,
-      "accuracy": 0.85,
+      "accuracy": 0.15,
       "range": 125,
       "gravity": 2,
       "count": 14,
@@ -10096,7 +10096,7 @@
       "weapon": "Weapon_Gatling",
       "damage": 80,
       "speed": 5,
-      "accuracy": 0.96,
+      "accuracy": 0.04,
       "range": 200,
       "interval": 3,
       "reload": 480,
@@ -10115,7 +10115,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 400,
       "speed": 10,
-      "accuracy": 0.985,
+      "accuracy": 0.015,
       "range": 400,
       "gravity": 2,
       "burst": 3,
@@ -10137,7 +10137,7 @@
       "weapon": "Weapon_Gatling",
       "damage": 220,
       "speed": 1.6,
-      "accuracy": 0.97,
+      "accuracy": 0.03,
       "range": 32,
       "interval": 3,
       "reload": 300,
@@ -10157,7 +10157,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 100,
       "speed": 30,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 120,
       "burst": 1200,
       "interval": 1,
@@ -10177,7 +10177,7 @@
       "weapon": "Weapon_Gatling",
       "damage": 100,
       "speed": 6,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 240,
       "interval": 3,
       "reload": 540,
@@ -10196,7 +10196,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 500,
       "speed": 15,
-      "accuracy": 0.965,
+      "accuracy": 0.035,
       "range": 495,
       "gravity": 2,
       "interval": 10,
@@ -10216,7 +10216,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 120,
       "speed": 6,
-      "accuracy": 0.83,
+      "accuracy": 0.17,
       "range": 180,
       "gravity": 2,
       "count": 20,
@@ -10237,7 +10237,7 @@
       "weapon": "Weapon_Gatling",
       "damage": 120,
       "speed": 4,
-      "accuracy": 0.925,
+      "accuracy": 0.075,
       "range": 200,
       "interval": 3,
       "reload": 600,
@@ -10256,7 +10256,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 1000,
       "speed": 20,
-      "accuracy": 0.985,
+      "accuracy": 0.015,
       "range": 600,
       "gravity": 2,
       "interval": 40,
@@ -10276,7 +10276,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 160,
       "speed": 30,
-      "accuracy": 0.975,
+      "accuracy": 0.025,
       "range": 180,
       "burst": 1500,
       "interval": 1,
@@ -10296,7 +10296,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 100,
       "speed": 8,
-      "accuracy": 0.8,
+      "accuracy": 0.2,
       "range": 176,
       "gravity": 2,
       "count": 30,
@@ -10317,7 +10317,7 @@
       "weapon": "Weapon_Gatling",
       "damage": 200,
       "speed": 5,
-      "accuracy": 0.97,
+      "accuracy": 0.03,
       "range": 275,
       "interval": 3,
       "reload": 660,
@@ -10336,7 +10336,7 @@
       "weapon": "Weapon_Gatling",
       "damage": 230,
       "speed": 4.8,
-      "accuracy": 0.97,
+      "accuracy": 0.03,
       "range": 96,
       "interval": 3,
       "reload": 240,
@@ -10356,7 +10356,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 100,
       "speed": 5,
-      "accuracy": 0.98,
+      "accuracy": 0.02,
       "range": 600,
       "gravity": 2,
       "piercing": true,
@@ -10378,7 +10378,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 500,
       "speed": 7,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 840,
       "gravity": 1,
       "piercing": true,
@@ -10407,7 +10407,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon455",
@@ -10421,7 +10421,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 20,
       "speed": 4,
-      "accuracy": 0.85,
+      "accuracy": 0.15,
       "range": 360,
       "gravity": 2,
       "piercing": true,
@@ -10443,7 +10443,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 900,
       "speed": 7,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 840,
       "gravity": 1,
       "piercing": true,
@@ -10465,7 +10465,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 50,
       "speed": 1.5,
-      "accuracy": 0.85,
+      "accuracy": 0.15,
       "range": 450,
       "gravity": 4,
       "interval": 3,
@@ -10485,7 +10485,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 180,
       "speed": 1,
-      "accuracy": 0.8,
+      "accuracy": 0.2,
       "range": 270,
       "gravity": 2,
       "count": 6,
@@ -10506,7 +10506,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 500,
       "speed": 5,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 600,
       "gravity": 2,
       "piercing": true,
@@ -10528,7 +10528,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 600,
       "speed": 5,
-      "accuracy": 0.98,
+      "accuracy": 0.02,
       "range": 600,
       "gravity": 2,
       "piercing": true,
@@ -10550,7 +10550,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 2000,
       "speed": 7,
-      "accuracy": 0.997,
+      "accuracy": 0.003,
       "range": 840,
       "gravity": 1,
       "piercing": true,
@@ -10572,7 +10572,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 50,
       "speed": 1.5,
-      "accuracy": 0.85,
+      "accuracy": 0.15,
       "range": 450,
       "gravity": 4,
       "count": 30,
@@ -10593,7 +10593,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 800,
       "speed": 5,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 700,
       "gravity": 2,
       "piercing": true,
@@ -10615,7 +10615,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 45,
       "speed": 4,
-      "accuracy": 0.88,
+      "accuracy": 0.12,
       "range": 400,
       "gravity": 2,
       "piercing": true,
@@ -10637,7 +10637,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 1000,
       "speed": 6,
-      "accuracy": 0.985,
+      "accuracy": 0.015,
       "range": 960,
       "gravity": 2,
       "piercing": true,
@@ -10659,7 +10659,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 90,
       "speed": 1.5,
-      "accuracy": 0.8,
+      "accuracy": 0.2,
       "range": 450,
       "gravity": 4,
       "count": 2,
@@ -10680,7 +10680,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 300,
       "speed": 1,
-      "accuracy": 0.75,
+      "accuracy": 0.25,
       "range": 270,
       "gravity": 2,
       "count": 12,
@@ -10701,7 +10701,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 1500,
       "speed": 6,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 960,
       "gravity": 2,
       "piercing": true,
@@ -10723,7 +10723,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 6000,
       "speed": 8.5,
-      "accuracy": 0.998,
+      "accuracy": 0.002,
       "range": 1020,
       "gravity": 1,
       "piercing": true,
@@ -10745,7 +10745,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 80,
       "speed": 1.5,
-      "accuracy": 0.8,
+      "accuracy": 0.2,
       "range": 450,
       "gravity": 4,
       "count": 60,
@@ -10766,7 +10766,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 160,
       "speed": 6,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 600,
       "gravity": 2,
       "piercing": true,
@@ -10788,7 +10788,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 2000,
       "speed": 7,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 1120,
       "gravity": 1,
       "piercing": true,
@@ -10810,7 +10810,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 10000,
       "speed": 10,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 1200,
       "gravity": 1,
       "piercing": true,
@@ -10832,7 +10832,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 200,
       "speed": 3,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 1800,
       "radius": 6,
       "gravity": 2,
@@ -10860,7 +10860,7 @@
       "reload": 480,
       "reloadInit": 1,
       "secondary": 4,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon475",
@@ -10874,7 +10874,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 50,
       "speed": 2,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 1200,
       "radius": 6,
       "gravity": 2,
@@ -10896,7 +10896,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 400,
       "speed": 5,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 3000,
       "radius": 12,
       "gravity": 2,
@@ -10918,7 +10918,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 50,
       "speed": 2,
-      "accuracy": 0.85,
+      "accuracy": 0.15,
       "range": 1200,
       "radius": 6,
       "gravity": 2,
@@ -10940,7 +10940,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 1200,
       "speed": 5,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 3000,
       "radius": 15,
       "gravity": 2,
@@ -10962,7 +10962,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 600,
       "speed": 3.5,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 2100,
       "radius": 8,
       "gravity": 2,
@@ -10984,7 +10984,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 2000,
       "speed": 7,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 4200,
       "radius": 16,
       "gravity": 2,
@@ -11006,7 +11006,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 1000,
       "speed": 3.5,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 2100,
       "radius": 10,
       "gravity": 2,
@@ -11028,7 +11028,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 300,
       "speed": 2,
-      "accuracy": 0.85,
+      "accuracy": 0.15,
       "range": 1200,
       "radius": 6,
       "gravity": 2,
@@ -11050,7 +11050,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 1600,
       "speed": 5,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 3000,
       "radius": 15,
       "gravity": 2,
@@ -11072,7 +11072,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 3000,
       "speed": 9,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 5400,
       "radius": 20,
       "gravity": 2,
@@ -11094,7 +11094,7 @@
       "weapon": "Weapon_HeavyShoot",
       "damage": 800,
       "speed": 2,
-      "accuracy": 0.8,
+      "accuracy": 0.2,
       "range": 1200,
       "radius": 10,
       "gravity": 2,
@@ -11116,7 +11116,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 600,
       "speed": 0.1,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 120,
       "radius": 20,
       "gravity": 0.75,
@@ -11138,7 +11138,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 80,
       "speed": 0.1,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 120,
       "radius": 4,
       "gravity": 0.5,
@@ -11163,7 +11163,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 50,
       "speed": 0.1,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 120,
       "radius": 3,
       "gravity": 0.75,
@@ -11187,7 +11187,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 4000,
       "speed": 0.1,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 120,
       "radius": 30,
       "gravity": 0.75,
@@ -11209,7 +11209,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 200,
       "speed": 0.1,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 120,
       "radius": 5,
       "gravity": 0.75,
@@ -11233,7 +11233,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 250,
       "speed": 0.1,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 240,
       "radius": 5,
       "gravity": 0.75,
@@ -11257,7 +11257,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 340,
       "speed": 0.1,
-      "accuracy": 0.8,
+      "accuracy": 0.2,
       "range": 240,
       "radius": 6,
       "gravity": 0.75,
@@ -11281,7 +11281,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 1800,
       "speed": 0.1,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 120,
       "radius": 20,
       "gravity": 0.75,
@@ -11303,7 +11303,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 140,
       "speed": 0.1,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 120,
       "radius": 8,
       "gravity": 0.5,
@@ -11328,7 +11328,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 400,
       "speed": 0.1,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 120,
       "radius": 5,
       "gravity": 0.75,
@@ -11352,7 +11352,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 175,
       "speed": 0.1,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 120,
       "radius": 3,
       "gravity": 0.75,
@@ -11376,7 +11376,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 50000,
       "speed": 0.1,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 120,
       "radius": 40,
       "gravity": 0.75,
@@ -11398,7 +11398,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 560,
       "speed": 0.1,
-      "accuracy": 0.8,
+      "accuracy": 0.2,
       "range": 240,
       "radius": 8,
       "gravity": 0.75,
@@ -11422,7 +11422,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 4000,
       "speed": 0.1,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 120,
       "radius": 25,
       "gravity": 0.75,
@@ -11444,7 +11444,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 1200,
       "speed": 0.1,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 240,
       "radius": 7,
       "gravity": 0.75,
@@ -11468,7 +11468,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 640,
       "speed": 0.1,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 120,
       "radius": 6,
       "gravity": 0.75,
@@ -11492,7 +11492,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 400,
       "speed": 0.1,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 120,
       "radius": 15,
       "gravity": 0.5,
@@ -11517,7 +11517,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 100000,
       "speed": 0.1,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 120,
       "radius": 50,
       "gravity": 0.75,
@@ -11539,7 +11539,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 8000,
       "speed": 0.1,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 120,
       "radius": 30,
       "gravity": 0.75,
@@ -11561,7 +11561,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 900,
       "speed": 0.1,
-      "accuracy": 0.99,
+      "accuracy": 0.01,
       "range": 240,
       "radius": 12,
       "gravity": 0.75,
@@ -11585,7 +11585,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 1700,
       "speed": 0.1,
-      "accuracy": 0.8,
+      "accuracy": 0.2,
       "range": 240,
       "radius": 16,
       "gravity": 0.75,
@@ -11609,7 +11609,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 1000,
       "speed": 0.1,
-      "accuracy": 0.9,
+      "accuracy": 0.1,
       "range": 120,
       "radius": 7,
       "gravity": 0.75,
@@ -11633,7 +11633,7 @@
       "weapon": "Weapon_HomingShoot",
       "damage": 10000,
       "speed": 0.1,
-      "accuracy": 0.999,
+      "accuracy": 0.001,
       "range": 120,
       "radius": 30,
       "gravity": 0.75,
@@ -11656,7 +11656,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "guideSpeed": 3,
       "guideRange": 3
     },
@@ -11673,7 +11673,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "guideSpeed": 5,
       "guideRange": 5
     },
@@ -11690,7 +11690,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "guideSpeed": 3.5,
       "guideRange": 3
     },
@@ -11707,7 +11707,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "guideSpeed": 4,
       "guideRange": 3
     },
@@ -11724,7 +11724,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "guideSpeed": 6,
       "guideRange": 4
     },
@@ -11739,7 +11739,7 @@
       "ammo": 4,
       "weapon": "Weapon_MarkerShooter",
       "speed": 8,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 400,
       "interval": 60,
       "reload": 300,
@@ -11760,7 +11760,7 @@
       "ammo": 5,
       "weapon": "Weapon_MarkerShooter",
       "speed": 10,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 500,
       "interval": 60,
       "reload": 300,
@@ -11781,7 +11781,7 @@
       "ammo": 2,
       "weapon": "Weapon_MarkerShooter",
       "speed": 20,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 800,
       "interval": 60,
       "reload": 300,
@@ -11802,7 +11802,7 @@
       "ammo": 7,
       "weapon": "Weapon_MarkerShooter",
       "speed": 12,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 600,
       "interval": 40,
       "reload": 300,
@@ -11823,7 +11823,7 @@
       "ammo": 1,
       "weapon": "Weapon_MarkerShooter",
       "speed": 40,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 1000,
       "interval": 60,
       "reload": 300,
@@ -11844,7 +11844,7 @@
       "ammo": 10,
       "weapon": "Weapon_MarkerShooter",
       "speed": 20,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 600,
       "interval": 30,
       "reload": 300,
@@ -11865,7 +11865,7 @@
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
       "damage": 0.1,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 3600,
       "radius": 12,
       "gravity": 1,
@@ -11892,7 +11892,7 @@
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
       "damage": 0.2,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 3600,
       "radius": 12,
       "gravity": 1,
@@ -11922,7 +11922,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "supportType": "life",
       "duration": 600
     },
@@ -11946,7 +11946,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "supportType": "life",
       "duration": 600
     },
@@ -11961,7 +11961,7 @@
       "ammo": 4,
       "weapon": "Weapon_BasicShoot",
       "damage": 0.5,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 3600,
       "radius": 12,
       "gravity": 1,
@@ -11982,7 +11982,7 @@
       "ammo": 5,
       "weapon": "Weapon_BasicShoot",
       "damage": 0.8,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 3600,
       "radius": 18,
       "gravity": 1,
@@ -12012,7 +12012,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "supportType": "life",
       "duration": 600
     },
@@ -12027,7 +12027,7 @@
       "ammo": 5,
       "weapon": "Weapon_BasicShoot",
       "damage": 1.6,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 3600,
       "radius": 25,
       "gravity": 1,
@@ -12057,7 +12057,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "supportType": "life",
       "duration": 600
     },
@@ -12072,7 +12072,7 @@
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
       "damage": 0.1,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 5400,
       "radius": 75,
       "gravity": 1,
@@ -12107,7 +12107,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 6,
-      "accuracy": 1,
+      "accuracy": 0,
       "supportType": "plasma",
       "duration": 1800
     },
@@ -12122,7 +12122,7 @@
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
       "damage": 0.1,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 5400,
       "radius": 100,
       "gravity": 1,
@@ -12149,7 +12149,7 @@
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
       "damage": 0.2,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 800,
       "radius": 12,
       "gravity": 1,
@@ -12176,7 +12176,7 @@
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
       "damage": 0.1,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 5400,
       "radius": 150,
       "gravity": 1,
@@ -12211,7 +12211,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 8,
-      "accuracy": 1,
+      "accuracy": 0,
       "supportType": "plasma",
       "duration": 1800
     },
@@ -12226,7 +12226,7 @@
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
       "damage": 0.3,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 1200,
       "radius": 12,
       "gravity": 1,
@@ -12253,7 +12253,7 @@
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
       "damage": 0.1,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 5400,
       "radius": 200,
       "gravity": 1,
@@ -12288,7 +12288,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 12,
-      "accuracy": 1,
+      "accuracy": 0,
       "supportType": "plasma",
       "duration": 1800
     },
@@ -12311,7 +12311,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "supportType": "power",
       "duration": 1800
     },
@@ -12326,7 +12326,7 @@
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
       "damage": 1.2,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 3600,
       "radius": 25,
       "gravity": 1,
@@ -12347,7 +12347,7 @@
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
       "damage": 1.2,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 5400,
       "radius": 25,
       "gravity": 1,
@@ -12376,7 +12376,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "supportType": "power",
       "duration": 2700
     },
@@ -12391,7 +12391,7 @@
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
       "damage": 1.2,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 5400,
       "radius": 70,
       "gravity": 1,
@@ -12420,7 +12420,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "supportType": "power",
       "duration": 3600
     },
@@ -12435,7 +12435,7 @@
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
       "damage": 1.5,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 5400,
       "radius": 30,
       "gravity": 1,
@@ -12456,7 +12456,7 @@
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
       "damage": 0.7,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 7200,
       "radius": 25,
       "gravity": 1,
@@ -12492,7 +12492,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "supportType": "guard",
       "duration": 3600
     },
@@ -12507,7 +12507,7 @@
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
       "damage": 0.4,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 7200,
       "radius": 12,
       "gravity": 1,
@@ -12534,7 +12534,7 @@
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
       "damage": 0.8,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 7200,
       "radius": 75,
       "gravity": 1,
@@ -12570,7 +12570,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "supportType": "guard",
       "duration": 5400
     },
@@ -12585,7 +12585,7 @@
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
       "damage": 0.5,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 7200,
       "radius": 30,
       "gravity": 1,
@@ -12612,7 +12612,7 @@
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
       "damage": 0.7,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 7200,
       "radius": 75,
       "gravity": 1,
@@ -12647,7 +12647,7 @@
       "reload": 3600,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 10,
       "underground": "blocked"
@@ -12671,7 +12671,7 @@
       "reload": 2700,
       "reloadInit": 0.2,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 20,
       "underground": "blocked"
@@ -12695,7 +12695,7 @@
       "reload": 3600,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 10,
       "underground": "blocked"
@@ -12719,7 +12719,7 @@
       "reload": 2700,
       "reloadInit": 0.2,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 20,
       "underground": "blocked"
@@ -12743,7 +12743,7 @@
       "reload": 2700,
       "reloadInit": 0.2,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 20,
       "underground": "blocked"
@@ -12767,7 +12767,7 @@
       "reload": 3600,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 10,
       "underground": "blocked"
@@ -12791,7 +12791,7 @@
       "reload": 3600,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 10,
       "underground": "blocked"
@@ -12815,7 +12815,7 @@
       "reload": 2700,
       "reloadInit": 0.2,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 20,
       "underground": "blocked"
@@ -12839,7 +12839,7 @@
       "reload": 600,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 300,
       "underground": "blocked"
@@ -12863,7 +12863,7 @@
       "reload": 900,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 20,
       "underground": "blocked"
@@ -12886,7 +12886,7 @@
       "reload": 200,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 1,
       "underground": "blocked"
@@ -12910,7 +12910,7 @@
       "reload": 600,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 300,
       "underground": "blocked"
@@ -12934,7 +12934,7 @@
       "reload": 900,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 20,
       "underground": "blocked"
@@ -12957,7 +12957,7 @@
       "reload": 200,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 1,
       "underground": "blocked"
@@ -12981,7 +12981,7 @@
       "reload": 900,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 20,
       "underground": "blocked"
@@ -13005,7 +13005,7 @@
       "reload": 600,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 300,
       "underground": "blocked"
@@ -13029,7 +13029,7 @@
       "reload": 600,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 300,
       "underground": "blocked"
@@ -13052,7 +13052,7 @@
       "reload": 200,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 1,
       "underground": "blocked"
@@ -13076,7 +13076,7 @@
       "reload": 900,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 20,
       "underground": "blocked"
@@ -13100,7 +13100,7 @@
       "reload": 5400,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "bomber",
       "units": 1,
       "shots": 10,
@@ -13125,7 +13125,7 @@
       "reload": 2400,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "bomber",
       "units": 3,
       "shots": 100,
@@ -13150,7 +13150,7 @@
       "reload": 5400,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "bomber",
       "units": 2,
       "shots": 10,
@@ -13175,7 +13175,7 @@
       "reload": 5400,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "bomber",
       "units": 3,
       "shots": 20,
@@ -13200,7 +13200,7 @@
       "reload": 2200,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "bomber",
       "units": 4,
       "shots": 120,
@@ -13225,7 +13225,7 @@
       "reload": 5400,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "bomber",
       "units": 4,
       "shots": 20,
@@ -13250,7 +13250,7 @@
       "reload": 7200,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "bomber",
       "units": 10,
       "shots": 5,
@@ -13275,7 +13275,7 @@
       "reload": 5400,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "bomber",
       "units": 1,
       "shots": 50,
@@ -13300,7 +13300,7 @@
       "reload": 5400,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "bomber",
       "units": 1,
       "shots": 10,
@@ -13325,7 +13325,7 @@
       "reload": 1800,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "bomber",
       "units": 5,
       "shots": 150,
@@ -13350,7 +13350,7 @@
       "reload": 5400,
       "reloadInit": 1,
       "credits": true,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "bomber",
       "units": 4,
       "shots": 10,
@@ -13375,7 +13375,7 @@
       "credits": true,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "satellite",
       "shots": 4,
       "underground": "blocked"
@@ -13399,7 +13399,7 @@
       "credits": true,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "satellite",
       "shots": 15,
       "underground": "blocked"
@@ -13423,7 +13423,7 @@
       "credits": true,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "satellite",
       "shots": 1,
       "underground": "blocked"
@@ -13447,7 +13447,7 @@
       "credits": true,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "satellite",
       "shots": 5,
       "underground": "blocked"
@@ -13471,7 +13471,7 @@
       "credits": true,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "satellite",
       "shots": 20,
       "underground": "blocked"
@@ -13495,7 +13495,7 @@
       "credits": true,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "satellite",
       "shots": 1,
       "underground": "blocked"
@@ -13519,7 +13519,7 @@
       "credits": true,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "satellite",
       "shots": 6,
       "underground": "blocked"
@@ -13543,7 +13543,7 @@
       "credits": true,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "satellite",
       "shots": 1,
       "underground": "blocked"
@@ -13567,7 +13567,7 @@
       "credits": true,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "satellite",
       "shots": 30,
       "underground": "blocked"
@@ -13591,7 +13591,7 @@
       "credits": true,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "satellite",
       "shots": 1,
       "underground": "blocked"
@@ -13614,7 +13614,7 @@
       "credits": true,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 600,
       "underground": "blocked"
@@ -13638,7 +13638,7 @@
       "credits": true,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 45,
       "underground": "blocked"
@@ -13661,7 +13661,7 @@
       "credits": true,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 600,
       "underground": "blocked"
@@ -13684,7 +13684,7 @@
       "credits": true,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 600,
       "underground": "blocked"
@@ -13708,7 +13708,7 @@
       "credits": true,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 60,
       "underground": "blocked"
@@ -13731,7 +13731,7 @@
       "credits": true,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 600,
       "underground": "blocked"
@@ -13755,7 +13755,7 @@
       "credits": true,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 80,
       "underground": "blocked"
@@ -13778,7 +13778,7 @@
       "credits": true,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 600,
       "underground": "blocked"
@@ -13801,7 +13801,7 @@
       "credits": true,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "shelling",
       "shots": 200,
       "underground": "blocked"
@@ -13825,7 +13825,7 @@
       "credits": true,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "strikeType": "rog",
       "underground": "blocked"
     },
@@ -13848,7 +13848,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon595",
@@ -13868,7 +13868,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 8
     },
     {
@@ -13889,7 +13889,7 @@
       "reload": 240,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon597",
@@ -13910,7 +13910,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon598",
@@ -13930,7 +13930,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 8
     },
     {
@@ -13952,7 +13952,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon600",
@@ -13972,7 +13972,7 @@
       "reload": 240,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon601",
@@ -13992,7 +13992,7 @@
       "reload": 150,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 8
     },
     {
@@ -14014,7 +14014,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon603",
@@ -14028,7 +14028,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 10,
       "speed": 3,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 900,
       "gravity": 1,
       "interval": 4,
@@ -14056,7 +14056,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon605",
@@ -14070,7 +14070,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 12,
       "speed": 5,
-      "accuracy": 0.88,
+      "accuracy": 0.12,
       "range": 3000,
       "gravity": 1,
       "count": 10,
@@ -14098,7 +14098,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 8
     },
     {
@@ -14113,7 +14113,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 30,
       "speed": 3,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 900,
       "radius": 3.5,
       "gravity": 1,
@@ -14140,7 +14140,7 @@
       "reload": 240,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon609",
@@ -14160,7 +14160,7 @@
       "interval": 40,
       "reload": 480,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 16
     },
     {
@@ -14175,7 +14175,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 130,
       "speed": 4,
-      "accuracy": 0.925,
+      "accuracy": 0.075,
       "range": 1200,
       "radius": 5.5,
       "gravity": 1,
@@ -14203,7 +14203,7 @@
       "reload": 180,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 40
     },
     {
@@ -14224,7 +14224,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 12
     },
     {
@@ -14245,7 +14245,7 @@
       "reload": 240,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon614",
@@ -14259,7 +14259,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 110,
       "speed": 4,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 800,
       "radius": 3.5,
       "gravity": 1,
@@ -14286,7 +14286,7 @@
       "interval": 60,
       "reload": 420,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 16
     },
     {
@@ -14308,7 +14308,7 @@
       "reload": 120,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon617",
@@ -14328,7 +14328,7 @@
       "reload": 240,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon618",
@@ -14342,7 +14342,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 30,
       "speed": 5,
-      "accuracy": 0.93,
+      "accuracy": 0.07,
       "range": 1000,
       "gravity": 1,
       "interval": 2,
@@ -14370,7 +14370,7 @@
       "reload": 150,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon620",
@@ -14384,7 +14384,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 60,
       "speed": 5,
-      "accuracy": 0.94,
+      "accuracy": 0.06,
       "range": 750,
       "gravity": 1,
       "count": 6,
@@ -14413,7 +14413,7 @@
       "reload": 360,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon622",
@@ -14433,7 +14433,7 @@
       "reload": 100,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 12
     },
     {
@@ -14454,7 +14454,7 @@
       "reload": 240,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon624",
@@ -14475,7 +14475,7 @@
       "reload": 90,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon625",
@@ -14496,7 +14496,7 @@
       "reload": 600,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon626",
@@ -14517,7 +14517,7 @@
       "reload": 220,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon627",
@@ -14538,7 +14538,7 @@
       "reload": 300,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon628",
@@ -14559,7 +14559,7 @@
       "reload": 600,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon629",
@@ -14580,7 +14580,7 @@
       "reload": 240,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon630",
@@ -14601,7 +14601,7 @@
       "reload": 900,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon631",
@@ -14622,7 +14622,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 20
     },
     {
@@ -14644,7 +14644,7 @@
       "reload": 300,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon633",
@@ -14665,7 +14665,7 @@
       "reload": 600,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon634",
@@ -14686,7 +14686,7 @@
       "reload": 180,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon635",
@@ -14707,7 +14707,7 @@
       "reload": 300,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon636",
@@ -14728,7 +14728,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon637",
@@ -14749,7 +14749,7 @@
       "reload": 900,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon638",
@@ -14770,7 +14770,7 @@
       "reload": 180,
       "reloadInit": 1,
       "secondary": 3,
-      "accuracy": 1
+      "accuracy": 0
     },
     {
       "id": "Weapon639",
@@ -14791,7 +14791,7 @@
       "reloadInit": 1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 20
     },
     {
@@ -14812,7 +14812,7 @@
       "interval": 20,
       "reload": 900,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 20
     },
     {
@@ -14833,7 +14833,7 @@
       "interval": 20,
       "reload": 720,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 20
     },
     {
@@ -14854,7 +14854,7 @@
       "interval": 20,
       "reload": 800,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 40
     },
     {
@@ -14875,7 +14875,7 @@
       "interval": 20,
       "reload": 600,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 20
     },
     {
@@ -14896,7 +14896,7 @@
       "interval": 20,
       "reload": 560,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 40
     },
     {
@@ -14917,7 +14917,7 @@
       "interval": 20,
       "reload": 900,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 40
     },
     {
@@ -14938,7 +14938,7 @@
       "interval": 20,
       "reload": 600,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 40
     },
     {
@@ -14959,7 +14959,7 @@
       "interval": 20,
       "reload": 900,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 40
     },
     {
@@ -14980,7 +14980,7 @@
       "interval": 20,
       "reload": 660,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 40
     },
     {
@@ -15001,7 +15001,7 @@
       "interval": 20,
       "reload": 560,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 40
     },
     {
@@ -15022,7 +15022,7 @@
       "interval": 20,
       "reload": 800,
       "reloadInit": 1,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 40
     },
     {
@@ -15043,7 +15043,7 @@
       "reload": 1200,
       "reloadInit": 1,
       "secondary": 2,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 200,
       "shotInterval": 8
     },
@@ -15065,7 +15065,7 @@
       "reload": 1200,
       "reloadInit": 1,
       "secondary": 2,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 400,
       "shotInterval": 4
     },
@@ -15087,7 +15087,7 @@
       "reload": 1200,
       "reloadInit": 1,
       "secondary": 2,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 20,
       "shotInterval": 120
     },
@@ -15110,7 +15110,7 @@
       "reload": 1200,
       "reloadInit": 1,
       "secondary": 2,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 20,
       "shotInterval": 120
     },
@@ -15132,7 +15132,7 @@
       "reload": 1200,
       "reloadInit": 1,
       "secondary": 2,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 400,
       "shotInterval": 4
     },
@@ -15154,7 +15154,7 @@
       "reload": 1200,
       "reloadInit": 1,
       "secondary": 2,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 100,
       "shotInterval": 16
     },
@@ -15177,7 +15177,7 @@
       "reload": 1200,
       "reloadInit": 1,
       "secondary": 2,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 40,
       "shotInterval": 60
     },
@@ -15199,7 +15199,7 @@
       "reload": 1200,
       "reloadInit": 1,
       "secondary": 2,
-      "accuracy": 1,
+      "accuracy": 0,
       "shots": 500,
       "shotInterval": 4
     },
@@ -15215,7 +15215,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 40,
       "speed": 2,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 28800,
       "gravity": 0.10000000149011612,
       "interval": 60,
@@ -15236,7 +15236,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 40,
       "speed": 2,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 28800,
       "gravity": 0.10000000149011612,
       "interval": 60,
@@ -15257,7 +15257,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 40,
       "speed": 2,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 28800,
       "gravity": 0.10000000149011612,
       "interval": 60,
@@ -15278,7 +15278,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 40,
       "speed": 2,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 28800,
       "gravity": 0.10000000149011612,
       "interval": 60,
@@ -15299,7 +15299,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 40,
       "speed": 2,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 28800,
       "gravity": 0.10000000149011612,
       "interval": 60,
@@ -15319,7 +15319,7 @@
       "ammo": 4,
       "weapon": "Weapon_BasicShoot",
       "damage": 300,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 1800,
       "gravity": 1,
       "interval": 30,
@@ -15337,7 +15337,7 @@
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
       "damage": 120,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 5400,
       "gravity": 1,
       "interval": 30,
@@ -15356,7 +15356,7 @@
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
       "damage": 1000,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 1800,
       "gravity": 1,
       "interval": 30,
@@ -15374,7 +15374,7 @@
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
       "damage": 2400,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 1800,
       "gravity": 1,
       "interval": 30,
@@ -15392,7 +15392,7 @@
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
       "damage": 1600,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 5400,
       "gravity": 1,
       "interval": 30,
@@ -15411,7 +15411,7 @@
       "ammo": 5,
       "weapon": "Weapon_BasicShoot",
       "damage": 5000,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 1800,
       "gravity": 1,
       "interval": 30,
@@ -15429,7 +15429,7 @@
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
       "damage": 12000,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 1800,
       "gravity": 1,
       "interval": 30,
@@ -15447,7 +15447,7 @@
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
       "damage": 24000,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 3600,
       "gravity": 1,
       "interval": 30,
@@ -15465,7 +15465,7 @@
       "ammo": 4,
       "weapon": "Weapon_BasicShoot",
       "damage": 4000,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 7200,
       "gravity": 1,
       "interval": 30,
@@ -15484,7 +15484,7 @@
       "ammo": 2,
       "weapon": "Weapon_BasicShoot",
       "damage": 30000,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 1800,
       "gravity": 1,
       "interval": 30,
@@ -15502,7 +15502,7 @@
       "ammo": 5,
       "weapon": "Weapon_BasicShoot",
       "damage": 20000,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 1800,
       "gravity": 1,
       "interval": 30,
@@ -15520,7 +15520,7 @@
       "ammo": 2,
       "weapon": "Weapon_BasicShoot",
       "damage": 60000,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 1800,
       "gravity": 1,
       "interval": 30,
@@ -15538,7 +15538,7 @@
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
       "damage": 16000,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 5400,
       "gravity": 1,
       "interval": 30,
@@ -15557,7 +15557,7 @@
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
       "damage": 100000,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 1800,
       "gravity": 1,
       "interval": 30,
@@ -15575,7 +15575,7 @@
       "ammo": 5,
       "weapon": "Weapon_BasicShoot",
       "damage": 30000,
-      "accuracy": 0.995,
+      "accuracy": 0.005,
       "range": 1800,
       "gravity": 1,
       "interval": 30,
@@ -15600,7 +15600,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 3,
       "speed": 1.5,
-      "accuracy": 0.85,
+      "accuracy": 0.15,
       "range": 750,
       "gravity": 2,
       "count": 5,
@@ -15620,7 +15620,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 7,
       "speed": 2,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 1000,
       "gravity": 2,
       "interval": 10,
@@ -15639,7 +15639,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 5,
       "speed": 1.5,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 750,
       "gravity": 2,
       "count": 8,
@@ -15659,7 +15659,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 17,
       "speed": 2,
-      "accuracy": 0.7,
+      "accuracy": 0.3,
       "range": 1500,
       "gravity": 2,
       "count": 24,
@@ -15679,7 +15679,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 10,
       "speed": 1.8,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 875,
       "gravity": 2,
       "count": 12,
@@ -15699,7 +15699,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 50,
       "speed": 3,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 1500,
       "gravity": 2,
       "interval": 10,
@@ -15718,7 +15718,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 26,
       "speed": 1.5,
-      "accuracy": 0.85,
+      "accuracy": 0.15,
       "range": 750,
       "gravity": 2,
       "count": 12,
@@ -15738,7 +15738,7 @@
       "weapon": "Weapon_BasicShoot",
       "damage": 40,
       "speed": 3,
-      "accuracy": 0.95,
+      "accuracy": 0.05,
       "range": 1500,
       "gravity": 2,
       "count": 16,

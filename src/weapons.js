@@ -41,6 +41,7 @@ function writeState() {
 }
 
 function pickGame(game) {
+  const gameChanged = active.g != game
   const button = document
     .querySelector('#game-button')
   button.classList.remove(...button.classList)
@@ -63,6 +64,10 @@ function pickGame(game) {
     g: game,
     gameEl: item,
   })
+
+  if(gameChanged) {
+    loadWeapons(game)
+  }
 }
 
 function pickMode(mode) {
@@ -182,6 +187,16 @@ function pickCategory(ch, cat) {
 
 function populateModes() {
   const modeMenu = document.querySelector('#mode-dropdown')
+  modeMenu.innerHTML = ''
+  const label = 'Stats'
+  const item = $('a')
+  item.classList.add('stats')
+  boldify(item, label, 4)
+  modeMenu.appendChild(item)
+  item.addEventListener('click', () => {
+    pickMode('stats')
+    writeState()
+  })
   for(const mode of modes) {
     const mLabel = mode.name
     const id = mode.name.toLowerCase()
@@ -286,6 +301,18 @@ function populateWeaponDrops(mode, ch, cat) {
   weaponTable.appendChild(tbody)
 }
 
+const scaledProps = [
+  'ammo',
+  'damage',
+  'count',
+  'radius',
+  'interval',
+  'reload',
+  'accuracy',
+  'speed',
+  'burstRate',
+  'lockRange',
+]
 function populateWeaponStats(ch, cat) {
   const extra = document.getElementById('extra')
   const weaponTable = document.getElementById('weapons-table')
@@ -293,6 +320,13 @@ function populateWeaponStats(ch, cat) {
   const weapons = table
     .filter(t => t.character === ch && t.category === cat)
     .flatMap(w => [w, ...(w.weapons || []), ...(w.attacks || [])])
+    .map(w => {
+      const obj = { ...w }
+      for(const prop of scaledProps) {
+        obj[prop] = getProp(w, prop)
+      }
+      return obj
+    })
   const thead = $('thead')
   const theadrow = $('tr')
   for(const header of headers) {
@@ -336,6 +370,17 @@ function populateWeaponStats(ch, cat) {
     extra.innerHTML = '*With 0 lock time'
   } else {
     extra.innerHTML = ''
+  }
+}
+
+function getProp(wpn, prop) {
+  const value = wpn[prop]
+  if(value == null) return value
+  if(typeof value === 'number') {
+    return value
+  }
+  if(value?.base != null) {
+    return value.base
   }
 }
 
@@ -732,10 +777,7 @@ const headers = [{
     if(wpn.category == 'missile' && wpn.character === 'winger') {
       return +(FPS / wpn.reload).toFixed(2)
     }
-    if(wpn.ammo < 2 && !wpn.reload) {
-      return 60
-    }
-    if(wpn.ammo < 2) {
+    if(wpn.ammo < 2 && wpn.reload) {
       return '-'
     }
     if(wpn.burst > 1 && wpn.interval > 1) {
@@ -802,28 +844,29 @@ const headers = [{
   cb: wpn => {
     if(!wpn.speed) return '-'
     if(wpn.accuracy == null) return '-'
+    console.log('acc', wpn.accuracy)
     return [
-      [0.9995, 'S++'],
-      [0.9975, 'S+'],
-      [0.99, 'A+'],
-      [0.985, 'A'],
-      [0.98, 'A-'],
-      [0.97, 'B+'],
-      [0.95, 'B'],
-      [0.9, 'B-'],
-      [0.85, 'C+'],
-      [0.8, 'C'],
-      [0.75, 'C-'],
-      [0.7, 'D'],
-      [0.6, 'E'],
+      [0.0005, 'S++'],
+      [0.0025, 'S+'],
+      [0.01, 'A+'],
+      [0.015, 'A'],
+      [0.02, 'A-'],
+      [0.03, 'B+'],
+      [0.05, 'B'],
+      [0.10, 'B-'],
+      [0.15, 'C+'],
+      [0.20, 'C'],
+      [0.25, 'C-'],
+      [0.3, 'D'],
+      [0.4, 'E'],
       [0.5, 'F'],
-      [0.4, 'G'],
-      [0.2, 'I'],
-      [0.0, 'J'],
-      [-0.2, 'K'],
-      [-0.4, 'L'],
-      [-Infinity, 'Z'],
-    ].find(([a]) => a <= wpn.accuracy)[1]
+      [0.6, 'G'],
+      [0.8, 'I'],
+      [1.0, 'J'],
+      [1.2, 'K'],
+      [1.6, 'L'],
+      [Infinity, 'Z'],
+    ].find(([a]) => a >= wpn.accuracy)[1]
   }
 }, {
   iff: (ch, cat, wpn) => {
@@ -865,10 +908,10 @@ const headers = [{
     if(wpn.category === 'missile') {
       return wpn.lockRange
     }
-    if(!wpn.range) {
+    if(!wpn.life || !wpn.speed) {
       return '-'
     }
-    return wpn.range.toFixed(0)
+    return (wpn.speed * wpn.life).toFixed(0)
   },
 }, {
   iff: (ch, cat, wpn) => {
@@ -1198,19 +1241,6 @@ for(let i = 0; i < games.length; i++) {
   gameMenu.appendChild(item)
   item.addEventListener('click', () => {
     pickGame(g)
-    writeState()
-  })
-}
-
-const modeMenu = document.querySelector('#mode-dropdown')
-{
-  const label = 'Stats'
-  const item = $('a')
-  item.classList.add('stats')
-  boldify(item, label, 4)
-  modeMenu.appendChild(item)
-  item.addEventListener('click', () => {
-    pickMode('stats')
     writeState()
   })
 }

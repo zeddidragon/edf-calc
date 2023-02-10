@@ -3,15 +3,6 @@ let active = {}
 let table
 let modes
 
-fetch('src/weapons-41.json')
-  .then(res => res.json())
-  .then(data => {
-    table = data.weapons
-    modes = data.modes
-    populateModes()
-    readState()
-  })
-
 const stateKeys = [
   'g',
   'm',
@@ -25,6 +16,17 @@ function readState() {
     if(!stateKeys.includes(k)) continue
     active[k] = v
   }
+}
+readState()
+
+const cached = {}
+
+async function loadWeapons(game) {
+  const data = await fetch(`src/weapons-${game}.json`).then(res => res.json())
+  table = data.weapons
+  modes = data.modes
+  populateModes()
+  pickGame(active.g || '5')
   pickMode(active.m || 'stats')
   pickChar(active.c || 'ranger', active.w)
   populateWeapons(active.m, active.c, active.w)
@@ -36,6 +38,31 @@ function writeState() {
     .map(k => `${k}=${active[k]}`)
     .join('&')
   populateWeapons(active.m, active.c, active.w)
+}
+
+function pickGame(game) {
+  const button = document
+    .querySelector('#game-button')
+  button.classList.remove(...button.classList)
+  button.classList.add('button')
+  styleButton({
+    button,
+    label: gameLabels[games.indexOf(game)],
+    cls: `edf${game}`,
+    cutPoint: 4,
+  })
+
+  const item = document
+    .querySelector(`#game-dropdown .edf${game}`)
+
+  if(active.gameEl) {
+    active.gameEl.classList.remove('selected')
+  }
+  item.classList.add('selected')
+  Object.assign(active, {
+    g: game,
+    gameEl: item,
+  })
 }
 
 function pickMode(mode) {
@@ -1147,19 +1174,33 @@ const headers = [{
   },
 }]
 
-const characters = [
-  'ranger',
-  'winger',
-  'fencer',
-  'bomber',
+const games = [
+  '41',
+  '5',
 ]
 
-const charLabels = [
-  'Ranger',
-  'Wing Diver',
-  'Fencer',
-  'Air Raider',
+const gameLabels = [
+  'EDF4.1',
+  'EDF5',
 ]
+
+const gameMenu = document.querySelector('#game-dropdown')
+for(let i = 0; i < games.length; i++) {
+  const g = games[i]
+  const gLabel = gameLabels[i]
+  const item = $('a')
+  styleButton({
+    button: item,
+    label: gLabel,
+    cls: `edf${g}`,
+    cutPoint: 4,
+  })
+  gameMenu.appendChild(item)
+  item.addEventListener('click', () => {
+    pickGame(g)
+    writeState()
+  })
+}
 
 const modeMenu = document.querySelector('#mode-dropdown')
 {
@@ -1173,6 +1214,20 @@ const modeMenu = document.querySelector('#mode-dropdown')
     writeState()
   })
 }
+
+const characters = [
+  'ranger',
+  'winger',
+  'fencer',
+  'bomber',
+]
+
+const charLabels = [
+  'Ranger',
+  'Wing Diver',
+  'Fencer',
+  'Air Raider',
+]
 
 const charMenu = document.querySelector('#char-dropdown')
 for(let i = 0; i < characters.length; i++) {
@@ -1294,3 +1349,5 @@ const catLabels = [
   'Helicopters',
   'Power Suits',
 ]
+
+loadWeapons(active.g || '5')

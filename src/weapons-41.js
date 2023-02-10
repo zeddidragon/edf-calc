@@ -39,8 +39,20 @@ function writeState() {
 }
 
 function pickMode(mode) {
+  const button = document
+    .querySelector('#mode-button')
+  button.classList.remove(...button.classList)
+  button.classList.add('button')
+  const m = modes.find(m => m.name.toLowerCase() === mode)
+  styleButton({
+    button,
+    label: m ? m.name : 'Stats',
+    cls: mode,
+    cutPoint: 4,
+  })
+
   const item = document
-    .querySelector(`#mode-tabs .${mode}`)
+    .querySelector(`#mode-dropdown .${mode}`)
 
   if(active.modeEl) {
     active.modeEl.classList.remove('selected')
@@ -52,10 +64,32 @@ function pickMode(mode) {
   })
 }
 
+function styleButton({
+  button,
+  label,
+  cls,
+  cutPoint,
+}) {
+  button.innerHTML = ''
+  boldify(button, label, cutPoint)
+  button.classList.add(cls)
+  return button
+}
+
 function pickChar(ch, cat) {
   const chIdx = characters.indexOf(ch)
+  const button = document
+    .querySelector(`#char-button`)
+  button.classList.remove(...button.classList)
+  button.classList.add('button')
+  styleButton({
+    button,
+    label: charLabels[characters.indexOf(ch)],
+    cls: ch,
+    cutPoint: 3,
+  })
   const item = document
-    .querySelector(`#char-tabs .${ch}`)
+    .querySelector(`#char-dropdown .${ch}`)
 
   if(active.charEl) {
     active.charEl.classList.remove('selected')
@@ -66,10 +100,8 @@ function pickChar(ch, cat) {
     charEl: item,
   })
 
-  const catTabs = document.getElementById('category-tabs')
+  const catTabs = document.getElementById('category-dropdown')
   catTabs.innerHTML = ''
-  const supTabs = document.getElementById('support-tabs')
-  supTabs.innerHTML = ''
   const from = chIdx * 10
   const to = from + 10
   for(let i = from; i < to; i++) {
@@ -87,23 +119,33 @@ function pickChar(ch, cat) {
       pickCategory(ch, cat)
       writeState()
     })
-    if(supports.includes(cat)) {
-      supTabs.appendChild(li)
-    } else {
-      catTabs.appendChild(li)
-    }
+    catTabs.appendChild(li)
   }
 
   pickCategory(ch, cat || categories[from])
 }
 
 function pickCategory(ch, cat) {
-  const item = document
-    .querySelector(`#category-tabs .${cat}, #support-tabs .${cat}`)
-
-  if(active.catEl) {
-    active.catEl.classList.remove('selected')
+  const button = document
+    .querySelector('#category-button')
+  let item = document
+    .querySelector(`#category-dropdown .${cat}`)
+  if(!item) {
+    item = document
+      .querySelector(`#category-dropdown a`)
+    cat = item.classList[0]
   }
+  button.classList.remove(...button.classList)
+  button.classList.add('button')
+  const cutPoint = ['spear', 'hammer'].includes(cat) ? 4 : 2
+  styleButton({
+    button,
+    label: catLabels[categories.indexOf(cat)] || '',
+    cls: cat,
+    cutPoint,
+  })
+
+  active.catEl?.classList.remove('selected')
   item.classList.add('selected')
   Object.assign(active, {
     w: cat,
@@ -112,7 +154,7 @@ function pickCategory(ch, cat) {
 }
 
 function populateModes() {
-  const modeMenu = document.querySelector('#mode-tabs')
+  const modeMenu = document.querySelector('#mode-dropdown')
   for(const mode of modes) {
     const mLabel = mode.name
     const id = mode.name.toLowerCase()
@@ -142,6 +184,9 @@ function missionFor(missions, min, max, v) {
 }
 
 function populateWeaponDrops(mode, ch, cat) {
+  const extra = document.getElementById('extra')
+  extra.textContent = ''
+
   const weaponTable = document.getElementById('weapons-table')
   weaponTable.innerHTML = ''
   const weapons = table
@@ -333,11 +378,17 @@ const headers = [{
   label: 'Lv',
   cb: wpn => {
     const { level } = wpn
+    if(level == null) {
+      return '-'
+    }
     const el = $('div')
     const difficulty = modes[0]
       .difficulties
       .slice(1)
       .find(d => d.drops[1] >= level)
+    if(!difficulty) {
+      return level
+    }
     el.classList.add(difficulty.name)
     el.textContent = level
     return el
@@ -1110,7 +1161,7 @@ const charLabels = [
   'Air Raider',
 ]
 
-const modeMenu = document.querySelector('#mode-tabs')
+const modeMenu = document.querySelector('#mode-dropdown')
 {
   const label = 'Stats'
   const item = $('a')
@@ -1123,13 +1174,17 @@ const modeMenu = document.querySelector('#mode-tabs')
   })
 }
 
-const charMenu = document.querySelector('#char-tabs')
+const charMenu = document.querySelector('#char-dropdown')
 for(let i = 0; i < characters.length; i++) {
   const c = characters[i]
   const cLabel = charLabels[i]
   const item = $('a')
-  item.classList.add(c)
-  boldify(item, cLabel, 3)
+  styleButton({
+    button: item,
+    label: cLabel,
+    cls: c,
+    cutPoint: 3,
+  })
   charMenu.appendChild(item)
   item.addEventListener('click', () => {
     pickChar(c)

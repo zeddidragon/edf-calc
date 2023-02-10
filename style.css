@@ -4,12 +4,42 @@ html {
   font-family: "Helvetica Neue", Meiryo, sans-serif;
 }
 
-menu {
+header {
   display: flex;
+}
+
+.button {
+  color: #4e5d6f;
+  cursor: pointer;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+menu {
+  display: none;
+  background-color: #141414;
+  flex-direction: column;
   list-style-type: none;
   padding: 0;
   margin: 0;
   color: #4e5d6f;
+  position: absolute;
+  width: 12em;
+}
+
+.dropdown {
+  flex: 1;
+  max-width: 8em;
+}
+
+#category-tabs {
+  flex: 2;
+  max-width: 16em;
+}
+
+.dropdown:hover menu {
+  display: flex;
 }
 
 menu a {
@@ -17,9 +47,17 @@ menu a {
   flex: 1;
   white-space: nowrap;
   overflow: hidden;
-  text-align: center;
   padding: 0.5em;
   border-bottom: thick solid transparent;
+}
+
+.selected {
+  display: block;
+  border-bottom: thick solid #edf;
+}
+
+menu:hover a {
+  display: block;
 }
 
 td {
@@ -29,7 +67,7 @@ td {
 }
 
 td.Weight {
-  color: #888;
+  color: #4e5d6f;
 }
 
 .name {
@@ -80,10 +118,6 @@ td.Weight {
 }
 .mech b {
   color: #e8e;
-}
-
-.selected {
-  border-bottom: thick solid #edf;
 }
 
 @media only screen and (max-width: 540px) {

@@ -312,6 +312,8 @@ const scaledProps = [
   'speed',
   'burstRate',
   'lockRange',
+  'lockTime',
+  'energy',
 ]
 function populateWeaponStats(ch, cat) {
   const extra = document.getElementById('extra')
@@ -366,7 +368,7 @@ function populateWeaponStats(ch, cat) {
     extra.innerHTML = '*All ammo combined'
   } else if(cat === 'deploy') {
     extra.innerHTML = '*All sentries combined'
-  } else if(cat === 'missile') {
+  } else if(ch !== 'winger' && cat === 'missile') {
     extra.innerHTML = '*With 0 lock time'
   } else {
     extra.innerHTML = ''
@@ -580,6 +582,7 @@ const headers = [{
   iff: (ch, cat, wpn) => {
     if([
       'guide',
+      'shield',
     ].includes(cat)) {
       return false
     }
@@ -594,7 +597,7 @@ const headers = [{
       return `${wpn.damage}x`
     }
     if(wpn.damage < 1) {
-      return +(wpn.damage).toFixed(2)
+      return +Math.abs(wpn.damage).toFixed(2)
     }
     let dmg = +Math.abs(wpn.damage).toFixed(1)
     if(wpn.count > 1) {
@@ -626,7 +629,7 @@ const headers = [{
       return '-'
     }
     let dmg = +Math.abs(wpn.damage).toFixed(1)
-    return +(dmg * wpn.duration).toFixed(1)
+    return +Math.abs(dmg * wpn.duration).toFixed(1)
   },
 }, {
   iff: (ch, cat, wpn) => {
@@ -844,7 +847,6 @@ const headers = [{
   cb: wpn => {
     if(!wpn.speed) return '-'
     if(wpn.accuracy == null) return '-'
-    console.log('acc', wpn.accuracy)
     return [
       [0.0005, 'S++'],
       [0.0025, 'S+'],
@@ -880,6 +882,9 @@ const headers = [{
   },
   label: 'Enr',
   cb: wpn => {
+    if(!wpn.energy) {
+      return '-'
+    }
     return +wpn.energy.toFixed(1)
   }
 }, {
@@ -994,9 +999,6 @@ const headers = [{
     if(!wpn.damage) {
       return '-'
     }
-    if(!wpn.interval) {
-      return '-'
-    }
     if(wpn.ammo < 2 && !wpn.duration) {
       return '-'
     }
@@ -1019,6 +1021,9 @@ const headers = [{
     if(wpn.duration && !wpn.continous) {
       const bDmg = burstDamage(wpn)
       return +(bDmg * FPS / wpn.duration).toFixed(1)
+    }
+    if(!wpn.interval) {
+      return '-'
     }
     return +quickDps(wpn).toFixed(1)
   },
@@ -1056,11 +1061,11 @@ const headers = [{
       })
     }
     if(wpn.continous) {
-      return +(wpn.damage
+      return +Math.abs((wpn.damage
         * wpn.duration
         * FPS
         / (wpn.interval || 1)
-      ).toFixed(1)
+      )).toFixed(1)
     }
     return '-'
   },
@@ -1117,7 +1122,7 @@ const headers = [{
     ].includes(cat)) {
       return true
     }
-    if(cat === 'missile') {
+    if(ch !== 'winger' && cat === 'missile') {
       return true
     }
     return false

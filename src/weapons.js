@@ -816,9 +816,15 @@ const headers = [{
   }
 }, {
   iff: (ch, cat, wpn) => {
+    if(ch === 'bomber' && [
+      'missile',
+    ].includes(cat)) {
+      return false
+    }
     if([
       'missile',
       'homing',
+      'bike',
       'ground',
       'heli',
       'mech',
@@ -1097,6 +1103,7 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
+      'bike',
       'guide',
       'artillery',
       'planes',

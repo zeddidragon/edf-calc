@@ -18582,10 +18582,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 150,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -18597,7 +18593,9 @@
       "reload": 3500,
       "credits": true,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "hp": 450,
+      "weapons": []
     },
     {
       "id": "aWeapon278",
@@ -18610,10 +18608,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 150,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -18633,7 +18627,9 @@
       },
       "credits": true,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "hp": 330,
+      "weapons": []
     },
     {
       "id": "aWeapon279",
@@ -18646,10 +18642,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 150,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -18669,7 +18661,9 @@
       },
       "credits": true,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "hp": 960,
+      "weapons": []
     },
     {
       "id": "aWeapon280",
@@ -18682,10 +18676,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 2,
       "weapon": "Weapon_BasicShoot",
-      "damage": 150,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -18705,7 +18695,9 @@
       },
       "credits": true,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "hp": 540,
+      "weapons": []
     },
     {
       "id": "aWeapon281",
@@ -18718,10 +18710,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 150,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -18741,7 +18729,9 @@
       },
       "credits": true,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "hp": 1500,
+      "weapons": []
     },
     {
       "id": "aWeapon282",
@@ -18754,10 +18744,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 150,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -18777,7 +18763,9 @@
       },
       "credits": true,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "hp": 3150,
+      "weapons": []
     },
     {
       "id": "aWeapon283",
@@ -18790,10 +18778,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 150,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -18813,7 +18797,9 @@
       },
       "credits": true,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "hp": 3150,
+      "weapons": []
     },
     {
       "id": "aWeapon284",
@@ -18826,10 +18812,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 2,
       "weapon": "Weapon_BasicShoot",
-      "damage": 150,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -18849,7 +18831,9 @@
       },
       "credits": true,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "hp": 4500,
+      "weapons": []
     },
     {
       "id": "aWeapon285",
@@ -18862,10 +18846,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 150,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -18885,7 +18865,9 @@
       },
       "credits": true,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "hp": 6600,
+      "weapons": []
     },
     {
       "id": "DLC_Vehicle_Truk",
@@ -18898,10 +18880,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -18913,7 +18891,9 @@
       "reload": 4000,
       "credits": true,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "hp": 400,
+      "weapons": []
     },
     {
       "id": "DLC_Vehicle_Tank41",
@@ -18926,10 +18906,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -18942,7 +18918,27 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 500,
+      "weapons": [
+        {
+          "name": "Dispersal Howitzer",
+          "type": "GrenadeBullet01",
+          "ammo": 15,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 63,
+          "speed": 3,
+          "accuracy": 0.85,
+          "range": 30,
+          "radius": 6,
+          "gravity": 0.5,
+          "burst": 1,
+          "count": 20,
+          "interval": 180,
+          "lockRange": 500,
+          "lockTime": 30
+        }
+      ]
     },
     {
       "id": "eVehicle_Tank01",
@@ -18955,10 +18951,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -18979,7 +18971,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 500,
+      "weapons": [
+        {
+          "name": "105mm Howitzer",
+          "type": "RocketBullet01",
+          "ammo": 25,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 245,
+          "speed": 3,
+          "accuracy": 0.975,
+          "range": 1800,
+          "radius": 8,
+          "gravity": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 180
+        }
+      ]
     },
     {
       "id": "aWeapon286",
@@ -18992,10 +19002,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -19016,7 +19022,51 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 1200,
+      "weapons": [
+        {
+          "name": "Railgun",
+          "type": "SolidBullet01Rail",
+          "ammo": 25,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 600,
+          "speed": 6,
+          "accuracy": 0.999,
+          "range": 900,
+          "gravity": 0.5,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 180
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 500,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 6,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 140,
+          "burst": 1,
+          "count": 1,
+          "interval": 4
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 500,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 6,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 140,
+          "burst": 1,
+          "count": 1,
+          "interval": 4
+        }
+      ]
     },
     {
       "id": "aWeapon287",
@@ -19029,10 +19079,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -19053,7 +19099,24 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 3900,
+      "weapons": [
+        {
+          "name": "Atomic Ray Cannon",
+          "type": "SolidBullet01",
+          "ammo": 7000,
+          "weapon": "Weapon_VehicleMaser",
+          "damage": 6.5,
+          "speed": 8,
+          "range": 600,
+          "burst": 1000,
+          "burstRate": 1,
+          "count": 1,
+          "interval": 120,
+          "accuracy": 1
+        }
+      ]
     },
     {
       "id": "aWeapon288",
@@ -19066,10 +19129,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -19090,7 +19149,51 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 2040,
+      "weapons": [
+        {
+          "name": "Railgun",
+          "type": "SolidBullet01Rail",
+          "ammo": 25,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 1080,
+          "speed": 6,
+          "accuracy": 0.999,
+          "range": 900,
+          "gravity": 0.5,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 180
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 500,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 10.8,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 140,
+          "burst": 1,
+          "count": 1,
+          "interval": 4
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 500,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 10.8,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 140,
+          "burst": 1,
+          "count": 1,
+          "interval": 4
+        }
+      ]
     },
     {
       "id": "aWeapon289",
@@ -19103,10 +19206,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -19127,7 +19226,51 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 4440,
+      "weapons": [
+        {
+          "name": "Menace Electromagnetic Launcher",
+          "type": "SolidBullet01Rail",
+          "ammo": 25,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 2220,
+          "speed": 10,
+          "accuracy": 0.999,
+          "range": 1500,
+          "gravity": 0.5,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 180
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 500,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 22.2,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 140,
+          "burst": 1,
+          "count": 1,
+          "interval": 4
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 500,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 22.2,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 140,
+          "burst": 1,
+          "count": 1,
+          "interval": 4
+        }
+      ]
     },
     {
       "id": "aWeapon290",
@@ -19140,10 +19283,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -19164,7 +19303,51 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 6360,
+      "weapons": [
+        {
+          "name": "Menace Electromagnetic Launcher",
+          "type": "SolidBullet01Rail",
+          "ammo": 25,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 3180,
+          "speed": 10,
+          "accuracy": 0.999,
+          "range": 1500,
+          "gravity": 0.5,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 180
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 500,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 31.8,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 140,
+          "burst": 1,
+          "count": 1,
+          "interval": 4
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 500,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 31.8,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 140,
+          "burst": 1,
+          "count": 1,
+          "interval": 4
+        }
+      ]
     },
     {
       "id": "aWeapon291",
@@ -19177,10 +19360,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -19201,7 +19380,52 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 10800,
+      "weapons": [
+        {
+          "name": "Menace 4D Burst",
+          "type": "SolidBullet01Rail",
+          "ammo": 45,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 1800,
+          "speed": 10,
+          "accuracy": 0.95,
+          "range": 1500,
+          "gravity": 0.5,
+          "piercing": 1,
+          "burst": 4,
+          "burstRate": 3,
+          "count": 1,
+          "interval": 180
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 500,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 54,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 140,
+          "burst": 1,
+          "count": 1,
+          "interval": 4
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 500,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 54,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 140,
+          "burst": 1,
+          "count": 1,
+          "interval": 4
+        }
+      ]
     },
     {
       "id": "aWeapon292",
@@ -19214,10 +19438,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -19238,7 +19458,24 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 36000,
+      "weapons": [
+        {
+          "name": "Atomic Ray Cannon",
+          "type": "SolidBullet01",
+          "ammo": 7000,
+          "weapon": "Weapon_VehicleMaser",
+          "damage": 60,
+          "speed": 8,
+          "range": 600,
+          "burst": 1000,
+          "burstRate": 1,
+          "count": 1,
+          "interval": 120,
+          "accuracy": 1
+        }
+      ]
     },
     {
       "id": "aWeapon293",
@@ -19251,10 +19488,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -19275,7 +19508,51 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 18000,
+      "weapons": [
+        {
+          "name": "Epsilon Blast",
+          "type": "SolidBullet01Rail",
+          "ammo": 25,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 9000,
+          "speed": 15,
+          "accuracy": 0.999,
+          "range": 2250,
+          "gravity": 0.5,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 180
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 500,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 90,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 140,
+          "burst": 1,
+          "count": 1,
+          "interval": 4
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 500,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 90,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 140,
+          "burst": 1,
+          "count": 1,
+          "interval": 4
+        }
+      ]
     },
     {
       "id": "aWeapon294",
@@ -19288,10 +19565,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -19312,7 +19585,51 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 30000,
+      "weapons": [
+        {
+          "name": "Epsilon Blast",
+          "type": "SolidBullet01Rail",
+          "ammo": 25,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 15000,
+          "speed": 15,
+          "accuracy": 0.999,
+          "range": 2250,
+          "gravity": 0.5,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 180
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 500,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 150,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 140,
+          "burst": 1,
+          "count": 1,
+          "interval": 4
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 500,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 150,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 140,
+          "burst": 1,
+          "count": 1,
+          "interval": 4
+        }
+      ]
     },
     {
       "id": "aWeapon295",
@@ -19325,10 +19642,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -19349,7 +19662,24 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 75000,
+      "weapons": [
+        {
+          "name": "Atomic Ray Cannon",
+          "type": "SolidBullet01",
+          "ammo": 7000,
+          "weapon": "Weapon_VehicleMaser",
+          "damage": 125,
+          "speed": 8,
+          "range": 600,
+          "burst": 1000,
+          "burstRate": 1,
+          "count": 1,
+          "interval": 120,
+          "accuracy": 1
+        }
+      ]
     },
     {
       "id": "aWeapon296",
@@ -19362,10 +19692,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 300,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -19386,7 +19712,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 780,
+      "weapons": []
     },
     {
       "id": "aWeapon297",
@@ -19399,10 +19727,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 300,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -19423,7 +19747,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 510,
+      "weapons": []
     },
     {
       "id": "aWeapon298",
@@ -19436,10 +19762,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1800,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -19460,7 +19782,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 3240,
+      "weapons": []
     },
     {
       "id": "aWeapon299",
@@ -19473,10 +19797,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 300,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -19497,7 +19817,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 1350,
+      "weapons": []
     },
     {
       "id": "aWeapon300",
@@ -19510,10 +19832,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1800,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -19534,7 +19852,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 18000,
+      "weapons": []
     },
     {
       "id": "aWeapon301",
@@ -19547,10 +19867,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 300,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -19571,7 +19887,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 2700,
+      "weapons": []
     },
     {
       "id": "aWeapon302",
@@ -19584,10 +19902,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1800,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -19608,7 +19922,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 21600,
+      "weapons": []
     },
     {
       "id": "aWeapon303",
@@ -19621,10 +19937,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 300,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -19645,7 +19957,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 4800,
+      "weapons": []
     },
     {
       "id": "aWeapon304",
@@ -19658,10 +19972,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1800,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -19682,7 +19992,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 43200,
+      "weapons": []
     },
     {
       "id": "aWeapon305",
@@ -19695,10 +20007,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 300,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -19719,7 +20027,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 7500,
+      "weapons": []
     },
     {
       "id": "pRapier01",
@@ -63183,10 +63493,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63199,7 +63505,76 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 1200,
+      "weapons": [
+        {
+          "name": "Combat Burner",
+          "type": "FlameBullet02",
+          "ammo": 3000,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 3,
+          "speed": 1.4,
+          "accuracy": 0.95,
+          "range": 84,
+          "gravity": -1,
+          "burst": 1,
+          "count": 1,
+          "interval": 2,
+          "piercing": true
+        },
+        {
+          "name": "Combat Burner",
+          "type": "FlameBullet02",
+          "ammo": 3000,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 3,
+          "speed": 1.4,
+          "accuracy": 0.95,
+          "range": 84,
+          "gravity": -1,
+          "burst": 1,
+          "count": 1,
+          "interval": 2,
+          "piercing": true
+        },
+        {
+          "name": "Grenade Pod (Right)",
+          "type": "GrenadeBullet01",
+          "ammo": 40,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 72,
+          "speed": 2,
+          "accuracy": 0.8,
+          "range": 480,
+          "radius": 8,
+          "gravity": 2,
+          "burst": 8,
+          "burstRate": 4,
+          "count": 1,
+          "interval": 420,
+          "lockRange": 500,
+          "lockTime": 30
+        },
+        {
+          "name": "Grenade Pod (Left)",
+          "type": "GrenadeBullet01",
+          "ammo": 40,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 72,
+          "speed": 2,
+          "accuracy": 0.8,
+          "range": 480,
+          "radius": 8,
+          "gravity": 2,
+          "burst": 8,
+          "burstRate": 4,
+          "count": 1,
+          "interval": 420,
+          "lockRange": 500,
+          "lockTime": 30
+        }
+      ]
     },
     {
       "id": "DLC_Vehicle_Begaruta02",
@@ -63212,10 +63587,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63228,7 +63599,36 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 1200,
+      "weapons": [
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 1250,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 14.4,
+          "speed": 4,
+          "accuracy": 0.95,
+          "range": 240,
+          "burst": 1,
+          "count": 1,
+          "interval": 2
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 1250,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 14.4,
+          "speed": 4,
+          "accuracy": 0.95,
+          "range": 240,
+          "burst": 1,
+          "count": 1,
+          "interval": 2
+        }
+      ]
     },
     {
       "id": "eWeapon232",
@@ -63241,10 +63641,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63265,7 +63661,37 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 960,
+      "weapons": [
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 1250,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 14.4,
+          "speed": 4,
+          "accuracy": 0.95,
+          "range": 240,
+          "burst": 1,
+          "count": 1,
+          "interval": 2
+        },
+        {
+          "name": "Rocket Cannon (Left)",
+          "type": "RocketBullet01",
+          "ammo": 20,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 120,
+          "speed": 1,
+          "accuracy": 0.9875,
+          "range": 600,
+          "radius": 5,
+          "burst": 1,
+          "count": 1,
+          "interval": 80
+        }
+      ]
     },
     {
       "id": "eWeapon233",
@@ -63278,10 +63704,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63302,7 +63724,41 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 1380,
+      "weapons": [
+        {
+          "name": "Large Grenade Launcher (Right)",
+          "type": "GrenadeBullet01",
+          "ammo": 40,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 112,
+          "speed": 2,
+          "accuracy": 0.9875,
+          "range": 480,
+          "radius": 12,
+          "gravity": 2,
+          "burst": 1,
+          "count": 1,
+          "interval": 40
+        },
+        {
+          "name": "Explosion (Left)",
+          "type": "GrenadeBullet01",
+          "ammo": 10,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 126,
+          "speed": 4,
+          "accuracy": 0.75,
+          "range": 40,
+          "radius": 8,
+          "gravity": 1,
+          "piercing": 1,
+          "burst": 1,
+          "count": 20,
+          "interval": 120
+        }
+      ]
     },
     {
       "id": "eWeapon234",
@@ -63315,10 +63771,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63339,7 +63791,37 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 1440,
+      "weapons": [
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 1250,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 17.4,
+          "speed": 4,
+          "accuracy": 0.95,
+          "range": 240,
+          "burst": 1,
+          "count": 1,
+          "interval": 2
+        },
+        {
+          "name": "Rocket Cannon (Left)",
+          "type": "RocketBullet01",
+          "ammo": 20,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 145,
+          "speed": 1,
+          "accuracy": 0.9875,
+          "range": 600,
+          "radius": 5,
+          "burst": 1,
+          "count": 1,
+          "interval": 80
+        }
+      ]
     },
     {
       "id": "eWeapon235",
@@ -63352,10 +63834,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63376,7 +63854,68 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 1560,
+      "weapons": [
+        {
+          "name": "Combat Burner",
+          "type": "FlameBullet02",
+          "ammo": 3000,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 3.9,
+          "speed": 1.4,
+          "accuracy": 0.95,
+          "range": 84,
+          "gravity": -1,
+          "burst": 1,
+          "count": 1,
+          "interval": 2,
+          "piercing": true
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 1250,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 18.6,
+          "speed": 4,
+          "accuracy": 0.95,
+          "range": 240,
+          "burst": 1,
+          "count": 1,
+          "interval": 2
+        },
+        {
+          "name": "Canister Shot (Right)",
+          "type": "SolidBullet01",
+          "ammo": 20,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 38.7,
+          "speed": 6,
+          "accuracy": 0.9,
+          "range": 360,
+          "gravity": 2,
+          "piercing": 1,
+          "burst": 1,
+          "count": 10,
+          "interval": 80
+        },
+        {
+          "name": "Canister Shot (Left)",
+          "type": "SolidBullet01",
+          "ammo": 20,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 38.7,
+          "speed": 6,
+          "accuracy": 0.9,
+          "range": 360,
+          "gravity": 2,
+          "piercing": 1,
+          "burst": 1,
+          "count": 10,
+          "interval": 80
+        }
+      ]
     },
     {
       "id": "eWeapon236",
@@ -63389,10 +63928,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63413,7 +63948,76 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 1860,
+      "weapons": [
+        {
+          "name": "Revolver Cannon (Right)",
+          "type": "SolidBullet01",
+          "ammo": 600,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 28.8,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 320,
+          "gravity": 2,
+          "burst": 1,
+          "count": 1,
+          "interval": 5
+        },
+        {
+          "name": "Revolver Cannon (Left)",
+          "type": "SolidBullet01",
+          "ammo": 600,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 28.8,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 320,
+          "gravity": 2,
+          "burst": 1,
+          "count": 1,
+          "interval": 5
+        },
+        {
+          "name": "Missile Pod (Right)",
+          "type": "MissileBullet01",
+          "ammo": 40,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 96,
+          "speed": 0.1,
+          "accuracy": 0.8,
+          "range": 120,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 6,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 420,
+          "lockRange": 500,
+          "lockTime": 30,
+          "lockType": 1
+        },
+        {
+          "name": "Missile Pod (Left)",
+          "type": "MissileBullet01",
+          "ammo": 40,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 96,
+          "speed": 0.1,
+          "accuracy": 0.8,
+          "range": 120,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 6,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 420,
+          "lockRange": 500,
+          "lockTime": 30,
+          "lockType": 1
+        }
+      ]
     },
     {
       "id": "eWeapon237",
@@ -63426,10 +64030,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63450,7 +64050,72 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 2220,
+      "weapons": [
+        {
+          "name": "Heavy Revolver Cannon (Right)",
+          "type": "SolidBullet01",
+          "ammo": 72,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 190,
+          "speed": 6,
+          "accuracy": 0.975,
+          "range": 720,
+          "gravity": 2,
+          "piercing": 1,
+          "burst": 3,
+          "burstRate": 10,
+          "count": 1,
+          "interval": 80
+        },
+        {
+          "name": "Heavy Revolver Cannon (Left)",
+          "type": "SolidBullet01",
+          "ammo": 72,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 190,
+          "speed": 6,
+          "accuracy": 0.975,
+          "range": 720,
+          "gravity": 2,
+          "piercing": 1,
+          "burst": 3,
+          "burstRate": 10,
+          "count": 1,
+          "interval": 80
+        },
+        {
+          "name": "Shoulder Howitzer (Right)",
+          "type": "RocketBullet01",
+          "ammo": 10,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 760,
+          "speed": 10,
+          "accuracy": 0.975,
+          "range": 3000,
+          "radius": 20,
+          "gravity": 2,
+          "burst": 1,
+          "count": 1,
+          "interval": 160
+        },
+        {
+          "name": "Shoulder Howitzer (Left)",
+          "type": "RocketBullet01",
+          "ammo": 10,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 760,
+          "speed": 10,
+          "accuracy": 0.975,
+          "range": 3000,
+          "radius": 20,
+          "gravity": 2,
+          "burst": 1,
+          "count": 1,
+          "interval": 160
+        }
+      ]
     },
     {
       "id": "eWeapon238",
@@ -63463,10 +64128,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63487,7 +64148,57 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 3960,
+      "weapons": [
+        {
+          "name": "Revolver Cannon (Right)",
+          "type": "SolidBullet01",
+          "ammo": 600,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 79.2,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 320,
+          "gravity": 2,
+          "burst": 1,
+          "count": 1,
+          "interval": 5
+        },
+        {
+          "name": "Rocket Cannon (Left)",
+          "type": "RocketBullet01",
+          "ammo": 20,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 330,
+          "speed": 1,
+          "accuracy": 0.9875,
+          "range": 600,
+          "radius": 5,
+          "burst": 1,
+          "count": 1,
+          "interval": 80
+        },
+        {
+          "name": "Missile Pod (Right)",
+          "type": "MissileBullet01",
+          "ammo": 40,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 264,
+          "speed": 0.1,
+          "accuracy": 0.8,
+          "range": 120,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 6,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 420,
+          "lockRange": 500,
+          "lockTime": 30,
+          "lockType": 1
+        }
+      ]
     },
     {
       "id": "eWeapon239",
@@ -63500,10 +64211,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63524,7 +64231,76 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 7440,
+      "weapons": [
+        {
+          "name": "Revolver Cannon (Right)",
+          "type": "SolidBullet01",
+          "ammo": 600,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 103.2,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 320,
+          "gravity": 2,
+          "burst": 1,
+          "count": 1,
+          "interval": 5
+        },
+        {
+          "name": "Revolver Cannon (Left)",
+          "type": "SolidBullet01",
+          "ammo": 600,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 103.2,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 320,
+          "gravity": 2,
+          "burst": 1,
+          "count": 1,
+          "interval": 5
+        },
+        {
+          "name": "Missile Pod (Right)",
+          "type": "MissileBullet01",
+          "ammo": 40,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 344,
+          "speed": 0.1,
+          "accuracy": 0.8,
+          "range": 120,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 6,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 420,
+          "lockRange": 500,
+          "lockTime": 30,
+          "lockType": 1
+        },
+        {
+          "name": "Missile Pod (Left)",
+          "type": "MissileBullet01",
+          "ammo": 40,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 344,
+          "speed": 0.1,
+          "accuracy": 0.8,
+          "range": 120,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 6,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 420,
+          "lockRange": 500,
+          "lockTime": 30,
+          "lockType": 1
+        }
+      ]
     },
     {
       "id": "eWeapon240",
@@ -63537,10 +64313,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63561,7 +64333,57 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 10320,
+      "weapons": [
+        {
+          "name": "Revolver Cannon (Right)",
+          "type": "SolidBullet01",
+          "ammo": 600,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 127.2,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 320,
+          "gravity": 2,
+          "burst": 1,
+          "count": 1,
+          "interval": 5
+        },
+        {
+          "name": "Rocket Cannon (Left)",
+          "type": "RocketBullet01",
+          "ammo": 20,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 530,
+          "speed": 1,
+          "accuracy": 0.9875,
+          "range": 600,
+          "radius": 5,
+          "burst": 1,
+          "count": 1,
+          "interval": 80
+        },
+        {
+          "name": "Missile Pod (Right)",
+          "type": "MissileBullet01",
+          "ammo": 40,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 424,
+          "speed": 0.1,
+          "accuracy": 0.8,
+          "range": 120,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 6,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 420,
+          "lockRange": 500,
+          "lockTime": 30,
+          "lockType": 1
+        }
+      ]
     },
     {
       "id": "eWeapon241",
@@ -63574,10 +64396,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63598,7 +64416,70 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 12360,
+      "weapons": [
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 1250,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 63.6,
+          "speed": 4,
+          "accuracy": 0.95,
+          "range": 240,
+          "burst": 1,
+          "count": 1,
+          "interval": 2
+        },
+        {
+          "name": "Large Grenade Launcher (Right)",
+          "type": "GrenadeBullet01",
+          "ammo": 40,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 424,
+          "speed": 2,
+          "accuracy": 0.9875,
+          "range": 480,
+          "radius": 12,
+          "gravity": 2,
+          "burst": 1,
+          "count": 1,
+          "interval": 40
+        },
+        {
+          "name": "Explosion (Right)",
+          "type": "GrenadeBullet01",
+          "ammo": 10,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 477,
+          "speed": 4,
+          "accuracy": 0.75,
+          "range": 40,
+          "radius": 8,
+          "gravity": 1,
+          "piercing": 1,
+          "burst": 1,
+          "count": 20,
+          "interval": 120
+        },
+        {
+          "name": "Explosion (Left)",
+          "type": "GrenadeBullet01",
+          "ammo": 10,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 477,
+          "speed": 4,
+          "accuracy": 0.75,
+          "range": 40,
+          "radius": 8,
+          "gravity": 1,
+          "piercing": 1,
+          "burst": 1,
+          "count": 20,
+          "interval": 120
+        }
+      ]
     },
     {
       "id": "eWeapon242",
@@ -63611,10 +64492,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63635,7 +64512,70 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 13200,
+      "weapons": [
+        {
+          "name": "Combat Burner",
+          "type": "FlameBullet02",
+          "ammo": 3000,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 15,
+          "speed": 1.4,
+          "accuracy": 0.95,
+          "range": 84,
+          "gravity": -1,
+          "burst": 1,
+          "count": 1,
+          "interval": 2,
+          "piercing": true
+        },
+        {
+          "name": "Combat Burner",
+          "type": "FlameBullet02",
+          "ammo": 3000,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 15,
+          "speed": 1.4,
+          "accuracy": 0.95,
+          "range": 84,
+          "gravity": -1,
+          "burst": 1,
+          "count": 1,
+          "interval": 2,
+          "piercing": true
+        },
+        {
+          "name": "Canister Shot (Right)",
+          "type": "SolidBullet01",
+          "ammo": 20,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 150,
+          "speed": 6,
+          "accuracy": 0.9,
+          "range": 360,
+          "gravity": 2,
+          "piercing": 1,
+          "burst": 1,
+          "count": 10,
+          "interval": 80
+        },
+        {
+          "name": "Canister Shot (Left)",
+          "type": "SolidBullet01",
+          "ammo": 20,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 150,
+          "speed": 6,
+          "accuracy": 0.9,
+          "range": 360,
+          "gravity": 2,
+          "piercing": 1,
+          "burst": 1,
+          "count": 10,
+          "interval": 80
+        }
+      ]
     },
     {
       "id": "eWeapon243",
@@ -63648,10 +64588,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63672,7 +64608,72 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 20160,
+      "weapons": [
+        {
+          "name": "Revolver Rocket Cannon (Right)",
+          "type": "MissileBullet01",
+          "ammo": 80,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 800,
+          "speed": 0.1,
+          "accuracy": 0.95,
+          "range": 120,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 6,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 80
+        },
+        {
+          "name": "Revolver Rocket Cannon (Left)",
+          "type": "MissileBullet01",
+          "ammo": 80,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 800,
+          "speed": 0.1,
+          "accuracy": 0.95,
+          "range": 120,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 6,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 80
+        },
+        {
+          "name": "Dispersal Howitzer (Right)",
+          "type": "RocketBullet01",
+          "ammo": 12,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 400,
+          "speed": 2,
+          "accuracy": 0.8,
+          "range": 2400,
+          "radius": 15,
+          "gravity": 2,
+          "burst": 1,
+          "count": 15,
+          "interval": 240
+        },
+        {
+          "name": "Dispersal Howitzer (Left)",
+          "type": "RocketBullet01",
+          "ammo": 12,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 400,
+          "speed": 2,
+          "accuracy": 0.8,
+          "range": 2400,
+          "radius": 15,
+          "gravity": 2,
+          "burst": 1,
+          "count": 15,
+          "interval": 240
+        }
+      ]
     },
     {
       "id": "eWeapon244",
@@ -63685,10 +64686,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63709,7 +64706,73 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 27600,
+      "weapons": [
+        {
+          "name": "Combat Burner",
+          "type": "FlameBullet02",
+          "ammo": 3000,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 25,
+          "speed": 1.4,
+          "accuracy": 0.95,
+          "range": 84,
+          "gravity": -1,
+          "burst": 1,
+          "count": 1,
+          "interval": 2,
+          "piercing": true
+        },
+        {
+          "name": "Revolver Cannon (Right)",
+          "type": "SolidBullet01",
+          "ammo": 600,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 240,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 320,
+          "gravity": 2,
+          "burst": 1,
+          "count": 1,
+          "interval": 5
+        },
+        {
+          "name": "Shoulder Howitzer (Right)",
+          "type": "RocketBullet01",
+          "ammo": 10,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 4000,
+          "speed": 10,
+          "accuracy": 0.975,
+          "range": 3000,
+          "radius": 20,
+          "gravity": 2,
+          "burst": 1,
+          "count": 1,
+          "interval": 160
+        },
+        {
+          "name": "Missile Pod (Left)",
+          "type": "MissileBullet01",
+          "ammo": 40,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 800,
+          "speed": 0.1,
+          "accuracy": 0.8,
+          "range": 120,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 6,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 420,
+          "lockRange": 500,
+          "lockTime": 30,
+          "lockType": 1
+        }
+      ]
     },
     {
       "id": "eWeapon245",
@@ -63722,10 +64785,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63746,7 +64805,76 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 36360,
+      "weapons": [
+        {
+          "name": "New Revolver Cannon (Right)",
+          "type": "SolidBullet01",
+          "ammo": 600,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 288,
+          "speed": 7,
+          "accuracy": 0.97,
+          "range": 322,
+          "gravity": 2,
+          "burst": 1,
+          "count": 1,
+          "interval": 5
+        },
+        {
+          "name": "New Revolver Cannon (Left)",
+          "type": "SolidBullet01",
+          "ammo": 600,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 288,
+          "speed": 7,
+          "accuracy": 0.97,
+          "range": 322,
+          "gravity": 2,
+          "burst": 1,
+          "count": 1,
+          "interval": 5
+        },
+        {
+          "name": "Missile Pod (Right)",
+          "type": "MissileBullet01",
+          "ammo": 40,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 960,
+          "speed": 0.1,
+          "accuracy": 0.8,
+          "range": 120,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 6,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 420,
+          "lockRange": 500,
+          "lockTime": 30,
+          "lockType": 1
+        },
+        {
+          "name": "Missile Pod (Left)",
+          "type": "MissileBullet01",
+          "ammo": 40,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 960,
+          "speed": 0.1,
+          "accuracy": 0.8,
+          "range": 120,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 6,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 420,
+          "lockRange": 500,
+          "lockTime": 30,
+          "lockType": 1
+        }
+      ]
     },
     {
       "id": "eWeapon246",
@@ -63759,10 +64887,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63783,7 +64907,68 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 38400,
+      "weapons": [
+        {
+          "name": "Combat Burner",
+          "type": "FlameBullet02",
+          "ammo": 3000,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 37.5,
+          "speed": 1.4,
+          "accuracy": 0.95,
+          "range": 84,
+          "gravity": -1,
+          "burst": 1,
+          "count": 1,
+          "interval": 2,
+          "piercing": true
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 1250,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 180,
+          "speed": 4,
+          "accuracy": 0.95,
+          "range": 240,
+          "burst": 1,
+          "count": 1,
+          "interval": 2
+        },
+        {
+          "name": "Canister Shot (Right)",
+          "type": "SolidBullet01",
+          "ammo": 20,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 375,
+          "speed": 6,
+          "accuracy": 0.9,
+          "range": 360,
+          "gravity": 2,
+          "piercing": 1,
+          "burst": 1,
+          "count": 10,
+          "interval": 80
+        },
+        {
+          "name": "Canister Shot (Left)",
+          "type": "SolidBullet01",
+          "ammo": 20,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 375,
+          "speed": 6,
+          "accuracy": 0.9,
+          "range": 360,
+          "gravity": 2,
+          "piercing": 1,
+          "burst": 1,
+          "count": 10,
+          "interval": 80
+        }
+      ]
     },
     {
       "id": "eWeapon247",
@@ -63796,10 +64981,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63820,7 +65001,72 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 75600,
+      "weapons": [
+        {
+          "name": "Revolver Rocket Cannon (Right)",
+          "type": "MissileBullet01",
+          "ammo": 80,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 2100,
+          "speed": 0.1,
+          "accuracy": 0.95,
+          "range": 120,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 6,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 80
+        },
+        {
+          "name": "Revolver Rocket Cannon (Left)",
+          "type": "MissileBullet01",
+          "ammo": 80,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 2100,
+          "speed": 0.1,
+          "accuracy": 0.95,
+          "range": 120,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 6,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 80
+        },
+        {
+          "name": "Dispersal Howitzer (Right)",
+          "type": "RocketBullet01",
+          "ammo": 12,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 1050,
+          "speed": 2,
+          "accuracy": 0.8,
+          "range": 2400,
+          "radius": 15,
+          "gravity": 2,
+          "burst": 1,
+          "count": 15,
+          "interval": 240
+        },
+        {
+          "name": "Dispersal Howitzer (Left)",
+          "type": "RocketBullet01",
+          "ammo": 12,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 1050,
+          "speed": 2,
+          "accuracy": 0.8,
+          "range": 2400,
+          "radius": 15,
+          "gravity": 2,
+          "burst": 1,
+          "count": 15,
+          "interval": 240
+        }
+      ]
     },
     {
       "id": "eWeapon248",
@@ -63833,10 +65079,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63857,7 +65099,70 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 76800,
+      "weapons": [
+        {
+          "name": "Combat Burner",
+          "type": "FlameBullet02",
+          "ammo": 3000,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 62.5,
+          "speed": 1.4,
+          "accuracy": 0.95,
+          "range": 84,
+          "gravity": -1,
+          "burst": 1,
+          "count": 1,
+          "interval": 2,
+          "piercing": true
+        },
+        {
+          "name": "Combat Burner",
+          "type": "FlameBullet02",
+          "ammo": 3000,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 62.5,
+          "speed": 1.4,
+          "accuracy": 0.95,
+          "range": 84,
+          "gravity": -1,
+          "burst": 1,
+          "count": 1,
+          "interval": 2,
+          "piercing": true
+        },
+        {
+          "name": "Canister Shot (Right)",
+          "type": "SolidBullet01",
+          "ammo": 20,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 625,
+          "speed": 6,
+          "accuracy": 0.9,
+          "range": 360,
+          "gravity": 2,
+          "piercing": 1,
+          "burst": 1,
+          "count": 10,
+          "interval": 80
+        },
+        {
+          "name": "Canister Shot (Left)",
+          "type": "SolidBullet01",
+          "ammo": 20,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 625,
+          "speed": 6,
+          "accuracy": 0.9,
+          "range": 360,
+          "gravity": 2,
+          "piercing": 1,
+          "burst": 1,
+          "count": 10,
+          "interval": 80
+        }
+      ]
     },
     {
       "id": "eWeapon249",
@@ -63870,10 +65175,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63894,7 +65195,72 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 99600,
+      "weapons": [
+        {
+          "name": "Large Grenade Launcher (Right)",
+          "type": "GrenadeBullet01",
+          "ammo": 40,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 2000,
+          "speed": 2,
+          "accuracy": 0.9875,
+          "range": 480,
+          "radius": 12,
+          "gravity": 2,
+          "burst": 1,
+          "count": 1,
+          "interval": 40
+        },
+        {
+          "name": "Large Grenade Launcher (Left)",
+          "type": "GrenadeBullet01",
+          "ammo": 40,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 2000,
+          "speed": 2,
+          "accuracy": 0.9875,
+          "range": 480,
+          "radius": 12,
+          "gravity": 2,
+          "burst": 1,
+          "count": 1,
+          "interval": 40
+        },
+        {
+          "name": "Explosion (Right)",
+          "type": "GrenadeBullet01",
+          "ammo": 10,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 2250,
+          "speed": 4,
+          "accuracy": 0.75,
+          "range": 40,
+          "radius": 8,
+          "gravity": 1,
+          "piercing": 1,
+          "burst": 1,
+          "count": 20,
+          "interval": 120
+        },
+        {
+          "name": "Explosion (Left)",
+          "type": "GrenadeBullet01",
+          "ammo": 10,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 2250,
+          "speed": 4,
+          "accuracy": 0.75,
+          "range": 40,
+          "radius": 8,
+          "gravity": 1,
+          "piercing": 1,
+          "burst": 1,
+          "count": 20,
+          "interval": 120
+        }
+      ]
     },
     {
       "id": "eWeapon250",
@@ -63907,10 +65273,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63931,7 +65293,73 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 104400,
+      "weapons": [
+        {
+          "name": "Combat Burner",
+          "type": "FlameBullet02",
+          "ammo": 3000,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 62.5,
+          "speed": 1.4,
+          "accuracy": 0.95,
+          "range": 84,
+          "gravity": -1,
+          "burst": 1,
+          "count": 1,
+          "interval": 2,
+          "piercing": true
+        },
+        {
+          "name": "Revolver Cannon (Right)",
+          "type": "SolidBullet01",
+          "ammo": 600,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 600,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 320,
+          "gravity": 2,
+          "burst": 1,
+          "count": 1,
+          "interval": 5
+        },
+        {
+          "name": "Shoulder Howitzer S (Right)",
+          "type": "RocketBullet01",
+          "ammo": 10,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 10000,
+          "speed": 15,
+          "accuracy": 0.975,
+          "range": 4500,
+          "radius": 20,
+          "gravity": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 160
+        },
+        {
+          "name": "Missile Pod (Left)",
+          "type": "MissileBullet01",
+          "ammo": 40,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 2000,
+          "speed": 0.1,
+          "accuracy": 0.8,
+          "range": 120,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 6,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 420,
+          "lockRange": 500,
+          "lockTime": 30,
+          "lockType": 1
+        }
+      ]
     },
     {
       "id": "GroundRobo01",
@@ -63944,10 +65372,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -63967,7 +65391,55 @@
       },
       "credits": true,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "hp": 1000,
+      "weapons": [
+        {
+          "name": "FK200 Gatling Gun",
+          "type": "SolidBullet01",
+          "ammo": 1600,
+          "weapon": "Weapon_Gatling",
+          "damage": 10,
+          "speed": 4,
+          "accuracy": 0.925,
+          "range": 120,
+          "burst": 1,
+          "count": 1,
+          "interval": 3
+        },
+        {
+          "name": "Compact Cannon (Left)",
+          "type": "SolidBullet01",
+          "ammo": 120,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 40,
+          "speed": 6,
+          "accuracy": 0.975,
+          "range": 240,
+          "gravity": 1,
+          "piercing": 1,
+          "burst": 1,
+          "burstRate": 10,
+          "count": 1,
+          "interval": 60
+        },
+        {
+          "name": "Compact Cannon (Right)",
+          "type": "SolidBullet01",
+          "ammo": 120,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 40,
+          "speed": 6,
+          "accuracy": 0.975,
+          "range": 240,
+          "gravity": 1,
+          "piercing": 1,
+          "burst": 1,
+          "burstRate": 10,
+          "count": 1,
+          "interval": 60
+        }
+      ]
     },
     {
       "id": "eWeapon251",
@@ -63980,10 +65452,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64003,7 +65471,49 @@
       },
       "credits": true,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "hp": 1200,
+      "weapons": [
+        {
+          "name": "FK200 Gatling Gun",
+          "type": "SolidBullet01",
+          "ammo": 1600,
+          "weapon": "Weapon_Gatling",
+          "damage": 13,
+          "speed": 4,
+          "accuracy": 0.925,
+          "range": 120,
+          "burst": 1,
+          "count": 1,
+          "interval": 3
+        },
+        {
+          "name": "Incinerator (Left)",
+          "type": "FlameBullet02",
+          "ammo": 900,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 1,
+          "speed": 1.4,
+          "range": 42,
+          "burst": 1,
+          "count": 1,
+          "accuracy": 1,
+          "piercing": true
+        },
+        {
+          "name": "Incinerator (Right)",
+          "type": "FlameBullet02",
+          "ammo": 900,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 1,
+          "speed": 1.4,
+          "range": 42,
+          "burst": 1,
+          "count": 1,
+          "accuracy": 1,
+          "piercing": true
+        }
+      ]
     },
     {
       "id": "eWeapon252",
@@ -64016,10 +65526,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64039,7 +65545,54 @@
       },
       "credits": true,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "hp": 1850,
+      "weapons": [
+        {
+          "name": "FK200 Gatling Gun",
+          "type": "SolidBullet01",
+          "ammo": 1600,
+          "weapon": "Weapon_Gatling",
+          "damage": 18.5,
+          "speed": 4,
+          "accuracy": 0.925,
+          "range": 120,
+          "burst": 1,
+          "count": 1,
+          "interval": 3
+        },
+        {
+          "name": "Sniper Cannon (Left)",
+          "type": "SolidBullet01",
+          "ammo": 25,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 222,
+          "speed": 12,
+          "accuracy": 0.999,
+          "range": 720,
+          "gravity": 1,
+          "piercing": 1,
+          "burst": 1,
+          "burstRate": 10,
+          "count": 1,
+          "interval": 120
+        },
+        {
+          "name": "Heavy Shotgun (Right)",
+          "type": "SolidBullet01",
+          "ammo": 45,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 7.4,
+          "speed": 6,
+          "accuracy": 0.8,
+          "range": 360,
+          "gravity": 1,
+          "burst": 1,
+          "burstRate": 10,
+          "count": 40,
+          "interval": 50
+        }
+      ]
     },
     {
       "id": "eWeapon253",
@@ -64052,10 +65605,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64075,7 +65624,55 @@
       },
       "credits": true,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "hp": 3700,
+      "weapons": [
+        {
+          "name": "FK200 Gatling Gun",
+          "type": "SolidBullet01",
+          "ammo": 1600,
+          "weapon": "Weapon_Gatling",
+          "damage": 37,
+          "speed": 4,
+          "accuracy": 0.925,
+          "range": 120,
+          "burst": 1,
+          "count": 1,
+          "interval": 3
+        },
+        {
+          "name": "Burst Cannon (Left)",
+          "type": "SolidBullet01",
+          "ammo": 120,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 111,
+          "speed": 6,
+          "accuracy": 0.975,
+          "range": 240,
+          "gravity": 1,
+          "piercing": 1,
+          "burst": 3,
+          "burstRate": 10,
+          "count": 1,
+          "interval": 80
+        },
+        {
+          "name": "Burst Cannon (Right)",
+          "type": "SolidBullet01",
+          "ammo": 120,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 111,
+          "speed": 6,
+          "accuracy": 0.975,
+          "range": 240,
+          "gravity": 1,
+          "piercing": 1,
+          "burst": 3,
+          "burstRate": 10,
+          "count": 1,
+          "interval": 80
+        }
+      ]
     },
     {
       "id": "eWeapon254",
@@ -64088,10 +65685,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64111,7 +65704,57 @@
       },
       "credits": true,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "hp": 5000,
+      "weapons": [
+        {
+          "name": "FK200 Gatling Gun",
+          "type": "SolidBullet01",
+          "ammo": 1600,
+          "weapon": "Weapon_Gatling",
+          "damage": 50,
+          "speed": 4,
+          "accuracy": 0.925,
+          "range": 120,
+          "burst": 1,
+          "count": 1,
+          "interval": 3
+        },
+        {
+          "name": "Rapid Bazooka (Left)",
+          "type": "MissileBullet01",
+          "ammo": 320,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 50,
+          "speed": 0.1,
+          "range": 48,
+          "radius": 4,
+          "gravity": 0.75,
+          "burst": 1,
+          "count": 1,
+          "interval": 10,
+          "lockRange": 300,
+          "lockTime": 4,
+          "accuracy": 1
+        },
+        {
+          "name": "Rapid Bazooka (Right)",
+          "type": "MissileBullet01",
+          "ammo": 320,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 50,
+          "speed": 0.1,
+          "range": 48,
+          "radius": 4,
+          "gravity": 0.75,
+          "burst": 1,
+          "count": 1,
+          "interval": 10,
+          "lockRange": 300,
+          "lockTime": 4,
+          "accuracy": 1
+        }
+      ]
     },
     {
       "id": "eWeapon255",
@@ -64124,10 +65767,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64147,7 +65786,51 @@
       },
       "credits": true,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "hp": 8000,
+      "weapons": [
+        {
+          "name": "FK200 Gatling Gun",
+          "type": "SolidBullet01",
+          "ammo": 1600,
+          "weapon": "Weapon_Gatling",
+          "damage": 80,
+          "speed": 4,
+          "accuracy": 0.925,
+          "range": 120,
+          "burst": 1,
+          "count": 1,
+          "interval": 3
+        },
+        {
+          "name": "Incinerator (Left)",
+          "type": "FlameBullet02",
+          "ammo": 900,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 6.4,
+          "speed": 1.4,
+          "range": 42,
+          "burst": 1,
+          "count": 1,
+          "accuracy": 1,
+          "piercing": true
+        },
+        {
+          "name": "Heavy Shotgun (Right)",
+          "type": "SolidBullet01",
+          "ammo": 45,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 32,
+          "speed": 6,
+          "accuracy": 0.8,
+          "range": 360,
+          "gravity": 1,
+          "burst": 1,
+          "burstRate": 10,
+          "count": 40,
+          "interval": 50
+        }
+      ]
     },
     {
       "id": "eWeapon256",
@@ -64160,10 +65843,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64183,7 +65862,55 @@
       },
       "credits": true,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "hp": 14000,
+      "weapons": [
+        {
+          "name": "FK200 Gatling Gun",
+          "type": "SolidBullet01",
+          "ammo": 1600,
+          "weapon": "Weapon_Gatling",
+          "damage": 140,
+          "speed": 4,
+          "accuracy": 0.925,
+          "range": 120,
+          "burst": 1,
+          "count": 1,
+          "interval": 3
+        },
+        {
+          "name": "Sniper Cannon (Left)",
+          "type": "SolidBullet01",
+          "ammo": 25,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 1680,
+          "speed": 12,
+          "accuracy": 0.999,
+          "range": 720,
+          "gravity": 1,
+          "piercing": 1,
+          "burst": 1,
+          "burstRate": 10,
+          "count": 1,
+          "interval": 120
+        },
+        {
+          "name": "Sniper Cannon (Right)",
+          "type": "SolidBullet01",
+          "ammo": 25,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 1680,
+          "speed": 12,
+          "accuracy": 0.999,
+          "range": 720,
+          "gravity": 1,
+          "piercing": 1,
+          "burst": 1,
+          "burstRate": 10,
+          "count": 1,
+          "interval": 120
+        }
+      ]
     },
     {
       "id": "eWeapon257",
@@ -64196,10 +65923,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64219,7 +65942,55 @@
       },
       "credits": true,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "hp": 15000,
+      "weapons": [
+        {
+          "name": "FK200 Gatling Gun",
+          "type": "SolidBullet01",
+          "ammo": 1600,
+          "weapon": "Weapon_Gatling",
+          "damage": 250,
+          "speed": 4,
+          "accuracy": 0.925,
+          "range": 120,
+          "burst": 1,
+          "count": 1,
+          "interval": 3
+        },
+        {
+          "name": "Burst Cannon (Left)",
+          "type": "SolidBullet01",
+          "ammo": 120,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 750,
+          "speed": 6,
+          "accuracy": 0.975,
+          "range": 240,
+          "gravity": 1,
+          "piercing": 1,
+          "burst": 3,
+          "burstRate": 10,
+          "count": 1,
+          "interval": 80
+        },
+        {
+          "name": "Burst Cannon (Right)",
+          "type": "SolidBullet01",
+          "ammo": 120,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 750,
+          "speed": 6,
+          "accuracy": 0.975,
+          "range": 240,
+          "gravity": 1,
+          "piercing": 1,
+          "burst": 3,
+          "burstRate": 10,
+          "count": 1,
+          "interval": 80
+        }
+      ]
     },
     {
       "id": "eWeapon258",
@@ -64232,10 +66003,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64255,7 +66022,57 @@
       },
       "credits": true,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "hp": 15000,
+      "weapons": [
+        {
+          "name": "FK200 Gatling Gun",
+          "type": "SolidBullet01",
+          "ammo": 1600,
+          "weapon": "Weapon_Gatling",
+          "damage": 250,
+          "speed": 4,
+          "accuracy": 0.925,
+          "range": 120,
+          "burst": 1,
+          "count": 1,
+          "interval": 3
+        },
+        {
+          "name": "Rapid Bazooka (Left)",
+          "type": "MissileBullet01",
+          "ammo": 320,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 250,
+          "speed": 0.1,
+          "range": 48,
+          "radius": 4,
+          "gravity": 0.75,
+          "burst": 1,
+          "count": 1,
+          "interval": 10,
+          "lockRange": 300,
+          "lockTime": 4,
+          "accuracy": 1
+        },
+        {
+          "name": "Rapid Bazooka (Right)",
+          "type": "MissileBullet01",
+          "ammo": 320,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 250,
+          "speed": 0.1,
+          "range": 48,
+          "radius": 4,
+          "gravity": 0.75,
+          "burst": 1,
+          "count": 1,
+          "interval": 10,
+          "lockRange": 300,
+          "lockTime": 4,
+          "accuracy": 1
+        }
+      ]
     },
     {
       "id": "eWeapon259",
@@ -64268,10 +66085,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 7500,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64292,7 +66105,57 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 24750,
+      "weapons": [
+        {
+          "name": "Buster Cannon",
+          "type": "RocketBullet01",
+          "ammo": 200,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 396,
+          "speed": 4,
+          "accuracy": 0.99,
+          "range": 2400,
+          "radius": 10,
+          "burst": 1,
+          "count": 1,
+          "interval": 20
+        },
+        {
+          "name": "Buster Cannon",
+          "type": "RocketBullet01",
+          "ammo": 200,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 396,
+          "speed": 4,
+          "accuracy": 0.99,
+          "range": 2400,
+          "radius": 10,
+          "burst": 1,
+          "count": 1,
+          "interval": 20
+        },
+        {
+          "name": "Missiles",
+          "type": "MissileBullet01",
+          "ammo": 200,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 165,
+          "speed": 2,
+          "accuracy": 0.9,
+          "range": 2400,
+          "radius": 5,
+          "gravity": 1,
+          "burst": 30,
+          "burstRate": 5,
+          "count": 1,
+          "interval": 240,
+          "lockRange": 600,
+          "lockTime": 5,
+          "lockType": 1
+        }
+      ]
     },
     {
       "id": "eWeapon260",
@@ -64305,10 +66168,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 50000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64329,7 +66188,40 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 125000,
+      "weapons": [
+        {
+          "name": "Gun Turret",
+          "type": "SolidBullet01",
+          "ammo": 400,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 20,
+          "speed": 6,
+          "accuracy": 0.975,
+          "range": 720,
+          "piercing": 1,
+          "burst": 50,
+          "burstRate": 3,
+          "count": 1,
+          "interval": 240
+        },
+        {
+          "name": "Gun Turret",
+          "type": "SolidBullet01",
+          "ammo": 400,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 20,
+          "speed": 6,
+          "accuracy": 0.975,
+          "range": 720,
+          "piercing": 1,
+          "burst": 50,
+          "burstRate": 3,
+          "count": 1,
+          "interval": 240
+        }
+      ]
     },
     {
       "id": "eWeapon261",
@@ -64342,10 +66234,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 7500,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64366,7 +66254,57 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 60000,
+      "weapons": [
+        {
+          "name": "Buster Cannon",
+          "type": "RocketBullet01",
+          "ammo": 200,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 960,
+          "speed": 4,
+          "accuracy": 0.99,
+          "range": 2400,
+          "radius": 10,
+          "burst": 1,
+          "count": 1,
+          "interval": 20
+        },
+        {
+          "name": "Buster Cannon",
+          "type": "RocketBullet01",
+          "ammo": 200,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 960,
+          "speed": 4,
+          "accuracy": 0.99,
+          "range": 2400,
+          "radius": 10,
+          "burst": 1,
+          "count": 1,
+          "interval": 20
+        },
+        {
+          "name": "Missiles",
+          "type": "MissileBullet01",
+          "ammo": 200,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 400,
+          "speed": 2,
+          "accuracy": 0.9,
+          "range": 2400,
+          "radius": 5,
+          "gravity": 1,
+          "burst": 30,
+          "burstRate": 5,
+          "count": 1,
+          "interval": 240,
+          "lockRange": 600,
+          "lockTime": 5,
+          "lockType": 1
+        }
+      ]
     },
     {
       "id": "eWeapon262",
@@ -64379,10 +66317,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 50000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64403,7 +66337,38 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 225000,
+      "weapons": [
+        {
+          "name": "Laser Turret",
+          "type": "LaserBullet01",
+          "ammo": 1200,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 18,
+          "speed": 60,
+          "range": 480,
+          "burst": 300,
+          "burstRate": 1,
+          "count": 1,
+          "interval": 1,
+          "accuracy": 1
+        },
+        {
+          "name": "Laser Turret",
+          "type": "LaserBullet01",
+          "ammo": 1200,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 18,
+          "speed": 60,
+          "range": 480,
+          "burst": 300,
+          "burstRate": 1,
+          "count": 1,
+          "interval": 1,
+          "accuracy": 1
+        }
+      ]
     },
     {
       "id": "eWeapon263",
@@ -64416,10 +66381,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 7500,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64440,7 +66401,57 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 165000,
+      "weapons": [
+        {
+          "name": "Buster Cannon",
+          "type": "RocketBullet01",
+          "ammo": 200,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 2640,
+          "speed": 4,
+          "accuracy": 0.99,
+          "range": 2400,
+          "radius": 10,
+          "burst": 1,
+          "count": 1,
+          "interval": 20
+        },
+        {
+          "name": "Buster Cannon",
+          "type": "RocketBullet01",
+          "ammo": 200,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 2640,
+          "speed": 4,
+          "accuracy": 0.99,
+          "range": 2400,
+          "radius": 10,
+          "burst": 1,
+          "count": 1,
+          "interval": 20
+        },
+        {
+          "name": "Missiles",
+          "type": "MissileBullet01",
+          "ammo": 200,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 1100,
+          "speed": 2,
+          "accuracy": 0.9,
+          "range": 2400,
+          "radius": 5,
+          "gravity": 1,
+          "burst": 30,
+          "burstRate": 5,
+          "count": 1,
+          "interval": 240,
+          "lockRange": 600,
+          "lockTime": 5,
+          "lockType": 1
+        }
+      ]
     },
     {
       "id": "eWeapon264",
@@ -64453,10 +66464,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 50000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64477,7 +66484,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 625000,
+      "weapons": []
     },
     {
       "id": "eWeapon265",
@@ -64490,10 +66499,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 600,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64514,7 +66519,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 780,
+      "weapons": []
     },
     {
       "id": "eWeapon266",
@@ -64527,10 +66534,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 600,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64551,7 +66554,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 1620,
+      "weapons": []
     },
     {
       "id": "eWeapon267",
@@ -64564,10 +66569,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 600,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64588,7 +66589,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 3000,
+      "weapons": []
     },
     {
       "id": "eWeapon268",
@@ -64601,10 +66604,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 600,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64625,7 +66624,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 8400,
+      "weapons": []
     },
     {
       "id": "eWeapon269",
@@ -64638,10 +66639,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 600,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64662,7 +66659,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 13200,
+      "weapons": []
     },
     {
       "id": "eWeapon270",
@@ -64675,10 +66674,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 600,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64699,7 +66694,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 15000,
+      "weapons": []
     },
     {
       "id": "DLC_Vehicle_RescueTank",
@@ -64712,10 +66709,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1500,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64728,7 +66721,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 3300,
+      "weapons": []
     },
     {
       "id": "eVehicle_Striker01",
@@ -64741,10 +66736,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 650,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64765,7 +66756,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 715,
+      "weapons": [
+        {
+          "name": "Howitzer",
+          "type": "RocketBullet01",
+          "ammo": 240,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 35.2,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 600,
+          "radius": 5,
+          "gravity": 0.5,
+          "burst": 1,
+          "count": 1,
+          "interval": 20
+        }
+      ]
     },
     {
       "id": "eWeapon271",
@@ -64778,10 +66787,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1500,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64802,7 +66807,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 1950,
+      "weapons": []
     },
     {
       "id": "eWeapon272",
@@ -64815,10 +66822,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 300,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64839,7 +66842,29 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 420,
+      "weapons": [
+        {
+          "name": "Guided Missile",
+          "type": "MissileBullet01",
+          "ammo": 100,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 140,
+          "speed": 0.1,
+          "accuracy": 0.975,
+          "range": 240,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 10,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 240,
+          "lockRange": 700,
+          "lockTime": 8,
+          "lockType": 1
+        }
+      ]
     },
     {
       "id": "eWeapon273",
@@ -64852,10 +66877,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 650,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64876,7 +66897,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 942,
+      "weapons": [
+        {
+          "name": "Howitzer",
+          "type": "RocketBullet01",
+          "ammo": 240,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 46.4,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 600,
+          "radius": 5,
+          "gravity": 0.5,
+          "burst": 1,
+          "count": 1,
+          "interval": 20
+        }
+      ]
     },
     {
       "id": "eWeapon274",
@@ -64889,10 +66928,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 650,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64913,7 +66948,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 1170,
+      "weapons": [
+        {
+          "name": "Smooth-Bore Gun",
+          "type": "SolidBullet01",
+          "ammo": 360,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 72,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 600,
+          "gravity": 0.02500000037252903,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 20
+        }
+      ]
     },
     {
       "id": "eWeapon275",
@@ -64926,10 +66979,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1500,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64950,7 +66999,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 2700,
+      "weapons": []
     },
     {
       "id": "eWeapon276",
@@ -64963,10 +67014,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 300,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -64987,7 +67034,29 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 570,
+      "weapons": [
+        {
+          "name": "Convergence Guided Missile Cannon",
+          "type": "MissileBullet02",
+          "ammo": 100,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 76,
+          "speed": 0.1,
+          "accuracy": 0.975,
+          "range": 240,
+          "radius": 1,
+          "gravity": 0.75,
+          "burst": 10,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 240,
+          "lockRange": 700,
+          "lockTime": 8,
+          "lockType": 1
+        }
+      ]
     },
     {
       "id": "eWeapon277",
@@ -65000,10 +67069,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 650,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65024,7 +67089,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 2600,
+      "weapons": [
+        {
+          "name": "Howitzer",
+          "type": "RocketBullet01",
+          "ammo": 240,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 128,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 600,
+          "radius": 5,
+          "gravity": 0.5,
+          "burst": 1,
+          "count": 1,
+          "interval": 20
+        }
+      ]
     },
     {
       "id": "eWeapon278",
@@ -65037,10 +67120,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 650,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65061,7 +67140,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 3120,
+      "weapons": [
+        {
+          "name": "Light Rapid-Fire Gun",
+          "type": "SolidBullet01",
+          "ammo": 800,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 115.2,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 600,
+          "gravity": 0.02500000037252903,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 10
+        }
+      ]
     },
     {
       "id": "eWeapon279",
@@ -65074,10 +67171,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1500,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65098,7 +67191,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 7200,
+      "weapons": []
     },
     {
       "id": "eWeapon280",
@@ -65111,10 +67206,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 300,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65135,7 +67226,29 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 1710,
+      "weapons": [
+        {
+          "name": "Guided Missile",
+          "type": "MissileBullet01",
+          "ammo": 100,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 570,
+          "speed": 0.1,
+          "accuracy": 0.975,
+          "range": 240,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 10,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 240,
+          "lockRange": 700,
+          "lockTime": 8,
+          "lockType": 1
+        }
+      ]
     },
     {
       "id": "eWeapon281",
@@ -65148,10 +67261,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 650,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65172,7 +67281,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 4550,
+      "weapons": [
+        {
+          "name": "Smooth-Bore Gun",
+          "type": "SolidBullet01",
+          "ammo": 360,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 350,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 600,
+          "gravity": 0.02500000037252903,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 20
+        }
+      ]
     },
     {
       "id": "eWeapon282",
@@ -65185,10 +67312,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1500,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65209,7 +67332,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 13500,
+      "weapons": []
     },
     {
       "id": "eWeapon283",
@@ -65222,10 +67347,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 300,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65246,7 +67367,29 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 3900,
+      "weapons": [
+        {
+          "name": "Guided Missile",
+          "type": "MissileBullet01",
+          "ammo": 100,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 1300,
+          "speed": 0.1,
+          "accuracy": 0.975,
+          "range": 240,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 10,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 240,
+          "lockRange": 700,
+          "lockTime": 8,
+          "lockType": 1
+        }
+      ]
     },
     {
       "id": "eWeapon284",
@@ -65259,10 +67402,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 650,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65283,7 +67422,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 7150,
+      "weapons": [
+        {
+          "name": "Howitzer",
+          "type": "RocketBullet01",
+          "ammo": 240,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 618.8,
+          "speed": 6,
+          "accuracy": 0.975,
+          "range": 900,
+          "radius": 8,
+          "gravity": 0.5,
+          "burst": 1,
+          "count": 1,
+          "interval": 16
+        }
+      ]
     },
     {
       "id": "eWeapon285",
@@ -65296,10 +67453,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1500,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65320,7 +67473,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 25500,
+      "weapons": []
     },
     {
       "id": "eWeapon286",
@@ -65333,10 +67488,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1500,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65357,7 +67508,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 33000,
+      "weapons": []
     },
     {
       "id": "eWeapon287",
@@ -65370,10 +67523,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 650,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65394,7 +67543,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 13650,
+      "weapons": [
+        {
+          "name": "Light Rapid-Fire Gun",
+          "type": "SolidBullet01",
+          "ammo": 800,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 630,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 600,
+          "gravity": 0.02500000037252903,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 10
+        }
+      ]
     },
     {
       "id": "eWeapon288",
@@ -65407,10 +67574,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 300,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65431,7 +67594,29 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 6600,
+      "weapons": [
+        {
+          "name": "Convergence Guided Missile Cannon",
+          "type": "MissileBullet02",
+          "ammo": 100,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 880,
+          "speed": 0.1,
+          "accuracy": 0.975,
+          "range": 240,
+          "radius": 1,
+          "gravity": 0.75,
+          "burst": 10,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 240,
+          "lockRange": 700,
+          "lockTime": 8,
+          "lockType": 1
+        }
+      ]
     },
     {
       "id": "DLC_Vehicle_Tank5",
@@ -65444,10 +67629,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65460,7 +67641,27 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 500,
+      "weapons": [
+        {
+          "name": "Timed-Grenade Cannon",
+          "type": "GrenadeBullet01",
+          "ammo": 40,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 56,
+          "speed": 2,
+          "accuracy": 0.975,
+          "range": 30,
+          "radius": 12,
+          "burst": 1,
+          "burstRate": 4,
+          "count": 1,
+          "interval": 60,
+          "lockRange": 500,
+          "lockTime": 30
+        }
+      ]
     },
     {
       "id": "eWeapon289",
@@ -65473,10 +67674,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65497,7 +67694,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 500,
+      "weapons": [
+        {
+          "name": "105mm Howitzer",
+          "type": "RocketBullet01",
+          "ammo": 25,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 245,
+          "speed": 3,
+          "accuracy": 0.975,
+          "range": 1800,
+          "radius": 8,
+          "gravity": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 180
+        }
+      ]
     },
     {
       "id": "eWeapon290",
@@ -65510,10 +67725,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65534,7 +67745,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 1000,
+      "weapons": [
+        {
+          "name": "90mm Smooth-Bore Gun",
+          "type": "SolidBullet01Rail",
+          "ammo": 30,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 437.5,
+          "speed": 9,
+          "accuracy": 0.975,
+          "range": 900,
+          "gravity": 0.10000000149011612,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 150
+        }
+      ]
     },
     {
       "id": "eWeapon291",
@@ -65547,10 +67776,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 4800,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65571,7 +67796,99 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 6240,
+      "weapons": [
+        {
+          "name": "Requiem Cannon",
+          "type": "RocketBullet01",
+          "ammo": 10,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 1162.5,
+          "speed": 8,
+          "accuracy": 0.975,
+          "range": 2400,
+          "radius": 30,
+          "burst": 1,
+          "count": 1,
+          "interval": 300
+        },
+        {
+          "name": "Howitzer",
+          "type": "RocketBullet01",
+          "ammo": 40,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 310,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 2400,
+          "radius": 8,
+          "gravity": 2,
+          "burst": 1,
+          "count": 1,
+          "interval": 80
+        },
+        {
+          "name": "Howitzer",
+          "type": "RocketBullet01",
+          "ammo": 40,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 310,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 2400,
+          "radius": 8,
+          "gravity": 2,
+          "burst": 1,
+          "count": 1,
+          "interval": 80
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 900,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 15.5,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 480,
+          "burst": 1,
+          "count": 1,
+          "interval": 3
+        },
+        {
+          "name": "Grenade Discharger (Left)",
+          "type": "GrenadeBullet01",
+          "ammo": 48,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 186,
+          "speed": 0.5,
+          "accuracy": 0.975,
+          "range": 120,
+          "radius": 18,
+          "gravity": 1,
+          "burst": 8,
+          "burstRate": 2,
+          "count": 1,
+          "interval": 80
+        },
+        {
+          "name": "Grenade Discharger (Right)",
+          "type": "GrenadeBullet01",
+          "ammo": 48,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 186,
+          "speed": 0.5,
+          "accuracy": 0.975,
+          "range": 120,
+          "radius": 18,
+          "gravity": 1,
+          "burst": 8,
+          "burstRate": 2,
+          "count": 1,
+          "interval": 80
+        }
+      ]
     },
     {
       "id": "eWeapon292",
@@ -65584,10 +67901,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65608,7 +67921,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 1550,
+      "weapons": [
+        {
+          "name": "120mm Howitzer",
+          "type": "RocketBullet01",
+          "ammo": 25,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 680,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 2400,
+          "radius": 11,
+          "gravity": 0.5,
+          "burst": 1,
+          "count": 1,
+          "interval": 180
+        }
+      ]
     },
     {
       "id": "eWeapon293",
@@ -65621,10 +67952,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65645,7 +67972,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 1600,
+      "weapons": [
+        {
+          "name": "90mm Smooth-Bore Gun",
+          "type": "SolidBullet01Rail",
+          "ammo": 30,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 595,
+          "speed": 9,
+          "accuracy": 0.975,
+          "range": 900,
+          "gravity": 0.10000000149011612,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 150
+        }
+      ]
     },
     {
       "id": "eWeapon294",
@@ -65658,10 +68003,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65682,7 +68023,24 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 1700,
+      "weapons": [
+        {
+          "name": "Meltgun",
+          "type": "AcidBullet01",
+          "ammo": 160,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 27,
+          "speed": 0.8,
+          "accuracy": 0.925,
+          "range": 225,
+          "gravity": 1,
+          "burst": 1,
+          "count": 8,
+          "interval": 30
+        }
+      ]
     },
     {
       "id": "eWeapon295",
@@ -65695,10 +68053,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65719,7 +68073,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 2000,
+      "weapons": [
+        {
+          "name": "115mm Long-Range Howitzer",
+          "type": "RocketBullet01",
+          "ammo": 25,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 600,
+          "speed": 7,
+          "accuracy": 0.975,
+          "range": 4200,
+          "radius": 11,
+          "gravity": 0.25,
+          "burst": 1,
+          "count": 1,
+          "interval": 180
+        }
+      ]
     },
     {
       "id": "eWeapon296",
@@ -65732,10 +68104,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65756,7 +68124,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 3000,
+      "weapons": [
+        {
+          "name": "120mm Howitzer",
+          "type": "RocketBullet01",
+          "ammo": 25,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 1200,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 2400,
+          "radius": 11,
+          "gravity": 0.5,
+          "burst": 1,
+          "count": 1,
+          "interval": 180
+        }
+      ]
     },
     {
       "id": "eWeapon297",
@@ -65769,10 +68155,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 4800,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65793,7 +68175,105 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 21600,
+      "weapons": [
+        {
+          "name": "Requiem Cannon",
+          "type": "RocketBullet01",
+          "ammo": 10,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 3375,
+          "speed": 8,
+          "accuracy": 0.975,
+          "range": 2400,
+          "radius": 30,
+          "burst": 1,
+          "count": 1,
+          "interval": 300
+        },
+        {
+          "name": "Smooth-Bore Gun",
+          "type": "SolidBullet01Rail",
+          "ammo": 80,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 360,
+          "speed": 6,
+          "accuracy": 0.975,
+          "range": 900,
+          "gravity": 1,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 120
+        },
+        {
+          "name": "Smooth-Bore Gun",
+          "type": "SolidBullet01Rail",
+          "ammo": 80,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 360,
+          "speed": 6,
+          "accuracy": 0.975,
+          "range": 900,
+          "gravity": 1,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 120
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 900,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 45,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 480,
+          "burst": 1,
+          "count": 1,
+          "interval": 3
+        },
+        {
+          "name": "Missile Launcher (Left)",
+          "type": "MissileBullet01",
+          "ammo": 48,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 450,
+          "speed": 0.1,
+          "accuracy": 0.975,
+          "range": 240,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 8,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 720,
+          "lockRange": 500,
+          "lockTime": 16,
+          "lockType": 1
+        },
+        {
+          "name": "Missile Launcher (Right)",
+          "type": "MissileBullet01",
+          "ammo": 48,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 450,
+          "speed": 0.1,
+          "accuracy": 0.975,
+          "range": 240,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 8,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 720,
+          "lockRange": 500,
+          "lockTime": 16,
+          "lockType": 1
+        }
+      ]
     },
     {
       "id": "eWeapon298",
@@ -65806,10 +68286,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65830,7 +68306,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 6200,
+      "weapons": [
+        {
+          "name": "90mm Smooth-Bore Gun",
+          "type": "SolidBullet01Rail",
+          "ammo": 30,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 1960,
+          "speed": 9,
+          "accuracy": 0.975,
+          "range": 900,
+          "gravity": 0.10000000149011612,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 150
+        }
+      ]
     },
     {
       "id": "eWeapon299",
@@ -65843,10 +68337,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65867,7 +68357,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 7000,
+      "weapons": [
+        {
+          "name": "130mm Howitzer",
+          "type": "RocketBullet01",
+          "ammo": 25,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 2800,
+          "speed": 5,
+          "accuracy": 0.975,
+          "range": 3000,
+          "radius": 13,
+          "gravity": 0.5,
+          "burst": 1,
+          "count": 1,
+          "interval": 180
+        }
+      ]
     },
     {
       "id": "eWeapon300",
@@ -65880,10 +68388,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65904,7 +68408,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 8500,
+      "weapons": [
+        {
+          "name": "125mm Long-Range Howitzer",
+          "type": "RocketBullet01",
+          "ammo": 25,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 2550,
+          "speed": 9,
+          "accuracy": 0.975,
+          "range": 5400,
+          "radius": 13,
+          "gravity": 0.25,
+          "burst": 1,
+          "count": 1,
+          "interval": 180
+        }
+      ]
     },
     {
       "id": "eWeapon301",
@@ -65917,10 +68439,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65941,7 +68459,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 13100,
+      "weapons": [
+        {
+          "name": "90mm Smooth-Bore Gun",
+          "type": "SolidBullet01Rail",
+          "ammo": 30,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 3675,
+          "speed": 9,
+          "accuracy": 0.975,
+          "range": 900,
+          "gravity": 0.10000000149011612,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 150
+        }
+      ]
     },
     {
       "id": "eWeapon302",
@@ -65954,10 +68490,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -65978,7 +68510,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 11000,
+      "weapons": [
+        {
+          "name": "130mm Howitzer",
+          "type": "RocketBullet01",
+          "ammo": 25,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 4400,
+          "speed": 5,
+          "accuracy": 0.975,
+          "range": 3000,
+          "radius": 13,
+          "gravity": 0.5,
+          "burst": 1,
+          "count": 1,
+          "interval": 180
+        }
+      ]
     },
     {
       "id": "eWeapon303",
@@ -65991,10 +68541,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -66015,7 +68561,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 16500,
+      "weapons": [
+        {
+          "name": "130mm Howitzer",
+          "type": "RocketBullet01",
+          "ammo": 25,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 6600,
+          "speed": 5,
+          "accuracy": 0.975,
+          "range": 3000,
+          "radius": 13,
+          "gravity": 0.5,
+          "burst": 1,
+          "count": 1,
+          "interval": 180
+        }
+      ]
     },
     {
       "id": "eWeapon304",
@@ -66028,10 +68592,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -66052,7 +68612,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 23000,
+      "weapons": [
+        {
+          "name": "135mm Long-Range Howitzer",
+          "type": "RocketBullet01",
+          "ammo": 25,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 6900,
+          "speed": 11,
+          "accuracy": 0.975,
+          "range": 6600,
+          "radius": 15,
+          "gravity": 0.25,
+          "burst": 1,
+          "count": 1,
+          "interval": 180
+        }
+      ]
     },
     {
       "id": "eWeapon305",
@@ -66065,10 +68643,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 4800,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -66089,7 +68663,105 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 110400,
+      "weapons": [
+        {
+          "name": "Requiem Cannon",
+          "type": "RocketBullet01",
+          "ammo": 10,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 17250,
+          "speed": 8,
+          "accuracy": 0.975,
+          "range": 2400,
+          "radius": 30,
+          "burst": 1,
+          "count": 1,
+          "interval": 300
+        },
+        {
+          "name": "Smooth-Bore Gun",
+          "type": "SolidBullet01Rail",
+          "ammo": 80,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 1840,
+          "speed": 6,
+          "accuracy": 0.975,
+          "range": 900,
+          "gravity": 1,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 120
+        },
+        {
+          "name": "Smooth-Bore Gun",
+          "type": "SolidBullet01Rail",
+          "ammo": 80,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 1840,
+          "speed": 6,
+          "accuracy": 0.975,
+          "range": 900,
+          "gravity": 1,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 120
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 900,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 230,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 480,
+          "burst": 1,
+          "count": 1,
+          "interval": 3
+        },
+        {
+          "name": "Missile Launcher (Left)",
+          "type": "MissileBullet01",
+          "ammo": 48,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 2300,
+          "speed": 0.1,
+          "accuracy": 0.975,
+          "range": 240,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 8,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 720,
+          "lockRange": 500,
+          "lockTime": 16,
+          "lockType": 1
+        },
+        {
+          "name": "Missile Launcher (Right)",
+          "type": "MissileBullet01",
+          "ammo": 48,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 2300,
+          "speed": 0.1,
+          "accuracy": 0.975,
+          "range": 240,
+          "radius": 8,
+          "gravity": 0.75,
+          "burst": 8,
+          "burstRate": 15,
+          "count": 1,
+          "interval": 720,
+          "lockRange": 500,
+          "lockTime": 16,
+          "lockType": 1
+        }
+      ]
     },
     {
       "id": "eWeapon306",
@@ -66102,10 +68774,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -66126,7 +68794,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 32000,
+      "weapons": [
+        {
+          "name": "110mm Smooth-Bore Gun",
+          "type": "SolidBullet01Rail",
+          "ammo": 30,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 8750,
+          "speed": 12,
+          "accuracy": 0.975,
+          "range": 1200,
+          "gravity": 0.10000000149011612,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 150
+        }
+      ]
     },
     {
       "id": "eWeapon307",
@@ -66139,10 +68825,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -66163,7 +68845,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 25000,
+      "weapons": [
+        {
+          "name": "140mm Howitzer",
+          "type": "RocketBullet01",
+          "ammo": 25,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 10000,
+          "speed": 6,
+          "accuracy": 0.975,
+          "range": 3600,
+          "radius": 15,
+          "gravity": 0.5,
+          "burst": 1,
+          "count": 1,
+          "interval": 180
+        }
+      ]
     },
     {
       "id": "EX_A_Weapon001",
@@ -68042,10 +70742,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1500,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -68066,7 +70762,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 45000,
+      "weapons": []
     },
     {
       "id": "EX_A_Weapon032",
@@ -68079,10 +70777,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 4800,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -68103,7 +70797,97 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 120000,
+      "weapons": [
+        {
+          "name": "XE Requiem Cannon",
+          "type": "RocketBullet01",
+          "ammo": 12,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 18750,
+          "speed": 12,
+          "accuracy": 0.975,
+          "range": 3600,
+          "radius": 30,
+          "burst": 1,
+          "count": 1,
+          "interval": 300
+        },
+        {
+          "name": "Melt Streamer",
+          "type": "AcidBullet01",
+          "ammo": 3000,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 100,
+          "speed": 2,
+          "accuracy": 0.96,
+          "range": 600,
+          "gravity": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 1
+        },
+        {
+          "name": "Melt Streamer",
+          "type": "AcidBullet01",
+          "ammo": 3000,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 100,
+          "speed": 2,
+          "accuracy": 0.96,
+          "range": 600,
+          "gravity": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 1
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 900,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 250,
+          "speed": 4,
+          "accuracy": 0.975,
+          "range": 480,
+          "burst": 1,
+          "count": 1,
+          "interval": 3
+        },
+        {
+          "name": "Grenade Discharger (Left)",
+          "type": "GrenadeBullet01",
+          "ammo": 48,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 3000,
+          "speed": 0.5,
+          "accuracy": 0.975,
+          "range": 120,
+          "radius": 18,
+          "gravity": 1,
+          "burst": 8,
+          "burstRate": 2,
+          "count": 1,
+          "interval": 80
+        },
+        {
+          "name": "Grenade Discharger (Right)",
+          "type": "GrenadeBullet01",
+          "ammo": 48,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 3000,
+          "speed": 0.5,
+          "accuracy": 0.975,
+          "range": 120,
+          "radius": 18,
+          "gravity": 1,
+          "burst": 8,
+          "burstRate": 2,
+          "count": 1,
+          "interval": 80
+        }
+      ]
     },
     {
       "id": "EX_A_Weapon033",
@@ -68116,10 +70900,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -68139,7 +70919,57 @@
       },
       "credits": true,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "hp": 20000,
+      "weapons": [
+        {
+          "name": "FK200 Gatling Gun",
+          "type": "SolidBullet01",
+          "ammo": 1600,
+          "weapon": "Weapon_Gatling",
+          "damage": 280,
+          "speed": 4,
+          "accuracy": 0.925,
+          "range": 120,
+          "burst": 1,
+          "count": 1,
+          "interval": 3
+        },
+        {
+          "name": "Rapid Bazooka (Left)",
+          "type": "MissileBullet01",
+          "ammo": 320,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 280,
+          "speed": 0.1,
+          "range": 48,
+          "radius": 4,
+          "gravity": 0.75,
+          "burst": 1,
+          "count": 1,
+          "interval": 10,
+          "lockRange": 300,
+          "lockTime": 4,
+          "accuracy": 1
+        },
+        {
+          "name": "Rapid Bazooka (Right)",
+          "type": "MissileBullet01",
+          "ammo": 320,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 280,
+          "speed": 0.1,
+          "range": 48,
+          "radius": 4,
+          "gravity": 0.75,
+          "burst": 1,
+          "count": 1,
+          "interval": 10,
+          "lockRange": 300,
+          "lockTime": 4,
+          "accuracy": 1
+        }
+      ]
     },
     {
       "id": "EX_A_Weapon034",
@@ -68152,10 +70982,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -68176,7 +71002,66 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 78000,
+      "weapons": [
+        {
+          "name": "Power Saber",
+          "type": "LaserBullet01",
+          "ammo": 6000,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 200,
+          "speed": 15,
+          "range": 75,
+          "piercing": 1,
+          "burst": 300,
+          "count": 1,
+          "interval": 300,
+          "accuracy": 1
+        },
+        {
+          "name": "Power Saber",
+          "type": "LaserBullet01",
+          "ammo": 6000,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 200,
+          "speed": 15,
+          "range": 75,
+          "piercing": 1,
+          "burst": 300,
+          "count": 1,
+          "interval": 300,
+          "accuracy": 1
+        },
+        {
+          "name": "Powerdyne MC (Right)",
+          "type": "LaserBullet01",
+          "ammo": 8,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 17500,
+          "speed": 30,
+          "range": 3600,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 80,
+          "accuracy": 1
+        },
+        {
+          "name": "Powerdyne MC (Left)",
+          "type": "LaserBullet01",
+          "ammo": 8,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 17500,
+          "speed": 30,
+          "range": 3600,
+          "piercing": 1,
+          "burst": 1,
+          "count": 1,
+          "interval": 80,
+          "accuracy": 1
+        }
+      ]
     },
     {
       "id": "EX_B_Weapon001",
@@ -70272,10 +73157,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 650,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -70296,7 +73177,26 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 15600,
+      "weapons": [
+        {
+          "name": "Rapid-fire Cannon",
+          "type": "SolidBullet01",
+          "ammo": 400,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 116,
+          "speed": 8,
+          "accuracy": 0.91,
+          "range": 400,
+          "gravity": 0.02500000037252903,
+          "piercing": 1,
+          "burst": 5,
+          "burstRate": 5,
+          "count": 10,
+          "interval": 30
+        }
+      ]
     },
     {
       "id": "EX_B_Weapon036",
@@ -70309,10 +73209,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -70333,7 +73229,25 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 32000,
+      "weapons": [
+        {
+          "name": "140mm Long-Range Howitzer",
+          "type": "RocketBullet01",
+          "ammo": 32,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 12800,
+          "speed": 11,
+          "accuracy": 0.975,
+          "range": 6600,
+          "radius": 15,
+          "gravity": 0.25,
+          "burst": 1,
+          "count": 1,
+          "interval": 180
+        }
+      ]
     },
     {
       "id": "EX_B_Weapon037",
@@ -70346,10 +73260,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 600,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -70370,7 +73280,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 15000,
+      "weapons": []
     },
     {
       "id": "EX_B_Weapon038",
@@ -70383,10 +73295,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 50000,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -70407,7 +73315,9 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 1250000,
+      "weapons": []
     },
     {
       "id": "EX_B_Weapon039",
@@ -70420,10 +73330,6 @@
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": 1200,
-      "speed": 0.4,
-      "accuracy": 0,
-      "radius": 40,
       "gravity": 1,
       "life": 1800,
       "burstRate": 0,
@@ -70444,7 +73350,52 @@
       "credits": true,
       "secondary": 0,
       "zoom": null,
-      "underground": "blocked"
+      "underground": "blocked",
+      "hp": 90000,
+      "weapons": [
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 1250,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 300,
+          "speed": 4,
+          "accuracy": 0.95,
+          "range": 240,
+          "burst": 1,
+          "count": 1,
+          "interval": 2
+        },
+        {
+          "name": "Machine Gun",
+          "type": "SolidBullet01",
+          "ammo": 1250,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 300,
+          "speed": 4,
+          "accuracy": 0.95,
+          "range": 240,
+          "burst": 1,
+          "count": 1,
+          "interval": 2
+        },
+        {
+          "name": "Explosion (Right)",
+          "type": "GrenadeBullet01",
+          "ammo": 10,
+          "weapon": "Weapon_VehicleShoot",
+          "damage": 2250,
+          "speed": 4,
+          "accuracy": 0.75,
+          "range": 40,
+          "radius": 8,
+          "gravity": 1,
+          "piercing": 1,
+          "burst": 1,
+          "count": 20,
+          "interval": 120
+        }
+      ]
     }
   ],
   "modes": [

@@ -43,7 +43,7 @@ function writeState() {
 function pickGame(game) {
   const gameChanged = active.g != game
   const button = document
-    .querySelector('#game-button')
+    .getElementById('game-button')
   button.classList.remove(...button.classList)
   button.classList.add('button')
   styleButton({
@@ -132,17 +132,19 @@ function pickChar(ch, cat) {
     charEl: item,
   })
 
+
   const catTabs = document.getElementById('category-dropdown')
   catTabs.innerHTML = ''
-  const from = chIdx * 10
-  const to = from + 10
-  for(let i = from; i < to; i++) {
-    const cat = categories[i]
-    if(!cat) continue
-    const label = catLabels[i]
+  const existing = new Set(table
+    .filter(t => t.character === ch)
+    .map(t => t.category))
+  const categories = Object.keys(catLabels[ch])
+    .filter(cat => existing.has(cat))
+  for(const cat of categories) {
+    const label = catLabels[ch][cat] || cat
     const li = $('a')
     li.classList.add(cat)
-    if(label === 'CC Strikers' || label === 'CC Piercers') {
+    if(label.startsWith('CC ')) {
       boldify(li, label, 4)
     } else {
       boldify(li, label, 2)
@@ -154,7 +156,7 @@ function pickChar(ch, cat) {
     catTabs.appendChild(li)
   }
 
-  pickCategory(ch, cat || categories[from])
+  pickCategory(ch, cat || categories[0])
 }
 
 function pickCategory(ch, cat) {
@@ -172,7 +174,7 @@ function pickCategory(ch, cat) {
   const cutPoint = ['spear', 'hammer'].includes(cat) ? 4 : 2
   styleButton({
     button,
-    label: catLabels[categories.indexOf(cat)] || '',
+    label: catLabels[ch][cat] || '',
     cls: cat,
     cutPoint,
   })
@@ -186,7 +188,7 @@ function pickCategory(ch, cat) {
 }
 
 function populateModes() {
-  const modeMenu = document.querySelector('#mode-dropdown')
+  const modeMenu = document.getElementById('mode-dropdown')
   modeMenu.innerHTML = ''
   const label = 'Stats'
   const item = $('a')
@@ -505,10 +507,12 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
+      'bike',
       'tank',
       'ground',
       'heli',
       'mech',
+      'super',
     ].includes(cat)) {
       return true
     }
@@ -524,6 +528,8 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
+      'artillery',
+      'planes',
       'raid',
       'particle',
       'plasma',
@@ -689,6 +695,10 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
+      'artillery',
+      'planes',
+      'gunship',
+      'satellite',
       'raid',
       'deploy',
     ].includes(cat)) {
@@ -696,6 +706,11 @@ const headers = [{
     }
     if(ch === 'winger' && [
       'special',
+    ].includes(cat)) {
+      return true
+    }
+    if(ch === 'bomber' && [
+      'missile',
     ].includes(cat)) {
       return true
     }
@@ -755,6 +770,8 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
+      'artillery',
+      'planes',
       'raid',
       'support',
       'hammer',
@@ -833,6 +850,8 @@ const headers = [{
     if([
       'missile',
       'special',
+      'artillery',
+      'planes',
       'raid',
       'deploy',
       'hammer',
@@ -890,6 +909,8 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
+      'artillery',
+      'planes',
       'support',
       'tank',
       'ground',
@@ -923,6 +944,8 @@ const headers = [{
     if([
       'hammer',
       'spear',
+      'artillery',
+      'planes',
       'raid',
       'missile',
       'shield',
@@ -975,6 +998,8 @@ const headers = [{
       'particle',
       'plasma',
       'guide',
+      'artillery',
+      'planes',
       'raid',
       'shield',
       'missile',
@@ -1073,6 +1098,8 @@ const headers = [{
   iff: (ch, cat, wpn) => {
     if([
       'guide',
+      'artillery',
+      'planes',
       'raid',
       'support',
       'hammer',
@@ -1232,7 +1259,7 @@ const gameLabels = [
   'EDF5',
 ]
 
-const gameMenu = document.querySelector('#game-dropdown')
+const gameMenu = document.getElementById('game-dropdown')
 for(let i = 0; i < games.length; i++) {
   const g = games[i]
   const gLabel = gameLabels[i]
@@ -1264,7 +1291,7 @@ const charLabels = [
   'Air Raider',
 ]
 
-const charMenu = document.querySelector('#char-dropdown')
+const charMenu = document.getElementById('char-dropdown')
 for(let i = 0; i < characters.length; i++) {
   const c = characters[i]
   const cLabel = charLabels[i]
@@ -1292,97 +1319,61 @@ function boldify(el, str, cutPoint=2) {
   return el
 }
 
-const categories = [
-  'assault',
-  'shotgun',
-  'sniper',
-  'rocket',
-  'missile',
-  'grenade',
-  'special',
-  null,
-  null,
-  null,
-  'short',
-  'laser',
-  'electro',
-  'particle',
-  'sniper',
-  'plasma',
-  'missile',
-  'special',
-  null,
-  null,
-  'hammer',
-  'spear',
-  'shield',
-  'light',
-  'heavy',
-  'missile',
-  null,
-  null,
-  null,
-  null,
-  'guide',
-  'raid',
-  'support',
-  'limpet',
-  'deploy',
-  'special',
-  'tank',
-  'ground',
-  'heli',
-  'mech',
-]
-
-const supports = [
-  'tank',
-  'ground',
-  'heli',
-  'mech',
-]
-
-const catLabels = [
-  'Assault Rifles',
-  'Shotguns',
-  'Sniper Rifles',
-  'Rocket Launchers',
-  'Missile Launchers',
-  'Grenades',
-  'Special Weapons',
-  null,
-  null,
-  null,
-  'Short-Range',
-  'Mid-Rg Lasers',
-  'Mid-Rg Electroshock',
-  'Particle Cannons',
-  'Sniper Weapons',
-  'Ranged Attacks',
-  'Homing Weapons',
-  'Special Weapons',
-  null,
-  null,
-  'CC Strikers',
-  'CC Piercers',
-  'Shields',
-  'Automatic Artillery',
-  'Artillery',
-  'Missile Launchers',
-  null,
-  null,
-  null,
-  null,
-  'Guidance Equipment',
-  'Calling for Support',
-  'Support Equipment',
-  'Limpet Guns',
-  'Stationary Weapons',
-  'Special Weapons',
-  'Tanks',
-  'Ground Vehicles',
-  'Helicopters',
-  'Power Suits',
-]
+const catLabels = {
+  ranger: {
+    assault: 'Assault Rifles',
+    shotgun: 'Shotguns',
+    sniper: 'Sniper Rifles',
+    rocket: 'Rocket Launchers',
+    missile: 'Missile Launchers',
+    grenade: 'Grenades',
+    special: 'Special Weapons',
+    equipment: 'Support Equipment',
+    tank: 'Tanks',
+    bike: 'Bikes',
+    heli: 'Helicopters',
+  },
+  winger: {
+    short: 'Short-Range',
+    laser: 'Mid-Rg Lasers',
+    electro: 'Mid-Rg Electroshock',
+    particle: 'Particle Cannons',
+    sniper: 'Sniper Weapons',
+    plasma: 'Ranged Attacks',
+    missile: 'Homing Weapons',
+    special: 'Special Weapons',
+    core: 'Core',
+  },
+  fencer: {
+    hammer: 'CC Strikers',
+    spear: 'CC Piercers',
+    shield: 'Shields',
+    light: 'Automatic Artillery',
+    heavy: 'Artillery',
+    missile: 'Missile Launchers',
+    booster: 'Enhanced Boosters',
+    protector: 'Enhanced Shields',
+    muzzle: 'Enhanced Cannons',
+    exo: 'Enhanced Exoskeleton',
+  },
+  bomber: {
+    artillery: 'Request Artillery Units',
+    gunship: 'Request Gunships',
+    planes: 'Request Bombers',
+    missile: 'Request Missiles',
+    satellite: 'Request Satellites',
+    guide: 'Guidance Equipment',
+    raid: 'Calling for Support',
+    support: 'Support Equipment',
+    limpet: 'Limpet Guns',
+    deploy: 'Stationary Weapons',
+    special: 'Special Weapons',
+    tank: 'Tanks',
+    ground: 'Ground Vehicles',
+    heli: 'Helicopters',
+    mech: 'Powered Exoskeletons',
+    super: 'Special Vehicles',
+  },
+}
 
 loadWeapons(active.g || '5')

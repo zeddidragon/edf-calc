@@ -89,34 +89,34 @@ td.Weight {
   color: #ea8;
 }
 
-.short b, .spear b, .heli b, .stats b {
+.short b, .spear b, .heli b, .stats b, .limpet b, .booster b {
   color: #eee;
 }
-.assault b, .laser b, .light b, .ground b {
+.assault b, .laser b, .light b, .gunship b {
   color: #e88;
 }
-.shotgun b, .electro b, .shield b, .support b {
+.shotgun b, .electro b, .shield b, .support b, .bike b, .ground b, .protector b {
   color: #8e8;
 }
-.sniper b, .heavy b, .limpet b {
+.sniper b, .heavy b, .satellite b, .muzzle b {
   color: #88e;
 }
-.rocket b, .particle b, .hammer b, .tank b, .dlc {
+.rocket b, .particle b, .hammer b, .dlc, .planes b, .tank b {
   color: #ee8;
 }
 .missile b, .guide b, .na {
   color: #a8e;
 }
-.grenade b, .plasma b, .raid b {
+.grenade b, .plasma b, .raid b, .artillery b {
   color: #ea8;
 }
-.special b {
+.special b, .super b {
   color: #e8a;
 }
 .deploy b, .Easy, .starter {
   color: #8aa;
 }
-.mech b {
+.mech b, .core b, .equipment b, .exo b {
   color: #e8e;
 }
 

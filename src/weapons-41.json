@@ -2346,7 +2346,8 @@
       "gravity": 1,
       "life": 600,
       "interval": 120,
-      "accuracy": 0
+      "accuracy": 0,
+      "fuse": 600
     },
     {
       "id": "Weapon114",
@@ -2418,7 +2419,8 @@
       "gravity": 1,
       "life": 1800,
       "interval": 120,
-      "accuracy": 0
+      "accuracy": 0,
+      "fuse": 1800
     },
     {
       "id": "Weapon118",
@@ -2454,7 +2456,8 @@
       "gravity": 1,
       "life": 300,
       "interval": 120,
-      "accuracy": 0
+      "accuracy": 0,
+      "fuse": 300
     },
     {
       "id": "Weapon120",
@@ -2508,7 +2511,8 @@
       "gravity": 1,
       "life": 600,
       "interval": 120,
-      "accuracy": 0
+      "accuracy": 0,
+      "fuse": 600
     },
     {
       "id": "Weapon123",
@@ -2544,7 +2548,8 @@
       "gravity": 1,
       "life": 600,
       "interval": 120,
-      "accuracy": 0
+      "accuracy": 0,
+      "fuse": 600
     },
     {
       "id": "Weapon125",
@@ -2600,7 +2605,8 @@
       "gravity": 1,
       "life": 240,
       "interval": 30,
-      "reload": 120
+      "reload": 120,
+      "fuse": 240
     },
     {
       "id": "aNapalmLauncher01",
@@ -2677,7 +2683,8 @@
       "gravity": 1,
       "life": 240,
       "interval": 30,
-      "reload": 120
+      "reload": 120,
+      "fuse": 240
     },
     {
       "id": "Weapon131",
@@ -2715,7 +2722,8 @@
       "gravity": 1,
       "life": 240,
       "interval": 30,
-      "reload": 160
+      "reload": 160,
+      "fuse": 240
     },
     {
       "id": "Weapon133",
@@ -2734,7 +2742,8 @@
       "gravity": 1,
       "life": 600,
       "count": 20,
-      "reload": 360
+      "reload": 360,
+      "fuse": 600
     },
     {
       "id": "Weapon134",
@@ -2753,7 +2762,8 @@
       "gravity": 1,
       "life": 240,
       "count": 20,
-      "reload": 360
+      "reload": 360,
+      "fuse": 240
     },
     {
       "id": "Weapon135",
@@ -2792,7 +2802,8 @@
       "count": 3,
       "interval": 30,
       "reload": 160,
-      "accuracy": 0
+      "accuracy": 0,
+      "fuse": 240
     },
     {
       "id": "Weapon137",
@@ -2830,7 +2841,8 @@
       "gravity": 1,
       "life": 600,
       "count": 20,
-      "reload": 360
+      "reload": 360,
+      "fuse": 600
     },
     {
       "id": "Weapon139",
@@ -2888,7 +2900,8 @@
       "gravity": 1,
       "life": 240,
       "count": 20,
-      "reload": 360
+      "reload": 360,
+      "fuse": 240
     },
     {
       "id": "Weapon142",
@@ -2965,7 +2978,8 @@
       "gravity": 1,
       "life": 240,
       "reload": 180,
-      "accuracy": 0
+      "accuracy": 0,
+      "fuse": 240
     },
     {
       "id": "Weapon146",

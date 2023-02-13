@@ -11909,7 +11909,8 @@
       "lockDist": 0,
       "reload": 0,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "fuse": 600
     },
     {
       "id": "aWeapon155",
@@ -12081,7 +12082,8 @@
       "lockDist": 0,
       "reload": 0,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "fuse": 1800
     },
     {
       "id": "aWeapon159",
@@ -12167,7 +12169,8 @@
       "lockDist": 0,
       "reload": 0,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "fuse": 300
     },
     {
       "id": "aWeapon161",
@@ -12296,7 +12299,8 @@
       "lockDist": 0,
       "reload": 0,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "fuse": 600
     },
     {
       "id": "aWeapon164",
@@ -12382,7 +12386,8 @@
       "lockDist": 0,
       "reload": 0,
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "fuse": 600
     },
     {
       "id": "aWeapon166",
@@ -12591,7 +12596,8 @@
         "type": "int"
       },
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "fuse": 240
     },
     {
       "id": "aNapalmLauncher01",
@@ -12893,7 +12899,8 @@
         "type": "int"
       },
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "fuse": 240
     },
     {
       "id": "aWeapon172",
@@ -13059,7 +13066,8 @@
         "type": "int"
       },
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "fuse": 240
     },
     {
       "id": "aWeapon174",
@@ -13119,7 +13127,8 @@
         "type": "int"
       },
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "fuse": 600
     },
     {
       "id": "aWeapon175",
@@ -13179,7 +13188,8 @@
         "type": "int"
       },
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "fuse": 240
     },
     {
       "id": "aWeapon176",
@@ -13330,7 +13340,8 @@
         "type": "int"
       },
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "fuse": 240
     },
     {
       "id": "aWeapon178",
@@ -13466,7 +13477,8 @@
         "type": "int"
       },
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "fuse": 600
     },
     {
       "id": "aWeapon180",
@@ -13678,7 +13690,8 @@
         "type": "int"
       },
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "fuse": 240
     },
     {
       "id": "aWeapon183",
@@ -14016,7 +14029,8 @@
         "type": "int"
       },
       "secondary": 0,
-      "zoom": null
+      "zoom": null,
+      "fuse": 240
     },
     {
       "id": "aWeapon188",

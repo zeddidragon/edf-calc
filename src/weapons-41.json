@@ -13081,8 +13081,6 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "strikeType": "satellite",
-      "shots": 4,
       "underground": "blocked"
     },
     {
@@ -13104,8 +13102,6 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "strikeType": "satellite",
-      "shots": 15,
       "underground": "blocked"
     },
     {
@@ -13127,8 +13123,6 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "strikeType": "satellite",
-      "shots": 1,
       "underground": "blocked"
     },
     {
@@ -13150,8 +13144,6 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "strikeType": "satellite",
-      "shots": 5,
       "underground": "blocked"
     },
     {
@@ -13173,8 +13165,6 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "strikeType": "satellite",
-      "shots": 20,
       "underground": "blocked"
     },
     {
@@ -13196,8 +13186,6 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "strikeType": "satellite",
-      "shots": 1,
       "underground": "blocked"
     },
     {
@@ -13219,8 +13207,6 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "strikeType": "satellite",
-      "shots": 6,
       "underground": "blocked"
     },
     {
@@ -13242,8 +13228,6 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "strikeType": "satellite",
-      "shots": 1,
       "underground": "blocked"
     },
     {
@@ -13265,8 +13249,6 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "strikeType": "satellite",
-      "shots": 30,
       "underground": "blocked"
     },
     {
@@ -13288,8 +13270,6 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "strikeType": "satellite",
-      "shots": 1,
       "underground": "blocked"
     },
     {
@@ -13310,8 +13290,6 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "strikeType": "shelling",
-      "shots": 600,
       "underground": "blocked"
     },
     {
@@ -13333,8 +13311,6 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "strikeType": "shelling",
-      "shots": 45,
       "underground": "blocked"
     },
     {
@@ -13355,8 +13331,6 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "strikeType": "shelling",
-      "shots": 600,
       "underground": "blocked"
     },
     {
@@ -13377,8 +13351,6 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "strikeType": "shelling",
-      "shots": 600,
       "underground": "blocked"
     },
     {
@@ -13400,8 +13372,6 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "strikeType": "shelling",
-      "shots": 60,
       "underground": "blocked"
     },
     {
@@ -13422,8 +13392,6 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "strikeType": "shelling",
-      "shots": 600,
       "underground": "blocked"
     },
     {
@@ -13445,8 +13413,6 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "strikeType": "shelling",
-      "shots": 80,
       "underground": "blocked"
     },
     {
@@ -13467,8 +13433,6 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "strikeType": "shelling",
-      "shots": 600,
       "underground": "blocked"
     },
     {
@@ -13481,6 +13445,7 @@
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 600,
       "speed": 1,
+      "radius": 600,
       "gravity": 1,
       "life": 900,
       "interval": 120,
@@ -13489,8 +13454,6 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "strikeType": "shelling",
-      "shots": 200,
       "underground": "blocked"
     },
     {
@@ -13503,16 +13466,15 @@
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 10000,
       "speed": 1,
+      "radius": 70,
       "gravity": 1,
       "life": 900,
-      "count": 2,
       "interval": 120,
       "reload": 8000,
       "credits": true,
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "strikeType": "rog",
       "underground": "blocked"
     },
     {

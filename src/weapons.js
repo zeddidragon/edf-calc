@@ -670,7 +670,15 @@ const headers = [{
     if(wpn.type === 'SentryGunBullet01') {
       return dmg
     }
-    if(wpn.category === 'raid') {
+
+    if([
+      'raid',
+      'artillery',
+      'gunship',
+      'planes',
+      'missile',
+      'satellite',
+    ].includes(wpn.category)) {
       return dmg
     }
     if(wpn.shots > 1) {
@@ -839,6 +847,11 @@ const headers = [{
     }
     if(ch === 'winger' && [
       'special',
+    ].includes(cat)) {
+      return false
+    }
+    if(ch === 'bomber' && [
+      'missile',
     ].includes(cat)) {
       return false
     }
@@ -1226,7 +1239,10 @@ const headers = [{
     ].includes(cat)) {
       return true
     }
-    if(ch !== 'winger' && cat === 'missile') {
+    if(cat === 'missile' && ![
+      'winger',
+      'bomber',
+    ].includes(ch)) {
       return true
     }
     return false

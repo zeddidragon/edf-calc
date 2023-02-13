@@ -317,19 +317,41 @@ const scaledProps = [
   'lockTime',
   'energy',
 ]
+
+function composeAttack(weapon, attack) {
+  return {
+    ...attack,
+    damage: weapon.damage * attack.damage,
+    speed: weapon.speed * attack.speed,
+    piercing: weapon.piercing,
+    life: weapon.life,
+  }
+}
+
 function populateWeaponStats(ch, cat) {
   const extra = document.getElementById('extra')
   const weaponTable = document.getElementById('weapons-table')
   weaponTable.innerHTML = ''
   const weapons = table
     .filter(t => t.character === ch && t.category === cat)
-    .flatMap(w => [w, ...(w.weapons || []), ...(w.attacks || [])])
     .map(w => {
       const obj = { ...w }
       for(const prop of scaledProps) {
         obj[prop] = getProp(w, prop)
       }
       return obj
+    })
+    .flatMap(w => {
+      if(w.attacks?.length) {
+        return [
+          { ...w, ...composeAttack(w, w.attacks[0]), name: w.name },
+          ...w.attacks.slice(1).map(atk => composeAttack(w, atk)),
+        ]
+      }
+      if(w.weapons) {
+        return [w, ...w.weapons]
+      }
+      return [w]
     })
   const thead = $('thead')
   const theadrow = $('tr')
@@ -1223,7 +1245,7 @@ const headers = [{
   label: 'Total',
   cb: wpn => {
     if(wpn.attacks?.length) {
-      const attacks = [wpn.damage, ...wpn.attacks.map(a => a.damage)]
+      const attacks = wpn.attacks.map(a => a.damage * wpn.damage)
       const dump = Array(wpn.ammo)
         .fill(0)
         .map((w, i) => attacks[i % attacks.length])

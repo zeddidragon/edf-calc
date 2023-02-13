@@ -7417,15 +7417,22 @@
       "defense": 50,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "ShockWaveBullet01",
+          "damage": 1,
+          "speed": 1,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 60,
           "type": "ShockWaveBullet01Exp",
-          "damage": 68,
-          "range": null,
+          "damage": 1.5,
+          "speed": 3,
           "radius": 2
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon354",
@@ -7448,23 +7455,30 @@
       "defense": 50,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "ShockWaveBullet01",
+          "damage": 1,
+          "speed": 1,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 60,
           "type": "ShockWaveBullet01Exp",
-          "damage": 90,
-          "range": null,
+          "damage": 1.5,
+          "speed": 3,
           "radius": 2
         },
         {
           "name": "Max",
           "charge": 120,
           "type": "ShockWaveBullet01Exp",
-          "damage": 120,
-          "range": null,
+          "damage": 2,
+          "speed": 3,
           "radius": 3
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon355",
@@ -7487,15 +7501,22 @@
       "defense": 0,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "SlashWaveBullet01Exp",
+          "damage": 1,
+          "speed": 1,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 60,
           "type": "SlashWaveBullet01Exp",
-          "damage": 90,
-          "range": null,
+          "damage": 2,
+          "speed": 1,
           "radius": 6
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon356",
@@ -7518,23 +7539,30 @@
       "defense": 40,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "ShockWaveBullet01",
+          "damage": 1,
+          "speed": 0.2,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 60,
           "type": "ShockWaveBullet01Exp",
-          "damage": 113,
-          "range": null,
+          "damage": 1.5,
+          "speed": 0.5,
           "radius": 2
         },
         {
           "name": "Max",
           "charge": 120,
           "type": "ShockWaveBullet01Exp",
-          "damage": 150,
-          "range": null,
+          "damage": 2,
+          "speed": 1,
           "radius": 6
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon357",
@@ -7557,23 +7585,30 @@
       "defense": 50,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "ShockWaveBullet01",
+          "damage": 1,
+          "speed": 1,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 60,
           "type": "ShockWaveBullet01Exp",
-          "damage": 180,
-          "range": null,
+          "damage": 1.5,
+          "speed": 3,
           "radius": 2
         },
         {
           "name": "Max",
           "charge": 120,
           "type": "ShockWaveBullet01Exp",
-          "damage": 240,
-          "range": null,
+          "damage": 2,
+          "speed": 3,
           "radius": 3
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon358",
@@ -7596,15 +7631,22 @@
       "defense": 0,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "SlashWaveBullet01Exp",
+          "damage": 1,
+          "speed": 1,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 60,
           "type": "SlashWaveBullet01Exp",
-          "damage": 120,
-          "range": null,
+          "damage": 2,
+          "speed": 1,
           "radius": 6
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon359",
@@ -7627,23 +7669,30 @@
       "defense": 50,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "ShockWaveBullet01",
+          "damage": 1,
+          "speed": 1,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 60,
           "type": "ShockWaveBullet01Exp",
-          "damage": 20,
-          "range": null,
+          "damage": 0.4,
+          "speed": 1,
           "radius": 2
         },
         {
           "name": "Max",
           "charge": 120,
           "type": "ShockWaveBullet01Exp",
-          "damage": 40,
-          "range": null,
+          "damage": 0.8,
+          "speed": 1,
           "radius": 3
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon360",
@@ -7666,23 +7715,30 @@
       "defense": 65,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "ShockWaveBullet01",
+          "damage": 1,
+          "speed": 1,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 60,
           "type": "ShockWaveBullet02Exp",
-          "damage": 1000,
-          "range": null,
+          "damage": 5,
+          "speed": 0.2,
           "radius": 4
         },
         {
           "name": "Max",
           "charge": 120,
           "type": "ShockWaveBullet02Exp",
-          "damage": 2400,
-          "range": null,
+          "damage": 12,
+          "speed": 0.2,
           "radius": 6
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon361",
@@ -7705,23 +7761,30 @@
       "defense": 0,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "SlashWaveBullet01Exp",
+          "damage": 1,
+          "speed": 1,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 80,
           "type": "SlashWaveBullet01Exp",
-          "damage": 180,
-          "range": null,
+          "damage": 2,
+          "speed": 1,
           "radius": 4
         },
         {
           "name": "Max",
           "charge": 300,
           "type": "SlashWaveBullet01Exp",
-          "damage": 450,
-          "range": null,
+          "damage": 5,
+          "speed": 5,
           "radius": 2
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon362",
@@ -7744,23 +7807,30 @@
       "defense": 40,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "ShockWaveBullet01",
+          "damage": 1,
+          "speed": 0.4,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 60,
           "type": "ShockWaveBullet01Exp",
-          "damage": 300,
-          "range": null,
+          "damage": 1.5,
+          "speed": 1,
           "radius": 2
         },
         {
           "name": "Max",
           "charge": 600,
           "type": "ShockWaveBullet01Exp",
-          "damage": 400,
-          "range": null,
+          "damage": 2,
+          "speed": 2,
           "radius": 6
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon363",
@@ -7783,23 +7853,30 @@
       "defense": 50,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "ShockWaveBullet01",
+          "damage": 1,
+          "speed": 1,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 60,
           "type": "ShockWaveBullet01Exp",
-          "damage": 360,
-          "range": null,
+          "damage": 1.5,
+          "speed": 3,
           "radius": 2
         },
         {
           "name": "Max",
           "charge": 120,
           "type": "ShockWaveBullet01Exp",
-          "damage": 480,
-          "range": null,
+          "damage": 2,
+          "speed": 3,
           "radius": 3
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon364",
@@ -7822,15 +7899,22 @@
       "defense": 0,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "SlashWaveBullet01Exp",
+          "damage": 1,
+          "speed": 1,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 30,
           "type": "SlashWaveBullet01Exp",
-          "damage": 270,
-          "range": null,
+          "damage": 1.5,
+          "speed": 1.5,
           "radius": 3
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon365",
@@ -7853,23 +7937,30 @@
       "defense": 70,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "ShockWaveBullet01",
+          "damage": 1,
+          "speed": 1,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 60,
           "type": "ShockWaveBullet01Exp",
-          "damage": 60,
-          "range": null,
+          "damage": 0.4,
+          "speed": 1.5,
           "radius": 4
         },
         {
           "name": "Max",
           "charge": 120,
           "type": "ShockWaveBullet01Exp",
-          "damage": 120,
-          "range": null,
+          "damage": 0.8,
+          "speed": 1.5,
           "radius": 4
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon366",
@@ -7892,23 +7983,30 @@
       "defense": 75,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "ShockWaveBullet01",
+          "damage": 1,
+          "speed": 1,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 60,
           "type": "ShockWaveBullet02Exp",
-          "damage": 3000,
-          "range": null,
+          "damage": 5,
+          "speed": 0.2,
           "radius": 5
         },
         {
           "name": "Max",
           "charge": 120,
           "type": "ShockWaveBullet02Exp",
-          "damage": 9000,
-          "range": null,
+          "damage": 15,
+          "speed": 0.2,
           "radius": 10
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon367",
@@ -7931,23 +8029,30 @@
       "defense": 60,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "ShockWaveBullet01",
+          "damage": 1,
+          "speed": 0.4,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 60,
           "type": "ShockWaveBullet01Exp",
-          "damage": 675,
-          "range": null,
+          "damage": 1.5,
+          "speed": 1,
           "radius": 2
         },
         {
           "name": "Max",
           "charge": 240,
           "type": "ShockWaveBullet01Exp",
-          "damage": 1125,
-          "range": null,
+          "damage": 2.5,
+          "speed": 2,
           "radius": 6
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon368",
@@ -7970,23 +8075,30 @@
       "defense": 0,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "SlashWaveBullet01Exp",
+          "damage": 1,
+          "speed": 1,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 80,
           "type": "SlashWaveBullet01Exp",
-          "damage": 600,
-          "range": null,
+          "damage": 2.5,
+          "speed": 1,
           "radius": 4
         },
         {
           "name": "Max",
           "charge": 300,
           "type": "SlashWaveBullet01Exp",
-          "damage": 1920,
-          "range": null,
+          "damage": 8,
+          "speed": 10,
           "radius": 2
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon369",
@@ -8009,23 +8121,30 @@
       "defense": 70,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "ShockWaveBullet01",
+          "damage": 1,
+          "speed": 1,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 60,
           "type": "ShockWaveBullet01Exp",
-          "damage": 72,
-          "range": null,
+          "damage": 0.4,
+          "speed": 1.5,
           "radius": 4
         },
         {
           "name": "Max",
           "charge": 120,
           "type": "ShockWaveBullet01Exp",
-          "damage": 144,
-          "range": null,
+          "damage": 0.8,
+          "speed": 1.5,
           "radius": 4
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon370",
@@ -8048,23 +8167,30 @@
       "defense": 90,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "ShockWaveBullet01",
+          "damage": 1,
+          "speed": 1,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 60,
           "type": "ShockWaveBullet02Exp",
-          "damage": 4000,
-          "range": null,
+          "damage": 5,
+          "speed": 0.2,
           "radius": 4
         },
         {
           "name": "Max",
           "charge": 120,
           "type": "ShockWaveBullet02Exp",
-          "damage": 12000,
-          "range": null,
+          "damage": 15,
+          "speed": 0.2,
           "radius": 8
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon371",
@@ -8087,15 +8213,22 @@
       "defense": 0,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "SlashWaveBullet01Exp",
+          "damage": 1,
+          "speed": 1,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 60,
           "type": "SlashWaveBullet01Exp",
-          "damage": 750,
-          "range": null,
+          "damage": 2.5,
+          "speed": 1,
           "radius": 6
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon372",
@@ -8118,23 +8251,30 @@
       "defense": 0,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "SlashWaveBullet01Exp",
+          "damage": 1,
+          "speed": 1,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 30,
           "type": "SlashWaveBullet01Exp",
-          "damage": 765,
-          "range": null,
+          "damage": 1.7,
+          "speed": 2,
           "radius": 3
         },
         {
           "name": "Max",
           "charge": 60,
           "type": "ShockWaveBullet01Exp",
-          "damage": 1350,
-          "range": null,
+          "damage": 3,
+          "speed": 2,
           "radius": 3
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon373",
@@ -8157,23 +8297,30 @@
       "defense": 90,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "ShockWaveBullet01",
+          "damage": 1,
+          "speed": 1,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 60,
           "type": "ShockWaveBullet01Exp",
-          "damage": 1400,
-          "range": null,
+          "damage": 2,
+          "speed": 3,
           "radius": 3
         },
         {
           "name": "Max",
           "charge": 120,
           "type": "ShockWaveBullet01Exp",
-          "damage": 1750,
-          "range": null,
+          "damage": 2.5,
+          "speed": 3,
           "radius": 4
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon374",
@@ -8196,23 +8343,30 @@
       "defense": 0,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "SlashWaveBullet01Exp",
+          "damage": 1,
+          "speed": 1,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 30,
           "type": "SlashWaveBullet01Exp",
-          "damage": 1600,
-          "range": null,
+          "damage": 2,
+          "speed": 2,
           "radius": 3
         },
         {
           "name": "Max",
           "charge": 120,
           "type": "ShockWaveBullet01Exp",
-          "damage": 2800,
-          "range": null,
+          "damage": 3.5,
+          "speed": 2,
           "radius": 3
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon375",
@@ -8235,23 +8389,30 @@
       "defense": 75,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "ShockWaveBullet01",
+          "damage": 1,
+          "speed": 0.4,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 60,
           "type": "ShockWaveBullet01Exp",
-          "damage": 2000,
-          "range": null,
+          "damage": 2,
+          "speed": 1,
           "radius": 2
         },
         {
           "name": "Max",
           "charge": 120,
           "type": "ShockWaveBullet01Exp",
-          "damage": 3000,
-          "range": null,
+          "damage": 3,
+          "speed": 2,
           "radius": 6
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "Weapon376",
@@ -8274,23 +8435,30 @@
       "defense": 0,
       "attacks": [
         {
+          "name": "Low",
+          "charge": 0,
+          "type": "SlashWaveBullet01",
+          "damage": 1,
+          "speed": 1,
+          "radius": 2
+        },
+        {
           "name": "Mid",
           "charge": 45,
           "type": "SlashWaveBullet01Exp",
-          "damage": 1800,
-          "range": null,
+          "damage": 3,
+          "speed": 1.5,
           "radius": 4
         },
         {
           "name": "Max",
           "charge": 360,
           "type": "SlashWaveBullet01Exp",
-          "damage": 6000,
-          "range": null,
+          "damage": 10,
+          "speed": 10,
           "radius": 2
         }
-      ],
-      "radius": 2
+      ]
     },
     {
       "id": "hPileBanker01",
@@ -8312,8 +8480,14 @@
       "attacks": [
         {
           "name": "Combo",
-          "damage": 600,
-          "range": null,
+          "damage": 1,
+          "speed": 1,
+          "piercing": 1
+        },
+        {
+          "name": "Combo",
+          "damage": 1.5,
+          "speed": 2,
           "piercing": 1
         }
       ]
@@ -8372,7 +8546,13 @@
       "reload": 180,
       "secondary": 5,
       "accuracy": 0,
-      "attacks": []
+      "attacks": [
+        {
+          "name": "Combo",
+          "damage": 1,
+          "speed": 1
+        }
+      ]
     },
     {
       "id": "Weapon380",
@@ -8394,8 +8574,14 @@
       "attacks": [
         {
           "name": "Combo",
-          "damage": 1000,
-          "range": null,
+          "damage": 1,
+          "speed": 1,
+          "piercing": 1
+        },
+        {
+          "name": "Combo",
+          "damage": 1,
+          "speed": 3,
           "piercing": 1
         }
       ]
@@ -8422,8 +8608,15 @@
       "attacks": [
         {
           "name": "Combo",
-          "damage": 600,
-          "range": null,
+          "damage": 1,
+          "speed": 1,
+          "piercing": 1,
+          "count": 2
+        },
+        {
+          "name": "Combo",
+          "damage": 1.5,
+          "speed": 1,
           "piercing": 1,
           "count": 2
         }
@@ -8483,7 +8676,13 @@
       "reload": 180,
       "secondary": 5,
       "accuracy": 0,
-      "attacks": []
+      "attacks": [
+        {
+          "name": "Combo",
+          "damage": 1,
+          "speed": 1
+        }
+      ]
     },
     {
       "id": "Weapon385",
@@ -8524,8 +8723,14 @@
       "attacks": [
         {
           "name": "Combo",
-          "damage": 2100,
-          "range": null,
+          "damage": 1,
+          "speed": 1,
+          "piercing": 1
+        },
+        {
+          "name": "Combo",
+          "damage": 1.6,
+          "speed": 2,
           "piercing": 1
         }
       ]
@@ -8552,8 +8757,15 @@
       "attacks": [
         {
           "name": "Combo",
-          "damage": 1125,
-          "range": null,
+          "damage": 1.5,
+          "speed": 1,
+          "piercing": 1,
+          "count": 2
+        },
+        {
+          "name": "Combo",
+          "damage": 1,
+          "speed": 1,
           "piercing": 1,
           "count": 2
         }
@@ -8579,8 +8791,14 @@
       "attacks": [
         {
           "name": "Combo",
-          "damage": 2700,
-          "range": null,
+          "damage": 1,
+          "speed": 1,
+          "piercing": 1
+        },
+        {
+          "name": "Combo",
+          "damage": 1.65,
+          "speed": 2.5,
           "piercing": 1
         }
       ]
@@ -8620,7 +8838,13 @@
       "reload": 180,
       "secondary": 5,
       "accuracy": 0,
-      "attacks": []
+      "attacks": [
+        {
+          "name": "Combo",
+          "damage": 1,
+          "speed": 1
+        }
+      ]
     },
     {
       "id": "Weapon391",
@@ -8661,8 +8885,14 @@
       "attacks": [
         {
           "name": "Combo",
-          "damage": 4800,
-          "range": null,
+          "damage": 1,
+          "speed": 1,
+          "piercing": 1
+        },
+        {
+          "name": "Combo",
+          "damage": 1.65,
+          "speed": 2.5,
           "piercing": 1
         }
       ]
@@ -8707,8 +8937,15 @@
       "attacks": [
         {
           "name": "Combo",
-          "damage": 2250,
-          "range": null,
+          "damage": 1,
+          "speed": 1,
+          "piercing": 1,
+          "count": 2
+        },
+        {
+          "name": "Combo",
+          "damage": 1.5,
+          "speed": 1,
           "piercing": 1,
           "count": 2
         }
@@ -8734,8 +8971,14 @@
       "attacks": [
         {
           "name": "Combo",
-          "damage": 8000,
-          "range": null,
+          "damage": 1,
+          "speed": 1,
+          "piercing": 1
+        },
+        {
+          "name": "Combo",
+          "damage": 1,
+          "speed": 3,
           "piercing": 1
         }
       ]
@@ -8757,7 +9000,13 @@
       "reload": 120,
       "secondary": 5,
       "accuracy": 0,
-      "attacks": []
+      "attacks": [
+        {
+          "name": "Combo",
+          "damage": 1,
+          "speed": 1
+        }
+      ]
     },
     {
       "id": "Weapon397",
@@ -8797,8 +9046,14 @@
       "attacks": [
         {
           "name": "Combo",
-          "damage": 7500,
-          "range": null,
+          "damage": 1,
+          "speed": 1,
+          "piercing": 1
+        },
+        {
+          "name": "Combo",
+          "damage": 1.75,
+          "speed": 3,
           "piercing": 1
         }
       ]
@@ -8825,8 +9080,15 @@
       "attacks": [
         {
           "name": "Combo",
-          "damage": 4200,
-          "range": null,
+          "damage": 2,
+          "speed": 1,
+          "piercing": 1,
+          "count": 2
+        },
+        {
+          "name": "Combo",
+          "damage": 1.5,
+          "speed": 1,
           "piercing": 1,
           "count": 2
         }
@@ -8868,7 +9130,13 @@
       "reload": 180,
       "secondary": 5,
       "accuracy": 0,
-      "attacks": []
+      "attacks": [
+        {
+          "name": "Combo",
+          "damage": 1,
+          "speed": 1
+        }
+      ]
     },
     {
       "id": "hShield01",
@@ -11380,7 +11648,8 @@
           "value": 4
         }
       ],
-      "supportType": "life"
+      "supportType": "life",
+      "duration": 3600
     },
     {
       "id": "Weapon518",
@@ -11399,7 +11668,8 @@
       "life": 3600,
       "interval": 60,
       "reload": -1,
-      "supportType": "life"
+      "supportType": "life",
+      "duration": 3600
     },
     {
       "id": "Weapon519",
@@ -11421,7 +11691,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "supportType": "life"
+      "supportType": "life",
+      "duration": 600
     },
     {
       "id": "Weapon520",
@@ -11443,7 +11714,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "supportType": "life"
+      "supportType": "life",
+      "duration": 600
     },
     {
       "id": "Weapon521",
@@ -11462,7 +11734,8 @@
       "life": 3600,
       "interval": 60,
       "reload": -1,
-      "supportType": "life"
+      "supportType": "life",
+      "duration": 3600
     },
     {
       "id": "Weapon522",
@@ -11481,7 +11754,8 @@
       "life": 3600,
       "interval": 60,
       "reload": -1,
-      "supportType": "life"
+      "supportType": "life",
+      "duration": 3600
     },
     {
       "id": "Weapon523",
@@ -11503,7 +11777,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "supportType": "life"
+      "supportType": "life",
+      "duration": 600
     },
     {
       "id": "Weapon524",
@@ -11522,7 +11797,8 @@
       "life": 3600,
       "interval": 60,
       "reload": -1,
-      "supportType": "life"
+      "supportType": "life",
+      "duration": 3600
     },
     {
       "id": "Weapon525",
@@ -11544,7 +11820,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "supportType": "life"
+      "supportType": "life",
+      "duration": 600
     },
     {
       "id": "Weapon526",
@@ -11569,7 +11846,8 @@
           "value": 4
         }
       ],
-      "supportType": "plasma"
+      "supportType": "plasma",
+      "duration": 5400
     },
     {
       "id": "Weapon527",
@@ -11590,7 +11868,8 @@
       "secondary": 1,
       "zoom": 6,
       "accuracy": 0,
-      "supportType": "plasma"
+      "supportType": "plasma",
+      "duration": 1800
     },
     {
       "id": "Weapon528",
@@ -11615,7 +11894,8 @@
           "value": 4
         }
       ],
-      "supportType": "plasma"
+      "supportType": "plasma",
+      "duration": 5400
     },
     {
       "id": "Weapon529",
@@ -11640,7 +11920,8 @@
           "value": 4
         }
       ],
-      "supportType": "plasma"
+      "supportType": "plasma",
+      "duration": 800
     },
     {
       "id": "Weapon530",
@@ -11665,7 +11946,8 @@
           "value": 4
         }
       ],
-      "supportType": "plasma"
+      "supportType": "plasma",
+      "duration": 5400
     },
     {
       "id": "Weapon531",
@@ -11686,7 +11968,8 @@
       "secondary": 1,
       "zoom": 8,
       "accuracy": 0,
-      "supportType": "plasma"
+      "supportType": "plasma",
+      "duration": 1800
     },
     {
       "id": "Weapon532",
@@ -11711,7 +11994,8 @@
           "value": 4
         }
       ],
-      "supportType": "plasma"
+      "supportType": "plasma",
+      "duration": 1200
     },
     {
       "id": "Weapon533",
@@ -11736,7 +12020,8 @@
           "value": 4
         }
       ],
-      "supportType": "plasma"
+      "supportType": "plasma",
+      "duration": 5400
     },
     {
       "id": "Weapon534",
@@ -11757,7 +12042,8 @@
       "secondary": 1,
       "zoom": 12,
       "accuracy": 0,
-      "supportType": "plasma"
+      "supportType": "plasma",
+      "duration": 1800
     },
     {
       "id": "Weapon535",
@@ -11778,7 +12064,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "supportType": "power"
+      "supportType": "power",
+      "duration": 1800
     },
     {
       "id": "Weapon536",
@@ -11797,7 +12084,8 @@
       "life": 3600,
       "interval": 60,
       "reload": 3600,
-      "supportType": "power"
+      "supportType": "power",
+      "duration": 3600
     },
     {
       "id": "Weapon537",
@@ -11816,7 +12104,8 @@
       "life": 5400,
       "interval": 60,
       "reload": 3600,
-      "supportType": "power"
+      "supportType": "power",
+      "duration": 5400
     },
     {
       "id": "Weapon538",
@@ -11837,7 +12126,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "supportType": "power"
+      "supportType": "power",
+      "duration": 2700
     },
     {
       "id": "Weapon539",
@@ -11856,7 +12146,8 @@
       "life": 5400,
       "interval": 60,
       "reload": 3600,
-      "supportType": "power"
+      "supportType": "power",
+      "duration": 5400
     },
     {
       "id": "Weapon540",
@@ -11877,7 +12168,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "supportType": "power"
+      "supportType": "power",
+      "duration": 3600
     },
     {
       "id": "Weapon541",
@@ -11896,7 +12188,8 @@
       "life": 5400,
       "interval": 60,
       "reload": 3600,
-      "supportType": "power"
+      "supportType": "power",
+      "duration": 5400
     },
     {
       "id": "Weapon542",
@@ -11921,7 +12214,8 @@
           "value": 4
         }
       ],
-      "supportType": "guard"
+      "supportType": "guard",
+      "duration": 7200
     },
     {
       "id": "Weapon543",
@@ -11943,7 +12237,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "supportType": "guard"
+      "supportType": "guard",
+      "duration": 3600
     },
     {
       "id": "Weapon544",
@@ -11968,7 +12263,8 @@
           "value": 0
         }
       ],
-      "supportType": "guard"
+      "supportType": "guard",
+      "duration": 7200
     },
     {
       "id": "Weapon545",
@@ -11993,7 +12289,8 @@
           "value": 0
         }
       ],
-      "supportType": "guard"
+      "supportType": "guard",
+      "duration": 7200
     },
     {
       "id": "Weapon546",
@@ -12015,7 +12312,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "supportType": "guard"
+      "supportType": "guard",
+      "duration": 5400
     },
     {
       "id": "Weapon547",
@@ -12040,7 +12338,8 @@
           "value": 0
         }
       ],
-      "supportType": "guard"
+      "supportType": "guard",
+      "duration": 7200
     },
     {
       "id": "Weapon548",
@@ -12065,7 +12364,8 @@
           "value": 0
         }
       ],
-      "supportType": "guard"
+      "supportType": "guard",
+      "duration": 7200
     },
     {
       "id": "eRequestMortar01",

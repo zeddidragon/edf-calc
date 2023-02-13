@@ -40817,14 +40817,12 @@
         {
           "name": "Combo",
           "damage": 1,
-          "speed": 1.25,
-          "piercing": 1
+          "speed": 1.25
         },
         {
           "name": "Combo",
           "damage": 1.25,
-          "speed": 1.5,
-          "piercing": 1
+          "speed": 1.5
         }
       ]
     },
@@ -41075,14 +41073,12 @@
         {
           "name": "Combo",
           "damage": 1.2,
-          "speed": 1.25,
-          "piercing": 1
+          "speed": 1.25
         },
         {
           "name": "Combo",
           "damage": 1,
-          "speed": 2,
-          "piercing": 1
+          "speed": 2
         }
       ]
     },
@@ -41141,16 +41137,12 @@
         {
           "name": "Combo",
           "damage": 1,
-          "speed": 1,
-          "piercing": 1,
-          "count": 2
+          "speed": 1
         },
         {
           "name": "Combo",
           "damage": 1.5,
-          "speed": 1,
-          "piercing": 1,
-          "count": 2
+          "speed": 1
         }
       ]
     },
@@ -41461,14 +41453,12 @@
         {
           "name": "Combo",
           "damage": 1,
-          "speed": 1.25,
-          "piercing": 1
+          "speed": 1.25
         },
         {
           "name": "Combo",
           "damage": 1.3,
-          "speed": 1.5,
-          "piercing": 1
+          "speed": 1.5
         }
       ]
     },
@@ -41527,16 +41517,12 @@
         {
           "name": "Combo",
           "damage": 1.5,
-          "speed": 1,
-          "piercing": 1,
-          "count": 2
+          "speed": 1
         },
         {
           "name": "Combo",
           "damage": 1,
-          "speed": 1,
-          "piercing": 1,
-          "count": 2
+          "speed": 1
         }
       ]
     },
@@ -41594,14 +41580,12 @@
         {
           "name": "Combo",
           "damage": 1.1,
-          "speed": 1.25,
-          "piercing": 1
+          "speed": 1.25
         },
         {
           "name": "Combo",
           "damage": 1.3,
-          "speed": 1.75,
-          "piercing": 1
+          "speed": 1.75
         }
       ]
     },
@@ -41852,14 +41836,12 @@
         {
           "name": "Combo",
           "damage": 1.2,
-          "speed": 1.25,
-          "piercing": 1
+          "speed": 1.25
         },
         {
           "name": "Combo",
           "damage": 1.3,
-          "speed": 1.75,
-          "piercing": 1
+          "speed": 1.75
         }
       ]
     },
@@ -41977,16 +41959,12 @@
         {
           "name": "Combo",
           "damage": 1,
-          "speed": 1,
-          "piercing": 1,
-          "count": 2
+          "speed": 1
         },
         {
           "name": "Combo",
           "damage": 1.5,
-          "speed": 1,
-          "piercing": 1,
-          "count": 2
+          "speed": 1
         }
       ]
     },
@@ -42044,14 +42022,12 @@
         {
           "name": "Combo",
           "damage": 1,
-          "speed": 1.25,
-          "piercing": 1
+          "speed": 1.25
         },
         {
           "name": "Combo",
           "damage": 1,
-          "speed": 2,
-          "piercing": 1
+          "speed": 2
         }
       ]
     },
@@ -42242,14 +42218,12 @@
         {
           "name": "Combo",
           "damage": 1.2,
-          "speed": 1.25,
-          "piercing": 1
+          "speed": 1.25
         },
         {
           "name": "Combo",
           "damage": 1.37,
-          "speed": 2,
-          "piercing": 1
+          "speed": 2
         }
       ]
     },
@@ -42308,16 +42282,12 @@
         {
           "name": "Combo",
           "damage": 2,
-          "speed": 1,
-          "piercing": 1,
-          "count": 2
+          "speed": 1
         },
         {
           "name": "Combo",
           "damage": 1.5,
-          "speed": 1,
-          "piercing": 1,
-          "count": 2
+          "speed": 1
         }
       ]
     },
@@ -71649,16 +71619,12 @@
         {
           "name": "Combo",
           "damage": 2,
-          "speed": 1,
-          "piercing": 1,
-          "count": 2
+          "speed": 1
         },
         {
           "name": "Combo",
           "damage": 1.5,
-          "speed": 1,
-          "piercing": 1,
-          "count": 2
+          "speed": 1
         }
       ]
     },
@@ -74069,14 +74035,12 @@
         {
           "name": "Combo",
           "damage": 1.2,
-          "speed": 1.25,
-          "piercing": 1
+          "speed": 1.25
         },
         {
           "name": "Combo",
           "damage": 1.37,
-          "speed": 2,
-          "piercing": 1
+          "speed": 2
         }
       ]
     },

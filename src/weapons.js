@@ -324,7 +324,9 @@ function composeAttack(weapon, attack) {
     damage: weapon.damage * attack.damage,
     speed: weapon.speed * attack.speed,
     piercing: weapon.piercing,
+    count: weapon.count,
     life: weapon.life,
+    isSwing: weapon.attacks.length > 1,
   }
 }
 
@@ -906,6 +908,22 @@ const headers = [{
       return wpn.reload
     }
     return +(wpn.reload / FPS).toFixed(2)
+  }
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'spear',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Swing',
+  cb: wpn => {
+    if(!wpn.isSwing) {
+      return '-'
+    }
+    return `${wpn.swing}x`
   }
 }, {
   iff: (ch, cat, wpn) => {

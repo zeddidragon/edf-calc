@@ -528,6 +528,40 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
+      'bike',
+      'heli',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Fuel',
+  cb: wpn => {
+    if(!wpn.fuel) {
+      return '-'
+    }
+    return wpn.fuel
+  }
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'bike',
+      'heli',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Cns',
+  cb: wpn => {
+    if(!wpn.fuelUsage) {
+      return '-'
+    }
+    return wpn.fuelUsage
+  }
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
       'artillery',
       'planes',
       'raid',
@@ -918,10 +952,6 @@ const headers = [{
       'artillery',
       'planes',
       'support',
-      'tank',
-      'ground',
-      'heli',
-      'mech',
     ].includes(cat)) {
       return false
     }

@@ -17530,6 +17530,7 @@
       "raw": 7,
       "odds": "starter",
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -17557,6 +17558,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -17573,7 +17575,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "walkSpeed": 1.15,
+      "sprintSpeed": 1.2
     },
     {
       "id": "aWeapon243",
@@ -17584,6 +17588,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -17600,7 +17605,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "hitSlowdown": 0.5
     },
     {
       "id": "aWeapon244",
@@ -17611,6 +17617,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -17627,7 +17634,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "sprintDestruction": true
     },
     {
       "id": "aWeapon245",
@@ -17638,6 +17646,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -17654,7 +17663,10 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "walkSpeed": 1.15,
+      "sprintSpeed": 1.2,
+      "sprintDestruction": true
     },
     {
       "id": "aWeapon246",
@@ -17665,6 +17677,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -17681,7 +17694,10 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "walkSpeed": 1.15,
+      "sprintSpeed": 1.2,
+      "hitSlowdown": 0.5
     },
     {
       "id": "aWeapon247",
@@ -17692,6 +17708,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -17708,7 +17725,12 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "sprintSpeed": 1.5,
+      "sprintSwirl": 0.25,
+      "sprintAcceleration": 0.4,
+      "sprintDestruction": true,
+      "sprintHitSlowdown": 0.5
     },
     {
       "id": "aWeapon248",
@@ -17719,6 +17741,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -17735,7 +17758,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "walkSpeed": 1.25,
+      "sprintSpeed": 1.3,
+      "sprintAcceleration": 2,
+      "sprintSwirl": 1.25
     },
     {
       "id": "aWeapon249",
@@ -17746,6 +17773,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -17762,7 +17790,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "hitSlowdown": 0
     },
     {
       "id": "aWeapon250",
@@ -17773,6 +17802,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -17789,7 +17819,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "walkSpeed": 1.15,
+      "sprintSpeed": 1.2,
+      "sprintDestruction": true,
+      "hitSlowdown": 0.5
     },
     {
       "id": "aWeapon251",
@@ -17800,6 +17834,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -17816,7 +17851,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "isKnockImmune": true
     },
     {
       "id": "aWeapon252",
@@ -17827,6 +17863,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -17843,7 +17880,12 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "walkSpeed": 1.25,
+      "sprintSpeed": 1.3,
+      "sprintAcceleration": 2,
+      "sprintSwirl": 1.25,
+      "sprintDestruction": true
     },
     {
       "id": "aWeapon253",
@@ -17854,6 +17896,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -17870,7 +17913,12 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "sprintSpeed": 1.75,
+      "sprintSwirl": 0.5,
+      "sprintAcceleration": 0.7,
+      "sprintDestruction": true,
+      "sprintHitSlowdown": 0.25
     },
     {
       "id": "aWeapon254",
@@ -17881,6 +17929,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -17897,7 +17946,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "walkSpeed": 1.25,
+      "sprintSpeed": 1.3,
+      "sprintAcceleration": 2,
+      "hitSlowdown": 0.5
     },
     {
       "id": "aWeapon255",
@@ -17908,6 +17961,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -17924,7 +17978,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "walkSpeed": 1.32,
+      "sprintSpeed": 1.4,
+      "sprintAcceleration": 3,
+      "sprintSwirl": 1.5
     },
     {
       "id": "aWeapon256",
@@ -17935,6 +17993,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -17951,7 +18010,13 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "walkSpeed": 1.25,
+      "sprintSpeed": 1.3,
+      "sprintAcceleration": 2,
+      "sprintSwirl": 1.25,
+      "sprintDestruction": true,
+      "isKnockImmune": true
     },
     {
       "id": "aWeapon257",
@@ -17962,6 +18027,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -17978,7 +18044,12 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "sprintSpeed": 2,
+      "sprintSwirl": 0.75,
+      "sprintAcceleration": 1,
+      "sprintDestruction": true,
+      "sprintHitSlowdown": 0
     },
     {
       "id": "aWeapon258",
@@ -17989,6 +18060,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18005,7 +18077,12 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "walkSpeed": 1.32,
+      "sprintSpeed": 1.4,
+      "sprintAcceleration": 3,
+      "sprintSwirl": 1.5,
+      "sprintHitSlowdown": 0.5
     },
     {
       "id": "aWeapon259",
@@ -18016,6 +18093,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18032,7 +18110,12 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "walkSpeed": 1.4,
+      "sprintSpeed": 1.5,
+      "sprintAcceleration": 4,
+      "sprintSwirl": 2,
+      "sprintDestruction": true
     },
     {
       "id": "aWeapon260",
@@ -18043,6 +18126,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18059,7 +18143,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "isMultiLock": true
     },
     {
       "id": "aWeapon261",
@@ -18070,6 +18155,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18080,8 +18166,8 @@
       "burst": 0,
       "burstRate": 0,
       "interval": 1,
-      "lockRange": 0,
-      "lockTime": 0,
+      "lockRange": 1.25,
+      "lockTime": 1.5,
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
@@ -18097,6 +18183,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18108,12 +18195,13 @@
       "burstRate": 0,
       "interval": 1,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 1.5,
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "isMultiLock": true
     },
     {
       "id": "aWeapon263",
@@ -18124,6 +18212,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18134,8 +18223,8 @@
       "burst": 0,
       "burstRate": 0,
       "interval": 1,
-      "lockRange": 0,
-      "lockTime": 0,
+      "lockRange": 1.5,
+      "lockTime": 2,
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
@@ -18151,6 +18240,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18162,12 +18252,13 @@
       "burstRate": 0,
       "interval": 1,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 2,
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "isMultiLock": true
     },
     {
       "id": "aWeapon265",
@@ -18178,6 +18269,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18188,8 +18280,8 @@
       "burst": 0,
       "burstRate": 0,
       "interval": 1,
-      "lockRange": 0,
-      "lockTime": 0,
+      "lockRange": 1.75,
+      "lockTime": 3,
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
@@ -18205,6 +18297,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18216,12 +18309,13 @@
       "burstRate": 0,
       "interval": 1,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 3,
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "isMultiLock": true
     },
     {
       "id": "aWeapon267",
@@ -18232,6 +18326,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18242,8 +18337,8 @@
       "burst": 0,
       "burstRate": 0,
       "interval": 1,
-      "lockRange": 0,
-      "lockTime": 0,
+      "lockRange": 2,
+      "lockTime": 4,
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
@@ -18259,6 +18354,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18275,7 +18371,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "allyRecovery": 1.1
     },
     {
       "id": "aWeapon269",
@@ -18286,6 +18383,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18302,7 +18400,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "allyRecovery": 1.25
     },
     {
       "id": "aWeapon270",
@@ -18313,6 +18412,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18329,7 +18429,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "allyRecovery": 1.5
     },
     {
       "id": "aWeapon271",
@@ -18340,6 +18441,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18356,7 +18458,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "allyRecovery": 2
     },
     {
       "id": "aWeapon272",
@@ -18367,6 +18470,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18383,7 +18487,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "allyRecovery": 2.5
     },
     {
       "id": "DLC_aSupport_pickup",
@@ -18394,6 +18499,7 @@
       "raw": 7,
       "odds": "dlc",
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18410,7 +18516,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "itemRange": 2.5,
+      "allyRecovery": 1.1
     },
     {
       "id": "aWeapon273",
@@ -18421,6 +18529,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18437,7 +18546,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "itemRange": 2
     },
     {
       "id": "aWeapon274",
@@ -18448,6 +18558,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18464,7 +18575,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "itemRange": 3
     },
     {
       "id": "aWeapon275",
@@ -18475,6 +18587,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18491,7 +18604,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "itemRange": 5
     },
     {
       "id": "aWeapon276",
@@ -18502,6 +18616,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18518,7 +18633,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "itemRange": 7
     },
     {
       "id": "aWeapon277",
@@ -18529,6 +18645,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -18545,7 +18662,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "itemRange": 11
     },
     {
       "id": "DLC_Vehicle_Bike",
@@ -37381,6 +37499,7 @@
       "raw": 108,
       "odds": "dlc",
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -37401,7 +37520,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "chargeSpeed": 1.1,
+      "emergencyChargeSpeed": 1.35
     },
     {
       "id": "pSupportNone",
@@ -37412,6 +37533,7 @@
       "raw": 108,
       "odds": "starter",
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -37448,6 +37570,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -37473,7 +37596,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "thrustForward": 1.25,
+      "thrustSide": 1,
+      "thrustRear": 1,
+      "boostConsumption": 1.05
     },
     {
       "id": "pWeapon222",
@@ -37484,6 +37611,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -37520,6 +37648,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -37545,7 +37674,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "weaponReload": 1.2
     },
     {
       "id": "pWeapon224",
@@ -37556,6 +37686,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -37592,6 +37723,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -37628,6 +37760,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -37653,7 +37786,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "thrustForward": 1.3,
+      "thrustSide": 1,
+      "thrustRear": 1,
+      "boostConsumption": 1.05
     },
     {
       "id": "pWeapon227",
@@ -37664,6 +37801,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -37689,7 +37827,10 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "flightSpeed": 0.9,
+      "chargeSpeed": 0.8,
+      "emergencyChargeSpeed": 0.8
     },
     {
       "id": "pWeapon228",
@@ -37700,6 +37841,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -37725,7 +37867,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "weaponReload": 1.2
     },
     {
       "id": "pWeapon229",
@@ -37736,6 +37879,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -37761,7 +37905,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "thrustForward": 2,
+      "thrustSide": 1,
+      "thrustRear": 1,
+      "boostConsumption": 2
     },
     {
       "id": "pWeapon230",
@@ -37772,6 +37920,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -37808,6 +37957,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -37833,7 +37983,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "chargeSpeed": 1.1,
+      "emergencyChargeSpeed": 1.35
     },
     {
       "id": "pWeapon232",
@@ -37844,6 +37996,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -37880,6 +38033,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -37905,7 +38059,16 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "chargeSpeed": 0.8,
+      "emergencyChargeSpeed": 0.65,
+      "prop204": 0.5,
+      "prop203": 0.4,
+      "weaponReload": 3,
+      "thrustForward": 0.6,
+      "thrustSide": 0.6,
+      "thrustRear": 0.6,
+      "prop210": 4
     },
     {
       "id": "pWeapon234",
@@ -37916,6 +38079,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -37941,7 +38105,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "thrustForward": 1.3,
+      "thrustSide": 1.15,
+      "thrustRear": 1,
+      "boostConsumption": 1.1
     },
     {
       "id": "pWeapon235",
@@ -37952,6 +38120,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -37988,6 +38157,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -38013,7 +38183,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "weaponReload": 1.3
     },
     {
       "id": "pWeapon237",
@@ -38024,6 +38195,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -38049,7 +38221,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "boostConsumption": 0.6
     },
     {
       "id": "pWeapon238",
@@ -38060,6 +38233,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -38096,6 +38270,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -38132,6 +38307,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -38157,7 +38333,10 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "flightSpeed": 1.25,
+      "prop204": 1.25,
+      "prop205": 1.25
     },
     {
       "id": "pWeapon241",
@@ -38168,6 +38347,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -38193,7 +38373,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "thrustForward": 1,
+      "thrustSide": 1.3,
+      "thrustRear": 1.2,
+      "boostConsumption": 1.2
     },
     {
       "id": "pWeapon242",
@@ -38204,6 +38388,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -38240,6 +38425,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -38265,7 +38451,10 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "flightSpeed": 0.8,
+      "chargeSpeed": 0.68,
+      "emergencyChargeSpeed": 0.68
     },
     {
       "id": "pWeapon244",
@@ -38276,6 +38465,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -38301,7 +38491,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "thrustForward": 1.35,
+      "thrustSide": 1.2,
+      "thrustRear": 1,
+      "boostConsumption": 1.15
     },
     {
       "id": "pWeapon245",
@@ -38312,6 +38506,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -38348,6 +38543,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -38384,6 +38580,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -38409,7 +38606,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "weaponReload": 1.5
     },
     {
       "id": "pWeapon248",
@@ -38420,6 +38618,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -38456,6 +38655,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -38481,7 +38681,16 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "chargeSpeed": 0.8,
+      "emergencyChargeSpeed": 0.65,
+      "prop204": 0.5,
+      "prop203": 0.4,
+      "weaponReload": 3,
+      "thrustForward": 0.6,
+      "thrustSide": 0.6,
+      "thrustRear": 0.6,
+      "prop210": 4
     },
     {
       "id": "pWeapon250",
@@ -38492,6 +38701,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -38517,7 +38727,10 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "flightSpeed": 1.3,
+      "prop204": 1.3,
+      "prop205": 1.25
     },
     {
       "id": "pWeapon251",
@@ -38528,6 +38741,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -38553,7 +38767,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "weaponReload": 1.5
     },
     {
       "id": "pWeapon252",
@@ -38564,6 +38779,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -38589,7 +38805,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "thrustForward": 2,
+      "thrustSide": 1.5,
+      "thrustRear": 1,
+      "boostConsumption": 2.25
     },
     {
       "id": "pWeapon253",
@@ -38600,6 +38820,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50379,6 +50600,7 @@
       "raw": 206,
       "odds": "starter",
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50406,6 +50628,7 @@
       "raw": 206,
       "odds": "starter",
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50433,6 +50656,7 @@
       "raw": 206,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50449,7 +50673,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "dashCount": 2
     },
     {
       "id": "hWeapon161",
@@ -50460,6 +50685,7 @@
       "raw": 206,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50476,7 +50702,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "dashCount": 3,
+      "dashInterval": 0.46
     },
     {
       "id": "hWeapon162",
@@ -50487,6 +50715,7 @@
       "raw": 206,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50503,7 +50732,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "dashCount": 4,
+      "dashInterval": 0.43
     },
     {
       "id": "hWeapon163",
@@ -50514,6 +50745,7 @@
       "raw": 206,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50530,7 +50762,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "dashCount": 5,
+      "dashInterval": 0.4
     },
     {
       "id": "hWeapon164",
@@ -50541,6 +50775,7 @@
       "raw": 206,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50557,7 +50792,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "dashCount": 6,
+      "dashInterval": 0.4
     },
     {
       "id": "hWeapon165",
@@ -50568,6 +50805,7 @@
       "raw": 206,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50584,7 +50822,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "boostCount": 2,
+      "boostSpeed": 1.1
     },
     {
       "id": "hWeapon166",
@@ -50595,6 +50835,7 @@
       "raw": 206,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50611,7 +50852,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "boostCount": 3,
+      "boostSpeed": 1.2
     },
     {
       "id": "hWeapon167",
@@ -50622,6 +50865,7 @@
       "raw": 206,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50638,7 +50882,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "boostCount": 4,
+      "boostSpeed": 1.3
     },
     {
       "id": "hWeapon168",
@@ -50649,6 +50895,7 @@
       "raw": 206,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50665,7 +50912,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "boostCount": 5,
+      "boostSpeed": 1.4
     },
     {
       "id": "hWeapon169",
@@ -50676,6 +50925,7 @@
       "raw": 206,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50692,7 +50942,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "boostCount": 6,
+      "boostSpeed": 1.5
     },
     {
       "id": "hWeapon170",
@@ -50703,6 +50955,7 @@
       "raw": 206,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50719,7 +50972,10 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "dashCount": 2,
+      "boostCount": 2,
+      "boostSpeed": 1.1
     },
     {
       "id": "hWeapon171",
@@ -50730,6 +50986,7 @@
       "raw": 206,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50746,7 +51003,10 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "dashCount": 2,
+      "boostCount": 3,
+      "boostSpeed": 1.15
     },
     {
       "id": "hWeapon172",
@@ -50757,6 +51017,7 @@
       "raw": 206,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50773,7 +51034,10 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "dashCount": 3,
+      "boostCount": 2,
+      "boostSpeed": 1.2
     },
     {
       "id": "hWeapon173",
@@ -50784,6 +51048,7 @@
       "raw": 206,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50800,7 +51065,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "dashCount": 3,
+      "boostCount": 3,
+      "boostSpeed": 1.25,
+      "dashInterval": 0.45
     },
     {
       "id": "hWeapon174",
@@ -50811,6 +51080,7 @@
       "raw": 206,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50827,7 +51097,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "dashCount": 3,
+      "boostCount": 4,
+      "boostSpeed": 1.3,
+      "dashInterval": 0.43
     },
     {
       "id": "hWeapon175",
@@ -50838,6 +51112,7 @@
       "raw": 206,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50854,7 +51129,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "dashCount": 4,
+      "boostCount": 3,
+      "boostSpeed": 1.35,
+      "dashInterval": 0.43
     },
     {
       "id": "hWeapon176",
@@ -50865,6 +51144,7 @@
       "raw": 207,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50881,7 +51161,10 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "shieldDeflectConsumption": 0.65,
+      "shieldDamageReduction": 0.8,
+      "shieldKnockback": 0.75
     },
     {
       "id": "hWeapon177",
@@ -50892,6 +51175,7 @@
       "raw": 207,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50908,7 +51192,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "shieldDurability": 2,
+      "shieldAngle": 20
     },
     {
       "id": "hWeapon178",
@@ -50919,6 +51205,7 @@
       "raw": 207,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50935,7 +51222,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "shieldConsumption": 1.8,
+      "shieldDamageReduction": 0.25,
+      "shieldKnockback": 0.4,
+      "isBarricade": true
     },
     {
       "id": "hWeapon179",
@@ -50946,6 +51237,7 @@
       "raw": 207,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50962,7 +51254,10 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "shieldDeflectConsumption": 0.5,
+      "shieldDamageReduction": 0.75,
+      "shieldKnockback": 0.6
     },
     {
       "id": "hWeapon180",
@@ -50973,6 +51268,7 @@
       "raw": 207,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -50989,7 +51285,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "shieldConsumption": 1.6,
+      "shieldDamageReduction": 0.1,
+      "shieldKnockback": 0.2,
+      "isBarricade": true
     },
     {
       "id": "hWeapon181",
@@ -51000,6 +51300,7 @@
       "raw": 207,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51016,7 +51317,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "shieldDurability": 4,
+      "shieldAngle": 30
     },
     {
       "id": "hWeapon182",
@@ -51027,6 +51330,7 @@
       "raw": 207,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51043,7 +51347,10 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "shieldDeflectConsumption": 0.35,
+      "shieldDamageReduction": 0.7,
+      "shieldKnockback": 0.2
     },
     {
       "id": "hWeapon183",
@@ -51054,6 +51361,7 @@
       "raw": 207,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51070,7 +51378,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "shieldConsumption": 1.4,
+      "shieldDamageReduction": 0.05,
+      "shieldKnockback": 0,
+      "isBarricade": true
     },
     {
       "id": "hWeapon184",
@@ -51081,6 +51393,7 @@
       "raw": 207,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51097,7 +51410,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "shieldDurability": 6,
+      "shieldAngle": 40
     },
     {
       "id": "hWeapon185",
@@ -51108,6 +51423,7 @@
       "raw": 207,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51124,7 +51440,10 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "shieldDeflectConsumption": 0.2,
+      "shieldDamageReduction": 0.6,
+      "shieldKnockback": 0.1
     },
     {
       "id": "hWeapon186",
@@ -51135,6 +51454,7 @@
       "raw": 207,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51151,7 +51471,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "shieldConsumption": 1.5,
+      "shieldDamageReduction": 0,
+      "shieldKnockback": 0,
+      "isBarricade": true
     },
     {
       "id": "hWeapon187",
@@ -51162,6 +51486,7 @@
       "raw": 207,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51178,7 +51503,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "shieldDurability": 8,
+      "shieldAngle": 60
     },
     {
       "id": "hWeapon188",
@@ -51189,6 +51516,7 @@
       "raw": 208,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51205,7 +51533,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "equipRecoil": 0.6
     },
     {
       "id": "hWeapon189",
@@ -51216,6 +51545,7 @@
       "raw": 208,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51232,7 +51562,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "equipRecoil": 0.4
     },
     {
       "id": "hWeapon190",
@@ -51243,6 +51574,7 @@
       "raw": 208,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51259,7 +51591,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "equipRecoil": 0.3
     },
     {
       "id": "hWeapon191",
@@ -51270,6 +51603,7 @@
       "raw": 208,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51286,7 +51620,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "equipRecoil": 0.2
     },
     {
       "id": "hWeapon192",
@@ -51297,6 +51632,7 @@
       "raw": 208,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51313,7 +51649,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "equipRecoil": 0.1
     },
     {
       "id": "hWeapon193",
@@ -51324,6 +51661,7 @@
       "raw": 208,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51340,7 +51678,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "equipRecoil": 0
     },
     {
       "id": "DLC_hSupport_Actuator",
@@ -51351,6 +51690,7 @@
       "raw": 209,
       "odds": "dlc",
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51367,7 +51707,10 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "equipWeightMoveReduction": 0.5,
+      "walkSpeed": 1.3,
+      "dashCount": 2
     },
     {
       "id": "hWeapon194",
@@ -51378,6 +51721,7 @@
       "raw": 209,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51394,7 +51738,10 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "equipWeightTurnReduction": 0.3,
+      "equipWeightMoveReduction": 0.3,
+      "walkSpeed": 1.1
     },
     {
       "id": "hWeapon195",
@@ -51405,6 +51752,7 @@
       "raw": 209,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51421,7 +51769,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "equipWeightMoveReduction": 0.5,
+      "walkSpeed": 1.3
     },
     {
       "id": "hWeapon196",
@@ -51432,6 +51782,7 @@
       "raw": 209,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51448,7 +51799,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "equipWeightTurnReduction": 0.5
     },
     {
       "id": "hWeapon197",
@@ -51459,6 +51811,7 @@
       "raw": 209,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51475,7 +51828,10 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "equipWeightTurnReduction": 0.5,
+      "equipWeightMoveReduction": 0.5,
+      "walkSpeed": 1.2
     },
     {
       "id": "hWeapon198",
@@ -51486,6 +51842,7 @@
       "raw": 209,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51502,7 +51859,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "equipWeightMoveReduction": 0.75,
+      "walkSpeed": 1.5
     },
     {
       "id": "hWeapon199",
@@ -51513,6 +51872,7 @@
       "raw": 209,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51529,7 +51889,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "equipWeightTurnReduction": 0.75
     },
     {
       "id": "hWeapon200",
@@ -51540,6 +51901,7 @@
       "raw": 209,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51556,7 +51918,10 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "equipWeightTurnReduction": 0.75,
+      "equipWeightMoveReduction": 0.75,
+      "walkSpeed": 1.3
     },
     {
       "id": "hWeapon201",
@@ -51567,6 +51932,7 @@
       "raw": 209,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51583,7 +51949,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "equipWeightMoveReduction": 1,
+      "walkSpeed": 1.7
     },
     {
       "id": "hWeapon202",
@@ -51594,6 +51962,7 @@
       "raw": 209,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51610,7 +51979,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "equipWeightTurnReduction": 1
     },
     {
       "id": "hWeapon203",
@@ -51621,6 +51991,7 @@
       "raw": 209,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -51637,7 +52008,10 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "equipWeightTurnReduction": 1,
+      "equipWeightMoveReduction": 1,
+      "walkSpeed": 1.5
     },
     {
       "id": "eWeapon001",
@@ -64790,6 +65164,7 @@
       "raw": 306,
       "odds": "starter",
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -70934,6 +71309,7 @@
       "raw": 7,
       "odds": 200,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -70950,7 +71326,12 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "walkSpeed": 1.5,
+      "sprintSpeed": 1.4,
+      "sprintAcceleration": 3,
+      "sprintSwirl": 1.5,
+      "sprintHitSlowdown": 0.8
     },
     {
       "id": "EX_A_Weapon008",
@@ -71497,6 +71878,7 @@
       "raw": 108,
       "odds": 200,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -71522,7 +71904,10 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "flightSpeed": 0.9,
+      "chargeSpeed": 0.65,
+      "emergencyChargeSpeed": 0.9
     },
     {
       "id": "EX_A_Weapon016",
@@ -71533,6 +71918,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -71558,7 +71944,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "weaponReload": 1.3
     },
     {
       "id": "EX_A_Weapon017",
@@ -72100,6 +72487,7 @@
       "raw": 206,
       "odds": 200,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -72116,7 +72504,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "dashCount": 4,
+      "boostCount": 4,
+      "boostSpeed": 1.4,
+      "dashInterval": 0.4
     },
     {
       "id": "EX_A_Weapon025",
@@ -72127,6 +72519,7 @@
       "raw": 207,
       "odds": 200,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -72143,7 +72536,10 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "shieldDeflectConsumption": 0.4,
+      "shieldDamageReduction": 0.55,
+      "shieldKnockback": 0.05
     },
     {
       "id": "EX_A_Weapon026",
@@ -72154,6 +72550,7 @@
       "raw": 209,
       "odds": 200,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -72170,7 +72567,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "equipWeightMoveReduction": 1,
+      "walkSpeed": 3
     },
     {
       "id": "EX_A_Weapon027",
@@ -73223,6 +73622,7 @@
       "raw": 7,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -73239,7 +73639,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "allyRecovery": 3.5,
+      "itemRange": 9
     },
     {
       "id": "EX_B_Weapon009",
@@ -73250,6 +73652,7 @@
       "raw": 7,
       "odds": 200,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -73266,7 +73669,13 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "walkSpeed": 1.6,
+      "sprintSpeed": 1.75,
+      "sprintAcceleration": 4,
+      "sprintSwirl": 1.5,
+      "sprintHitSlowdown": 0.5,
+      "sprintDestruction": true
     },
     {
       "id": "EX_B_Weapon010",
@@ -73887,6 +74296,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -73912,7 +74322,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "thrustForward": 1,
+      "thrustSide": 1.3,
+      "thrustRear": 1.2,
+      "boostConsumption": 1.2
     },
     {
       "id": "EX_B_Weapon019",
@@ -73923,6 +74337,7 @@
       "raw": 108,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -73948,7 +74363,14 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "flightSpeed": 1.15,
+      "prop204": 1.15,
+      "prop205": 1.15,
+      "weaponReload": 1.15,
+      "thrustForward": 1.2,
+      "thrustSide": 1.1,
+      "thrustRear": 1.1
     },
     {
       "id": "EX_B_Weapon020",
@@ -74424,6 +74846,7 @@
       "raw": 206,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -74440,7 +74863,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "dashCount": 10,
+      "dashInterval": 0.3
     },
     {
       "id": "EX_B_Weapon027",
@@ -74451,6 +74876,7 @@
       "raw": 206,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -74467,7 +74893,9 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "boostCount": 8,
+      "boostSpeed": 2
     },
     {
       "id": "EX_B_Weapon028",
@@ -74478,6 +74906,7 @@
       "raw": 209,
       "odds": 100,
       "type": "",
+      "ammo": 0,
       "weapon": "Weapon_Accessory",
       "damage": 0,
       "speed": 0,
@@ -74494,7 +74923,11 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 0,
-      "zoom": 0
+      "zoom": 0,
+      "equipWeightTurnReduction": 0.7,
+      "equipWeightMoveReduction": 0.7,
+      "walkSpeed": 0.25,
+      "equipRecoil": 0.2
     },
     {
       "id": "EX_B_Weapon029",

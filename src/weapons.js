@@ -591,6 +591,7 @@ const headers = [{
       'raid',
       'particle',
       'plasma',
+      'equipment',
     ].includes(cat)) {
       return false
     }
@@ -647,6 +648,7 @@ const headers = [{
     if([
       'guide',
       'shield',
+      'equipment',
     ].includes(cat)) {
       return false
     }
@@ -842,6 +844,7 @@ const headers = [{
       'support',
       'hammer',
       'shield',
+      'equipment',
     ].includes(cat)) {
       return false
     }
@@ -912,6 +915,14 @@ const headers = [{
     return +(wpn.lockTime / FPS).toFixed(2)
   }
 }, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'equipment',
+    ].includes(cat)) {
+      return false
+    }
+    return true
+  },
   label: 'Rel',
   cb: wpn => {
     if(wpn.reload <= 0 || !wpn.reload) {
@@ -950,6 +961,7 @@ const headers = [{
       'hammer',
       'spear',
       'shield',
+      'equipment',
     ].includes(cat)) {
       return false
     }
@@ -1005,6 +1017,7 @@ const headers = [{
       'artillery',
       'planes',
       'support',
+      'equipment',
     ].includes(cat)) {
       return false
     }
@@ -1031,6 +1044,54 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
+      'equipment',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'H.NPC',
+  cb: wpn => {
+    if(wpn.allyRecovery) {
+      return `${Math.round(wpn.allyRecovery * 100)}%`
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'equipment',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Probe',
+  cb: wpn => {
+    if(wpn.itemRange) {
+      return `${Math.round(wpn.itemRange * 100 - 100)}%`
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'equipment',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'KD.Im',
+  cb: wpn => {
+    if(wpn.isKnockImmune) {
+      return '✓'
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
       'hammer',
       'spear',
       'artillery',
@@ -1050,6 +1111,9 @@ const headers = [{
   },
   label: 'Spd',
   cb: wpn => {
+    if(wpn.walkSpeed) {
+      return `${Math.round(wpn.walkSpeed * 100)}%`
+    }
     const spd = (wpn.speed * FPS)
     if(spd > 10000) return '-'
     if(!spd) return '-'
@@ -1058,7 +1122,104 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
+      'equipment',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Stun',
+  cb: wpn => {
+    if(wpn.hitSlowdown) {
+      return `${Math.round(wpn.hitSlowdown * 100)}%`
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'equipment',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Sprint',
+  cb: wpn => {
+    if(wpn.sprintSpeed) {
+      return `${Math.round(wpn.sprintSpeed * 100)}%`
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'equipment',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Swirl',
+  cb: wpn => {
+    if(wpn.sprintSwirl) {
+      return `${Math.round(wpn.sprintSwirl * 100)}%`
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'equipment',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Acc',
+  cb: wpn => {
+    if(wpn.sprintAcceleration) {
+      return `${Math.round(wpn.sprintAcceleration * 100)}%`
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'equipment',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Stun',
+  cb: wpn => {
+    if(wpn.sprintHitSlowdown) {
+      return `${Math.round(wpn.sprintHitSlowdown * 100)}%`
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'equipment',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Break',
+  cb: wpn => {
+    if(wpn.sprintDestruction) {
+      return '✓'
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
       'guide',
+      'equipment',
     ].includes(cat)) {
       return true
     }
@@ -1066,12 +1227,16 @@ const headers = [{
   },
   label: 'L.Spd',
   cb: wpn => {
-    return `${wpn.guideSpeed}x`
+    if(!wpn.lockTime) {
+      return '-'
+    }
+    return `${wpn.lockTime}x`
   },
 }, {
   iff: (ch, cat, wpn) => {
     if([
       'guide',
+      'equipment',
     ].includes(cat)) {
       return true
     }
@@ -1079,8 +1244,27 @@ const headers = [{
   },
   label: 'L.Rng',
   cb: wpn => {
-    return `${wpn.guideRange}x`
+    if(!wpn.lockRange) {
+      return '-'
+    }
+    return `${wpn.lockRange}x`
   },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'equipment',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Multi',
+  cb: wpn => {
+    if(wpn.isMultiLock) {
+      return '✓'
+    }
+    return '-'
+  }
 }, {
   iff: (ch, cat, wpn) => {
     if([
@@ -1093,6 +1277,7 @@ const headers = [{
       'shield',
       'missile',
       'hammer',
+      'equipment',
     ].includes(cat)) {
       return false
     }
@@ -1198,6 +1383,7 @@ const headers = [{
       'ground',
       'heli',
       'mech',
+      'equipment',
     ].includes(cat)) {
       return false
     }
@@ -1266,6 +1452,7 @@ const headers = [{
       'guide',
       'hammer',
       'shield',
+      'equipment',
     ].includes(cat)) {
       return false
     }

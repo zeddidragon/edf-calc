@@ -578,10 +578,10 @@ const headers = [{
   },
   label: 'Cns',
   cb: wpn => {
-    if(!wpn.fuelUsage) {
-      return '-'
+    if(wpn.fuelUsage) {
+      return wpn.fuelUsage
     }
-    return wpn.fuelUsage
+    return '-'
   }
 }, {
   iff: (ch, cat, wpn) => {
@@ -592,12 +592,14 @@ const headers = [{
       'particle',
       'plasma',
       'equipment',
+      'core',
     ].includes(cat)) {
       return false
     }
     if(ch === 'winger' && [
       'sniper',
-      'missile'
+      'missile',
+      'special',
     ].includes(cat)) {
       return false
     }
@@ -649,6 +651,7 @@ const headers = [{
       'guide',
       'shield',
       'equipment',
+      'core',
     ].includes(cat)) {
       return false
     }
@@ -673,17 +676,18 @@ const headers = [{
       return dmg
     }
 
-    if([
+    const ignoreShots = [
       'raid',
       'artillery',
       'gunship',
       'planes',
       'missile',
       'satellite',
-    ].includes(wpn.category)) {
-      return dmg
-    }
-    if(wpn.shots > 1) {
+    ].includes(wpn.category) || (
+      wpn.character === 'winger' && [
+        'special',
+      ].includes(wpn.category))
+    if(wpn.shots > 1 && !ignoreShots) {
       dmg = `${dmg} x ${wpn.shots}`
     }
     return dmg
@@ -845,6 +849,7 @@ const headers = [{
       'hammer',
       'shield',
       'equipment',
+      'core',
     ].includes(cat)) {
       return false
     }
@@ -918,6 +923,7 @@ const headers = [{
   iff: (ch, cat, wpn) => {
     if([
       'equipment',
+      'core',
     ].includes(cat)) {
       return false
     }
@@ -962,6 +968,7 @@ const headers = [{
       'spear',
       'shield',
       'equipment',
+      'core',
     ].includes(cat)) {
       return false
     }
@@ -1014,10 +1021,79 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
+      'core',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Chg',
+  cb: wpn => {
+    const {
+      baseEnergy: nrg = wpn.energy,
+      chargeSpeed: spd = 1.0
+    } = wpn
+    return (nrg * spd * FPS * 0.001).toFixed(1)
+  }
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'core',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Em.C',
+  cb: wpn => {
+    const {
+      energy: nrg,
+      emergencyChargeSpeed: spd = 1.0
+    } = wpn
+    return (nrg * spd * FPS * 0.002).toFixed(1)
+  }
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'core',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Cns',
+  cb: wpn => {
+    const {
+      baseEnergy: nrg = wpn.energy,
+      flightConsumption: usg = 1.0
+    } = wpn
+    return (nrg * usg * FPS * 0.0025).toFixed(1)
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'core',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'B.Cns',
+  cb: wpn => {
+    const {
+      baseEnergy: nrg = wpn.energy,
+      boostConsumption: usg = 1.0
+    } = wpn
+    return (nrg * usg * 0.03).toFixed(1)
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
       'artillery',
       'planes',
       'support',
       'equipment',
+      'core',
     ].includes(cat)) {
       return false
     }
@@ -1114,10 +1190,93 @@ const headers = [{
     if(wpn.walkSpeed) {
       return `${Math.round(wpn.walkSpeed * 100)}%`
     }
+    if(wpn.prop204) {
+      return `${Math.round(wpn.prop204 * 100)}%`
+    }
     const spd = (wpn.speed * FPS)
     if(spd > 10000) return '-'
     if(!spd) return '-'
     return spd.toFixed(0)
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'core',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Fly',
+  cb: wpn => {
+    if(wpn.flightSpeed) {
+      return `${Math.round(wpn.flightSpeed * 100)}%`
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'core',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'B.Fwd',
+  cb: wpn => {
+    if(wpn.boostForward) {
+      return `${Math.round(wpn.boostForward * 100)}%`
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'core',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'B.Bwd',
+  cb: wpn => {
+    if(wpn.boostRear) {
+      return `${Math.round(wpn.boostRear * 100)}%`
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'core',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'B.Side',
+  cb: wpn => {
+    if(wpn.boostSide) {
+      return `${Math.round(wpn.boostSide * 100)}%`
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'core',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Max',
+  cb: wpn => {
+    if(wpn.maxAltitude) {
+      return `${wpn.maxAltitude}m`
+    }
+    return '-'
   },
 }, {
   iff: (ch, cat, wpn) => {
@@ -1278,6 +1437,7 @@ const headers = [{
       'missile',
       'hammer',
       'equipment',
+      'core',
     ].includes(cat)) {
       return false
     }
@@ -1384,6 +1544,7 @@ const headers = [{
       'heli',
       'mech',
       'equipment',
+      'core',
     ].includes(cat)) {
       return false
     }
@@ -1453,6 +1614,7 @@ const headers = [{
       'hammer',
       'shield',
       'equipment',
+      'core',
     ].includes(cat)) {
       return false
     }

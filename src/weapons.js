@@ -402,6 +402,9 @@ function getProp(wpn, prop) {
   if(typeof value === 'number') {
     return value
   }
+  if(prop === 'energy' && wpn.category === 'core') {
+    wpn.baseEnergy = value.base
+  }
   if(value?.base != null) {
     return value.base
   }

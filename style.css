@@ -112,6 +112,10 @@ td.isStar {
   border-right: none;
 }
 
+.RoF {
+  padding-right: 0;
+  border-right: none;
+}
 
 .P {
   border-right: none;

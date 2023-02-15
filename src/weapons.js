@@ -413,6 +413,9 @@ function populateWeaponStats(ch, cat) {
     if(header.label === 'Dmg') {
       cols += 3
     }
+    if(header.label === 'RoF') {
+      cols += 1
+    }
     if(cols > 1) {
       cell.setAttribute('colspan', cols)
     }
@@ -479,13 +482,24 @@ function populateWeaponStats(ch, cat) {
 
         cell.textContent = full
 
-      } else {
-        if(contents instanceof HTMLElement) {
-          cell.appendChild(contents)
+      } else if(header.label === 'RoF') {
+        const [rof, burst] = contents.toString().split('x').map(v => v.trim())
+        cell.textContent = rof
+        if(burst) {
+          const cell = $('td')
+          cell.textContent = burst
+          cell.classList.add('Count', 'DmgEnd')
+          row.appendChild(cell)
         } else {
-          cell.textContent = contents
+          const cell = $('td')
+          cell.textContent = ''
+          cell.classList.add('Filler', 'DmgEnd')
+          row.appendChild(cell)
         }
-        row.appendChild(cell)
+      } else if(contents instanceof HTMLElement) {
+        cell.appendChild(contents)
+      } else {
+        cell.textContent = contents
       }
 
       const prop = header.starProp

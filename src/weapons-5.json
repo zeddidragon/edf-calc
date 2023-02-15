@@ -38062,7 +38062,7 @@
       "zoom": 0,
       "chargeSpeed": 0.8,
       "emergencyChargeSpeed": 0.65,
-      "flightSpeedForward": 0.5,
+      "prop204": 0.5,
       "prop203": 0.4,
       "weaponReload": 3,
       "boostForward": 0.6,
@@ -38335,7 +38335,7 @@
       "secondary": 0,
       "zoom": 0,
       "flightSpeedUp": 1.25,
-      "flightSpeedForward": 1.25,
+      "prop204": 1.25,
       "flightConsumption": 1.25
     },
     {
@@ -38684,7 +38684,7 @@
       "zoom": 0,
       "chargeSpeed": 0.8,
       "emergencyChargeSpeed": 0.65,
-      "flightSpeedForward": 0.5,
+      "prop204": 0.5,
       "prop203": 0.4,
       "weaponReload": 3,
       "boostForward": 0.6,
@@ -38729,7 +38729,7 @@
       "secondary": 0,
       "zoom": 0,
       "flightSpeedUp": 1.3,
-      "flightSpeedForward": 1.3,
+      "prop204": 1.3,
       "flightConsumption": 1.25
     },
     {
@@ -74365,7 +74365,7 @@
       "secondary": 0,
       "zoom": 0,
       "flightSpeedUp": 1.15,
-      "flightSpeedForward": 1.15,
+      "prop204": 1.15,
       "flightConsumption": 1.15,
       "weaponReload": 1.15,
       "boostForward": 1.2,

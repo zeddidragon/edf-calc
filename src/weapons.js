@@ -357,10 +357,8 @@ function populateWeaponStats(ch, cat) {
     })
   const thead = $('thead')
   const theadrow = $('tr')
-  for(const header of headers) {
-    if(header.iff && !header.iff(ch, cat)) {
-      continue
-    }
+  const wHeaders = headers.filter(h => !h.iff || h.iff(ch, cat))
+  for(const header of wHeaders) {
     const cell = $('th')
     cell.textContent = header.label
     theadrow.appendChild(cell)
@@ -371,10 +369,7 @@ function populateWeaponStats(ch, cat) {
   const tbody = $('tbody')
   for(const weapon of weapons) {
     const row = $('tr')
-    for(const header of headers) {
-      if(header.iff && !header.iff(ch, cat)) {
-        continue
-      }
+    for(const header of wHeaders) {
       const cell = $('td')
       const contents = header.cb(weapon)
       if(contents instanceof HTMLElement) {
@@ -492,7 +487,7 @@ const headers = [{
     el.classList.add(difficulty.name)
     el.textContent = level
     return el
-  }
+  },
 }, {
   label: 'Name',
   cb: wpn => {
@@ -527,7 +522,7 @@ const headers = [{
       return el
     }
     return label
-  }
+  },
 }, {
   iff: (ch, cat, wpn) => {
     if([
@@ -548,7 +543,7 @@ const headers = [{
       return '-'
     }
     return wpn.hp
-  }
+  },
 }, {
   iff: (ch, cat, wpn) => {
     if([
@@ -565,7 +560,7 @@ const headers = [{
       return '-'
     }
     return wpn.fuel
-  }
+  },
 }, {
   iff: (ch, cat, wpn) => {
     if([
@@ -582,7 +577,7 @@ const headers = [{
       return wpn.fuelUsage
     }
     return '-'
-  }
+  },
 }, {
   iff: (ch, cat, wpn) => {
     if([
@@ -593,6 +588,9 @@ const headers = [{
       'plasma',
       'equipment',
       'core',
+      'booster',
+      'muzzle',
+      'exo',
     ].includes(cat)) {
       return false
     }
@@ -607,16 +605,20 @@ const headers = [{
   },
   label: 'Cap',
   cb: wpn => {
-    if(!wpn.ammo) {
-      return '-'
+    if(wpn.shieldDurability) {
+      return `${Math.round(wpn.shieldDurability * 100)}%`
     }
-    return wpn.ammo
-  }
+    if(wpn.ammo) {
+      return wpn.ammo
+    }
+    return '-'
+  },
 }, {
   iff: (ch, cat, wpn) => {
     if([
       'hammer',
       'shield',
+      'protector',
     ].includes(cat)) {
       return true
     }
@@ -624,10 +626,13 @@ const headers = [{
   },
   label: 'Def',
   cb: wpn => {
-    if(!wpn.defense) {
-      return '-'
+    if(wpn.shieldDamageReduction) {
+      return `${Math.round((1 - wpn.shieldDamageReduction) * 100)}%`
     }
-    return `${wpn.defense}%`
+    if(wpn.defense) {
+      return `${wpn.defense}%`
+    }
+    return '-'
   },
 }, {
   iff: (ch, cat, wpn) => {
@@ -652,6 +657,10 @@ const headers = [{
       'shield',
       'equipment',
       'core',
+      'booster',
+      'protector',
+      'muzzle',
+      'exo',
     ].includes(cat)) {
       return false
     }
@@ -850,6 +859,10 @@ const headers = [{
       'shield',
       'equipment',
       'core',
+      'booster',
+      'protector',
+      'muzzle',
+      'exo',
     ].includes(cat)) {
       return false
     }
@@ -892,7 +905,7 @@ const headers = [{
       return '-'
     }
     return rof
-  }
+  },
 }, {
   iff: (ch, cat, wpn) => {
     if(ch === 'bomber' && [
@@ -918,12 +931,16 @@ const headers = [{
       return '-'
     }
     return +(wpn.lockTime / FPS).toFixed(2)
-  }
+  },
 }, {
   iff: (ch, cat, wpn) => {
     if([
       'equipment',
       'core',
+      'booster',
+      'protector',
+      'muzzle',
+      'exo',
     ].includes(cat)) {
       return false
     }
@@ -938,7 +955,7 @@ const headers = [{
       return wpn.reload
     }
     return +(wpn.reload / FPS).toFixed(2)
-  }
+  },
 }, {
   iff: (ch, cat, wpn) => {
     if([
@@ -954,7 +971,7 @@ const headers = [{
       return '-'
     }
     return `${wpn.swing}x`
-  }
+  },
 }, {
   iff: (ch, cat, wpn) => {
     if([
@@ -969,6 +986,10 @@ const headers = [{
       'shield',
       'equipment',
       'core',
+      'booster',
+      'protector',
+      'muzzle',
+      'exo',
     ].includes(cat)) {
       return false
     }
@@ -1000,7 +1021,7 @@ const headers = [{
       [1.6, 'L'],
       [Infinity, 'Z'],
     ].find(([a]) => a >= wpn.accuracy)[1]
-  }
+  },
 }, {
   iff: (ch, cat, wpn) => {
     if(cat === 'shield') {
@@ -1017,7 +1038,7 @@ const headers = [{
       return '-'
     }
     return +wpn.energy.toFixed(1)
-  }
+  },
 }, {
   iff: (ch, cat, wpn) => {
     if([
@@ -1034,7 +1055,7 @@ const headers = [{
       chargeSpeed: spd = 1.0
     } = wpn
     return (nrg * spd * FPS * 0.001).toFixed(1)
-  }
+  },
 }, {
   iff: (ch, cat, wpn) => {
     if([
@@ -1051,7 +1072,7 @@ const headers = [{
       emergencyChargeSpeed: spd = 1.0
     } = wpn
     return (nrg * spd * FPS * 0.002).toFixed(1)
-  }
+  },
 }, {
   iff: (ch, cat, wpn) => {
     if([
@@ -1094,6 +1115,9 @@ const headers = [{
       'support',
       'equipment',
       'core',
+      'booster',
+      'muzzle',
+      'exo',
     ].includes(cat)) {
       return false
     }
@@ -1106,6 +1130,9 @@ const headers = [{
   },
   label: 'Rng',
   cb: wpn => {
+    if(wpn.shieldAngle) {
+      return `+${wpn.shieldAngle}°`
+    }
     if(wpn.category === 'shield') {
       return `${wpn.range}°`
     }
@@ -1175,6 +1202,9 @@ const headers = [{
       'raid',
       'missile',
       'shield',
+      'booster',
+      'protector',
+      'muzzle',
     ].includes(cat)) {
       return false
     }
@@ -1423,7 +1453,169 @@ const headers = [{
       return '✓'
     }
     return '-'
-  }
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'booster',
+      'exo',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Dash',
+  cb: wpn => {
+    if(wpn.dashCount) {
+      return wpn.dashCount
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'booster',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Boost',
+  cb: wpn => {
+    if(wpn.boostCount) {
+      return wpn.boostCount
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'booster',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'D.CD',
+  cb: wpn => {
+    if(wpn.dashInterval) {
+      return `${Math.round(wpn.dashInterval * 200)}%`
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'booster',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'B.Spd',
+  cb: wpn => {
+    if(wpn.boostSpeed) {
+      return `${Math.round(wpn.boostSpeed * 100)}%`
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'protector',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Cns',
+  cb: wpn => {
+    if(wpn.shieldConsumption) {
+      return `${Math.round(wpn.shieldConsumption * 100)}%`
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'protector',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Rf.Cns',
+  cb: wpn => {
+    if(wpn.shieldDeflectConsumption) {
+      return `${Math.round(wpn.shieldDeflectConsumption * 100)}%`
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'protector',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'KB',
+  cb: wpn => {
+    if(wpn.shieldKnockback) {
+      return `${Math.round(wpn.shieldKnockback * 100)}%`
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'exo',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Eq.Walk',
+  cb: wpn => {
+    if(wpn.equipWeightMoveReduction != null) {
+      return `${Math.round((1 - wpn.equipWeightMoveReduction) * 100)}%`
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'exo',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Eq.Turn',
+  cb: wpn => {
+    if(wpn.equipWeightTurnReduction != null) {
+      return `${Math.round((1 - wpn.equipWeightTurnReduction) * 100)}%`
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'muzzle',
+      'exo',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Stability',
+  cb: wpn => {
+    if(wpn.equipRecoil != null) {
+      return `${Math.round((1 - wpn.equipRecoil) * 100)}%`
+    }
+    return '-'
+  },
 }, {
   iff: (ch, cat, wpn) => {
     if([
@@ -1438,6 +1630,10 @@ const headers = [{
       'hammer',
       'equipment',
       'core',
+      'booster',
+      'protector',
+      'muzzle',
+      'exo',
     ].includes(cat)) {
       return false
     }
@@ -1545,6 +1741,10 @@ const headers = [{
       'mech',
       'equipment',
       'core',
+      'booster',
+      'protector',
+      'muzzle',
+      'exo',
     ].includes(cat)) {
       return false
     }
@@ -1583,6 +1783,7 @@ const headers = [{
   iff: (ch, cat, wpn) => {
     if(ch === 'ranger' && [
       'special',
+      'booster',
     ].includes(cat)) {
       return true
     }
@@ -1615,6 +1816,10 @@ const headers = [{
       'shield',
       'equipment',
       'core',
+      'booster',
+      'protector',
+      'muzzle',
+      'exo',
     ].includes(cat)) {
       return false
     }

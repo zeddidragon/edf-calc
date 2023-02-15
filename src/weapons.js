@@ -902,7 +902,7 @@ const headers = [{
     if(!wpn.continous) {
       return '-'
     }
-    let dmg = +Math.abs(wpn.damage).toFixed(1)
+    let dmg = Math.abs(wpn.damage)
     return +Math.abs(dmg * wpn.duration).toFixed(1)
   },
 }, {

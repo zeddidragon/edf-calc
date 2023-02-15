@@ -411,7 +411,7 @@ function populateWeaponStats(ch, cat) {
       cols++
     }
     if(header.label === 'Dmg') {
-      cols += 2
+      cols += 3
     }
     if(cols > 1) {
       cell.setAttribute('colspan', cols)
@@ -459,6 +459,9 @@ function populateWeaponStats(ch, cat) {
           const cell = $('td')
           cell.textContent = count
           cell.classList.add('Count')
+          if(count2) {
+            cell.classList.add('DmgEnd')
+          }
           row.appendChild(cell)
         } else {
           const cell = $('td')

@@ -112,9 +112,6 @@ td.isStar {
   border-right: none;
 }
 
-.DmgEnd {
-  padding-right: 0.2em;
-}
 
 .P {
   border-right: none;
@@ -127,6 +124,7 @@ th.P {
 .Count {
   border-left: none;
   border-right: none;
+  padding-right: 0;
   text-align: left;
 }
 .Count::before {
@@ -148,6 +146,10 @@ th.P {
   border-right: none;
   padding-left: 0;
   padding-right: 0;
+}
+
+.DmgEnd {
+  padding-right: 0.5em;
 }
 
 .ranger b, .dlc2 b, .Inferno, .lowOdds {

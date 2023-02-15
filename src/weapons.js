@@ -798,6 +798,42 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
+      'assault',
+      'shotgun',
+      'sniper',
+      'spear',
+      'heavy',
+      'tank',
+      'ground',
+      'heli',
+      'mech',
+    ].includes(cat)) {
+      return true
+    }
+    if([
+      'winger',
+      'bomber',
+    ].includes(ch)) {
+      return false
+    }
+    if(ch === 'ranger' && [
+      'special',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  headerClass: 'P',
+  label: 'P',
+  cb: wpn => {
+    if(wpn.piercing) {
+      return '[PT]'
+    }
+    return ''
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
       'guide',
       'shield',
       'equipment',
@@ -924,42 +960,6 @@ const headers = [{
     const duration = wpn.fuse || wpn.duration
     if(!duration) return '-'
     return +(duration / FPS).toFixed(1)
-  },
-}, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'assault',
-      'shotgun',
-      'sniper',
-      'spear',
-      'heavy',
-      'tank',
-      'ground',
-      'heli',
-      'mech',
-    ].includes(cat)) {
-      return true
-    }
-    if([
-      'winger',
-      'bomber',
-    ].includes(ch)) {
-      return false
-    }
-    if(ch === 'ranger' && [
-      'special',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
-  headerClass: 'P',
-  label: 'P',
-  cb: wpn => {
-    if(wpn.piercing) {
-      return '[PT]'
-    }
-    return ''
   },
 }, {
   iff: (ch, cat, wpn) => {

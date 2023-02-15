@@ -108,6 +108,7 @@ td.isStar {
 
 .Dmg {
   padding-right: 0;
+  border-left: none;
   border-right: none;
 }
 
@@ -116,8 +117,7 @@ td.isStar {
 }
 
 .P {
-  padding-left: 0;
-  border-left: none;
+  border-right: none;
 }
 
 th.P {

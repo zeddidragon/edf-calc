@@ -1258,7 +1258,7 @@ const headers = [{
   },
   label: 'B.Fwd',
   cb: wpn => {
-    if(wpn.boostForward) {
+    if(wpn.boostForward && wpn.boostForward !== 1) {
       return `${Math.round(wpn.boostForward * 100)}%`
     }
     return '-'
@@ -1274,7 +1274,7 @@ const headers = [{
   },
   label: 'B.Bwd',
   cb: wpn => {
-    if(wpn.boostRear) {
+    if(wpn.boostRear && wpn.boostRear !== 1) {
       return `${Math.round(wpn.boostRear * 100)}%`
     }
     return '-'
@@ -1290,7 +1290,7 @@ const headers = [{
   },
   label: 'B.Side',
   cb: wpn => {
-    if(wpn.boostSide) {
+    if(wpn.boostSide && wpn.boostSide !== 1) {
       return `${Math.round(wpn.boostSide * 100)}%`
     }
     return '-'

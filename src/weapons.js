@@ -564,7 +564,7 @@ function magDamage(wpn) {
 
 function falloff(wpn, dmg) {
   return [
-    (dmg * wpn.falloff[1]).toFixed(1),
+    (+dmg).toFixed(1),
     (dmg * wpn.falloff[0]).toFixed(1),
   ].join('~')
 }

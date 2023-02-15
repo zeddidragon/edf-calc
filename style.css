@@ -108,13 +108,26 @@ td.isStar {
 
 .Dmg {
   padding-right: 0;
+  border-right: none;
 }
 
+.DmgEnd {
+  padding-right: 0.2em;
+}
+
+.P {
+  padding-left: 0;
+  border-left: none;
+}
+
+th.P {
+  color: transparent;
+}
 
 .Count {
   border-left: none;
   border-right: none;
-  padding-right: 0;
+  text-align: left;
 }
 .Count::before {
   content: 'x ';

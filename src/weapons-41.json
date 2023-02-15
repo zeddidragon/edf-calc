@@ -11435,8 +11435,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "guideSpeed": 3,
-      "guideRange": 3
+      "lockTime": 3,
+      "lockRange": 3
     },
     {
       "id": "Weapon508",
@@ -11451,8 +11451,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "guideSpeed": 5,
-      "guideRange": 5
+      "lockTime": 5,
+      "lockRange": 5
     },
     {
       "id": "Weapon509",
@@ -11467,8 +11467,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "guideSpeed": 3.5,
-      "guideRange": 3
+      "lockTime": 3.5,
+      "lockRange": 3
     },
     {
       "id": "Weapon510",
@@ -11483,8 +11483,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "guideSpeed": 4,
-      "guideRange": 3
+      "lockTime": 4,
+      "lockRange": 3
     },
     {
       "id": "Weapon511",
@@ -11499,8 +11499,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "guideSpeed": 6,
-      "guideRange": 4
+      "lockTime": 6,
+      "lockRange": 4
     },
     {
       "id": "eBeconGun",
@@ -11519,8 +11519,8 @@
       "reload": 300,
       "secondary": 1,
       "zoom": 4,
-      "guideSpeed": 1,
-      "guideRange": 1.5
+      "lockTime": 1,
+      "lockRange": 1.5
     },
     {
       "id": "Weapon512",
@@ -11539,8 +11539,8 @@
       "reload": 300,
       "secondary": 1,
       "zoom": 4,
-      "guideSpeed": 1,
-      "guideRange": 1.8
+      "lockTime": 1,
+      "lockRange": 1.8
     },
     {
       "id": "Weapon513",
@@ -11559,8 +11559,8 @@
       "reload": 300,
       "secondary": 1,
       "zoom": 4,
-      "guideSpeed": 1.5,
-      "guideRange": 4
+      "lockTime": 1.5,
+      "lockRange": 4
     },
     {
       "id": "Weapon514",
@@ -11579,8 +11579,8 @@
       "reload": 300,
       "secondary": 1,
       "zoom": 4,
-      "guideSpeed": 1.3,
-      "guideRange": 2
+      "lockTime": 1.3,
+      "lockRange": 2
     },
     {
       "id": "Weapon515",
@@ -11599,8 +11599,8 @@
       "reload": 300,
       "secondary": 1,
       "zoom": 4,
-      "guideSpeed": 2,
-      "guideRange": 4
+      "lockTime": 2,
+      "lockRange": 4
     },
     {
       "id": "Weapon516",
@@ -11619,8 +11619,8 @@
       "reload": 300,
       "secondary": 1,
       "zoom": 4,
-      "guideSpeed": 1.5,
-      "guideRange": 2.5
+      "lockTime": 1.5,
+      "lockRange": 2.5
     },
     {
       "id": "Weapon517",
@@ -13069,6 +13069,7 @@
       "character": "bomber",
       "category": "raid",
       "odds": 100,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 1000,
       "speed": 1,
@@ -13081,6 +13082,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "strikeType": "satellite",
+      "shots": 4,
       "underground": "blocked"
     },
     {
@@ -13090,6 +13093,7 @@
       "character": "bomber",
       "category": "raid",
       "odds": 100,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 400,
       "speed": 1,
@@ -13102,6 +13106,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "strikeType": "satellite",
+      "shots": 15,
       "underground": "blocked"
     },
     {
@@ -13111,6 +13117,7 @@
       "character": "bomber",
       "category": "raid",
       "odds": 100,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 8000,
       "speed": 1,
@@ -13123,6 +13130,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "strikeType": "satellite",
+      "shots": 1,
       "underground": "blocked"
     },
     {
@@ -13132,6 +13141,7 @@
       "character": "bomber",
       "category": "raid",
       "odds": 100,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 2000,
       "speed": 1,
@@ -13144,6 +13154,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "strikeType": "satellite",
+      "shots": 5,
       "underground": "blocked"
     },
     {
@@ -13153,6 +13165,7 @@
       "character": "bomber",
       "category": "raid",
       "odds": 100,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 800,
       "speed": 1,
@@ -13165,6 +13178,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "strikeType": "satellite",
+      "shots": 20,
       "underground": "blocked"
     },
     {
@@ -13174,6 +13189,7 @@
       "character": "bomber",
       "category": "raid",
       "odds": 100,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 16000,
       "speed": 1,
@@ -13186,6 +13202,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "strikeType": "satellite",
+      "shots": 1,
       "underground": "blocked"
     },
     {
@@ -13195,6 +13213,7 @@
       "character": "bomber",
       "category": "raid",
       "odds": 100,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 6000,
       "speed": 1,
@@ -13207,6 +13226,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "strikeType": "satellite",
+      "shots": 6,
       "underground": "blocked"
     },
     {
@@ -13216,6 +13237,7 @@
       "character": "bomber",
       "category": "raid",
       "odds": 100,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 35000,
       "speed": 1,
@@ -13228,6 +13250,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "strikeType": "satellite",
+      "shots": 1,
       "underground": "blocked"
     },
     {
@@ -13237,6 +13261,7 @@
       "character": "bomber",
       "category": "raid",
       "odds": 100,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 2400,
       "speed": 1,
@@ -13249,6 +13274,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "strikeType": "satellite",
+      "shots": 30,
       "underground": "blocked"
     },
     {
@@ -13258,6 +13285,7 @@
       "character": "bomber",
       "category": "raid",
       "odds": 100,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 100000,
       "speed": 1,
@@ -13270,6 +13298,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "strikeType": "satellite",
+      "shots": 1,
       "underground": "blocked"
     },
     {
@@ -13279,6 +13309,7 @@
       "character": "bomber",
       "category": "raid",
       "odds": 100,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 10,
       "speed": 1,
@@ -13290,6 +13321,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "strikeType": "shelling",
+      "shots": 600,
       "underground": "blocked"
     },
     {
@@ -13299,6 +13332,7 @@
       "character": "bomber",
       "category": "raid",
       "odds": 100,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 400,
       "speed": 1,
@@ -13311,6 +13345,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "strikeType": "shelling",
+      "shots": 45,
       "underground": "blocked"
     },
     {
@@ -13320,6 +13356,7 @@
       "character": "bomber",
       "category": "raid",
       "odds": 100,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 50,
       "speed": 1,
@@ -13331,6 +13368,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "strikeType": "shelling",
+      "shots": 600,
       "underground": "blocked"
     },
     {
@@ -13340,6 +13379,7 @@
       "character": "bomber",
       "category": "raid",
       "odds": 100,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 80,
       "speed": 1,
@@ -13351,6 +13391,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "strikeType": "shelling",
+      "shots": 600,
       "underground": "blocked"
     },
     {
@@ -13360,6 +13402,7 @@
       "character": "bomber",
       "category": "raid",
       "odds": 100,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 700,
       "speed": 1,
@@ -13372,6 +13415,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "strikeType": "shelling",
+      "shots": 60,
       "underground": "blocked"
     },
     {
@@ -13381,6 +13426,7 @@
       "character": "bomber",
       "category": "raid",
       "odds": 100,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 160,
       "speed": 1,
@@ -13392,6 +13438,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "strikeType": "shelling",
+      "shots": 600,
       "underground": "blocked"
     },
     {
@@ -13401,6 +13449,7 @@
       "character": "bomber",
       "category": "raid",
       "odds": 89,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 1500,
       "speed": 1,
@@ -13413,6 +13462,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "strikeType": "shelling",
+      "shots": 80,
       "underground": "blocked"
     },
     {
@@ -13422,6 +13473,7 @@
       "character": "bomber",
       "category": "raid",
       "odds": 80,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 200,
       "speed": 1,
@@ -13433,6 +13485,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "strikeType": "shelling",
+      "shots": 600,
       "underground": "blocked"
     },
     {
@@ -13442,10 +13496,10 @@
       "character": "bomber",
       "category": "raid",
       "odds": 69,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 600,
       "speed": 1,
-      "radius": 600,
       "gravity": 1,
       "life": 900,
       "interval": 120,
@@ -13454,6 +13508,8 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "strikeType": "shelling",
+      "shots": 200,
       "underground": "blocked"
     },
     {
@@ -13463,18 +13519,20 @@
       "character": "bomber",
       "category": "raid",
       "odds": 60,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
       "damage": 10000,
       "speed": 1,
-      "radius": 70,
       "gravity": 1,
       "life": 900,
+      "count": 2,
       "interval": 120,
       "reload": 8000,
       "credits": true,
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "strikeType": "rog",
       "underground": "blocked"
     },
     {

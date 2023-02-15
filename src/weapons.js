@@ -416,6 +416,9 @@ function populateWeaponStats(ch, cat) {
     if(cols > 1) {
       cell.setAttribute('colspan', cols)
     }
+    if(header.headerClass) {
+      cell.classList.add(header.headerClass)
+    }
     theadrow.appendChild(cell)
   }
   thead.appendChild(theadrow)
@@ -454,7 +457,7 @@ function populateWeaponStats(ch, cat) {
         } else {
           const cell = $('td')
           cell.textContent = ''
-          cell.classList.add('Filler')
+          cell.classList.add('Filler', 'DmgEnd')
           row.appendChild(cell)
         }
 
@@ -809,6 +812,7 @@ const headers = [{
     return true
   },
   label: 'Dmg',
+  headerClass: 'Dmg',
   starProp: 'damage',
   starProp2: 'count',
   cb: wpn => {
@@ -949,10 +953,11 @@ const headers = [{
     }
     return false
   },
+  headerClass: 'P',
   label: 'P',
   cb: wpn => {
     if(wpn.piercing) {
-      return '✓'
+      return '[PT]'
     }
     return ''
   },

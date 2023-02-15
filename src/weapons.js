@@ -4,10 +4,10 @@ let table
 let modes
 
 const stateKeys = [
-  'g',
-  'm',
-  'c',
-  'w',
+  'game',
+  'mode',
+  'char',
+  'wpn',
 ]
 function readState() {
   const params = window.location.hash.slice(1).split('&')
@@ -26,10 +26,10 @@ async function loadWeapons(game) {
   table = data.weapons
   modes = data.modes
   populateModes()
-  pickGame(active.g || '5')
-  pickMode(active.m || 'stats')
-  pickChar(active.c || 'ranger', active.w)
-  populateWeapons(active.m, active.c, active.w)
+  pickGame(active.game || '5')
+  pickMode(active.mode || 'stats')
+  pickChar(active.char || 'ranger', active.wpn)
+  populateWeapons(active.mode, active.char, active.wpn)
 }
 
 function writeState() {
@@ -37,11 +37,11 @@ function writeState() {
     .filter(k => active[k])
     .map(k => `${k}=${active[k]}`)
     .join('&')
-  populateWeapons(active.m, active.c, active.w)
+  populateWeapons(active.mode, active.char, active.wpn)
 }
 
 function pickGame(game) {
-  const gameChanged = active.g != game
+  const gameChanged = active.game != game
   const button = document
     .getElementById('game-button')
   button.classList.remove(...button.classList)
@@ -61,7 +61,7 @@ function pickGame(game) {
   }
   item.classList.add('selected')
   Object.assign(active, {
-    g: game,
+    game: game,
     gameEl: item,
   })
 
@@ -91,7 +91,7 @@ function pickMode(mode) {
   }
   item.classList.add('selected')
   Object.assign(active, {
-    m: mode,
+    mode: mode,
     modeEl: item,
   })
 }
@@ -128,7 +128,7 @@ function pickChar(ch, cat) {
   }
   item.classList.add('selected')
   Object.assign(active, {
-    c: ch,
+    char: ch,
     charEl: item,
   })
 
@@ -182,7 +182,7 @@ function pickCategory(ch, cat) {
   active.catEl?.classList.remove('selected')
   item.classList.add('selected')
   Object.assign(active, {
-    w: cat,
+    wpn: cat,
     catEl: item,
   })
 }
@@ -499,7 +499,7 @@ const headers = [{
 }, {
   label: 'Weight',
   iff: (ch, cat, wpn) => {
-    return active.mode && activemode !== 'state'
+    return active.mode && active.mode !== 'stats'
   },
   cb: wpn => {
     const odds = wpn.odds || 100
@@ -936,10 +936,10 @@ const headers = [{
   iff: (ch, cat, wpn) => {
     if([
       'equipment',
-      'core',
       'booster',
       'protector',
       'muzzle',
+      'core',
       'exo',
     ].includes(cat)) {
       return false
@@ -1220,8 +1220,8 @@ const headers = [{
     if(wpn.walkSpeed) {
       return `${Math.round(wpn.walkSpeed * 100)}%`
     }
-    if(wpn.prop204) {
-      return `${Math.round(wpn.prop204 * 100)}%`
+    if(wpn.flightSpeedHorizontal) {
+      return `${Math.round(wpn.flightSpeedHorizontal * 100)}%`
     }
     const spd = (wpn.speed * FPS)
     if(spd > 10000) return '-'
@@ -1239,8 +1239,8 @@ const headers = [{
   },
   label: 'Fly',
   cb: wpn => {
-    if(wpn.flightSpeed) {
-      return `${Math.round(wpn.flightSpeed * 100)}%`
+    if(wpn.flightSpeedVertical) {
+      return `${Math.round(wpn.flightSpeedVertical * 100)}%`
     }
     return '-'
   },
@@ -1301,10 +1301,10 @@ const headers = [{
     }
     return false
   },
-  label: 'Max',
+  label: 'Acc',
   cb: wpn => {
-    if(wpn.maxAltitude) {
-      return `${wpn.maxAltitude}m`
+    if(wpn.airControl) {
+      return `${Math.round(wpn.airControl * 100)}%`
     }
     return '-'
   },
@@ -2023,4 +2023,4 @@ const catLabels = {
   },
 }
 
-loadWeapons(active.g || '5')
+loadWeapons(active.game || '5')

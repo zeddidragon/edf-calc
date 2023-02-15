@@ -37828,7 +37828,7 @@
       "reload": -1,
       "secondary": 0,
       "zoom": 0,
-      "flightSpeedUp": 0.9,
+      "flightSpeedHorizontal": 0.9,
       "chargeSpeed": 0.8,
       "emergencyChargeSpeed": 0.8
     },
@@ -38062,13 +38062,13 @@
       "zoom": 0,
       "chargeSpeed": 0.8,
       "emergencyChargeSpeed": 0.65,
-      "prop204": 0.5,
-      "prop203": 0.4,
+      "flightSpeedVertical": 0.5,
+      "airControl": 0.4,
       "weaponReload": 3,
       "boostForward": 0.6,
       "boostSide": 0.6,
       "boostRear": 0.6,
-      "maxAltitude": 4
+      "dragFactor": 4
     },
     {
       "id": "pWeapon234",
@@ -38334,8 +38334,8 @@
       "reload": -1,
       "secondary": 0,
       "zoom": 0,
-      "flightSpeedUp": 1.25,
-      "prop204": 1.25,
+      "flightSpeedHorizontal": 1.25,
+      "flightSpeedVertical": 1.25,
       "flightConsumption": 1.25
     },
     {
@@ -38452,7 +38452,7 @@
       "reload": -1,
       "secondary": 0,
       "zoom": 0,
-      "flightSpeedUp": 0.8,
+      "flightSpeedHorizontal": 0.8,
       "chargeSpeed": 0.68,
       "emergencyChargeSpeed": 0.68
     },
@@ -38684,13 +38684,13 @@
       "zoom": 0,
       "chargeSpeed": 0.8,
       "emergencyChargeSpeed": 0.65,
-      "prop204": 0.5,
-      "prop203": 0.4,
+      "flightSpeedVertical": 0.5,
+      "airControl": 0.4,
       "weaponReload": 3,
       "boostForward": 0.6,
       "boostSide": 0.6,
       "boostRear": 0.6,
-      "maxAltitude": 4
+      "dragFactor": 4
     },
     {
       "id": "pWeapon250",
@@ -38728,8 +38728,8 @@
       "reload": -1,
       "secondary": 0,
       "zoom": 0,
-      "flightSpeedUp": 1.3,
-      "prop204": 1.3,
+      "flightSpeedHorizontal": 1.3,
+      "flightSpeedVertical": 1.3,
       "flightConsumption": 1.25
     },
     {
@@ -71905,7 +71905,7 @@
       "reload": -1,
       "secondary": 0,
       "zoom": 0,
-      "flightSpeedUp": 0.9,
+      "flightSpeedHorizontal": 0.9,
       "chargeSpeed": 0.65,
       "emergencyChargeSpeed": 0.9
     },
@@ -74364,8 +74364,8 @@
       "reload": -1,
       "secondary": 0,
       "zoom": 0,
-      "flightSpeedUp": 1.15,
-      "prop204": 1.15,
+      "flightSpeedHorizontal": 1.15,
+      "flightSpeedVertical": 1.15,
       "flightConsumption": 1.15,
       "weaponReload": 1.15,
       "boostForward": 1.2,
@@ -75580,7 +75580,7 @@
   "modes": [
     {
       "name": "Offline",
-      "missions": 111,
+      "missions": 110,
       "difficulties": [
         {
           "name": "Easy",
@@ -75686,7 +75686,7 @@
     },
     {
       "name": "Online",
-      "missions": 110,
+      "missions": 111,
       "difficulties": [
         {
           "name": "Easy",

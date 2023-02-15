@@ -434,7 +434,7 @@ function populateWeaponStats(ch, cat) {
       row.appendChild(cell)
 
       if(header.label === 'Dmg') {
-        const [dmg, count] = contents.toString().split('x').map(v => v.trim())
+        const [dmg, count, count2] = contents.toString().split('x').map(v => v.trim())
         const [full, min] = dmg.split('~')
 
         if(min) {
@@ -448,6 +448,12 @@ function populateWeaponStats(ch, cat) {
           row.appendChild(cell)
         }
 
+        if(count2) {
+          const cell = $('td')
+          cell.textContent = count2
+          cell.classList.add('Count')
+          row.appendChild(cell)
+        }
 
         if(count) {
           const cell = $('td')
@@ -455,6 +461,13 @@ function populateWeaponStats(ch, cat) {
           cell.classList.add('Count')
           row.appendChild(cell)
         } else {
+          const cell = $('td')
+          cell.textContent = ''
+          cell.classList.add('Filler')
+          row.appendChild(cell)
+        }
+
+        if(!count2) {
           const cell = $('td')
           cell.textContent = ''
           cell.classList.add('Filler', 'DmgEnd')

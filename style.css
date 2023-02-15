@@ -8,6 +8,11 @@ header {
   display: flex;
 }
 
+table, th, td {
+  border: 1px solid #4e5d6f;
+  border-collapse: collapse;
+}
+
 .button {
   color: #4e5d6f;
   cursor: pointer;
@@ -25,17 +30,25 @@ menu {
   margin: 0;
   color: #4e5d6f;
   position: absolute;
-  width: 12em;
+  width: fit-content;
 }
 
 .dropdown {
   flex: 1;
+  max-width: 6em;
+  padding: 0.4em 0.2em;
+}
+
+#char-tabs {
   max-width: 8em;
 }
 
 #category-tabs {
-  flex: 2;
-  max-width: 16em;
+  max-width: 12em;
+}
+
+#star-tabs {
+  max-width: 3em;
 }
 
 .dropdown:hover menu {
@@ -47,7 +60,7 @@ menu a {
   flex: 1;
   white-space: nowrap;
   overflow: hidden;
-  padding: 0.5em;
+  padding: 0.2em 1em;
   border-bottom: thick solid transparent;
 }
 
@@ -61,19 +74,67 @@ menu:hover a {
 }
 
 td {
-  padding: 0 0.2em;
+  padding: 0.2em 0.5em;
   text-align: right;
   white-space: nowrap;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #000;
 }
 
 td.Weight {
   color: #4e5d6f;
 }
 
+td.hasStar {
+  border-right: none;
+}
+
+td.isStar {
+  color: #8d8d8d;
+  border-left: none;
+}
+
 .name {
   color: #80c3f5;
   text-align: left;
   overflow: hidden;
+}
+
+.Acc {
+  text-align: left;
+}
+
+.Dmg {
+  padding-right: 0;
+}
+
+
+.Count {
+  border-left: none;
+  border-right: none;
+  padding-right: 0;
+}
+.Count::before {
+  content: 'x ';
+}
+
+.Falloff {
+  border-left: none;
+  border-right: none;
+  padding-right: 0;
+  text-align: left;
+}
+.Falloff::before {
+  content: '~ ';
+}
+
+.Filler {
+  border-left: none;
+  border-right: none;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .ranger b, .dlc2 b, .Inferno, .lowOdds {
@@ -85,11 +146,11 @@ td.Weight {
 .bomber b, .online b, .Hard, .highOdds, .edf41 b {
   color: #8e8;
 }
-.fencer b, .dlc1 b, .Hardest  {
+.fencer b, .dlc1 b {
   color: #ea8;
 }
 
-.short b, .spear b, .heli b, .stats b, .limpet b, .booster b {
+.short b, .spear b, .heli b, .stats b, .limpet b, .booster b, .star-10, .star-5 {
   color: #eee;
 }
 .assault b, .laser b, .light b, .gunship b {
@@ -101,7 +162,7 @@ td.Weight {
 .sniper b, .heavy b, .satellite b, .muzzle b {
   color: #88e;
 }
-.rocket b, .particle b, .hammer b, .dlc, .planes b, .tank b {
+.rocket b, .particle b, .hammer b, .dlc, .planes b, .tank b, .Hardest {
   color: #ee8;
 }
 .missile b, .guide b, .na {
@@ -113,8 +174,8 @@ td.Weight {
 .special b, .super b {
   color: #e8a;
 }
-.deploy b, .Easy, .starter {
-  color: #8aa;
+.deploy b, .Easy, .starter, .star-0 {
+  color: #8aa
 }
 .mech b, .core b, .equipment b, .exo b {
   color: #e8e;

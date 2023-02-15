@@ -8,6 +8,10 @@
       "category": "assault",
       "raw": 0,
       "odds": "starter",
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 120,
@@ -83,6 +87,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 120,
@@ -233,6 +241,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 130,
@@ -308,6 +320,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.800000011920929,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 30,
@@ -383,6 +399,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 210,
@@ -458,6 +478,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.6000000238418579,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 120,
@@ -533,6 +557,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 130,
@@ -608,6 +636,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.800000011920929,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 30,
@@ -759,6 +791,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 210,
@@ -834,6 +870,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.6000000238418579,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 130,
@@ -909,6 +949,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.800000011920929,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 35,
@@ -985,6 +1029,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.6000000238418579,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 130,
@@ -1135,6 +1183,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 250,
@@ -1210,6 +1262,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 115,
@@ -1285,6 +1341,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 150,
@@ -1360,6 +1420,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.6000000238418579,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 120,
@@ -1435,6 +1499,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 250,
@@ -1510,6 +1578,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.800000011920929,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 35,
@@ -1586,6 +1658,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 320,
@@ -1661,6 +1737,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 110,
@@ -1736,6 +1816,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 150,
@@ -1811,6 +1895,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 110,
@@ -1962,6 +2050,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 1000,
@@ -2038,6 +2130,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.800000011920929,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 30,
@@ -2113,6 +2209,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 150,
@@ -2263,6 +2363,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 130,
@@ -2338,6 +2442,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.30000001192092896,
+        2
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 350,
@@ -2413,6 +2521,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 150,
@@ -2488,6 +2600,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.4000000059604645,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 130,
@@ -2564,6 +2680,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 150,
@@ -2639,6 +2759,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.30000001192092896,
+        2
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 700,
@@ -2714,6 +2838,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.800000011920929,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 30,
@@ -2790,6 +2918,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 140,
@@ -2865,6 +2997,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 150,
@@ -2940,6 +3076,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.30000001192092896,
+        2
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 350,
@@ -3015,6 +3155,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 160,
@@ -3165,6 +3309,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.800000011920929,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 30,
@@ -3241,6 +3389,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.30000001192092896,
+        2
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 700,
@@ -3316,6 +3468,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 160,
@@ -3391,6 +3547,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 8,
       "weapon": "Weapon_BasicShoot",
@@ -3468,6 +3628,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.0999999046325684
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 7,
       "weapon": "Weapon_BasicSemiAuto",
@@ -3545,6 +3709,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.200000047683716
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 8,
       "weapon": "Weapon_BasicShoot",
@@ -3622,6 +3790,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.299999952316284
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 7,
       "weapon": "Weapon_BasicShoot",
@@ -3699,6 +3871,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.4000000953674316
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 8,
       "weapon": "Weapon_BasicShoot",
@@ -3776,6 +3952,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 8,
       "weapon": "Weapon_BasicShoot",
@@ -3853,6 +4033,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 10,
       "weapon": "Weapon_BasicShoot",
@@ -3930,6 +4114,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 12,
       "weapon": "Weapon_BasicSemiAuto",
@@ -4007,6 +4195,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 10,
       "weapon": "Weapon_BasicShoot",
@@ -4084,6 +4276,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 7,
       "weapon": "Weapon_BasicShoot",
@@ -4161,6 +4357,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 8,
       "weapon": "Weapon_BasicShoot",
@@ -4238,6 +4438,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 10,
       "weapon": "Weapon_BasicShoot",
@@ -4315,6 +4519,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.25,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": 7,
       "weapon": "Weapon_BasicShoot",
@@ -4383,6 +4591,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 11,
       "weapon": "Weapon_BasicShoot",
@@ -4460,6 +4672,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 20,
       "weapon": "Weapon_BasicSemiAuto",
@@ -4537,6 +4753,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 7,
       "weapon": "Weapon_BasicShoot",
@@ -4614,6 +4834,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 12,
       "weapon": "Weapon_BasicShoot",
@@ -4691,6 +4915,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 20,
       "weapon": "Weapon_BasicShoot",
@@ -4768,6 +4996,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.25,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": 7,
       "weapon": "Weapon_BasicShoot",
@@ -4836,6 +5068,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 11,
       "weapon": "Weapon_BasicShoot",
@@ -4913,6 +5149,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 30,
       "weapon": "Weapon_BasicShoot",
@@ -4990,6 +5230,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 12,
       "weapon": "Weapon_BasicShoot",
@@ -5067,6 +5311,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 8,
       "weapon": "Weapon_BasicShoot",
@@ -5144,6 +5392,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.25,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": 7,
       "weapon": "Weapon_BasicShoot",
@@ -5212,6 +5464,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 11,
       "weapon": "Weapon_BasicShoot",
@@ -5289,6 +5545,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 8,
       "weapon": "Weapon_BasicShoot",
@@ -5366,6 +5626,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 30,
       "weapon": "Weapon_BasicSemiAuto",
@@ -5443,6 +5707,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 15,
       "weapon": "Weapon_BasicShoot",
@@ -20779,6 +21047,10 @@
       "category": "short",
       "raw": 100,
       "odds": "starter",
+      "falloff": [
+        0.10000000149011612,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": 1,
       "weapon": "Weapon_ChargeShoot",
@@ -20916,6 +21188,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.009999999776482582,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 180,
@@ -20993,6 +21269,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1.5
+      ],
       "type": "LaserBullet01",
       "ammo": 1,
       "weapon": "Weapon_ChargeShoot",
@@ -21131,6 +21411,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.009999999776482582,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 180,
@@ -21208,6 +21492,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": 1,
       "weapon": "Weapon_ChargeShoot",
@@ -21268,6 +21556,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1.5
+      ],
       "type": "LaserBullet01",
       "ammo": 1,
       "weapon": "Weapon_ChargeShoot",
@@ -21406,6 +21698,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.019999999552965164,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 2,
@@ -21475,6 +21771,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.009999999776482582,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 180,
@@ -21629,6 +21929,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1.5
+      ],
       "type": "LaserBullet01",
       "ammo": 1,
       "weapon": "Weapon_ChargeShoot",
@@ -21836,6 +22140,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.05000000074505806,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 2,
@@ -21982,6 +22290,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.009999999776482582,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 180,
@@ -22059,6 +22371,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1.5
+      ],
       "type": "LaserBullet01",
       "ammo": 1,
       "weapon": "Weapon_ChargeShoot",
@@ -22120,6 +22436,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": 1,
       "weapon": "Weapon_ChargeShoot",
@@ -22180,6 +22500,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.009999999776482582,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 180,
@@ -22411,6 +22735,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.05000000074505806,
+        1.5
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 2,
@@ -22481,6 +22809,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1.5
+      ],
       "type": "LaserBullet01",
       "ammo": 1,
       "weapon": "Weapon_ChargeShoot",
@@ -22619,6 +22951,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 3,
@@ -22688,6 +23024,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.009999999776482582,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 180,
@@ -22834,6 +23174,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1.5
+      ],
       "type": "LaserBullet01",
       "ammo": 1,
       "weapon": "Weapon_ChargeShoot",
@@ -22895,6 +23239,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.009999999776482582,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 180,
@@ -23126,6 +23474,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 2,
@@ -23272,6 +23624,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1.5
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 3,
@@ -23419,6 +23775,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": 1,
       "weapon": "Weapon_ChargeShoot",
@@ -23479,6 +23839,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.009999999776482582,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 180,
@@ -23556,6 +23920,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.05000000074505806,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 3,
@@ -23779,6 +24147,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        1.5
+      ],
       "type": "LaserBullet01",
       "ammo": 1,
       "weapon": "Weapon_ChargeShoot",
@@ -23840,6 +24212,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.009999999776482582,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 180,
@@ -24275,6 +24651,10 @@
       "category": "laser",
       "raw": 101,
       "odds": 100,
+      "falloff": [
+        0.20000000298023224,
+        1
+      ],
       "type": "LaserBullet03",
       "ammo": {
         "base": 1000,
@@ -24420,6 +24800,10 @@
       "category": "laser",
       "raw": 101,
       "odds": 100,
+      "falloff": [
+        0.009999999776482582,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 1000,
@@ -24625,6 +25009,10 @@
       "category": "laser",
       "raw": 101,
       "odds": 100,
+      "falloff": [
+        0.009999999776482582,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 1000,
@@ -24762,6 +25150,10 @@
       "category": "laser",
       "raw": 101,
       "odds": 100,
+      "falloff": [
+        0.20000000298023224,
+        1
+      ],
       "type": "LaserBullet03",
       "ammo": {
         "base": 1000,
@@ -25120,6 +25512,10 @@
       "category": "laser",
       "raw": 101,
       "odds": 100,
+      "falloff": [
+        0.20000000298023224,
+        1
+      ],
       "type": "LaserBullet03",
       "ammo": {
         "base": 1000,
@@ -25256,6 +25652,10 @@
       "category": "laser",
       "raw": 101,
       "odds": 100,
+      "falloff": [
+        0.009999999776482582,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 1000,
@@ -25615,6 +26015,10 @@
       "category": "laser",
       "raw": 101,
       "odds": 100,
+      "falloff": [
+        0.20000000298023224,
+        1
+      ],
       "type": "LaserBullet03",
       "ammo": {
         "base": 1100,
@@ -25828,6 +26232,10 @@
       "category": "laser",
       "raw": 101,
       "odds": 100,
+      "falloff": [
+        0.009999999776482582,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 1000,
@@ -25897,6 +26305,10 @@
       "category": "laser",
       "raw": 101,
       "odds": 100,
+      "falloff": [
+        0.20000000298023224,
+        1
+      ],
       "type": "LaserBullet03",
       "ammo": {
         "base": 1200,
@@ -43615,6 +44027,10 @@
       "category": "light",
       "raw": 203,
       "odds": "starter",
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 320,
@@ -43690,6 +44106,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 20,
@@ -43765,6 +44185,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        4
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 20,
@@ -43849,6 +44273,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.25,
+        1
+      ],
       "type": "FlameBullet02",
       "ammo": {
         "base": 480,
@@ -43925,6 +44353,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 480,
@@ -44000,6 +44432,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 40,
@@ -44075,6 +44511,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 18,
@@ -44159,6 +44599,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.25,
+        1
+      ],
       "type": "FlameBullet02",
       "ammo": {
         "base": 420,
@@ -44235,6 +44679,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 900,
@@ -44310,6 +44758,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 20,
@@ -44453,6 +44905,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 320,
@@ -44528,6 +44984,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 480,
@@ -44603,6 +45063,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 18,
@@ -44687,6 +45151,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 20,
@@ -44763,6 +45231,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.25,
+        1
+      ],
       "type": "FlameBullet02",
       "ammo": {
         "base": 600,
@@ -44839,6 +45311,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 900,
@@ -44914,6 +45390,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 20,
@@ -44989,6 +45469,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 26,
@@ -45073,6 +45557,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 320,
@@ -45148,6 +45636,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 40,
@@ -45224,6 +45716,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.25,
+        1
+      ],
       "type": "FlameBullet02",
       "ammo": {
         "base": 600,
@@ -45368,6 +45864,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 480,
@@ -45443,6 +45943,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 40,
@@ -45518,6 +46022,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 24,
@@ -45602,6 +46110,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 900,
@@ -45677,6 +46189,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.5,
+        2
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 24,
@@ -45820,6 +46336,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 30,
@@ -45904,6 +46424,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 650,
@@ -45979,6 +46503,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.25,
+        1
+      ],
       "type": "FlameBullet02",
       "ammo": {
         "base": 650,
@@ -64593,6 +65121,10 @@
       "category": "special",
       "raw": 305,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        3
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
@@ -64654,6 +65186,10 @@
       "category": "special",
       "raw": 305,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        3
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 2,
       "weapon": "Weapon_BasicShoot",
@@ -64723,6 +65259,10 @@
       "category": "special",
       "raw": 305,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        3
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
@@ -64784,6 +65324,10 @@
       "category": "special",
       "raw": 305,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        3
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
@@ -64845,6 +65389,10 @@
       "category": "special",
       "raw": 305,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        3
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 2,
       "weapon": "Weapon_BasicShoot",
@@ -70837,6 +71385,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 200,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidPelletBullet01",
       "ammo": {
         "base": 160,
@@ -72134,6 +72686,10 @@
       "category": "light",
       "raw": 203,
       "odds": 200,
+      "falloff": [
+        0.10000000149011612,
+        2
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 30,
@@ -73140,6 +73696,10 @@
       "category": "assault",
       "raw": 0,
       "odds": 200,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidPelletBullet01",
       "ammo": {
         "base": 170,
@@ -73216,6 +73776,10 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "falloff": [
+        0.10000000149011612,
+        2.5
+      ],
       "type": "SolidPelletBullet01",
       "ammo": 15,
       "weapon": "Weapon_BasicShoot",
@@ -73652,6 +74216,10 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "falloff": [
+        0.009999999776482582,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 240,
@@ -73798,6 +74366,10 @@
       "category": "laser",
       "raw": 101,
       "odds": 100,
+      "falloff": [
+        0.009999999776482582,
+        1
+      ],
       "type": "LaserBullet01",
       "ammo": {
         "base": 1000,
@@ -74586,6 +75158,10 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "falloff": [
+        0.5,
+        1
+      ],
       "type": "SolidBullet01",
       "ammo": {
         "base": 900,

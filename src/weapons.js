@@ -8,6 +8,7 @@ const stateKeys = [
   'mode',
   'char',
   'wpn',
+  'star',
 ]
 function readState() {
   const params = window.location.hash.slice(1).split('&')
@@ -34,7 +35,7 @@ async function loadWeapons(game) {
 
 function writeState() {
   window.location.hash = stateKeys
-    .filter(k => active[k])
+    .filter(k => active[k] != null)
     .map(k => `${k}=${active[k]}`)
     .join('&')
   populateWeapons(active.mode, active.char, active.wpn)
@@ -56,18 +57,65 @@ function pickGame(game) {
   const item = document
     .querySelector(`#game-dropdown .edf${game}`)
 
-  if(active.gameEl) {
-    active.gameEl.classList.remove('selected')
-  }
+  active.gameEl?.classList.remove('selected')
   item.classList.add('selected')
   Object.assign(active, {
     game: game,
     gameEl: item,
   })
 
+  const starButton = document
+    .getElementById('star-button')
+  starButton.innerHTML = ''
+  const dropdown = document
+    .getElementById('star-dropdown')
+  dropdown.innerHTML = ''
+  if([5, 6].includes(+active.game)) {
+    for(let i = 0; i <= 10; i++) {
+      const el = $('a')
+      if(i === 10) {
+        el.textContent = `★${i}`
+      } else {
+        el.textContent = `☆${i}`
+      }
+      el.classList.add(`star-${i}`)
+      el.addEventListener('click', () => {
+        pickStar(i)
+        writeState()
+      })
+      dropdown.appendChild(el)
+    }
+    pickStar(active.star == null ? 10 : active.star)
+  } else {
+    delete active.star
+    delete active.starEl
+  }
+
   if(gameChanged) {
     loadWeapons(game)
   }
+}
+
+function pickStar(star) {
+  const button = document
+    .getElementById('star-button')
+  button.classList.remove(...button.classList)
+  button.classList.add('button')
+  const item = document
+    .querySelector(`#star-dropdown .star-${star}`)
+  styleButton({
+    button,
+    label: item.textContent,
+    cls: `star-${star}`,
+    cutPoint: 3,
+  })
+
+  active.starEl?.classList.remove('selected')
+  item.classList.add('selected')
+  Object.assign(active, {
+    star: star,
+    starEl: item,
+  })
 }
 
 function pickMode(mode) {
@@ -86,9 +134,7 @@ function pickMode(mode) {
   const item = document
     .querySelector(`#mode-dropdown .${mode}`)
 
-  if(active.modeEl) {
-    active.modeEl.classList.remove('selected')
-  }
+  active.modeEl?.classList.remove('selected')
   item.classList.add('selected')
   Object.assign(active, {
     mode: mode,
@@ -123,9 +169,7 @@ function pickChar(ch, cat) {
   const item = document
     .querySelector(`#char-dropdown .${ch}`)
 
-  if(active.charEl) {
-    active.charEl.classList.remove('selected')
-  }
+  active.charEl?.classList.remove('selected')
   item.classList.add('selected')
   Object.assign(active, {
     char: ch,
@@ -331,6 +375,7 @@ function composeAttack(weapon, attack) {
 }
 
 function populateWeaponStats(ch, cat) {
+  const gameHasStars = [5, 6].includes(+active.game)
   const extra = document.getElementById('extra')
   const weaponTable = document.getElementById('weapons-table')
   weaponTable.innerHTML = ''
@@ -339,7 +384,7 @@ function populateWeaponStats(ch, cat) {
     .map(w => {
       const obj = { ...w }
       for(const prop of scaledProps) {
-        obj[prop] = getProp(w, prop)
+        obj[prop] = getProp(w, prop, obj)
       }
       return obj
     })
@@ -361,6 +406,16 @@ function populateWeaponStats(ch, cat) {
   for(const header of wHeaders) {
     const cell = $('th')
     cell.textContent = header.label
+    let cols = 1
+    if(gameHasStars && header.starProp) {
+      cols++
+    }
+    if(header.label === 'Dmg') {
+      cols += 2
+    }
+    if(cols > 1) {
+      cell.setAttribute('colspan', cols)
+    }
     theadrow.appendChild(cell)
   }
   thead.appendChild(theadrow)
@@ -371,14 +426,72 @@ function populateWeaponStats(ch, cat) {
     const row = $('tr')
     for(const header of wHeaders) {
       const cell = $('td')
-      const contents = header.cb(weapon)
-      if(contents instanceof HTMLElement) {
-        cell.appendChild(contents)
-      } else {
-        cell.textContent = contents
-      }
+      let contents = header.cb(weapon)
       cell.classList.add(header.label)
       row.appendChild(cell)
+
+      if(header.label === 'Dmg') {
+        const [dmg, count] = contents.toString().split('x').map(v => v.trim())
+        const [full, min] = dmg.split('~')
+
+        if(min) {
+          const cell = $('td')
+          cell.textContent = min
+          cell.classList.add('Falloff')
+          row.appendChild(cell)
+        } else {
+          const cell = $('td')
+          cell.classList.add('Filler')
+          row.appendChild(cell)
+        }
+
+
+        if(count) {
+          const cell = $('td')
+          cell.textContent = count
+          cell.classList.add('Count')
+          row.appendChild(cell)
+        } else {
+          const cell = $('td')
+          cell.textContent = ''
+          cell.classList.add('Filler')
+          row.appendChild(cell)
+        }
+
+        cell.textContent = full
+
+      } else {
+        if(contents instanceof HTMLElement) {
+          cell.appendChild(contents)
+        } else {
+          cell.textContent = contents
+        }
+        row.appendChild(cell)
+      }
+
+      const prop = header.starProp
+      const prop2 = header.starProp2
+      if(gameHasStars && prop) {
+        let colspan = 1
+        cell.classList.add('hasStar')
+        const starCell = $('td')
+        for(let i = 0; i < 2; i++) {
+          const p = [prop, prop2][i]
+          const star = weapon[`${p}Star`]
+          const max = weapon[`${p}StarMax`]
+          if(star == null && i === 0) {
+            colspan = 2
+          } else if(star == null) {
+          } else if(star < max) {
+            starCell.textContent += `☆${star}`
+          } else {
+            starCell.textContent += `★${star}`
+          }
+        }
+
+        starCell.classList.add('isStar')
+        row.appendChild(starCell)
+      }
     }
     tbody.appendChild(row)
   }
@@ -396,7 +509,21 @@ function populateWeaponStats(ch, cat) {
   }
 }
 
-function getProp(wpn, prop) {
+function starValue({ base, zero, exp, lvMin, lvMax, type, algo }, star) {
+  const zeroValue = [21, 25, 29].includes(algo) ? base + base * zero : base * zero
+  const rounding = [4].includes(algo) ? Math.round : Math.ceil
+  const growthBase = (base - zeroValue) / Math.pow(5, exp)
+  star = Math.min(Math.max(lvMin, star), lvMax)
+  let ret = +(zeroValue + growthBase * Math.pow(star, exp))
+  if(type === 'int') {
+    ret = rounding(ret)
+  } else {
+    ret = +ret.toFixed(2)
+  }
+  return [star, ret]
+}
+
+function getProp(wpn, prop, obj) {
   const value = wpn[prop]
   if(value == null) return value
   if(typeof value === 'number') {
@@ -406,7 +533,10 @@ function getProp(wpn, prop) {
     wpn.baseEnergy = value.base
   }
   if(value?.base != null) {
-    return value.base
+    const [star, v] = starValue(value, active.star)
+    obj[`${prop}Star`] = star
+    obj[`${prop}StarMax`] = value.lvMax
+    return v
   }
 }
 
@@ -429,10 +559,18 @@ function magDamage(wpn) {
   return shotDamage(wpn) * wpn.ammo
 }
 
+function falloff(wpn, dmg) {
+  return [
+    (dmg * wpn.falloff[1]).toFixed(1),
+    (dmg * wpn.falloff[0]).toFixed(1),
+  ].join('~')
+}
+
 function quickDps(wpn) {
   const bDmg = burstDamage(wpn)
   const bTime = burstTime(wpn)
-  return (bDmg * FPS / bTime)
+  const dps = (bDmg * FPS / bTime)
+  return dps.toFixed(1)
 }
 
 function tacticalDps(wpn) {
@@ -607,6 +745,7 @@ const headers = [{
     return true
   },
   label: 'Cap',
+  starProp: 'ammo',
   cb: wpn => {
     if(wpn.shieldDurability) {
       return `${Math.round(wpn.shieldDurability * 100)}%`
@@ -670,6 +809,8 @@ const headers = [{
     return true
   },
   label: 'Dmg',
+  starProp: 'damage',
+  starProp2: 'count',
   cb: wpn => {
     if(!wpn.damage) {
       return '-'
@@ -681,6 +822,9 @@ const headers = [{
       return +Math.abs(wpn.damage).toFixed(2)
     }
     let dmg = +Math.abs(wpn.damage).toFixed(1)
+    if(wpn.falloff) {
+      dmg = falloff(wpn, dmg)
+    }
     if(wpn.count > 1) {
       dmg = `${dmg} x ${wpn.count}`
     }
@@ -751,6 +895,7 @@ const headers = [{
     return false
   },
   label: 'Area',
+  starProp: 'radius',
   cb: wpn => {
     if(!wpn.radius) return '-'
     return wpn.radius
@@ -779,47 +924,7 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
-      'artillery',
-      'planes',
-      'gunship',
-      'satellite',
-      'raid',
-      'deploy',
-    ].includes(cat)) {
-      return true
-    }
-    if(ch === 'winger' && [
-      'special',
-    ].includes(cat)) {
-      return true
-    }
-    if(ch === 'bomber' && [
-      'missile',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
-  label: 'Shots',
-  cb: wpn => {
-    if(!wpn.shots) {
-      return '-'
-    }
-    if(wpn.type === 'BombBullet01') {
-      return '-'
-    }
-    switch(wpn.strikeType) {
-      case 'bomber': {
-        return `${wpn.shots} x ${wpn.units}`
-      }
-      default: { // Shelling
-        return wpn.shots
-      }
-    }
-  },
-}, {
-  iff: (ch, cat, wpn) => {
-    if([
+      'assault',
       'shotgun',
       'sniper',
       'spear',
@@ -882,6 +987,7 @@ const headers = [{
     return true
   },
   label: 'RoF',
+  starProp: 'interval',
   cb: wpn => {
     if(!wpn.interval) {
       return '-'
@@ -929,6 +1035,7 @@ const headers = [{
     return false
   },
   label: 'Lock',
+  starProp: 'lockTime',
   cb: wpn => {
     if(!wpn.lockTime) {
       return '-'
@@ -950,6 +1057,7 @@ const headers = [{
     return true
   },
   label: 'Rel',
+  starProp: 'reload',
   cb: wpn => {
     if(wpn.reload <= 0 || !wpn.reload) {
       return '-'
@@ -999,6 +1107,7 @@ const headers = [{
     return true
   },
   label: 'Acc',
+  starProp: 'accuracy',
   cb: wpn => {
     if(!wpn.speed) return '-'
     if(wpn.accuracy == null) return '-'
@@ -1036,6 +1145,7 @@ const headers = [{
     return false
   },
   label: 'Enr',
+  starProp: 'energy',
   cb: wpn => {
     if(!wpn.energy) {
       return '-'
@@ -1069,6 +1179,7 @@ const headers = [{
     return false
   },
   label: 'Em.C',
+  starProp: 'energy',
   cb: wpn => {
     const {
       energy: nrg,
@@ -1121,6 +1232,8 @@ const headers = [{
       'booster',
       'muzzle',
       'exo',
+      'rocket',
+      'missile',
     ].includes(cat)) {
       return false
     }
@@ -1132,6 +1245,7 @@ const headers = [{
     return true
   },
   label: 'Rng',
+  starProp: 'speed',
   cb: wpn => {
     if(wpn.shieldAngle) {
       return `+${wpn.shieldAngle}°`
@@ -1139,11 +1253,25 @@ const headers = [{
     if(wpn.category === 'shield') {
       return `${wpn.range}°`
     }
-    if(wpn.category === 'missile') {
-      return wpn.lockRange
-    }
     if(!wpn.life || !wpn.speed) {
       return '-'
+    }
+    return (wpn.speed * wpn.life).toFixed(0)
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
+      'missile',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Rng',
+  starProp: 'lockRange',
+  cb: wpn => {
+    if(wpn.category === 'missile') {
+      return wpn.lockRange
     }
     return (wpn.speed * wpn.life).toFixed(0)
   },
@@ -1219,6 +1347,7 @@ const headers = [{
     return true
   },
   label: 'Spd',
+  starProp: 'speed',
   cb: wpn => {
     if(wpn.walkSpeed) {
       return `${Math.round(wpn.walkSpeed * 100)}%`
@@ -1683,7 +1812,7 @@ const headers = [{
     if(!wpn.interval) {
       return '-'
     }
-    return +quickDps(wpn).toFixed(1)
+    return quickDps(wpn)
   },
 }, {
   iff: (ch, cat, wpn) => {
@@ -1778,9 +1907,10 @@ const headers = [{
         shots: wpn.ammo,
         interval: wpn.shotInterval,
         ammo: wpn.shots,
-      }).toFixed(1)
+      })
     }
-    return +tacticalDps(wpn).toFixed(1)
+    const tdps = tacticalDps(wpn)
+    return tdps.toFixed(1)
   },
 }, {
   iff: (ch, cat, wpn) => {

@@ -71385,6 +71385,7 @@
       "category": "assault",
       "raw": 0,
       "odds": 200,
+      "dlc": 1,
       "falloff": [
         0.5,
         1
@@ -71465,6 +71466,7 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 200,
+      "dlc": 1,
       "type": "SolidExpBullet01",
       "ammo": 8,
       "weapon": "Weapon_BasicShoot",
@@ -71541,6 +71543,7 @@
       "category": "sniper",
       "raw": 2,
       "odds": 200,
+      "dlc": 1,
       "type": "SolidBullet01",
       "ammo": {
         "base": 75,
@@ -71616,6 +71619,7 @@
       "category": "sniper",
       "raw": 2,
       "odds": 200,
+      "dlc": 1,
       "type": "SolidPelletBullet01",
       "ammo": {
         "base": 8,
@@ -71692,6 +71696,7 @@
       "category": "rocket",
       "raw": 3,
       "odds": 200,
+      "dlc": 1,
       "type": "MissileBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
@@ -71751,6 +71756,7 @@
       "category": "grenade",
       "raw": 5,
       "odds": 200,
+      "dlc": 1,
       "type": "NapalmBullet01",
       "ammo": {
         "base": 3,
@@ -71827,6 +71833,7 @@
       "category": "equipment",
       "raw": 7,
       "odds": 200,
+      "dlc": 1,
       "type": "",
       "ammo": 0,
       "weapon": "Weapon_Accessory",
@@ -71860,6 +71867,7 @@
       "category": "short",
       "raw": 100,
       "odds": 200,
+      "dlc": 1,
       "type": "LaserBullet01",
       "ammo": {
         "base": 800,
@@ -71937,6 +71945,7 @@
       "category": "short",
       "raw": 100,
       "odds": 200,
+      "dlc": 1,
       "type": "LightningBullet01",
       "ammo": {
         "base": 20,
@@ -72014,6 +72023,7 @@
       "category": "laser",
       "raw": 101,
       "odds": 200,
+      "dlc": 1,
       "type": "LaserBullet01",
       "ammo": {
         "base": 1300,
@@ -72082,6 +72092,7 @@
       "category": "particle",
       "raw": 103,
       "odds": 200,
+      "dlc": 1,
       "type": "PulseBullet01",
       "ammo": 1,
       "weapon": "Weapon_ChargeShoot",
@@ -72159,6 +72170,7 @@
       "category": "electro",
       "raw": 102,
       "odds": 200,
+      "dlc": 1,
       "type": "LightningBullet01",
       "ammo": {
         "base": 270,
@@ -72235,6 +72247,7 @@
       "category": "missile",
       "raw": 106,
       "odds": 200,
+      "dlc": 1,
       "type": "HomingLaserBullet01",
       "ammo": 1,
       "weapon": "Weapon_HomingShoot",
@@ -72320,6 +72333,7 @@
       "category": "plasma",
       "raw": 105,
       "odds": 200,
+      "dlc": 1,
       "type": "PlasmaBullet01",
       "ammo": 1,
       "weapon": "Weapon_ChargeShoot",
@@ -72396,6 +72410,7 @@
       "category": "core",
       "raw": 108,
       "odds": 200,
+      "dlc": 1,
       "type": "",
       "ammo": 0,
       "weapon": "Weapon_Accessory",
@@ -72436,6 +72451,7 @@
       "category": "core",
       "raw": 108,
       "odds": 100,
+      "dlc": 1,
       "type": "",
       "ammo": 0,
       "weapon": "Weapon_Accessory",
@@ -72474,6 +72490,7 @@
       "category": "hammer",
       "raw": 200,
       "odds": 200,
+      "dlc": 1,
       "type": "ShockWaveBullet01",
       "ammo": {
         "base": 10,
@@ -72561,6 +72578,7 @@
       "category": "spear",
       "raw": 201,
       "odds": 200,
+      "dlc": 1,
       "type": "PileBunkerBullet01",
       "ammo": {
         "base": 40,
@@ -72620,6 +72638,7 @@
       "category": "spear",
       "raw": 201,
       "odds": 200,
+      "dlc": 1,
       "type": "PileBunkerBullet01",
       "ammo": {
         "base": 18,
@@ -72686,6 +72705,7 @@
       "category": "light",
       "raw": 203,
       "odds": 200,
+      "dlc": 1,
       "falloff": [
         0.10000000149011612,
         2
@@ -72774,6 +72794,7 @@
       "category": "heavy",
       "raw": 204,
       "odds": 200,
+      "dlc": 1,
       "type": "SolidBullet01",
       "ammo": {
         "base": 8,
@@ -72850,6 +72871,7 @@
       "category": "heavy",
       "raw": 204,
       "odds": 200,
+      "dlc": 1,
       "type": "RocketBullet01",
       "ammo": {
         "base": 12,
@@ -72933,6 +72955,7 @@
       "category": "missile",
       "raw": 205,
       "odds": 200,
+      "dlc": 1,
       "type": "MissileBullet02",
       "ammo": {
         "base": 2,
@@ -73009,6 +73032,7 @@
       "category": "booster",
       "raw": 206,
       "odds": 200,
+      "dlc": 1,
       "type": "",
       "ammo": 0,
       "weapon": "Weapon_Accessory",
@@ -73041,6 +73065,7 @@
       "category": "protector",
       "raw": 207,
       "odds": 200,
+      "dlc": 1,
       "type": "",
       "ammo": 0,
       "weapon": "Weapon_Accessory",
@@ -73072,6 +73097,7 @@
       "category": "exo",
       "raw": 209,
       "odds": 200,
+      "dlc": 1,
       "type": "",
       "ammo": 0,
       "weapon": "Weapon_Accessory",
@@ -73102,6 +73128,7 @@
       "category": "artillery",
       "raw": 310,
       "odds": 200,
+      "dlc": 1,
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_Throw",
@@ -73149,6 +73176,7 @@
       "category": "planes",
       "raw": 312,
       "odds": 200,
+      "dlc": 1,
       "type": "",
       "ammo": 1,
       "weapon": "Weapon_RadioContact",
@@ -73196,6 +73224,7 @@
       "category": "missile",
       "raw": 313,
       "odds": 200,
+      "dlc": 1,
       "type": "",
       "ammo": 1,
       "weapon": "Weapon_LaserMarkerCallFire",
@@ -73251,6 +73280,7 @@
       "category": "deploy",
       "raw": 304,
       "odds": 200,
+      "dlc": 1,
       "type": "SentryGunBullet01",
       "ammo": {
         "base": 3,
@@ -73313,6 +73343,7 @@
       "category": "ground",
       "raw": 307,
       "odds": 200,
+      "dlc": 1,
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
@@ -73348,6 +73379,7 @@
       "category": "tank",
       "raw": 306,
       "odds": 200,
+      "dlc": 1,
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
@@ -73471,6 +73503,7 @@
       "category": "super",
       "raw": 320,
       "odds": 200,
+      "dlc": 1,
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
@@ -73553,6 +73586,7 @@
       "category": "mech",
       "raw": 309,
       "odds": 200,
+      "dlc": 1,
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
@@ -73645,6 +73679,7 @@
       "category": "assault",
       "raw": 0,
       "odds": 100,
+      "dlc": 2,
       "type": "LaserBullet02",
       "ammo": 999,
       "weapon": "Weapon_BasicShoot",
@@ -73696,6 +73731,7 @@
       "category": "assault",
       "raw": 0,
       "odds": 200,
+      "dlc": 2,
       "falloff": [
         0.5,
         1
@@ -73776,6 +73812,7 @@
       "category": "shotgun",
       "raw": 1,
       "odds": 100,
+      "dlc": 2,
       "falloff": [
         0.10000000149011612,
         2.5
@@ -73857,6 +73894,7 @@
       "category": "sniper",
       "raw": 2,
       "odds": 100,
+      "dlc": 2,
       "type": "SolidPelletBullet01",
       "ammo": {
         "base": 10,
@@ -73933,6 +73971,7 @@
       "category": "rocket",
       "raw": 3,
       "odds": 200,
+      "dlc": 2,
       "type": "MissileBullet01",
       "ammo": {
         "base": 10,
@@ -74008,6 +74047,7 @@
       "category": "grenade",
       "raw": 5,
       "odds": 100,
+      "dlc": 2,
       "type": "GrenadeBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
@@ -74068,6 +74108,7 @@
       "category": "missile",
       "raw": 4,
       "odds": 100,
+      "dlc": 2,
       "type": "MissileBullet01",
       "ammo": {
         "base": 5,
@@ -74152,6 +74193,7 @@
       "category": "equipment",
       "raw": 7,
       "odds": 100,
+      "dlc": 2,
       "type": "",
       "ammo": 0,
       "weapon": "Weapon_Accessory",
@@ -74182,6 +74224,7 @@
       "category": "equipment",
       "raw": 7,
       "odds": 200,
+      "dlc": 2,
       "type": "",
       "ammo": 0,
       "weapon": "Weapon_Accessory",
@@ -74216,6 +74259,7 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "dlc": 2,
       "falloff": [
         0.009999999776482582,
         1
@@ -74297,6 +74341,7 @@
       "category": "short",
       "raw": 100,
       "odds": 100,
+      "dlc": 2,
       "type": "LaserBullet01",
       "ammo": {
         "base": 60,
@@ -74366,6 +74411,7 @@
       "category": "laser",
       "raw": 101,
       "odds": 100,
+      "dlc": 2,
       "falloff": [
         0.009999999776482582,
         1
@@ -74448,6 +74494,7 @@
       "category": "particle",
       "raw": 103,
       "odds": 100,
+      "dlc": 2,
       "type": "PulseBullet01",
       "ammo": {
         "base": 280,
@@ -74532,6 +74579,7 @@
       "category": "electro",
       "raw": 102,
       "odds": 100,
+      "dlc": 2,
       "type": "LightningBullet01",
       "ammo": {
         "base": 18,
@@ -74617,6 +74665,7 @@
       "category": "electro",
       "raw": 102,
       "odds": 100,
+      "dlc": 2,
       "type": "LightningBullet01",
       "ammo": 1,
       "weapon": "Weapon_ChargeShoot",
@@ -74686,6 +74735,7 @@
       "category": "sniper",
       "raw": 104,
       "odds": 100,
+      "dlc": 2,
       "type": "LightningBullet01",
       "ammo": {
         "base": 8,
@@ -74779,6 +74829,7 @@
       "category": "special",
       "raw": 107,
       "odds": 100,
+      "dlc": 2,
       "type": "ClusterBullet01",
       "ammo": 1,
       "weapon": "Weapon_Throw",
@@ -74834,6 +74885,7 @@
       "category": "core",
       "raw": 108,
       "odds": 100,
+      "dlc": 2,
       "type": "",
       "ammo": 0,
       "weapon": "Weapon_Accessory",
@@ -74875,6 +74927,7 @@
       "category": "core",
       "raw": 108,
       "odds": 100,
+      "dlc": 2,
       "type": "",
       "ammo": 0,
       "weapon": "Weapon_Accessory",
@@ -74919,6 +74972,7 @@
       "category": "hammer",
       "raw": 200,
       "odds": 100,
+      "dlc": 2,
       "type": "ShockWaveBullet01",
       "ammo": {
         "base": 8,
@@ -75006,6 +75060,7 @@
       "category": "hammer",
       "raw": 200,
       "odds": 100,
+      "dlc": 2,
       "type": "ShockWaveBullet01",
       "ammo": {
         "base": 8,
@@ -75093,6 +75148,7 @@
       "category": "spear",
       "raw": 201,
       "odds": 100,
+      "dlc": 2,
       "type": "PileBunkerBullet01",
       "ammo": {
         "base": 12,
@@ -75158,6 +75214,7 @@
       "category": "light",
       "raw": 203,
       "odds": 100,
+      "dlc": 2,
       "falloff": [
         0.5,
         1
@@ -75237,6 +75294,7 @@
       "category": "heavy",
       "raw": 204,
       "odds": 100,
+      "dlc": 2,
       "type": "RocketBullet01",
       "ammo": 1,
       "weapon": "Weapon_HeavyShoot",
@@ -75304,6 +75362,7 @@
       "category": "missile",
       "raw": 205,
       "odds": 100,
+      "dlc": 2,
       "type": "MissileBullet01",
       "ammo": {
         "base": 9,
@@ -75388,6 +75447,7 @@
       "category": "booster",
       "raw": 206,
       "odds": 100,
+      "dlc": 2,
       "type": "",
       "ammo": 0,
       "weapon": "Weapon_Accessory",
@@ -75418,6 +75478,7 @@
       "category": "booster",
       "raw": 206,
       "odds": 100,
+      "dlc": 2,
       "type": "",
       "ammo": 0,
       "weapon": "Weapon_Accessory",
@@ -75448,6 +75509,7 @@
       "category": "exo",
       "raw": 209,
       "odds": 100,
+      "dlc": 2,
       "type": "",
       "ammo": 0,
       "weapon": "Weapon_Accessory",
@@ -75480,6 +75542,7 @@
       "category": "gunship",
       "raw": 311,
       "odds": 100,
+      "dlc": 2,
       "type": "SmokeCandleBullet02",
       "ammo": {
         "base": 4,
@@ -75551,6 +75614,7 @@
       "category": "planes",
       "raw": 312,
       "odds": 100,
+      "dlc": 2,
       "type": "",
       "ammo": 1,
       "weapon": "Weapon_RadioContact",
@@ -75598,6 +75662,7 @@
       "category": "planes",
       "raw": 312,
       "odds": 100,
+      "dlc": 2,
       "type": "",
       "ammo": 1,
       "weapon": "Weapon_RadioContact",
@@ -75645,6 +75710,7 @@
       "category": "limpet",
       "raw": 303,
       "odds": 100,
+      "dlc": 2,
       "type": "BombBullet02",
       "ammo": {
         "base": 15,
@@ -75721,6 +75787,7 @@
       "category": "deploy",
       "raw": 304,
       "odds": 100,
+      "dlc": 2,
       "type": "SentryGunBullet01",
       "ammo": {
         "base": 3,
@@ -75776,6 +75843,7 @@
       "category": "special",
       "raw": 305,
       "odds": 100,
+      "dlc": 2,
       "type": "BarrierBullet01",
       "ammo": {
         "base": 5,
@@ -75828,6 +75896,7 @@
       "category": "ground",
       "raw": 307,
       "odds": 100,
+      "dlc": 2,
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
@@ -75880,6 +75949,7 @@
       "category": "tank",
       "raw": 306,
       "odds": 100,
+      "dlc": 2,
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
@@ -75931,6 +76001,7 @@
       "category": "heli",
       "raw": 308,
       "odds": 100,
+      "dlc": 2,
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
@@ -76014,6 +76085,7 @@
       "category": "super",
       "raw": 320,
       "odds": 100,
+      "dlc": 2,
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
@@ -76049,6 +76121,7 @@
       "category": "mech",
       "raw": 309,
       "odds": 100,
+      "dlc": 2,
       "type": "SmokeCandleBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",

@@ -300,10 +300,11 @@ function populateWeaponDrops(mode, ch, cat) {
   thead.appendChild(theadrow)
   weaponTable.appendChild(thead)
 
+  const dlc = ['DLC1', 'DLC2'].indexOf(mode.name) + 1
   const tbody = $('tbody')
   for(const weapon of weapons) {
     const row = $('tr')
-    const { level, odds } = weapon
+    const { level, odds, dlc: weaponDlc } = weapon
     for(const header of dropHeaders) {
       const cell = $('td')
       const contents = header.cb(weapon)
@@ -317,7 +318,8 @@ function populateWeaponDrops(mode, ch, cat) {
     }
     for(const difficulty of difficulties) {
       const { drops: [start, end], dropSpread: spread } = difficulty
-      const isDropped = +(odds || 100)
+      const isDropped = (!weaponDlc || weaponDlc === dlc)
+        && +(odds || 100)
         && level >= start - spread
         && level <= end
       if(!isDropped) {

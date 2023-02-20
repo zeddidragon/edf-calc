@@ -17,6 +17,12 @@ function readState() {
     if(!stateKeys.includes(k)) continue
     active[k] = v
   }
+  // Migration of this mode's name
+  if(active.mode === 'offline') {
+    active.mode = 'off'
+  } else if(active.mode === 'online') {
+    active.mode = 'on'
+  }
 }
 readState()
 
@@ -126,7 +132,7 @@ function pickMode(mode) {
   const m = modes.find(m => m.name.toLowerCase() === mode)
   styleButton({
     button,
-    label: m ? m.name : 'Stats',
+    label: m ? `Drops ${m.name}` : 'Stats',
     cls: mode,
     cutPoint: 4,
   })
@@ -142,6 +148,13 @@ function pickMode(mode) {
   })
 }
 
+const buttonPrefixes = [
+  'Drops ',
+  'CC ',
+  'Enhanced ',
+  'Request ',
+  'Mid-Rg ',
+]
 function styleButton({
   button,
   label,
@@ -149,6 +162,13 @@ function styleButton({
   cutPoint,
 }) {
   button.innerHTML = ''
+  for(const pfx of buttonPrefixes) {
+    if(label.startsWith(pfx)) {
+      button.textContent = pfx
+      label = label.slice(pfx.length)
+      break
+    }
+  }
   boldify(button, label, cutPoint)
   button.classList.add(cls)
   return button
@@ -187,12 +207,11 @@ function pickChar(ch, cat) {
   for(const cat of categories) {
     const label = catLabels[ch][cat] || cat
     const li = $('a')
-    li.classList.add(cat)
-    if(label.startsWith('CC ')) {
-      boldify(li, label, 4)
-    } else {
-      boldify(li, label, 2)
-    }
+    styleButton({
+      button: li,
+      label,
+      cls: cat,
+    })
     li.addEventListener('click', () => {
       pickCategory(ch, cat)
       writeState()
@@ -220,8 +239,9 @@ function pickCategory(ch, cat) {
     button,
     label: catLabels[ch][cat] || '',
     cls: cat,
-    cutPoint,
   })
+
+  button.classList.add(cat)
 
   active.catEl?.classList.remove('selected')
   item.classList.add('selected')
@@ -244,11 +264,15 @@ function populateModes() {
     writeState()
   })
   for(const mode of modes) {
-    const mLabel = mode.name
+    const mLabel = `Drops ${mode.name}`
     const id = mode.name.toLowerCase()
     const item = $('a')
-    item.classList.add(id)
-    boldify(item, mLabel, 4)
+    styleButton({
+      button: item,
+      label: mLabel,
+      cls: id,
+      cutPoint: 4,
+    })
     modeMenu.appendChild(item)
     item.addEventListener('click', () => {
       pickMode(id)
@@ -671,7 +695,7 @@ const headers = [{
       el.setAttribute('checked', '1')
     }
     el.addEventListener('change', () => {
-      const owned = document.getElementById(`owned.${wpn.id}`)
+      const owned = document.getElementById(ownedKey)
       const v = 1 - (localStorage[key] || 0)
       localStorage[key] = v
       if(v) {

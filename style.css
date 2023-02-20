@@ -159,10 +159,10 @@ th.P {
 .ranger b, .dlc2 b, .Inferno, .lowOdds {
   color: #e88;
 }
-.winger b, .offline b, .Normal, .edf5 b {
+.winger b, .off b, .Normal, .edf5 b {
   color: #88e;
 }
-.bomber b, .online b, .Hard, .highOdds, .edf41 b {
+.bomber b, .on b, .Hard, .highOdds, .edf41 b {
   color: #8e8;
 }
 .fencer b, .dlc1 b {

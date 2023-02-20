@@ -20368,7 +20368,7 @@
   ],
   "modes": [
     {
-      "name": "Offline",
+      "name": "OFF",
       "missions": 89,
       "difficulties": [
         {
@@ -20474,7 +20474,7 @@
       ]
     },
     {
-      "name": "Online",
+      "name": "ON",
       "missions": 98,
       "difficulties": [
         {

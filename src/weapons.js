@@ -281,7 +281,9 @@ function populateWeaponDrops(mode, ch, cat) {
     .filter(t => t.character === ch && t.category === cat)
   const thead = $('thead')
   const theadrow = $('tr')
-  const dropHeaders = headers.slice(0, 4)
+  const dropHeaders = headers
+    .slice(0, 5)
+    .filter(h => !h.iff || h.iff(ch, cat))
   for(const header of dropHeaders) {
     const cell = $('th')
     cell.textContent = header.label
@@ -621,6 +623,10 @@ function tacticalDps(wpn) {
   return (mDmg * FPS / (magTime || interval))
 }
 
+const gameScopes = {
+  4: '',
+}
+
 const FPS = 60
 const headers = [{
   label: '✓',
@@ -628,8 +634,11 @@ const headers = [{
     if(!wpn.id) {
       return ''
     }
+    const { game } = active
+    const scope = gameScopes[game] || `.${game}`
     const el = $('input')
-    const key = `owned.${wpn.id}`
+    const key = `owned${scope}.${wpn.id}`
+    el.setAttribute('id', key)
     el.setAttribute('type', 'checkbox')
     if(localStorage[key]) {
       el.setAttribute('checked', '1')
@@ -638,6 +647,36 @@ const headers = [{
       const v = 1 - (localStorage[key] || 0)
       localStorage[key] = v
       if(v) {
+        el.setAttribute('checked', '1')
+      } else {
+        el.removeAttribute('checked')
+      }
+    })
+    return el
+  },
+}, {
+  iff: () => [5, 6].includes(+active.game),
+  label: '★',
+  cb: wpn => {
+    if(!wpn.id) {
+      return ''
+    }
+    const { game } = active
+    const scope = gameScopes[game] || `.${game}`
+    const el = $('input')
+    const key = `starred${scope}.${wpn.id}`
+    const ownedKey = `owned${scope}.${wpn.id}`
+    el.setAttribute('type', 'checkbox')
+    if(localStorage[key]) {
+      el.setAttribute('checked', '1')
+    }
+    el.addEventListener('change', () => {
+      const owned = document.getElementById(`owned.${wpn.id}`)
+      const v = 1 - (localStorage[key] || 0)
+      localStorage[key] = v
+      if(v) {
+        localStorage[ownedKey] = v
+        owned.setAttribute('checked', '1')
         el.setAttribute('checked', '1')
       } else {
         el.removeAttribute('checked')

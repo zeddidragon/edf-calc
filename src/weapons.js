@@ -9,6 +9,7 @@ const stateKeys = [
   'char',
   'wpn',
   'star',
+  'lang',
 ]
 function readState() {
   const params = window.location.hash.slice(1).split('&')
@@ -28,15 +29,19 @@ readState()
 
 const cached = {}
 
+let isLoaded = false
 async function loadWeapons(game) {
+  isLoaded = false
   const data = await fetch(`src/weapons-${game}.json`).then(res => res.json())
   table = data.weapons
   modes = data.modes
   populateModes()
+  pickLang(active.lang || 'en')
   pickGame(active.game || '5')
   pickMode(active.mode || 'stats')
   pickChar(active.char || 'ranger', active.wpn)
   populateWeapons(active.mode, active.char, active.wpn)
+  isLoaded = true
 }
 
 function writeState() {
@@ -45,6 +50,33 @@ function writeState() {
     .map(k => `${k}=${active[k]}`)
     .join('&')
   populateWeapons(active.mode, active.char, active.wpn)
+}
+
+function pickLang(lang) {
+  const langChanged = active.lang != lang
+  const button = document
+    .getElementById('lang-button')
+  button.classList.remove(...button.classList)
+  button.classList.add('button')
+  styleButton({
+    button,
+    label: lang,
+    cls: lang,
+  })
+
+  const item = document
+    .querySelector(`#lang-dropdown .${lang}`)
+
+  active.langEl?.classList.remove('selected')
+  item.classList.add('selected')
+  Object.assign(active, {
+    lang,
+    langEl: item,
+  })
+
+  if(langChanged && isLoaded) {
+    populateWeapons(active.mode, active.char, active.wpn)
+  }
 }
 
 function pickGame(game) {
@@ -97,7 +129,7 @@ function pickGame(game) {
     delete active.starEl
   }
 
-  if(gameChanged) {
+  if(gameChanged && isLoaded) {
     loadWeapons(game)
   }
 }
@@ -732,7 +764,8 @@ const headers = [{
   cb: wpn => {
     const el = $('div')
     el.classList.add('name')
-    el.textContent += wpn.name
+    const name = wpn.names ? wpn.names[active.lang || 'en'] : wpn.name
+    el.textContent += name
     return el
   },
 }, {
@@ -2185,6 +2218,26 @@ for(let i = 0; i < characters.length; i++) {
   charMenu.appendChild(item)
   item.addEventListener('click', () => {
     pickChar(c)
+    writeState()
+  })
+}
+
+const langs = [
+  'en',
+  'ja',
+]
+
+const langMenu = document.getElementById('lang-dropdown')
+for(const lang of langs) {
+  const item = $('a')
+  styleButton({
+    button: item,
+    label: lang,
+    cls: lang,
+  })
+  langMenu.appendChild(item)
+  item.addEventListener('click', () => {
+    pickLang(lang)
     writeState()
   })
 }

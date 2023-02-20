@@ -145,6 +145,10 @@ th.P {
   content: '~ ';
 }
 
+.spacer {
+  flex: 1;
+}
+
 .Filler {
   border-left: none;
   border-right: none;

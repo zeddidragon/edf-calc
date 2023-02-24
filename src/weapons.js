@@ -1209,6 +1209,7 @@ const headers = [{
   },
 }, {
   iff: (ch, cat, wpn) => {
+    return false
     if([
       'spear',
     ].includes(cat)) {

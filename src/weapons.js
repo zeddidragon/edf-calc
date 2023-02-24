@@ -2040,7 +2040,7 @@ const headers = [{
         shots: wpn.ammo,
         interval: wpn.shotInterval,
         ammo: wpn.shots,
-      })
+      }).toFixed(1)
     }
     const tdps = tacticalDps(wpn)
     return tdps.toFixed(1)

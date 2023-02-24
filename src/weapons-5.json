@@ -2126,7 +2126,7 @@
         "en": "MXR Sirius",
         "ja": "ＭＸＲシリウス"
       },
-      "level": 41,
+      "level": 42,
       "character": "ranger",
       "category": "assault",
       "raw": 0,
@@ -2291,7 +2291,7 @@
         "en": "Slugger NN3 SLS",
         "ja": "スラッガーＮＮ３ＳＬＳ"
       },
-      "level": 46,
+      "level": 47,
       "character": "ranger",
       "category": "assault",
       "raw": 0,
@@ -3516,7 +3516,7 @@
         "en": "M5 Raven",
         "ja": "Ｍ５レイヴン"
       },
-      "level": 81,
+      "level": 82,
       "character": "ranger",
       "category": "assault",
       "raw": 0,
@@ -5669,7 +5669,7 @@
         "en": "Monsoon MZ",
         "ja": "モンスーンＭＺ"
       },
-      "level": 76,
+      "level": 77,
       "character": "ranger",
       "category": "shotgun",
       "raw": 1,
@@ -6999,7 +6999,7 @@
         "en": "KFF60 LS",
         "ja": "ＫＦＦ６０ＬＳ"
       },
-      "level": 31,
+      "level": 32,
       "character": "ranger",
       "category": "sniper",
       "raw": 2,
@@ -7288,7 +7288,7 @@
         "en": "Pylon A1",
         "ja": "パイロンＡ１"
       },
-      "level": 44,
+      "level": 45,
       "character": "ranger",
       "category": "sniper",
       "raw": 2,
@@ -7524,7 +7524,7 @@
         "en": "Penetrator",
         "ja": "ペネトレイター"
       },
-      "level": 52,
+      "level": 53,
       "character": "ranger",
       "category": "sniper",
       "raw": 2,
@@ -8232,7 +8232,7 @@
         "en": "Ptarmigan HAZ",
         "ja": "ターミガンＨＡＺ"
       },
-      "level": 83,
+      "level": 84,
       "character": "ranger",
       "category": "sniper",
       "raw": 2,
@@ -8310,7 +8310,7 @@
         "en": "MR100 Fang",
         "ja": "ＭＲ１００ファング"
       },
-      "level": 89,
+      "level": 90,
       "character": "ranger",
       "category": "sniper",
       "raw": 2,
@@ -8817,7 +8817,7 @@
         "en": "E9 Hornet",
         "ja": "Ｅ９ホーネット"
       },
-      "level": 12,
+      "level": 13,
       "character": "ranger",
       "category": "rocket",
       "raw": 3,
@@ -10113,7 +10113,7 @@
         "en": "Volcano W20",
         "ja": "ボルケーノＷ２０"
       },
-      "level": 57,
+      "level": 58,
       "character": "ranger",
       "category": "rocket",
       "raw": 3,
@@ -10192,7 +10192,7 @@
         "en": "E12 Hornet",
         "ja": "Ｅ１２ホーネット"
       },
-      "level": 62,
+      "level": 63,
       "character": "ranger",
       "category": "rocket",
       "raw": 3,
@@ -10270,7 +10270,7 @@
         "en": "Leopard Guided Rocket Launcher M9",
         "ja": "レパード誘導ロケットＭ９"
       },
-      "level": 64,
+      "level": 65,
       "character": "ranger",
       "category": "rocket",
       "raw": 3,
@@ -11272,7 +11272,7 @@
         "en": "FORK-A15",
         "ja": "ＦＯＲＫ－Ａ１５"
       },
-      "level": 3,
+      "level": 4,
       "character": "ranger",
       "category": "missile",
       "raw": 4,
@@ -11752,7 +11752,7 @@
         "en": "FORK-A20",
         "ja": "ＦＯＲＫ－Ａ２０"
       },
-      "level": 28,
+      "level": 29,
       "character": "ranger",
       "category": "missile",
       "raw": 4,
@@ -12804,7 +12804,7 @@
         "en": "MG13J",
         "ja": "ＭＧ１３Ｊ"
       },
-      "level": 11,
+      "level": 12,
       "character": "ranger",
       "category": "grenade",
       "raw": 5,
@@ -13308,7 +13308,7 @@
         "en": "Grenade Launcher UM1-J",
         "ja": "グレネードランチャーＵＭ１－Ｊ"
       },
-      "level": 1,
+      "level": 2,
       "character": "ranger",
       "category": "grenade",
       "raw": 5,
@@ -13395,7 +13395,7 @@
         "en": "Volatile Napalm",
         "ja": "ヴァラトル・ナパーム"
       },
-      "level": 2,
+      "level": 3,
       "character": "ranger",
       "category": "grenade",
       "raw": 5,
@@ -13796,7 +13796,7 @@
         "en": "Grenade Launcher UM3-J",
         "ja": "グレネードランチャーＵＭ３－Ｊ"
       },
-      "level": 18,
+      "level": 19,
       "character": "ranger",
       "category": "grenade",
       "raw": 5,
@@ -15430,7 +15430,7 @@
         "en": "Acid Shower",
         "ja": "アシッド・シャワー"
       },
-      "level": 37,
+      "level": 38,
       "character": "ranger",
       "category": "special",
       "raw": 6,
@@ -15908,7 +15908,7 @@
         "en": "Magma Cannon",
         "ja": "マグマ砲"
       },
-      "level": 82,
+      "level": 83,
       "character": "ranger",
       "category": "special",
       "raw": 6,
@@ -17138,7 +17138,7 @@
         "en": "Y10 Anti-Aircraft Impulse",
         "ja": "Ｙ１０対空インパルス"
       },
-      "level": 12,
+      "level": 13,
       "character": "ranger",
       "category": "special",
       "raw": 6,
@@ -17516,7 +17516,7 @@
         "en": "YDX Strike Impulse",
         "ja": "ＹＤＸストライク・インパルス"
       },
-      "level": 70,
+      "level": 71,
       "character": "ranger",
       "category": "special",
       "raw": 6,
@@ -17579,7 +17579,7 @@
         "en": "Y21 Impulse",
         "ja": "Ｙ２１インパルス"
       },
-      "level": 75,
+      "level": 76,
       "character": "ranger",
       "category": "special",
       "raw": 6,
@@ -17794,7 +17794,7 @@
         "en": "High Cycle Reverser",
         "ja": "ハイサイクル・リバーサー"
       },
-      "level": 20,
+      "level": 21,
       "character": "ranger",
       "category": "special",
       "raw": 6,
@@ -18047,7 +18047,7 @@
         "en": "High Cycle Reverser D",
         "ja": "ハイサイクル・リバーサーＤ"
       },
-      "level": 50,
+      "level": 51,
       "character": "ranger",
       "category": "special",
       "raw": 6,
@@ -18630,7 +18630,7 @@
         "en": "Liquid Armor",
         "ja": "リキッドアーマー"
       },
-      "level": 0,
+      "level": 1,
       "character": "ranger",
       "category": "equipment",
       "raw": 7,
@@ -18900,7 +18900,7 @@
         "en": "Explosion-proof Suit",
         "ja": "耐爆スーツ"
       },
-      "level": 34,
+      "level": 35,
       "character": "ranger",
       "category": "equipment",
       "raw": 7,
@@ -19377,7 +19377,7 @@
         "en": "E3 Radar Support System",
         "ja": "Ｅ３レーダー支援システム"
       },
-      "level": 56,
+      "level": 57,
       "character": "ranger",
       "category": "equipment",
       "raw": 7,
@@ -19408,7 +19408,7 @@
         "en": "Multiple Lock-on Device LX",
         "ja": "多重ロックオン装置ＬＸ"
       },
-      "level": 69,
+      "level": 70,
       "character": "ranger",
       "category": "equipment",
       "raw": 7,
@@ -19884,7 +19884,7 @@
         "en": "Free Bike 1",
         "ja": "フリージャー１"
       },
-      "level": 2,
+      "level": 3,
       "character": "ranger",
       "category": "bike",
       "raw": 10,
@@ -20082,7 +20082,7 @@
         "en": "Free Bike 2",
         "ja": "フリージャー２"
       },
-      "level": 40,
+      "level": 41,
       "character": "ranger",
       "category": "bike",
       "raw": 10,
@@ -20451,7 +20451,7 @@
         "en": "Blacker 4.1",
         "ja": "ブラッカー ナンバー４．１"
       },
-      "level": 5,
+      "level": 6,
       "character": "ranger",
       "category": "tank",
       "raw": 8,
@@ -20499,7 +20499,7 @@
         "en": "Blacker E1",
         "ja": "ブラッカーＥ１"
       },
-      "level": 5,
+      "level": 6,
       "character": "ranger",
       "category": "tank",
       "raw": 8,
@@ -20633,7 +20633,7 @@
         "en": "EMC",
         "ja": "ＥＭＣ"
       },
-      "level": 11,
+      "level": 12,
       "character": "ranger",
       "category": "tank",
       "raw": 8,
@@ -21273,7 +21273,7 @@
         "en": "N9 Eros",
         "ja": "Ｎ９エウロス"
       },
-      "level": 10,
+      "level": 11,
       "character": "ranger",
       "category": "heli",
       "raw": 9,
@@ -21743,7 +21743,7 @@
         "en": "EF31 Nereid S",
         "ja": "ＥＦ３１ネレイドＳ"
       },
-      "level": 69,
+      "level": 70,
       "character": "ranger",
       "category": "heli",
       "raw": 9,
@@ -22408,7 +22408,7 @@
         "en": "Phalanx W1",
         "ja": "ファランクスＷ１"
       },
-      "level": 3,
+      "level": 4,
       "character": "winger",
       "category": "short",
       "raw": 100,
@@ -23542,7 +23542,7 @@
         "en": "Phalanx M3",
         "ja": "ファランクスＭ３"
       },
-      "level": 38,
+      "level": 39,
       "character": "winger",
       "category": "short",
       "raw": 100,
@@ -24475,7 +24475,7 @@
         "en": "M5 Rapier",
         "ja": "Ｍ５レイピア"
       },
-      "level": 68,
+      "level": 69,
       "character": "winger",
       "category": "short",
       "raw": 100,
@@ -25175,7 +25175,7 @@
         "en": "Spark Whip ZY",
         "ja": "スパークウィップＺＹ"
       },
-      "level": 89,
+      "level": 90,
       "character": "winger",
       "category": "short",
       "raw": 100,
@@ -25323,7 +25323,7 @@
         "en": "Phalanx ZT",
         "ja": "ファランクスＺＴ"
       },
-      "level": 94,
+      "level": 95,
       "character": "winger",
       "category": "short",
       "raw": 100,
@@ -25700,7 +25700,7 @@
         "en": "Destroyer Blaster 2",
         "ja": "デスト・ブラスター２"
       },
-      "level": 11,
+      "level": 12,
       "character": "winger",
       "category": "laser",
       "raw": 101,
@@ -26823,7 +26823,7 @@
         "en": "Spine Blaster E3",
         "ja": "スパイン・ブラスターＥ３"
       },
-      "level": 51,
+      "level": 52,
       "character": "winger",
       "category": "laser",
       "raw": 101,
@@ -27285,7 +27285,7 @@
         "en": "Mag Blaster SP2",
         "ja": "マグ・ブラスターＳＰ２"
       },
-      "level": 70,
+      "level": 71,
       "character": "winger",
       "category": "laser",
       "raw": 101,
@@ -27503,7 +27503,7 @@
         "en": "Reflectron 5-Way Laser ZD",
         "ja": "リフレクトロン・５ＷＡＹレーザーＺＤ"
       },
-      "level": 81,
+      "level": 82,
       "character": "winger",
       "category": "laser",
       "raw": 101,
@@ -29243,7 +29243,7 @@
         "en": "Pulse Machine Gun M4",
         "ja": "パルス・マシンガンＭ４"
       },
-      "level": 64,
+      "level": 65,
       "character": "winger",
       "category": "particle",
       "raw": 103,
@@ -30819,7 +30819,7 @@
         "en": "Bolt Gun A2",
         "ja": "ボルトガンＡ２"
       },
-      "level": 47,
+      "level": 48,
       "character": "winger",
       "category": "electro",
       "raw": 102,
@@ -34188,7 +34188,7 @@
         "en": "Splasher",
         "ja": "スプラッシャー"
       },
-      "level": 7,
+      "level": 8,
       "character": "winger",
       "category": "plasma",
       "raw": 105,
@@ -34847,7 +34847,7 @@
         "en": "Plasma Cannon C",
         "ja": "プラズマ・キャノンＣ型"
       },
-      "level": 25,
+      "level": 26,
       "character": "winger",
       "category": "plasma",
       "raw": 105,
@@ -35022,7 +35022,7 @@
         "en": "Blink Ball C",
         "ja": "ブリンク・ボールＣ"
       },
-      "level": 28,
+      "level": 29,
       "character": "winger",
       "category": "plasma",
       "raw": 105,
@@ -35259,7 +35259,7 @@
         "en": "Triple Plasma Cannon",
         "ja": "トリプル・プラズマキャノン"
       },
-      "level": 34,
+      "level": 35,
       "character": "winger",
       "category": "plasma",
       "raw": 105,
@@ -35426,7 +35426,7 @@
         "en": "Blink Fork",
         "ja": "ブリンク・フォーク"
       },
-      "level": 40,
+      "level": 41,
       "character": "winger",
       "category": "plasma",
       "raw": 105,
@@ -35672,7 +35672,7 @@
         "en": "Splasher AZ",
         "ja": "スプラッシャーＡＺ"
       },
-      "level": 50,
+      "level": 51,
       "character": "winger",
       "category": "plasma",
       "raw": 105,
@@ -35768,7 +35768,7 @@
         "en": "Plasma Big Cannon M3",
         "ja": "プラズマ・ビッグキャノンＭ３"
       },
-      "level": 52,
+      "level": 53,
       "character": "winger",
       "category": "plasma",
       "raw": 105,
@@ -36252,7 +36252,7 @@
         "en": "Split Ball AT",
         "ja": "スプリット・ボールＡＴ"
       },
-      "level": 64,
+      "level": 65,
       "character": "winger",
       "category": "plasma",
       "raw": 105,
@@ -36577,7 +36577,7 @@
         "en": "Blink Ball FZ",
         "ja": "ブリンク・ボールＦＺ"
       },
-      "level": 77,
+      "level": 78,
       "character": "winger",
       "category": "plasma",
       "raw": 105,
@@ -38449,7 +38449,7 @@
         "en": "Diffuser",
         "ja": "ディフューザー"
       },
-      "level": 1,
+      "level": 2,
       "character": "winger",
       "category": "special",
       "raw": 107,
@@ -38620,7 +38620,7 @@
         "en": "Diffuser Anti-air Custom",
         "ja": "ディフューザー対空カスタム"
       },
-      "level": 12,
+      "level": 13,
       "character": "winger",
       "category": "special",
       "raw": 107,
@@ -38791,7 +38791,7 @@
         "en": "Heaven's Gate",
         "ja": "ヘブンズ・ゲート"
       },
-      "level": 23,
+      "level": 24,
       "character": "winger",
       "category": "special",
       "raw": 107,
@@ -39611,7 +39611,7 @@
         "en": "Turbo Core",
         "ja": "ターボコア"
       },
-      "level": 0,
+      "level": 1,
       "character": "winger",
       "category": "core",
       "raw": 108,
@@ -39776,7 +39776,7 @@
         "en": "V2 Plasma Core B",
         "ja": "Ｖ２プラズマコアＢ型"
       },
-      "level": 11,
+      "level": 12,
       "character": "winger",
       "category": "core",
       "raw": 108,
@@ -39944,7 +39944,7 @@
         "en": "Jet Core",
         "ja": "ジェットコア"
       },
-      "level": 21,
+      "level": 22,
       "character": "winger",
       "category": "core",
       "raw": 108,
@@ -40070,7 +40070,7 @@
         "en": "V3 Plasma Core",
         "ja": "Ｖ３プラズマコア"
       },
-      "level": 28,
+      "level": 29,
       "character": "winger",
       "category": "core",
       "raw": 108,
@@ -40740,7 +40740,7 @@
         "en": "V5 Plasma Core B",
         "ja": "Ｖ５プラズマコアＢ型"
       },
-      "level": 75,
+      "level": 76,
       "character": "winger",
       "category": "core",
       "raw": 108,
@@ -41129,7 +41129,7 @@
         "en": "Vibro Hammer F3",
         "ja": "ヴィブロ・ハンマーＦ３"
       },
-      "level": 0,
+      "level": 1,
       "character": "fencer",
       "category": "hammer",
       "raw": 200,
@@ -41219,7 +41219,7 @@
         "en": "Force Blade",
         "ja": "フォース・ブレード"
       },
-      "level": 1,
+      "level": 2,
       "character": "fencer",
       "category": "hammer",
       "raw": 200,
@@ -41473,7 +41473,7 @@
         "en": "Force Blade D",
         "ja": "フォース・ブレードＤ"
       },
-      "level": 10,
+      "level": 11,
       "character": "fencer",
       "category": "hammer",
       "raw": 200,
@@ -41735,7 +41735,7 @@
         "en": "Dynamo Blade",
         "ja": "ダイナモ・ブレード"
       },
-      "level": 18,
+      "level": 19,
       "character": "fencer",
       "category": "hammer",
       "raw": 200,
@@ -41997,7 +41997,7 @@
         "en": "Force Ax",
         "ja": "フォース・アックス"
       },
-      "level": 38,
+      "level": 39,
       "character": "fencer",
       "category": "hammer",
       "raw": 200,
@@ -42079,7 +42079,7 @@
         "en": "Quake Haken",
         "ja": "クエイク・ハーケン"
       },
-      "level": 40,
+      "level": 41,
       "character": "fencer",
       "category": "hammer",
       "raw": 200,
@@ -42783,7 +42783,7 @@
         "en": "Finest Hammer",
         "ja": "ファイネスト・ハンマー"
       },
-      "level": 68,
+      "level": 69,
       "character": "fencer",
       "category": "hammer",
       "raw": 200,
@@ -43045,7 +43045,7 @@
         "en": "Dyna Force Blade",
         "ja": "ダイナ・フォースブレード"
       },
-      "level": 82,
+      "level": 83,
       "character": "fencer",
       "category": "hammer",
       "raw": 200,
@@ -43606,7 +43606,7 @@
         "en": "Jackhammer M2",
         "ja": "ジャックハンマーＭ２"
       },
-      "level": 25,
+      "level": 26,
       "character": "fencer",
       "category": "spear",
       "raw": 201,
@@ -43746,7 +43746,7 @@
         "en": "Flashing Spear M3",
         "ja": "フラッシング・スピアＭ３"
       },
-      "level": 34,
+      "level": 35,
       "character": "fencer",
       "category": "spear",
       "raw": 201,
@@ -44562,7 +44562,7 @@
         "en": "Jackhammer MA",
         "ja": "ジャックハンマーＭＡ"
       },
-      "level": 76,
+      "level": 77,
       "character": "fencer",
       "category": "spear",
       "raw": 201,
@@ -44824,7 +44824,7 @@
         "en": "Spine Driver MA",
         "ja": "スパインドライバーＭＡ"
       },
-      "level": 83,
+      "level": 84,
       "character": "fencer",
       "category": "spear",
       "raw": 201,
@@ -45168,7 +45168,7 @@
         "en": "Deflection Shield 3",
         "ja": "ディフレクション・シールド３"
       },
-      "level": 12,
+      "level": 13,
       "character": "fencer",
       "category": "shield",
       "raw": 202,
@@ -45544,7 +45544,7 @@
         "en": "Ion Mirror Shield 4E",
         "ja": "イオンミラー・シールド４Ｅ"
       },
-      "level": 46,
+      "level": 47,
       "character": "fencer",
       "category": "shield",
       "raw": 202,
@@ -45591,7 +45591,7 @@
         "en": "Deflection Shield 7",
         "ja": "ディフレクション・シールド７"
       },
-      "level": 51,
+      "level": 52,
       "character": "fencer",
       "category": "shield",
       "raw": 202,
@@ -46516,7 +46516,7 @@
         "en": "Dexter Automatic Shotgun D1",
         "ja": "デクスター自動散弾銃Ｄ１"
       },
-      "level": 11,
+      "level": 12,
       "character": "fencer",
       "category": "light",
       "raw": 203,
@@ -46772,7 +46772,7 @@
         "en": "Galleon Lightweight Cannon M2",
         "ja": "ガリオン軽量機関砲Ｍ２"
       },
-      "level": 20,
+      "level": 21,
       "character": "fencer",
       "category": "light",
       "raw": 203,
@@ -47007,7 +47007,7 @@
         "en": "FGS Diffusion Gatling",
         "ja": "ＦＧＳ拡散ガトリング"
       },
-      "level": 31,
+      "level": 32,
       "character": "fencer",
       "category": "light",
       "raw": 203,
@@ -47346,7 +47346,7 @@
         "en": "UT2 Hand Gatling",
         "ja": "ＵＴ２ハンドガトリング"
       },
-      "level": 41,
+      "level": 42,
       "character": "fencer",
       "category": "light",
       "raw": 203,
@@ -47428,7 +47428,7 @@
         "en": "Galleon Lightweight Cannon M3",
         "ja": "ガリオン軽量機関砲Ｍ３"
       },
-      "level": 44,
+      "level": 45,
       "character": "fencer",
       "category": "light",
       "raw": 203,
@@ -47920,7 +47920,7 @@
         "en": "FG20 Hand Gatling",
         "ja": "ＦＧ２０ハンドガトリング"
       },
-      "level": 64,
+      "level": 65,
       "character": "fencer",
       "category": "light",
       "raw": 203,
@@ -48084,7 +48084,7 @@
         "en": "Dexter Automatic Shotgun ZA",
         "ja": "デクスター自動散弾銃ＺＡ"
       },
-      "level": 69,
+      "level": 70,
       "character": "fencer",
       "category": "light",
       "raw": 203,
@@ -49054,7 +49054,7 @@
         "en": "25mm Light Canister Cannon",
         "ja": "２５ミリ軽量キャニスター砲"
       },
-      "level": 15,
+      "level": 16,
       "character": "fencer",
       "category": "heavy",
       "raw": 204,
@@ -49546,7 +49546,7 @@
         "en": "NC201 Hand Cannon",
         "ja": "ＮＣ２０１ハンドキャノン"
       },
-      "level": 50,
+      "level": 51,
       "character": "fencer",
       "category": "heavy",
       "raw": 204,
@@ -49625,7 +49625,7 @@
         "en": "30mm Light Canister Cannon",
         "ja": "３０ミリキャニスター砲"
       },
-      "level": 57,
+      "level": 58,
       "character": "fencer",
       "category": "heavy",
       "raw": 204,
@@ -49959,7 +49959,7 @@
         "en": "NC290 Hand Cannon",
         "ja": "ＮＣ２９０ハンドキャノン"
       },
-      "level": 77,
+      "level": 78,
       "character": "fencer",
       "category": "heavy",
       "raw": 204,
@@ -50038,7 +50038,7 @@
         "en": "35mm Battle Cannon",
         "ja": "３５ミリ バトルキャノン砲"
       },
-      "level": 81,
+      "level": 82,
       "character": "fencer",
       "category": "heavy",
       "raw": 204,
@@ -50807,7 +50807,7 @@
         "en": "FH21 Light Mortar",
         "ja": "ＦＨ２１軽量迫撃砲"
       },
-      "level": 37,
+      "level": 38,
       "character": "fencer",
       "category": "heavy",
       "raw": 204,
@@ -51916,7 +51916,7 @@
         "en": "Phoenix",
         "ja": "フェニックス"
       },
-      "level": 21,
+      "level": 22,
       "character": "fencer",
       "category": "missile",
       "raw": 205,
@@ -51986,7 +51986,7 @@
         "en": "G2 Arm Hound",
         "ja": "Ｇ２アームハウンド"
       },
-      "level": 28,
+      "level": 29,
       "character": "fencer",
       "category": "missile",
       "raw": 205,
@@ -52938,7 +52938,7 @@
         "en": "FGX High Altitude Impact Launcher",
         "ja": "ＦＧＸ高高度強襲ミサイル"
       },
-      "level": 70,
+      "level": 71,
       "character": "fencer",
       "category": "missile",
       "raw": 205,
@@ -53773,7 +53773,7 @@
         "en": "Multi-Charger 2-3",
         "ja": "マルチチャージャー２－３"
       },
-      "level": 34,
+      "level": 35,
       "character": "fencer",
       "category": "booster",
       "raw": 206,
@@ -53807,7 +53807,7 @@
         "en": "Multi-Charger 3-2",
         "ja": "マルチチャージャー３－２"
       },
-      "level": 44,
+      "level": 45,
       "character": "fencer",
       "category": "booster",
       "raw": 206,
@@ -54778,7 +54778,7 @@
         "en": "V3 Exoskeleton",
         "ja": "Ｖ３スケルトン"
       },
-      "level": 64,
+      "level": 65,
       "character": "fencer",
       "category": "exo",
       "raw": 209,
@@ -54812,7 +54812,7 @@
         "en": "V3 Leg Exoskeleton",
         "ja": "Ｖ３レッグスケルトン"
       },
-      "level": 69,
+      "level": 70,
       "character": "fencer",
       "category": "exo",
       "raw": 209,
@@ -54961,7 +54961,7 @@
         "en": "Mortar",
         "ja": "迫撃砲"
       },
-      "level": 5,
+      "level": 6,
       "character": "bomber",
       "category": "artillery",
       "raw": 310,
@@ -55261,7 +55261,7 @@
         "en": "Large Howitzer",
         "ja": "大型榴弾砲"
       },
-      "level": 31,
+      "level": 32,
       "character": "bomber",
       "category": "artillery",
       "raw": 310,
@@ -55711,7 +55711,7 @@
         "en": "Cannon DZ",
         "ja": "カノン砲ＤＺ"
       },
-      "level": 82,
+      "level": 83,
       "character": "bomber",
       "category": "artillery",
       "raw": 310,
@@ -55951,7 +55951,7 @@
         "en": "Rocket Cannon A",
         "ja": "ロケット砲Ａ"
       },
-      "level": 1,
+      "level": 2,
       "character": "bomber",
       "category": "gunship",
       "raw": 311,
@@ -56025,7 +56025,7 @@
         "en": "150mm Single-Barreled Cannon B",
         "ja": "１５０ミリ単装砲Ｂ"
       },
-      "level": 2,
+      "level": 3,
       "character": "bomber",
       "category": "gunship",
       "raw": 311,
@@ -56099,7 +56099,7 @@
         "en": "120mm Neutralize Cannon A",
         "ja": "１２０ミリ制圧砲Ａ"
       },
-      "level": 2,
+      "level": 3,
       "character": "bomber",
       "category": "gunship",
       "raw": 311,
@@ -56437,7 +56437,7 @@
         "en": "120mm Neutralize Cannon B",
         "ja": "１２０ミリ制圧砲Ｂ"
       },
-      "level": 12,
+      "level": 13,
       "character": "bomber",
       "category": "gunship",
       "raw": 311,
@@ -56659,7 +56659,7 @@
         "en": "Autocannon C",
         "ja": "機関砲Ｃ"
       },
-      "level": 18,
+      "level": 19,
       "character": "bomber",
       "category": "gunship",
       "raw": 311,
@@ -56717,7 +56717,7 @@
         "en": "105mm Rapid-fire Cannon C",
         "ja": "１０５ミリ速射砲Ｃ"
       },
-      "level": 20,
+      "level": 21,
       "character": "bomber",
       "category": "gunship",
       "raw": 311,
@@ -57039,7 +57039,7 @@
         "en": "150mm Triple-Barreled Cannon",
         "ja": "１５０ミリ３連装砲"
       },
-      "level": 34,
+      "level": 35,
       "character": "bomber",
       "category": "gunship",
       "raw": 311,
@@ -57303,7 +57303,7 @@
         "en": "150mm Single-Barreled Cannon Lapis 2",
         "ja": "１５０ミリ単装砲ラピス２"
       },
-      "level": 46,
+      "level": 47,
       "character": "bomber",
       "category": "gunship",
       "raw": 311,
@@ -57641,7 +57641,7 @@
         "en": "Vulcan Cannon M1",
         "ja": "バルカン砲Ｍ１"
       },
-      "level": 63,
+      "level": 64,
       "character": "bomber",
       "category": "gunship",
       "raw": 311,
@@ -58359,7 +58359,7 @@
         "en": "Combat Bomber Kamuy",
         "ja": "戦闘爆撃機カムイ"
       },
-      "level": 2,
+      "level": 3,
       "character": "bomber",
       "category": "planes",
       "raw": 312,
@@ -58409,7 +58409,7 @@
         "en": "Heavy Bomber Vesta",
         "ja": "重爆撃機ウェスタ"
       },
-      "level": 5,
+      "level": 6,
       "character": "bomber",
       "category": "planes",
       "raw": 312,
@@ -58659,7 +58659,7 @@
         "en": "Heavy Bomber Vesta B",
         "ja": "重爆撃機ウェスタＢ"
       },
-      "level": 20,
+      "level": 21,
       "character": "bomber",
       "category": "planes",
       "raw": 312,
@@ -58759,7 +58759,7 @@
         "en": "Combat Bomber Kamuy B",
         "ja": "戦闘爆撃機カムイＢ"
       },
-      "level": 23,
+      "level": 24,
       "character": "bomber",
       "category": "planes",
       "raw": 312,
@@ -58859,7 +58859,7 @@
         "en": "Combat Bomber KM6 Plan X4",
         "ja": "戦闘爆撃機ＫＭ６ プランＸ４"
       },
-      "level": 31,
+      "level": 32,
       "character": "bomber",
       "category": "planes",
       "raw": 312,
@@ -58959,7 +58959,7 @@
         "en": "High-Speed Bomber KM6 F1",
         "ja": "高速爆撃機ＫＭ６Ｆ１"
       },
-      "level": 37,
+      "level": 38,
       "character": "bomber",
       "category": "planes",
       "raw": 312,
@@ -59109,7 +59109,7 @@
         "en": "Combat Bomber KM6 Plan X9",
         "ja": "戦闘爆撃機ＫＭ６ プランＸ９"
       },
-      "level": 47,
+      "level": 48,
       "character": "bomber",
       "category": "planes",
       "raw": 312,
@@ -59209,7 +59209,7 @@
         "en": "Combat Bomber Kamuy C1",
         "ja": "戦闘爆撃機カムイＣ１"
       },
-      "level": 52,
+      "level": 53,
       "character": "bomber",
       "category": "planes",
       "raw": 312,
@@ -59309,7 +59309,7 @@
         "en": "Heavy Bomber Phobos Plan BX",
         "ja": "重爆撃機フォボスＢＸ"
       },
-      "level": 57,
+      "level": 58,
       "character": "bomber",
       "category": "planes",
       "raw": 312,
@@ -59659,7 +59659,7 @@
         "en": "Combat Bomber Kamuy CX",
         "ja": "戦闘爆撃機カムイＣＸ"
       },
-      "level": 76,
+      "level": 77,
       "character": "bomber",
       "category": "planes",
       "raw": 312,
@@ -59759,7 +59759,7 @@
         "en": "Heavy Bomber Vesta DA",
         "ja": "重爆撃機ウェスタＤＡ"
       },
-      "level": 83,
+      "level": 84,
       "character": "bomber",
       "category": "planes",
       "raw": 312,
@@ -60025,7 +60025,7 @@
         "en": "AHM Cruise Missiles",
         "ja": "ＡＨＭ巡航ミサイル"
       },
-      "level": 12,
+      "level": 13,
       "character": "bomber",
       "category": "missile",
       "raw": 313,
@@ -60083,7 +60083,7 @@
         "en": "Lionic U20",
         "ja": "ライオニックＵ２０"
       },
-      "level": 15,
+      "level": 16,
       "character": "bomber",
       "category": "missile",
       "raw": 313,
@@ -60257,7 +60257,7 @@
         "en": "Tempest A2",
         "ja": "テンペストＡ２"
       },
-      "level": 31,
+      "level": 32,
       "character": "bomber",
       "category": "missile",
       "raw": 313,
@@ -60431,7 +60431,7 @@
         "en": "N6 Cruise Missiles",
         "ja": "Ｎ６巡航ミサイル"
       },
-      "level": 56,
+      "level": 57,
       "character": "bomber",
       "category": "missile",
       "raw": 313,
@@ -60663,7 +60663,7 @@
         "en": "N6 AT Cruise Missiles",
         "ja": "Ｎ６ＡＴ巡航ミサイル"
       },
-      "level": 82,
+      "level": 83,
       "character": "bomber",
       "category": "missile",
       "raw": 313,
@@ -60779,7 +60779,7 @@
         "en": "Bulge Laser A",
         "ja": "バルジレーザーＡ"
       },
-      "level": 3,
+      "level": 4,
       "character": "bomber",
       "category": "satellite",
       "raw": 314,
@@ -60895,7 +60895,7 @@
         "en": "Spritefall A",
         "ja": "スプライトフォールＡ"
       },
-      "level": 7,
+      "level": 8,
       "character": "bomber",
       "category": "satellite",
       "raw": 314,
@@ -60953,7 +60953,7 @@
         "en": "Bulge Laser C",
         "ja": "バルジレーザーＣ"
       },
-      "level": 10,
+      "level": 11,
       "character": "bomber",
       "category": "satellite",
       "raw": 314,
@@ -61069,7 +61069,7 @@
         "en": "Spritefall B",
         "ja": "スプライトフォールＢ"
       },
-      "level": 21,
+      "level": 22,
       "character": "bomber",
       "category": "satellite",
       "raw": 314,
@@ -61127,7 +61127,7 @@
         "en": "Bulge Laser R1",
         "ja": "バルジレーザーＲ１"
       },
-      "level": 25,
+      "level": 26,
       "character": "bomber",
       "category": "satellite",
       "raw": 314,
@@ -61243,7 +61243,7 @@
         "en": "Bulge Laser R2",
         "ja": "バルジレーザーＲ２"
       },
-      "level": 34,
+      "level": 35,
       "character": "bomber",
       "category": "satellite",
       "raw": 314,
@@ -61359,7 +61359,7 @@
         "en": "Bulge Laser Beam Mode S",
         "ja": "バルジレーザー照射モードＳ"
       },
-      "level": 44,
+      "level": 45,
       "character": "bomber",
       "category": "satellite",
       "raw": 314,
@@ -61533,7 +61533,7 @@
         "en": "Spritefall Power Mode",
         "ja": "スプライトフォール パワーモード"
       },
-      "level": 62,
+      "level": 63,
       "character": "bomber",
       "category": "satellite",
       "raw": 314,
@@ -61823,7 +61823,7 @@
         "en": "Spritefall Shooting Mode β3",
         "ja": "スプライトフォール射撃モードβ３"
       },
-      "level": 82,
+      "level": 83,
       "character": "bomber",
       "category": "satellite",
       "raw": 314,
@@ -61881,7 +61881,7 @@
         "en": "Bulge Laser Beam Mode Z",
         "ja": "バルジレーザー照射モードＺ"
       },
-      "level": 89,
+      "level": 90,
       "character": "bomber",
       "category": "satellite",
       "raw": 314,
@@ -62534,7 +62534,7 @@
         "en": "Limpet Gun M3",
         "ja": "リムペットガンＭ３"
       },
-      "level": 21,
+      "level": 22,
       "character": "bomber",
       "category": "limpet",
       "raw": 303,
@@ -62620,7 +62620,7 @@
         "en": "Splendor Shot",
         "ja": "スプレンダー・ショット"
       },
-      "level": 25,
+      "level": 26,
       "character": "bomber",
       "category": "limpet",
       "raw": 303,
@@ -62880,7 +62880,7 @@
         "en": "Limpet Detector",
         "ja": "リムペット・ディテクター"
       },
-      "level": 37,
+      "level": 38,
       "character": "bomber",
       "category": "limpet",
       "raw": 303,
@@ -63583,7 +63583,7 @@
         "en": "Limpet Gun MT",
         "ja": "リムペットガンＭＴ"
       },
-      "level": 77,
+      "level": 78,
       "character": "bomber",
       "category": "limpet",
       "raw": 303,
@@ -63834,7 +63834,7 @@
         "en": "Limpet Chain Gun ZD",
         "ja": "リムペット・チェーンガンＺＤ"
       },
-      "level": 88,
+      "level": 89,
       "character": "bomber",
       "category": "limpet",
       "raw": 303,
@@ -64605,7 +64605,7 @@
         "en": "Patroller DA",
         "ja": "パトローラーＤＡ"
       },
-      "level": 81,
+      "level": 82,
       "character": "bomber",
       "category": "deploy",
       "raw": 304,
@@ -64758,7 +64758,7 @@
         "en": "ZE-GUN 2A",
         "ja": "ＺＥ－ＧＵＮ ２Ａ"
       },
-      "level": 5,
+      "level": 6,
       "character": "bomber",
       "category": "deploy",
       "raw": 304,
@@ -64872,7 +64872,7 @@
         "en": "ZE Sniper",
         "ja": "ＺＥスナイパー"
       },
-      "level": 18,
+      "level": 19,
       "character": "bomber",
       "category": "deploy",
       "raw": 304,
@@ -64994,7 +64994,7 @@
         "en": "FZ-GUN M2",
         "ja": "ＦＺ－ＧＵＮ Ｍ２"
       },
-      "level": 34,
+      "level": 35,
       "character": "bomber",
       "category": "deploy",
       "raw": 304,
@@ -65108,7 +65108,7 @@
         "en": "FZ-GUN MD",
         "ja": "ＦＺ－ＧＵＮ ＭＤ"
       },
-      "level": 52,
+      "level": 53,
       "character": "bomber",
       "category": "deploy",
       "raw": 304,
@@ -65401,7 +65401,7 @@
         "en": "Laser Guide Kit",
         "ja": "レーザー誘導装置"
       },
-      "level": 0,
+      "level": 1,
       "character": "bomber",
       "category": "support",
       "raw": 302,
@@ -65512,7 +65512,7 @@
         "en": "Laser Guide Kit T3",
         "ja": "レーザー誘導装置Ｔ３"
       },
-      "level": 56,
+      "level": 57,
       "character": "bomber",
       "category": "support",
       "raw": 302,
@@ -65586,7 +65586,7 @@
         "en": "Guide Beacon Gun",
         "ja": "誘導ビーコンガン"
       },
-      "level": 1,
+      "level": 2,
       "character": "bomber",
       "category": "support",
       "raw": 302,
@@ -65770,7 +65770,7 @@
         "en": "Power Beacon Gun",
         "ja": "パワービーコンガン"
       },
-      "level": 63,
+      "level": 64,
       "character": "bomber",
       "category": "support",
       "raw": 302,
@@ -65808,7 +65808,7 @@
         "en": "Guide Beacon Gun MA",
         "ja": "誘導ビーコンガンＭＡ"
       },
-      "level": 76,
+      "level": 77,
       "character": "bomber",
       "category": "support",
       "raw": 302,
@@ -66708,7 +66708,7 @@
         "en": "Offensive Territory",
         "ja": "オフェンシブテリトリー"
       },
-      "level": 58,
+      "level": 59,
       "character": "bomber",
       "category": "support",
       "raw": 302,
@@ -66844,7 +66844,7 @@
         "en": "Power Post ZM",
         "ja": "パワーポストＺＭ"
       },
-      "level": 83,
+      "level": 84,
       "character": "bomber",
       "category": "support",
       "raw": 302,
@@ -67172,7 +67172,7 @@
         "en": "Guard Assist Gun G",
         "ja": "ガードアシストガンＧ"
       },
-      "level": 41,
+      "level": 42,
       "character": "bomber",
       "category": "support",
       "raw": 302,
@@ -67427,7 +67427,7 @@
         "en": "Decoy [Green]",
         "ja": "デコイ〔グリーン〕"
       },
-      "level": 7,
+      "level": 8,
       "character": "bomber",
       "category": "special",
       "raw": 305,
@@ -67537,7 +67537,7 @@
         "en": "Heavy Bunker",
         "ja": "ワイドウォールトーチカ"
       },
-      "level": 20,
+      "level": 21,
       "character": "bomber",
       "category": "special",
       "raw": 305,
@@ -67584,7 +67584,7 @@
         "en": "Decoy [Blue]",
         "ja": "デコイ〔ブルー〕"
       },
-      "level": 28,
+      "level": 29,
       "character": "bomber",
       "category": "special",
       "raw": 305,
@@ -68071,7 +68071,7 @@
         "en": "Electromagnetic Wall",
         "ja": "電磁城壁"
       },
-      "level": 87,
+      "level": 88,
       "character": "bomber",
       "category": "special",
       "raw": 305,
@@ -68173,7 +68173,7 @@
         "en": "Suppress Gun",
         "ja": "サプレスガン"
       },
-      "level": 1,
+      "level": 2,
       "character": "bomber",
       "category": "special",
       "raw": 305,
@@ -69545,7 +69545,7 @@
         "en": "Nix Missile Gun",
         "ja": "ニクス ミサイルガン"
       },
-      "level": 34,
+      "level": 35,
       "character": "bomber",
       "category": "mech",
       "raw": 309,
@@ -69835,7 +69835,7 @@
         "en": "Nix Red Shadow",
         "ja": "ニクス レッドシャドゥ"
       },
-      "level": 44,
+      "level": 45,
       "character": "bomber",
       "category": "mech",
       "raw": 309,
@@ -71152,7 +71152,7 @@
         "en": "Depth Crawler S Range Custom",
         "ja": "デプスクロウラー Ｓレンジカスタム"
       },
-      "level": 52,
+      "level": 53,
       "character": "bomber",
       "category": "super",
       "raw": 320,
@@ -71914,7 +71914,7 @@
         "en": "N9 Eros",
         "ja": "Ｎ９エウロス"
       },
-      "level": 10,
+      "level": 11,
       "character": "bomber",
       "category": "heli",
       "raw": 308,
@@ -72002,7 +72002,7 @@
         "en": "N9 Eros Vulture",
         "ja": "Ｎ９エウロス・バルチャー"
       },
-      "level": 21,
+      "level": 22,
       "character": "bomber",
       "category": "heli",
       "raw": 308,
@@ -72522,7 +72522,7 @@
         "en": "Caliban Support Vehicle",
         "ja": "キャリバン装甲救護車両"
       },
-      "level": 5,
+      "level": 6,
       "character": "bomber",
       "category": "ground",
       "raw": 307,
@@ -73118,7 +73118,7 @@
         "en": "Naegling Self-Propelled Missile Launcher D2",
         "ja": "ネグリング自走ミサイルＤ２"
       },
-      "level": 64,
+      "level": 65,
       "character": "bomber",
       "category": "ground",
       "raw": 307,
@@ -73418,7 +73418,7 @@
         "en": "Blacker 5",
         "ja": "ブラッカー ナンバー５"
       },
-      "level": 5,
+      "level": 6,
       "character": "bomber",
       "category": "tank",
       "raw": 306,
@@ -73466,7 +73466,7 @@
         "en": "Blacker E1",
         "ja": "ブラッカーＥ１"
       },
-      "level": 5,
+      "level": 6,
       "character": "bomber",
       "category": "tank",
       "raw": 306,
@@ -73574,7 +73574,7 @@
         "en": "B651 Titan",
         "ja": "Ｂ６５１タイタン"
       },
-      "level": 11,
+      "level": 12,
       "character": "bomber",
       "category": "tank",
       "raw": 306,
@@ -73702,7 +73702,7 @@
         "en": "Blacker E2",
         "ja": "ブラッカーＥ２"
       },
-      "level": 15,
+      "level": 16,
       "character": "bomber",
       "category": "tank",
       "raw": 306,
@@ -73863,7 +73863,7 @@
         "en": "Blacker SPC",
         "ja": "ブラッカーＳＰＣ"
       },
-      "level": 23,
+      "level": 24,
       "character": "bomber",
       "category": "tank",
       "raw": 306,
@@ -74159,7 +74159,7 @@
         "en": "Blacker E3",
         "ja": "ブラッカーＥ３"
       },
-      "level": 47,
+      "level": 48,
       "character": "bomber",
       "category": "tank",
       "raw": 306,
@@ -74429,7 +74429,7 @@
         "en": "Blacker E4",
         "ja": "ブラッカーＥ４"
       },
-      "level": 77,
+      "level": 78,
       "character": "bomber",
       "category": "tank",
       "raw": 306,
@@ -74968,7 +74968,7 @@
         "en": "KFF 71S",
         "ja": "ＫＦＦ７１Ｓ"
       },
-      "level": 104,
+      "level": 105,
       "character": "ranger",
       "category": "sniper",
       "raw": 2,
@@ -75462,7 +75462,7 @@
         "en": "Stardust Fall",
         "ja": "スターダスト・フォール"
       },
-      "level": 104,
+      "level": 105,
       "character": "winger",
       "category": "particle",
       "raw": 103,
@@ -75712,7 +75712,7 @@
         "en": "Plasma Cannon Type G",
         "ja": "プラズマ・キャノンＧ型"
       },
-      "level": 104,
+      "level": 105,
       "character": "winger",
       "category": "plasma",
       "raw": 105,
@@ -75969,7 +75969,7 @@
         "en": "Jackhammer MBF",
         "ja": "ジャックハンマーＭＢＦ"
       },
-      "level": 104,
+      "level": 105,
       "character": "fencer",
       "category": "spear",
       "raw": 201,
@@ -76361,7 +76361,7 @@
         "en": "M3 Blood Storm",
         "ja": "Ｍ３ブラッドストーム"
       },
-      "level": 104,
+      "level": 105,
       "character": "fencer",
       "category": "missile",
       "raw": 205,
@@ -76707,7 +76707,7 @@
         "en": "ZEX Rapid Launcher",
         "ja": "ＺＥＸラピッドランチャー"
       },
-      "level": 104,
+      "level": 105,
       "character": "bomber",
       "category": "deploy",
       "raw": 304,
@@ -77025,7 +77025,7 @@
         "en": "Nix Saber",
         "ja": "ニクス セイバー"
       },
-      "level": 104,
+      "level": 105,
       "character": "bomber",
       "category": "mech",
       "raw": 309,

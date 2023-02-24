@@ -609,7 +609,7 @@ function starValue({ base, zero, exp, lvMin, lvMax, type, algo }, star) {
     : base * zero
   const rounding = [4].includes(algo) ? Math.round : Math.ceil
   const growthBase = (base - zeroValue) / Math.pow(5, exp)
-  star = Math.min(Math.max(lvMin, star), lvMax)
+  star = Math.min(Math.max(lvMin, star), Math.max(5, lvMax))
   let ret = +(zeroValue + growthBase * Math.pow(star, exp))
   if(type === 'int') {
     ret = rounding(ret)

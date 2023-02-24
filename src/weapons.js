@@ -748,10 +748,15 @@ const headers = [{
       return '-'
     }
     const el = $('div')
-    const difficulty = modes[0]
+    const difficulty = modes[1]
       .difficulties
       .slice(1)
-      .find(d => d.drops[1] >= level)
+      .find(d => {
+        const limits = d.weaponLimits
+        if(!Array.isArray(limits)) return
+        const upper = limits[limits.length - 1]
+        return upper > 0 && upper >= level
+      })
     if(!difficulty) {
       return level
     }

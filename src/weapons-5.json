@@ -61,7 +61,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -143,7 +143,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -221,7 +221,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -303,7 +303,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -385,7 +385,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -467,7 +467,7 @@
         "base": 3,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -549,7 +549,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -631,7 +631,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -713,7 +713,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -874,7 +874,7 @@
         "base": 3,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -956,7 +956,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -1039,7 +1039,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -1121,7 +1121,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -1199,7 +1199,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -1281,7 +1281,7 @@
         "base": 2,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -1363,7 +1363,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -1445,7 +1445,7 @@
         "base": 7,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -1527,7 +1527,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -1609,7 +1609,7 @@
         "base": 2,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -1692,7 +1692,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -1774,7 +1774,7 @@
         "base": 2,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -1856,7 +1856,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -1938,7 +1938,7 @@
         "base": 7,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -2099,7 +2099,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -2182,7 +2182,7 @@
         "base": 2,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -2264,7 +2264,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -2346,7 +2346,7 @@
         "base": 7,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -2424,7 +2424,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -2506,7 +2506,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -2588,7 +2588,7 @@
         "base": 2,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -2670,7 +2670,7 @@
         "base": 7,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -2753,7 +2753,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -2835,7 +2835,7 @@
         "base": 7,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -2917,7 +2917,7 @@
         "base": 1,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 1,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -3000,7 +3000,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -3082,7 +3082,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -3164,7 +3164,7 @@
         "base": 7,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -3246,7 +3246,7 @@
         "base": 2,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -3328,7 +3328,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -3406,7 +3406,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -3489,7 +3489,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -3571,7 +3571,7 @@
         "base": 1,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 1,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -3653,7 +3653,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -6015,7 +6015,7 @@
         "base": 5,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -6172,7 +6172,7 @@
         "base": 4,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -6250,7 +6250,7 @@
         "base": 5,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -6461,7 +6461,7 @@
         "base": 5,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -6696,7 +6696,7 @@
         "base": 5,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -6774,7 +6774,7 @@
         "base": 5,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -10008,7 +10008,7 @@
         "base": 8,
         "algo": 25,
         "lvMin": 4,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -10539,7 +10539,7 @@
         "base": 8,
         "algo": 25,
         "lvMin": 4,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -12040,7 +12040,7 @@
         "base": 2,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 1.5,
         "type": "int"
@@ -12372,7 +12372,7 @@
         "base": 2,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 1.5,
         "type": "int"
@@ -13232,7 +13232,7 @@
         "base": 4,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -13318,7 +13318,7 @@
         "base": 4,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -13405,7 +13405,7 @@
         "base": 4,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -13547,7 +13547,7 @@
         "base": 4,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -13633,7 +13633,7 @@
         "base": 4,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -13769,7 +13769,7 @@
         "base": 8,
         "algo": 25,
         "lvMin": 4,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -13806,7 +13806,7 @@
         "base": 4,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -14021,7 +14021,7 @@
         "base": 5,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -14099,7 +14099,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -14179,7 +14179,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -14322,7 +14322,7 @@
         "base": 4,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -14401,7 +14401,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -14544,7 +14544,7 @@
         "base": 4,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -14693,7 +14693,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -14898,7 +14898,7 @@
         "base": 4,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -14976,7 +14976,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -15118,7 +15118,7 @@
         "base": 4,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -15197,7 +15197,7 @@
         "base": 5,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -15316,7 +15316,7 @@
         "base": 6,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -15403,7 +15403,7 @@
         "base": 1,
         "algo": 25,
         "lvMin": 4,
-        "lvMax": 1,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -15655,7 +15655,7 @@
         "base": 1,
         "algo": 25,
         "lvMin": 4,
-        "lvMax": 1,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -16291,7 +16291,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -16369,7 +16369,7 @@
         "base": 2,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -16447,7 +16447,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -16525,7 +16525,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -16562,7 +16562,7 @@
         "base": 8,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -21993,7 +21993,7 @@
         "base": 6,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -22002,7 +22002,7 @@
         "base": 1,
         "algo": 25,
         "lvMin": 4,
-        "lvMax": 1,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -22148,7 +22148,7 @@
         "base": 3,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -22232,7 +22232,7 @@
         "base": 6,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -22380,7 +22380,7 @@
         "base": 6,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -22464,7 +22464,7 @@
         "base": 6,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -22721,7 +22721,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -22839,7 +22839,7 @@
         "base": 6,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -22919,7 +22919,7 @@
         "base": 6,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -23139,7 +23139,7 @@
         "base": 6,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -23181,7 +23181,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -23295,7 +23295,7 @@
         "base": 6,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -23379,7 +23379,7 @@
         "base": 6,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -23598,7 +23598,7 @@
         "base": 6,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -23678,7 +23678,7 @@
         "base": 6,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -23758,7 +23758,7 @@
         "base": 3,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -23800,7 +23800,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -23983,7 +23983,7 @@
         "base": 7,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -24025,7 +24025,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -24143,7 +24143,7 @@
         "base": 6,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -24367,7 +24367,7 @@
         "base": 6,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -24447,7 +24447,7 @@
         "base": 5,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -24527,7 +24527,7 @@
         "base": 9,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -24569,7 +24569,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -24725,7 +24725,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -24991,7 +24991,7 @@
         "base": 6,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -25033,7 +25033,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -25379,7 +25379,7 @@
         "base": 6,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -25907,7 +25907,7 @@
         "base": 2,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -26356,7 +26356,7 @@
         "base": 2,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -27022,7 +27022,7 @@
         "base": 3,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -27257,7 +27257,7 @@
         "base": 5,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -27559,7 +27559,7 @@
         "base": 5,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -27877,7 +27877,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 2,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -27964,7 +27964,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 2,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -28051,7 +28051,7 @@
         "base": 3,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -28060,7 +28060,7 @@
         "base": 5,
         "algo": 25,
         "lvMin": 3,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -28147,7 +28147,7 @@
         "base": 2,
         "algo": 25,
         "lvMin": 2,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -28234,7 +28234,7 @@
         "base": 4,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -28243,7 +28243,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 3,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -28410,7 +28410,7 @@
         "base": 5,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -28419,7 +28419,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 3,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -28506,7 +28506,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 2,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -28689,7 +28689,7 @@
         "base": 6,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -28698,7 +28698,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 3,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -28865,7 +28865,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 2,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -29048,7 +29048,7 @@
         "base": 2,
         "algo": 25,
         "lvMin": 2,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -29135,7 +29135,7 @@
         "base": 8,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -29144,7 +29144,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 3,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -29311,7 +29311,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 2,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -29398,7 +29398,7 @@
         "base": 9,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -29407,7 +29407,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 3,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -29494,7 +29494,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 2,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -29686,7 +29686,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 3,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -29853,7 +29853,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 2,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -29924,7 +29924,7 @@
         "base": 2,
         "algo": 25,
         "lvMin": 2,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -30091,7 +30091,7 @@
         "base": 2,
         "algo": 25,
         "lvMin": 2,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -30330,7 +30330,7 @@
         "base": 2,
         "algo": 25,
         "lvMin": 2,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -30569,7 +30569,7 @@
         "base": 1,
         "algo": 25,
         "lvMin": 2,
-        "lvMax": 1,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -30720,7 +30720,7 @@
         "base": 2,
         "algo": 25,
         "lvMin": 2,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -31031,7 +31031,7 @@
         "base": 2,
         "algo": 25,
         "lvMin": 2,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -31198,7 +31198,7 @@
         "base": 1,
         "algo": 25,
         "lvMin": 2,
-        "lvMax": 1,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -31437,7 +31437,7 @@
         "base": 2,
         "algo": 25,
         "lvMin": 2,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -31764,7 +31764,7 @@
         "base": 2,
         "algo": 25,
         "lvMin": 2,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -31994,7 +31994,7 @@
         "base": 3,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -32232,7 +32232,7 @@
         "base": 4,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -32787,7 +32787,7 @@
         "base": 4,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -32883,7 +32883,7 @@
         "base": 4,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -33359,7 +33359,7 @@
         "base": 6,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -34032,7 +34032,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -34256,7 +34256,7 @@
         "base": 5,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -34415,7 +34415,7 @@
         "base": 8,
         "algo": 4,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -34661,7 +34661,7 @@
         "base": 6,
         "algo": 4,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -34770,7 +34770,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -35319,7 +35319,7 @@
         "base": 3,
         "algo": 4,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -35507,7 +35507,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -35740,7 +35740,7 @@
         "base": 5,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -36128,7 +36128,7 @@
         "base": 2,
         "algo": 4,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -36304,7 +36304,7 @@
         "base": 8,
         "algo": 4,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -36421,7 +36421,7 @@
         "base": 4,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -36658,7 +36658,7 @@
         "base": 4,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -37669,7 +37669,7 @@
         "base": 3,
         "algo": 4,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -38083,7 +38083,7 @@
         "base": 3,
         "algo": 4,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -38339,7 +38339,7 @@
         "base": 3,
         "algo": 4,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -41057,7 +41057,7 @@
         "base": 8,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -41139,7 +41139,7 @@
         "base": 8,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -41393,7 +41393,7 @@
         "base": 8,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -41565,7 +41565,7 @@
         "base": 6,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -41655,7 +41655,7 @@
         "base": 5,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -41917,7 +41917,7 @@
         "base": 8,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -42089,7 +42089,7 @@
         "base": 6,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -42179,7 +42179,7 @@
         "base": 5,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -42441,7 +42441,7 @@
         "base": 8,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -42531,7 +42531,7 @@
         "base": 5,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -42793,7 +42793,7 @@
         "base": 8,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -43145,7 +43145,7 @@
         "base": 8,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -43416,7 +43416,7 @@
         "base": 8,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -43956,7 +43956,7 @@
         "base": 9,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -46069,7 +46069,7 @@
         "base": 3,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -46233,7 +46233,7 @@
         "base": 8,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -46325,7 +46325,7 @@
         "base": 3,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -46407,7 +46407,7 @@
         "base": 2,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -46663,7 +46663,7 @@
         "base": 3,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -46745,7 +46745,7 @@
         "base": 3,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -46906,7 +46906,7 @@
         "base": 1,
         "algo": 25,
         "lvMin": 4,
-        "lvMax": 1,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -46980,7 +46980,7 @@
         "base": 3,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -47062,7 +47062,7 @@
         "base": 2,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -47319,7 +47319,7 @@
         "base": 3,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -47401,7 +47401,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -47656,7 +47656,7 @@
         "base": 3,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -47822,7 +47822,7 @@
         "base": 3,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -47901,7 +47901,7 @@
         "base": 1,
         "algo": 25,
         "lvMin": 4,
-        "lvMax": 1,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -47975,7 +47975,7 @@
         "base": 3,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -48230,7 +48230,7 @@
         "base": 3,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -48391,7 +48391,7 @@
         "base": 1,
         "algo": 25,
         "lvMin": 4,
-        "lvMax": 1,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -48556,7 +48556,7 @@
         "base": 3,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -48639,7 +48639,7 @@
         "base": 3,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -48897,7 +48897,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -49064,7 +49064,7 @@
         "base": 9,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -49468,7 +49468,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -49635,7 +49635,7 @@
         "base": 8,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -49881,7 +49881,7 @@
         "base": 5,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -50048,7 +50048,7 @@
         "base": 8,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -50127,7 +50127,7 @@
         "base": 7,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -50213,7 +50213,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -50378,7 +50378,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -50473,7 +50473,7 @@
         "base": 6,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -50559,7 +50559,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -50645,7 +50645,7 @@
         "base": 8,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -50731,7 +50731,7 @@
         "base": 4,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -50817,7 +50817,7 @@
         "base": 7,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -50903,7 +50903,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -50998,7 +50998,7 @@
         "base": 8,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -51084,7 +51084,7 @@
         "base": 4,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -51256,7 +51256,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -51351,7 +51351,7 @@
         "base": 5,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -55961,7 +55961,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.8,
         "type": "int"
@@ -62767,7 +62767,7 @@
         "base": 3,
         "algo": 25,
         "lvMin": 3,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -63893,7 +63893,7 @@
         "base": 3,
         "algo": 25,
         "lvMin": 3,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -64711,7 +64711,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -64825,7 +64825,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -65061,7 +65061,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -65118,7 +65118,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -65688,7 +65688,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -65864,7 +65864,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -65919,7 +65919,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -65974,7 +65974,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -66029,7 +66029,7 @@
         "base": 5,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -66092,7 +66092,7 @@
         "base": 5,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -66155,7 +66155,7 @@
         "base": 4,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -66210,7 +66210,7 @@
         "base": 5,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -66328,7 +66328,7 @@
         "base": 5,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -66446,7 +66446,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -66518,7 +66518,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -66582,7 +66582,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -66646,7 +66646,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -66718,7 +66718,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -66782,7 +66782,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -66854,7 +66854,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -66918,7 +66918,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -66982,7 +66982,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -67054,7 +67054,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -67118,7 +67118,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -67182,7 +67182,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -67254,7 +67254,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -67318,7 +67318,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -67382,7 +67382,7 @@
         "base": 4,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -67437,7 +67437,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -67492,7 +67492,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -67594,7 +67594,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -67649,7 +67649,7 @@
         "base": 5,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -67751,7 +67751,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -67806,7 +67806,7 @@
         "base": 4,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -67861,7 +67861,7 @@
         "base": 4,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -67916,7 +67916,7 @@
         "base": 5,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -67971,7 +67971,7 @@
         "base": 2,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -68026,7 +68026,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -68128,7 +68128,7 @@
         "base": 5,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -74782,7 +74782,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -75122,7 +75122,7 @@
         "base": 3,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -75596,7 +75596,7 @@
         "base": 1,
         "algo": 25,
         "lvMin": 2,
-        "lvMax": 1,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -76205,7 +76205,7 @@
         "base": 8,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -77233,7 +77233,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -77944,7 +77944,7 @@
         "base": 4,
         "algo": 4,
         "lvMin": 1,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -78041,7 +78041,7 @@
         "base": 4,
         "algo": 25,
         "lvMin": 2,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -78482,7 +78482,7 @@
         "base": 8,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -78573,7 +78573,7 @@
         "base": 8,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -78778,7 +78778,7 @@
         "base": 3,
         "algo": 25,
         "lvMin": 5,
-        "lvMax": 3,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -78920,7 +78920,7 @@
         "base": 2,
         "algo": 29,
         "lvMin": 1,
-        "lvMax": 2,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"
@@ -79395,7 +79395,7 @@
         "base": 5,
         "algo": 0,
         "lvMin": 0,
-        "lvMax": 4,
+        "lvMax": 5,
         "zero": 0.5,
         "exp": 0.5,
         "type": "int"

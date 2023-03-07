@@ -604,7 +604,7 @@ function populateWeaponStats(ch, cat) {
 }
 
 function starValue({ base, zero, exp, lvMin, lvMax, type, algo }, star) {
-  const zeroValue = [21, 25, 29, 41].includes(algo)
+  const zeroValue = [21, 25, 29, 41, 45].includes(algo)
     ? base + base * zero
     : base * zero
   const rounding = [4].includes(algo) ? Math.round : Math.ceil

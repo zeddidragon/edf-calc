@@ -51,9 +51,6 @@ menu {
   max-width: 3em;
 }
 
-.dropdown:hover menu {
-  display: flex;
-}
 
 menu a {
   cursor: pointer;
@@ -69,8 +66,14 @@ menu a {
   border-bottom: thick solid #edf;
 }
 
-menu:hover a {
-  display: block;
+@media (hover) {
+  .dropdown:hover menu {
+    display: flex;
+  }
+
+  menu:hover a {
+    display: block;
+  }
 }
 
 td {

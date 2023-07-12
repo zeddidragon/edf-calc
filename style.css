@@ -22,35 +22,14 @@ table, th, td {
 }
 
 menu {
-  display: none;
   background-color: #141414;
   flex-direction: column;
   list-style-type: none;
   padding: 0;
   margin: 0;
   color: #4e5d6f;
-  position: absolute;
   width: fit-content;
 }
-
-.dropdown {
-  flex: 1;
-  max-width: 6em;
-  padding: 0.4em 0.2em;
-}
-
-#char-tabs {
-  max-width: 8em;
-}
-
-#category-tabs {
-  max-width: 12em;
-}
-
-#star-tabs {
-  max-width: 3em;
-}
-
 
 menu a {
   cursor: pointer;
@@ -58,7 +37,13 @@ menu a {
   white-space: nowrap;
   overflow: hidden;
   padding: 0.2em 1em;
+  min-width: 8em;
   border-bottom: thick solid transparent;
+}
+
+#top-menus, #menus {
+  display: flex;
+  flex-direction: column;
 }
 
 .selected {
@@ -66,12 +51,64 @@ menu a {
   border-bottom: thick solid #edf;
 }
 
+.dropdown, .dropdown menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.dropdown {
+  width: 100%;
+}
+
 @media (hover) {
+  #top-menus, #menus {
+    flex-direction: row;
+  }
+
+  menu {
+    position: absolute;
+  }
+
+  menu a {
+    display: none;
+  }
+
+  .selected {
+    display: none;
+  }
+
+  .dropdown, .dropdown menu {
+    flex-direction: column;
+  }
+
+  .dropdown {
+    flex: 1;
+    max-width: 6em;
+    padding: 0.4em 0.2em;
+  }
+
+  #char-tabs {
+    max-width: 8em;
+  }
+
+  #category-tabs {
+    max-width: 12em;
+  }
+
+  #star-tabs {
+    max-width: 3em;
+  }
+
   .dropdown:hover menu {
     display: flex;
   }
 
-  menu:hover a {
+  menu:hover .selected, .dropdown:hover .selected {
+    display: block;
+  }
+
+  menu:hover a, .dropdown:hover a {
     display: block;
   }
 }

@@ -603,8 +603,19 @@ function populateWeaponStats(ch, cat) {
   }
 }
 
-function starValue({ base, zero, exp, lvMin, lvMax, type, algo }, star) {
-  const zeroValue = [21, 25, 29, 41, 45].includes(algo)
+function starValue({
+  base,
+  zero,
+  exp,
+  lvMin,
+  lvMax,
+  type,
+  algo
+}, {
+  star,
+  decimals = 2,
+}) {
+  const zeroValue = [13, 21, 25, 29, 41, 45].includes(algo)
     ? base + base * zero
     : base * zero
   const rounding = [4].includes(algo) ? Math.round : Math.ceil
@@ -614,13 +625,14 @@ function starValue({ base, zero, exp, lvMin, lvMax, type, algo }, star) {
   if(type === 'int') {
     ret = rounding(ret)
   } else {
-    ret = +ret.toFixed(2)
+    ret = +ret.toFixed(decimals)
   }
   return [star, ret]
 }
 
 function getProp(wpn, prop, obj) {
   const value = wpn[prop]
+  let decimals = 2
   if(value == null) return value
   if(typeof value === 'number') {
     return value
@@ -628,8 +640,11 @@ function getProp(wpn, prop, obj) {
   if(prop === 'energy' && wpn.category === 'core') {
     wpn.baseEnergy = value.base
   }
+  if(prop === 'accuracy') {
+    decimals = 5
+  }
   if(value?.base != null) {
-    const [star, v] = starValue(value, active.star)
+    const [star, v] = starValue(value, { star: active.star, decimals })
     obj[`${prop}Star`] = star
     obj[`${prop}StarMax`] = value.lvMax
     return v
@@ -882,9 +897,13 @@ const headers = [{
       return false
     }
     if(ch === 'winger' && [
-      'sniper',
       'missile',
       'special',
+    ].includes(cat)) {
+      return false
+    }
+    if(active.game === '41' && ch === 'winger' && [
+      'sniper',
     ].includes(cat)) {
       return false
     }

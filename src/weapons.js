@@ -605,34 +605,41 @@ function populateWeaponStats(ch, cat) {
 
 function starValue({
   base,
-  zero,
-  exp,
+  algo,
   lvMin,
   lvMax,
+  zero,
+  exp,
   type,
-  algo
-}, {
-  star,
-  decimals = 2,
-}) {
-  const zeroValue = [13, 21, 25, 29, 41, 45].includes(algo)
-    ? base + base * zero
-    : base * zero
-  const rounding = [4].includes(algo) ? Math.round : Math.ceil
-  const growthBase = (base - zeroValue) / Math.pow(5, exp)
-  star = Math.min(Math.max(lvMin, star), Math.max(5, lvMax))
-  let ret = +(zeroValue + growthBase * Math.pow(star, exp))
-  if(type === 'int') {
-    ret = rounding(ret)
-  } else {
-    ret = +ret.toFixed(decimals)
+}, star) {
+  let sign = 1.0
+  if(base < 0) {
+    base = -base
+    sign = -1.0
   }
-  return [star, ret]
+  star = Math.min(Math.max(lvMin, star), Math.max(5, lvMax))
+
+  const curveBase = base * zero
+  const curvePoint = Math.pow(star / 5.0, exp) * curveBase
+  let result = 0
+  if((algo & 3) === 0) {
+    result = base - curveBase + curvePoint
+  } else if((algo & 3) === 1) {
+    result = base + curveBase - curvePoint
+  } else {
+    console.error(`Invalid algorithm: ${algo}`)
+  }
+  result = sign * Math.max(0, result)
+
+  if(type === 'int') {
+    result = Math.floor(result + 0.5)
+  }
+
+  return [star, result]
 }
 
 function getProp(wpn, prop, obj) {
   const value = wpn[prop]
-  let decimals = 2
   if(value == null) return value
   if(typeof value === 'number') {
     return value
@@ -640,11 +647,8 @@ function getProp(wpn, prop, obj) {
   if(prop === 'energy' && wpn.category === 'core') {
     wpn.baseEnergy = value.base
   }
-  if(prop === 'accuracy') {
-    decimals = 5
-  }
   if(value?.base != null) {
-    const [star, v] = starValue(value, { star: active.star, decimals })
+    const [star, v] = starValue(value, active.star)
     obj[`${prop}Star`] = star
     obj[`${prop}StarMax`] = value.lvMax
     return v

@@ -1022,7 +1022,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.03,
+        "base": 0.025,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 6,
@@ -2004,7 +2004,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.03,
+        "base": 0.025,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 6,
@@ -3312,7 +3312,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.01,
+        "base": 0.015,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 6,
@@ -3637,7 +3637,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 6,
@@ -3711,7 +3711,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.08,
+        "base": 0.075,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -3963,7 +3963,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.08,
+        "base": 0.075,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -4047,7 +4047,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.06,
+        "base": 0.065,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -4467,7 +4467,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.08,
+        "base": 0.075,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -4635,7 +4635,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.05,
+        "base": 0.045,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -4878,7 +4878,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.08,
+        "base": 0.075,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -5046,7 +5046,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.08,
+        "base": 0.075,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -5130,7 +5130,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.06,
+        "base": 0.065,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -5373,7 +5373,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.08,
+        "base": 0.075,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -5868,7 +5868,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.06,
+        "base": 0.065,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -6040,7 +6040,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -6197,7 +6197,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.01,
+        "base": 0.007,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -6275,7 +6275,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.0025,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -6408,7 +6408,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -6486,7 +6486,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.001,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -6643,7 +6643,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.003,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -6721,7 +6721,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -6878,7 +6878,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.01,
+        "base": 0.012,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -6956,7 +6956,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.001,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -7167,7 +7167,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.001,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -7245,7 +7245,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -7402,7 +7402,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -7639,7 +7639,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -7717,7 +7717,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.001,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -7795,7 +7795,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.001,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -7873,7 +7873,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.03,
+        "base": 0.025,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -8031,7 +8031,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.001,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -8111,7 +8111,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.002,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -8189,7 +8189,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.001,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -8267,7 +8267,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.001,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -9454,7 +9454,7 @@
       },
       "speed": 0.1,
       "accuracy": {
-        "base": 0.01,
+        "base": 0.015,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -9984,7 +9984,7 @@
       },
       "speed": 1,
       "accuracy": {
-        "base": 0.01,
+        "base": 0.015,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -10062,7 +10062,7 @@
       },
       "speed": 0.2,
       "accuracy": {
-        "base": 0.03,
+        "base": 0.025,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -10515,7 +10515,7 @@
       },
       "speed": 3,
       "accuracy": {
-        "base": 0.01,
+        "base": 0.015,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -10749,7 +10749,7 @@
       },
       "speed": 0.1,
       "accuracy": {
-        "base": 0.08,
+        "base": 0.075,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -10890,7 +10890,7 @@
       },
       "speed": 0.2,
       "accuracy": {
-        "base": 0,
+        "base": 0.001,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -13572,7 +13572,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.01,
+        "base": 0.015,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -13658,7 +13658,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.03,
+        "base": 0.025,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -22063,7 +22063,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 2.01,
+        "base": 2.0139,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -22134,7 +22134,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 20.14,
+        "base": 20.1391,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -22218,7 +22218,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 40.84,
+        "base": 40.8405,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -22295,7 +22295,7 @@
       "gravity": 0,
       "piercing": true,
       "energy": {
-        "base": 15.64,
+        "base": 15.637,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -22366,7 +22366,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 24.24,
+        "base": 24.2419,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -22450,7 +22450,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 35.75,
+        "base": 35.7532,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -22526,7 +22526,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 3.62,
+        "base": 3.6174,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -22594,7 +22594,7 @@
       "gravity": 0,
       "piercing": true,
       "energy": {
-        "base": 25.85,
+        "base": 25.8471,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -22665,7 +22665,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 26.94,
+        "base": 26.9447,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -22749,7 +22749,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 6.93,
+        "base": 6.9255,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -22825,7 +22825,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 52.32,
+        "base": 52.3197,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -22905,7 +22905,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 63.2,
+        "base": 63.2033,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -22982,7 +22982,7 @@
       "gravity": 0,
       "piercing": true,
       "energy": {
-        "base": 27.28,
+        "base": 27.2843,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -23053,7 +23053,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 42.04,
+        "base": 42.0362,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -23209,7 +23209,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 10.5,
+        "base": 10.4972,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -23281,7 +23281,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 44.88,
+        "base": 44.8777,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -23365,7 +23365,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 72.35,
+        "base": 72.3485,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -23442,7 +23442,7 @@
       "gravity": 0,
       "piercing": true,
       "energy": {
-        "base": 38.5,
+        "base": 38.5028,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -23509,7 +23509,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 5.58,
+        "base": 5.579,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -23584,7 +23584,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 103.2,
+        "base": 103.1988,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -23664,7 +23664,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 70.98,
+        "base": 70.9845,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -23744,7 +23744,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 75.03,
+        "base": 75.0319,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -23898,7 +23898,7 @@
       "gravity": 0,
       "piercing": true,
       "energy": {
-        "base": 38.91,
+        "base": 38.9062,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -23969,7 +23969,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 91.74,
+        "base": 91.737,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -24053,7 +24053,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 15.75,
+        "base": 15.7508,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -24129,7 +24129,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 120.58,
+        "base": 120.5808,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -24209,7 +24209,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 203.93,
+        "base": 203.9297,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -24278,7 +24278,7 @@
       "gravity": 0,
       "piercing": true,
       "energy": {
-        "base": 81.96,
+        "base": 81.9624,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -24353,7 +24353,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 118.76,
+        "base": 118.7619,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -24433,7 +24433,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 130.86,
+        "base": 130.8643,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -24513,7 +24513,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 176.12,
+        "base": 176.123,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -24597,7 +24597,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 26.86,
+        "base": 26.8594,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -24669,7 +24669,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 202.31,
+        "base": 202.3122,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -24754,7 +24754,7 @@
       "gravity": 0,
       "piercing": true,
       "energy": {
-        "base": 141.78,
+        "base": 141.7753,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -24826,7 +24826,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 168.65,
+        "base": 168.6546,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -24902,7 +24902,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 15.33,
+        "base": 15.3277,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -24977,7 +24977,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 206.78,
+        "base": 206.7765,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -25061,7 +25061,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 27.32,
+        "base": 27.3208,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -25133,7 +25133,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 288.1,
+        "base": 288.1028,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -25213,7 +25213,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 278.89,
+        "base": 278.8918,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -25290,7 +25290,7 @@
       "gravity": 0,
       "piercing": true,
       "energy": {
-        "base": 129.96,
+        "base": 129.9604,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -25365,7 +25365,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 222.86,
+        "base": 222.8609,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -25516,7 +25516,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 73.23,
+        "base": 73.2316,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -25596,7 +25596,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 57.47,
+        "base": 57.4689,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -25667,7 +25667,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 54.64,
+        "base": 54.6416,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -25738,7 +25738,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 83.68,
+        "base": 83.6846,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -25822,7 +25822,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 67.74,
+        "base": 67.7361,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -25893,7 +25893,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 72.1,
+        "base": 72.0963,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -25978,7 +25978,7 @@
       "gravity": 0,
       "piercing": true,
       "energy": {
-        "base": 65.25,
+        "base": 65.251,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -26049,7 +26049,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 126.02,
+        "base": 126.016,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -26120,7 +26120,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 88.76,
+        "base": 88.7609,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -26196,7 +26196,7 @@
       "gravity": 0,
       "piercing": true,
       "energy": {
-        "base": 73.99,
+        "base": 73.9913,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -26267,7 +26267,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 266.3,
+        "base": 266.2967,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -26342,7 +26342,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 160.05,
+        "base": 160.0488,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -26422,7 +26422,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 150.89,
+        "base": 150.8902,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -26493,7 +26493,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 134.54,
+        "base": 134.5364,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -26564,7 +26564,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 292.41,
+        "base": 292.4109,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -26644,7 +26644,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 390.77,
+        "base": 390.7708,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -26719,7 +26719,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 201.04,
+        "base": 201.0429,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -26790,7 +26790,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 157.8,
+        "base": 157.7972,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -26866,7 +26866,7 @@
       "gravity": 0,
       "piercing": true,
       "energy": {
-        "base": 177.58,
+        "base": 177.579,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -26937,7 +26937,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 462.22,
+        "base": 462.2166,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -27008,7 +27008,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 289.49,
+        "base": 289.487,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -27088,7 +27088,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 301.05,
+        "base": 301.0493,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -27159,7 +27159,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 379.22,
+        "base": 379.2198,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -27243,7 +27243,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 480.8,
+        "base": 480.7966,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -27323,7 +27323,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 286.41,
+        "base": 286.408,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -27394,7 +27394,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 355.04,
+        "base": 355.0438,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -27470,7 +27470,7 @@
       "gravity": 0,
       "piercing": true,
       "energy": {
-        "base": 436.68,
+        "base": 436.6821,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -27545,7 +27545,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 534.25,
+        "base": 534.2457,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -27625,7 +27625,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 810.04,
+        "base": 810.0421,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -27696,7 +27696,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 586.87,
+        "base": 586.8673,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -27776,7 +27776,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 419.33,
+        "base": 419.3259,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -27950,7 +27950,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 117.9,
+        "base": 117.8951,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -28037,7 +28037,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 154.6,
+        "base": 154.5969,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -28133,7 +28133,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 169.71,
+        "base": 169.7056,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -28220,7 +28220,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 194.94,
+        "base": 194.9406,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -28308,7 +28308,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 17.41,
+        "base": 17.411,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -28396,7 +28396,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 231.82,
+        "base": 231.8247,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -28492,7 +28492,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 241.67,
+        "base": 241.6693,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -28579,7 +28579,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 270.01,
+        "base": 270.014,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -28675,7 +28675,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 321.1,
+        "base": 321.1026,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -28763,7 +28763,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 42.43,
+        "base": 42.4264,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -28851,7 +28851,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 392.59,
+        "base": 392.593,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -28938,7 +28938,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 460.45,
+        "base": 460.4468,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -29121,7 +29121,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 551.38,
+        "base": 551.3752,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -29209,7 +29209,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 94.35,
+        "base": 94.3483,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -29297,7 +29297,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 727.54,
+        "base": 727.5439,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -29384,7 +29384,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 841.54,
+        "base": 841.5415,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -29567,7 +29567,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 1021.8,
+        "base": 1021.7953,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -29644,7 +29644,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.03,
+        "base": 0.025,
         "algo": 13,
         "lvMin": 6,
         "lvMax": 8,
@@ -29663,7 +29663,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 1095.13,
+        "base": 1095.1332,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -29751,7 +29751,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 158.34,
+        "base": 158.3409,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -29839,7 +29839,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 1338.95,
+        "base": 1338.954,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -29989,7 +29989,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 62.98,
+        "base": 62.983,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -30077,7 +30077,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 13.78,
+        "base": 13.7844,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 10,
@@ -30148,7 +30148,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 12.23,
+        "base": 12.2264,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -30228,7 +30228,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 85.44,
+        "base": 85.443,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -30316,7 +30316,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 26.17,
+        "base": 26.1729,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 10,
@@ -30387,7 +30387,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 14.93,
+        "base": 14.9285,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -30467,7 +30467,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 120.83,
+        "base": 120.8347,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -30555,7 +30555,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 45.63,
+        "base": 45.6306,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 10,
@@ -30626,7 +30626,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 27.13,
+        "base": 27.1321,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -30706,7 +30706,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 51.53,
+        "base": 51.5344,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 10,
@@ -30777,7 +30777,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 33.17,
+        "base": 33.1728,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -30857,7 +30857,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 227.05,
+        "base": 227.0538,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -30937,7 +30937,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 40.28,
+        "base": 40.2782,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -31017,7 +31017,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 64.31,
+        "base": 64.3064,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 10,
@@ -31096,7 +31096,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 293.43,
+        "base": 293.4337,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -31184,7 +31184,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 88.65,
+        "base": 88.647,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 10,
@@ -31263,7 +31263,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 387.19,
+        "base": 387.188,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -31343,7 +31343,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 146.21,
+        "base": 146.213,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -31423,7 +31423,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 112.78,
+        "base": 112.779,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 10,
@@ -31502,7 +31502,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 600.19,
+        "base": 600.1931,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -31582,7 +31582,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 90.38,
+        "base": 90.3797,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -31662,7 +31662,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 590.95,
+        "base": 590.9493,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -31750,7 +31750,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 191.33,
+        "base": 191.3307,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 10,
@@ -31821,7 +31821,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 97.3,
+        "base": 97.2979,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -31980,7 +31980,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 112.54,
+        "base": 112.5362,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -32068,7 +32068,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 111.57,
+        "base": 111.5737,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -32139,7 +32139,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 86.64,
+        "base": 86.6357,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -32218,7 +32218,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 164.76,
+        "base": 164.7627,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -32306,7 +32306,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 100.91,
+        "base": 100.9076,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -32377,7 +32377,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 169.11,
+        "base": 169.1141,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -32448,7 +32448,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 182.51,
+        "base": 182.5127,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -32527,7 +32527,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 241.23,
+        "base": 241.2267,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -32595,7 +32595,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 4,
         "lvMax": 8,
@@ -32606,7 +32606,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 628.38,
+        "base": 628.3785,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -32694,7 +32694,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 276.64,
+        "base": 276.6375,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -32773,7 +32773,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 368.17,
+        "base": 368.1744,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -32869,7 +32869,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 425.86,
+        "base": 425.863,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -32966,7 +32966,7 @@
       "gravity": 0,
       "piercing": true,
       "energy": {
-        "base": 370.14,
+        "base": 370.1402,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -33037,7 +33037,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 443.21,
+        "base": 443.212,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -33108,7 +33108,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 553.28,
+        "base": 553.2751,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -33187,7 +33187,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 932.13,
+        "base": 932.1343,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -33266,7 +33266,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 851.73,
+        "base": 851.726,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -33345,7 +33345,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 777.04,
+        "base": 777.0443,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -33434,7 +33434,7 @@
       "gravity": 0,
       "piercing": true,
       "energy": {
-        "base": 555.21,
+        "base": 555.2103,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -33505,7 +33505,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 743.82,
+        "base": 743.8246,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -33565,7 +33565,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 4,
         "lvMax": 8,
@@ -33576,7 +33576,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 3211.03,
+        "base": 3211.0261,
         "algo": 45,
         "lvMin": 3,
         "lvMax": 8,
@@ -33645,7 +33645,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.03,
+        "base": 0.025,
         "algo": 13,
         "lvMin": 1,
         "lvMax": 6,
@@ -33822,7 +33822,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 40.56,
+        "base": 40.5584,
         "algo": 45,
         "lvMin": 7,
         "lvMax": 8,
@@ -33891,7 +33891,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.03,
+        "base": 0.025,
         "algo": 13,
         "lvMin": 1,
         "lvMax": 6,
@@ -33910,7 +33910,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 24.85,
+        "base": 24.8464,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -33970,7 +33970,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 1,
         "lvMax": 6,
@@ -33989,7 +33989,7 @@
       },
       "gravity": 4,
       "energy": {
-        "base": 13.13,
+        "base": 13.1315,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -34076,7 +34076,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 20.39,
+        "base": 20.3919,
         "algo": 45,
         "lvMin": 6,
         "lvMax": 8,
@@ -34136,7 +34136,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.03,
+        "base": 0.025,
         "algo": 13,
         "lvMin": 1,
         "lvMax": 6,
@@ -34155,7 +34155,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 14.27,
+        "base": 14.2705,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -34242,7 +34242,7 @@
       },
       "gravity": 4,
       "energy": {
-        "base": 49.93,
+        "base": 49.9332,
         "algo": 45,
         "lvMin": 7,
         "lvMax": 8,
@@ -34311,7 +34311,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.03,
+        "base": 0.025,
         "algo": 13,
         "lvMin": 1,
         "lvMax": 6,
@@ -34330,7 +34330,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 35.63,
+        "base": 35.6267,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -34390,7 +34390,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.03,
+        "base": 0.025,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 6,
@@ -34478,7 +34478,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.01,
+        "base": 0.015,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 6,
@@ -34497,7 +34497,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 46.53,
+        "base": 46.5271,
         "algo": 45,
         "lvMin": 6,
         "lvMax": 8,
@@ -34568,7 +34568,7 @@
       },
       "gravity": 0.1,
       "energy": {
-        "base": 227.36,
+        "base": 227.3575,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -34647,7 +34647,7 @@
       },
       "gravity": 4,
       "energy": {
-        "base": 79.06,
+        "base": 79.0647,
         "algo": 45,
         "lvMin": 6,
         "lvMax": 8,
@@ -34795,7 +34795,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.03,
+        "base": 0.025,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 6,
@@ -34814,7 +34814,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 38.57,
+        "base": 38.5707,
         "algo": 45,
         "lvMin": 6,
         "lvMax": 8,
@@ -34893,7 +34893,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 22.62,
+        "base": 22.6185,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -34961,7 +34961,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.03,
+        "base": 0.025,
         "algo": 13,
         "lvMin": 3,
         "lvMax": 6,
@@ -34980,7 +34980,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 85.74,
+        "base": 85.7419,
         "algo": 45,
         "lvMin": 7,
         "lvMax": 8,
@@ -35120,7 +35120,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 1,
         "lvMax": 6,
@@ -35139,7 +35139,7 @@
       },
       "gravity": 4,
       "energy": {
-        "base": 27.95,
+        "base": 27.9536,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -35207,7 +35207,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.01,
+        "base": 0.015,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 6,
@@ -35226,7 +35226,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 81.01,
+        "base": 81.0084,
         "algo": 45,
         "lvMin": 6,
         "lvMax": 8,
@@ -35286,7 +35286,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.03,
+        "base": 0.025,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 6,
@@ -35305,7 +35305,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 55.42,
+        "base": 55.4193,
         "algo": 45,
         "lvMin": 6,
         "lvMax": 8,
@@ -35393,7 +35393,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 28.88,
+        "base": 28.8786,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -35453,7 +35453,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 1,
         "lvMax": 6,
@@ -35532,7 +35532,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.01,
+        "base": 0.015,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 6,
@@ -35551,7 +35551,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 56.79,
+        "base": 56.786,
         "algo": 45,
         "lvMin": 6,
         "lvMax": 8,
@@ -35630,7 +35630,7 @@
       },
       "gravity": 3,
       "energy": {
-        "base": 177.77,
+        "base": 177.7685,
         "algo": 45,
         "lvMin": 6,
         "lvMax": 8,
@@ -35726,7 +35726,7 @@
       },
       "gravity": 4,
       "energy": {
-        "base": 123.37,
+        "base": 123.3737,
         "algo": 45,
         "lvMin": 7,
         "lvMax": 8,
@@ -35814,7 +35814,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 121.71,
+        "base": 121.7143,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -35956,7 +35956,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 703.7,
+        "base": 703.701,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -36035,7 +36035,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 79.34,
+        "base": 79.3413,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -36114,7 +36114,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 85.04,
+        "base": 85.0359,
         "algo": 45,
         "lvMin": 6,
         "lvMax": 8,
@@ -36210,7 +36210,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 197.99,
+        "base": 197.9899,
         "algo": 45,
         "lvMin": 7,
         "lvMax": 8,
@@ -36279,7 +36279,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.03,
+        "base": 0.025,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 6,
@@ -36359,7 +36359,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 1,
         "lvMax": 6,
@@ -36378,7 +36378,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 63.64,
+        "base": 63.6429,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -36446,7 +36446,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.03,
+        "base": 0.0325,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 6,
@@ -36465,7 +36465,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 345.81,
+        "base": 345.8149,
         "algo": 45,
         "lvMin": 6,
         "lvMax": 8,
@@ -36525,7 +36525,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 1,
         "lvMax": 6,
@@ -36544,7 +36544,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 122.52,
+        "base": 122.5215,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -36683,7 +36683,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 6,
@@ -36702,7 +36702,7 @@
       },
       "gravity": 0.25,
       "energy": {
-        "base": 262.72,
+        "base": 262.715,
         "algo": 45,
         "lvMin": 6,
         "lvMax": 8,
@@ -36773,7 +36773,7 @@
       },
       "gravity": 3,
       "energy": {
-        "base": 506.69,
+        "base": 506.691,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -36924,7 +36924,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 6.48,
+        "base": 6.4754,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -36995,7 +36995,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 1.4,
+        "base": 1.3977,
         "algo": 45,
         "lvMin": 4,
         "lvMax": 8,
@@ -37074,7 +37074,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 12.75,
+        "base": 12.7456,
         "algo": 45,
         "lvMin": 6,
         "lvMax": 8,
@@ -37162,7 +37162,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 10.25,
+        "base": 10.2486,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -37241,7 +37241,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 18.25,
+        "base": 18.245,
         "algo": 45,
         "lvMin": 6,
         "lvMax": 8,
@@ -37329,7 +37329,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 4.69,
+        "base": 4.6865,
         "algo": 45,
         "lvMin": 6,
         "lvMax": 8,
@@ -37417,7 +37417,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 4.08,
+        "base": 4.084,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -37488,7 +37488,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 6.52,
+        "base": 6.5204,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -37576,7 +37576,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 94.48,
+        "base": 94.4794,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -37655,7 +37655,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 11,
+        "base": 11.0043,
         "algo": 45,
         "lvMin": 6,
         "lvMax": 8,
@@ -37735,7 +37735,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 9.88,
+        "base": 9.8831,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -37823,7 +37823,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 6.61,
+        "base": 6.6114,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -37902,7 +37902,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 42.81,
+        "base": 42.8115,
         "algo": 45,
         "lvMin": 6,
         "lvMax": 8,
@@ -37990,7 +37990,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 215.56,
+        "base": 215.5574,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -38069,7 +38069,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 23.43,
+        "base": 23.4254,
         "algo": 45,
         "lvMin": 6,
         "lvMax": 8,
@@ -38157,7 +38157,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 17.25,
+        "base": 17.2498,
         "algo": 45,
         "lvMin": 6,
         "lvMax": 8,
@@ -38237,7 +38237,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 20.71,
+        "base": 20.7053,
         "algo": 45,
         "lvMin": 5,
         "lvMax": 8,
@@ -38325,7 +38325,7 @@
       },
       "gravity": 0,
       "energy": {
-        "base": 20.11,
+        "base": 20.1122,
         "algo": 45,
         "lvMin": 6,
         "lvMax": 8,
@@ -38471,7 +38471,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 47.57,
+        "base": 47.5658,
         "algo": 45,
         "lvMin": 2,
         "lvMax": 8,
@@ -38528,7 +38528,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 115.67,
+        "base": 115.6688,
         "algo": 45,
         "lvMin": 2,
         "lvMax": 8,
@@ -38585,7 +38585,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 56.57,
+        "base": 56.5656,
         "algo": 45,
         "lvMin": 2,
         "lvMax": 8,
@@ -38642,7 +38642,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 64.53,
+        "base": 64.528,
         "algo": 45,
         "lvMin": 2,
         "lvMax": 8,
@@ -38699,7 +38699,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 156.92,
+        "base": 156.9168,
         "algo": 45,
         "lvMin": 2,
         "lvMax": 8,
@@ -38756,7 +38756,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 80,
+        "base": 79.9958,
         "algo": 45,
         "lvMin": 2,
         "lvMax": 8,
@@ -38813,7 +38813,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 87.54,
+        "base": 87.5389,
         "algo": 45,
         "lvMin": 2,
         "lvMax": 8,
@@ -38871,7 +38871,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 93.17,
+        "base": 93.1738,
         "algo": 45,
         "lvMin": 2,
         "lvMax": 8,
@@ -38928,7 +38928,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 117.94,
+        "base": 117.9354,
         "algo": 45,
         "lvMin": 2,
         "lvMax": 8,
@@ -38985,7 +38985,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 143.2,
+        "base": 143.1966,
         "algo": 45,
         "lvMin": 2,
         "lvMax": 8,
@@ -39042,7 +39042,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 772.75,
+        "base": 772.7491,
         "algo": 45,
         "lvMin": 2,
         "lvMax": 8,
@@ -39099,7 +39099,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 186.35,
+        "base": 186.3477,
         "algo": 45,
         "lvMin": 2,
         "lvMax": 8,
@@ -39157,7 +39157,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 212.58,
+        "base": 212.5787,
         "algo": 45,
         "lvMin": 2,
         "lvMax": 8,
@@ -39214,7 +39214,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 263.54,
+        "base": 263.5354,
         "algo": 45,
         "lvMin": 2,
         "lvMax": 8,
@@ -39271,7 +39271,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 324.45,
+        "base": 324.4502,
         "algo": 45,
         "lvMin": 2,
         "lvMax": 8,
@@ -39329,7 +39329,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 944.79,
+        "base": 944.7941,
         "algo": 45,
         "lvMin": 2,
         "lvMax": 8,
@@ -39386,7 +39386,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 943.48,
+        "base": 943.4833,
         "algo": 45,
         "lvMin": 2,
         "lvMax": 8,
@@ -39443,7 +39443,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 2734.18,
+        "base": 2734.1763,
         "algo": 45,
         "lvMin": 2,
         "lvMax": 8,
@@ -39501,7 +39501,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 2310.29,
+        "base": 2310.2866,
         "algo": 45,
         "lvMin": 2,
         "lvMax": 8,
@@ -39625,7 +39625,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 102.81,
+        "base": 102.8114,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -39669,7 +39669,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 118.72,
+        "base": 118.7151,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -39709,7 +39709,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 120.61,
+        "base": 120.6133,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -39750,7 +39750,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 142.57,
+        "base": 142.5664,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -39790,7 +39790,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 153.42,
+        "base": 153.4218,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -39830,7 +39830,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 160.26,
+        "base": 160.2572,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -39874,7 +39874,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 230.61,
+        "base": 230.6055,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -39917,7 +39917,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 182.82,
+        "base": 182.8156,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -39958,7 +39958,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 184.04,
+        "base": 184.0375,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40002,7 +40002,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 205.68,
+        "base": 205.6783,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40042,7 +40042,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 202.23,
+        "base": 202.2303,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40084,7 +40084,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 268.15,
+        "base": 268.1489,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40124,7 +40124,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 749,
+        "base": 748.9984,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40173,7 +40173,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 284.89,
+        "base": 284.8869,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40217,7 +40217,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 322.1,
+        "base": 322.0988,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40257,7 +40257,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 329.53,
+        "base": 329.5253,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40298,7 +40298,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 336.36,
+        "base": 336.3586,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40339,7 +40339,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 391.87,
+        "base": 391.8739,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40379,7 +40379,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 496.93,
+        "base": 496.9272,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40419,7 +40419,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 445.68,
+        "base": 445.6773,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40462,7 +40462,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 535.32,
+        "base": 535.3155,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40506,7 +40506,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 607.76,
+        "base": 607.7587,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40546,7 +40546,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 924.11,
+        "base": 924.1147,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40589,7 +40589,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 610.5,
+        "base": 610.5037,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40633,7 +40633,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 701.47,
+        "base": 701.4739,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40673,7 +40673,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 865.2,
+        "base": 865.2004,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40713,7 +40713,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 762.11,
+        "base": 762.1104,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40754,7 +40754,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 904.74,
+        "base": 904.7402,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40794,7 +40794,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 2644.57,
+        "base": 2644.5723,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40843,7 +40843,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 891.35,
+        "base": 891.3546,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40886,7 +40886,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 1019.65,
+        "base": 1019.6485,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40927,7 +40927,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 1077.79,
+        "base": 1077.7869,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -40971,7 +40971,7 @@
       "radius": 0,
       "gravity": 0,
       "energy": {
-        "base": 1405.52,
+        "base": 1405.5222,
         "algo": 45,
         "lvMin": 0,
         "lvMax": 10,
@@ -46811,7 +46811,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.03,
+        "base": 0.025,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -47219,7 +47219,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.04,
+        "base": 0.035,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -47385,7 +47385,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.08,
+        "base": 0.075,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -47467,7 +47467,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.03,
+        "base": 0.025,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -47722,7 +47722,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.01,
+        "base": 0.015,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 7,
@@ -48041,7 +48041,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.04,
+        "base": 0.035,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -48214,7 +48214,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.08,
+        "base": 0.075,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -48296,7 +48296,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.01,
+        "base": 0.015,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -48374,7 +48374,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.03,
+        "base": 0.025,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -48780,7 +48780,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 7,
@@ -49010,7 +49010,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 7,
@@ -49177,7 +49177,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 7,
@@ -49335,7 +49335,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.003,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 7,
@@ -49414,7 +49414,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 7,
@@ -49581,7 +49581,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.01,
+        "base": 0.007,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 7,
@@ -49748,7 +49748,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 7,
@@ -49827,7 +49827,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.002,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 7,
@@ -49994,7 +49994,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 7,
@@ -50073,7 +50073,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.001,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 7,
@@ -62743,7 +62743,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.08,
+        "base": 0.075,
         "algo": 13,
         "lvMin": 4,
         "lvMax": 7,
@@ -63011,7 +63011,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.13,
+        "base": 0.125,
         "algo": 13,
         "lvMin": 5,
         "lvMax": 5,
@@ -74765,7 +74765,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 6,
@@ -74837,7 +74837,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0.13,
+        "base": 0.125,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -74925,7 +74925,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -75004,7 +75004,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.002,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -75740,7 +75740,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 1,
         "lvMax": 6,
@@ -76230,7 +76230,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.001,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 7,
@@ -77216,7 +77216,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.005,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 6,
@@ -77381,7 +77381,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.001,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 8,
@@ -77453,7 +77453,7 @@
       },
       "speed": 0.5,
       "accuracy": {
-        "base": 0,
+        "base": 0.0025,
         "algo": 13,
         "lvMin": 2,
         "lvMax": 5,
@@ -78258,7 +78258,7 @@
         "type": "float"
       },
       "accuracy": {
-        "base": 0,
+        "base": 0.001,
         "algo": 13,
         "lvMin": 5,
         "lvMax": 8,

@@ -617,7 +617,7 @@ function starValue({
     base = -base
     sign = -1.0
   }
-  star = Math.min(Math.max(lvMin, star), Math.max(5, lvMax))
+  star = Math.min(Math.max(0, star), Math.max(5, lvMax))
 
   const curveBase = base * zero
   const curvePoint = Math.pow(star / 5.0, exp) * curveBase
@@ -891,7 +891,6 @@ const headers = [{
       'planes',
       'raid',
       'particle',
-      'plasma',
       'equipment',
       'core',
       'booster',
@@ -907,6 +906,7 @@ const headers = [{
       return false
     }
     if(active.game === '41' && ch === 'winger' && [
+      'plasma',
       'sniper',
     ].includes(cat)) {
       return false
@@ -1027,7 +1027,7 @@ const headers = [{
       return '-'
     }
     if(['power', 'guard'].includes(wpn.supportType)) {
-      return `${wpn.damage}x`
+      return `${(+wpn.damage).toFixed(2)}`
     }
     if(wpn.damage < 1) {
       return +Math.abs(wpn.damage).toFixed(2)
@@ -1110,7 +1110,7 @@ const headers = [{
   starProp: 'radius',
   cb: wpn => {
     if(!wpn.radius) return '-'
-    return wpn.radius
+    return (+wpn.radius).toFixed(2)
   },
 }, {
   iff: (ch, cat, wpn) => {
@@ -1462,7 +1462,7 @@ const headers = [{
   starProp: 'lockRange',
   cb: wpn => {
     if(wpn.category === 'missile') {
-      return wpn.lockRange
+      return (+wpn.lockRange).toFixed(0)
     }
     return (wpn.speed * wpn.life).toFixed(0)
   },
@@ -2020,7 +2020,7 @@ const headers = [{
       return wpn.damage * FPS / wpn.burstRate
     }
     if(wpn.category === 'support') {
-      if(['guard', 'power'].includes(wpn.supportType)) {
+      if(!['life', 'plasma'].includes(wpn.supportType)) {
         return '-'
       }
       return +(wpn.damage * FPS).toFixed(1)
@@ -2053,7 +2053,7 @@ const headers = [{
   tooltip: 'Damage Per Second*',
   cb: wpn => {
     if(wpn.category === 'support') {
-      if(['guard', 'power'].includes(wpn.supportType)) {
+      if(!['life', 'plasma'].includes(wpn.supportType)) {
         return '-'
       }
       if(wpn.ammo < 2) {
@@ -2205,10 +2205,10 @@ const headers = [{
       return '-'
     }
     if(wpn.category === 'support') {
-      if(['guard', 'power'].includes(wpn.supportType)) {
+      if(!['life', 'plasma'].includes(wpn.supportType)) {
         return '-'
       }
-      return +(wpn.damage * wpn.duration).toFixed(1)
+      return +(wpn.damage * wpn.life).toFixed(1)
     }
     const dump = Math.abs(wpn.damage
       * (wpn.count || 1)
@@ -2235,13 +2235,13 @@ const headers = [{
   tooltip: 'Total Damage*',
   cb: wpn => {
     if(wpn.category === 'support') {
-      if(['guard', 'power'].includes(wpn.supportType)) {
+      if(!['life', 'plasma'].includes(wpn.supportType)) {
         return '-'
       }
       if(wpn.ammo < 2) {
         return '-'
       }
-      return +(wpn.damage * wpn.duration * wpn.ammo).toFixed(1)
+      return +(wpn.damage * wpn.life * wpn.ammo).toFixed(1)
     }
     if(wpn.continous) {
       const dump = Math.abs(wpn.damage

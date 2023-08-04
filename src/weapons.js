@@ -393,7 +393,7 @@ function populateWeaponDrops(mode, ch, cat) {
         missions,
         start,
         end,
-        level))
+        level - 2))
       maxCell.textContent = Math.floor(missionFor(
         missions,
         start - spread,
@@ -606,7 +606,6 @@ function populateWeaponStats(ch, cat) {
 function starValue({
   base,
   algo,
-  lvMin,
   lvMax,
   zero,
   exp,

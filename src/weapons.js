@@ -393,12 +393,12 @@ function populateWeaponDrops(mode, ch, cat) {
         missions,
         start,
         end,
-        level - 2))
+        level))
       maxCell.textContent = Math.floor(missionFor(
         missions,
-        start - spread,
-        end - spread,
-        level))
+        start,
+        end,
+        level + spread))
       row.appendChild(minCell)
       row.appendChild(maxCell)
     }

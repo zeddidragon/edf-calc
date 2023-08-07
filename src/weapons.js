@@ -1642,6 +1642,23 @@ const headers = [{
 }, {
   iff: (ch, cat, wpn) => {
     if([
+      'core',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Rel',
+  tooltip: 'Reload Speed Boost',
+  cb: wpn => {
+    if(wpn.weaponReload) {
+      return `${Math.round(wpn.weaponReload * 100)}%`
+    }
+    return '-'
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if([
       'equipment',
     ].includes(cat)) {
       return true
@@ -1651,7 +1668,7 @@ const headers = [{
   label: 'Stun',
   tooltip: 'Hit Slowdown',
   cb: wpn => {
-    if(wpn.hitSlowdown) {
+    if(wpn.hitSlowdown != null) {
       return `${Math.round(wpn.hitSlowdown * 100)}%`
     }
     return '-'
@@ -1719,7 +1736,7 @@ const headers = [{
   label: 'Stun',
   tooltip: 'Sprint Hit Slowdown',
   cb: wpn => {
-    if(wpn.sprintHitSlowdown) {
+    if(wpn.sprintHitSlowdown != null) {
       return `${Math.round(wpn.sprintHitSlowdown * 100)}%`
     }
     return '-'

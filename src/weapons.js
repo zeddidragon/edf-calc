@@ -343,6 +343,8 @@ function populateWeaponDrops(mode, ch, cat) {
   const { difficulties, missions } = mode
 
   const diffSpreads = {}
+  const gameHasStars = [5, 6].includes(+active.game)
+
   for(const difficulty of difficulties) {
     const cell = $('th')
     cell.textContent = difficulty.name
@@ -351,19 +353,19 @@ function populateWeaponDrops(mode, ch, cat) {
     theadrow.appendChild(cell)
 
     const { drops: [min, max], dropSpread: spread } = difficulty
+    const spreadUp = gameHasStars ? spread * 0.5 : 0
     const firstDrops = Array(150).fill(-1)
     const lastDrops = Array(150).fill(-1)
     for(let i = 0; i < missions; i++) {
       const pivot = ((max - min) / (missions - 1) * i + min)
-      const upTo = Math.floor(pivot + spread * 0.5)
+      const upTo = Math.floor(pivot + spreadUp)
       const downTo = Math.max(0, Math.floor(pivot - spread)) - 1
-      if(downTo === 29) {
-        console.log({ downTo, upTo, pivot, spread})
+      for(let v = downTo; v < upTo; v++) {
+        lastDrops[v] = i
       }
-      if(firstDrops[upTo] < 0) {
-        firstDrops[upTo] = i
+      for(let v = upTo; v >= downTo && firstDrops[v] < 0; v--) {
+        firstDrops[v] = i
       }
-      lastDrops[downTo] = i
     }
     diffSpreads[difficulty.name] = { firstDrops, lastDrops }
   }
@@ -395,7 +397,7 @@ function populateWeaponDrops(mode, ch, cat) {
       const to = lastDrops[level]
       const max = difficulty.drops[1]
       const isDropped = (to > -1 || from > -1)
-        && !weaponDlc || weaponDlc === dlc
+        && (!weaponDlc || weaponDlc === dlc)
       if(!isDropped) {
         const cell = $('td')
         cell.textContent = '-'

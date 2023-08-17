@@ -1189,6 +1189,9 @@ const headers = [{
     if(wpn.ammo < 2 && wpn.reload) {
       return '-'
     }
+    if(wpn.category === 'short' && wpn.burst > 1) {
+      return `- x ${wpn.burst}`
+    }
     if(wpn.burst > 1 && wpn.interval > 1) {
       const burstRof = FPS / wpn.burstRate
       const rof = FPS / ((wpn.burst - 1) * wpn.burstRate + wpn.interval)

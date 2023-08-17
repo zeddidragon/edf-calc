@@ -20265,7 +20265,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1.5
     },
     {
       "id": "pWeapon002",
@@ -20413,7 +20414,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1.25
     },
     {
       "id": "pWeapon004",
@@ -20475,7 +20477,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon005",
@@ -20623,7 +20626,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1.25
     },
     {
       "id": "pWeapon007",
@@ -20684,7 +20688,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1.5
     },
     {
       "id": "pWeapon008",
@@ -20746,7 +20751,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon009",
@@ -20887,7 +20893,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1.5
     },
     {
       "id": "pWeapon011",
@@ -20963,7 +20970,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1.25
     },
     {
       "id": "pWeapon012",
@@ -21097,7 +21105,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon014",
@@ -21303,7 +21312,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1.5
     },
     {
       "id": "pWeapon017",
@@ -21451,7 +21461,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1.25
     },
     {
       "id": "pWeapon019",
@@ -21513,7 +21524,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon020",
@@ -21574,7 +21586,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 2.5
     },
     {
       "id": "pWeapon021",
@@ -21650,7 +21663,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1.25
     },
     {
       "id": "pWeapon022",
@@ -21864,7 +21878,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon025",
@@ -21926,7 +21941,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon026",
@@ -22067,7 +22083,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1.5
     },
     {
       "id": "pWeapon028",
@@ -22143,7 +22160,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1.25
     },
     {
       "id": "pWeapon029",
@@ -22270,7 +22288,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon031",
@@ -22346,7 +22365,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1.25
     },
     {
       "id": "pWeapon032",
@@ -22559,7 +22579,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1.5
     },
     {
       "id": "pWeapon035",
@@ -22701,7 +22722,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon037",
@@ -22834,7 +22856,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1.5
     },
     {
       "id": "pWeapon039",
@@ -22910,7 +22933,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1.25
     },
     {
       "id": "pWeapon040",
@@ -22979,7 +23003,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1.5
     },
     {
       "id": "pWeapon041",
@@ -23185,7 +23210,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon044",
@@ -23261,7 +23287,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1.25
     },
     {
       "id": "LAZR01",
@@ -29384,7 +29411,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 5
+      "zoom": 5,
+      "ammoDamageCurve": 1.5
     },
     {
       "id": "pWeapon128",
@@ -29538,7 +29566,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 5
+      "zoom": 5,
+      "ammoDamageCurve": 1.5
     },
     {
       "id": "pWeapon130",
@@ -30147,7 +30176,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 5
+      "zoom": 5,
+      "ammoDamageCurve": 1.5
     },
     {
       "id": "pWeapon138",
@@ -30580,7 +30610,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 5
+      "zoom": 5,
+      "ammoDamageCurve": 1.5
     },
     {
       "id": "pWeapon144",
@@ -71875,7 +71906,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1.25
     },
     {
       "id": "EX_B_Weapon011",
@@ -71941,7 +71973,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1
     },
     {
       "id": "EX_B_Weapon012",

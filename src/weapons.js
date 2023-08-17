@@ -988,6 +988,11 @@ const headers = [{
     ].includes(cat)) {
       return true
     }
+    if(active.game === '5' && [
+      'short',
+    ].includes(cat)) {
+      return true
+    }
     if([
       'winger',
       'bomber',

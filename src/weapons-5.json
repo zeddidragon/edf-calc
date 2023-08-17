@@ -72,9 +72,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon001",
@@ -148,9 +146,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon002",
@@ -220,9 +216,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon003",
@@ -296,9 +290,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon004",
@@ -372,9 +364,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon005",
@@ -448,9 +438,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon006",
@@ -600,9 +588,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon008",
@@ -749,9 +735,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon010",
@@ -825,9 +809,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon011",
@@ -978,9 +960,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon013",
@@ -1054,9 +1034,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon014",
@@ -1126,9 +1104,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon015",
@@ -1202,9 +1178,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon016",
@@ -1354,9 +1328,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon018",
@@ -1506,9 +1478,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon020",
@@ -1583,9 +1553,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon021",
@@ -1735,9 +1703,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon023",
@@ -1811,9 +1777,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon024",
@@ -1888,9 +1852,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon025",
@@ -1960,9 +1922,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon026",
@@ -2037,9 +1997,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon027",
@@ -2113,9 +2071,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon028",
@@ -2261,9 +2217,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon030",
@@ -2337,9 +2291,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon031",
@@ -2413,9 +2365,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon032",
@@ -2489,9 +2439,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon033",
@@ -2566,9 +2514,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon034",
@@ -2642,9 +2588,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon035",
@@ -2795,9 +2739,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon037",
@@ -2871,9 +2813,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon038",
@@ -3171,9 +3111,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon042",
@@ -3478,9 +3416,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon046",
@@ -3556,9 +3492,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon047",
@@ -3634,9 +3568,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon048",
@@ -3712,9 +3644,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon049",
@@ -3790,9 +3720,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon050",
@@ -3868,9 +3796,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon051",
@@ -3946,9 +3872,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon052",
@@ -4024,9 +3948,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon053",
@@ -4102,9 +4024,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon054",
@@ -4180,9 +4100,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon055",
@@ -4258,9 +4176,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon056",
@@ -4336,9 +4252,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon057",
@@ -4406,9 +4320,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon058",
@@ -4484,9 +4396,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon059",
@@ -4562,9 +4472,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon060",
@@ -4640,9 +4548,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon061",
@@ -4718,9 +4624,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon062",
@@ -4796,9 +4700,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon063",
@@ -4866,9 +4768,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon064",
@@ -4944,9 +4844,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon065",
@@ -5022,9 +4920,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon066",
@@ -5100,9 +4996,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon067",
@@ -5178,9 +5072,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon068",
@@ -5248,9 +5140,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon069",
@@ -5326,9 +5216,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon070",
@@ -5404,9 +5292,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon071",
@@ -5482,9 +5368,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon072",
@@ -5560,9 +5444,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon073",
@@ -7815,9 +7697,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon104",
@@ -8017,9 +7897,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon107",
@@ -8089,9 +7967,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon108",
@@ -8161,9 +8037,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon109",
@@ -8233,9 +8107,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon110",
@@ -8306,9 +8178,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon111",
@@ -8580,9 +8450,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon115",
@@ -8653,9 +8521,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon116",
@@ -8797,9 +8663,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon118",
@@ -8999,9 +8863,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon121",
@@ -9071,9 +8933,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon122",
@@ -9287,9 +9147,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon125",
@@ -9432,9 +9290,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon127",
@@ -9504,9 +9360,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon128",
@@ -9778,9 +9632,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon132",
@@ -9995,9 +9847,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon135",
@@ -10205,9 +10055,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "Missile_SkyTT",
@@ -10270,9 +10118,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon137",
@@ -10350,9 +10196,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon138",
@@ -10430,9 +10274,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon139",
@@ -10503,9 +10345,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon140",
@@ -10568,9 +10408,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon141",
@@ -10648,9 +10486,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon142",
@@ -10728,9 +10564,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon143",
@@ -10808,9 +10642,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon144",
@@ -10946,9 +10778,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon146",
@@ -11026,9 +10856,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon147",
@@ -11091,9 +10919,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon148",
@@ -11179,9 +11005,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon149",
@@ -11259,9 +11083,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon150",
@@ -11397,9 +11219,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon152",
@@ -11485,9 +11305,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon153",
@@ -11565,9 +11383,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon154",
@@ -11674,9 +11490,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0,
-      "secondary": 0,
-      "zoom": null
+      "reload": 0
     },
     {
       "id": "HandGrenade01J",
@@ -11719,8 +11533,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": 0,
-      "secondary": 0,
-      "zoom": null,
       "fuse": 600
     },
     {
@@ -11763,9 +11575,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0,
-      "secondary": 0,
-      "zoom": null
+      "reload": 0
     },
     {
       "id": "aWeapon156",
@@ -11807,9 +11617,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0,
-      "secondary": 0,
-      "zoom": null
+      "reload": 0
     },
     {
       "id": "aWeapon157",
@@ -11851,9 +11659,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0,
-      "secondary": 0,
-      "zoom": null
+      "reload": 0
     },
     {
       "id": "aWeapon158",
@@ -11896,8 +11702,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": 0,
-      "secondary": 0,
-      "zoom": null,
       "fuse": 1800
     },
     {
@@ -11940,9 +11744,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0,
-      "secondary": 0,
-      "zoom": null
+      "reload": 0
     },
     {
       "id": "aWeapon160",
@@ -11985,8 +11787,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": 0,
-      "secondary": 0,
-      "zoom": null,
       "fuse": 300
     },
     {
@@ -12029,9 +11829,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0,
-      "secondary": 0,
-      "zoom": null
+      "reload": 0
     },
     {
       "id": "aWeapon162",
@@ -12073,9 +11871,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0,
-      "secondary": 0,
-      "zoom": null
+      "reload": 0
     },
     {
       "id": "aWeapon163",
@@ -12118,8 +11914,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": 0,
-      "secondary": 0,
-      "zoom": null,
       "fuse": 600
     },
     {
@@ -12162,9 +11956,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0,
-      "secondary": 0,
-      "zoom": null
+      "reload": 0
     },
     {
       "id": "aWeapon165",
@@ -12207,8 +11999,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": 0,
-      "secondary": 0,
-      "zoom": null,
       "fuse": 600
     },
     {
@@ -12251,9 +12041,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0,
-      "secondary": 0,
-      "zoom": null
+      "reload": 0
     },
     {
       "id": "aWeapon167",
@@ -12330,9 +12118,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon168",
@@ -12410,8 +12196,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "fuse": 240
     },
     {
@@ -12483,8 +12267,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "duration": 360
     },
     {
@@ -12542,9 +12324,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon170",
@@ -12621,9 +12401,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon171",
@@ -12701,8 +12479,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "fuse": 240
     },
     {
@@ -12780,9 +12556,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon173",
@@ -12860,8 +12634,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "fuse": 240
     },
     {
@@ -12920,8 +12692,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "fuse": 600
     },
     {
@@ -12980,8 +12750,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "fuse": 240
     },
     {
@@ -13052,9 +12820,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon177",
@@ -13126,8 +12892,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "fuse": 240
     },
     {
@@ -13199,8 +12963,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "duration": 900
     },
     {
@@ -13259,8 +13021,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "fuse": 600
     },
     {
@@ -13332,8 +13092,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "duration": 360
     },
     {
@@ -13405,9 +13163,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon182",
@@ -13465,8 +13221,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "fuse": 240
     },
     {
@@ -13544,9 +13298,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon184",
@@ -13603,9 +13355,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon185",
@@ -13676,9 +13426,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon186",
@@ -13735,8 +13483,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "duration": 1800
     },
     {
@@ -13794,8 +13540,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "fuse": 240
     },
     {
@@ -13866,9 +13610,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon189",
@@ -13939,8 +13681,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "duration": 900
     },
     {
@@ -13998,9 +13738,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon191",
@@ -14071,8 +13809,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "duration": 360
     },
     {
@@ -14223,9 +13959,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon194",
@@ -14295,9 +14029,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon195",
@@ -14375,9 +14107,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon196",
@@ -14455,9 +14185,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon197",
@@ -14527,9 +14255,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon198",
@@ -14579,9 +14305,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon199",
@@ -14632,8 +14356,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "duration": 60,
       "continous": true
     },
@@ -14686,8 +14408,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "duration": 30,
       "continous": true
     },
@@ -14740,8 +14460,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "duration": 30,
       "continous": true
     },
@@ -14794,8 +14512,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "duration": 30,
       "continous": true
     },
@@ -14847,9 +14563,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0,
-      "secondary": 0,
-      "zoom": null
+      "reload": 0
     },
     {
       "id": "aWeapon204",
@@ -14899,9 +14613,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0,
-      "secondary": 0,
-      "zoom": null
+      "reload": 0
     },
     {
       "id": "aWeapon205",
@@ -14951,9 +14663,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0,
-      "secondary": 0,
-      "zoom": null
+      "reload": 0
     },
     {
       "id": "aWeapon206",
@@ -15003,9 +14713,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0,
-      "secondary": 0,
-      "zoom": null
+      "reload": 0
     },
     {
       "id": "aWeapon207",
@@ -15055,9 +14763,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0,
-      "secondary": 0,
-      "zoom": null
+      "reload": 0
     },
     {
       "id": "aWeapon208",
@@ -15127,9 +14833,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon209",
@@ -15199,9 +14903,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon210",
@@ -15271,9 +14973,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon211",
@@ -15343,9 +15043,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon212",
@@ -15423,9 +15121,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "aWeapon213",
@@ -15772,8 +15468,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 75
     },
     {
@@ -15831,8 +15525,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 100
     },
     {
@@ -15890,8 +15582,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 75
     },
     {
@@ -15949,8 +15639,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 100
     },
     {
@@ -16008,8 +15696,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 60
     },
     {
@@ -16067,8 +15753,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 80
     },
     {
@@ -16126,8 +15810,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 100
     },
     {
@@ -16185,8 +15867,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 60
     },
     {
@@ -16244,8 +15924,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 100
     },
     {
@@ -16303,8 +15981,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 60
     },
     {
@@ -16362,8 +16038,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 60
     },
     {
@@ -16408,8 +16082,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "duration": 20,
       "continous": true
     },
@@ -16455,8 +16127,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "duration": 20,
       "continous": true
     },
@@ -16551,9 +16221,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "aWeapon233",
@@ -16597,8 +16265,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "duration": 20,
       "continous": true
     },
@@ -16695,8 +16361,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "duration": 20,
       "continous": true
     },
@@ -16889,8 +16553,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "duration": 20,
       "continous": true
     },
@@ -17286,9 +16948,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "aWeapon242",
@@ -17318,8 +16978,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "walkSpeed": 1.15,
       "sprintSpeed": 1.2
     },
@@ -17351,8 +17009,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "hitSlowdown": 0.5
     },
     {
@@ -17383,8 +17039,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "sprintDestruction": true
     },
     {
@@ -17415,8 +17069,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "walkSpeed": 1.15,
       "sprintSpeed": 1.2,
       "sprintDestruction": true
@@ -17449,8 +17101,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "walkSpeed": 1.15,
       "sprintSpeed": 1.2,
       "hitSlowdown": 0.5
@@ -17483,8 +17133,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "sprintSpeed": 1.5,
       "sprintSwirl": 0.25,
       "sprintAcceleration": 0.4,
@@ -17519,8 +17167,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "walkSpeed": 1.25,
       "sprintSpeed": 1.3,
       "sprintAcceleration": 2,
@@ -17554,8 +17200,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "hitSlowdown": 0
     },
     {
@@ -17586,8 +17230,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "walkSpeed": 1.15,
       "sprintSpeed": 1.2,
       "sprintDestruction": true,
@@ -17621,8 +17263,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "isKnockImmune": true
     },
     {
@@ -17653,8 +17293,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "walkSpeed": 1.25,
       "sprintSpeed": 1.3,
       "sprintAcceleration": 2,
@@ -17689,8 +17327,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "sprintSpeed": 1.75,
       "sprintSwirl": 0.5,
       "sprintAcceleration": 0.7,
@@ -17725,8 +17361,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "walkSpeed": 1.25,
       "sprintSpeed": 1.3,
       "sprintAcceleration": 2,
@@ -17760,8 +17394,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "walkSpeed": 1.32,
       "sprintSpeed": 1.4,
       "sprintAcceleration": 3,
@@ -17795,8 +17427,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "walkSpeed": 1.25,
       "sprintSpeed": 1.3,
       "sprintAcceleration": 2,
@@ -17832,8 +17462,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "sprintSpeed": 2,
       "sprintSwirl": 0.75,
       "sprintAcceleration": 1,
@@ -17868,8 +17496,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "walkSpeed": 1.32,
       "sprintSpeed": 1.4,
       "sprintAcceleration": 3,
@@ -17904,8 +17530,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "walkSpeed": 1.4,
       "sprintSpeed": 1.5,
       "sprintAcceleration": 4,
@@ -17940,8 +17564,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "isMultiLock": true
     },
     {
@@ -17971,9 +17593,7 @@
       "lockTime": 1.5,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "aWeapon262",
@@ -18003,8 +17623,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "isMultiLock": true
     },
     {
@@ -18034,9 +17652,7 @@
       "lockTime": 2,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "aWeapon264",
@@ -18066,8 +17682,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "isMultiLock": true
     },
     {
@@ -18097,9 +17711,7 @@
       "lockTime": 3,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "aWeapon266",
@@ -18129,8 +17741,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "isMultiLock": true
     },
     {
@@ -18160,9 +17770,7 @@
       "lockTime": 4,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "aWeapon268",
@@ -18192,8 +17800,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "allyRecovery": 1.1
     },
     {
@@ -18224,8 +17830,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "allyRecovery": 1.25
     },
     {
@@ -18256,8 +17860,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "allyRecovery": 1.5
     },
     {
@@ -18288,8 +17890,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "allyRecovery": 2
     },
     {
@@ -18320,8 +17920,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "allyRecovery": 2.5
     },
     {
@@ -18352,8 +17950,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "itemRange": 2.5,
       "allyRecovery": 1.1
     },
@@ -18385,8 +17981,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "itemRange": 2
     },
     {
@@ -18417,8 +18011,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "itemRange": 3
     },
     {
@@ -18449,8 +18041,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "itemRange": 5
     },
     {
@@ -18481,8 +18071,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "itemRange": 7
     },
     {
@@ -18513,8 +18101,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "itemRange": 11
     },
     {
@@ -18541,8 +18127,6 @@
       "lockDist": 0,
       "reload": 3500,
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "hp": 450,
       "weapons": [
         {
@@ -18608,8 +18192,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "hp": 330,
       "weapons": [
         {
@@ -18673,8 +18255,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "hp": 960,
       "weapons": [
         {
@@ -18738,8 +18318,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "hp": 540,
       "weapons": [
         {
@@ -18803,8 +18381,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "hp": 1500,
       "weapons": [
         {
@@ -18868,8 +18444,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "hp": 3150,
       "weapons": [
         {
@@ -18943,8 +18517,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "hp": 3150,
       "weapons": [
         {
@@ -19008,8 +18580,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "hp": 4500,
       "weapons": [
         {
@@ -19073,8 +18643,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "hp": 6600,
       "weapons": [
         {
@@ -19131,8 +18699,6 @@
       "lockDist": 0,
       "reload": 4000,
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "hp": 400,
       "weapons": []
     },
@@ -19160,8 +18726,6 @@
       "lockDist": 0,
       "reload": 5400,
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 500,
       "weapons": [
@@ -19215,8 +18779,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 500,
       "weapons": [
@@ -19268,8 +18830,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 1200,
       "weapons": [
@@ -19347,8 +18907,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 3900,
       "weapons": [
@@ -19399,8 +18957,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 2040,
       "weapons": [
@@ -19478,8 +19034,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 4440,
       "weapons": [
@@ -19557,8 +19111,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 6360,
       "weapons": [
@@ -19636,8 +19188,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 10800,
       "weapons": [
@@ -19716,8 +19266,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 36000,
       "weapons": [
@@ -19768,8 +19316,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 18000,
       "weapons": [
@@ -19847,8 +19393,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 30000,
       "weapons": [
@@ -19926,8 +19470,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 75000,
       "weapons": [
@@ -19978,8 +19520,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 780,
       "weapons": [
@@ -20065,8 +19605,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 510,
       "weapons": [
@@ -20135,8 +19673,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 3240,
       "weapons": [
@@ -20190,8 +19726,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 1350,
       "weapons": [
@@ -20260,8 +19794,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 18000,
       "weapons": [
@@ -20315,8 +19847,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 2700,
       "weapons": [
@@ -20386,8 +19916,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 21600,
       "weapons": [
@@ -20441,8 +19969,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 4800,
       "weapons": [
@@ -20511,8 +20037,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 43200,
       "weapons": [
@@ -20566,8 +20090,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 7500,
       "weapons": [
@@ -20682,9 +20204,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon001",
@@ -20745,9 +20265,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon002",
@@ -20819,9 +20337,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon003",
@@ -20897,9 +20413,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon004",
@@ -20961,9 +20475,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon005",
@@ -21035,9 +20547,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon006",
@@ -21113,9 +20623,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon007",
@@ -21176,9 +20684,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon008",
@@ -21240,9 +20746,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon009",
@@ -21314,9 +20818,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon010",
@@ -21385,9 +20887,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon011",
@@ -21463,9 +20963,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon012",
@@ -21537,9 +21035,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon013",
@@ -21601,9 +21097,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon014",
@@ -21668,9 +21162,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon015",
@@ -21742,9 +21234,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon016",
@@ -21813,9 +21303,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon017",
@@ -21887,9 +21375,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon018",
@@ -21965,9 +21451,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon019",
@@ -22029,9 +21513,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon020",
@@ -22092,9 +21574,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon021",
@@ -22170,9 +21650,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon022",
@@ -22244,9 +21722,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon023",
@@ -22318,9 +21794,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon024",
@@ -22390,9 +21864,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon025",
@@ -22454,9 +21926,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon026",
@@ -22528,9 +21998,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon027",
@@ -22599,9 +22067,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon028",
@@ -22677,9 +22143,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon029",
@@ -22744,9 +22208,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon030",
@@ -22808,9 +22270,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon031",
@@ -22886,9 +22346,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon032",
@@ -22960,9 +22418,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon033",
@@ -23034,9 +22490,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon034",
@@ -23105,9 +22559,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon035",
@@ -23179,9 +22631,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon036",
@@ -23251,9 +22701,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon037",
@@ -23325,9 +22773,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon038",
@@ -23388,9 +22834,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon039",
@@ -23466,9 +22910,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon040",
@@ -23537,9 +22979,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon041",
@@ -23611,9 +23051,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon042",
@@ -23685,9 +23123,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon043",
@@ -23749,9 +23185,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon044",
@@ -23827,9 +23261,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "LAZR01",
@@ -23894,8 +23326,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon045",
@@ -23968,8 +23399,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon046",
@@ -24034,8 +23464,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon047",
@@ -24100,8 +23529,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon048",
@@ -24174,8 +23602,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon049",
@@ -24243,9 +23670,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": 0
+      }
     },
     {
       "id": "pWeapon050",
@@ -24318,8 +23743,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon051",
@@ -24389,8 +23813,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 0.699999988079071
     },
     {
       "id": "pWeapon052",
@@ -24455,8 +23878,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon053",
@@ -24521,8 +23943,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon054",
@@ -24592,8 +24013,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 0.699999988079071
     },
     {
       "id": "pWeapon055",
@@ -24658,8 +24078,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 3
     },
     {
       "id": "pWeapon056",
@@ -24736,8 +24155,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon057",
@@ -24802,8 +24220,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon058",
@@ -24868,8 +24285,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon059",
@@ -24941,9 +24357,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": 0
+      }
     },
     {
       "id": "pWeapon060",
@@ -25008,8 +24422,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 3
     },
     {
       "id": "pWeapon061",
@@ -25077,9 +24490,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": 0
+      }
     },
     {
       "id": "pWeapon062",
@@ -25144,8 +24555,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon063",
@@ -25215,8 +24625,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 0.699999988079071
     },
     {
       "id": "pWeapon064",
@@ -25281,8 +24690,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon065",
@@ -25355,8 +24763,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon066",
@@ -25421,8 +24828,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon067",
@@ -25495,8 +24901,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon068",
@@ -25573,8 +24978,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 3
     },
     {
       "id": "pWeapon069",
@@ -25639,8 +25043,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon070",
@@ -25705,8 +25108,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon071",
@@ -25776,8 +25178,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 0.699999988079071
     },
     {
       "id": "pWeapon072",
@@ -25854,8 +25255,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon073",
@@ -25920,8 +25320,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 3
     },
     {
       "id": "pWeapon074",
@@ -25993,9 +25392,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": 0
+      }
     },
     {
       "id": "pWeapon075",
@@ -26060,8 +25457,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 2
     },
     {
       "id": "pWeapon076",
@@ -26139,9 +25535,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 150,
-      "secondary": 0,
-      "zoom": null
+      "reload": 150
     },
     {
       "id": "pWeapon077",
@@ -26219,9 +25613,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 160,
-      "secondary": 0,
-      "zoom": null
+      "reload": 160
     },
     {
       "id": "pWeapon078",
@@ -26307,9 +25699,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 150,
-      "secondary": 0,
-      "zoom": null
+      "reload": 150
     },
     {
       "id": "pWeapon079",
@@ -26387,9 +25777,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 120,
-      "secondary": 0,
-      "zoom": null
+      "reload": 120
     },
     {
       "id": "pWeapon080",
@@ -26475,9 +25863,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 90,
-      "secondary": 0,
-      "zoom": null
+      "reload": 90
     },
     {
       "id": "pWeapon081",
@@ -26549,9 +25935,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 40,
-      "secondary": 0,
-      "zoom": null
+      "reload": 40
     },
     {
       "id": "pWeapon082",
@@ -26637,9 +26021,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 120,
-      "secondary": 0,
-      "zoom": null
+      "reload": 120
     },
     {
       "id": "pWeapon083",
@@ -26717,9 +26099,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 150,
-      "secondary": 0,
-      "zoom": null
+      "reload": 150
     },
     {
       "id": "pWeapon084",
@@ -26805,9 +26185,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 120,
-      "secondary": 0,
-      "zoom": null
+      "reload": 120
     },
     {
       "id": "pWeapon085",
@@ -26893,9 +26271,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 120,
-      "secondary": 0,
-      "zoom": null
+      "reload": 120
     },
     {
       "id": "pWeapon086",
@@ -26967,9 +26343,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 40,
-      "secondary": 0,
-      "zoom": null
+      "reload": 40
     },
     {
       "id": "pWeapon087",
@@ -27047,9 +26421,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 150,
-      "secondary": 0,
-      "zoom": null
+      "reload": 150
     },
     {
       "id": "pWeapon088",
@@ -27135,9 +26507,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 120,
-      "secondary": 0,
-      "zoom": null
+      "reload": 120
     },
     {
       "id": "pWeapon089",
@@ -27215,9 +26585,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 150,
-      "secondary": 0,
-      "zoom": null
+      "reload": 150
     },
     {
       "id": "pWeapon090",
@@ -27303,9 +26671,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 120,
-      "secondary": 0,
-      "zoom": null
+      "reload": 120
     },
     {
       "id": "pWeapon091",
@@ -27377,9 +26743,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 48,
-      "secondary": 0,
-      "zoom": null
+      "reload": 48
     },
     {
       "id": "pWeapon092",
@@ -27457,9 +26821,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 150,
-      "secondary": 0,
-      "zoom": null
+      "reload": 150
     },
     {
       "id": "pWeapon093",
@@ -27545,9 +26907,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 120,
-      "secondary": 0,
-      "zoom": null
+      "reload": 120
     },
     {
       "id": "pWeapon094",
@@ -27625,9 +26985,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 150,
-      "secondary": 0,
-      "zoom": null
+      "reload": 150
     },
     {
       "id": "pWeapon095",
@@ -27713,9 +27071,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 120,
-      "secondary": 0,
-      "zoom": null
+      "reload": 120
     },
     {
       "id": "pWeapon096",
@@ -27801,9 +27157,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 120,
-      "secondary": 0,
-      "zoom": null
+      "reload": 120
     },
     {
       "id": "pWeapon097",
@@ -27875,9 +27229,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 40,
-      "secondary": 0,
-      "zoom": null
+      "reload": 40
     },
     {
       "id": "pWeapon098",
@@ -27955,9 +27307,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 150,
-      "secondary": 0,
-      "zoom": null
+      "reload": 150
     },
     {
       "id": "pWeapon099",
@@ -28028,9 +27378,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon100",
@@ -28109,9 +27457,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon101",
@@ -28182,9 +27528,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon102",
@@ -28249,9 +27593,7 @@
         "zero": 0.5,
         "exp": 0.8,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon103",
@@ -28330,9 +27672,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon104",
@@ -28403,9 +27743,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon105",
@@ -28470,9 +27808,7 @@
         "zero": 0.5,
         "exp": 0.8,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon106",
@@ -28551,9 +27887,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon107",
@@ -28624,9 +27958,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon108",
@@ -28691,9 +28023,7 @@
         "zero": 0.5,
         "exp": 0.8,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon109",
@@ -28764,9 +28094,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon110",
@@ -28831,9 +28159,7 @@
         "zero": 0.5,
         "exp": 0.8,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon111",
@@ -28912,9 +28238,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon112",
@@ -28979,9 +28303,7 @@
         "zero": 0.5,
         "exp": 0.8,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon113",
@@ -29052,9 +28374,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon114",
@@ -29133,9 +28453,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon115",
@@ -29206,9 +28524,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon116",
@@ -29287,9 +28603,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon117",
@@ -29354,9 +28668,7 @@
         "zero": 0.5,
         "exp": 0.8,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon118",
@@ -29427,9 +28739,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon119",
@@ -29508,9 +28818,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon120",
@@ -29575,9 +28883,7 @@
         "zero": 0.5,
         "exp": 0.8,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon121",
@@ -29656,9 +28962,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon122",
@@ -29729,9 +29033,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon123",
@@ -29796,9 +29098,7 @@
         "zero": 0.5,
         "exp": 0.8,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon124",
@@ -31491,9 +30791,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon146",
@@ -31557,9 +30855,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon147",
@@ -31645,9 +30941,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon148",
@@ -31718,9 +31012,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon149",
@@ -31791,9 +31083,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon150",
@@ -31871,9 +31161,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon151",
@@ -31944,9 +31232,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon152",
@@ -32032,9 +31318,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon153",
@@ -32105,9 +31389,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon154",
@@ -32179,9 +31461,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon155",
@@ -32259,9 +31539,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon156",
@@ -32325,9 +31603,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon157",
@@ -32406,9 +31682,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon158",
@@ -32472,9 +31746,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon159",
@@ -32552,9 +31824,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon160",
@@ -32625,9 +31895,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon161",
@@ -32713,9 +31981,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon162",
@@ -32779,9 +32045,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon163",
@@ -32852,9 +32116,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon164",
@@ -32932,9 +32194,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon165",
@@ -33013,9 +32273,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon166",
@@ -33086,9 +32344,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon167",
@@ -33152,9 +32408,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon168",
@@ -33232,9 +32486,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon169",
@@ -33313,9 +32565,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon170",
@@ -33401,9 +32651,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon171",
@@ -33474,9 +32722,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon172",
@@ -33540,9 +32786,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon173",
@@ -33606,9 +32850,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon174",
@@ -33679,9 +32921,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon175",
@@ -33760,9 +33000,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon176",
@@ -33848,9 +33086,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon177",
@@ -33922,9 +33158,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon178",
@@ -33995,9 +33229,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon179",
@@ -34075,9 +33307,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon180",
@@ -34148,9 +33378,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon181",
@@ -34214,9 +33442,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon182",
@@ -34294,9 +33520,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon183",
@@ -34368,9 +33592,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon184",
@@ -34441,9 +33663,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon185",
@@ -34514,9 +33734,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon186",
@@ -34580,9 +33798,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon187",
@@ -34661,9 +33877,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon188",
@@ -34734,9 +33948,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon189",
@@ -34815,9 +34027,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon190",
@@ -34896,9 +34106,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon191",
@@ -34969,9 +34177,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon192",
@@ -35043,9 +34249,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon193",
@@ -35116,9 +34320,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon194",
@@ -35197,9 +34399,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon195",
@@ -35271,9 +34471,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon196",
@@ -35344,9 +34542,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon197",
@@ -35425,9 +34621,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon198",
@@ -35498,9 +34692,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon199",
@@ -35579,9 +34771,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon200",
@@ -35660,9 +34850,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon201",
@@ -35734,9 +34922,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "pWeapon202",
@@ -35815,9 +35001,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "DLC_pWeapon01",
@@ -35847,8 +35031,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": 3600,
-      "secondary": 0,
-      "zoom": null,
       "shots": 600,
       "duration": 1200
     },
@@ -35880,8 +35062,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": 4800,
-      "secondary": 0,
-      "zoom": null,
       "shots": 10,
       "duration": 3610
     },
@@ -35934,8 +35114,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 1800,
       "duration": 1800
     },
@@ -35988,8 +35166,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 600,
       "duration": 1800
     },
@@ -36042,8 +35218,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 500,
       "duration": 2000
     },
@@ -36096,8 +35270,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 1800,
       "duration": 1800
     },
@@ -36150,8 +35322,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 600,
       "duration": 1800
     },
@@ -36204,8 +35374,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 1800,
       "duration": 1800
     },
@@ -36259,8 +35427,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 600,
       "duration": 1800
     },
@@ -36313,8 +35479,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 1800,
       "duration": 1800
     },
@@ -36367,8 +35531,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 1800,
       "duration": 1800
     },
@@ -36421,8 +35583,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 1800,
       "duration": 1800
     },
@@ -36475,8 +35635,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 900,
       "duration": 2700
     },
@@ -36530,8 +35688,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 600,
       "duration": 1800
     },
@@ -36584,8 +35740,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 500,
       "duration": 2000
     },
@@ -36638,8 +35792,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 1800,
       "duration": 1800
     },
@@ -36693,8 +35845,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 600,
       "duration": 1800
     },
@@ -36747,8 +35897,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 600,
       "duration": 1800
     },
@@ -36801,8 +35949,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 1800,
       "duration": 1800
     },
@@ -36856,8 +36002,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 1000,
       "duration": 2000
     },
@@ -36911,8 +36055,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 600,
       "duration": 1800
     },
@@ -36945,8 +36087,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "chargeSpeed": 1.1,
       "emergencyChargeSpeed": 1.35
     },
@@ -36985,9 +36125,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "pWeapon221",
@@ -37025,8 +36163,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "boostForward": 1.25,
       "boostSide": 1,
       "boostRear": 1,
@@ -37067,9 +36203,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "pWeapon223",
@@ -37107,8 +36241,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "weaponReload": 1.2
     },
     {
@@ -37146,9 +36278,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "pWeapon225",
@@ -37185,9 +36315,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "pWeapon226",
@@ -37225,8 +36353,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "boostForward": 1.3,
       "boostSide": 1,
       "boostRear": 1,
@@ -37268,8 +36394,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "flightSpeedHorizontal": 0.9,
       "chargeSpeed": 0.8,
       "emergencyChargeSpeed": 0.8
@@ -37310,8 +36434,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "weaponReload": 1.2
     },
     {
@@ -37350,8 +36472,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "boostForward": 2,
       "boostSide": 1,
       "boostRear": 1,
@@ -37392,9 +36512,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "pWeapon231",
@@ -37432,8 +36550,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "chargeSpeed": 1.1,
       "emergencyChargeSpeed": 1.35
     },
@@ -37472,9 +36588,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "pWeapon233",
@@ -37512,8 +36626,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "chargeSpeed": 0.8,
       "emergencyChargeSpeed": 0.65,
       "flightSpeedVertical": 0.5,
@@ -37560,8 +36672,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "boostForward": 1.3,
       "boostSide": 1.15,
       "boostRear": 1,
@@ -37602,9 +36712,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "pWeapon236",
@@ -37642,8 +36750,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "weaponReload": 1.3
     },
     {
@@ -37682,8 +36788,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "boostConsumption": 0.6
     },
     {
@@ -37721,9 +36825,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "pWeapon239",
@@ -37760,9 +36862,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "pWeapon240",
@@ -37800,8 +36900,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "flightSpeedHorizontal": 1.25,
       "flightSpeedVertical": 1.25,
       "flightConsumption": 1.25
@@ -37842,8 +36940,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "boostForward": 1,
       "boostSide": 1.3,
       "boostRear": 1.2,
@@ -37884,9 +36980,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "pWeapon243",
@@ -37924,8 +37018,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "flightSpeedHorizontal": 0.8,
       "chargeSpeed": 0.68,
       "emergencyChargeSpeed": 0.68
@@ -37966,8 +37058,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "boostForward": 1.35,
       "boostSide": 1.2,
       "boostRear": 1,
@@ -38008,9 +37098,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "pWeapon246",
@@ -38047,9 +37135,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "pWeapon247",
@@ -38087,8 +37173,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "weaponReload": 1.5
     },
     {
@@ -38126,9 +37210,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "pWeapon249",
@@ -38166,8 +37248,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "chargeSpeed": 0.8,
       "emergencyChargeSpeed": 0.65,
       "flightSpeedVertical": 0.5,
@@ -38214,8 +37294,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "flightSpeedHorizontal": 1.3,
       "flightSpeedVertical": 1.3,
       "flightConsumption": 1.25
@@ -38256,8 +37334,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "weaponReload": 1.5
     },
     {
@@ -38296,8 +37372,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "boostForward": 2,
       "boostSide": 1.5,
       "boostRear": 1,
@@ -38338,9 +37412,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "DLC_hHammer",
@@ -48272,9 +47344,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "hWeapon138",
@@ -48337,9 +47407,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "hWeapon139",
@@ -48410,9 +47478,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "hWeapon140",
@@ -48490,9 +47556,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "hWeapon141",
@@ -48635,9 +47699,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "hWeapon143",
@@ -48788,9 +47850,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "hWeapon145",
@@ -48861,9 +47921,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "hWeapon146",
@@ -48926,9 +47984,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "hWeapon147",
@@ -49071,9 +48127,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "hWeapon149",
@@ -49151,9 +48205,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "hWeapon150",
@@ -49224,9 +48276,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "hWeapon151",
@@ -49369,9 +48419,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "hWeapon153",
@@ -49434,9 +48482,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "hWeapon154",
@@ -49514,9 +48560,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "hWeapon155",
@@ -49747,9 +48791,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "hWeapon158",
@@ -49812,9 +48854,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "hWeapon159",
@@ -49892,9 +48932,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "hSupportNone0",
@@ -49923,9 +48961,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "hSupportNone1",
@@ -49954,9 +48990,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "hWeapon160",
@@ -49986,8 +49020,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "dashCount": 2
     },
     {
@@ -50018,8 +49050,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "dashCount": 3,
       "dashInterval": 0.46
     },
@@ -50051,8 +49081,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "dashCount": 4,
       "dashInterval": 0.43
     },
@@ -50084,8 +49112,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "dashCount": 5,
       "dashInterval": 0.4
     },
@@ -50117,8 +49143,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "dashCount": 6,
       "dashInterval": 0.4
     },
@@ -50150,8 +49174,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "boostCount": 2,
       "boostSpeed": 1.1
     },
@@ -50183,8 +49205,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "boostCount": 3,
       "boostSpeed": 1.2
     },
@@ -50216,8 +49236,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "boostCount": 4,
       "boostSpeed": 1.3
     },
@@ -50249,8 +49267,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "boostCount": 5,
       "boostSpeed": 1.4
     },
@@ -50282,8 +49298,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "boostCount": 6,
       "boostSpeed": 1.5
     },
@@ -50315,8 +49329,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "dashCount": 2,
       "boostCount": 2,
       "boostSpeed": 1.1
@@ -50349,8 +49361,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "dashCount": 2,
       "boostCount": 3,
       "boostSpeed": 1.15
@@ -50383,8 +49393,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "dashCount": 3,
       "boostCount": 2,
       "boostSpeed": 1.2
@@ -50417,8 +49425,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "dashCount": 3,
       "boostCount": 3,
       "boostSpeed": 1.25,
@@ -50452,8 +49458,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "dashCount": 3,
       "boostCount": 4,
       "boostSpeed": 1.3,
@@ -50487,8 +49491,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "dashCount": 4,
       "boostCount": 3,
       "boostSpeed": 1.35,
@@ -50522,8 +49524,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "shieldDeflectConsumption": 0.65,
       "shieldDamageReduction": 0.8,
       "shieldKnockback": 0.75
@@ -50556,8 +49556,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "shieldDurability": 2,
       "shieldAngle": 20
     },
@@ -50589,8 +49587,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "shieldConsumption": 1.8,
       "shieldDamageReduction": 0.25,
       "shieldKnockback": 0.4,
@@ -50624,8 +49620,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "shieldDeflectConsumption": 0.5,
       "shieldDamageReduction": 0.75,
       "shieldKnockback": 0.6
@@ -50658,8 +49652,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "shieldConsumption": 1.6,
       "shieldDamageReduction": 0.1,
       "shieldKnockback": 0.2,
@@ -50693,8 +49685,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "shieldDurability": 4,
       "shieldAngle": 30
     },
@@ -50726,8 +49716,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "shieldDeflectConsumption": 0.35,
       "shieldDamageReduction": 0.7,
       "shieldKnockback": 0.2
@@ -50760,8 +49748,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "shieldConsumption": 1.4,
       "shieldDamageReduction": 0.05,
       "shieldKnockback": 0,
@@ -50795,8 +49781,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "shieldDurability": 6,
       "shieldAngle": 40
     },
@@ -50828,8 +49812,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "shieldDeflectConsumption": 0.2,
       "shieldDamageReduction": 0.6,
       "shieldKnockback": 0.1
@@ -50862,8 +49844,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "shieldConsumption": 1.5,
       "shieldDamageReduction": 0,
       "shieldKnockback": 0,
@@ -50897,8 +49877,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "shieldDurability": 8,
       "shieldAngle": 60
     },
@@ -50930,8 +49908,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "equipRecoil": 0.6
     },
     {
@@ -50962,8 +49938,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "equipRecoil": 0.4
     },
     {
@@ -50994,8 +49968,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "equipRecoil": 0.3
     },
     {
@@ -51026,8 +49998,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "equipRecoil": 0.2
     },
     {
@@ -51058,8 +50028,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "equipRecoil": 0.1
     },
     {
@@ -51090,8 +50058,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "equipRecoil": 0
     },
     {
@@ -51122,8 +50088,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "equipWeightMoveReduction": 0.5,
       "walkSpeed": 1.3,
       "dashCount": 2
@@ -51156,8 +50120,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "equipWeightTurnReduction": 0.3,
       "equipWeightMoveReduction": 0.3,
       "walkSpeed": 1.1
@@ -51190,8 +50152,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "equipWeightMoveReduction": 0.5,
       "walkSpeed": 1.3
     },
@@ -51223,8 +50183,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "equipWeightTurnReduction": 0.5
     },
     {
@@ -51255,8 +50213,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "equipWeightTurnReduction": 0.5,
       "equipWeightMoveReduction": 0.5,
       "walkSpeed": 1.2
@@ -51289,8 +50245,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "equipWeightMoveReduction": 0.75,
       "walkSpeed": 1.5
     },
@@ -51322,8 +50276,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "equipWeightTurnReduction": 0.75
     },
     {
@@ -51354,8 +50306,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "equipWeightTurnReduction": 0.75,
       "equipWeightMoveReduction": 0.75,
       "walkSpeed": 1.3
@@ -51388,8 +50338,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "equipWeightMoveReduction": 1,
       "walkSpeed": 1.7
     },
@@ -51421,8 +50369,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "equipWeightTurnReduction": 1
     },
     {
@@ -51453,8 +50399,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "equipWeightTurnReduction": 1,
       "equipWeightMoveReduction": 1,
       "walkSpeed": 1.5
@@ -51501,8 +50445,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 10
@@ -51549,8 +50491,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 10
@@ -51597,8 +50537,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 10
@@ -51645,8 +50583,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20
@@ -51693,8 +50629,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20
@@ -51741,8 +50675,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20
@@ -51789,8 +50721,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 11
@@ -51837,8 +50767,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 10
@@ -51885,8 +50813,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 10
@@ -51933,8 +50859,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20
@@ -51981,8 +50905,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20
@@ -52029,8 +50951,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20
@@ -52077,8 +50997,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 10
@@ -52125,8 +51043,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 10
@@ -52173,8 +51089,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 10
@@ -52221,8 +51135,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20
@@ -52269,8 +51181,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20
@@ -54660,8 +53570,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 2,
       "shots": 70
@@ -54708,8 +53616,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 1,
       "shots": 20
@@ -54756,8 +53662,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 1,
       "shots": 10
@@ -54804,8 +53708,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 1,
       "shots": 10
@@ -54852,8 +53754,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 3,
       "shots": 100
@@ -54900,8 +53800,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 1,
       "shots": 40
@@ -54948,8 +53846,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 2,
       "shots": 100
@@ -54996,8 +53892,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 2,
       "shots": 20
@@ -55044,8 +53938,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 1,
       "shots": 20
@@ -55092,8 +53984,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 2,
       "shots": 150
@@ -55140,8 +54030,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 1,
       "shots": 10
@@ -55188,8 +54076,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 3,
       "shots": 40
@@ -55236,8 +54122,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 4,
       "shots": 100
@@ -55284,8 +54168,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 1,
       "shots": 10
@@ -55332,8 +54214,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 1,
       "shots": 100
@@ -55380,8 +54260,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 4,
       "shots": 30
@@ -55428,8 +54306,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 2,
       "shots": 15
@@ -55476,8 +54352,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 9,
       "shots": 50
@@ -55524,8 +54398,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 1,
       "shots": 150
@@ -55572,8 +54444,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 1,
       "shots": 11
@@ -55620,8 +54490,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 10,
       "shots": 16
@@ -55668,8 +54536,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 1,
       "shots": 40
@@ -55716,8 +54582,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 3,
       "shots": 120
@@ -55764,8 +54628,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 1,
       "shots": 200
@@ -55812,8 +54674,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 2,
       "shots": 150
@@ -55860,8 +54720,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 2,
       "shots": 16
@@ -55908,8 +54766,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 1,
       "shots": 20
@@ -55956,8 +54812,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 5,
       "shots": 100
@@ -56004,8 +54858,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 1,
       "shots": 12
@@ -56052,8 +54904,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 1,
       "shots": 200
@@ -56100,8 +54950,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 1,
       "shots": 40
@@ -56148,8 +54996,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 4,
       "shots": 150
@@ -56196,8 +55042,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 4,
       "shots": 20
@@ -59076,8 +57920,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 60
     },
     {
@@ -59476,8 +58318,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 30
     },
     {
@@ -60016,9 +58856,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "eWeapon150",
@@ -60146,9 +58984,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "eWeapon152",
@@ -60218,9 +59054,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "eWeapon153",
@@ -60407,9 +59241,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "eWeapon156",
@@ -60581,9 +59413,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "eWeapon159",
@@ -61928,8 +60758,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": null,
       "supportType": "life"
     },
     {
@@ -62098,8 +60926,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": null,
       "supportType": "life"
     },
     {
@@ -62150,8 +60976,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": null,
       "supportType": "life"
     },
     {
@@ -62261,8 +61085,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": null,
       "supportType": "life"
     },
     {
@@ -62447,8 +61269,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "supportType": "power"
     },
     {
@@ -62507,8 +61327,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "supportType": "power"
     },
     {
@@ -62634,8 +61452,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "supportType": "power"
     },
     {
@@ -62761,8 +61577,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "supportType": "power"
     },
     {
@@ -62948,8 +61762,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": 0,
       "supportType": "guard"
     },
     {
@@ -63008,8 +61820,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": 0,
       "supportType": "guard"
     },
     {
@@ -63135,8 +61945,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": 0,
       "supportType": "guard"
     },
     {
@@ -63195,8 +62003,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": 0,
       "supportType": "guard"
     },
     {
@@ -63247,9 +62053,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "credits": true,
-      "secondary": 0,
-      "zoom": null
+      "credits": true
     },
     {
       "id": "eWeapon213",
@@ -63351,9 +62155,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "credits": true,
-      "secondary": 0,
-      "zoom": null
+      "credits": true
     },
     {
       "id": "eWeapon215",
@@ -63396,9 +62198,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "credits": true,
-      "secondary": 0,
-      "zoom": null
+      "credits": true
     },
     {
       "id": "eWeapon216",
@@ -63500,9 +62300,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "credits": true,
-      "secondary": 0,
-      "zoom": null
+      "credits": true
     },
     {
       "id": "eWeapon218",
@@ -63545,9 +62343,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "credits": true,
-      "secondary": 0,
-      "zoom": null
+      "credits": true
     },
     {
       "id": "eWeapon219",
@@ -63597,9 +62393,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "credits": true,
-      "secondary": 0,
-      "zoom": null
+      "credits": true
     },
     {
       "id": "eWeapon220",
@@ -63701,9 +62495,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "credits": true,
-      "secondary": 0,
-      "zoom": null
+      "credits": true
     },
     {
       "id": "eWeapon222",
@@ -63753,9 +62545,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "credits": true,
-      "secondary": 0,
-      "zoom": null
+      "credits": true
     },
     {
       "id": "eWeapon223",
@@ -63805,9 +62595,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "credits": true,
-      "secondary": 0,
-      "zoom": null
+      "credits": true
     },
     {
       "id": "eWeapon224",
@@ -63902,9 +62690,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "credits": true,
-      "secondary": 0,
-      "zoom": null
+      "credits": true
     },
     {
       "id": "eWeapon226",
@@ -64018,9 +62804,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "eWeapon228",
@@ -64089,9 +62873,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "eWeapon229",
@@ -64153,9 +62935,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "eWeapon230",
@@ -64217,9 +62997,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "eWeapon231",
@@ -64288,9 +63066,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "npDecoyLauncher_reika",
@@ -64559,9 +63335,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1,
-      "secondary": 0,
-      "zoom": 0
+      "reload": -1
     },
     {
       "id": "DLC_Vehicle_Begaruta01",
@@ -64587,8 +63361,6 @@
       "lockDist": 0,
       "reload": 7000,
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 1200,
       "weapons": [
@@ -64684,8 +63456,6 @@
       "lockDist": 0,
       "reload": 7000,
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 1200,
       "weapons": [
@@ -64748,8 +63518,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 960,
       "weapons": [
@@ -64813,8 +63581,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 1380,
       "weapons": [
@@ -64882,8 +63648,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 1440,
       "weapons": [
@@ -64947,8 +63711,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 1560,
       "weapons": [
@@ -65043,8 +63805,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 1860,
       "weapons": [
@@ -65147,8 +63907,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 2220,
       "weapons": [
@@ -65247,8 +64005,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 3960,
       "weapons": [
@@ -65332,8 +64088,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 7440,
       "weapons": [
@@ -65436,8 +64190,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 10320,
       "weapons": [
@@ -65521,8 +64273,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 12360,
       "weapons": [
@@ -65619,8 +64369,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 13200,
       "weapons": [
@@ -65717,8 +64465,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 20160,
       "weapons": [
@@ -65817,8 +64563,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 27600,
       "weapons": [
@@ -65918,8 +64662,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 36360,
       "weapons": [
@@ -66022,8 +64764,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 38400,
       "weapons": [
@@ -66118,8 +64858,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 75600,
       "weapons": [
@@ -66218,8 +64956,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 76800,
       "weapons": [
@@ -66316,8 +65052,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 99600,
       "weapons": [
@@ -66416,8 +65150,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 104400,
       "weapons": [
@@ -66517,8 +65249,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "hp": 1000,
       "weapons": [
         {
@@ -66599,8 +65329,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "hp": 1200,
       "weapons": [
         {
@@ -66675,8 +65403,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "hp": 1850,
       "weapons": [
         {
@@ -66756,8 +65482,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "hp": 3700,
       "weapons": [
         {
@@ -66838,8 +65562,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "hp": 5000,
       "weapons": [
         {
@@ -66922,8 +65644,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "hp": 8000,
       "weapons": [
         {
@@ -67000,8 +65720,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "hp": 14000,
       "weapons": [
         {
@@ -67082,8 +65800,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "hp": 15000,
       "weapons": [
         {
@@ -67164,8 +65880,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "hp": 15000,
       "weapons": [
         {
@@ -67248,8 +65962,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 24750,
       "weapons": [
@@ -67333,8 +66045,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 125000,
       "weapons": [
@@ -67401,8 +66111,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 60000,
       "weapons": [
@@ -67486,8 +66194,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 225000,
       "weapons": [
@@ -67552,8 +66258,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 165000,
       "weapons": [
@@ -67637,8 +66341,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 625000,
       "weapons": []
@@ -67674,8 +66376,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 780,
       "weapons": [
@@ -67761,8 +66461,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 1620,
       "weapons": [
@@ -67848,8 +66546,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 3000,
       "weapons": [
@@ -67933,8 +66629,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 8400,
       "weapons": [
@@ -68020,8 +66714,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 13200,
       "weapons": [
@@ -68105,8 +66797,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 15000,
       "weapons": [
@@ -68185,8 +66875,6 @@
       "lockDist": 0,
       "reload": 10000,
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 3300,
       "weapons": []
@@ -68222,8 +66910,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 715,
       "weapons": [
@@ -68275,8 +66961,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 1950,
       "weapons": []
@@ -68312,8 +66996,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 420,
       "weapons": [
@@ -68369,8 +67051,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 942,
       "weapons": [
@@ -68422,8 +67102,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 1170,
       "weapons": [
@@ -68475,8 +67153,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 2700,
       "weapons": []
@@ -68512,8 +67188,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 570,
       "weapons": [
@@ -68569,8 +67243,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 2600,
       "weapons": [
@@ -68622,8 +67294,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 3120,
       "weapons": [
@@ -68675,8 +67345,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 7200,
       "weapons": []
@@ -68712,8 +67380,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 1710,
       "weapons": [
@@ -68769,8 +67435,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 4550,
       "weapons": [
@@ -68822,8 +67486,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 13500,
       "weapons": []
@@ -68859,8 +67521,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 3900,
       "weapons": [
@@ -68916,8 +67576,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 7150,
       "weapons": [
@@ -68969,8 +67627,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 25500,
       "weapons": []
@@ -69006,8 +67662,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 33000,
       "weapons": []
@@ -69043,8 +67697,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 13650,
       "weapons": [
@@ -69096,8 +67748,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 6600,
       "weapons": [
@@ -69146,8 +67796,6 @@
       "lockDist": 0,
       "reload": 5400,
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 500,
       "weapons": [
@@ -69201,8 +67849,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 500,
       "weapons": [
@@ -69254,8 +67900,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 1000,
       "weapons": [
@@ -69307,8 +67951,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 6240,
       "weapons": [
@@ -69434,8 +68076,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 1550,
       "weapons": [
@@ -69487,8 +68127,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 1600,
       "weapons": [
@@ -69540,8 +68178,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 1700,
       "weapons": [
@@ -69592,8 +68228,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 2000,
       "weapons": [
@@ -69645,8 +68279,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 3000,
       "weapons": [
@@ -69698,8 +68330,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 21600,
       "weapons": [
@@ -69831,8 +68461,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 6200,
       "weapons": [
@@ -69884,8 +68512,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 7000,
       "weapons": [
@@ -69937,8 +68563,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 8500,
       "weapons": [
@@ -69990,8 +68614,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 13100,
       "weapons": [
@@ -70043,8 +68665,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 11000,
       "weapons": [
@@ -70096,8 +68716,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 16500,
       "weapons": [
@@ -70149,8 +68767,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 23000,
       "weapons": [
@@ -70202,8 +68818,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 110400,
       "weapons": [
@@ -70335,8 +68949,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 32000,
       "weapons": [
@@ -70388,8 +69000,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 25000,
       "weapons": [
@@ -70558,9 +69168,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "EX_A_Weapon003",
@@ -70838,8 +69446,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "duration": 900
     },
     {
@@ -70871,8 +69477,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "walkSpeed": 1.5,
       "sprintSpeed": 1.4,
       "sprintAcceleration": 3,
@@ -70950,9 +69554,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "EX_A_Weapon009",
@@ -71025,9 +69627,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "EX_A_Weapon010",
@@ -71093,8 +69693,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 3
     },
     {
       "id": "EX_A_Weapon011",
@@ -71167,9 +69766,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 48,
-      "secondary": 0,
-      "zoom": null
+      "reload": 48
     },
     {
       "id": "EX_A_Weapon012",
@@ -71241,9 +69838,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "EX_A_Weapon013",
@@ -71323,9 +69918,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "EX_A_Weapon014",
@@ -71397,9 +69990,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "EX_A_Weapon015",
@@ -71438,8 +70029,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "flightSpeedHorizontal": 0.9,
       "chargeSpeed": 0.65,
       "emergencyChargeSpeed": 0.9
@@ -71481,8 +70070,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "weaponReload": 1.3
     },
     {
@@ -72007,9 +70594,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "EX_A_Weapon024",
@@ -72040,8 +70625,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "dashCount": 4,
       "boostCount": 4,
       "boostSpeed": 1.4,
@@ -72076,8 +70659,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "shieldDeflectConsumption": 0.4,
       "shieldDamageReduction": 0.55,
       "shieldKnockback": 0.05
@@ -72111,8 +70692,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "equipWeightMoveReduction": 1,
       "walkSpeed": 3
     },
@@ -72159,8 +70738,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20
@@ -72208,8 +70785,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 1,
       "shots": 200
@@ -72364,8 +70939,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 45000,
       "weapons": []
@@ -72402,8 +70975,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 120000,
       "weapons": [
@@ -72528,8 +71099,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "hp": 20000,
       "weapons": [
         {
@@ -72613,8 +71182,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 78000,
       "weapons": [
@@ -72724,9 +71291,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "EX_B_Weapon002",
@@ -72881,9 +71446,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "EX_B_Weapon004",
@@ -73088,9 +71651,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "EX_B_Weapon007",
@@ -73169,9 +71730,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "EX_B_Weapon008",
@@ -73202,8 +71761,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "allyRecovery": 3.5,
       "itemRange": 9
     },
@@ -73236,8 +71793,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "walkSpeed": 1.6,
       "sprintSpeed": 1.75,
       "sprintAcceleration": 4,
@@ -73320,9 +71875,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "EX_B_Weapon011",
@@ -73388,9 +71941,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "EX_B_Weapon012",
@@ -73469,8 +72020,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": 0
+      "ammoDamageCurve": 0.699999988079071
     },
     {
       "id": "EX_B_Weapon013",
@@ -73549,9 +72099,7 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 150,
-      "secondary": 0,
-      "zoom": null
+      "reload": 150
     },
     {
       "id": "EX_B_Weapon014",
@@ -73631,9 +72179,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "EX_B_Weapon015",
@@ -73699,9 +72245,7 @@
         "zero": 0.5,
         "exp": 0.8,
         "type": "int"
-      },
-      "secondary": 0,
-      "zoom": null
+      }
     },
     {
       "id": "EX_B_Weapon016",
@@ -73843,8 +72387,6 @@
         "exp": 0.5,
         "type": "int"
       },
-      "secondary": 0,
-      "zoom": null,
       "shots": 900,
       "duration": 2700
     },
@@ -73885,8 +72427,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "boostForward": 1,
       "boostSide": 1.3,
       "boostRear": 1.2,
@@ -73929,8 +72469,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "flightSpeedHorizontal": 1.15,
       "flightSpeedVertical": 1.15,
       "flightConsumption": 1.15,
@@ -74432,8 +72970,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "dashCount": 10,
       "dashInterval": 0.3
     },
@@ -74466,8 +73002,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "boostCount": 8,
       "boostSpeed": 2
     },
@@ -74500,8 +73034,6 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "secondary": 0,
-      "zoom": 0,
       "equipWeightTurnReduction": 0.7,
       "equipWeightMoveReduction": 0.7,
       "walkSpeed": 0.25,
@@ -74620,8 +73152,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 18,
       "shots": 50
@@ -74669,8 +73199,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "units": 2,
       "shots": 20
@@ -74890,8 +73418,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 15600,
       "weapons": [
@@ -74945,8 +73471,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 32000,
       "weapons": [
@@ -74999,8 +73523,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 15000,
       "weapons": [
@@ -75085,8 +73607,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 1250000,
       "weapons": []
@@ -75123,8 +73643,6 @@
         "type": "int"
       },
       "credits": true,
-      "secondary": 0,
-      "zoom": null,
       "underground": "blocked",
       "hp": 90000,
       "weapons": [

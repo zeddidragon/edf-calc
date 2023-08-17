@@ -680,7 +680,16 @@ function burstTime(wpn) {
 }
 
 function magDamage(wpn) {
-  return shotDamage(wpn) * wpn.ammo
+  const perShot = shotDamage(wpn)
+  if(wpn.ammoDamageCurve) {
+    const curve = wpn.ammoDamageCurve
+    let sum = 0
+    for(let i = 0; i < wpn.ammo; i++) {
+      sum += perShot * Math.pow((wpn.ammo - i) / wpn.ammo, curve)
+    }
+    return sum
+  }
+  return perShot * wpn.ammo
 }
 
 function falloff(wpn, dmg) {
@@ -2243,6 +2252,9 @@ const headers = [{
         return '-'
       }
       return +(wpn.damage * wpn.life).toFixed(1)
+    }
+    if(wpn.ammoDamageCurve) {
+      return magDamage(wpn).toFixed(1)
     }
     const dump = Math.abs(wpn.damage
       * (wpn.count || 1)

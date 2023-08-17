@@ -23399,7 +23399,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "ammoDamageCurve": 2
+      "ammoCountCurve": 2
     },
     {
       "id": "pWeapon046",
@@ -23602,7 +23602,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "ammoDamageCurve": 2
+      "ammoCountCurve": 2
     },
     {
       "id": "pWeapon049",
@@ -23670,7 +23670,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1
     },
     {
       "id": "pWeapon050",
@@ -23812,8 +23813,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "ammoDamageCurve": 0.699999988079071
+      }
     },
     {
       "id": "pWeapon052",
@@ -24012,8 +24012,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "ammoDamageCurve": 0.699999988079071
+      }
     },
     {
       "id": "pWeapon055",
@@ -24357,7 +24356,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoCountCurve": 1
     },
     {
       "id": "pWeapon060",
@@ -24490,7 +24490,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoDamageCurve": 1
     },
     {
       "id": "pWeapon062",
@@ -24624,8 +24625,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "ammoDamageCurve": 0.699999988079071
+      }
     },
     {
       "id": "pWeapon064",
@@ -24901,7 +24901,7 @@
         "exp": 0.5,
         "type": "int"
       },
-      "ammoDamageCurve": 2
+      "ammoCountCurve": 2
     },
     {
       "id": "pWeapon068",
@@ -25177,8 +25177,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "ammoDamageCurve": 0.699999988079071
+      }
     },
     {
       "id": "pWeapon072",
@@ -25392,7 +25391,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "ammoCountCurve": 1
     },
     {
       "id": "pWeapon075",
@@ -72019,8 +72019,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "ammoDamageCurve": 0.699999988079071
+      }
     },
     {
       "id": "EX_B_Weapon013",

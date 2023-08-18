@@ -55108,7 +55108,7 @@
         "type": "float"
       },
       "accuracy": 0,
-      "radius": 70,
+      "radius": 20,
       "gravity": 1,
       "life": 500,
       "burstRate": 0,
@@ -55163,7 +55163,7 @@
         "type": "float"
       },
       "accuracy": 0,
-      "radius": 70,
+      "radius": 10,
       "gravity": 1,
       "life": 500,
       "burstRate": 0,
@@ -55218,7 +55218,7 @@
         "type": "float"
       },
       "accuracy": 0,
-      "radius": 70,
+      "radius": 20,
       "gravity": 1,
       "life": 500,
       "burstRate": 0,
@@ -55273,7 +55273,7 @@
         "type": "float"
       },
       "accuracy": 0,
-      "radius": 70,
+      "radius": 10,
       "gravity": 1,
       "life": 500,
       "burstRate": 0,
@@ -55328,7 +55328,7 @@
         "type": "float"
       },
       "accuracy": 0,
-      "radius": 70,
+      "radius": 40,
       "gravity": 1,
       "life": 500,
       "burstRate": 0,
@@ -55383,7 +55383,7 @@
         "type": "float"
       },
       "accuracy": 0,
-      "radius": 70,
+      "radius": 10,
       "gravity": 1,
       "life": 600,
       "burstRate": 0,
@@ -55438,7 +55438,7 @@
         "type": "float"
       },
       "accuracy": 0,
-      "radius": 70,
+      "radius": 40,
       "gravity": 1,
       "life": 800,
       "burstRate": 0,
@@ -55493,7 +55493,7 @@
         "type": "float"
       },
       "accuracy": 0,
-      "radius": 70,
+      "radius": 25,
       "gravity": 1,
       "life": 550,
       "burstRate": 0,
@@ -55548,7 +55548,7 @@
         "type": "float"
       },
       "accuracy": 0,
-      "radius": 70,
+      "radius": 10,
       "gravity": 1,
       "life": 600,
       "burstRate": 0,
@@ -55603,7 +55603,7 @@
         "type": "float"
       },
       "accuracy": 0,
-      "radius": 70,
+      "radius": 30,
       "gravity": 1,
       "life": 600,
       "burstRate": 0,
@@ -55658,7 +55658,7 @@
         "type": "float"
       },
       "accuracy": 0,
-      "radius": 70,
+      "radius": 50,
       "gravity": 1,
       "life": 800,
       "burstRate": 0,
@@ -55768,7 +55768,7 @@
         "type": "float"
       },
       "accuracy": 0,
-      "radius": 70,
+      "radius": 12,
       "gravity": 1,
       "life": 600,
       "burstRate": 0,
@@ -55823,7 +55823,7 @@
         "type": "float"
       },
       "accuracy": 0,
-      "radius": 70,
+      "radius": 30,
       "gravity": 1,
       "life": 600,
       "burstRate": 0,
@@ -55878,7 +55878,7 @@
         "type": "float"
       },
       "accuracy": 0,
-      "radius": 70,
+      "radius": 100,
       "gravity": 1,
       "life": 800,
       "burstRate": 0,
@@ -70852,7 +70852,7 @@
         "type": "float"
       },
       "accuracy": 0,
-      "radius": 70,
+      "radius": 12,
       "gravity": 1,
       "life": 600,
       "burstRate": 0,

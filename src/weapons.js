@@ -927,6 +927,11 @@ const headers = [{
     ].includes(cat)) {
       return false
     }
+    if(ch === 'bomber' && [
+      'missile',
+    ].includes(cat)) {
+      return false
+    }
     if(active.game === '41' && ch === 'winger' && [
       'plasma',
       'sniper',
@@ -1107,6 +1112,28 @@ const headers = [{
   },
 }, {
   iff: (ch, cat, wpn) => {
+    if(ch === 'bomber' && [
+      'raid',
+      'planes',
+      'artillery',
+      'gunship',
+      'missile',
+      'satellite',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Shots',
+  tooltip: 'Shots',
+  cb: wpn => {
+    if(wpn.units > 1) {
+      return `${wpn.units} x ${wpn.shots || 1} `
+    }
+    return wpn.shots || 1
+  },
+}, {
+  iff: (ch, cat, wpn) => {
     if(cat === 'special' && [
       'winger',
       'bomber',
@@ -1168,6 +1195,7 @@ const headers = [{
       'artillery',
       'planes',
       'raid',
+      'satellite',
       'support',
       'hammer',
       'shield',
@@ -1443,6 +1471,11 @@ const headers = [{
   },
 }, {
   iff: (ch, cat, wpn) => {
+    if(ch === 'bomber' && [
+      'missile',
+    ].includes(cat)) {
+      return true
+    }
     if([
       'artillery',
       'planes',
@@ -1481,7 +1514,7 @@ const headers = [{
   },
 }, {
   iff: (ch, cat, wpn) => {
-    if([
+    if(ch !== 'bomber' && [
       'missile',
     ].includes(cat)) {
       return true
@@ -2020,7 +2053,9 @@ const headers = [{
       'particle',
       'plasma',
       'guide',
+      'gunship',
       'artillery',
+      'satellite',
       'planes',
       'raid',
       'limpet',
@@ -2130,6 +2165,7 @@ const headers = [{
     if([
       'bike',
       'guide',
+      'satellite',
       'artillery',
       'planes',
       'raid',

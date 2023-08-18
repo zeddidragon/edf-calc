@@ -1283,6 +1283,28 @@ const headers = [{
   },
 }, {
   iff: (ch, cat, wpn) => {
+    if(ch === 'bomber' && [
+      'strike',
+      'artillery',
+      'planes',
+      'missile',
+      'satellite',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  headerClass: 'CR',
+  label: 'CR',
+  tooltip: 'Credits',
+  cb: wpn => {
+    if(wpn.credits) {
+      return '(CR)'
+    }
+    return ''
+  },
+}, {
+  iff: (ch, cat, wpn) => {
     if([
       'equipment',
       'booster',
@@ -1295,6 +1317,7 @@ const headers = [{
     }
     return true
   },
+  headerClass: 'Rel',
   label: 'Rel',
   tooltip: 'Reload Time',
   starProp: 'reload',

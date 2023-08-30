@@ -2132,7 +2132,7 @@ const headers = [{
       })
     }
     if(wpn.burst > 100) {
-      return wpn.damage * FPS / wpn.burstRate
+      return (wpn.damage * FPS / (wpn.burstRate || 1)).toFixed(1)
     }
     if(wpn.category === 'support') {
       if(!['life', 'plasma'].includes(wpn.supportType)) {

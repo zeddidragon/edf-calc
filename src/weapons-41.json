@@ -4450,7 +4450,7 @@
         "jp": "レイピア",
         "en": "Rapier"
       },
-      "level": 0,
+      "level": -25,
       "character": "winger",
       "category": "short",
       "odds": "starter",
@@ -11967,7 +11967,7 @@
         "jp": "ツインジャベリン・カタパルト",
         "en": "Twin Javelin Catapult"
       },
-      "level": 53,
+      "level": 52,
       "character": "fencer",
       "category": "heavy",
       "odds": 100,
@@ -13854,7 +13854,7 @@
         "jp": "オフェンシブテリトリー",
         "en": "Offensive Territory"
       },
-      "level": 59,
+      "level": 58,
       "character": "bomber",
       "category": "support",
       "odds": 100,
@@ -14775,7 +14775,7 @@
         "jp": "波状攻撃〔爆撃機カロン〕",
         "en": "Wave Attack (Bomber Charon)"
       },
-      "level": 53,
+      "level": 52,
       "character": "bomber",
       "category": "raid",
       "odds": 100,
@@ -20660,7 +20660,7 @@
         "jp": "デプスクロウラー Ｓレンジカスタム",
         "en": "Depth Crawler S Range Custom"
       },
-      "level": 53,
+      "level": 52,
       "character": "bomber",
       "category": "mech",
       "odds": 100,

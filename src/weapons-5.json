@@ -6857,7 +6857,7 @@
         "en": "Penetrator",
         "ja": "ペネトレイター"
       },
-      "level": 53,
+      "level": 52,
       "character": "ranger",
       "category": "sniper",
       "raw": 2,
@@ -32690,7 +32690,7 @@
         "en": "Plasma Big Cannon M3",
         "ja": "プラズマ・ビッグキャノンＭ３"
       },
-      "level": 53,
+      "level": 52,
       "character": "winger",
       "category": "plasma",
       "raw": 105,
@@ -54402,7 +54402,7 @@
         "en": "Combat Bomber Kamuy C1",
         "ja": "戦闘爆撃機カムイＣ１"
       },
-      "level": 53,
+      "level": 52,
       "character": "bomber",
       "category": "planes",
       "raw": 312,
@@ -59864,7 +59864,7 @@
         "en": "FZ-GUN MD",
         "ja": "ＦＺ－ＧＵＮ ＭＤ"
       },
-      "level": 53,
+      "level": 52,
       "character": "bomber",
       "category": "deploy",
       "raw": 304,
@@ -61359,7 +61359,7 @@
         "en": "Offensive Territory",
         "ja": "オフェンシブテリトリー"
       },
-      "level": 59,
+      "level": 58,
       "character": "bomber",
       "category": "support",
       "raw": 302,
@@ -65551,7 +65551,7 @@
         "en": "Depth Crawler S Range Custom",
         "ja": "デプスクロウラー Ｓレンジカスタム"
       },
-      "level": 53,
+      "level": 52,
       "character": "bomber",
       "category": "super",
       "raw": 320,
@@ -69181,7 +69181,7 @@
         "en": "KFF 71S",
         "ja": "ＫＦＦ７１Ｓ"
       },
-      "level": 105,
+      "level": 104,
       "character": "ranger",
       "category": "sniper",
       "raw": 2,
@@ -69633,7 +69633,7 @@
         "en": "Stardust Fall",
         "ja": "スターダスト・フォール"
       },
-      "level": 105,
+      "level": 104,
       "character": "winger",
       "category": "particle",
       "raw": 103,
@@ -69858,7 +69858,7 @@
         "en": "Plasma Cannon Type G",
         "ja": "プラズマ・キャノンＧ型"
       },
-      "level": 105,
+      "level": 104,
       "character": "winger",
       "category": "plasma",
       "raw": 105,
@@ -70097,7 +70097,7 @@
         "en": "Jackhammer MBF",
         "ja": "ジャックハンマーＭＢＦ"
       },
-      "level": 105,
+      "level": 104,
       "character": "fencer",
       "category": "spear",
       "raw": 201,
@@ -70462,7 +70462,7 @@
         "en": "M3 Blood Storm",
         "ja": "Ｍ３ブラッドストーム"
       },
-      "level": 105,
+      "level": 104,
       "character": "fencer",
       "category": "missile",
       "raw": 205,
@@ -70782,7 +70782,7 @@
         "en": "ZEX Rapid Launcher",
         "ja": "ＺＥＸラピッドランチャー"
       },
-      "level": 105,
+      "level": 104,
       "character": "bomber",
       "category": "deploy",
       "raw": 304,
@@ -71086,7 +71086,7 @@
         "en": "Nix Saber",
         "ja": "ニクス セイバー"
       },
-      "level": 105,
+      "level": 104,
       "character": "bomber",
       "category": "mech",
       "raw": 309,

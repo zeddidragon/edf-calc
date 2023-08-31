@@ -1503,6 +1503,35 @@ const headers = [{
   },
 }, {
   iff: (ch, cat, wpn) => {
+    if(active.game === '41') {
+      return false
+    }
+    if(ch === 'ranger' && [
+      'assault',
+      'shotgun',
+      'sniper',
+    ].includes(cat)) {
+      return true
+    }
+    if(ch === 'bomber' && [
+      'special',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'PtRng',
+  tooltip: 'Piercing Range',
+  starProp: 'speed',
+  cb: wpn => {
+    if(!wpn.piercing) {
+      return '-'
+    }
+    const life = (wpn.piercingLife ? wpn.piercingLife + 1 : wpn.life) || 1
+    return (wpn.speed * life).toFixed(0)
+  },
+}, {
+  iff: (ch, cat, wpn) => {
     if(ch === 'bomber' && [
       'missile',
     ].includes(cat)) {

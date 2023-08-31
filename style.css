@@ -146,10 +146,14 @@ td.isStar {
   text-align: left;
 }
 
-.Dmg, .Rel {
+.Dmg {
   padding-right: 0;
   border-left: none;
   border-right: none;
+}
+
+.Rel.hasStar, .Rel[colspan="2"] {
+  border-left: none;
 }
 
 .RoF {

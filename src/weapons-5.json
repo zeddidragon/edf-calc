@@ -3416,7 +3416,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 4
     },
     {
       "id": "aWeapon046",
@@ -3492,7 +3493,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 4
     },
     {
       "id": "aWeapon047",
@@ -3568,7 +3570,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 4
     },
     {
       "id": "aWeapon048",
@@ -3644,7 +3647,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 4
     },
     {
       "id": "aWeapon049",
@@ -3720,7 +3724,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 4
     },
     {
       "id": "aWeapon050",
@@ -3796,7 +3801,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 12
     },
     {
       "id": "aWeapon051",
@@ -3872,7 +3878,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 4
     },
     {
       "id": "aWeapon052",
@@ -3948,7 +3955,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 4
     },
     {
       "id": "aWeapon053",
@@ -4024,7 +4032,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 4
     },
     {
       "id": "aWeapon054",
@@ -4100,7 +4109,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 2
     },
     {
       "id": "aWeapon055",
@@ -4176,7 +4186,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 12
     },
     {
       "id": "aWeapon056",
@@ -4252,7 +4263,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 2
     },
     {
       "id": "aWeapon057",
@@ -4396,7 +4408,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 2
     },
     {
       "id": "aWeapon059",
@@ -4472,7 +4485,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 4
     },
     {
       "id": "aWeapon060",
@@ -4548,7 +4562,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 2
     },
     {
       "id": "aWeapon061",
@@ -4624,7 +4639,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 2
     },
     {
       "id": "aWeapon062",
@@ -4700,7 +4716,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 4
     },
     {
       "id": "aWeapon063",
@@ -4844,7 +4861,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 2
     },
     {
       "id": "aWeapon065",
@@ -4920,7 +4938,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 4
     },
     {
       "id": "aWeapon066",
@@ -4996,7 +5015,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 2
     },
     {
       "id": "aWeapon067",
@@ -5072,7 +5092,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 12
     },
     {
       "id": "aWeapon068",
@@ -5216,7 +5237,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 2
     },
     {
       "id": "aWeapon070",
@@ -5292,7 +5314,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 12
     },
     {
       "id": "aWeapon071",
@@ -5368,7 +5391,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 4
     },
     {
       "id": "aWeapon072",
@@ -5444,7 +5468,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 2
     },
     {
       "id": "aWeapon073",
@@ -62736,7 +62761,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 4
     },
     {
       "id": "eWeapon228",
@@ -62805,7 +62831,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 4
     },
     {
       "id": "eWeapon229",
@@ -62867,7 +62894,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 4
     },
     {
       "id": "eWeapon230",
@@ -62929,7 +62957,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 4
     },
     {
       "id": "eWeapon231",
@@ -62998,7 +63027,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 4
     },
     {
       "id": "npDecoyLauncher_reika",
@@ -69028,7 +69058,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "piercingLife": 2
     },
     {
       "id": "EX_A_Weapon002",
@@ -69247,7 +69278,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "piercingLife": 3
     },
     {
       "id": "EX_A_Weapon005",
@@ -71299,7 +71331,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "piercingLife": 2
     },
     {
       "id": "EX_B_Weapon003",
@@ -71376,7 +71409,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "piercingLife": 8
     },
     {
       "id": "EX_B_Weapon004",
@@ -71450,7 +71484,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 6
+      "zoom": 6,
+      "piercingLife": 8
     },
     {
       "id": "EX_B_Weapon005",

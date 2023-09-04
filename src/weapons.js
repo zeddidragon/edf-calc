@@ -352,14 +352,12 @@ function populateWeaponDrops(mode, ch, cat) {
     cell.setAttribute('colspan', 2)
     theadrow.appendChild(cell)
 
-    const { drops: [min, max], dropSpread: spread } = difficulty
-    const spreadUp = gameHasStars ? spread * 0.5 : 0
+    const { dropsLow, dropsHigh } = difficulty
     const firstDrops = Array(150).fill(-1)
     const lastDrops = Array(150).fill(-1)
     for(let i = 0; i < missions; i++) {
-      const pivot = ((max - min) / (missions - 1) * i + min)
-      const upTo = Math.floor(pivot + spreadUp)
-      const downTo = Math.max(0, Math.floor(pivot - spread)) - 1
+      const downTo = dropsLow[i]
+      const upTo = dropsHigh[i]
       for(let v = downTo; v < upTo; v++) {
         lastDrops[v] = i
       }

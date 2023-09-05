@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 cp src/weapons.js ../zeddidragon/src/
+cp src/weapons-3.json ../zeddidragon/src/
+cp src/weapons-3p.json ../zeddidragon/src/
 cp src/weapons-41.json ../zeddidragon/src/
 cp src/weapons-5.json ../zeddidragon/src/
 cp index.html ../zeddidragon/

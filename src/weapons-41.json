@@ -1,4 +1,20 @@
 {
+  "langs": [
+    "en",
+    "ja"
+  ],
+  "classes": [
+    "ranger",
+    "winger",
+    "fencer",
+    "bomber"
+  ],
+  "charLabels": [
+    "Ranger",
+    "Wing Diver",
+    "Fencer",
+    "Air Raider"
+  ],
   "weapons": [
     {
       "id": "AssultRifle01",
@@ -16761,15 +16777,16 @@
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
       "damage": 20,
-      "speed": 0.1,
+      "speed": 10,
       "gravity": 1,
-      "life": 1800,
+      "life": 10,
       "interval": 40,
       "reload": 1200,
       "secondary": 2,
       "accuracy": 0,
       "shots": 200,
-      "shotInterval": 8
+      "shotInterval": 8,
+      "searchRange": 150
     },
     {
       "id": "Weapon652",
@@ -16785,15 +16802,16 @@
       "ammo": 2,
       "weapon": "Weapon_BasicShoot",
       "damage": 4.5,
-      "speed": 0.1,
+      "speed": 20,
       "gravity": 1,
-      "life": 1800,
+      "life": 10,
       "interval": 40,
       "reload": 1200,
       "secondary": 2,
       "accuracy": 0,
       "shots": 400,
-      "shotInterval": 4
+      "shotInterval": 4,
+      "searchRange": 300
     },
     {
       "id": "Weapon653",
@@ -16809,15 +16827,16 @@
       "ammo": 4,
       "weapon": "Weapon_BasicShoot",
       "damage": 50,
-      "speed": 0.1,
+      "speed": 10,
       "gravity": 1,
-      "life": 1800,
+      "life": 80,
       "interval": 40,
       "reload": 1200,
       "secondary": 2,
       "accuracy": 0,
       "shots": 20,
-      "shotInterval": 120
+      "shotInterval": 120,
+      "searchRange": 1200
     },
     {
       "id": "Weapon654",
@@ -16836,13 +16855,14 @@
       "speed": 0.1,
       "radius": 5,
       "gravity": 1,
-      "life": 1800,
+      "life": 80,
       "interval": 40,
       "reload": 1200,
       "secondary": 2,
       "accuracy": 0,
       "shots": 20,
-      "shotInterval": 120
+      "shotInterval": 120,
+      "searchRange": 498
     },
     {
       "id": "Weapon655",
@@ -16858,15 +16878,16 @@
       "ammo": 2,
       "weapon": "Weapon_BasicShoot",
       "damage": 40,
-      "speed": 0.1,
+      "speed": 20,
       "gravity": 1,
-      "life": 1800,
+      "life": 10,
       "interval": 40,
       "reload": 1200,
       "secondary": 2,
       "accuracy": 0,
       "shots": 400,
-      "shotInterval": 4
+      "shotInterval": 4,
+      "searchRange": 300
     },
     {
       "id": "Weapon656",
@@ -16882,15 +16903,16 @@
       "ammo": 10,
       "weapon": "Weapon_BasicShoot",
       "damage": 80,
-      "speed": 0.1,
+      "speed": 10,
       "gravity": 1,
-      "life": 1800,
+      "life": 10,
       "interval": 40,
       "reload": 1200,
       "secondary": 2,
       "accuracy": 0,
       "shots": 100,
-      "shotInterval": 16
+      "shotInterval": 16,
+      "searchRange": 150
     },
     {
       "id": "Weapon657",
@@ -16906,16 +16928,17 @@
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
       "damage": 900,
-      "speed": 0.1,
+      "speed": 1,
       "radius": 15,
       "gravity": 1,
-      "life": 1800,
+      "life": 80,
       "interval": 40,
       "reload": 1200,
       "secondary": 2,
       "accuracy": 0,
       "shots": 40,
-      "shotInterval": 60
+      "shotInterval": 60,
+      "searchRange": 600
     },
     {
       "id": "Weapon658",
@@ -16931,15 +16954,16 @@
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
       "damage": 70,
-      "speed": 0.1,
+      "speed": 20,
       "gravity": 1,
-      "life": 1800,
+      "life": 10,
       "interval": 40,
       "reload": 1200,
       "secondary": 2,
       "accuracy": 0,
       "shots": 500,
-      "shotInterval": 4
+      "shotInterval": 4,
+      "searchRange": 300
     },
     {
       "id": "eDecoyShooter01",

@@ -1,4 +1,20 @@
 {
+  "langs": [
+    "en",
+    "ja"
+  ],
+  "classes": [
+    "ranger",
+    "winger",
+    "fencer",
+    "bomber"
+  ],
+  "charLabels": [
+    "Ranger",
+    "Wing Diver",
+    "Fencer",
+    "Air Raider"
+  ],
   "weapons": [
     {
       "id": "AssultRifle01",
@@ -59488,11 +59504,11 @@
       "ammo": 2,
       "weapon": "Weapon_BasicShoot",
       "damage": 1,
-      "speed": 0.4,
+      "speed": 1,
       "accuracy": 0,
       "radius": 0,
       "gravity": 1,
-      "life": 1800,
+      "life": 30,
       "burstRate": 0,
       "interval": 40,
       "lockRange": 0,
@@ -59503,7 +59519,8 @@
       "secondary": 2,
       "zoom": null,
       "shots": 1600,
-      "shotInterval": 2
+      "shotInterval": 2,
+      "searchRange": 60
     },
     {
       "id": "eZEGUN0",
@@ -59534,11 +59551,11 @@
         "exp": 0.5,
         "type": "float"
       },
-      "speed": 0.4,
+      "speed": 10,
       "accuracy": 0,
       "radius": 0,
       "gravity": 1,
-      "life": 1800,
+      "life": 10,
       "burstRate": 0,
       "interval": 40,
       "lockRange": 0,
@@ -59556,7 +59573,8 @@
       "secondary": 2,
       "zoom": null,
       "shots": 100,
-      "shotInterval": 16
+      "shotInterval": 16,
+      "searchRange": 100
     },
     {
       "id": "eWeapon160",
@@ -59587,11 +59605,11 @@
         "exp": 0.5,
         "type": "float"
       },
-      "speed": 0.4,
+      "speed": 10,
       "accuracy": 0,
       "radius": 0,
       "gravity": 1,
-      "life": 1800,
+      "life": 10,
       "burstRate": 0,
       "interval": 40,
       "lockRange": 0,
@@ -59609,7 +59627,8 @@
       "secondary": 2,
       "zoom": null,
       "shots": 200,
-      "shotInterval": 8
+      "shotInterval": 8,
+      "searchRange": 150
     },
     {
       "id": "eWeapon161",
@@ -59640,11 +59659,11 @@
         "exp": 0.5,
         "type": "float"
       },
-      "speed": 0.4,
+      "speed": 20,
       "accuracy": 0,
       "radius": 0,
       "gravity": 1,
-      "life": 1800,
+      "life": 10,
       "burstRate": 0,
       "interval": 40,
       "lockRange": 0,
@@ -59662,7 +59681,8 @@
       "secondary": 2,
       "zoom": null,
       "shots": 400,
-      "shotInterval": 4
+      "shotInterval": 4,
+      "searchRange": 300
     },
     {
       "id": "eWeapon162",
@@ -59693,11 +59713,11 @@
         "exp": 0.5,
         "type": "float"
       },
-      "speed": 0.4,
+      "speed": 10,
       "accuracy": 0,
       "radius": 0,
       "gravity": 1,
-      "life": 1800,
+      "life": 80,
       "burstRate": 0,
       "interval": 40,
       "lockRange": 0,
@@ -59715,7 +59735,8 @@
       "secondary": 2,
       "zoom": null,
       "shots": 20,
-      "shotInterval": 120
+      "shotInterval": 120,
+      "searchRange": 1200
     },
     {
       "id": "eWeapon163",
@@ -59746,7 +59767,7 @@
         "exp": 0.5,
         "type": "float"
       },
-      "speed": 0.4,
+      "speed": 0.1,
       "accuracy": 0,
       "radius": {
         "base": 5,
@@ -59757,7 +59778,7 @@
         "type": "float"
       },
       "gravity": 1,
-      "life": 1800,
+      "life": 80,
       "burstRate": 0,
       "interval": 40,
       "lockRange": 0,
@@ -59775,7 +59796,8 @@
       "secondary": 2,
       "zoom": null,
       "shots": 20,
-      "shotInterval": 120
+      "shotInterval": 120,
+      "searchRange": 498
     },
     {
       "id": "eWeapon164",
@@ -59806,11 +59828,11 @@
         "exp": 0.5,
         "type": "float"
       },
-      "speed": 0.4,
+      "speed": 0.5,
       "accuracy": 0,
       "radius": 0,
       "gravity": 1,
-      "life": 1800,
+      "life": 30,
       "burstRate": 0,
       "interval": 40,
       "lockRange": 0,
@@ -59828,7 +59850,8 @@
       "secondary": 2,
       "zoom": null,
       "shots": 1600,
-      "shotInterval": 2
+      "shotInterval": 2,
+      "searchRange": 60
     },
     {
       "id": "eWeapon165",
@@ -59859,11 +59882,11 @@
         "exp": 0.5,
         "type": "float"
       },
-      "speed": 0.4,
+      "speed": 20,
       "accuracy": 0,
       "radius": 0,
       "gravity": 1,
-      "life": 1800,
+      "life": 10,
       "burstRate": 0,
       "interval": 40,
       "lockRange": 0,
@@ -59881,7 +59904,8 @@
       "secondary": 2,
       "zoom": null,
       "shots": 400,
-      "shotInterval": 4
+      "shotInterval": 4,
+      "searchRange": 300
     },
     {
       "id": "eWeapon166",
@@ -59912,11 +59936,11 @@
         "exp": 0.5,
         "type": "float"
       },
-      "speed": 0.4,
+      "speed": 2,
       "accuracy": 0,
       "radius": 0,
       "gravity": 1,
-      "life": 1800,
+      "life": 30,
       "burstRate": 0,
       "interval": 40,
       "lockRange": 0,
@@ -59934,7 +59958,8 @@
       "secondary": 2,
       "zoom": null,
       "shots": 1600,
-      "shotInterval": 2
+      "shotInterval": 2,
+      "searchRange": 120
     },
     {
       "id": "eWeapon167",
@@ -59965,11 +59990,11 @@
         "exp": 0.5,
         "type": "float"
       },
-      "speed": 0.4,
+      "speed": 10,
       "accuracy": 0,
       "radius": 0,
       "gravity": 1,
-      "life": 1800,
+      "life": 10,
       "burstRate": 0,
       "interval": 40,
       "lockRange": 0,
@@ -59987,7 +60012,8 @@
       "secondary": 2,
       "zoom": null,
       "shots": 100,
-      "shotInterval": 16
+      "shotInterval": 16,
+      "searchRange": 150
     },
     {
       "id": "eWeapon168",
@@ -60018,7 +60044,7 @@
         "exp": 0.5,
         "type": "float"
       },
-      "speed": 0.4,
+      "speed": 1,
       "accuracy": 0,
       "radius": {
         "base": 15,
@@ -60029,7 +60055,7 @@
         "type": "float"
       },
       "gravity": 1,
-      "life": 1800,
+      "life": 80,
       "burstRate": 0,
       "interval": 40,
       "lockRange": 0,
@@ -60047,7 +60073,8 @@
       "secondary": 2,
       "zoom": null,
       "shots": 40,
-      "shotInterval": 60
+      "shotInterval": 60,
+      "searchRange": 600
     },
     {
       "id": "eWeapon169",
@@ -60078,11 +60105,11 @@
         "exp": 0.5,
         "type": "float"
       },
-      "speed": 0.4,
+      "speed": 20,
       "accuracy": 0,
       "radius": 0,
       "gravity": 1,
-      "life": 1800,
+      "life": 10,
       "burstRate": 0,
       "interval": 40,
       "lockRange": 0,
@@ -60100,7 +60127,8 @@
       "secondary": 2,
       "zoom": null,
       "shots": 500,
-      "shotInterval": 4
+      "shotInterval": 4,
+      "searchRange": 300
     },
     {
       "id": "eWeapon170",
@@ -60131,11 +60159,11 @@
         "exp": 0.5,
         "type": "float"
       },
-      "speed": 0.4,
+      "speed": 1,
       "accuracy": 0,
       "radius": 0,
       "gravity": 1,
-      "life": 1800,
+      "life": 30,
       "burstRate": 0,
       "interval": 40,
       "lockRange": 0,
@@ -60153,7 +60181,8 @@
       "secondary": 2,
       "zoom": null,
       "shots": 1600,
-      "shotInterval": 2
+      "shotInterval": 2,
+      "searchRange": 90
     },
     {
       "id": "eLockonMarkerL01",
@@ -70838,7 +70867,7 @@
         "exp": 0.5,
         "type": "float"
       },
-      "speed": 0.4,
+      "speed": 0.5,
       "accuracy": 0,
       "radius": {
         "base": 12,
@@ -70849,7 +70878,7 @@
         "type": "float"
       },
       "gravity": 1,
-      "life": 1800,
+      "life": 80,
       "burstRate": 0,
       "interval": 40,
       "lockRange": 0,
@@ -70867,7 +70896,8 @@
       "secondary": 2,
       "zoom": null,
       "shots": 120,
-      "shotInterval": 20
+      "shotInterval": 20,
+      "searchRange": 600
     },
     {
       "id": "EX_A_Weapon031",
@@ -73272,12 +73302,12 @@
         "exp": 0.5,
         "type": "float"
       },
-      "speed": 0.4,
+      "speed": 30,
       "accuracy": 0,
       "radius": 0,
       "gravity": 1,
       "piercing": true,
-      "life": 1800,
+      "life": 10,
       "burstRate": 0,
       "interval": 40,
       "lockRange": 0,
@@ -73295,7 +73325,8 @@
       "secondary": 2,
       "zoom": null,
       "shots": 1300,
-      "shotInterval": 2
+      "shotInterval": 2,
+      "searchRange": 400
     },
     {
       "id": "EX_B_Weapon034",

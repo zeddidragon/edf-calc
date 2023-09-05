@@ -2,6 +2,9 @@ const $ = document.createElement.bind(document)
 let active = {}
 let table
 let modes
+let characters
+let charLabels
+let langs
 
 const stateKeys = [
   'game',
@@ -35,9 +38,14 @@ async function loadWeapons(game) {
   const data = await fetch(`src/weapons-${game}.json`).then(res => res.json())
   table = data.weapons
   modes = data.modes
+  characters = data.classes
+  charLabels = data.charLabels
+  langs = data.langs
+  populateLangs()
+  populateCharacters()
   populateModes()
-  pickLang(active.lang || 'en')
-  pickGame(active.game || '5')
+  pickLang(active.lang)
+  pickGame(active.game)
   pickMode(active.mode || 'stats')
   pickChar(active.char || 'ranger', active.wpn)
   populateWeapons(active.mode, active.char, active.wpn)
@@ -45,14 +53,21 @@ async function loadWeapons(game) {
 }
 
 function writeState() {
-  window.location.hash = stateKeys
-    .filter(k => active[k] != null)
-    .map(k => `${k}=${active[k]}`)
-    .join('&')
+  try {
+    window.location.hash = stateKeys
+      .filter(k => active[k] != null)
+      .map(k => `${k}=${active[k]}`)
+      .join('&')
+  } catch(err) {
+    console.warn(err)
+  }
   populateWeapons(active.mode, active.char, active.wpn)
 }
 
 function pickLang(lang) {
+  if(!langs.includes(lang)) {
+    lang = langs[0]
+  }
   const langChanged = active.lang != lang
   const button = document
     .getElementById('lang-button')
@@ -80,6 +95,9 @@ function pickLang(lang) {
 }
 
 function pickGame(game) {
+  if(!games.includes(game)) {
+    game = '5'
+  }
   const gameChanged = active.game != game
   const button = document
     .getElementById('game-button')
@@ -171,6 +189,9 @@ function pickMode(mode) {
 
   const item = document
     .querySelector(`#mode-dropdown .${mode}`)
+  if(!item) {
+    return pickMode('stats')
+  }
 
   active.modeEl?.classList.remove('selected')
   item.classList.add('selected')
@@ -208,6 +229,9 @@ function styleButton({
 
 function pickChar(ch, cat) {
   const chIdx = characters.indexOf(ch)
+  if(chIdx < 0) {
+    return pickChar(characters[0])
+  }
   const button = document
     .querySelector(`#char-button`)
   button.classList.remove(...button.classList)
@@ -236,6 +260,9 @@ function pickChar(ch, cat) {
     .map(t => t.category))
   const categories = Object.keys(catLabels[ch])
     .filter(cat => existing.has(cat))
+  if(!categories.includes(cat)) {
+    cat = null
+  }
   for(const cat of categories) {
     const label = catLabels[ch][cat] || cat
     const li = $('a')
@@ -283,6 +310,44 @@ function pickCategory(ch, cat) {
   })
 }
 
+function populateLangs() {
+  const langMenu = document.getElementById('lang-dropdown')
+  for(const lang of langs) {
+    const item = $('a')
+    styleButton({
+      button: item,
+      label: lang,
+      cls: lang,
+    })
+    langMenu.appendChild(item)
+    item.addEventListener('click', () => {
+      pickLang(lang)
+      writeState()
+    })
+  }
+}
+
+function populateCharacters() {
+  const charMenu = document.getElementById('char-dropdown')
+  charMenu.innerHTML = ''
+  for(let i = 0; i < characters.length; i++) {
+    const c = characters[i]
+    const cLabel = charLabels[i]
+    const item = $('a')
+    styleButton({
+      button: item,
+      label: cLabel,
+      cls: c,
+      cutPoint: 3,
+    })
+    charMenu.appendChild(item)
+    item.addEventListener('click', () => {
+      pickChar(c)
+      writeState()
+    })
+  }
+}
+
 function populateModes() {
   const modeMenu = document.getElementById('mode-dropdown')
   modeMenu.innerHTML = ''
@@ -296,6 +361,9 @@ function populateModes() {
     writeState()
   })
   for(const mode of modes) {
+    if(!mode.difficulties[0].dropsLow) {
+      continue
+    }
     const mLabel = `Drops ${mode.name}`
     const id = mode.name.toLowerCase()
     const item = $('a')
@@ -320,6 +388,10 @@ function populateWeapons(m, ch, cat) {
   } else {
     populateWeaponStats(ch, cat)
   }
+}
+
+function gameHasLockons(game) {
+  return ['4', '41', '5', '6'].includes(game)
 }
 
 function populateWeaponDrops(mode, ch, cat) {
@@ -802,7 +874,7 @@ const headers = [{
       return '-'
     }
     const el = $('div')
-    const difficulty = modes[1]
+    const difficulty = (modes[1] || modes[0])
       .difficulties
       .slice(1)
       .find(d => {
@@ -1176,6 +1248,11 @@ const headers = [{
   },
 }, {
   iff: (ch, cat, wpn) => {
+    if(ch === 'ranger' && [
+      'special',
+    ].includes(cat)) {
+      return true
+    }
     if([
       'support',
       'grenade',
@@ -1240,6 +1317,9 @@ const headers = [{
     if(wpn.category == 'missile' && wpn.character === 'winger') {
       return +(FPS / wpn.reload).toFixed(2)
     }
+    if(wpn.shotInterval) {
+      return +(FPS / wpn.shotInterval).toFixed(2)
+    }
     if(wpn.ammo < 2 && wpn.reload) {
       return '-'
     }
@@ -1251,9 +1331,6 @@ const headers = [{
       const rof = FPS / ((wpn.burst - 1) * wpn.burstRate + wpn.interval)
       return `${+rof.toFixed(2)} x ${wpn.burst}`
     }
-    if(wpn.shotInterval) {
-      return +(FPS / wpn.shotInterval).toFixed(2)
-    }
     const rof = +(FPS / (wpn.interval || 1)).toFixed(2)
     if(rof === Infinity) {
       return '-'
@@ -1262,6 +1339,9 @@ const headers = [{
   },
 }, {
   iff: (ch, cat, wpn) => {
+    if(!gameHasLockons(active.game)) {
+      return false
+    }
     if(ch === 'bomber' && [
       'missile',
     ].includes(cat)) {
@@ -1501,7 +1581,7 @@ const headers = [{
   },
 }, {
   iff: (ch, cat, wpn) => {
-    if(active.game === '41') {
+    if(!['5', '6'].includes(active.game)) {
       return false
     }
     if(ch === 'ranger' && [
@@ -1526,7 +1606,7 @@ const headers = [{
       return '-'
     }
     const life = (wpn.piercingLife ? wpn.piercingLife + 1 : wpn.life) || 1
-    return (wpn.speed * life).toFixed(0)
+    return (wpn.speed * life).toFixed(1)
   },
 }, {
   iff: (ch, cat, wpn) => {
@@ -1560,6 +1640,9 @@ const headers = [{
   tooltip: 'Range',
   starProp: 'speed',
   cb: wpn => {
+    if(wpn.searchRange) {
+      return wpn.searchRange
+    }
     if(wpn.shieldAngle) {
       return `+${wpn.shieldAngle}°`
     }
@@ -1569,10 +1652,16 @@ const headers = [{
     if(!wpn.life || !wpn.speed) {
       return '-'
     }
-    return (wpn.speed * wpn.life).toFixed(0)
+    if(wpn.speed < 0 || wpn.life < 0) {
+      return '-'
+    }
+    return (wpn.speed * wpn.life).toFixed(1)
   },
 }, {
   iff: (ch, cat, wpn) => {
+    if(!gameHasLockons(active.game)) {
+      return false
+    }
     if(ch !== 'bomber' && [
       'missile',
     ].includes(cat)) {
@@ -1676,7 +1765,7 @@ const headers = [{
     const spd = (wpn.speed * FPS)
     if(spd > 10000) return '-'
     if(!spd) return '-'
-    return spd.toFixed(0)
+    return spd.toFixed(1)
   },
 }, {
   iff: (ch, cat, wpn) => {
@@ -1911,7 +2000,7 @@ const headers = [{
     return false
   },
   label: 'L.Rng',
-  tooltip: 'Lock Range',
+  tooltip: 'Lock-Range',
   cb: wpn => {
     if(!wpn.lockRange) {
       return '-'
@@ -2289,7 +2378,7 @@ const headers = [{
     if(cat === 'missile' && ![
       'winger',
       'bomber',
-    ].includes(ch)) {
+    ].includes(ch) && gameHasLockons(active.game)) {
       return true
     }
     return false
@@ -2402,11 +2491,15 @@ const headers = [{
 }]
 
 const games = [
+  '3',
+  '3p',
   '41',
   '5',
 ]
 
 const gameLabels = [
+  'EDF3',
+  'EDF3P',
   'EDF4.1',
   'EDF5',
 ]
@@ -2425,58 +2518,6 @@ for(let i = 0; i < games.length; i++) {
   gameMenu.appendChild(item)
   item.addEventListener('click', () => {
     pickGame(g)
-    writeState()
-  })
-}
-
-const characters = [
-  'ranger',
-  'winger',
-  'fencer',
-  'bomber',
-]
-
-const charLabels = [
-  'Ranger',
-  'Wing Diver',
-  'Fencer',
-  'Air Raider',
-]
-
-const charMenu = document.getElementById('char-dropdown')
-for(let i = 0; i < characters.length; i++) {
-  const c = characters[i]
-  const cLabel = charLabels[i]
-  const item = $('a')
-  styleButton({
-    button: item,
-    label: cLabel,
-    cls: c,
-    cutPoint: 3,
-  })
-  charMenu.appendChild(item)
-  item.addEventListener('click', () => {
-    pickChar(c)
-    writeState()
-  })
-}
-
-const langs = [
-  'en',
-  'ja',
-]
-
-const langMenu = document.getElementById('lang-dropdown')
-for(const lang of langs) {
-  const item = $('a')
-  styleButton({
-    button: item,
-    label: lang,
-    cls: lang,
-  })
-  langMenu.appendChild(item)
-  item.addEventListener('click', () => {
-    pickLang(lang)
     writeState()
   })
 }

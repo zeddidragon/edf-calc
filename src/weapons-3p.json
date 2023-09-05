@@ -1,0 +1,7994 @@
+{
+  "langs": [
+    "en"
+  ],
+  "classes": [
+    "ranger",
+    "winger"
+  ],
+  "charLabels": [
+    "Storm",
+    "Pale Wing"
+  ],
+  "weapons": [
+    {
+      "id": "AssultRifle01",
+      "names": {
+        "en": "AF14"
+      },
+      "level": 0,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 0,
+      "type": "SolidAmmo01",
+      "ammo": 120,
+      "damage": 10,
+      "speed": 2,
+      "accuracy": 0.05,
+      "life": 75,
+      "interval": 5,
+      "reload": 90
+    },
+    {
+      "id": "Weapon001",
+      "names": {
+        "en": "AF14-RA"
+      },
+      "level": 1,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 200,
+      "damage": 6,
+      "speed": 2,
+      "accuracy": 0.05,
+      "life": 60,
+      "interval": 2,
+      "reload": 150
+    },
+    {
+      "id": "Weapon002",
+      "names": {
+        "en": "AF14-ST"
+      },
+      "level": 2,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 10,
+      "damage": 70,
+      "speed": 2,
+      "accuracy": 0.01,
+      "life": 125,
+      "interval": 20,
+      "reload": 90
+    },
+    {
+      "id": "FirstBonusWeapon02",
+      "names": {
+        "en": "Heat Blaster"
+      },
+      "level": 3,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 0,
+      "type": "LaserAmmo02",
+      "ammo": 900,
+      "damage": 25,
+      "speed": 30,
+      "life": 2,
+      "burst": 900,
+      "burstRate": 1,
+      "interval": 1,
+      "reload": -1,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon003",
+      "names": {
+        "en": "Titania Autocannon"
+      },
+      "level": 3,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 10,
+      "damage": 200,
+      "speed": 4,
+      "accuracy": 0.005,
+      "life": 100,
+      "interval": 40,
+      "reload": 240
+    },
+    {
+      "id": "Weapon004",
+      "names": {
+        "en": "AF14-RAR"
+      },
+      "level": 4,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 150,
+      "damage": 5.4,
+      "speed": 2,
+      "accuracy": 0.05,
+      "life": 60,
+      "interval": 1,
+      "reload": 120
+    },
+    {
+      "id": "Weapon005",
+      "names": {
+        "en": "AF14-B3"
+      },
+      "level": 5,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 129,
+      "type": "SolidAmmo01",
+      "ammo": 30,
+      "damage": 40,
+      "speed": 6,
+      "accuracy": 0.02,
+      "life": 40,
+      "burst": 3,
+      "burstRate": 3,
+      "interval": 30,
+      "reload": 90,
+      "secondary": 1,
+      "zoom": 2
+    },
+    {
+      "id": "AssultRifle_18K",
+      "names": {
+        "en": "AF15"
+      },
+      "level": 7,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 120,
+      "damage": 17,
+      "speed": 2.3,
+      "accuracy": 0.05,
+      "life": 60,
+      "interval": 5,
+      "reload": 90
+    },
+    {
+      "id": "Weapon006",
+      "names": {
+        "en": "AF15-ST"
+      },
+      "level": 10,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 8,
+      "damage": 105,
+      "speed": 8,
+      "accuracy": 0.01,
+      "life": 32,
+      "interval": 20,
+      "reload": 90
+    },
+    {
+      "id": "Weapon007",
+      "names": {
+        "en": "Heat Blaster G1"
+      },
+      "level": 11,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1500,
+      "damage": 35,
+      "speed": 30,
+      "life": 2,
+      "burst": 1500,
+      "burstRate": 1,
+      "interval": 1,
+      "reload": -1,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon008",
+      "names": {
+        "en": "AF16"
+      },
+      "level": 12,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 100,
+      "damage": 23,
+      "speed": 2.5,
+      "accuracy": 0.05,
+      "life": 72,
+      "interval": 5,
+      "reload": 90
+    },
+    {
+      "id": "Weapon009",
+      "names": {
+        "en": "AF-V"
+      },
+      "level": 13,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 105,
+      "damage": 12,
+      "speed": 2.5,
+      "accuracy": 0.03,
+      "life": 72,
+      "count": 2,
+      "interval": 5,
+      "reload": 90
+    },
+    {
+      "id": "Weapon010",
+      "names": {
+        "en": "AF16-RA"
+      },
+      "level": 16,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 200,
+      "damage": 12,
+      "speed": 2,
+      "accuracy": 0.2,
+      "life": 60,
+      "interval": 2,
+      "reload": 150
+    },
+    {
+      "id": "Weapon011",
+      "names": {
+        "en": "AF17"
+      },
+      "level": 18,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 120,
+      "damage": 26,
+      "speed": 2.5,
+      "accuracy": 0.04,
+      "life": 72,
+      "interval": 5,
+      "reload": 90
+    },
+    {
+      "id": "Weapon012",
+      "names": {
+        "en": "Autocannon B3"
+      },
+      "level": 21,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 12,
+      "damage": 300,
+      "speed": 6,
+      "accuracy": 0.03,
+      "life": 50,
+      "burst": 3,
+      "burstRate": 16,
+      "interval": 80,
+      "reload": 240
+    },
+    {
+      "id": "Weapon013",
+      "names": {
+        "en": "AF18"
+      },
+      "level": 23,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 120,
+      "damage": 30,
+      "speed": 5,
+      "accuracy": 0.05,
+      "life": 16,
+      "interval": 4,
+      "reload": 120
+    },
+    {
+      "id": "Weapon014",
+      "names": {
+        "en": "AF18-RA"
+      },
+      "level": 25,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 250,
+      "damage": 18,
+      "speed": 3,
+      "accuracy": 0.01,
+      "life": 50,
+      "interval": 2,
+      "reload": 150
+    },
+    {
+      "id": "Weapon015",
+      "names": {
+        "en": "AF18-X"
+      },
+      "level": 26,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 140,
+      "damage": 50,
+      "speed": 1,
+      "accuracy": 0.4,
+      "life": 150,
+      "interval": 5,
+      "reload": 120
+    },
+    {
+      "id": "Weapon016",
+      "names": {
+        "en": "AF19-ST"
+      },
+      "level": 28,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 10,
+      "damage": 230,
+      "speed": 10,
+      "accuracy": 0.01,
+      "life": 30,
+      "interval": 15,
+      "reload": 90
+    },
+    {
+      "id": "Weapon017",
+      "names": {
+        "en": "Heat Blaster G2"
+      },
+      "level": 32,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1500,
+      "damage": 90,
+      "speed": 35,
+      "life": 2,
+      "burst": 1500,
+      "burstRate": 1,
+      "interval": 1,
+      "reload": -1,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon018",
+      "names": {
+        "en": "AF19"
+      },
+      "level": 32,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 120,
+      "damage": 44,
+      "speed": 2.5,
+      "accuracy": 0.03,
+      "life": 60,
+      "interval": 4,
+      "reload": 90,
+      "secondary": 1,
+      "zoom": 2
+    },
+    {
+      "id": "Weapon019",
+      "names": {
+        "en": "AF19-RA"
+      },
+      "level": 38,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 250,
+      "damage": 33,
+      "speed": 4,
+      "accuracy": 0.03,
+      "life": 50,
+      "interval": 2,
+      "reload": 300
+    },
+    {
+      "id": "Weapon020",
+      "names": {
+        "en": "AF19X-B3"
+      },
+      "level": 43,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 120,
+      "damage": 150,
+      "speed": 7.5,
+      "accuracy": 0.04,
+      "life": 33,
+      "burst": 3,
+      "burstRate": 3,
+      "interval": 30,
+      "reload": 90,
+      "secondary": 1,
+      "zoom": 2
+    },
+    {
+      "id": "Weapon021",
+      "names": {
+        "en": "AF20"
+      },
+      "level": 46,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 140,
+      "damage": 92,
+      "speed": 3,
+      "accuracy": 0.02,
+      "life": 60,
+      "interval": 5,
+      "reload": 120
+    },
+    {
+      "id": "Weapon022",
+      "names": {
+        "en": "Autocannon R"
+      },
+      "level": 47,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 15,
+      "damage": 1500,
+      "speed": 15,
+      "accuracy": 0.005,
+      "life": 30,
+      "interval": 30,
+      "reload": 360
+    },
+    {
+      "id": "Weapon023",
+      "names": {
+        "en": "AF20-ST"
+      },
+      "level": 51,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 5,
+      "damage": 1200,
+      "speed": 40,
+      "accuracy": 0.005,
+      "life": 10,
+      "interval": 15,
+      "reload": 300
+    },
+    {
+      "id": "Weapon024",
+      "names": {
+        "en": "AF20-RAR"
+      },
+      "level": 56,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 999,
+      "damage": 26,
+      "speed": 4,
+      "accuracy": 0.05,
+      "life": 35,
+      "interval": 1,
+      "reload": 180
+    },
+    {
+      "id": "Weapon025",
+      "names": {
+        "en": "Battle Cannon"
+      },
+      "level": 57,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 7,
+      "damage": 3000,
+      "speed": 16,
+      "accuracy": 0.005,
+      "life": 30,
+      "interval": 50,
+      "reload": 270
+    },
+    {
+      "id": "Weapon026",
+      "names": {
+        "en": "AF21-B4"
+      },
+      "level": 60,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 140,
+      "damage": 210,
+      "speed": 10,
+      "accuracy": 0.01,
+      "life": 26,
+      "burst": 4,
+      "burstRate": 3,
+      "interval": 30,
+      "reload": 180
+    },
+    {
+      "id": "Weapon027",
+      "names": {
+        "en": "Heat Blaster X"
+      },
+      "level": 61,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1200,
+      "damage": 300,
+      "speed": 35,
+      "life": 2,
+      "burst": 1200,
+      "burstRate": 1,
+      "interval": 1,
+      "reload": -1,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon028",
+      "names": {
+        "en": "AF99"
+      },
+      "level": 64,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 160,
+      "damage": 140,
+      "speed": 3,
+      "accuracy": 0.015,
+      "life": 80,
+      "interval": 4,
+      "reload": 120,
+      "secondary": 1,
+      "zoom": 2
+    },
+    {
+      "id": "Weapon029",
+      "names": {
+        "en": "AF99-ST"
+      },
+      "level": 67,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 20,
+      "damage": 700,
+      "speed": 40,
+      "accuracy": 0.005,
+      "life": 12,
+      "interval": 15,
+      "reload": 180
+    },
+    {
+      "id": "Weapon030",
+      "names": {
+        "en": "Battle Cannon AX"
+      },
+      "level": 75,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 25,
+      "type": "SolidAmmo01",
+      "ammo": 12,
+      "damage": 3500,
+      "speed": 20,
+      "accuracy": 0.005,
+      "life": 25,
+      "interval": 40,
+      "reload": 240
+    },
+    {
+      "id": "Weapon031",
+      "names": {
+        "en": "Heat Blaster Z"
+      },
+      "level": 75,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 25,
+      "type": "LaserAmmo02",
+      "ammo": 1500,
+      "damage": 350,
+      "speed": 45,
+      "life": 2,
+      "burst": 1500,
+      "burstRate": 1,
+      "interval": 1,
+      "reload": -1,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon032",
+      "names": {
+        "en": "AF100"
+      },
+      "level": 75,
+      "character": "ranger",
+      "category": "assault",
+      "odds": 50,
+      "type": "SolidAmmo01",
+      "ammo": 180,
+      "damage": 160,
+      "speed": 12,
+      "accuracy": 0.015,
+      "life": 22,
+      "interval": 4,
+      "reload": 120,
+      "secondary": 1,
+      "zoom": 2
+    },
+    {
+      "id": "Shotgun_SG4",
+      "names": {
+        "en": "Buffalo G1"
+      },
+      "level": 0,
+      "character": "ranger",
+      "category": "shotgun",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 8,
+      "damage": 19,
+      "speed": 2,
+      "accuracy": 0.075,
+      "life": 65,
+      "count": 10,
+      "interval": 60,
+      "reload": 240
+    },
+    {
+      "id": "Weapon033",
+      "names": {
+        "en": "Buffalo G2"
+      },
+      "level": 3,
+      "character": "ranger",
+      "category": "shotgun",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 8,
+      "damage": 15,
+      "speed": 3,
+      "accuracy": 0.15,
+      "life": 24,
+      "count": 20,
+      "interval": 60,
+      "reload": 240
+    },
+    {
+      "id": "Weapon034",
+      "names": {
+        "en": "Governor 25"
+      },
+      "level": 8,
+      "character": "ranger",
+      "category": "shotgun",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 8,
+      "damage": 18,
+      "speed": 3,
+      "accuracy": 0.25,
+      "life": 24,
+      "count": 25,
+      "interval": 60,
+      "reload": 240
+    },
+    {
+      "id": "Weapon035",
+      "names": {
+        "en": "Wideshot"
+      },
+      "level": 11,
+      "character": "ranger",
+      "category": "shotgun",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 8,
+      "damage": 22,
+      "speed": 3,
+      "accuracy": 0.05,
+      "life": 24,
+      "count": 20,
+      "interval": 60,
+      "reload": 240
+    },
+    {
+      "id": "Weapon036",
+      "names": {
+        "en": "Wideshot VR"
+      },
+      "level": 14,
+      "character": "ranger",
+      "category": "shotgun",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 8,
+      "damage": 26,
+      "speed": 3,
+      "accuracy": 0.05,
+      "life": 24,
+      "count": 20,
+      "interval": 60,
+      "reload": 240
+    },
+    {
+      "id": "Shotgun_SPS",
+      "names": {
+        "en": "Sparrow Shot"
+      },
+      "level": 15,
+      "character": "ranger",
+      "category": "shotgun",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 10,
+      "damage": 21,
+      "speed": 3,
+      "accuracy": 0.075,
+      "life": 33,
+      "count": 10,
+      "interval": 15,
+      "reload": 180
+    },
+    {
+      "id": "Weapon037",
+      "names": {
+        "en": "Buffalo G3 Burst"
+      },
+      "level": 17,
+      "character": "ranger",
+      "category": "shotgun",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 8,
+      "damage": 40,
+      "speed": 5,
+      "accuracy": 0.075,
+      "life": 30,
+      "burst": 2,
+      "burstRate": 3,
+      "count": 15,
+      "interval": 100,
+      "reload": 240
+    },
+    {
+      "id": "Weapon038",
+      "names": {
+        "en": "Buffalo G3"
+      },
+      "level": 20,
+      "character": "ranger",
+      "category": "shotgun",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 8,
+      "damage": 40,
+      "speed": 5,
+      "accuracy": 0.045,
+      "life": 30,
+      "count": 15,
+      "interval": 60,
+      "reload": 240
+    },
+    {
+      "id": "Weapon039",
+      "names": {
+        "en": "Sparrow Shot M2"
+      },
+      "level": 27,
+      "character": "ranger",
+      "category": "shotgun",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 10,
+      "damage": 29,
+      "speed": 4,
+      "accuracy": 0.075,
+      "life": 30,
+      "count": 15,
+      "interval": 12,
+      "reload": 300
+    },
+    {
+      "id": "Weapon040",
+      "names": {
+        "en": "Governor 50"
+      },
+      "level": 30,
+      "character": "ranger",
+      "category": "shotgun",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 8,
+      "damage": 40,
+      "speed": 2,
+      "accuracy": 0.25,
+      "life": 75,
+      "count": 50,
+      "interval": 60,
+      "reload": 240
+    },
+    {
+      "id": "Weapon041",
+      "names": {
+        "en": "Wideshot A1"
+      },
+      "level": 35,
+      "character": "ranger",
+      "category": "shotgun",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 10,
+      "damage": 60,
+      "speed": 5,
+      "accuracy": 0.05,
+      "life": 32,
+      "count": 25,
+      "interval": 55,
+      "reload": 320
+    },
+    {
+      "id": "Weapon042",
+      "names": {
+        "en": "Buffalo G4"
+      },
+      "level": 41,
+      "character": "ranger",
+      "category": "shotgun",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 15,
+      "damage": 90,
+      "speed": 7,
+      "accuracy": 0.085,
+      "life": 22,
+      "count": 15,
+      "interval": 60,
+      "reload": 480
+    },
+    {
+      "id": "Weapon043",
+      "names": {
+        "en": "Wideshot A1-VR"
+      },
+      "level": 44,
+      "character": "ranger",
+      "category": "shotgun",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 10,
+      "damage": 72,
+      "speed": 7,
+      "accuracy": 0.05,
+      "life": 24,
+      "count": 25,
+      "interval": 60,
+      "reload": 320
+    },
+    {
+      "id": "Weapon044",
+      "names": {
+        "en": "Buffalo G9"
+      },
+      "level": 50,
+      "character": "ranger",
+      "category": "shotgun",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 13,
+      "damage": 110,
+      "speed": 8,
+      "accuracy": 0.085,
+      "life": 22,
+      "count": 15,
+      "interval": 60,
+      "reload": 480
+    },
+    {
+      "id": "Weapon045",
+      "names": {
+        "en": "Sparrow Shot M3"
+      },
+      "level": 55,
+      "character": "ranger",
+      "category": "shotgun",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 15,
+      "damage": 45,
+      "speed": 10,
+      "accuracy": 0.08,
+      "life": 15,
+      "count": 15,
+      "interval": 10,
+      "reload": 300
+    },
+    {
+      "id": "Weapon046",
+      "names": {
+        "en": "Governor 100"
+      },
+      "level": 65,
+      "character": "ranger",
+      "category": "shotgun",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 6,
+      "damage": 60,
+      "speed": 10,
+      "accuracy": 0.25,
+      "life": 17,
+      "count": 100,
+      "interval": 90,
+      "reload": 240
+    },
+    {
+      "id": "Weapon047",
+      "names": {
+        "en": "Buffalo GSS"
+      },
+      "level": 69,
+      "character": "ranger",
+      "category": "shotgun",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 15,
+      "damage": 170,
+      "speed": 13,
+      "accuracy": 0.085,
+      "life": 17,
+      "count": 15,
+      "interval": 60,
+      "reload": 480
+    },
+    {
+      "id": "Weapon048",
+      "names": {
+        "en": "Sparrow Shot MX"
+      },
+      "level": 72,
+      "character": "ranger",
+      "category": "shotgun",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 16,
+      "damage": 80,
+      "speed": 8,
+      "accuracy": 0.07,
+      "life": 23,
+      "count": 15,
+      "interval": 15,
+      "reload": 240
+    },
+    {
+      "id": "Weapon049",
+      "names": {
+        "en": "Buffalo Wide"
+      },
+      "level": 85,
+      "character": "ranger",
+      "category": "shotgun",
+      "odds": 50,
+      "type": "SolidAmmo01",
+      "ammo": 15,
+      "damage": 220,
+      "speed": 13,
+      "accuracy": 0.07,
+      "life": 17,
+      "count": 15,
+      "interval": 60,
+      "reload": 400
+    },
+    {
+      "id": "SniperRifle_SNR227",
+      "names": {
+        "en": "MMF40"
+      },
+      "level": 0,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 5,
+      "damage": 110,
+      "speed": 3,
+      "accuracy": 0.005,
+      "life": 200,
+      "interval": 90,
+      "reload": 120,
+      "secondary": 1,
+      "zoom": 4
+    },
+    {
+      "id": "Weapon050",
+      "names": {
+        "en": "MMF40-RA"
+      },
+      "level": 2,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 5,
+      "damage": 65,
+      "speed": 5,
+      "accuracy": 0.0025,
+      "life": 120,
+      "interval": 30,
+      "reload": 120,
+      "secondary": 1,
+      "zoom": 4
+    },
+    {
+      "id": "Weapon051",
+      "names": {
+        "en": "Stringer"
+      },
+      "level": 4,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 1,
+      "damage": 500,
+      "speed": 40,
+      "life": 20,
+      "reload": 300,
+      "secondary": 1,
+      "zoom": 8,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon052",
+      "names": {
+        "en": "MMF41"
+      },
+      "level": 6,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 7,
+      "damage": 200,
+      "speed": 10,
+      "accuracy": 0.02,
+      "life": 60,
+      "interval": 90,
+      "reload": 120,
+      "secondary": 1,
+      "zoom": 6
+    },
+    {
+      "id": "Weapon053",
+      "names": {
+        "en": "MMF41-B3"
+      },
+      "level": 9,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 7,
+      "damage": 110,
+      "speed": 8,
+      "accuracy": 0.005,
+      "life": 90,
+      "burst": 3,
+      "burstRate": 3,
+      "interval": 90,
+      "reload": 120,
+      "secondary": 1,
+      "zoom": 4
+    },
+    {
+      "id": "SniperRifle_RTH",
+      "names": {
+        "en": "Lysander"
+      },
+      "level": 13,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 7,
+      "damage": 550,
+      "speed": 40,
+      "accuracy": 0.005,
+      "life": 18,
+      "interval": 180,
+      "reload": 240,
+      "secondary": 1,
+      "zoom": 8
+    },
+    {
+      "id": "Weapon054",
+      "names": {
+        "en": "MMF42"
+      },
+      "level": 17,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 5,
+      "damage": 270,
+      "speed": 50,
+      "accuracy": 0.005,
+      "life": 12,
+      "interval": 90,
+      "reload": 120,
+      "secondary": 1,
+      "zoom": 4
+    },
+    {
+      "id": "Weapon055",
+      "names": {
+        "en": "Nova Buster M1"
+      },
+      "level": 18,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1,
+      "damage": 4500,
+      "speed": 20,
+      "life": 60,
+      "burstRate": 1,
+      "interval": 1,
+      "reload": -1,
+      "secondary": 1,
+      "zoom": 5,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon056",
+      "names": {
+        "en": "MMF42-RA"
+      },
+      "level": 21,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 20,
+      "damage": 50,
+      "speed": 10,
+      "accuracy": 0.005,
+      "life": 40,
+      "interval": 6,
+      "reload": 120,
+      "secondary": 1,
+      "zoom": 6
+    },
+    {
+      "id": "BonusWeapon01",
+      "names": {
+        "en": "Zero Laser Rifle"
+      },
+      "level": 24,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 0,
+      "type": "LaserAmmo01",
+      "ammo": 180,
+      "damage": 100,
+      "speed": 30,
+      "life": 20,
+      "interval": 1,
+      "reload": -1,
+      "secondary": 1,
+      "zoom": 4,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon057",
+      "names": {
+        "en": "MMF43"
+      },
+      "level": 28,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 8,
+      "damage": 440,
+      "speed": 20,
+      "accuracy": 0.005,
+      "life": 30,
+      "interval": 90,
+      "reload": 200,
+      "secondary": 1,
+      "zoom": 4
+    },
+    {
+      "id": "Weapon058",
+      "names": {
+        "en": "MMF43-B2"
+      },
+      "level": 32,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 10,
+      "damage": 300,
+      "speed": 20,
+      "accuracy": 0.005,
+      "life": 25,
+      "burst": 2,
+      "burstRate": 5,
+      "interval": 90,
+      "reload": 200,
+      "secondary": 1,
+      "zoom": 4
+    },
+    {
+      "id": "Weapon059",
+      "names": {
+        "en": "Stringer J2"
+      },
+      "level": 36,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 1,
+      "damage": 2000,
+      "speed": 40,
+      "life": 20,
+      "reload": 210,
+      "secondary": 1,
+      "zoom": 4,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon060",
+      "names": {
+        "en": "MMF50"
+      },
+      "level": 39,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 20,
+      "damage": 660,
+      "speed": 30,
+      "accuracy": 0.05,
+      "life": 27,
+      "interval": 60,
+      "reload": 300,
+      "secondary": 1,
+      "zoom": 12
+    },
+    {
+      "id": "Weapon061",
+      "names": {
+        "en": "Five Card XA"
+      },
+      "level": 41,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 8,
+      "damage": 120,
+      "speed": 25,
+      "accuracy": 0.01,
+      "life": 20,
+      "count": 5,
+      "interval": 90,
+      "reload": 180,
+      "secondary": 1,
+      "zoom": 4
+    },
+    {
+      "id": "Weapon062",
+      "names": {
+        "en": "Lysander 2"
+      },
+      "level": 45,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 7,
+      "damage": 2700,
+      "speed": 50,
+      "life": 20,
+      "interval": 180,
+      "reload": 240,
+      "secondary": 1,
+      "zoom": 8,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon063",
+      "names": {
+        "en": "MMF100"
+      },
+      "level": 47,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 10,
+      "damage": 820,
+      "speed": 20,
+      "accuracy": 0.005,
+      "life": 30,
+      "interval": 54,
+      "reload": 200,
+      "secondary": 1,
+      "zoom": 4
+    },
+    {
+      "id": "Weapon064",
+      "names": {
+        "en": "Five Card XB"
+      },
+      "level": 50,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 8,
+      "damage": 240,
+      "speed": 25,
+      "accuracy": 0.01,
+      "life": 80,
+      "count": 5,
+      "interval": 90,
+      "reload": 180,
+      "secondary": 1,
+      "zoom": 6
+    },
+    {
+      "id": "Weapon065",
+      "names": {
+        "en": "Nova Buster M2"
+      },
+      "level": 52,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1,
+      "damage": 20000,
+      "speed": 20,
+      "life": 60,
+      "burstRate": 1,
+      "interval": 1,
+      "reload": -1,
+      "secondary": 1,
+      "zoom": 5,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon066",
+      "names": {
+        "en": "MMF200"
+      },
+      "level": 60,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 11,
+      "damage": 990,
+      "speed": 35,
+      "accuracy": 0.005,
+      "life": 22,
+      "interval": 60,
+      "reload": 200,
+      "secondary": 1,
+      "zoom": 4
+    },
+    {
+      "id": "Weapon067",
+      "names": {
+        "en": "Lysander F"
+      },
+      "level": 70,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 50,
+      "type": "SolidAmmo01",
+      "ammo": 7,
+      "damage": 3800,
+      "speed": 75,
+      "life": 13,
+      "interval": 180,
+      "reload": 240,
+      "secondary": 1,
+      "zoom": 10,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon068",
+      "names": {
+        "en": "Nova Buster M3"
+      },
+      "level": 72,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1,
+      "damage": 40000,
+      "speed": 20,
+      "life": 60,
+      "burstRate": 1,
+      "interval": 1,
+      "reload": -1,
+      "secondary": 1,
+      "zoom": 5,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon069",
+      "names": {
+        "en": "Lysander Z"
+      },
+      "level": 90,
+      "character": "ranger",
+      "category": "sniper",
+      "odds": 50,
+      "type": "SolidAmmo01",
+      "ammo": 8,
+      "damage": 5500,
+      "speed": 75,
+      "life": 13,
+      "interval": 180,
+      "reload": 240,
+      "secondary": 1,
+      "zoom": 10,
+      "accuracy": 0
+    },
+    {
+      "id": "RocketLauncher01",
+      "names": {
+        "en": "Stingray M1"
+      },
+      "level": 0,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 0,
+      "type": "RocketAmmo02",
+      "ammo": 2,
+      "damage": 100,
+      "speed": 1,
+      "accuracy": 0.01,
+      "radius": 5,
+      "life": 150,
+      "interval": 60,
+      "reload": 110
+    },
+    {
+      "id": "Weapon070",
+      "names": {
+        "en": "Stingray ST"
+      },
+      "level": 0,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "RocketAmmo02",
+      "ammo": 2,
+      "damage": 130,
+      "speed": 1,
+      "accuracy": 0.01,
+      "radius": 7,
+      "life": 150,
+      "interval": 60,
+      "reload": 110
+    },
+    {
+      "id": "Weapon071",
+      "names": {
+        "en": "Bloodfire M1"
+      },
+      "level": 2,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "ClusterMissileAmmo",
+      "ammo": 2,
+      "damage": 70,
+      "speed": 0.3,
+      "accuracy": 0.01,
+      "radius": 7,
+      "life": 300,
+      "interval": 120,
+      "reload": 240
+    },
+    {
+      "id": "Weapon072",
+      "names": {
+        "en": "Volcano 3A"
+      },
+      "level": 4,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "MissileAmmo01",
+      "ammo": 2,
+      "damage": 100,
+      "speed": 0.01,
+      "accuracy": 0.05,
+      "radius": 6,
+      "life": 600,
+      "count": 3,
+      "interval": 60,
+      "reload": 90
+    },
+    {
+      "id": "RocketLauncherGDD",
+      "names": {
+        "en": "Stingray ST2"
+      },
+      "level": 7,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "RocketAmmo02",
+      "ammo": 2,
+      "damage": 180,
+      "speed": 2,
+      "accuracy": 0.01,
+      "radius": 10,
+      "life": 150,
+      "interval": 60,
+      "reload": 90
+    },
+    {
+      "id": "Weapon073",
+      "names": {
+        "en": "Volcano 3W-Burst"
+      },
+      "level": 9,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "MissileAmmo01",
+      "ammo": 4,
+      "damage": 65,
+      "speed": 0.01,
+      "accuracy": 0.01,
+      "radius": 6,
+      "life": 600,
+      "burst": 4,
+      "burstRate": 15,
+      "count": 3,
+      "interval": 60,
+      "reload": 90
+    },
+    {
+      "id": "Weapon074",
+      "names": {
+        "en": "Cascade 1"
+      },
+      "level": 10,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "RocketAmmo02",
+      "ammo": 20,
+      "damage": 120,
+      "speed": 0.1,
+      "accuracy": 0.1,
+      "radius": 2,
+      "life": 240,
+      "interval": 10,
+      "reload": 300
+    },
+    {
+      "id": "Weapon075",
+      "names": {
+        "en": "A1 Plasma Launcher"
+      },
+      "level": 11,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "PlasmaAmmo01",
+      "ammo": 4,
+      "damage": 200,
+      "speed": 1,
+      "radius": 40,
+      "life": 300,
+      "interval": 30,
+      "reload": -1,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon076",
+      "names": {
+        "en": "Goliath D1"
+      },
+      "level": 17,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "RocketAmmo02",
+      "ammo": 1,
+      "damage": 600,
+      "speed": 0.5,
+      "accuracy": 0.01,
+      "radius": 12,
+      "life": 300,
+      "reload": 180,
+      "secondary": 1,
+      "zoom": 3
+    },
+    {
+      "id": "Weapon077",
+      "names": {
+        "en": "Stingray M2"
+      },
+      "level": 20,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "RocketAmmo02",
+      "ammo": 3,
+      "damage": 230,
+      "speed": 2,
+      "accuracy": 0.01,
+      "radius": 8,
+      "life": 150,
+      "interval": 60,
+      "reload": 90
+    },
+    {
+      "id": "Weapon078",
+      "names": {
+        "en": "Bloodfire M2"
+      },
+      "level": 22,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "ClusterMissileAmmo",
+      "ammo": 2,
+      "damage": 160,
+      "speed": 0.2,
+      "accuracy": 0.01,
+      "radius": 10,
+      "life": 300,
+      "interval": 120,
+      "reload": 360
+    },
+    {
+      "id": "Weapon079",
+      "names": {
+        "en": "Stingray M3"
+      },
+      "level": 26,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "RocketAmmo02",
+      "ammo": 5,
+      "damage": 280,
+      "speed": 2,
+      "accuracy": 0.008,
+      "radius": 9,
+      "life": 150,
+      "interval": 60,
+      "reload": 90
+    },
+    {
+      "id": "Weapon080",
+      "names": {
+        "en": "A2 Plasma Launcher"
+      },
+      "level": 29,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "PlasmaAmmo01",
+      "ammo": 20,
+      "damage": 150,
+      "speed": 2,
+      "accuracy": 0.2,
+      "radius": 6,
+      "life": 300,
+      "count": 10,
+      "interval": 40,
+      "reload": -1
+    },
+    {
+      "id": "Weapon081",
+      "names": {
+        "en": "Cascade 2"
+      },
+      "level": 31,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "RocketAmmo02",
+      "ammo": 10,
+      "damage": 200,
+      "speed": 0.2,
+      "accuracy": 0.015,
+      "radius": 6,
+      "life": 240,
+      "interval": 10,
+      "reload": 90
+    },
+    {
+      "id": "Weapon082",
+      "names": {
+        "en": "Goliath D2"
+      },
+      "level": 35,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "RocketAmmo02",
+      "ammo": 1,
+      "damage": 1200,
+      "speed": 5,
+      "accuracy": 0.008,
+      "radius": 15,
+      "life": 300,
+      "reload": 240,
+      "secondary": 1,
+      "zoom": 7
+    },
+    {
+      "id": "Weapon083",
+      "names": {
+        "en": "Stingray M4"
+      },
+      "level": 40,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "RocketAmmo02",
+      "ammo": 4,
+      "damage": 500,
+      "speed": 2.5,
+      "accuracy": 0.008,
+      "radius": 10,
+      "life": 150,
+      "interval": 60,
+      "reload": 90
+    },
+    {
+      "id": "Weapon084",
+      "names": {
+        "en": "Bloodfire M3"
+      },
+      "level": 40,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "ClusterMissileAmmo",
+      "ammo": 3,
+      "damage": 400,
+      "speed": 0.2,
+      "accuracy": 0.01,
+      "radius": 15,
+      "life": 300,
+      "interval": 100,
+      "reload": 300
+    },
+    {
+      "id": "Weapon085",
+      "names": {
+        "en": "Volcano B10"
+      },
+      "level": 43,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "MissileAmmo01",
+      "ammo": 10,
+      "damage": 400,
+      "speed": 0.01,
+      "accuracy": 0.01,
+      "radius": 10,
+      "life": 600,
+      "burst": 10,
+      "burstRate": 8,
+      "interval": 60,
+      "reload": 180
+    },
+    {
+      "id": "Weapon086",
+      "names": {
+        "en": "Goliath Z"
+      },
+      "level": 50,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "RocketAmmo02",
+      "ammo": 1,
+      "damage": 2500,
+      "speed": 10,
+      "accuracy": 0.008,
+      "radius": 20,
+      "life": 300,
+      "reload": 240,
+      "secondary": 1,
+      "zoom": 7
+    },
+    {
+      "id": "Weapon087",
+      "names": {
+        "en": "Volcano 6W"
+      },
+      "level": 53,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "MissileAmmo01",
+      "ammo": 2,
+      "damage": 300,
+      "speed": 0.01,
+      "accuracy": 0.001,
+      "radius": 10,
+      "life": 600,
+      "count": 6,
+      "interval": 60,
+      "reload": 180
+    },
+    {
+      "id": "Weapon088",
+      "names": {
+        "en": "A3 Plasma Launcher"
+      },
+      "level": 57,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "PlasmaAmmo01",
+      "ammo": 20,
+      "damage": 1000,
+      "speed": 1.5,
+      "radius": 30,
+      "life": 300,
+      "interval": 30,
+      "reload": -1,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon089",
+      "names": {
+        "en": "Bloodfire M4"
+      },
+      "level": 62,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "ClusterMissileAmmo",
+      "ammo": 4,
+      "damage": 900,
+      "speed": 0.2,
+      "accuracy": 0.01,
+      "radius": 15,
+      "life": 300,
+      "interval": 90,
+      "reload": 300
+    },
+    {
+      "id": "Weapon090",
+      "names": {
+        "en": "Stingray M99"
+      },
+      "level": 62,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 100,
+      "type": "RocketAmmo02",
+      "ammo": 5,
+      "damage": 1200,
+      "speed": 3,
+      "accuracy": 0.008,
+      "radius": 15,
+      "life": 150,
+      "interval": 60,
+      "reload": 120
+    },
+    {
+      "id": "Weapon091",
+      "names": {
+        "en": "Stingray MF"
+      },
+      "level": 78,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 50,
+      "type": "RocketAmmo02",
+      "ammo": 5,
+      "damage": 1500,
+      "speed": 10,
+      "accuracy": 0.008,
+      "radius": 15,
+      "life": 150,
+      "interval": 60,
+      "reload": 120,
+      "secondary": 1,
+      "zoom": 4
+    },
+    {
+      "id": "Weapon092",
+      "names": {
+        "en": "Blood Inferno"
+      },
+      "level": 87,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 25,
+      "type": "ClusterMissileAmmo",
+      "ammo": 4,
+      "damage": 1400,
+      "speed": 0.2,
+      "accuracy": 0.01,
+      "radius": 25,
+      "life": 300,
+      "interval": 90,
+      "reload": 300
+    },
+    {
+      "id": "BonusWeapon05",
+      "names": {
+        "en": "Genocide Gun"
+      },
+      "level": 99,
+      "character": "ranger",
+      "category": "rocket",
+      "odds": 0,
+      "type": "RocketAmmo02",
+      "ammo": 1,
+      "damage": 1000000,
+      "speed": 40,
+      "radius": 75,
+      "life": 150,
+      "interval": 60,
+      "reload": 200,
+      "secondary": 1,
+      "zoom": 6,
+      "accuracy": 0
+    },
+    {
+      "id": "Missile_SkyTT",
+      "names": {
+        "en": "Air Tortoise 01"
+      },
+      "level": 0,
+      "character": "ranger",
+      "category": "missile",
+      "odds": 100,
+      "type": "MissileAmmo02",
+      "ammo": 1,
+      "damage": 400,
+      "speed": 0.1,
+      "accuracy": 0.001,
+      "radius": 10,
+      "life": 2400,
+      "reload": 600
+    },
+    {
+      "id": "Missile_EM0",
+      "names": {
+        "en": "ME1 Emerald"
+      },
+      "level": 0,
+      "character": "ranger",
+      "category": "missile",
+      "odds": 100,
+      "type": "MissileAmmo02",
+      "ammo": 2,
+      "damage": 150,
+      "speed": 0.1,
+      "accuracy": 0.001,
+      "radius": 5,
+      "life": 600,
+      "interval": 60,
+      "reload": 90
+    },
+    {
+      "id": "Weapon093",
+      "names": {
+        "en": "MLRA"
+      },
+      "level": 1,
+      "character": "ranger",
+      "category": "missile",
+      "odds": 100,
+      "type": "MissileAmmo01",
+      "ammo": 10,
+      "damage": 32,
+      "speed": 0.1,
+      "accuracy": 0.1,
+      "radius": 1,
+      "life": 600,
+      "interval": 10,
+      "reload": 180
+    },
+    {
+      "id": "Weapon094",
+      "names": {
+        "en": "Air Tortoise 02"
+      },
+      "level": 3,
+      "character": "ranger",
+      "category": "missile",
+      "odds": 100,
+      "type": "MissileAmmo02",
+      "ammo": 1,
+      "damage": 800,
+      "speed": 0.1,
+      "accuracy": 0.001,
+      "radius": 20,
+      "life": 2400,
+      "reload": 600
+    },
+    {
+      "id": "Weapon095",
+      "names": {
+        "en": "ME2 Emerald"
+      },
+      "level": 4,
+      "character": "ranger",
+      "category": "missile",
+      "odds": 100,
+      "type": "MissileAmmo02",
+      "ammo": 2,
+      "damage": 150,
+      "speed": 0.1,
+      "accuracy": 0.001,
+      "radius": 5,
+      "life": 600,
+      "interval": 60,
+      "reload": 90
+    },
+    {
+      "id": "Weapon096",
+      "names": {
+        "en": "MLRA-2"
+      },
+      "level": 10,
+      "character": "ranger",
+      "category": "missile",
+      "odds": 100,
+      "type": "MissileAmmo01",
+      "ammo": 10,
+      "damage": 32,
+      "speed": 0.1,
+      "accuracy": 0.001,
+      "radius": 1,
+      "life": 600,
+      "interval": 10,
+      "reload": 180
+    },
+    {
+      "id": "Weapon097",
+      "names": {
+        "en": "Homing Cannon"
+      },
+      "level": 12,
+      "character": "ranger",
+      "category": "missile",
+      "odds": 100,
+      "type": "ClusterMissileAmmo",
+      "ammo": 5,
+      "damage": 40,
+      "speed": 1.5,
+      "accuracy": 0.01,
+      "radius": 5,
+      "life": 240,
+      "interval": 60,
+      "reload": 300
+    },
+    {
+      "id": "Weapon098",
+      "names": {
+        "en": "ME3 Emerald"
+      },
+      "level": 15,
+      "character": "ranger",
+      "category": "missile",
+      "odds": 100,
+      "type": "MissileAmmo02",
+      "ammo": 2,
+      "damage": 160,
+      "speed": 0.1,
+      "accuracy": 0.001,
+      "radius": 5,
+      "life": 360,
+      "interval": 60,
+      "reload": 90
+    },
+    {
+      "id": "Weapon099",
+      "names": {
+        "en": "MLRA-3"
+      },
+      "level": 21,
+      "character": "ranger",
+      "category": "missile",
+      "odds": 100,
+      "type": "MissileAmmo01",
+      "ammo": 30,
+      "damage": 50,
+      "speed": 2,
+      "accuracy": 0.1,
+      "radius": 1,
+      "life": 300,
+      "interval": 6,
+      "reload": 300
+    },
+    {
+      "id": "Weapon100",
+      "names": {
+        "en": "Prominence M1"
+      },
+      "level": 27,
+      "character": "ranger",
+      "category": "missile",
+      "odds": 100,
+      "type": "MissileAmmo02",
+      "ammo": 1,
+      "damage": 1500,
+      "speed": 0.1,
+      "accuracy": 0.001,
+      "radius": 15,
+      "life": 1200,
+      "reload": 300,
+      "secondary": 1,
+      "zoom": 6
+    },
+    {
+      "id": "Weapon101",
+      "names": {
+        "en": "FORK-A20"
+      },
+      "level": 29,
+      "character": "ranger",
+      "category": "missile",
+      "odds": 100,
+      "type": "MissileAmmo01",
+      "ammo": 1,
+      "damage": 50,
+      "speed": 0.1,
+      "radius": 1,
+      "life": 300,
+      "count": 20,
+      "reload": 180,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon102",
+      "names": {
+        "en": "Homing Cannon G"
+      },
+      "level": 32,
+      "character": "ranger",
+      "category": "missile",
+      "odds": 100,
+      "type": "ClusterMissileAmmo",
+      "ammo": 6,
+      "damage": 160,
+      "speed": 1.5,
+      "accuracy": 0.01,
+      "radius": 8,
+      "life": 240,
+      "interval": 60,
+      "reload": 360
+    },
+    {
+      "id": "Weapon103",
+      "names": {
+        "en": "MLRA-TW"
+      },
+      "level": 35,
+      "character": "ranger",
+      "category": "missile",
+      "odds": 100,
+      "type": "MissileAmmo01",
+      "ammo": 20,
+      "damage": 100,
+      "speed": 2,
+      "accuracy": 0.1,
+      "radius": 1,
+      "life": 300,
+      "count": 2,
+      "interval": 6,
+      "reload": 300
+    },
+    {
+      "id": "Weapon104",
+      "names": {
+        "en": "MEX Emerald"
+      },
+      "level": 43,
+      "character": "ranger",
+      "category": "missile",
+      "odds": 100,
+      "type": "MissileAmmo02",
+      "ammo": 4,
+      "damage": 300,
+      "speed": 0.1,
+      "accuracy": 0.001,
+      "radius": 7,
+      "life": 360,
+      "interval": 60,
+      "reload": 90
+    },
+    {
+      "id": "Weapon105",
+      "names": {
+        "en": "Air Tortoise ME"
+      },
+      "level": 47,
+      "character": "ranger",
+      "category": "missile",
+      "odds": 100,
+      "type": "MissileAmmo02",
+      "ammo": 1,
+      "damage": 4000,
+      "speed": 0.1,
+      "accuracy": 0.001,
+      "radius": 30,
+      "life": 2400,
+      "reload": 600
+    },
+    {
+      "id": "Weapon106",
+      "names": {
+        "en": "Homing Cannon GX"
+      },
+      "level": 52,
+      "character": "ranger",
+      "category": "missile",
+      "odds": 100,
+      "type": "ClusterMissileAmmo",
+      "ammo": 7,
+      "damage": 300,
+      "speed": 0.5,
+      "accuracy": 0.01,
+      "radius": 12,
+      "life": 240,
+      "interval": 60,
+      "reload": 520
+    },
+    {
+      "id": "Weapon107",
+      "names": {
+        "en": "Prominence M2"
+      },
+      "level": 62,
+      "character": "ranger",
+      "category": "missile",
+      "odds": 100,
+      "type": "MissileAmmo02",
+      "ammo": 1,
+      "damage": 4000,
+      "speed": 0.1,
+      "accuracy": 0.001,
+      "radius": 20,
+      "life": 1200,
+      "reload": 300,
+      "secondary": 1,
+      "zoom": 6
+    },
+    {
+      "id": "Weapon108",
+      "names": {
+        "en": "FORK-X20"
+      },
+      "level": 67,
+      "character": "ranger",
+      "category": "missile",
+      "odds": 100,
+      "type": "MissileAmmo01",
+      "ammo": 1,
+      "damage": 90,
+      "speed": 0.1,
+      "radius": 2,
+      "life": 300,
+      "count": 20,
+      "reload": 180,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon109",
+      "names": {
+        "en": "Prominence MA"
+      },
+      "level": 77,
+      "character": "ranger",
+      "category": "missile",
+      "odds": 30,
+      "type": "MissileAmmo02",
+      "ammo": 1,
+      "damage": 15000,
+      "speed": 0.1,
+      "accuracy": 0.001,
+      "radius": 40,
+      "life": 3000,
+      "reload": 1200,
+      "secondary": 1,
+      "zoom": 6
+    },
+    {
+      "id": "Weapon110",
+      "names": {
+        "en": "Homing Blastgun"
+      },
+      "level": 77,
+      "character": "ranger",
+      "category": "missile",
+      "odds": 30,
+      "type": "ClusterMissileAmmo",
+      "ammo": 7,
+      "damage": 400,
+      "speed": 1,
+      "accuracy": 0.01,
+      "radius": 10,
+      "life": 240,
+      "interval": 60,
+      "reload": 400
+    },
+    {
+      "id": "HandGrenade01",
+      "names": {
+        "en": "MG10"
+      },
+      "level": 0,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 0,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 200,
+      "speed": 0.7,
+      "radius": 5,
+      "life": 600,
+      "interval": 60,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon111",
+      "names": {
+        "en": "MG10J"
+      },
+      "level": 0,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 600,
+      "speed": 0.7,
+      "radius": 5,
+      "life": 600,
+      "interval": 120,
+      "accuracy": 0,
+      "fuse": 600
+    },
+    {
+      "id": "Weapon112",
+      "names": {
+        "en": "MG11"
+      },
+      "level": 2,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 300,
+      "speed": 0.7,
+      "radius": 10,
+      "life": 1200,
+      "interval": 60,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon113",
+      "names": {
+        "en": "MG12"
+      },
+      "level": 5,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 500,
+      "speed": 0.7,
+      "radius": 10,
+      "life": 1200,
+      "interval": 60,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon114",
+      "names": {
+        "en": "MG13"
+      },
+      "level": 8,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 2500,
+      "speed": 0.1,
+      "radius": 20,
+      "life": 1200,
+      "interval": 60,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon115",
+      "names": {
+        "en": "MG13J"
+      },
+      "level": 12,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 2500,
+      "speed": 0.1,
+      "radius": 20,
+      "life": 1800,
+      "interval": 120,
+      "accuracy": 0,
+      "fuse": 1800
+    },
+    {
+      "id": "Weapon116",
+      "names": {
+        "en": "MG14"
+      },
+      "level": 14,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 1400,
+      "speed": 0.7,
+      "radius": 11,
+      "life": 1200,
+      "interval": 60,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon117",
+      "names": {
+        "en": "MG14J"
+      },
+      "level": 15,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 2000,
+      "speed": 0.7,
+      "radius": 12,
+      "life": 300,
+      "interval": 120,
+      "accuracy": 0,
+      "fuse": 300
+    },
+    {
+      "id": "Weapon118",
+      "names": {
+        "en": "MG20"
+      },
+      "level": 27,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 2500,
+      "speed": 0.7,
+      "radius": 13,
+      "life": 1200,
+      "interval": 60,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon119",
+      "names": {
+        "en": "MG21J"
+      },
+      "level": 38,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 4000,
+      "speed": 0.7,
+      "radius": 17,
+      "life": 600,
+      "interval": 120,
+      "accuracy": 0,
+      "fuse": 600
+    },
+    {
+      "id": "Weapon120",
+      "names": {
+        "en": "MG29SJ"
+      },
+      "level": 52,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 7000,
+      "speed": 0.5,
+      "radius": 20,
+      "life": 600,
+      "interval": 120,
+      "accuracy": 0,
+      "fuse": 600
+    },
+    {
+      "id": "Weapon121",
+      "names": {
+        "en": "MG30"
+      },
+      "level": 72,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 80,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 3500,
+      "speed": 0.7,
+      "radius": 25,
+      "life": 1200,
+      "interval": 60,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon122",
+      "names": {
+        "en": "UM1 Grenade Launcher"
+      },
+      "level": 0,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 4,
+      "damage": 110,
+      "speed": 1.5,
+      "accuracy": 0.1,
+      "radius": 7,
+      "life": 600,
+      "interval": 30,
+      "reload": 120
+    },
+    {
+      "id": "Weapon123",
+      "names": {
+        "en": "UM1-J Grenade Launcher"
+      },
+      "level": 2,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 4,
+      "damage": 180,
+      "speed": 1.5,
+      "accuracy": 0.1,
+      "radius": 11,
+      "life": 240,
+      "interval": 30,
+      "reload": 120,
+      "fuse": 240
+    },
+    {
+      "id": "Weapon124",
+      "names": {
+        "en": "Stampede M1"
+      },
+      "level": 5,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 100,
+      "speed": 0.6,
+      "accuracy": 0.25,
+      "radius": 5,
+      "life": 1200,
+      "count": 10,
+      "interval": 30,
+      "reload": 300
+    },
+    {
+      "id": "Weapon125",
+      "names": {
+        "en": "UM2 Grenade Launcher"
+      },
+      "level": 7,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 4,
+      "damage": 200,
+      "speed": 1.5,
+      "accuracy": 0.015,
+      "radius": 8,
+      "life": 600,
+      "interval": 30,
+      "reload": 120
+    },
+    {
+      "id": "Weapon126",
+      "names": {
+        "en": "UM2-J Grenade Launcher"
+      },
+      "level": 12,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 4,
+      "damage": 280,
+      "speed": 1.5,
+      "accuracy": 0.025,
+      "radius": 12,
+      "life": 240,
+      "interval": 30,
+      "reload": 120,
+      "fuse": 240
+    },
+    {
+      "id": "Weapon127",
+      "names": {
+        "en": "UMRA Grenade Launcher"
+      },
+      "level": 17,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 12,
+      "damage": 100,
+      "speed": 2,
+      "accuracy": 0.01,
+      "radius": 5,
+      "life": 600,
+      "interval": 8,
+      "reload": 180
+    },
+    {
+      "id": "Weapon128",
+      "names": {
+        "en": "UM3-J Grenade Launcher"
+      },
+      "level": 19,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 4,
+      "damage": 400,
+      "speed": 1.5,
+      "accuracy": 0.1,
+      "radius": 13,
+      "life": 240,
+      "interval": 30,
+      "reload": 160,
+      "fuse": 240
+    },
+    {
+      "id": "Weapon129",
+      "names": {
+        "en": "Splash Grenade"
+      },
+      "level": 22,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 200,
+      "speed": 0.5,
+      "accuracy": 0.5,
+      "radius": 8,
+      "life": 600,
+      "count": 20,
+      "reload": 360,
+      "fuse": 600
+    },
+    {
+      "id": "Weapon130",
+      "names": {
+        "en": "Sticky Grenade Prototype"
+      },
+      "level": 25,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 150,
+      "speed": 1,
+      "accuracy": 0.4,
+      "radius": 8,
+      "life": 240,
+      "count": 20,
+      "reload": 360,
+      "fuse": 240
+    },
+    {
+      "id": "Weapon131",
+      "names": {
+        "en": "UM4 Grenade Launcher"
+      },
+      "level": 28,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 5,
+      "damage": 450,
+      "speed": 1.5,
+      "radius": 9,
+      "life": 600,
+      "interval": 30,
+      "reload": 180,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon132",
+      "names": {
+        "en": "BRUTE-J Triple Grenade Launcher"
+      },
+      "level": 31,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 2,
+      "damage": 600,
+      "speed": 1.5,
+      "radius": 15,
+      "life": 240,
+      "count": 3,
+      "interval": 30,
+      "reload": 160,
+      "accuracy": 0,
+      "fuse": 240
+    },
+    {
+      "id": "Weapon133",
+      "names": {
+        "en": "Splash Grenade α"
+      },
+      "level": 37,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 1000,
+      "speed": 0.5,
+      "accuracy": 0.5,
+      "radius": 10,
+      "life": 600,
+      "count": 20,
+      "reload": 360,
+      "fuse": 600
+    },
+    {
+      "id": "Weapon134",
+      "names": {
+        "en": "BRUTE Triple Grenade Launcher"
+      },
+      "level": 42,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 2,
+      "damage": 600,
+      "speed": 1.5,
+      "radius": 9,
+      "life": 600,
+      "count": 3,
+      "interval": 30,
+      "reload": 240,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon135",
+      "names": {
+        "en": "Sticky Grenade"
+      },
+      "level": 46,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 400,
+      "speed": 1,
+      "accuracy": 0.4,
+      "radius": 10,
+      "life": 240,
+      "count": 20,
+      "reload": 360,
+      "fuse": 240
+    },
+    {
+      "id": "Weapon136",
+      "names": {
+        "en": "Stampede M2"
+      },
+      "level": 46,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 400,
+      "speed": 1,
+      "accuracy": 0.25,
+      "radius": 7,
+      "life": 1200,
+      "count": 25,
+      "interval": 30,
+      "reload": 360
+    },
+    {
+      "id": "Weapon137",
+      "names": {
+        "en": "CRUMBLE Twin Grenade Launcher"
+      },
+      "level": 52,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 2,
+      "damage": 1100,
+      "speed": 3,
+      "radius": 16,
+      "life": 600,
+      "count": 2,
+      "interval": 60,
+      "reload": 180,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon138",
+      "names": {
+        "en": "Sticky Grenade α"
+      },
+      "level": 62,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 5000,
+      "speed": 1.5,
+      "radius": 20,
+      "life": 240,
+      "reload": 180,
+      "accuracy": 0,
+      "fuse": 240
+    },
+    {
+      "id": "Weapon139",
+      "names": {
+        "en": "UMAX Grenade Launcher"
+      },
+      "level": 67,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 69,
+      "type": "GrenadeAmmo01",
+      "ammo": 4,
+      "damage": 2000,
+      "speed": 3,
+      "radius": 20,
+      "life": 600,
+      "interval": 60,
+      "reload": 300,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon140",
+      "names": {
+        "en": "Stampede XM"
+      },
+      "level": 71,
+      "character": "ranger",
+      "category": "grenade",
+      "odds": 50,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 1000,
+      "speed": 1,
+      "accuracy": 0.3,
+      "radius": 12,
+      "life": 1200,
+      "count": 30,
+      "interval": 30,
+      "reload": 360
+    },
+    {
+      "id": "Weapon141",
+      "names": {
+        "en": "Acid Shot Prototype"
+      },
+      "level": 7,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "AcidAmmo01",
+      "ammo": 20,
+      "damage": 10,
+      "speed": 0.3,
+      "accuracy": 0.1,
+      "life": 180,
+      "count": 6,
+      "interval": 30,
+      "reload": 180
+    },
+    {
+      "id": "Weapon142",
+      "names": {
+        "en": "Acid Gun"
+      },
+      "level": 20,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "AcidAmmo01",
+      "ammo": 300,
+      "damage": 15,
+      "speed": 0.6,
+      "accuracy": 0.02,
+      "life": 180,
+      "interval": 1,
+      "reload": 180
+    },
+    {
+      "id": "Weapon143",
+      "names": {
+        "en": "Acid Shot"
+      },
+      "level": 37,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "AcidAmmo01",
+      "ammo": 20,
+      "damage": 35,
+      "speed": 4,
+      "accuracy": 0.1,
+      "life": 60,
+      "count": 40,
+      "interval": 120,
+      "reload": 300
+    },
+    {
+      "id": "Weapon144",
+      "names": {
+        "en": "Wide Acid Gun"
+      },
+      "level": 52,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "AcidAmmo01",
+      "ammo": 20,
+      "damage": 37,
+      "speed": 0.6,
+      "accuracy": 0.02,
+      "life": 180,
+      "count": 20,
+      "interval": 30,
+      "reload": 180
+    },
+    {
+      "id": "Weapon145",
+      "names": {
+        "en": "Super Acid Gun"
+      },
+      "level": 57,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "AcidAmmo01",
+      "ammo": 300,
+      "damage": 55,
+      "speed": 0.9,
+      "accuracy": 0.02,
+      "life": 360,
+      "interval": 1,
+      "reload": 180
+    },
+    {
+      "id": "Weapon146",
+      "names": {
+        "en": "Torch"
+      },
+      "level": 0,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "FireAmmo01",
+      "ammo": 60,
+      "damage": 0.1,
+      "speed": 0.05,
+      "life": 4,
+      "interval": 15,
+      "reload": 180,
+      "accuracy": 0,
+      "piercing": true,
+      "duration": 4,
+      "continous": true
+    },
+    {
+      "id": "Weapon147",
+      "names": {
+        "en": "Flame Thrower"
+      },
+      "level": 5,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "FireAmmo01",
+      "ammo": 60,
+      "damage": 0.1,
+      "speed": 0.3,
+      "accuracy": 0.1,
+      "life": 60,
+      "interval": 15,
+      "reload": 180,
+      "piercing": true,
+      "duration": 60,
+      "continous": true
+    },
+    {
+      "id": "Weapon148",
+      "names": {
+        "en": "Flame Thrower α"
+      },
+      "level": 29,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "FireAmmo01",
+      "ammo": 180,
+      "damage": 0.4,
+      "speed": 0.6,
+      "accuracy": 0.1,
+      "life": 30,
+      "interval": 7,
+      "reload": 180,
+      "piercing": true,
+      "duration": 30,
+      "continous": true
+    },
+    {
+      "id": "Weapon149",
+      "names": {
+        "en": "Flame Cannon"
+      },
+      "level": 55,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "FireAmmo01",
+      "ammo": 60,
+      "damage": 0.9,
+      "speed": 1.4,
+      "life": 30,
+      "interval": 7,
+      "reload": 180,
+      "accuracy": 0,
+      "piercing": true,
+      "duration": 30,
+      "continous": true
+    },
+    {
+      "id": "Weapon150",
+      "names": {
+        "en": "Magma Cannon"
+      },
+      "level": 82,
+      "character": "ranger",
+      "category": "special",
+      "odds": 69,
+      "type": "FireAmmo01",
+      "ammo": 80,
+      "damage": 1.3,
+      "speed": 1.4,
+      "life": 30,
+      "interval": 7,
+      "reload": 180,
+      "accuracy": 0,
+      "piercing": true,
+      "duration": 30,
+      "continous": true
+    },
+    {
+      "id": "Weapon151",
+      "names": {
+        "en": "C24 Hand Bomb"
+      },
+      "level": 2,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "BombAmmo01",
+      "ammo": 5,
+      "damage": 450,
+      "speed": 0.4,
+      "radius": 10,
+      "life": -1,
+      "interval": 40,
+      "reload": 600,
+      "secondary": 2,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon152",
+      "names": {
+        "en": "C24 Bomb"
+      },
+      "level": 16,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "BombAmmo01",
+      "ammo": 5,
+      "damage": 1000,
+      "speed": 0.05,
+      "radius": 20,
+      "life": -1,
+      "interval": 40,
+      "reload": 600,
+      "secondary": 2,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon153",
+      "names": {
+        "en": "C25 Special Bomb"
+      },
+      "level": 33,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "BombAmmo01",
+      "ammo": 20,
+      "damage": 1500,
+      "speed": 0.05,
+      "radius": 15,
+      "life": -1,
+      "interval": 20,
+      "reload": 900,
+      "secondary": 2,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon154",
+      "names": {
+        "en": "C26 Bomb"
+      },
+      "level": 47,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "BombAmmo01",
+      "ammo": 5,
+      "damage": 6000,
+      "speed": 0.05,
+      "radius": 30,
+      "life": -1,
+      "interval": 40,
+      "reload": 600,
+      "secondary": 2,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon155",
+      "names": {
+        "en": "C70 Bomb"
+      },
+      "level": 65,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "BombAmmo01",
+      "ammo": 10,
+      "damage": 12000,
+      "speed": 0.05,
+      "radius": 40,
+      "life": -1,
+      "interval": 40,
+      "reload": 600,
+      "secondary": 2,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon156",
+      "names": {
+        "en": "Y10 Impulse"
+      },
+      "level": 7,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "BombAmmo01",
+      "ammo": 15,
+      "damage": 15,
+      "speed": 0.05,
+      "radius": 1,
+      "life": -1,
+      "interval": 20,
+      "reload": 1800,
+      "secondary": 2,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon157",
+      "names": {
+        "en": "Y10 Wide Impulse"
+      },
+      "level": 20,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "BombAmmo01",
+      "ammo": 20,
+      "damage": 17,
+      "speed": 0.05,
+      "radius": 1,
+      "life": -1,
+      "interval": 20,
+      "reload": 1800,
+      "secondary": 2,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon158",
+      "names": {
+        "en": "Y11 Impulse"
+      },
+      "level": 30,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "BombAmmo01",
+      "ammo": 30,
+      "damage": 20,
+      "speed": 0.05,
+      "radius": 1,
+      "life": -1,
+      "interval": 20,
+      "reload": 1800,
+      "secondary": 2,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon159",
+      "names": {
+        "en": "Y11 Anti-Aircraft Impulse"
+      },
+      "level": 44,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "BombAmmo01",
+      "ammo": 30,
+      "damage": 40,
+      "speed": 0.05,
+      "radius": 1,
+      "life": -1,
+      "interval": 20,
+      "reload": 1800,
+      "secondary": 2,
+      "accuracy": 0
+    },
+    {
+      "id": "BonusWeapon03",
+      "names": {
+        "en": "Y20 Impulse"
+      },
+      "level": 50,
+      "character": "ranger",
+      "category": "special",
+      "odds": 0,
+      "type": "BombAmmo01",
+      "ammo": 40,
+      "damage": 20,
+      "speed": 0.05,
+      "radius": 1,
+      "life": -1,
+      "interval": 20,
+      "reload": 1800,
+      "secondary": 2,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon160",
+      "names": {
+        "en": "Y21 Impulse"
+      },
+      "level": 75,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "BombAmmo01",
+      "ammo": 20,
+      "damage": 125,
+      "speed": 0.05,
+      "radius": 1,
+      "life": -1,
+      "interval": 20,
+      "reload": 1800,
+      "secondary": 2,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon161",
+      "names": {
+        "en": "ZE-GUN"
+      },
+      "level": 6,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "CentryGun01",
+      "ammo": 2,
+      "damage": 20,
+      "speed": 10,
+      "life": 10,
+      "interval": 40,
+      "reload": 1200,
+      "secondary": 2,
+      "accuracy": 0,
+      "searchRange": 150,
+      "shots": 150,
+      "shotInterval": 8,
+      "turnRate": 10
+    },
+    {
+      "id": "Weapon162",
+      "names": {
+        "en": "ZER-GUN"
+      },
+      "level": 12,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "CentryGun01",
+      "ammo": 1,
+      "damage": 4.5,
+      "speed": 20,
+      "life": 10,
+      "interval": 40,
+      "reload": 1200,
+      "secondary": 2,
+      "accuracy": 0,
+      "searchRange": 150,
+      "shots": 400,
+      "shotInterval": 4,
+      "turnRate": 20
+    },
+    {
+      "id": "Weapon163",
+      "names": {
+        "en": "ZE Sniper"
+      },
+      "level": 19,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "CentryGun01",
+      "ammo": 2,
+      "damage": 50,
+      "speed": 10,
+      "life": 80,
+      "interval": 40,
+      "reload": 1200,
+      "secondary": 2,
+      "accuracy": 0,
+      "searchRange": 800,
+      "shots": 20,
+      "shotInterval": 120,
+      "turnRate": 10
+    },
+    {
+      "id": "BonusWeapon02",
+      "names": {
+        "en": "ZE Launcher"
+      },
+      "level": 25,
+      "character": "ranger",
+      "category": "special",
+      "odds": 0,
+      "type": "CentryGun01",
+      "ammo": 2,
+      "damage": 200,
+      "speed": 0.1,
+      "radius": 5,
+      "life": 80,
+      "interval": 40,
+      "reload": 1200,
+      "secondary": 2,
+      "accuracy": 0,
+      "searchRange": 150,
+      "shots": 15,
+      "shotInterval": 120,
+      "turnRate": 0.10000000149011612
+    },
+    {
+      "id": "Weapon164",
+      "names": {
+        "en": "ZERA-GUN"
+      },
+      "level": 45,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "CentryGun01",
+      "ammo": 1,
+      "damage": 40,
+      "speed": 20,
+      "life": 10,
+      "interval": 40,
+      "reload": 1200,
+      "secondary": 2,
+      "accuracy": 0,
+      "searchRange": 150,
+      "shots": 400,
+      "shotInterval": 4,
+      "turnRate": 20
+    },
+    {
+      "id": "Weapon165",
+      "names": {
+        "en": "ZE-GUN5"
+      },
+      "level": 67,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "CentryGun01",
+      "ammo": 5,
+      "damage": 80,
+      "speed": 10,
+      "life": 10,
+      "interval": 40,
+      "reload": 1200,
+      "secondary": 2,
+      "accuracy": 0,
+      "searchRange": 150,
+      "shots": 100,
+      "shotInterval": 16,
+      "turnRate": 10
+    },
+    {
+      "id": "Weapon166",
+      "names": {
+        "en": "ZEX Launcher"
+      },
+      "level": 72,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "CentryGun01",
+      "ammo": 2,
+      "damage": 900,
+      "speed": 1,
+      "radius": 15,
+      "life": 80,
+      "interval": 40,
+      "reload": 1200,
+      "secondary": 2,
+      "accuracy": 0,
+      "searchRange": 150,
+      "shots": 30,
+      "shotInterval": 60,
+      "turnRate": 1
+    },
+    {
+      "id": "Weapon167",
+      "names": {
+        "en": "ZEXR-GUN"
+      },
+      "level": 80,
+      "character": "ranger",
+      "category": "special",
+      "odds": 50,
+      "type": "CentryGun01",
+      "ammo": 2,
+      "damage": 70,
+      "speed": 20,
+      "life": 10,
+      "interval": 40,
+      "reload": 1200,
+      "secondary": 2,
+      "accuracy": 0,
+      "searchRange": 150,
+      "shots": 375,
+      "shotInterval": 4,
+      "turnRate": 20
+    },
+    {
+      "id": "Weapon168",
+      "names": {
+        "en": "Firecracker 1"
+      },
+      "level": 5,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 30,
+      "speed": 0.5,
+      "accuracy": 0.3,
+      "radius": 1,
+      "life": 600,
+      "count": 10,
+      "interval": 120
+    },
+    {
+      "id": "Weapon169",
+      "names": {
+        "en": "Firecracker 2"
+      },
+      "level": 18,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 50,
+      "speed": 0.5,
+      "accuracy": 0.3,
+      "radius": 1,
+      "life": 600,
+      "count": 30,
+      "interval": 120
+    },
+    {
+      "id": "Weapon170",
+      "names": {
+        "en": "Firecracker 3"
+      },
+      "level": 25,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 100,
+      "speed": 0.7,
+      "accuracy": 0.3,
+      "radius": 2,
+      "life": 600,
+      "count": 30,
+      "interval": 120
+    },
+    {
+      "id": "Weapon171",
+      "names": {
+        "en": "Firecracker 4"
+      },
+      "level": 42,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 90,
+      "speed": 0.7,
+      "accuracy": 0.3,
+      "radius": 1,
+      "life": 600,
+      "count": 60,
+      "interval": 120
+    },
+    {
+      "id": "Weapon172",
+      "names": {
+        "en": "Burst Firecracker"
+      },
+      "level": 55,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 1,
+      "damage": 320,
+      "speed": 0.7,
+      "accuracy": 0.3,
+      "radius": 4,
+      "life": 600,
+      "count": 30,
+      "interval": 120
+    },
+    {
+      "id": "Weapon173",
+      "names": {
+        "en": "P78 Bound Gun"
+      },
+      "level": 3,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 120,
+      "damage": 12,
+      "speed": 2,
+      "accuracy": 0.05,
+      "life": 110,
+      "interval": 5,
+      "reload": 90
+    },
+    {
+      "id": "Weapon174",
+      "names": {
+        "en": "P79 Bound Gun"
+      },
+      "level": 10,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 200,
+      "damage": 8,
+      "speed": 2,
+      "accuracy": 0.2,
+      "life": 120,
+      "interval": 2,
+      "reload": 150
+    },
+    {
+      "id": "Weapon175",
+      "names": {
+        "en": "P80 Bound Gun"
+      },
+      "level": 33,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 120,
+      "damage": 28,
+      "speed": 2.5,
+      "accuracy": 0.03,
+      "life": 130,
+      "interval": 4,
+      "reload": 90
+    },
+    {
+      "id": "Weapon176",
+      "names": {
+        "en": "P89 Bound Gun"
+      },
+      "level": 58,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "SolidAmmo01",
+      "ammo": 30,
+      "damage": 200,
+      "speed": 0.1,
+      "accuracy": 0.05,
+      "life": 900,
+      "interval": 5,
+      "reload": 180
+    },
+    {
+      "id": "BonusWeapon04",
+      "names": {
+        "en": "PX50 Bound Shot"
+      },
+      "level": 75,
+      "character": "ranger",
+      "category": "special",
+      "odds": 0,
+      "type": "SolidAmmo01",
+      "ammo": 8,
+      "damage": 40,
+      "speed": 3,
+      "accuracy": 0.25,
+      "life": 180,
+      "count": 50,
+      "interval": 60,
+      "reload": 360
+    },
+    {
+      "id": "FirstBonusWeapon01",
+      "names": {
+        "en": "Electro Paralyzer"
+      },
+      "level": 3,
+      "character": "ranger",
+      "category": "special",
+      "odds": 0,
+      "type": "StunAmmo01",
+      "ammo": 5,
+      "speed": 2,
+      "accuracy": 0.01,
+      "life": 40,
+      "count": 3,
+      "interval": 60,
+      "reload": 180,
+      "duration": 420
+    },
+    {
+      "id": "Weapon177",
+      "names": {
+        "en": "Killer Drone"
+      },
+      "level": 9,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "MissileAmmo01",
+      "ammo": 1,
+      "damage": 600,
+      "speed": 0.1,
+      "accuracy": 0.01,
+      "radius": 16,
+      "life": 2400,
+      "reload": 420
+    },
+    {
+      "id": "Weapon178",
+      "names": {
+        "en": "Hypnotizer"
+      },
+      "level": 13,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "StunAmmo01",
+      "ammo": 10,
+      "speed": 8,
+      "accuracy": 0.01,
+      "life": 80,
+      "interval": 30,
+      "reload": 300,
+      "secondary": 1,
+      "zoom": 4,
+      "duration": 1200
+    },
+    {
+      "id": "Weapon179",
+      "names": {
+        "en": "Aurora Terrorizer"
+      },
+      "level": 21,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "StunAmmo01",
+      "ammo": 8,
+      "speed": 3,
+      "accuracy": 0.01,
+      "radius": 3,
+      "life": 40,
+      "count": 5,
+      "interval": 30,
+      "reload": 300,
+      "duration": 720
+    },
+    {
+      "id": "Weapon180",
+      "names": {
+        "en": "Rapid Paralyzer"
+      },
+      "level": 28,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "StunAmmo01",
+      "ammo": 100,
+      "speed": 5,
+      "accuracy": 0.01,
+      "radius": 2,
+      "life": 20,
+      "interval": 4,
+      "reload": 240,
+      "duration": 75
+    },
+    {
+      "id": "Weapon181",
+      "names": {
+        "en": "Terrorizer ST"
+      },
+      "level": 33,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "StunAmmo01",
+      "ammo": 10,
+      "speed": 8,
+      "accuracy": 0.01,
+      "life": 80,
+      "interval": 60,
+      "reload": 460,
+      "secondary": 1,
+      "zoom": 6,
+      "duration": 1500
+    },
+    {
+      "id": "Weapon182",
+      "names": {
+        "en": "Burst Hypnotizer"
+      },
+      "level": 37,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "StunAmmo01",
+      "ammo": 6,
+      "speed": 4,
+      "accuracy": 0.01,
+      "radius": 10,
+      "life": 80,
+      "interval": 60,
+      "reload": 480,
+      "secondary": 1,
+      "zoom": 4,
+      "duration": 600
+    },
+    {
+      "id": "Weapon183",
+      "names": {
+        "en": "Killer Drone Fleet"
+      },
+      "level": 47,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "MissileAmmo01",
+      "ammo": 1,
+      "damage": 300,
+      "speed": 0.1,
+      "accuracy": 0.01,
+      "radius": 18,
+      "life": 2400,
+      "count": 5,
+      "interval": 1,
+      "reload": 420
+    },
+    {
+      "id": "Weapon184",
+      "names": {
+        "en": "Aurora Hypnotizer"
+      },
+      "level": 50,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "StunAmmo01",
+      "ammo": 30,
+      "speed": 10,
+      "accuracy": 0.01,
+      "life": 10,
+      "count": 10,
+      "interval": 16,
+      "reload": 480,
+      "duration": 240
+    },
+    {
+      "id": "Weapon185",
+      "names": {
+        "en": "Dread Drone"
+      },
+      "level": 60,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "MissileAmmo01",
+      "ammo": 2,
+      "damage": 500,
+      "speed": 0.1,
+      "accuracy": 0.01,
+      "radius": 50,
+      "life": 2400,
+      "interval": 120,
+      "reload": 420
+    },
+    {
+      "id": "Weapon186",
+      "names": {
+        "en": "High-Burst Paralyzer"
+      },
+      "level": 67,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "StunAmmo01",
+      "ammo": 3,
+      "speed": 4,
+      "accuracy": 0.01,
+      "radius": 25,
+      "life": 200,
+      "interval": 60,
+      "reload": 900,
+      "secondary": 1,
+      "zoom": 6,
+      "duration": 420
+    },
+    {
+      "id": "Weapon187",
+      "names": {
+        "en": "Aurora Terrorizer G"
+      },
+      "level": 71,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "StunAmmo01",
+      "ammo": 7,
+      "speed": 8,
+      "accuracy": 0.01,
+      "radius": 5,
+      "life": 10,
+      "count": 8,
+      "interval": 60,
+      "reload": 360,
+      "duration": 480
+    },
+    {
+      "id": "Weapon188",
+      "names": {
+        "en": "Killer Assault Fleet"
+      },
+      "level": 72,
+      "character": "ranger",
+      "category": "special",
+      "odds": 100,
+      "type": "MissileAmmo01",
+      "ammo": 1,
+      "damage": 1500,
+      "speed": 0.1,
+      "accuracy": 0.01,
+      "radius": 30,
+      "life": 2400,
+      "count": 5,
+      "interval": 1,
+      "reload": 420
+    },
+    {
+      "id": "Weapon189",
+      "names": {
+        "en": "Aurora Hypnotizer GX"
+      },
+      "level": 84,
+      "character": "ranger",
+      "category": "special",
+      "odds": 40,
+      "type": "StunAmmo01",
+      "ammo": 40,
+      "speed": 8,
+      "accuracy": 0.01,
+      "life": 16,
+      "count": 10,
+      "interval": 16,
+      "reload": 420,
+      "duration": 120
+    },
+    {
+      "id": "Weapon190",
+      "names": {
+        "en": "Terrorizer SX"
+      },
+      "level": 87,
+      "character": "ranger",
+      "category": "special",
+      "odds": 30,
+      "type": "StunAmmo01",
+      "ammo": 8,
+      "speed": 20,
+      "accuracy": 0.01,
+      "life": 35,
+      "interval": 60,
+      "reload": 300,
+      "secondary": 1,
+      "zoom": 5,
+      "duration": 1800
+    },
+    {
+      "id": "Weapon191",
+      "names": {
+        "en": "Maximum Paralyzer"
+      },
+      "level": 93,
+      "character": "ranger",
+      "category": "special",
+      "odds": 30,
+      "type": "StunAmmo01",
+      "ammo": 200,
+      "speed": 10,
+      "accuracy": 0.01,
+      "radius": 5,
+      "life": 20,
+      "interval": 3,
+      "reload": 460,
+      "duration": 120
+    },
+    {
+      "id": "Repair01",
+      "names": {
+        "en": "Reverser M1"
+      },
+      "level": 1,
+      "character": "ranger",
+      "odds": 100,
+      "type": "RepairAmmo01",
+      "ammo": 80,
+      "damage": -0.8,
+      "speed": 0.1,
+      "accuracy": 0.1,
+      "life": 20,
+      "interval": 12,
+      "reload": -1
+    },
+    {
+      "id": "Repair02",
+      "names": {
+        "en": "Aerial Reverser 1"
+      },
+      "level": 7,
+      "character": "ranger",
+      "odds": 100,
+      "type": "RepairAmmo01",
+      "ammo": 5,
+      "damage": -0.1,
+      "speed": 0.1,
+      "accuracy": 0.1,
+      "life": 3600,
+      "interval": 1800,
+      "reload": -1
+    },
+    {
+      "id": "Repair03",
+      "names": {
+        "en": "Reverse Gun"
+      },
+      "level": 12,
+      "character": "ranger",
+      "odds": 100,
+      "type": "RepairAmmo02",
+      "ammo": 40,
+      "damage": -40,
+      "speed": 10,
+      "accuracy": 0.001,
+      "radius": 1,
+      "life": 1200,
+      "interval": 60,
+      "reload": -1,
+      "secondary": 1,
+      "zoom": 8
+    },
+    {
+      "id": "Repair04",
+      "names": {
+        "en": "Aerial Reverser 2"
+      },
+      "level": 20,
+      "character": "ranger",
+      "odds": 100,
+      "type": "RepairAmmo01",
+      "ammo": 4,
+      "damage": -0.3,
+      "speed": 0.1,
+      "accuracy": 0.1,
+      "life": 3600,
+      "interval": 1800,
+      "reload": -1
+    },
+    {
+      "id": "Repair05",
+      "names": {
+        "en": "Reverser M2"
+      },
+      "level": 28,
+      "character": "ranger",
+      "odds": 100,
+      "type": "RepairAmmo01",
+      "ammo": 160,
+      "damage": -1.6,
+      "speed": 0.1,
+      "accuracy": 0.1,
+      "life": 20,
+      "interval": 12,
+      "reload": -1
+    },
+    {
+      "id": "Repair06",
+      "names": {
+        "en": "Reverse Shooter T1"
+      },
+      "level": 35,
+      "character": "ranger",
+      "odds": 100,
+      "type": "RepairAmmo02",
+      "ammo": 5,
+      "damage": -1000,
+      "speed": 10,
+      "accuracy": 0.001,
+      "radius": 15,
+      "life": 1200,
+      "interval": 60,
+      "reload": -1,
+      "secondary": 1,
+      "zoom": 8
+    },
+    {
+      "id": "Repair07",
+      "names": {
+        "en": "Reverser M3"
+      },
+      "level": 42,
+      "character": "ranger",
+      "odds": 100,
+      "type": "RepairAmmo01",
+      "ammo": 110,
+      "damage": -8.8,
+      "speed": 0.2,
+      "accuracy": 0.1,
+      "life": 20,
+      "interval": 12,
+      "reload": -1
+    },
+    {
+      "id": "Repair08",
+      "names": {
+        "en": "Reverse Bomber"
+      },
+      "level": 47,
+      "character": "ranger",
+      "odds": 100,
+      "type": "RepairAmmo02",
+      "ammo": 5,
+      "damage": -300,
+      "speed": 1,
+      "accuracy": 0.3,
+      "radius": 10,
+      "life": 1200,
+      "count": 10,
+      "interval": 60,
+      "reload": -1,
+      "secondary": 1,
+      "zoom": 8
+    },
+    {
+      "id": "Repair09",
+      "names": {
+        "en": "Reverse Shooter T2"
+      },
+      "level": 55,
+      "character": "ranger",
+      "odds": 100,
+      "type": "RepairAmmo02",
+      "ammo": 8,
+      "damage": -1600,
+      "speed": 10,
+      "accuracy": 0.001,
+      "radius": 20,
+      "life": 1200,
+      "interval": 60,
+      "reload": -1,
+      "secondary": 1,
+      "zoom": 6
+    },
+    {
+      "id": "Repair10",
+      "names": {
+        "en": "Aerial Reverser 3"
+      },
+      "level": 62,
+      "character": "ranger",
+      "odds": 100,
+      "type": "RepairAmmo01",
+      "ammo": 5,
+      "damage": -0.5,
+      "speed": 0.1,
+      "accuracy": 0.1,
+      "life": 3600,
+      "interval": 1800,
+      "reload": -1
+    },
+    {
+      "id": "Repair11",
+      "names": {
+        "en": "Reverser X"
+      },
+      "level": 70,
+      "character": "ranger",
+      "odds": 60,
+      "type": "RepairAmmo01",
+      "ammo": 100,
+      "damage": -16,
+      "speed": 0.2,
+      "accuracy": 0.1,
+      "life": 20,
+      "interval": 12,
+      "reload": -1
+    },
+    {
+      "id": "Repair12",
+      "names": {
+        "en": "Reverse Shooter X"
+      },
+      "level": 77,
+      "character": "ranger",
+      "odds": 40,
+      "type": "RepairAmmo02",
+      "ammo": 10,
+      "damage": -3000,
+      "speed": 10,
+      "accuracy": 0.001,
+      "radius": 45,
+      "life": 1200,
+      "interval": 60,
+      "reload": -1,
+      "secondary": 1,
+      "zoom": 6
+    },
+    {
+      "id": "Repair13",
+      "names": {
+        "en": "Aerial Reverser X"
+      },
+      "level": 82,
+      "character": "ranger",
+      "odds": 20,
+      "type": "RepairAmmo01",
+      "ammo": 6,
+      "damage": -0.5,
+      "speed": 0.1,
+      "accuracy": 0.1,
+      "life": 3600,
+      "interval": 1800,
+      "reload": -1
+    },
+    {
+      "id": "FirstBonusWeapon03",
+      "names": {
+        "en": "Reverse Drone"
+      },
+      "level": 3,
+      "character": "ranger",
+      "odds": 0,
+      "type": "MissileAmmo01",
+      "ammo": 8,
+      "damage": -100,
+      "speed": 0.01,
+      "accuracy": 0.001,
+      "radius": 4,
+      "life": 1200,
+      "interval": 120,
+      "reload": -1,
+      "secondary": 1,
+      "zoom": 6
+    },
+    {
+      "id": "Weapon192",
+      "names": {
+        "en": "Reverse Drone Fleet"
+      },
+      "level": 37,
+      "character": "ranger",
+      "odds": 100,
+      "type": "MissileAmmo01",
+      "ammo": 12,
+      "damage": -100,
+      "speed": 0.01,
+      "accuracy": 0.001,
+      "radius": 5,
+      "life": 1200,
+      "count": 12,
+      "interval": 120,
+      "reload": -1,
+      "secondary": 1,
+      "zoom": 6
+    },
+    {
+      "id": "Weapon193",
+      "names": {
+        "en": "Reverse Burst Drone"
+      },
+      "level": 50,
+      "character": "ranger",
+      "odds": 100,
+      "type": "MissileAmmo01",
+      "ammo": 8,
+      "damage": -1000,
+      "speed": 0.01,
+      "accuracy": 0.001,
+      "radius": 8,
+      "life": 1200,
+      "interval": 120,
+      "reload": -1,
+      "secondary": 1,
+      "zoom": 6
+    },
+    {
+      "id": "Weapon194",
+      "names": {
+        "en": "Reverse Assault Fleet"
+      },
+      "level": 87,
+      "character": "ranger",
+      "odds": 50,
+      "type": "MissileAmmo01",
+      "ammo": 8,
+      "damage": -250,
+      "speed": 0.01,
+      "accuracy": 0.001,
+      "radius": 5,
+      "life": 1200,
+      "count": 8,
+      "interval": 120,
+      "reload": -1,
+      "secondary": 1,
+      "zoom": 6
+    },
+    {
+      "id": "FirstBonusWeapon04",
+      "names": {
+        "en": "Limit Booster"
+      },
+      "level": 3,
+      "character": "ranger",
+      "odds": 0,
+      "type": "GrenadeAmmo01",
+      "ammo": 4,
+      "damage": 60,
+      "speed": 0.7,
+      "radius": 5,
+      "life": 1200,
+      "interval": 60,
+      "reload": -1,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon195",
+      "names": {
+        "en": "Limit Booster A1"
+      },
+      "level": 11,
+      "character": "ranger",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 4,
+      "damage": 70,
+      "speed": 0.7,
+      "radius": 5,
+      "life": 1200,
+      "interval": 60,
+      "reload": -1,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon196",
+      "names": {
+        "en": "Limit Booster A2"
+      },
+      "level": 36,
+      "character": "ranger",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 5,
+      "damage": 80,
+      "speed": 0.7,
+      "radius": 5,
+      "life": 1200,
+      "interval": 60,
+      "reload": -1,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon197",
+      "names": {
+        "en": "Limit Booster A3"
+      },
+      "level": 61,
+      "character": "ranger",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 5,
+      "damage": 100,
+      "speed": 0.7,
+      "radius": 5,
+      "life": 1200,
+      "interval": 60,
+      "reload": -1,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon198",
+      "names": {
+        "en": "Limit Booster A4"
+      },
+      "level": 86,
+      "character": "ranger",
+      "odds": 40,
+      "type": "GrenadeAmmo01",
+      "ammo": 6,
+      "damage": 120,
+      "speed": 0.7,
+      "radius": 5,
+      "life": 1200,
+      "interval": 60,
+      "reload": -1,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon199",
+      "names": {
+        "en": "Tempshield A1"
+      },
+      "level": 17,
+      "character": "ranger",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 4,
+      "damage": 90,
+      "speed": 0.7,
+      "radius": 10,
+      "life": 1200,
+      "interval": 60,
+      "reload": -1,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon200",
+      "names": {
+        "en": "Tempshield A2"
+      },
+      "level": 42,
+      "character": "ranger",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 4,
+      "damage": 100,
+      "speed": 0.7,
+      "radius": 20,
+      "life": 1200,
+      "interval": 60,
+      "reload": -1,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon201",
+      "names": {
+        "en": "Tempshield A3"
+      },
+      "level": 67,
+      "character": "ranger",
+      "odds": 100,
+      "type": "GrenadeAmmo01",
+      "ammo": 5,
+      "damage": 100,
+      "speed": 0.7,
+      "radius": 30,
+      "life": 1200,
+      "interval": 60,
+      "reload": -1,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon202",
+      "names": {
+        "en": "Tempshield A4"
+      },
+      "level": 92,
+      "character": "ranger",
+      "odds": 40,
+      "type": "GrenadeAmmo01",
+      "ammo": 5,
+      "damage": 100,
+      "speed": 0.7,
+      "radius": 40,
+      "life": 1200,
+      "interval": 60,
+      "reload": -1,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon203",
+      "names": {
+        "en": "Rescue Drone"
+      },
+      "level": 19,
+      "character": "ranger",
+      "odds": 100,
+      "type": "MissileAmmo01",
+      "ammo": 4,
+      "damage": 0.3,
+      "speed": 0.1,
+      "radius": 4,
+      "life": 2400,
+      "interval": 180,
+      "reload": -1,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon204",
+      "names": {
+        "en": "Rescue Drone M2"
+      },
+      "level": 44,
+      "character": "ranger",
+      "odds": 100,
+      "type": "MissileAmmo01",
+      "ammo": 5,
+      "damage": 0.4,
+      "speed": 0.1,
+      "radius": 4,
+      "life": 2400,
+      "interval": 180,
+      "reload": -1,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon205",
+      "names": {
+        "en": "Rescue Drone M3"
+      },
+      "level": 69,
+      "character": "ranger",
+      "odds": 100,
+      "type": "MissileAmmo01",
+      "ammo": 6,
+      "damage": 0.4,
+      "speed": 0.1,
+      "radius": 5,
+      "life": 2400,
+      "interval": 180,
+      "reload": -1,
+      "accuracy": 0
+    },
+    {
+      "id": "Weapon206",
+      "names": {
+        "en": "Rescue Drone M4"
+      },
+      "level": 94,
+      "character": "ranger",
+      "odds": 50,
+      "type": "MissileAmmo01",
+      "ammo": 7,
+      "damage": 0.5,
+      "speed": 0.1,
+      "radius": 5,
+      "life": 2400,
+      "interval": 180,
+      "reload": -1,
+      "accuracy": 0
+    },
+    {
+      "id": "EnergyRapier01",
+      "names": {
+        "en": "Rapier"
+      },
+      "level": 0,
+      "character": "winger",
+      "category": "short",
+      "odds": 0,
+      "type": "LaserAmmo02",
+      "ammo": 500,
+      "damage": 1,
+      "speed": 10,
+      "accuracy": 0.6,
+      "energy": 25,
+      "life": 1,
+      "count": 6,
+      "interval": 1,
+      "reload": 30
+    },
+    {
+      "id": "energylance01",
+      "names": {
+        "en": "Laser Lance"
+      },
+      "level": 0,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 10,
+      "damage": 200,
+      "speed": 8,
+      "energy": 20,
+      "life": 5,
+      "interval": 60,
+      "reload": 120,
+      "accuracy": 0
+    },
+    {
+      "id": "energyrapier02",
+      "names": {
+        "en": "Rapier Thrust"
+      },
+      "level": 5,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 500,
+      "damage": 1,
+      "speed": 10,
+      "accuracy": 0.1,
+      "energy": 25,
+      "life": 1,
+      "count": 6,
+      "interval": 1,
+      "reload": 30
+    },
+    {
+      "id": "energylance02",
+      "names": {
+        "en": "Laser Lance B"
+      },
+      "level": 7,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 10,
+      "damage": 400,
+      "speed": 10.5,
+      "energy": 21,
+      "life": 5,
+      "interval": 60,
+      "reload": 150,
+      "accuracy": 0
+    },
+    {
+      "id": "energyrapier03",
+      "names": {
+        "en": "M2 Rapier"
+      },
+      "level": 10,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 500,
+      "damage": 2,
+      "speed": 10,
+      "accuracy": 0.6,
+      "energy": 28,
+      "life": 1,
+      "count": 6,
+      "interval": 1,
+      "reload": 30
+    },
+    {
+      "id": "energylance02w",
+      "names": {
+        "en": "2-Way Lance"
+      },
+      "level": 12,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 10,
+      "damage": 250,
+      "speed": 10,
+      "energy": 23,
+      "life": 5,
+      "count": 2,
+      "interval": 60,
+      "reload": 120,
+      "accuracy": 0
+    },
+    {
+      "id": "energylance04",
+      "names": {
+        "en": "Battle Ram"
+      },
+      "level": 15,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1,
+      "damage": 2000,
+      "speed": 13,
+      "energy": 20,
+      "life": 5,
+      "reload": 150,
+      "accuracy": 0
+    },
+    {
+      "id": "energylance03",
+      "names": {
+        "en": "Laser Lance R Custom"
+      },
+      "level": 17,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 15,
+      "damage": 400,
+      "speed": 10.5,
+      "accuracy": 0.1,
+      "energy": 20,
+      "life": 5,
+      "interval": 30,
+      "reload": 180
+    },
+    {
+      "id": "energyrapier04",
+      "names": {
+        "en": "M3 Rapier Thrust"
+      },
+      "level": 20,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 600,
+      "damage": 3,
+      "speed": 10,
+      "accuracy": 0.1,
+      "energy": 22,
+      "life": 1,
+      "count": 6,
+      "interval": 1,
+      "reload": 30
+    },
+    {
+      "id": "energylance05",
+      "names": {
+        "en": "MX Laser Lance"
+      },
+      "level": 25,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 10,
+      "damage": 900,
+      "speed": 12,
+      "energy": 100,
+      "life": 5,
+      "interval": 60,
+      "reload": 1800,
+      "accuracy": 0
+    },
+    {
+      "id": "energyrapier05",
+      "names": {
+        "en": "Plasma Whip"
+      },
+      "level": 30,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 2500,
+      "damage": 2,
+      "speed": 25,
+      "accuracy": 1.5,
+      "energy": 120,
+      "life": 1,
+      "count": 10,
+      "interval": 1,
+      "reload": 120
+    },
+    {
+      "id": "energylance06",
+      "names": {
+        "en": "Laser Lance C"
+      },
+      "level": 30,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 10,
+      "damage": 1200,
+      "speed": 7,
+      "energy": 25,
+      "life": 5,
+      "interval": 60,
+      "reload": 120,
+      "accuracy": 0
+    },
+    {
+      "id": "energylance06w",
+      "names": {
+        "en": "3-Way Lance"
+      },
+      "level": 32,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 10,
+      "damage": 390,
+      "speed": 9,
+      "energy": 30,
+      "life": 5,
+      "count": 3,
+      "interval": 60,
+      "reload": 240,
+      "accuracy": 0
+    },
+    {
+      "id": "energyrapier06",
+      "names": {
+        "en": "MX Rapier"
+      },
+      "level": 35,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 600,
+      "damage": 6,
+      "speed": 10,
+      "accuracy": 0.25,
+      "energy": 100,
+      "life": 1,
+      "count": 6,
+      "interval": 1,
+      "reload": 1200
+    },
+    {
+      "id": "energylance07",
+      "names": {
+        "en": "Burst Lance"
+      },
+      "level": 40,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 20,
+      "damage": 1800,
+      "speed": 12,
+      "energy": 70,
+      "life": 5,
+      "interval": 60,
+      "reload": 210,
+      "accuracy": 0
+    },
+    {
+      "id": "energyrapier07",
+      "names": {
+        "en": "Rapier G Thrust"
+      },
+      "level": 45,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 400,
+      "damage": 9,
+      "speed": 12,
+      "accuracy": 0.15,
+      "energy": 12,
+      "life": 1,
+      "count": 6,
+      "interval": 1,
+      "reload": 60
+    },
+    {
+      "id": "energylance08",
+      "names": {
+        "en": "Laser Lance X"
+      },
+      "level": 50,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 10,
+      "damage": 2700,
+      "speed": 10.5,
+      "energy": 20,
+      "life": 5,
+      "interval": 60,
+      "reload": 180,
+      "accuracy": 0
+    },
+    {
+      "id": "energyrapier08",
+      "names": {
+        "en": "Rapier G Thrust 2"
+      },
+      "level": 52,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 600,
+      "damage": 14,
+      "speed": 10,
+      "accuracy": 0.15,
+      "energy": 28,
+      "life": 1,
+      "count": 6,
+      "interval": 1,
+      "reload": 300
+    },
+    {
+      "id": "energyrapier09",
+      "names": {
+        "en": "Plasma Whip S"
+      },
+      "level": 57,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 2000,
+      "damage": 4,
+      "speed": 25,
+      "accuracy": 1.5,
+      "energy": 120,
+      "life": 1,
+      "count": 20,
+      "interval": 1,
+      "reload": 120
+    },
+    {
+      "id": "energylance09",
+      "names": {
+        "en": "Demonic Lance"
+      },
+      "level": 60,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1,
+      "damage": 15000,
+      "speed": 13.5,
+      "energy": 30,
+      "life": 5,
+      "reload": 180,
+      "accuracy": 0
+    },
+    {
+      "id": "energylance09w",
+      "names": {
+        "en": "4-Way Lance"
+      },
+      "level": 62,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 11,
+      "damage": 1100,
+      "speed": 8,
+      "energy": 26,
+      "life": 5,
+      "count": 4,
+      "interval": 60,
+      "reload": 240,
+      "accuracy": 0
+    },
+    {
+      "id": "energyrapier10",
+      "names": {
+        "en": "Plasma Broom"
+      },
+      "level": 65,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 600,
+      "damage": 10,
+      "speed": 10,
+      "accuracy": 0.1,
+      "energy": 34,
+      "life": 1,
+      "count": 10,
+      "interval": 1,
+      "reload": 180
+    },
+    {
+      "id": "energyrapier11",
+      "names": {
+        "en": "Master Rapier"
+      },
+      "level": 72,
+      "character": "winger",
+      "category": "short",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 800,
+      "damage": 14,
+      "speed": 10,
+      "accuracy": 0.5,
+      "energy": 26,
+      "life": 1,
+      "count": 15,
+      "interval": 1,
+      "reload": 30
+    },
+    {
+      "id": "energylance10",
+      "names": {
+        "en": "Laser Lance Σ"
+      },
+      "level": 75,
+      "character": "winger",
+      "category": "short",
+      "odds": 50,
+      "type": "LaserAmmo02",
+      "ammo": 10,
+      "damage": 5000,
+      "speed": 13.5,
+      "energy": 16,
+      "life": 5,
+      "interval": 40,
+      "reload": 90,
+      "accuracy": 0
+    },
+    {
+      "id": "energylance11w",
+      "names": {
+        "en": "Sacred Lance"
+      },
+      "level": 80,
+      "character": "winger",
+      "category": "short",
+      "odds": 30,
+      "type": "LaserAmmo02",
+      "ammo": 11,
+      "damage": 800,
+      "speed": 8,
+      "energy": 26,
+      "life": 5,
+      "count": 12,
+      "interval": 60,
+      "reload": 240,
+      "accuracy": 0
+    },
+    {
+      "id": "energyrapier12",
+      "names": {
+        "en": "Master Rapier T"
+      },
+      "level": 82,
+      "character": "winger",
+      "category": "short",
+      "odds": 20,
+      "type": "LaserAmmo02",
+      "ammo": 800,
+      "damage": 14,
+      "speed": 10,
+      "accuracy": 0.1,
+      "energy": 26,
+      "life": 1,
+      "count": 15,
+      "interval": 1,
+      "reload": 30
+    },
+    {
+      "id": "energylance100",
+      "names": {
+        "en": "Luonnotar"
+      },
+      "level": 90,
+      "character": "winger",
+      "category": "short",
+      "odds": 20,
+      "type": "LaserAmmo02",
+      "ammo": 10,
+      "damage": 1600,
+      "speed": 9,
+      "energy": 30,
+      "life": 5,
+      "count": 6,
+      "interval": 40,
+      "reload": 180,
+      "accuracy": 0
+    },
+    {
+      "id": "energylance101",
+      "names": {
+        "en": "Hreidmarr"
+      },
+      "level": 92,
+      "character": "winger",
+      "category": "short",
+      "odds": 10,
+      "type": "LaserAmmo02",
+      "ammo": 12,
+      "damage": 6000,
+      "speed": 18,
+      "energy": 25,
+      "life": 5,
+      "interval": 40,
+      "reload": 90,
+      "accuracy": 0
+    },
+    {
+      "id": "energylaser01",
+      "names": {
+        "en": "LAZR-197"
+      },
+      "level": 0,
+      "character": "winger",
+      "category": "laser",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1000,
+      "damage": 1,
+      "speed": 60,
+      "energy": 20,
+      "life": 2,
+      "interval": 1,
+      "reload": 120,
+      "accuracy": 0
+    },
+    {
+      "id": "energyrifle01",
+      "names": {
+        "en": "Ixion"
+      },
+      "level": 0,
+      "character": "winger",
+      "category": "particle",
+      "odds": 100,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 15,
+      "speed": 2,
+      "accuracy": 0.05,
+      "energy": 0.699999988079071,
+      "life": 100,
+      "reload": 5
+    },
+    {
+      "id": "energylightning01",
+      "names": {
+        "en": "Idunn"
+      },
+      "level": 1,
+      "character": "winger",
+      "category": "electro",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 160,
+      "damage": 13,
+      "speed": 2.5,
+      "accuracy": 0.05,
+      "energy": 60,
+      "life": 45,
+      "interval": 6,
+      "reload": 120
+    },
+    {
+      "id": "energyrifle015w",
+      "names": {
+        "en": "Ixion 2-Way"
+      },
+      "level": 1,
+      "character": "winger",
+      "category": "particle",
+      "odds": 100,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 18,
+      "speed": 2,
+      "accuracy": 0.05,
+      "energy": 1.100000023841858,
+      "life": 100,
+      "count": 2,
+      "reload": 5
+    },
+    {
+      "id": "energylightning03",
+      "names": {
+        "en": "Eclat 10"
+      },
+      "level": 2,
+      "character": "winger",
+      "category": "electro",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 1,
+      "damage": 8,
+      "speed": 5,
+      "accuracy": 1,
+      "energy": 3,
+      "life": 75,
+      "count": 10,
+      "reload": 60
+    },
+    {
+      "id": "energylightning15s",
+      "names": {
+        "en": "Thunder Bow 10"
+      },
+      "level": 3,
+      "character": "winger",
+      "category": "electro",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 14,
+      "damage": 12,
+      "speed": 5,
+      "accuracy": 0.2,
+      "energy": 60,
+      "life": 55,
+      "count": 10,
+      "interval": 60,
+      "reload": 120
+    },
+    {
+      "id": "energylaser012",
+      "names": {
+        "en": "LARG-V"
+      },
+      "level": 3,
+      "character": "winger",
+      "category": "laser",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 960,
+      "damage": 3,
+      "speed": 60,
+      "energy": 25,
+      "life": 2,
+      "count": 2,
+      "interval": 1,
+      "reload": 120,
+      "accuracy": 0
+    },
+    {
+      "id": "energylightning15",
+      "names": {
+        "en": "Idunn-B"
+      },
+      "level": 4,
+      "character": "winger",
+      "category": "electro",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 170,
+      "damage": 14,
+      "speed": 2.5,
+      "accuracy": 0.05,
+      "energy": 60,
+      "life": 45,
+      "interval": 6,
+      "reload": 120
+    },
+    {
+      "id": "energyrifle02",
+      "names": {
+        "en": "Ixion MX"
+      },
+      "level": 3,
+      "character": "winger",
+      "category": "particle",
+      "odds": 100,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 27,
+      "speed": 2,
+      "accuracy": 0.05,
+      "energy": 100,
+      "life": 100,
+      "reload": 12
+    },
+    {
+      "id": "energyrifle021",
+      "names": {
+        "en": "Ixion Mark II"
+      },
+      "level": 5,
+      "character": "winger",
+      "category": "particle",
+      "odds": 100,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 27,
+      "speed": 2,
+      "accuracy": 0.05,
+      "energy": 0.75,
+      "life": 100,
+      "reload": 5
+    },
+    {
+      "id": "energylaser02",
+      "names": {
+        "en": "LAZR-198"
+      },
+      "level": 6,
+      "character": "winger",
+      "category": "laser",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1100,
+      "damage": 2,
+      "speed": 46,
+      "energy": 24,
+      "life": 3,
+      "interval": 1,
+      "reload": 180,
+      "accuracy": 0
+    },
+    {
+      "id": "energyrifle025",
+      "names": {
+        "en": "Ixion 3-Way"
+      },
+      "level": 8,
+      "character": "winger",
+      "category": "particle",
+      "odds": 100,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 15,
+      "speed": 2,
+      "accuracy": 0.013,
+      "energy": 1.100000023841858,
+      "life": 100,
+      "count": 3,
+      "reload": 5
+    },
+    {
+      "id": "energylightning02",
+      "names": {
+        "en": "Idunn-C Custom"
+      },
+      "level": 7,
+      "character": "winger",
+      "category": "electro",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 150,
+      "damage": 15,
+      "speed": 2.5,
+      "accuracy": 0.01,
+      "energy": 50,
+      "life": 55,
+      "interval": 6,
+      "reload": 150
+    },
+    {
+      "id": "energyrifle03emp",
+      "names": {
+        "en": "Pulsar Shot"
+      },
+      "level": 8,
+      "character": "winger",
+      "category": "particle",
+      "odds": 100,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 50,
+      "speed": 2,
+      "accuracy": 0.05,
+      "energy": 1,
+      "life": 90,
+      "reload": 5
+    },
+    {
+      "id": "energylightning04",
+      "names": {
+        "en": "Eclat 20"
+      },
+      "level": 11,
+      "character": "winger",
+      "category": "electro",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 1,
+      "damage": 8,
+      "speed": 5,
+      "accuracy": 1,
+      "energy": 7,
+      "life": 75,
+      "count": 20,
+      "reload": 60
+    },
+    {
+      "id": "energyrifle035w",
+      "names": {
+        "en": "Ixion Wide"
+      },
+      "level": 12,
+      "character": "winger",
+      "category": "particle",
+      "odds": 100,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 34,
+      "speed": 2,
+      "accuracy": 0.01,
+      "energy": 0.949999988079071,
+      "life": 100,
+      "count": 2,
+      "reload": 5
+    },
+    {
+      "id": "energylightning45s",
+      "names": {
+        "en": "Thunder Bow 15"
+      },
+      "level": 13,
+      "character": "winger",
+      "category": "electro",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 15,
+      "damage": 14,
+      "speed": 5,
+      "accuracy": 0.2,
+      "energy": 60,
+      "life": 55,
+      "count": 15,
+      "interval": 60,
+      "reload": 120
+    },
+    {
+      "id": "energylaser03",
+      "names": {
+        "en": "LAZR-199"
+      },
+      "level": 15,
+      "character": "winger",
+      "category": "laser",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1400,
+      "damage": 3.2,
+      "speed": 47,
+      "energy": 29,
+      "life": 3,
+      "interval": 1,
+      "reload": 240,
+      "accuracy": 0
+    },
+    {
+      "id": "energyrifle04w",
+      "names": {
+        "en": "Ixion 5-Way"
+      },
+      "level": 16,
+      "character": "winger",
+      "category": "particle",
+      "odds": 100,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 15,
+      "speed": 2,
+      "accuracy": 0.01,
+      "energy": 1.399999976158142,
+      "life": 90,
+      "count": 5,
+      "reload": 5
+    },
+    {
+      "id": "energyrifle04sg",
+      "names": {
+        "en": "Dynastrike"
+      },
+      "level": 17,
+      "character": "winger",
+      "category": "particle",
+      "odds": 100,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 24,
+      "speed": 2,
+      "accuracy": 0.1,
+      "energy": 2.700000047683716,
+      "life": 100,
+      "count": 8,
+      "reload": 15
+    },
+    {
+      "id": "energylightning47s",
+      "names": {
+        "en": "Thunder Bow 15S"
+      },
+      "level": 18,
+      "character": "winger",
+      "category": "electro",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 10,
+      "damage": 20,
+      "speed": 5,
+      "accuracy": 0.17,
+      "energy": 45,
+      "life": 55,
+      "count": 15,
+      "interval": 60,
+      "reload": 90
+    },
+    {
+      "id": "energylaser04",
+      "names": {
+        "en": "LAZR-200"
+      },
+      "level": 20,
+      "character": "winger",
+      "category": "laser",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1000,
+      "damage": 5.5,
+      "speed": 38,
+      "energy": 26,
+      "life": 3,
+      "interval": 1,
+      "reload": 180,
+      "accuracy": 0
+    },
+    {
+      "id": "energyrifle045w",
+      "names": {
+        "en": "Ixion 4-Way"
+      },
+      "level": 22,
+      "character": "winger",
+      "category": "particle",
+      "odds": 100,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 24,
+      "speed": 2,
+      "accuracy": 0.01,
+      "energy": 1.2999999523162842,
+      "life": 90,
+      "count": 4,
+      "reload": 5
+    },
+    {
+      "id": "energylightning05",
+      "names": {
+        "en": "Idunn-D Custom"
+      },
+      "level": 25,
+      "character": "winger",
+      "category": "electro",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 165,
+      "damage": 40,
+      "speed": 3.5,
+      "accuracy": 0.01,
+      "energy": 48,
+      "life": 55,
+      "interval": 4,
+      "reload": 180
+    },
+    {
+      "id": "BonusEnergyWeapon02",
+      "names": {
+        "en": "Laser Chainsaw"
+      },
+      "level": 25,
+      "character": "winger",
+      "category": "laser",
+      "odds": 0,
+      "type": "LaserAmmo02",
+      "ammo": 1060,
+      "damage": 20,
+      "speed": 30,
+      "energy": 26,
+      "life": 2,
+      "count": 2,
+      "interval": 1,
+      "reload": 150,
+      "accuracy": 0
+    },
+    {
+      "id": "energyrifle05",
+      "names": {
+        "en": "Ixion Mark III"
+      },
+      "level": 28,
+      "character": "winger",
+      "category": "particle",
+      "odds": 100,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 87,
+      "speed": 2,
+      "accuracy": 0.08,
+      "energy": 0.699999988079071,
+      "life": 100,
+      "reload": 5
+    },
+    {
+      "id": "energylightning06",
+      "names": {
+        "en": "Thunder Bow 20"
+      },
+      "level": 30,
+      "character": "winger",
+      "category": "electro",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 20,
+      "damage": 30,
+      "speed": 5,
+      "accuracy": 0.2,
+      "energy": 59,
+      "life": 55,
+      "count": 20,
+      "interval": 60,
+      "reload": 180
+    },
+    {
+      "id": "energylaser05",
+      "names": {
+        "en": "LAZR-201"
+      },
+      "level": 32,
+      "character": "winger",
+      "category": "laser",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1200,
+      "damage": 9.8,
+      "speed": 45,
+      "energy": 30,
+      "life": 3,
+      "interval": 1,
+      "reload": 150,
+      "accuracy": 0
+    },
+    {
+      "id": "energylightning07",
+      "names": {
+        "en": "Grom X"
+      },
+      "level": 33,
+      "character": "winger",
+      "category": "electro",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 30,
+      "damage": 460,
+      "speed": 3.5,
+      "accuracy": 1.2,
+      "energy": 59,
+      "life": 95,
+      "interval": 20,
+      "reload": 600
+    },
+    {
+      "id": "energyrifle08emp",
+      "names": {
+        "en": "Pulsar Shot α"
+      },
+      "level": 35,
+      "character": "winger",
+      "category": "particle",
+      "odds": 100,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 140,
+      "speed": 2,
+      "accuracy": 0.05,
+      "energy": 2,
+      "life": 120,
+      "reload": 4
+    },
+    {
+      "id": "energyrifle055w",
+      "names": {
+        "en": "Ixion 6-Way"
+      },
+      "level": 36,
+      "character": "winger",
+      "category": "particle",
+      "odds": 100,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 30,
+      "speed": 2,
+      "accuracy": 0.01,
+      "energy": 1.2999999523162842,
+      "life": 90,
+      "count": 6,
+      "reload": 5
+    },
+    {
+      "id": "energylightning08",
+      "names": {
+        "en": "Grom SS"
+      },
+      "level": 38,
+      "character": "winger",
+      "category": "electro",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 30,
+      "damage": 360,
+      "speed": 3.5,
+      "accuracy": 0.06,
+      "energy": 62,
+      "life": 85,
+      "interval": 20,
+      "reload": 480
+    },
+    {
+      "id": "energylaser55",
+      "names": {
+        "en": "LAZR-202"
+      },
+      "level": 40,
+      "character": "winger",
+      "category": "laser",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1200,
+      "damage": 12,
+      "speed": 45,
+      "energy": 30,
+      "life": 3,
+      "interval": 1,
+      "reload": 150,
+      "accuracy": 0
+    },
+    {
+      "id": "energyrifle06sg",
+      "names": {
+        "en": "Dynastrike X"
+      },
+      "level": 42,
+      "character": "winger",
+      "category": "particle",
+      "odds": 100,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 30,
+      "speed": 2,
+      "accuracy": 0.08,
+      "energy": 10,
+      "life": 130,
+      "count": 12,
+      "reload": 10
+    },
+    {
+      "id": "energylightning85s",
+      "names": {
+        "en": "Thunderbow 20R"
+      },
+      "level": 43,
+      "character": "winger",
+      "category": "electro",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 24,
+      "damage": 25,
+      "speed": 5,
+      "accuracy": 0.25,
+      "energy": 71,
+      "life": 55,
+      "count": 20,
+      "interval": 30,
+      "reload": 180
+    },
+    {
+      "id": "energylaser05W",
+      "names": {
+        "en": "LARG-W3"
+      },
+      "level": 45,
+      "character": "winger",
+      "category": "laser",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1160,
+      "damage": 14,
+      "speed": 40,
+      "energy": 30,
+      "life": 2,
+      "count": 3,
+      "interval": 1,
+      "reload": 120,
+      "accuracy": 0
+    },
+    {
+      "id": "energyrifle065w",
+      "names": {
+        "en": "Ixion 6-Way S"
+      },
+      "level": 46,
+      "character": "winger",
+      "category": "particle",
+      "odds": 100,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 55,
+      "speed": 2,
+      "accuracy": 0.01,
+      "energy": 1.2999999523162842,
+      "life": 90,
+      "count": 6,
+      "reload": 5
+    },
+    {
+      "id": "energyrifle07sg",
+      "names": {
+        "en": "Dynastrike Z"
+      },
+      "level": 47,
+      "character": "winger",
+      "category": "particle",
+      "odds": 100,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 36,
+      "speed": 2,
+      "accuracy": 0.2,
+      "energy": 9,
+      "life": 130,
+      "count": 14,
+      "reload": 2
+    },
+    {
+      "id": "energylightning09",
+      "names": {
+        "en": "Idunn-E Custom"
+      },
+      "level": 47,
+      "character": "winger",
+      "category": "electro",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 180,
+      "damage": 80,
+      "speed": 3.5,
+      "accuracy": 0.01,
+      "energy": 55,
+      "life": 35,
+      "interval": 3,
+      "reload": 150
+    },
+    {
+      "id": "energyrifle09sg",
+      "names": {
+        "en": "Dynastrike α"
+      },
+      "level": 52,
+      "character": "winger",
+      "category": "particle",
+      "odds": 100,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 55,
+      "speed": 2,
+      "accuracy": 0.08,
+      "energy": 1.2999999523162842,
+      "life": 130,
+      "count": 8,
+      "reload": 6
+    },
+    {
+      "id": "energylaser06",
+      "names": {
+        "en": "LAZR-299"
+      },
+      "level": 55,
+      "character": "winger",
+      "category": "laser",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1040,
+      "damage": 17,
+      "speed": 45,
+      "energy": 18,
+      "life": 3,
+      "interval": 1,
+      "reload": 180,
+      "accuracy": 0
+    },
+    {
+      "id": "energyrifle09w",
+      "names": {
+        "en": "Ixion 9-Way"
+      },
+      "level": 57,
+      "character": "winger",
+      "category": "particle",
+      "odds": 100,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 45,
+      "speed": 2,
+      "accuracy": 0.01,
+      "energy": 1.2999999523162842,
+      "life": 125,
+      "count": 9,
+      "reload": 5
+    },
+    {
+      "id": "energylightning10",
+      "names": {
+        "en": "Eclat 30"
+      },
+      "level": 60,
+      "character": "winger",
+      "category": "electro",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 1,
+      "damage": 120,
+      "speed": 5,
+      "accuracy": 1.2,
+      "energy": 11,
+      "life": 65,
+      "count": 30,
+      "reload": 72
+    },
+    {
+      "id": "energyrifle403emp",
+      "names": {
+        "en": "Pulsar Shot WR"
+      },
+      "level": 62,
+      "character": "winger",
+      "category": "particle",
+      "odds": 100,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 110,
+      "speed": 3,
+      "accuracy": 0.05,
+      "energy": 1,
+      "life": 120,
+      "count": 2,
+      "reload": 3
+    },
+    {
+      "id": "energyrifle10",
+      "names": {
+        "en": "Ixion Mark IV"
+      },
+      "level": 65,
+      "character": "winger",
+      "category": "particle",
+      "odds": 100,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 370,
+      "speed": 2,
+      "accuracy": 0.015,
+      "energy": 0.699999988079071,
+      "life": 150,
+      "reload": 5
+    },
+    {
+      "id": "energylaser07",
+      "names": {
+        "en": "LAZR-300"
+      },
+      "level": 65,
+      "character": "winger",
+      "category": "laser",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1140,
+      "damage": 22,
+      "speed": 55,
+      "energy": 26,
+      "life": 3,
+      "interval": 1,
+      "reload": 240,
+      "accuracy": 0
+    },
+    {
+      "id": "energylightning11",
+      "names": {
+        "en": "Thunder Bow 30"
+      },
+      "level": 67,
+      "character": "winger",
+      "category": "electro",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 11,
+      "damage": 110,
+      "speed": 8,
+      "accuracy": 0.2,
+      "energy": 50,
+      "life": 75,
+      "count": 30,
+      "interval": 50,
+      "reload": 140
+    },
+    {
+      "id": "energylightning12",
+      "names": {
+        "en": "Eclat LIM"
+      },
+      "level": 75,
+      "character": "winger",
+      "category": "electro",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 1,
+      "damage": 200,
+      "speed": 5,
+      "accuracy": 1,
+      "energy": 12,
+      "life": 65,
+      "count": 30,
+      "reload": 72
+    },
+    {
+      "id": "energylaser08",
+      "names": {
+        "en": "ARC-LAZR"
+      },
+      "level": 75,
+      "character": "winger",
+      "category": "laser",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1300,
+      "damage": 27,
+      "speed": 60,
+      "energy": 21,
+      "life": 3,
+      "interval": 1,
+      "reload": 270,
+      "accuracy": 0
+    },
+    {
+      "id": "BonusEnergyWeapon04",
+      "names": {
+        "en": "Cyclone Laser"
+      },
+      "level": 75,
+      "character": "winger",
+      "category": "laser",
+      "odds": 0,
+      "type": "LaserAmmo02",
+      "ammo": 1040,
+      "damage": 6,
+      "speed": 30,
+      "energy": 180,
+      "life": 2,
+      "count": 8,
+      "interval": 1,
+      "reload": 180,
+      "accuracy": 0
+    },
+    {
+      "id": "energyrifle10w",
+      "names": {
+        "en": "Ixion Mark X"
+      },
+      "level": 77,
+      "character": "winger",
+      "category": "particle",
+      "odds": 50,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 75,
+      "speed": 2,
+      "accuracy": 0.015,
+      "energy": 1.2000000476837158,
+      "life": 150,
+      "count": 9,
+      "reload": 5
+    },
+    {
+      "id": "energylightning13",
+      "names": {
+        "en": "Idunn-FF"
+      },
+      "level": 82,
+      "character": "winger",
+      "category": "electro",
+      "odds": 40,
+      "type": "ThunderAmmo",
+      "ammo": 350,
+      "damage": 100,
+      "speed": 5,
+      "accuracy": 0.01,
+      "energy": 55,
+      "life": 45,
+      "interval": 2,
+      "reload": 210
+    },
+    {
+      "id": "energyrifle100",
+      "names": {
+        "en": "Luxard"
+      },
+      "level": 87,
+      "character": "winger",
+      "category": "particle",
+      "odds": 30,
+      "type": "BeamAmmo02",
+      "ammo": 1,
+      "damage": 90,
+      "speed": 2,
+      "accuracy": 0.015,
+      "energy": 1.2999999523162842,
+      "life": 150,
+      "count": 9,
+      "reload": 5
+    },
+    {
+      "id": "energylaser100",
+      "names": {
+        "en": "SIG-LAZR"
+      },
+      "level": 90,
+      "character": "winger",
+      "category": "laser",
+      "odds": 20,
+      "type": "LaserAmmo02",
+      "ammo": 1500,
+      "damage": 30,
+      "speed": 60,
+      "energy": 18,
+      "life": 3,
+      "interval": 1,
+      "reload": 270,
+      "accuracy": 0
+    },
+    {
+      "id": "energylightning100",
+      "names": {
+        "en": "Thunder Bow XD"
+      },
+      "level": 92,
+      "character": "winger",
+      "category": "electro",
+      "odds": 10,
+      "type": "ThunderAmmo",
+      "ammo": 11,
+      "damage": 130,
+      "speed": 8,
+      "accuracy": 0.2,
+      "energy": 55,
+      "life": 75,
+      "count": 30,
+      "interval": 40,
+      "reload": 162
+    },
+    {
+      "id": "energylsniper005",
+      "names": {
+        "en": "Proto Thunder Sniper"
+      },
+      "level": 0,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 1,
+      "damage": 50,
+      "speed": 20,
+      "accuracy": 0.005,
+      "energy": 15,
+      "life": 95,
+      "count": 2,
+      "reload": 90,
+      "secondary": 1,
+      "zoom": 6
+    },
+    {
+      "id": "energylasersniper01",
+      "names": {
+        "en": "LRSL-33"
+      },
+      "level": 0,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1,
+      "damage": 0.4,
+      "speed": 45,
+      "energy": 0.15000000596046448,
+      "life": 10,
+      "secondary": 1,
+      "zoom": 5,
+      "accuracy": 0
+    },
+    {
+      "id": "energylasersniper02",
+      "names": {
+        "en": "LRSL-34"
+      },
+      "level": 2,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1,
+      "damage": 0.6,
+      "speed": 45,
+      "accuracy": 0.005,
+      "energy": 0.15000000596046448,
+      "life": 10,
+      "secondary": 1,
+      "zoom": 4
+    },
+    {
+      "id": "energylsniper01",
+      "names": {
+        "en": "Thunder Sniper A"
+      },
+      "level": 3,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 1,
+      "damage": 50,
+      "speed": 20,
+      "accuracy": 0.005,
+      "energy": 15,
+      "life": 95,
+      "count": 3,
+      "reload": 85,
+      "secondary": 1,
+      "zoom": 4
+    },
+    {
+      "id": "energylasersniper03",
+      "names": {
+        "en": "LRSL-35"
+      },
+      "level": 5,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1,
+      "damage": 0.9,
+      "speed": 45,
+      "accuracy": 0.1,
+      "energy": 0.5,
+      "life": 10,
+      "secondary": 1,
+      "zoom": 4
+    },
+    {
+      "id": "energylasersniper04",
+      "names": {
+        "en": "LRSL-36"
+      },
+      "level": 7,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1,
+      "damage": 4,
+      "speed": 50,
+      "energy": 0.2199999988079071,
+      "life": 10,
+      "secondary": 1,
+      "zoom": 5.5,
+      "accuracy": 0
+    },
+    {
+      "id": "energylasersniper05",
+      "names": {
+        "en": "Monster"
+      },
+      "level": 10,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1,
+      "damage": 600,
+      "speed": 40,
+      "energy": 30,
+      "life": 30,
+      "secondary": 1,
+      "zoom": 8,
+      "accuracy": 0
+    },
+    {
+      "id": "energylsniper02",
+      "names": {
+        "en": "Thunder Sniper B"
+      },
+      "level": 11,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 1,
+      "damage": 70,
+      "speed": 20,
+      "accuracy": 0.005,
+      "energy": 16,
+      "life": 95,
+      "count": 3,
+      "reload": 90,
+      "secondary": 1,
+      "zoom": 4
+    },
+    {
+      "id": "energylsniper03",
+      "names": {
+        "en": "Thunder Sniper 15"
+      },
+      "level": 12,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 1,
+      "damage": 20,
+      "speed": 20,
+      "accuracy": 0.005,
+      "energy": 20,
+      "life": 95,
+      "count": 15,
+      "reload": 90,
+      "secondary": 1,
+      "zoom": 6
+    },
+    {
+      "id": "energylsniper04",
+      "names": {
+        "en": "Thunder Sniper C"
+      },
+      "level": 15,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 1,
+      "damage": 100,
+      "speed": 20,
+      "accuracy": 0.007,
+      "energy": 17,
+      "life": 95,
+      "count": 3,
+      "reload": 92,
+      "secondary": 1,
+      "zoom": 4
+    },
+    {
+      "id": "energylsniper05",
+      "names": {
+        "en": "Thunder Sniper R"
+      },
+      "level": 17,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 1,
+      "damage": 30,
+      "speed": 20,
+      "accuracy": 0.007,
+      "energy": 1.600000023841858,
+      "life": 95,
+      "reload": 6,
+      "secondary": 1,
+      "zoom": 3
+    },
+    {
+      "id": "energylasersniper06",
+      "names": {
+        "en": "LRSL-37"
+      },
+      "level": 20,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1,
+      "damage": 8,
+      "speed": 60,
+      "accuracy": 0.001,
+      "energy": 0.23999999463558197,
+      "life": 10,
+      "secondary": 1,
+      "zoom": 6
+    },
+    {
+      "id": "energylsniper06",
+      "names": {
+        "en": "Raijin"
+      },
+      "level": 30,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 1,
+      "damage": 2000,
+      "speed": 40,
+      "energy": 70,
+      "life": 95,
+      "reload": 200,
+      "secondary": 1,
+      "zoom": 12,
+      "accuracy": 0
+    },
+    {
+      "id": "energylasersniper07",
+      "names": {
+        "en": "LRSL-38"
+      },
+      "level": 37,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1,
+      "damage": 10,
+      "speed": 60,
+      "energy": 0.20000000298023224,
+      "life": 10,
+      "secondary": 1,
+      "zoom": 7,
+      "accuracy": 0
+    },
+    {
+      "id": "energylsniper07",
+      "names": {
+        "en": "Thunder Sniper D"
+      },
+      "level": 41,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 1,
+      "damage": 200,
+      "speed": 20,
+      "accuracy": 0.005,
+      "energy": 14,
+      "life": 95,
+      "count": 4,
+      "reload": 66,
+      "secondary": 1,
+      "zoom": 6
+    },
+    {
+      "id": "energylasersniper08",
+      "names": {
+        "en": "LRSL-S"
+      },
+      "level": 42,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1,
+      "damage": 14,
+      "speed": 60,
+      "accuracy": 0.02,
+      "energy": 0.25,
+      "life": 10,
+      "secondary": 1,
+      "zoom": 6
+    },
+    {
+      "id": "energylsniper08",
+      "names": {
+        "en": "Thunder Sniper 6"
+      },
+      "level": 45,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 1,
+      "damage": 200,
+      "speed": 20,
+      "accuracy": 0.005,
+      "energy": 24,
+      "life": 95,
+      "count": 6,
+      "reload": 66,
+      "secondary": 1,
+      "zoom": 8
+    },
+    {
+      "id": "energylasersniper09",
+      "names": {
+        "en": "Monster-S"
+      },
+      "level": 55,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "LaserAmmo02",
+      "ammo": 1,
+      "damage": 6000,
+      "speed": 40,
+      "accuracy": 0.005,
+      "energy": 39,
+      "life": 30,
+      "secondary": 1,
+      "zoom": 8
+    },
+    {
+      "id": "energylsniper09",
+      "names": {
+        "en": "Thunder Sniper 40"
+      },
+      "level": 62,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 1,
+      "damage": 200,
+      "speed": 20,
+      "accuracy": 0.1,
+      "energy": 35,
+      "life": 95,
+      "count": 40,
+      "reload": 120,
+      "secondary": 1,
+      "zoom": 8
+    },
+    {
+      "id": "energylsniper10",
+      "names": {
+        "en": "Thunder Sniper MX"
+      },
+      "level": 70,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 100,
+      "type": "ThunderAmmo",
+      "ammo": 1,
+      "damage": 200,
+      "speed": 20,
+      "accuracy": 0.1,
+      "energy": 100,
+      "life": 95,
+      "count": 40,
+      "reload": 2400,
+      "secondary": 1,
+      "zoom": 8
+    },
+    {
+      "id": "energylasersniper10",
+      "names": {
+        "en": "LRSL-AC"
+      },
+      "level": 70,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 80,
+      "type": "LaserAmmo02",
+      "ammo": 1,
+      "damage": 20,
+      "speed": 60,
+      "energy": 0.18000000715255737,
+      "life": 10,
+      "secondary": 1,
+      "zoom": 10,
+      "accuracy": 0
+    },
+    {
+      "id": "energylasersniper100",
+      "names": {
+        "en": "SIG Sniper"
+      },
+      "level": 80,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 50,
+      "type": "LaserAmmo02",
+      "ammo": 1,
+      "damage": 26,
+      "speed": 60,
+      "energy": 0.1599999964237213,
+      "life": 10,
+      "secondary": 1,
+      "zoom": 10,
+      "accuracy": 0
+    },
+    {
+      "id": "energylsniper11",
+      "names": {
+        "en": "Gungnir"
+      },
+      "level": 92,
+      "character": "winger",
+      "category": "sniper",
+      "odds": 10,
+      "type": "ThunderAmmo",
+      "ammo": 1,
+      "damage": 50000,
+      "speed": 20,
+      "energy": 720,
+      "life": 180,
+      "reload": 1,
+      "secondary": 1,
+      "zoom": 12,
+      "accuracy": 0
+    },
+    {
+      "id": "EnergyPrasmaCannon01",
+      "names": {
+        "en": "E1 Plasma Launcher"
+      },
+      "level": 0,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 0,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 90,
+      "speed": 1.5,
+      "accuracy": 0.05,
+      "radius": 10,
+      "energy": 16,
+      "life": 1200,
+      "reload": 60
+    },
+    {
+      "id": "energygrenade01",
+      "names": {
+        "en": "Plasma Grenade A"
+      },
+      "level": 0,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 250,
+      "speed": 0.1,
+      "accuracy": 0.1,
+      "radius": 7,
+      "energy": 100,
+      "life": 1200,
+      "reload": 240
+    },
+    {
+      "id": "energypcannon02",
+      "names": {
+        "en": "Plasma Shot"
+      },
+      "level": 0,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 7,
+      "speed": 4,
+      "accuracy": 0.1,
+      "radius": 2,
+      "energy": 8,
+      "life": 100,
+      "count": 10,
+      "reload": 30
+    },
+    {
+      "id": "energypcannon015",
+      "names": {
+        "en": "E2 Plasma Launcher"
+      },
+      "level": 0,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 150,
+      "speed": 2,
+      "accuracy": 0.05,
+      "radius": 10,
+      "energy": 16,
+      "life": 1200,
+      "reload": 60
+    },
+    {
+      "id": "energygrenade02",
+      "names": {
+        "en": "Plasma Grenade B"
+      },
+      "level": 1,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 260,
+      "speed": 0.1,
+      "accuracy": 0.1,
+      "radius": 10,
+      "energy": 100,
+      "life": 1200,
+      "reload": 300
+    },
+    {
+      "id": "energypcannon025",
+      "names": {
+        "en": "E3 Plasma Launcher"
+      },
+      "level": 2,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 210,
+      "speed": 1.7,
+      "accuracy": 0.05,
+      "radius": 10,
+      "energy": 18,
+      "life": 1200,
+      "reload": 60
+    },
+    {
+      "id": "energypcannon027",
+      "names": {
+        "en": "Dual Plasma Launcher"
+      },
+      "level": 5,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 100,
+      "speed": 1,
+      "accuracy": 0.05,
+      "radius": 10,
+      "energy": 15,
+      "life": 1200,
+      "count": 2,
+      "reload": 60
+    },
+    {
+      "id": "energygrenade03",
+      "names": {
+        "en": "Rapid Grenade"
+      },
+      "level": 5,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 320,
+      "speed": 1,
+      "accuracy": 0.1,
+      "radius": 5,
+      "energy": 100,
+      "life": 1200,
+      "reload": 180
+    },
+    {
+      "id": "energypcannon03",
+      "names": {
+        "en": "D Plasma Launcher"
+      },
+      "level": 10,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 400,
+      "speed": 0.75,
+      "accuracy": 0.05,
+      "radius": 15,
+      "energy": 18,
+      "life": 2400,
+      "reload": 60
+    },
+    {
+      "id": "energypcannon031",
+      "names": {
+        "en": "E4 Plasma Launcher"
+      },
+      "level": 10,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 260,
+      "speed": 1.7,
+      "accuracy": 0.025,
+      "radius": 12,
+      "energy": 16,
+      "life": 1200,
+      "reload": 60
+    },
+    {
+      "id": "energypcannon036",
+      "names": {
+        "en": "Blast Launcher"
+      },
+      "level": 15,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 1000,
+      "speed": 6,
+      "accuracy": 0.05,
+      "radius": 20,
+      "energy": 120,
+      "life": 1200,
+      "reload": 30
+    },
+    {
+      "id": "energygrenade04",
+      "names": {
+        "en": "Blast Grenade"
+      },
+      "level": 16,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 1000,
+      "speed": 0.3,
+      "accuracy": 0.1,
+      "radius": 15,
+      "energy": 100,
+      "life": 1200,
+      "reload": 1200
+    },
+    {
+      "id": "energypcannon037",
+      "names": {
+        "en": "3x Plasma Launcher"
+      },
+      "level": 17,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 140,
+      "speed": 1.6,
+      "accuracy": 0.05,
+      "radius": 10,
+      "energy": 20,
+      "life": 1200,
+      "count": 3,
+      "reload": 60
+    },
+    {
+      "id": "energypcannon035",
+      "names": {
+        "en": "D2 Plasma Launcher"
+      },
+      "level": 20,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 260,
+      "speed": 1.1,
+      "accuracy": 0.05,
+      "radius": 15,
+      "energy": 20,
+      "life": 1200,
+      "reload": 60
+    },
+    {
+      "id": "energypcannon04",
+      "names": {
+        "en": "Plasmafall"
+      },
+      "level": 25,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 400,
+      "speed": 0.9,
+      "accuracy": 0.05,
+      "radius": 15,
+      "energy": 13,
+      "life": 1200,
+      "reload": 60
+    },
+    {
+      "id": "energypcannon041",
+      "names": {
+        "en": "M15 Plasma Launcher"
+      },
+      "level": 25,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 70,
+      "speed": 7,
+      "radius": 2,
+      "energy": 24,
+      "life": 60,
+      "count": 15,
+      "reload": 60,
+      "accuracy": 0
+    },
+    {
+      "id": "energygrenade05",
+      "names": {
+        "en": "Wide Grenade 20"
+      },
+      "level": 26,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 65,
+      "speed": 0.1,
+      "accuracy": 0.5,
+      "radius": 2,
+      "energy": 100,
+      "life": 1200,
+      "count": 20,
+      "reload": 600
+    },
+    {
+      "id": "energypcannon042",
+      "names": {
+        "en": "2x Plasma Launcher R"
+      },
+      "level": 29,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 200,
+      "speed": 1.6,
+      "accuracy": 0.05,
+      "radius": 7,
+      "energy": 9,
+      "life": 250,
+      "count": 2,
+      "reload": 30
+    },
+    {
+      "id": "energygrenade06",
+      "names": {
+        "en": "Plasma Grenade SP"
+      },
+      "level": 32,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 200,
+      "speed": 0.9,
+      "accuracy": 0.1,
+      "radius": 20,
+      "energy": 100,
+      "life": 1200,
+      "reload": 180
+    },
+    {
+      "id": "energypcannon045",
+      "names": {
+        "en": "E5 Plasma Launcher"
+      },
+      "level": 36,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 520,
+      "speed": 1,
+      "accuracy": 0.05,
+      "radius": 15,
+      "energy": 21,
+      "life": 1200,
+      "reload": 60
+    },
+    {
+      "id": "energygrenade07",
+      "names": {
+        "en": "Plasma Grenade C"
+      },
+      "level": 40,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 650,
+      "speed": 2,
+      "accuracy": 0.1,
+      "radius": 15,
+      "energy": 100,
+      "life": 1200,
+      "reload": 300
+    },
+    {
+      "id": "energypcannon047",
+      "names": {
+        "en": "2x Plasma Launcher S"
+      },
+      "level": 41,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 310,
+      "speed": 1.6,
+      "accuracy": 0.05,
+      "radius": 7,
+      "energy": 9,
+      "life": 250,
+      "count": 2,
+      "reload": 30
+    },
+    {
+      "id": "energypcannon05",
+      "names": {
+        "en": "EX Plasma Launcher"
+      },
+      "level": 45,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 650,
+      "speed": 15,
+      "accuracy": 0.01,
+      "radius": 25,
+      "energy": 31,
+      "life": 60,
+      "reload": 60
+    },
+    {
+      "id": "energypcannon07",
+      "names": {
+        "en": "EX3x Plasma Launcher"
+      },
+      "level": 50,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 650,
+      "speed": 15,
+      "accuracy": 0.015,
+      "radius": 20,
+      "energy": 49,
+      "life": 60,
+      "count": 3,
+      "reload": 60
+    },
+    {
+      "id": "energypcannon075",
+      "names": {
+        "en": "M30 Plasma Launcher"
+      },
+      "level": 55,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 260,
+      "speed": 7,
+      "radius": 5,
+      "energy": 26,
+      "life": 60,
+      "count": 30,
+      "reload": 60,
+      "accuracy": 0
+    },
+    {
+      "id": "energygrenade08",
+      "names": {
+        "en": "Wide Grenade 40"
+      },
+      "level": 60,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 400,
+      "speed": 0.1,
+      "accuracy": 0.5,
+      "radius": 5,
+      "energy": 100,
+      "life": 1200,
+      "count": 40,
+      "reload": 600
+    },
+    {
+      "id": "energypcannon08",
+      "names": {
+        "en": "RSR Plasma Launcher"
+      },
+      "level": 62,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 1000,
+      "speed": 2.5,
+      "accuracy": 0.05,
+      "radius": 15,
+      "energy": 14,
+      "life": 240,
+      "reload": 20
+    },
+    {
+      "id": "energygrenade09",
+      "names": {
+        "en": "Plasma Grenade F"
+      },
+      "level": 65,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 100,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 2300,
+      "speed": 0.7,
+      "accuracy": 0.1,
+      "radius": 15,
+      "energy": 100,
+      "life": 1200,
+      "reload": 300
+    },
+    {
+      "id": "energypcannon10",
+      "names": {
+        "en": "XSX Plasma Launcher"
+      },
+      "level": 67,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 80,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 1500,
+      "speed": 1.7,
+      "accuracy": 0.01,
+      "radius": 22,
+      "energy": 41,
+      "life": 600,
+      "count": 4,
+      "reload": 60
+    },
+    {
+      "id": "energygrenade400",
+      "names": {
+        "en": "Plasma Grenade Σ"
+      },
+      "level": 80,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 50,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 3200,
+      "speed": 0.7,
+      "accuracy": 0.1,
+      "radius": 17,
+      "energy": 100,
+      "life": 1200,
+      "reload": 180
+    },
+    {
+      "id": "energypcannon100",
+      "names": {
+        "en": "Plasmafall Σ"
+      },
+      "level": 87,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 30,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 2500,
+      "speed": 6,
+      "accuracy": 0.01,
+      "radius": 30,
+      "energy": 75,
+      "life": 600,
+      "count": 6,
+      "reload": 240
+    },
+    {
+      "id": "energypcannon101",
+      "names": {
+        "en": "RZR Plasma Launcher"
+      },
+      "level": 92,
+      "character": "winger",
+      "category": "plasma",
+      "odds": 20,
+      "type": "PlasmaAmmo02",
+      "ammo": 1,
+      "damage": 3500,
+      "speed": 2.5,
+      "accuracy": 0.05,
+      "radius": 25,
+      "energy": 15,
+      "life": 360,
+      "reload": 60
+    },
+    {
+      "id": "energyhominglaser01",
+      "names": {
+        "en": "Mirage Zero"
+      },
+      "level": 0,
+      "character": "winger",
+      "category": "missile",
+      "odds": 100,
+      "type": "LaserAmmoHoming",
+      "ammo": 1,
+      "damage": 30,
+      "speed": 1,
+      "accuracy": 0.1,
+      "radius": 5,
+      "energy": 3,
+      "life": 300,
+      "reload": 10
+    },
+    {
+      "id": "energyhominglaser02",
+      "names": {
+        "en": "Geist"
+      },
+      "level": 2,
+      "character": "winger",
+      "category": "missile",
+      "odds": 100,
+      "type": "LaserAmmoHoming",
+      "ammo": 1,
+      "damage": 70,
+      "speed": 0.2,
+      "accuracy": 0.1,
+      "radius": 10,
+      "energy": 6,
+      "life": 2500,
+      "reload": 60
+    },
+    {
+      "id": "energyhominglaser03",
+      "names": {
+        "en": "Rapid Mirage"
+      },
+      "level": 5,
+      "character": "winger",
+      "category": "missile",
+      "odds": 100,
+      "type": "LaserAmmoHoming",
+      "ammo": 1,
+      "damage": 7,
+      "speed": 10,
+      "radius": 1,
+      "energy": 1,
+      "life": 16,
+      "reload": 6,
+      "accuracy": 0
+    },
+    {
+      "id": "energyhominglaser035",
+      "names": {
+        "en": "Mirage 5-Way"
+      },
+      "level": 8,
+      "character": "winger",
+      "category": "missile",
+      "odds": 100,
+      "type": "LaserAmmoHoming",
+      "ammo": 1,
+      "damage": 30,
+      "speed": 4,
+      "radius": 5,
+      "energy": 10,
+      "life": 120,
+      "count": 5,
+      "reload": 60,
+      "accuracy": 0
+    },
+    {
+      "id": "energyhominglaser036",
+      "names": {
+        "en": "Geist 2"
+      },
+      "level": 13,
+      "character": "winger",
+      "category": "missile",
+      "odds": 100,
+      "type": "LaserAmmoHoming",
+      "ammo": 1,
+      "damage": 200,
+      "speed": 0.18,
+      "accuracy": 0.05,
+      "radius": 12,
+      "energy": 7,
+      "life": 2777,
+      "reload": 60
+    },
+    {
+      "id": "energyhominglaser04",
+      "names": {
+        "en": "Mirage 5-Way B"
+      },
+      "level": 18,
+      "character": "winger",
+      "category": "missile",
+      "odds": 100,
+      "type": "LaserAmmoHoming",
+      "ammo": 1,
+      "damage": 30,
+      "speed": 6,
+      "radius": 5,
+      "energy": 9,
+      "life": 80,
+      "count": 5,
+      "reload": 45,
+      "accuracy": 0
+    },
+    {
+      "id": "energyhominglaser05",
+      "names": {
+        "en": "Mirage Rumble"
+      },
+      "level": 25,
+      "character": "winger",
+      "category": "missile",
+      "odds": 100,
+      "type": "LaserAmmoHoming",
+      "ammo": 1,
+      "damage": 75,
+      "speed": 1,
+      "accuracy": 1,
+      "radius": 5,
+      "energy": 2,
+      "life": 120,
+      "reload": 10
+    },
+    {
+      "id": "energyhominglaser06",
+      "names": {
+        "en": "Mirage 15"
+      },
+      "level": 27,
+      "character": "winger",
+      "category": "missile",
+      "odds": 100,
+      "type": "LaserAmmoHoming",
+      "ammo": 1,
+      "damage": 6,
+      "speed": 6,
+      "radius": 0.75,
+      "energy": 3,
+      "life": 100,
+      "count": 15,
+      "reload": 10,
+      "accuracy": 0
+    },
+    {
+      "id": "energyhominglaser061",
+      "names": {
+        "en": "Psyblade"
+      },
+      "level": 31,
+      "character": "winger",
+      "category": "missile",
+      "odds": 100,
+      "type": "LaserAmmoHoming",
+      "ammo": 1,
+      "damage": 600,
+      "speed": 5,
+      "radius": 12,
+      "energy": 40,
+      "life": 1200,
+      "reload": 120,
+      "accuracy": 0
+    },
+    {
+      "id": "energyhominglaser062",
+      "names": {
+        "en": "Geist 3"
+      },
+      "level": 37,
+      "character": "winger",
+      "category": "missile",
+      "odds": 100,
+      "type": "LaserAmmoHoming",
+      "ammo": 1,
+      "damage": 200,
+      "speed": 0.2,
+      "accuracy": 0.05,
+      "radius": 20,
+      "energy": 4,
+      "life": 2250,
+      "count": 3,
+      "reload": 20
+    },
+    {
+      "id": "energyhominglaser065",
+      "names": {
+        "en": "Mirage 15S"
+      },
+      "level": 43,
+      "character": "winger",
+      "category": "missile",
+      "odds": 100,
+      "type": "LaserAmmoHoming",
+      "ammo": 1,
+      "damage": 10,
+      "speed": 6,
+      "radius": 0.75,
+      "energy": 3,
+      "life": 100,
+      "count": 15,
+      "reload": 10,
+      "accuracy": 0
+    },
+    {
+      "id": "energyhominglaser067",
+      "names": {
+        "en": "Fenrir"
+      },
+      "level": 52,
+      "character": "winger",
+      "category": "missile",
+      "odds": 100,
+      "type": "LaserAmmoHoming",
+      "ammo": 1,
+      "damage": 120,
+      "speed": 10,
+      "radius": 5,
+      "energy": 1.5,
+      "life": 80,
+      "reload": 6,
+      "accuracy": 0
+    },
+    {
+      "id": "energyhominglaser0675",
+      "names": {
+        "en": "Mirage 5-Way S"
+      },
+      "level": 57,
+      "character": "winger",
+      "category": "missile",
+      "odds": 100,
+      "type": "LaserAmmoHoming",
+      "ammo": 1,
+      "damage": 220,
+      "speed": 1.5,
+      "radius": 5,
+      "energy": 9,
+      "life": 300,
+      "count": 5,
+      "reload": 85,
+      "accuracy": 0
+    },
+    {
+      "id": "energyhominglaser0677",
+      "names": {
+        "en": "Psyblade α"
+      },
+      "level": 62,
+      "character": "winger",
+      "category": "missile",
+      "odds": 100,
+      "type": "LaserAmmoHoming",
+      "ammo": 1,
+      "damage": 2000,
+      "speed": 2,
+      "radius": 20,
+      "energy": 40,
+      "life": 2000,
+      "reload": 120,
+      "accuracy": 0
+    },
+    {
+      "id": "energyhominglaser0678",
+      "names": {
+        "en": "Geist D"
+      },
+      "level": 62,
+      "character": "winger",
+      "category": "missile",
+      "odds": 100,
+      "type": "LaserAmmoHoming",
+      "ammo": 1,
+      "damage": 400,
+      "speed": 0.2,
+      "accuracy": 0.05,
+      "radius": 20,
+      "energy": 4,
+      "life": 2250,
+      "count": 3,
+      "reload": 20
+    },
+    {
+      "id": "energyhominglaser07",
+      "names": {
+        "en": "Ghost Chaser"
+      },
+      "level": 67,
+      "character": "winger",
+      "category": "missile",
+      "odds": 100,
+      "type": "LaserAmmoHoming",
+      "ammo": 1,
+      "damage": 80,
+      "speed": 10,
+      "accuracy": 1.5,
+      "radius": 5,
+      "energy": 32,
+      "life": 60,
+      "count": 30,
+      "reload": 180
+    },
+    {
+      "id": "energyhominglaser068",
+      "names": {
+        "en": "Fenrir 3-Way"
+      },
+      "level": 72,
+      "character": "winger",
+      "category": "missile",
+      "odds": 100,
+      "type": "LaserAmmoHoming",
+      "ammo": 1,
+      "damage": 80,
+      "speed": 10,
+      "radius": 5,
+      "energy": 2,
+      "life": 80,
+      "count": 3,
+      "reload": 6,
+      "accuracy": 0
+    },
+    {
+      "id": "energyhominglaser08",
+      "names": {
+        "en": "Mirage 15WR"
+      },
+      "level": 77,
+      "character": "winger",
+      "category": "missile",
+      "odds": 40,
+      "type": "LaserAmmoHoming",
+      "ammo": 1,
+      "damage": 20,
+      "speed": 6,
+      "radius": 1,
+      "energy": 2.5,
+      "life": 100,
+      "count": 15,
+      "reload": 10,
+      "accuracy": 0
+    },
+    {
+      "id": "energyclusterbeam01",
+      "names": {
+        "en": "Pandora"
+      },
+      "level": 2,
+      "character": "winger",
+      "category": "special",
+      "odds": 100,
+      "type": "ClusterBeamAmmo",
+      "ammo": 1,
+      "damage": 5,
+      "speed": 0.1,
+      "radius": 10,
+      "energy": 45,
+      "life": 1200,
+      "reload": 3600,
+      "accuracy": 0
+    },
+    {
+      "id": "BonusEnergyWeapon01",
+      "names": {
+        "en": "Heaven's Gate"
+      },
+      "level": 24,
+      "character": "winger",
+      "category": "special",
+      "odds": 0,
+      "type": "ClusterLaserAmmo",
+      "ammo": 1,
+      "damage": 30,
+      "speed": 0.3,
+      "radius": 10,
+      "energy": 45,
+      "life": 1200,
+      "reload": 3600,
+      "accuracy": 0
+    },
+    {
+      "id": "energyclusterlightning01",
+      "names": {
+        "en": "Thunder Cluster"
+      },
+      "level": 7,
+      "character": "winger",
+      "category": "special",
+      "odds": 100,
+      "type": "ClusterLightningAmmo",
+      "ammo": 1,
+      "damage": 15,
+      "speed": 0.3,
+      "accuracy": 0.7,
+      "radius": 10,
+      "energy": 45,
+      "life": 1200,
+      "reload": 3600
+    },
+    {
+      "id": "energyclusterbeam02",
+      "names": {
+        "en": "Pandora +"
+      },
+      "level": 13,
+      "character": "winger",
+      "category": "special",
+      "odds": 100,
+      "type": "ClusterBeamAmmo",
+      "ammo": 1,
+      "damage": 8,
+      "speed": 0.1,
+      "radius": 10,
+      "energy": 45,
+      "life": 1200,
+      "reload": 3600,
+      "accuracy": 0
+    },
+    {
+      "id": "energyclusterbeam03",
+      "names": {
+        "en": "Pandora β"
+      },
+      "level": 20,
+      "character": "winger",
+      "category": "special",
+      "odds": 100,
+      "type": "ClusterBeamAmmo",
+      "ammo": 1,
+      "damage": 30,
+      "speed": 0.3,
+      "radius": 10,
+      "energy": 45,
+      "life": 1200,
+      "reload": 3600,
+      "accuracy": 0
+    },
+    {
+      "id": "energyclusterlaser01",
+      "names": {
+        "en": "Psy Cluster"
+      },
+      "level": 25,
+      "character": "winger",
+      "category": "special",
+      "odds": 100,
+      "type": "ClusterLaserAmmo",
+      "ammo": 1,
+      "damage": 30,
+      "speed": 0.3,
+      "radius": 10,
+      "energy": 45,
+      "life": 1200,
+      "reload": 3600,
+      "accuracy": 0
+    },
+    {
+      "id": "energyclusterbeam04",
+      "names": {
+        "en": "Pandora α"
+      },
+      "level": 34,
+      "character": "winger",
+      "category": "special",
+      "odds": 100,
+      "type": "ClusterBeamAmmo",
+      "ammo": 1,
+      "damage": 30,
+      "speed": 0.3,
+      "radius": 10,
+      "energy": 45,
+      "life": 1200,
+      "reload": 3600,
+      "accuracy": 0
+    },
+    {
+      "id": "energyclusterlaser015",
+      "names": {
+        "en": "Psy Cluster α"
+      },
+      "level": 42,
+      "character": "winger",
+      "category": "special",
+      "odds": 100,
+      "type": "ClusterLaserAmmo",
+      "ammo": 1,
+      "damage": 30,
+      "speed": 0.3,
+      "accuracy": 0.1,
+      "radius": 10,
+      "energy": 45,
+      "life": 1200,
+      "reload": 3600
+    },
+    {
+      "id": "BonusEnergyWeapon03",
+      "names": {
+        "en": "Heaven's Gate β"
+      },
+      "level": 50,
+      "character": "winger",
+      "category": "special",
+      "odds": 0,
+      "type": "ClusterLaserAmmo",
+      "ammo": 1,
+      "damage": 30,
+      "speed": 0.3,
+      "accuracy": 0.7,
+      "radius": 10,
+      "energy": 45,
+      "life": 1200,
+      "count": 10,
+      "reload": 3600
+    },
+    {
+      "id": "energyclusterlightning02",
+      "names": {
+        "en": "Thunder Cluster α"
+      },
+      "level": 55,
+      "character": "winger",
+      "category": "special",
+      "odds": 100,
+      "type": "ClusterLightningAmmo",
+      "ammo": 1,
+      "damage": 45,
+      "speed": 0.3,
+      "accuracy": 0.7,
+      "radius": 10,
+      "energy": 45,
+      "life": 1200,
+      "reload": 3600
+    },
+    {
+      "id": "energyclusterlaser03",
+      "names": {
+        "en": "Heaven's Gate α"
+      },
+      "level": 70,
+      "character": "winger",
+      "category": "special",
+      "odds": 100,
+      "type": "ClusterLaserAmmo",
+      "ammo": 1,
+      "damage": 60,
+      "speed": 0.3,
+      "accuracy": 0.7,
+      "radius": 10,
+      "energy": 45,
+      "life": 1200,
+      "count": 10,
+      "reload": 3600
+    },
+    {
+      "id": "energyclusterlightning41",
+      "names": {
+        "en": "Thunder Orb"
+      },
+      "level": 87,
+      "character": "winger",
+      "category": "special",
+      "odds": 10,
+      "type": "ClusterLightningAmmo",
+      "ammo": 1,
+      "damage": 100,
+      "speed": 0.3,
+      "accuracy": 0.7,
+      "radius": 10,
+      "energy": 240,
+      "life": 1200,
+      "count": 2,
+      "reload": 4800
+    },
+    {
+      "id": "energyclusterlaser04",
+      "names": {
+        "en": "Final Days"
+      },
+      "level": 87,
+      "character": "winger",
+      "category": "special",
+      "odds": 10,
+      "type": "ClusterLaserAmmo",
+      "ammo": 1,
+      "damage": 10,
+      "speed": 0.1,
+      "radius": 10,
+      "energy": 200,
+      "life": 1200,
+      "count": 10,
+      "reload": 3600,
+      "accuracy": 0
+    },
+    {
+      "id": "BonusEnergyWeapon05",
+      "names": {
+        "en": "Armageddon Cluster"
+      },
+      "level": 99,
+      "character": "winger",
+      "category": "special",
+      "odds": 0,
+      "type": "ClusterGenocideAmmo",
+      "ammo": 1,
+      "damage": 1000000,
+      "speed": 7,
+      "radius": 70,
+      "energy": 300,
+      "life": 1200,
+      "reload": 2400,
+      "accuracy": 0
+    }
+  ],
+  "modes": [
+    {
+      "name": "ON",
+      "missions": 60,
+      "difficulties": [
+        {
+          "name": "Normal",
+          "weaponLimits": [
+            1,
+            25
+          ],
+          "armorLimits": [
+            400,
+            1500
+          ]
+        },
+        {
+          "name": "Hard",
+          "weaponLimits": [
+            25,
+            50
+          ],
+          "armorLimits": [
+            1500,
+            3000
+          ]
+        },
+        {
+          "name": "Hardest",
+          "weaponLimits": [
+            50,
+            75
+          ],
+          "armorLimits": [
+            3000,
+            4000
+          ]
+        },
+        {
+          "name": "Inferno",
+          "weaponLimits": [
+            75,
+            100,
+            null,
+            null
+          ],
+          "armorLimits": null
+        }
+      ]
+    }
+  ]
+}

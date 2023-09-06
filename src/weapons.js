@@ -500,6 +500,7 @@ const scaledProps = [
   'lockRange',
   'lockTime',
   'energy',
+  'windup',
 ]
 
 function composeAttack(weapon, attack) {
@@ -1336,6 +1337,24 @@ const headers = [{
       return '-'
     }
     return rof
+  },
+}, {
+  iff: (ch, cat, wpn) => {
+    if(ch === 'fencer' && [
+      'light',
+    ].includes(cat)) {
+      return true
+    }
+    return false
+  },
+  label: 'Delay',
+  tooltip: 'Windup Time',
+  starProp: 'windup',
+  cb: wpn => {
+    if(!wpn.windup) {
+      return '-'
+    }
+    return +(wpn.windup / FPS).toFixed(2)
   },
 }, {
   iff: (ch, cat, wpn) => {

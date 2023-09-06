@@ -42341,7 +42341,15 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "windup": {
+        "base": 120,
+        "algo": 80,
+        "lvMax": 10,
+        "zero": -0.5,
+        "exp": 1,
+        "type": "float"
+      }
     },
     {
       "id": "hWeapon069",
@@ -42578,7 +42586,15 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "windup": {
+        "base": 240,
+        "algo": 80,
+        "lvMax": 10,
+        "zero": -0.5,
+        "exp": 1.5,
+        "type": "float"
+      }
     },
     {
       "id": "hWeapon072",
@@ -42654,7 +42670,15 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "windup": {
+        "base": 90,
+        "algo": 80,
+        "lvMax": 10,
+        "zero": -0.5,
+        "exp": 1,
+        "type": "float"
+      }
     },
     {
       "id": "hWeapon073",
@@ -42891,7 +42915,15 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "windup": {
+        "base": 240,
+        "algo": 80,
+        "lvMax": 10,
+        "zero": -0.5,
+        "exp": 1.5,
+        "type": "float"
+      }
     },
     {
       "id": "hWeapon076",
@@ -42967,7 +42999,15 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "windup": {
+        "base": 60,
+        "algo": 80,
+        "lvMax": 10,
+        "zero": -0.5,
+        "exp": 1,
+        "type": "float"
+      }
     },
     {
       "id": "hWeapon077",
@@ -43185,7 +43225,15 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "windup": {
+        "base": 120,
+        "algo": 80,
+        "lvMax": 10,
+        "zero": -0.5,
+        "exp": 1,
+        "type": "float"
+      }
     },
     {
       "id": "hWeapon080",
@@ -43261,7 +43309,15 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "windup": {
+        "base": 90,
+        "algo": 80,
+        "lvMax": 10,
+        "zero": -0.5,
+        "exp": 1,
+        "type": "float"
+      }
     },
     {
       "id": "hWeapon081",
@@ -43499,7 +43555,15 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "windup": {
+        "base": 300,
+        "algo": 80,
+        "lvMax": 10,
+        "zero": -0.5,
+        "exp": 1.5,
+        "type": "float"
+      }
     },
     {
       "id": "hWeapon084",
@@ -43575,7 +43639,15 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "windup": {
+        "base": 60,
+        "algo": 80,
+        "lvMax": 10,
+        "zero": -0.5,
+        "exp": 1,
+        "type": "float"
+      }
     },
     {
       "id": "hWeapon085",
@@ -43811,7 +43883,15 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "windup": {
+        "base": 120,
+        "algo": 80,
+        "lvMax": 10,
+        "zero": -0.5,
+        "exp": 1,
+        "type": "float"
+      }
     },
     {
       "id": "hWeapon088",
@@ -43965,7 +44045,15 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "windup": {
+        "base": 300,
+        "algo": 80,
+        "lvMax": 10,
+        "zero": -0.5,
+        "exp": 1.5,
+        "type": "float"
+      }
     },
     {
       "id": "hWeapon090",
@@ -44107,7 +44195,15 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "windup": {
+        "base": 90,
+        "algo": 80,
+        "lvMax": 10,
+        "zero": -0.5,
+        "exp": 1,
+        "type": "float"
+      }
     },
     {
       "id": "hWeapon092",
@@ -44343,7 +44439,15 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "windup": {
+        "base": 60,
+        "algo": 80,
+        "lvMax": 10,
+        "zero": -0.5,
+        "exp": 1,
+        "type": "float"
+      }
     },
     {
       "id": "hWeapon095",
@@ -44645,7 +44749,15 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "windup": {
+        "base": 180,
+        "algo": 80,
+        "lvMax": 10,
+        "zero": -0.5,
+        "exp": 1,
+        "type": "float"
+      }
     },
     {
       "id": "hWeapon099",
@@ -44722,7 +44834,15 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "windup": {
+        "base": 360,
+        "algo": 80,
+        "lvMax": 10,
+        "zero": -0.5,
+        "exp": 1.5,
+        "type": "float"
+      }
     },
     {
       "id": "hCannon01",
@@ -72788,7 +72908,15 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "windup": {
+        "base": 180,
+        "algo": 80,
+        "lvMax": 10,
+        "zero": -0.5,
+        "exp": 1,
+        "type": "float"
+      }
     },
     {
       "id": "EX_B_Weapon024",

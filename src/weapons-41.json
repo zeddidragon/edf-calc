@@ -10960,7 +10960,8 @@
       "life": 40,
       "interval": 3,
       "reload": 480,
-      "secondary": 4
+      "secondary": 4,
+      "windup": 120
     },
     {
       "id": "Weapon422",
@@ -11027,7 +11028,8 @@
       "interval": 3,
       "reload": 300,
       "secondary": 4,
-      "piercing": true
+      "piercing": true,
+      "windup": 240
     },
     {
       "id": "Weapon425",
@@ -11048,7 +11050,8 @@
       "life": 40,
       "interval": 2,
       "reload": 540,
-      "secondary": 4
+      "secondary": 4,
+      "windup": 90
     },
     {
       "id": "Weapon426",
@@ -11115,7 +11118,8 @@
       "interval": 3,
       "reload": 330,
       "secondary": 4,
-      "piercing": true
+      "piercing": true,
+      "windup": 240
     },
     {
       "id": "Weapon429",
@@ -11136,7 +11140,8 @@
       "life": 40,
       "interval": 3,
       "reload": 600,
-      "secondary": 4
+      "secondary": 4,
+      "windup": 60
     },
     {
       "id": "Weapon430",
@@ -11202,7 +11207,8 @@
       "life": 40,
       "interval": 3,
       "reload": 480,
-      "secondary": 4
+      "secondary": 4,
+      "windup": 120
     },
     {
       "id": "Weapon433",
@@ -11223,7 +11229,8 @@
       "life": 40,
       "interval": 2,
       "reload": 540,
-      "secondary": 4
+      "secondary": 4,
+      "windup": 90
     },
     {
       "id": "Weapon434",
@@ -11292,7 +11299,8 @@
       "interval": 3,
       "reload": 300,
       "secondary": 4,
-      "piercing": true
+      "piercing": true,
+      "windup": 300
     },
     {
       "id": "Weapon437",
@@ -11313,7 +11321,8 @@
       "life": 40,
       "interval": 4,
       "reload": 600,
-      "secondary": 4
+      "secondary": 4,
+      "windup": 60
     },
     {
       "id": "Weapon438",
@@ -11379,7 +11388,8 @@
       "life": 40,
       "interval": 3,
       "reload": 480,
-      "secondary": 4
+      "secondary": 4,
+      "windup": 120
     },
     {
       "id": "Weapon441",
@@ -11425,7 +11435,8 @@
       "interval": 3,
       "reload": 300,
       "secondary": 4,
-      "piercing": true
+      "piercing": true,
+      "windup": 300
     },
     {
       "id": "Weapon443",
@@ -11468,7 +11479,8 @@
       "life": 40,
       "interval": 3,
       "reload": 540,
-      "secondary": 4
+      "secondary": 4,
+      "windup": 90
     },
     {
       "id": "Weapon445",
@@ -11534,7 +11546,8 @@
       "life": 50,
       "interval": 3,
       "reload": 600,
-      "secondary": 4
+      "secondary": 4,
+      "windup": 60
     },
     {
       "id": "Weapon448",
@@ -11622,7 +11635,8 @@
       "life": 55,
       "interval": 3,
       "reload": 660,
-      "secondary": 4
+      "secondary": 4,
+      "windup": 180
     },
     {
       "id": "Weapon452",
@@ -11644,7 +11658,8 @@
       "interval": 3,
       "reload": 240,
       "secondary": 4,
-      "piercing": true
+      "piercing": true,
+      "windup": 360
     },
     {
       "id": "hCannon01",

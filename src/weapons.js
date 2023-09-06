@@ -2256,15 +2256,15 @@ const headers = [{
     if(!wpn.damage) {
       return '-'
     }
-    if(wpn.ammo < 2 && !wpn.duration) {
-      return '-'
-    }
     if(wpn.shotInterval) { // Turret
       return quickDps({
         ...wpn,
         shots: 1,
         interval: wpn.shotInterval,
       })
+    }
+    if(wpn.ammo < 2 && !wpn.duration) {
+      return '-'
     }
     if(wpn.burst > 100) {
       return (wpn.damage * FPS / (wpn.burstRate || 1)).toFixed(1)

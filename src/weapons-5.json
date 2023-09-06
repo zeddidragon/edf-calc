@@ -50639,7 +50639,8 @@
       "credits": true,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 10
+      "shots": 10,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon002",
@@ -50685,7 +50686,8 @@
       "credits": true,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 10
+      "shots": 10,
+      "shotInterval": 15
     },
     {
       "id": "eRequestMortar01",
@@ -50731,7 +50733,8 @@
       "credits": true,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 10
+      "shots": 10,
+      "shotInterval": 15
     },
     {
       "id": "eRequestMortar02",
@@ -50777,7 +50780,8 @@
       "credits": true,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 20
+      "shots": 20,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon003",
@@ -50823,7 +50827,8 @@
       "credits": true,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 20
+      "shots": 20,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon004",
@@ -50869,7 +50874,8 @@
       "credits": true,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 20
+      "shots": 20,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon005",
@@ -50915,7 +50921,8 @@
       "credits": true,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 11
+      "shots": 11,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon006",
@@ -50961,7 +50968,8 @@
       "credits": true,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 10
+      "shots": 10,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon007",
@@ -51007,7 +51015,8 @@
       "credits": true,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 10
+      "shots": 10,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon008",
@@ -51053,7 +51062,8 @@
       "credits": true,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 20
+      "shots": 20,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon009",
@@ -51099,7 +51109,8 @@
       "credits": true,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 20
+      "shots": 20,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon010",
@@ -51145,7 +51156,8 @@
       "credits": true,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 20
+      "shots": 20,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon011",
@@ -51191,7 +51203,8 @@
       "credits": true,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 10
+      "shots": 10,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon012",
@@ -51237,7 +51250,8 @@
       "credits": true,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 10
+      "shots": 10,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon013",
@@ -51283,7 +51297,8 @@
       "credits": true,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 10
+      "shots": 10,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon014",
@@ -51329,7 +51344,8 @@
       "credits": true,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 20
+      "shots": 20,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon015",
@@ -51375,7 +51391,8 @@
       "credits": true,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 20
+      "shots": 20,
+      "shotInterval": 15
     },
     {
       "id": "eRequestAirStrike01D",
@@ -51443,7 +51460,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 1
+      "shots": 1,
+      "shotInterval": 60
     },
     {
       "id": "eRequestAirStrike01",
@@ -51497,7 +51515,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 55
+      "shots": 55,
+      "shotInterval": 2
     },
     {
       "id": "eWeapon016",
@@ -51551,7 +51570,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 15
+      "shots": 15,
+      "shotInterval": 10
     },
     {
       "id": "eWeapon017",
@@ -51619,7 +51639,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 1
+      "shots": 1,
+      "shotInterval": 60
     },
     {
       "id": "eWeapon018",
@@ -51687,7 +51708,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 1
+      "shots": 1,
+      "shotInterval": 60
     },
     {
       "id": "eWeapon019",
@@ -51755,7 +51777,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 10
+      "shots": 10,
+      "shotInterval": 60
     },
     {
       "id": "eWeapon020",
@@ -51823,7 +51846,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 1
+      "shots": 1,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon021",
@@ -51877,7 +51901,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 22
+      "shots": 22,
+      "shotInterval": 8
     },
     {
       "id": "eWeapon022",
@@ -51945,7 +51970,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 1
+      "shots": 1,
+      "shotInterval": 60
     },
     {
       "id": "eWeapon023",
@@ -51999,7 +52025,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 100
+      "shots": 100,
+      "shotInterval": 1
     },
     {
       "id": "eWeapon024",
@@ -52067,7 +52094,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 11
+      "shots": 11,
+      "shotInterval": 60
     },
     {
       "id": "eWeapon025",
@@ -52135,7 +52163,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 1
+      "shots": 1,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon026",
@@ -52203,7 +52232,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 1
+      "shots": 1,
+      "shotInterval": 60
     },
     {
       "id": "eWeapon027",
@@ -52257,7 +52287,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 110
+      "shots": 110,
+      "shotInterval": 1
     },
     {
       "id": "eWeapon028",
@@ -52311,7 +52342,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 24
+      "shots": 24,
+      "shotInterval": 7
     },
     {
       "id": "eWeapon029",
@@ -52379,7 +52411,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 1
+      "shots": 1,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon030",
@@ -52433,7 +52466,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 150
+      "shots": 150,
+      "shotInterval": 1
     },
     {
       "id": "eWeapon031",
@@ -52501,7 +52535,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 13
+      "shots": 13,
+      "shotInterval": 60
     },
     {
       "id": "eWeapon032",
@@ -52555,7 +52590,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 35
+      "shots": 35,
+      "shotInterval": 6
     },
     {
       "id": "eWeapon033",
@@ -52623,7 +52659,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 3
+      "shots": 3,
+      "shotInterval": 10
     },
     {
       "id": "eWeapon034",
@@ -52677,7 +52714,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 150
+      "shots": 150,
+      "shotInterval": 1
     },
     {
       "id": "eWeapon035",
@@ -52745,7 +52783,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 1
+      "shots": 1,
+      "shotInterval": 60
     },
     {
       "id": "eWeapon036",
@@ -52799,7 +52838,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 24
+      "shots": 24,
+      "shotInterval": 7
     },
     {
       "id": "eWeapon037",
@@ -52867,7 +52907,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 1
+      "shots": 1,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon038",
@@ -52921,7 +52962,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 45
+      "shots": 45,
+      "shotInterval": 7
     },
     {
       "id": "eWeapon039",
@@ -52989,7 +53031,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 1
+      "shots": 1,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon040",
@@ -53057,7 +53100,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 15
+      "shots": 15,
+      "shotInterval": 60
     },
     {
       "id": "eWeapon041",
@@ -53111,7 +53155,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 25
+      "shots": 25,
+      "shotInterval": 6
     },
     {
       "id": "eWeapon042",
@@ -53165,7 +53210,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 110
+      "shots": 110,
+      "shotInterval": 1
     },
     {
       "id": "eWeapon043",
@@ -53233,7 +53279,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 1
+      "shots": 1,
+      "shotInterval": 60
     },
     {
       "id": "eWeapon044",
@@ -53301,7 +53348,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 4
+      "shots": 4,
+      "shotInterval": 8
     },
     {
       "id": "eWeapon045",
@@ -53369,7 +53417,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 20
+      "shots": 20,
+      "shotInterval": 60
     },
     {
       "id": "eWeapon046",
@@ -53423,7 +53472,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 150
+      "shots": 150,
+      "shotInterval": 1
     },
     {
       "id": "eWeapon047",
@@ -53491,7 +53541,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 1
+      "shots": 1,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon048",
@@ -53545,7 +53596,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 24
+      "shots": 24,
+      "shotInterval": 5
     },
     {
       "id": "eWeapon049",
@@ -53613,7 +53665,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 1
+      "shots": 1,
+      "shotInterval": 60
     },
     {
       "id": "eWeapon050",
@@ -53681,7 +53734,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 1
+      "shots": 1,
+      "shotInterval": 15
     },
     {
       "id": "eWeapon051",
@@ -56068,7 +56122,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 600
+      "shots": 600,
+      "shotInterval": 2
     },
     {
       "id": "eWeapon100",
@@ -56122,7 +56177,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 600
+      "shots": 600,
+      "shotInterval": 2
     },
     {
       "id": "eWeapon101",
@@ -56177,7 +56233,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 90
+      "shots": 90,
+      "shotInterval": 8
     },
     {
       "id": "eWeapon102",
@@ -56231,7 +56288,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 600
+      "shots": 600,
+      "shotInterval": 2
     },
     {
       "id": "eWeapon103",
@@ -56285,7 +56343,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 600
+      "shots": 600,
+      "shotInterval": 2
     },
     {
       "id": "eWeapon104",
@@ -56340,7 +56399,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 90
+      "shots": 90,
+      "shotInterval": 8
     },
     {
       "id": "eWeapon105",
@@ -56394,7 +56454,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 800
+      "shots": 800,
+      "shotInterval": 2
     },
     {
       "id": "eWeapon106",
@@ -56449,7 +56510,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 1
+      "shots": 1,
+      "shotInterval": 8
     },
     {
       "id": "eWeapon107",
@@ -56503,7 +56565,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 800
+      "shots": 800,
+      "shotInterval": 2
     },
     {
       "id": "eWeapon108",
@@ -56558,7 +56621,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 90
+      "shots": 90,
+      "shotInterval": 8
     },
     {
       "id": "eWeapon109",
@@ -56612,7 +56676,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 1600
+      "shots": 1600,
+      "shotInterval": 2
     },
     {
       "id": "eWeapon110",
@@ -56667,7 +56732,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 120
+      "shots": 120,
+      "shotInterval": 8
     },
     {
       "id": "eWeapon111",
@@ -56721,7 +56787,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 700
+      "shots": 700,
+      "shotInterval": 2
     },
     {
       "id": "eWeapon112",
@@ -56776,7 +56843,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 80
+      "shots": 80,
+      "shotInterval": 8
     },
     {
       "id": "eWeapon113",
@@ -56831,7 +56899,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 1
+      "shots": 1,
+      "shotInterval": 8
     },
     {
       "id": "eWeapon114",
@@ -56885,7 +56954,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 600
+      "shots": 600,
+      "shotInterval": 2
     },
     {
       "id": "eWeapon115",
@@ -56940,7 +57010,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 60
+      "shots": 60,
+      "shotInterval": 2
     },
     {
       "id": "eWeapon116",
@@ -56995,7 +57066,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 160
+      "shots": 160,
+      "shotInterval": 8
     },
     {
       "id": "eWeapon117",
@@ -57050,7 +57122,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 1
+      "shots": 1,
+      "shotInterval": 8
     },
     {
       "id": "eWeapon118",
@@ -57104,7 +57177,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 600
+      "shots": 600,
+      "shotInterval": 2
     },
     {
       "id": "eLimpetGun01",
@@ -70853,7 +70927,8 @@
       "credits": true,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 20
+      "shots": 20,
+      "shotInterval": 15
     },
     {
       "id": "EX_A_Weapon028",
@@ -73230,7 +73305,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
-      "shots": 1
+      "shots": 1,
+      "shotInterval": 60
     },
     {
       "id": "EX_B_Weapon030",

@@ -14171,6 +14171,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 10,
+      "shotInterval": 15,
       "underground": "blocked"
     },
     {
@@ -14197,6 +14198,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 20,
+      "shotInterval": 15,
       "underground": "blocked"
     },
     {
@@ -14223,6 +14225,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 10,
+      "shotInterval": 15,
       "underground": "blocked"
     },
     {
@@ -14249,6 +14252,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 20,
+      "shotInterval": 15,
       "underground": "blocked"
     },
     {
@@ -14275,6 +14279,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 20,
+      "shotInterval": 15,
       "underground": "blocked"
     },
     {
@@ -14301,6 +14306,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 10,
+      "shotInterval": 15,
       "underground": "blocked"
     },
     {
@@ -14327,6 +14333,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 10,
+      "shotInterval": 15,
       "underground": "blocked"
     },
     {
@@ -14353,6 +14360,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 20,
+      "shotInterval": 15,
       "underground": "blocked"
     },
     {
@@ -14379,6 +14387,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 300,
+      "shotInterval": 2,
       "underground": "blocked"
     },
     {
@@ -14405,6 +14414,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 20,
+      "shotInterval": 20,
       "underground": "blocked"
     },
     {
@@ -14430,6 +14440,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 1,
+      "shotInterval": 20,
       "underground": "blocked"
     },
     {
@@ -14456,6 +14467,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 300,
+      "shotInterval": 2,
       "underground": "blocked"
     },
     {
@@ -14482,6 +14494,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 20,
+      "shotInterval": 20,
       "underground": "blocked"
     },
     {
@@ -14507,6 +14520,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 1,
+      "shotInterval": 20,
       "underground": "blocked"
     },
     {
@@ -14533,6 +14547,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 20,
+      "shotInterval": 20,
       "underground": "blocked"
     },
     {
@@ -14559,6 +14574,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 300,
+      "shotInterval": 2,
       "underground": "blocked"
     },
     {
@@ -14585,6 +14601,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 300,
+      "shotInterval": 2,
       "underground": "blocked"
     },
     {
@@ -14610,6 +14627,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 1,
+      "shotInterval": 20,
       "underground": "blocked"
     },
     {
@@ -14636,6 +14654,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 20,
+      "shotInterval": 20,
       "underground": "blocked"
     },
     {
@@ -15229,6 +15248,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 600,
+      "shotInterval": 2,
       "underground": "blocked"
     },
     {
@@ -15256,6 +15276,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 45,
+      "shotInterval": 8,
       "underground": "blocked"
     },
     {
@@ -15282,6 +15303,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 600,
+      "shotInterval": 2,
       "underground": "blocked"
     },
     {
@@ -15308,6 +15330,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 600,
+      "shotInterval": 2,
       "underground": "blocked"
     },
     {
@@ -15335,6 +15358,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 60,
+      "shotInterval": 8,
       "underground": "blocked"
     },
     {
@@ -15361,6 +15385,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 600,
+      "shotInterval": 2,
       "underground": "blocked"
     },
     {
@@ -15388,6 +15413,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 80,
+      "shotInterval": 8,
       "underground": "blocked"
     },
     {
@@ -15414,6 +15440,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 600,
+      "shotInterval": 2,
       "underground": "blocked"
     },
     {
@@ -15440,6 +15467,7 @@
       "accuracy": 0,
       "strikeType": "shelling",
       "shots": 200,
+      "shotInterval": 4,
       "underground": "blocked"
     },
     {

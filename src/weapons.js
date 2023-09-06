@@ -786,7 +786,7 @@ function tacticalDps(wpn) {
   const interval = wpn.interval || 1
   const bursts = wpn.ammo / (wpn.burst || 1)
   const bTime = burstTime(wpn)
-  let magTime = bursts * bTime + wpn.reload - interval
+  let magTime = bursts * bTime + wpn.reload - interval + (wpn.windup || 0)
   if(wpn.lockType === 1) {
     let count = wpn.lockDist === 1 ? wpn.count : wpn.ammo
     magTime += (wpn.lockTime || 0) * count

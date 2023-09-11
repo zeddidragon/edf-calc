@@ -964,19 +964,6 @@ const headers = [{
     return label
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'bike',
-      'tank',
-      'ground',
-      'heli',
-      'mech',
-      'super',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'hp',
   label: 'HP',
   tooltip: 'Durability',
@@ -987,15 +974,6 @@ const headers = [{
     return wpn.hp
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'bike',
-      'heli',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'fuel',
   label: 'Fuel',
   tooltip: 'Fuel Capacity',
@@ -1006,15 +984,6 @@ const headers = [{
     return wpn.fuel
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'bike',
-      'heli',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'fuelUse',
   label: 'Cns',
   tooltip: 'Fuel Consumption',
@@ -1025,39 +994,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'artillery',
-      'planes',
-      'raid',
-      'particle',
-      'equipment',
-      'core',
-      'booster',
-      'muzzle',
-      'exo',
-    ].includes(cat)) {
-      return false
-    }
-    if(ch === 'winger' && [
-      'missile',
-      'special',
-    ].includes(cat)) {
-      return false
-    }
-    if(ch === 'bomber' && [
-      'missile',
-    ].includes(cat)) {
-      return false
-    }
-    if(active.game === '41' && ch === 'winger' && [
-      'plasma',
-      'sniper',
-    ].includes(cat)) {
-      return false
-    }
-    return true
-  },
   id: 'ammo',
   label: 'Cap',
   tooltip: 'Ammo Capacity',
@@ -1072,16 +1008,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'hammer',
-      'shield',
-      'protector',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'defense',
   label: 'Def',
   tooltip: 'Defense',
@@ -1095,14 +1021,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'hammer',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'chargeTime',
   label: 'Chg',
   tooltip: 'Charge Time',
@@ -1113,39 +1031,6 @@ const headers = [{
     return +(wpn.charge / FPS).toFixed(1)
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'assault',
-      'shotgun',
-      'sniper',
-      'spear',
-      'heavy',
-      'tank',
-      'ground',
-      'heli',
-      'mech',
-    ].includes(cat)) {
-      return true
-    }
-    if(active.game === '5' && [
-      'short',
-      'laser',
-    ].includes(cat)) {
-      return true
-    }
-    if([
-      'winger',
-      'bomber',
-    ].includes(ch)) {
-      return false
-    }
-    if(ch === 'ranger' && [
-      'special',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'piercing',
   headerClass: 'P',
   label: 'P',
@@ -1157,21 +1042,6 @@ const headers = [{
     return ''
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'guide',
-      'shield',
-      'equipment',
-      'core',
-      'booster',
-      'protector',
-      'muzzle',
-      'exo',
-    ].includes(cat)) {
-      return false
-    }
-    return true
-  },
   id: 'damage',
   label: 'Dmg',
   tooltip: 'Damage',
@@ -1216,14 +1086,6 @@ const headers = [{
     return dmg
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if(ch === 'ranger' && [
-      'special',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'damage2',
   label: 'Dmg*',
   tooltip: 'Damage*',
@@ -1235,19 +1097,6 @@ const headers = [{
     return +Math.abs(dmg * wpn.duration).toFixed(1)
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if(ch === 'bomber' && [
-      'raid',
-      'planes',
-      'artillery',
-      'gunship',
-      'missile',
-      'satellite',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'shots',
   label: 'Shots',
   tooltip: 'Shots',
@@ -1258,34 +1107,6 @@ const headers = [{
     return wpn.shots || 1
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if(cat === 'special' && [
-      'winger',
-      'bomber',
-    ].includes(ch)) {
-      return false
-    }
-    if([
-      'rocket',
-      'grenade',
-      'missile',
-      'special',
-      'plasma',
-      'hammer',
-      'heavy',
-      'raid',
-      'support',
-      'limpet',
-      'deploy',
-      'tank',
-      'ground',
-      'heli',
-      'mech',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'radius',
   label: 'Area',
   starProp: 'radius',
@@ -1294,25 +1115,13 @@ const headers = [{
     return (+wpn.radius).toFixed(2)
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if(ch === 'ranger' && [
-      'special',
-    ].includes(cat)) {
-      return true
-    }
-    if([
-      'support',
-      'grenade',
-    ].includes(cat)) {
-      return true
-    }
-    if(ch === 'winger' && [
-      'special',
-    ].includes(cat)) {
-      return true
-    }
-    return false
+  id: 'subRadius',
+  label: 'Area*',
+  cb: wpn => {
+    if(!wpn.subRadius) return '-'
+    return (+wpn.subRadius).toFixed(2)
   },
+}, {
   id: 'duration',
   label: 'Dur',
   tooltip: 'Duration',
@@ -1322,36 +1131,6 @@ const headers = [{
     return +(duration / FPS).toFixed(1)
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'artillery',
-      'planes',
-      'raid',
-      'satellite',
-      'support',
-      'hammer',
-      'shield',
-      'equipment',
-      'core',
-      'booster',
-      'protector',
-      'muzzle',
-      'exo',
-    ].includes(cat)) {
-      return false
-    }
-    if(ch === 'winger' && [
-      'special',
-    ].includes(cat)) {
-      return false
-    }
-    if(ch === 'bomber' && [
-      'missile',
-    ].includes(cat)) {
-      return false
-    }
-    return true
-  },
   id: 'interval',
   label: 'RoF',
   tooltip: 'Rate of Fire',
@@ -1390,14 +1169,6 @@ const headers = [{
     return rof
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if(ch === 'fencer' && [
-      'light',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'windup',
   label: 'Delay',
   tooltip: 'Windup Time',
@@ -1409,27 +1180,6 @@ const headers = [{
     return +(wpn.windup / FPS).toFixed(2)
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if(!gameHasLockons(active.game)) {
-      return false
-    }
-    if(ch === 'bomber' && [
-      'missile',
-    ].includes(cat)) {
-      return false
-    }
-    if([
-      'missile',
-      'homing',
-      'bike',
-      'ground',
-      'heli',
-      'mech',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'lockTime',
   label: 'Lock',
   tooltip: 'Lock Time',
@@ -1441,18 +1191,6 @@ const headers = [{
     return +(wpn.lockTime / FPS).toFixed(2)
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if(ch === 'bomber' && [
-      'strike',
-      'artillery',
-      'planes',
-      'missile',
-      'satellite',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'credits',
   headerClass: 'CR',
   label: 'CR',
@@ -1464,19 +1202,6 @@ const headers = [{
     return ''
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'equipment',
-      'booster',
-      'protector',
-      'muzzle',
-      'core',
-      'exo',
-    ].includes(cat)) {
-      return false
-    }
-    return true
-  },
   id: 'reload',
   headerClass: 'Rel',
   label: 'Rel',
@@ -1495,15 +1220,6 @@ const headers = [{
     return +(wpn.reload / FPS).toFixed(2)
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    return false
-    if([
-      'spear',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'swing',
   label: 'Swing',
   tooltip: 'Swing Speed',
@@ -1514,31 +1230,6 @@ const headers = [{
     return `${wpn.swing}x`
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if(active.game === 'ia') {
-      return false
-    }
-    if([
-      'missile',
-      'special',
-      'artillery',
-      'planes',
-      'raid',
-      'deploy',
-      'hammer',
-      'spear',
-      'shield',
-      'equipment',
-      'core',
-      'booster',
-      'protector',
-      'muzzle',
-      'exo',
-    ].includes(cat)) {
-      return false
-    }
-    return true
-  },
   id: 'accuracy',
   label: 'Acc',
   tooltip: 'Accuracy',
@@ -1570,15 +1261,6 @@ const headers = [{
     ].find(([a]) => a >= wpn.accuracy)[1]
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if(cat === 'shield') {
-      return true
-    }
-    if(ch === 'winger') {
-      return true
-    }
-    return false
-  },
   id: 'energy',
   label: 'Enr',
   tooltip: 'Energy',
@@ -1590,14 +1272,6 @@ const headers = [{
     return +wpn.energy.toFixed(1)
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'core',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'chargeBoost',
   label: 'Chg',
   tooltip: 'Charge Speed',
@@ -1609,14 +1283,6 @@ const headers = [{
     return (nrg * spd * FPS * 0.001).toFixed(1)
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'core',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'chargeEmergencyBoost',
   label: 'Em.C',
   tooltip: 'Emergency Charge Speed',
@@ -1629,14 +1295,6 @@ const headers = [{
     return (nrg * spd * FPS * 0.002).toFixed(1)
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'core',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'energyUse',
   label: 'Cns',
   tooltip: 'Flight Consumption',
@@ -1648,14 +1306,6 @@ const headers = [{
     return (nrg * usg * FPS * 0.0025).toFixed(1)
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'core',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'boostUse',
   label: 'B.Cns',
   tooltip: 'Boost Consumption',
@@ -1667,24 +1317,6 @@ const headers = [{
     return (nrg * usg * 0.03).toFixed(1)
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if(!['5', '6'].includes(active.game)) {
-      return false
-    }
-    if(ch === 'ranger' && [
-      'assault',
-      'shotgun',
-      'sniper',
-    ].includes(cat)) {
-      return true
-    }
-    if(ch === 'bomber' && [
-      'special',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'piercingRange',
   label: 'PtRng',
   tooltip: 'Piercing Range',
@@ -1697,36 +1329,6 @@ const headers = [{
     return (wpn.speed * life).toFixed(1)
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if(active.game === 'ia') {
-      return false
-    }
-    if(ch === 'bomber' && [
-      'missile',
-    ].includes(cat)) {
-      return true
-    }
-    if([
-      'artillery',
-      'planes',
-      'support',
-      'equipment',
-      'core',
-      'booster',
-      'muzzle',
-      'exo',
-      'rocket',
-      'missile',
-    ].includes(cat)) {
-      return false
-    }
-    if(ch === 'winger' && [
-      'special',
-    ].includes(cat)) {
-      return false
-    }
-    return true
-  },
   id: 'range',
   label: 'Rng',
   tooltip: 'Range',
@@ -1750,17 +1352,6 @@ const headers = [{
     return (wpn.speed * wpn.life).toFixed(1)
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if(!gameHasLockons(active.game)) {
-      return false
-    }
-    if(ch !== 'bomber' && [
-      'missile',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'lockRange',
   label: 'Rng',
   tooltip: 'Lock-Range',
@@ -1772,14 +1363,6 @@ const headers = [{
     return (wpn.speed * wpn.life).toFixed(0)
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'equipment',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'healAllyBoost',
   label: 'H.NPC',
   tooltip: 'Healing Ally Boost',
@@ -1790,14 +1373,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'equipment',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'probeRadius',
   label: 'Probe',
   tooltip: 'Pickup Radius',
@@ -1808,14 +1383,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'equipment',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'knockdownImmunity',
   label: 'KD.Im',
   tooltip: 'Knockdown Immunity',
@@ -1826,31 +1393,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if(active.game === 'ia') {
-      return false
-    }
-    if([
-      'hammer',
-      'spear',
-      'artillery',
-      'planes',
-      'raid',
-      'missile',
-      'shield',
-      'booster',
-      'protector',
-      'muzzle',
-    ].includes(cat)) {
-      return false
-    }
-    if(ch === 'winger' && [
-      'special',
-    ].includes(cat)) {
-      return false
-    }
-    return true
-  },
   id: 'speed',
   label: 'Spd',
   tooltip: 'Move Speed',
@@ -1868,14 +1410,6 @@ const headers = [{
     return spd.toFixed(1)
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'core',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'flightBoost',
   label: 'Fly',
   tooltip: 'Flight Speed',
@@ -1886,14 +1420,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'core',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'dashForwardBoost',
   label: 'B.Fwd',
   tooltip: 'Boost Forward',
@@ -1904,14 +1430,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'core',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'dashBackwardBoost',
   label: 'B.Bwd',
   tooltip: 'Boost Backward',
@@ -1922,14 +1440,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'core',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'dashSideBoost',
   label: 'B.Side',
   tooltip: 'Boost Sideways',
@@ -1940,14 +1450,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'core',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'airControl',
   label: 'Acc',
   tooltip: 'Air Acceleration',
@@ -1958,14 +1460,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'core',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'reloadBoost',
   label: 'Rel',
   tooltip: 'Reload Speed Boost',
@@ -1976,14 +1470,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'equipment',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'hitSlowdown',
   label: 'Stun',
   tooltip: 'Hit Slowdown',
@@ -1994,14 +1480,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'equipment',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'sprintSpeedBoost',
   label: 'Sprint',
   tooltip: 'Sprint Speed',
@@ -2012,14 +1490,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'equipment',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'sprintTurnBoost',
   label: 'Swirl',
   tooltip: 'Sprint Turnspeed',
@@ -2030,14 +1500,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'equipment',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'sprintAccelerationBoost',
   label: 'Acc',
   tooltip: 'Sprint Acceleration',
@@ -2048,14 +1510,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'equipment',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'sprintHitSlowdown',
   label: 'Stun',
   tooltip: 'Sprint Hit Slowdown',
@@ -2066,14 +1520,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'equipment',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   label: 'Break',
   tooltip: 'Obstacle Destruction During Sprint',
   cb: wpn => {
@@ -2083,15 +1529,7 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'guide',
-      'equipment',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
+  id: 'lockSpeedBoost',
   label: 'L.Spd',
   tooltip: 'Lock Speed',
   cb: wpn => {
@@ -2101,15 +1539,7 @@ const headers = [{
     return `${wpn.lockTime}x`
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'guide',
-      'equipment',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
+  id: 'lockRangeBoost',
   label: 'L.Rng',
   tooltip: 'Lock-Range',
   cb: wpn => {
@@ -2119,14 +1549,6 @@ const headers = [{
     return `${wpn.lockRange}x`
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'equipment',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   label: 'Multi',
   tooltip: 'Multi Lock',
   cb: wpn => {
@@ -2136,15 +1558,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'booster',
-      'exo',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   label: 'Dash',
   tooltip: 'Dash Count',
   cb: wpn => {
@@ -2154,14 +1567,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'booster',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   label: 'Boost',
   tooltip: 'Boost Count',
   cb: wpn => {
@@ -2171,14 +1576,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'booster',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   label: 'D.CD',
   tooltip: 'Dash Cooldown',
   cb: wpn => {
@@ -2188,14 +1585,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'booster',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   label: 'B.Spd',
   tooltip: 'Boost Speed',
   cb: wpn => {
@@ -2205,14 +1594,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'protector',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   label: 'Cns',
   tooltip: 'Shield Consumption',
   cb: wpn => {
@@ -2222,14 +1603,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'protector',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   label: 'Rf.Cns',
   tooltip: 'Shield Reflect Consumption',
   cb: wpn => {
@@ -2239,14 +1612,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'protector',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   label: 'KB',
   tooltip: 'Shield Knockback',
   cb: wpn => {
@@ -2256,14 +1621,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'exo',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   label: 'Eq.Walk',
   tooltip: 'Equip Weight Move Speed Reduction',
   cb: wpn => {
@@ -2273,14 +1630,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'exo',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   label: 'Eq.Turn',
   tooltip: 'Equip Weight Turn Speed Reduction',
   cb: wpn => {
@@ -2290,15 +1639,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'muzzle',
-      'exo',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   label: 'Stability',
   cb: wpn => {
     if(wpn.equipRecoil != null) {
@@ -2307,41 +1647,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'particle',
-      'plasma',
-      'guide',
-      'gunship',
-      'artillery',
-      'satellite',
-      'planes',
-      'raid',
-      'limpet',
-      'shield',
-      'missile',
-      'hammer',
-      'equipment',
-      'core',
-      'booster',
-      'protector',
-      'muzzle',
-      'exo',
-    ].includes(cat)) {
-      return false
-    }
-    if(ch === 'winger' && [
-      'sniper',
-    ].includes(cat)) {
-      return false
-    }
-    if(ch === 'bomber' && [
-      'special',
-    ].includes(cat)) {
-      return false
-    }
-    return true
-  },
   id: 'dps',
   label: 'DPS',
   tooltip: 'Damage Per Second',
@@ -2352,7 +1657,7 @@ const headers = [{
     if(wpn.shotInterval) { // Turret
       return quickDps({
         ...wpn,
-        shots: 1,
+        shots: wpn.ammo,
         interval: wpn.shotInterval,
       })
     }
@@ -2381,20 +1686,6 @@ const headers = [{
     return quickDps(wpn)
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'support',
-      'deploy',
-    ].includes(cat)) {
-      return true
-    }
-    if(ch === 'ranger' && [
-      'special',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'dps2',
   label: 'DPS*',
   tooltip: 'Damage Per Second*',
@@ -2425,38 +1716,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'bike',
-      'guide',
-      'satellite',
-      'artillery',
-      'planes',
-      'raid',
-      'support',
-      'hammer',
-      'shield',
-      'limpet',
-      'tank',
-      'ground',
-      'heli',
-      'mech',
-      'equipment',
-      'core',
-      'booster',
-      'protector',
-      'muzzle',
-      'exo',
-    ].includes(cat)) {
-      return false
-    }
-    if(ch === 'bomber' && [
-      'special',
-    ].includes(cat)) {
-      return false
-    }
-    return true
-  },
   id: 'tdps',
   label: 'TDPS',
   tooltip: 'Total Damage Per Second (including reload)',
@@ -2489,21 +1748,6 @@ const headers = [{
     return tdps.toFixed(1)
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if(ch === 'ranger' && [
-      'special',
-      'booster',
-    ].includes(cat)) {
-      return true
-    }
-    if(cat === 'missile' && ![
-      'winger',
-      'bomber',
-    ].includes(ch) && gameHasLockons(active.game)) {
-      return true
-    }
-    return false
-  },
   id: 'tdps2',
   label: 'TDPS*',
   tooltip: 'Total Damage Per Second (including reload)*',
@@ -2520,27 +1764,6 @@ const headers = [{
     return '-'
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'guide',
-      'hammer',
-      'shield',
-      'equipment',
-      'core',
-      'booster',
-      'protector',
-      'muzzle',
-      'exo',
-    ].includes(cat)) {
-      return false
-    }
-    if(ch === 'bomber' && [
-      'special',
-    ].includes(cat)) {
-      return false
-    }
-    return true
-  },
   id: 'total',
   label: 'Total',
   tooltip: 'Total Damage',
@@ -2576,19 +1799,6 @@ const headers = [{
     return +dump.toFixed(1)
   },
 }, {
-  iff: (ch, cat, wpn) => {
-    if([
-      'support',
-    ].includes(cat)) {
-      return true
-    }
-    if(ch === 'ranger' && [
-      'special',
-    ].includes(cat)) {
-      return true
-    }
-    return false
-  },
   id: 'total2',
   label: 'Total*',
   tooltip: 'Total Damage*',

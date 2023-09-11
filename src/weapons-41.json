@@ -3068,7 +3068,7 @@
       "life": 125,
       "interval": 50,
       "reload": 140,
-      "duration": 360,
+      "duration": 240,
       "subCategory": "gl"
     },
     {
@@ -3305,7 +3305,7 @@
       "life": 250,
       "interval": 50,
       "reload": 360,
-      "duration": 900,
+      "duration": 600,
       "subCategory": "gl"
     },
     {
@@ -3352,7 +3352,7 @@
       "life": 250,
       "interval": 50,
       "reload": 220,
-      "duration": 360,
+      "duration": 240,
       "subCategory": "gl"
     },
     {
@@ -3471,7 +3471,7 @@
       "life": 250,
       "interval": 50,
       "reload": 1400,
-      "duration": 1800,
+      "duration": 1200,
       "subCategory": "gl"
     },
     {
@@ -3540,7 +3540,7 @@
       "life": 250,
       "interval": 50,
       "reload": 360,
-      "duration": 900,
+      "duration": 600,
       "subCategory": "gl"
     },
     {
@@ -3587,7 +3587,7 @@
       "life": 250,
       "interval": 50,
       "reload": 220,
-      "duration": 360,
+      "duration": 240,
       "subCategory": "gl"
     },
     {
@@ -13204,14 +13204,13 @@
       "character": "bomber",
       "category": "guide",
       "odds": "starter",
+      "ammo": 1,
       "weapon": "Weapon_LaserMarker",
       "speed": 700,
       "life": 1,
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "lockTime": 3,
-      "lockRange": 3,
       "subCategory": "laser"
     },
     {
@@ -13224,14 +13223,13 @@
       "character": "bomber",
       "category": "guide",
       "odds": 100,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarker",
       "speed": 200,
       "life": 1,
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "lockTime": 5,
-      "lockRange": 5,
       "subCategory": "laser"
     },
     {
@@ -13244,14 +13242,13 @@
       "character": "bomber",
       "category": "guide",
       "odds": 100,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarker",
       "speed": 800,
       "life": 1,
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "lockTime": 3.5,
-      "lockRange": 3,
       "subCategory": "laser"
     },
     {
@@ -13264,14 +13261,13 @@
       "character": "bomber",
       "category": "guide",
       "odds": 100,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarker",
       "speed": 900,
       "life": 1,
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "lockTime": 4,
-      "lockRange": 3,
       "subCategory": "laser"
     },
     {
@@ -13284,14 +13280,13 @@
       "character": "bomber",
       "category": "guide",
       "odds": 100,
+      "ammo": 1,
       "weapon": "Weapon_LaserMarker",
       "speed": 900,
       "life": 1,
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
-      "lockTime": 6,
-      "lockRange": 4,
       "subCategory": "laser"
     },
     {
@@ -23497,8 +23492,8 @@
           "ammo",
           "damage",
           "interval",
-          "accuracy",
           "reload",
+          "accuracy",
           "energy",
           "range",
           "speed",
@@ -23520,8 +23515,8 @@
           "ammo",
           "damage",
           "interval",
-          "accuracy",
           "reload",
+          "accuracy",
           "energy",
           "range",
           "speed",
@@ -23543,8 +23538,8 @@
           "ammo",
           "damage",
           "interval",
-          "accuracy",
           "reload",
+          "accuracy",
           "energy",
           "range",
           "speed",
@@ -23564,8 +23559,8 @@
           "level",
           "name",
           "damage",
-          "accuracy",
           "reload",
+          "accuracy",
           "energy",
           "range",
           "speed",
@@ -23584,8 +23579,8 @@
           "level",
           "name",
           "damage",
-          "accuracy",
           "reload",
+          "accuracy",
           "energy",
           "range",
           "speed",
@@ -23604,8 +23599,9 @@
           "level",
           "name",
           "damage",
-          "accuracy",
+          "radius",
           "reload",
+          "accuracy",
           "energy",
           "range",
           "speed",
@@ -23624,7 +23620,7 @@
           "level",
           "name",
           "damage",
-          "accuracy",
+          "radius",
           "lockTime",
           "reload",
           "energy",
@@ -23648,8 +23644,7 @@
           "duration",
           "reload",
           "energy",
-          "range",
-          "speed",
+          "dps",
           "tdps",
           "total"
         ]
@@ -23754,6 +23749,7 @@
               "level",
               "name",
               "ammo",
+              "piercing",
               "damage",
               "interval",
               "reload",
@@ -23785,7 +23781,6 @@
               "speed",
               "dps",
               "tdps",
-              "tdps2",
               "total"
             ]
           }
@@ -23984,7 +23979,6 @@
               "radius",
               "duration",
               "interval",
-              "accuracy",
               "dps",
               "total"
             ]
@@ -24002,9 +23996,9 @@
               "ammo",
               "damage",
               "radius",
+              "duration",
               "interval",
               "reload",
-              "accuracy",
               "dps",
               "total"
             ]
@@ -24022,9 +24016,9 @@
               "ammo",
               "damage",
               "radius",
+              "duration",
               "interval",
-              "reload",
-              "accuracy"
+              "reload"
             ]
           },
           {
@@ -24040,9 +24034,9 @@
               "ammo",
               "damage",
               "radius",
+              "duration",
               "interval",
-              "reload",
-              "accuracy"
+              "reload"
             ]
           }
         ]
@@ -24064,6 +24058,7 @@
           "reload",
           "accuracy",
           "range",
+          "speed",
           "dps",
           "tdps",
           "total"

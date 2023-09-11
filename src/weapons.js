@@ -1720,6 +1720,9 @@ const headers = [{
   label: 'TDPS',
   tooltip: 'Total Damage Per Second (including reload)',
   cb: wpn => {
+    if(wpn.credits) {
+      return '-'
+    }
     if(!wpn.damage) {
       return '-'
     }

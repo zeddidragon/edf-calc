@@ -15,6 +15,1056 @@
     "Fencer",
     "Air Raider"
   ],
+  "headers": {
+    "ranger": [
+      {
+        "category": "assault",
+        "names": {
+          "en": "Assault Rifle",
+          "ja": "アサルトライフル"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "ammo",
+          "piercing",
+          "damage",
+          "interval",
+          "reload",
+          "accuracy",
+          "piercingRange",
+          "range",
+          "speed",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "shotgun",
+        "names": {
+          "en": "Shotguns",
+          "ja": "ショットガン"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "ammo",
+          "piercing",
+          "damage",
+          "interval",
+          "reload",
+          "accuracy",
+          "piercingRange",
+          "range",
+          "speed",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "sniper",
+        "names": {
+          "en": "Sniper Rifles",
+          "ja": "スナイパーライフル"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "ammo",
+          "piercing",
+          "damage",
+          "interval",
+          "reload",
+          "accuracy",
+          "range",
+          "speed",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "rocket",
+        "names": {
+          "en": "Rocket Launchers",
+          "ja": "ロケットランチャー"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "ammo",
+          "damage",
+          "radius",
+          "interval",
+          "reload",
+          "accuracy",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "missile",
+        "names": {
+          "en": "Missile Launchers",
+          "ja": "ミサイルランチャー"
+        },
+        "appendix": "*With 0 lock time",
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "ammo",
+          "damage",
+          "radius",
+          "interval",
+          "lockTime",
+          "reload",
+          "lockRange",
+          "tdps",
+          "tdps2",
+          "total"
+        ]
+      },
+      {
+        "category": "grenade",
+        "names": {
+          "en": "Grenades",
+          "ja": "グレネード"
+        },
+        "tables": [
+          {
+            "subCategory": "hg",
+            "names": {
+              "en": "Hand Grenades",
+              "ja": "ハンドグレネード"
+            },
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "damage",
+              "radius",
+              "duration",
+              "interval",
+              "tdps"
+            ]
+          },
+          {
+            "subCategory": "gl",
+            "names": {
+              "en": "Grenade Launchers",
+              "ja": "グレネードランチャー"
+            },
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "radius",
+              "duration",
+              "interval",
+              "reload",
+              "accuracy",
+              "dps",
+              "tdps",
+              "total"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "special",
+        "names": {
+          "en": "Special Weapons",
+          "ja": "特殊"
+        },
+        "tables": [
+          {
+            "subCategory": "decoy",
+            "names": {
+              "en": "Decoys",
+              "ja": "ピュアデコイ・ランチャー"
+            },
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "hp",
+              "duration",
+              "reload"
+            ]
+          },
+          {
+            "subCategory": "acid",
+            "names": {
+              "en": "Acid Guns",
+              "ja": "アシッドガン・シリーズ"
+            },
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "interval",
+              "reload",
+              "range",
+              "speed",
+              "dps",
+              "tdps",
+              "total"
+            ]
+          },
+          {
+            "names": {
+              "en": "Flamethrowers",
+              "ja": "火炎放射器シリーズ"
+            },
+            "subCategory": "flame",
+            "appendix": "*Assuming flame hits every frame of duration.",
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "damage2",
+              "duration",
+              "interval",
+              "reload",
+              "range",
+              "speed",
+              "dps",
+              "dps2",
+              "tdps",
+              "tdps2",
+              "total",
+              "total2"
+            ]
+          },
+          {
+            "names": {
+              "en": "Firecrackers",
+              "ja": "かんしゃく玉シリーズ"
+            },
+            "subCategory": "firecracker",
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "radius",
+              "interval",
+              "range",
+              "speed",
+              "tdps",
+              "total"
+            ]
+          },
+          {
+            "names": {
+              "en": "Bound Guns",
+              "ja": "バウンドガン・シリーズ"
+            },
+            "subCategory": "bound",
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "interval",
+              "reload",
+              "range",
+              "speed",
+              "dps",
+              "tdps",
+              "total"
+            ]
+          },
+          {
+            "subCategory": "bomb",
+            "names": {
+              "en": "Bombs",
+              "ja": "ローラーボムシリーズ"
+            },
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "radius",
+              "interval",
+              "reload",
+              "speed",
+              "tdps",
+              "total"
+            ]
+          },
+          {
+            "subCategory": "mine",
+            "names": {
+              "en": "Land Mines",
+              "ja": "インパルスシリーズ"
+            },
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "interval",
+              "reload",
+              "tdps",
+              "total"
+            ]
+          },
+          {
+            "names": {
+              "en": "Reversers",
+              "ja": "リバーサー"
+            },
+            "subCategory": "reverser",
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "radius",
+              "duration",
+              "interval",
+              "range",
+              "speed",
+              "dps",
+              "total"
+            ]
+          }
+        ]
+      }
+    ],
+    "winger": [
+      {
+        "category": "short",
+        "names": {
+          "en": "Short-Range",
+          "ja": "近距離"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "ammo",
+          "piercing",
+          "damage",
+          "interval",
+          "reload",
+          "accuracy",
+          "energy",
+          "range",
+          "speed",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "laser",
+        "names": {
+          "en": "Mid-Rg Lasers",
+          "ja": "中距離-レーザー"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "ammo",
+          "piercing",
+          "damage",
+          "interval",
+          "reload",
+          "accuracy",
+          "energy",
+          "range",
+          "speed",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "electro",
+        "names": {
+          "en": "Mid-Rg Electroshock",
+          "ja": "中距離-電撃"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "ammo",
+          "damage",
+          "interval",
+          "reload",
+          "accuracy",
+          "energy",
+          "range",
+          "speed",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "particle",
+        "names": {
+          "en": "Particle Cannons",
+          "ja": "中距離-粒子砲"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "ammo",
+          "damage",
+          "interval",
+          "reload",
+          "accuracy",
+          "energy",
+          "range",
+          "speed",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "sniper",
+        "names": {
+          "en": "Sniper Weapons",
+          "ja": "狙撃兵器"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "ammo",
+          "piercing",
+          "damage",
+          "interval",
+          "reload",
+          "accuracy",
+          "energy",
+          "range",
+          "speed",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "plasma",
+        "names": {
+          "en": "Ranged Attacks",
+          "ja": "範囲攻撃"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "ammo",
+          "damage",
+          "radius",
+          "interval",
+          "reload",
+          "accuracy",
+          "energy",
+          "range",
+          "speed",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "missile",
+        "names": {
+          "en": "Homing Weapons",
+          "ja": "ホーミング兵器"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "damage",
+          "radius",
+          "lockTime",
+          "reload",
+          "energy",
+          "range",
+          "speed",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "special",
+        "names": {
+          "en": "Special Weapons",
+          "ja": "特殊"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "damage",
+          "duration",
+          "reload",
+          "energy",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      }
+    ],
+    "fencer": [
+      {
+        "category": "hammer",
+        "names": {
+          "en": "CC Strikers",
+          "ja": "近接-打"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "ammo",
+          "defense",
+          "chargeTime",
+          "damage",
+          "radius",
+          "reload",
+          "range"
+        ]
+      },
+      {
+        "category": "spear",
+        "names": {
+          "en": "CC Piercers",
+          "ja": "ブレード系"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "ammo",
+          "piercing",
+          "damage",
+          "interval",
+          "reload",
+          "range",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "shield",
+        "names": {
+          "en": "Shields",
+          "ja": "盾"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "ammo",
+          "defense",
+          "reload",
+          "energy",
+          "range"
+        ]
+      },
+      {
+        "category": "light",
+        "names": {
+          "en": "Automatic Artillery",
+          "ja": "機関砲"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "ammo",
+          "damage",
+          "interval",
+          "windup",
+          "reload",
+          "accuracy",
+          "range",
+          "speed",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "heavy",
+        "names": {
+          "en": "Artillery",
+          "ja": "火砲"
+        },
+        "tables": [
+          {
+            "subCategory": "piercing",
+            "names": {
+              "en": "Piercing",
+              "ja": "重キャノン砲"
+            },
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "piercing",
+              "damage",
+              "interval",
+              "reload",
+              "accuracy",
+              "range",
+              "speed",
+              "dps",
+              "tdps",
+              "total"
+            ]
+          },
+          {
+            "subCategory": "explosive",
+            "names": {
+              "en": "Explosives",
+              "ja": "迫撃砲"
+            },
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "radius",
+              "interval",
+              "reload",
+              "accuracy",
+              "range",
+              "speed",
+              "dps",
+              "tdps",
+              "total"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "missile",
+        "names": {
+          "en": "Missile Launchers",
+          "ja": "ミサイルランチャー"
+        },
+        "appendix": "*With 0 lock time",
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "ammo",
+          "damage",
+          "radius",
+          "interval",
+          "lockTime",
+          "reload",
+          "lockRange",
+          "tdps",
+          "tdps2",
+          "total"
+        ]
+      }
+    ],
+    "bomber": [
+      {
+        "category": "artillery",
+        "names": {
+          "en": "Request Artillery Units",
+          "ja": "砲兵隊"
+        },
+        "appendix": "*Area for each blast",
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "damage",
+          "shots",
+          "radius",
+          "subRadius",
+          "reload",
+          "total"
+        ]
+      },
+      {
+        "category": "gunship",
+        "names": {
+          "en": "Request Gunships",
+          "ja": "攻撃機ホエール"
+        },
+        "appendix": "*Area for each blast",
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "ammo",
+          "damage",
+          "shots",
+          "radius",
+          "subRadius",
+          "interval",
+          "reload",
+          "accuracy",
+          "range",
+          "speed",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "planes",
+        "names": {
+          "en": "Request Bombers",
+          "ja": "爆撃機カロン＆ミッドナイト"
+        },
+        "appendix": "*Area for each blast",
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "damage",
+          "shots",
+          "radius",
+          "subRadius",
+          "duration",
+          "reload",
+          "total"
+        ]
+      },
+      {
+        "category": "missile",
+        "names": {
+          "en": "Request Missiles",
+          "ja": "ミサイル"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "damage",
+          "shots",
+          "radius",
+          "credits",
+          "reload",
+          "range",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "satellite",
+        "names": {
+          "en": "Request Satellites",
+          "ja": "攻撃機ホエール"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "damage",
+          "shots",
+          "radius",
+          "credits",
+          "reload",
+          "range",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "support",
+        "names": {
+          "en": "Support Equipment",
+          "ja": "サポート装置"
+        },
+        "tables": [
+          {
+            "subCategory": "laser",
+            "names": {
+              "en": "Laser Guide Kits",
+              "ja": "レーザー誘導装置"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "range",
+              "lockSpeedBoost",
+              "lockRangeBoost"
+            ]
+          },
+          {
+            "subCategory": "beacon",
+            "names": {
+              "en": "Guide Beacon Guns",
+              "ja": "誘導ビーコンガン"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "interval",
+              "range",
+              "speed",
+              "lockSpeedBoost",
+              "lockRangeBoost"
+            ]
+          },
+          {
+            "subCategory": "life",
+            "names": {
+              "en": "Life Vendors",
+              "ja": "ライフベンダー"
+            },
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "radius",
+              "duration",
+              "interval",
+              "dps",
+              "total"
+            ]
+          },
+          {
+            "subCategory": "power",
+            "names": {
+              "en": "Power Assists",
+              "ja": "パワーポスト"
+            },
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "radius",
+              "duration",
+              "interval",
+              "reload"
+            ]
+          },
+          {
+            "subCategory": "guard",
+            "names": {
+              "en": "Guard Assists",
+              "ja": "ガードポスト"
+            },
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "radius",
+              "duration",
+              "interval",
+              "reload"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "limpet",
+        "names": {
+          "en": "Limpet Guns",
+          "ja": "リムペットガン"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "ammo",
+          "damage",
+          "radius",
+          "interval",
+          "reload",
+          "accuracy",
+          "range",
+          "speed",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "deploy",
+        "names": {
+          "en": "Stationary Weapons",
+          "ja": "設置兵器"
+        },
+        "tables": [
+          {
+            "subCategory": "bomb",
+            "names": {
+              "en": "Bombs",
+              "ja": "ローラーボムシリーズ"
+            },
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "radius",
+              "interval",
+              "reload",
+              "speed",
+              "tdps",
+              "total"
+            ]
+          },
+          {
+            "subCategory": "turret",
+            "names": {
+              "en": "Automatic Turrets",
+              "ja": "ZE-GUNシリーズ"
+            },
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "shots",
+              "radius",
+              "interval",
+              "reload",
+              "dps",
+              "tdps",
+              "total"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "special",
+        "names": {
+          "en": "Special Weapons",
+          "ja": "特殊"
+        },
+        "tables": [
+          {
+            "subCategory": "defensive",
+            "names": {
+              "en": "Defensive",
+              "ja": "トーチカ"
+            },
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "hp",
+              "duration",
+              "reload"
+            ]
+          },
+          {
+            "subCategory": "wire",
+            "names": {
+              "en": "Wire Guns",
+              "ja": "ワイヤー"
+            },
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "interval",
+              "reload",
+              "range",
+              "speed",
+              "dps",
+              "tdps",
+              "total"
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "weapons": [
     {
       "id": "AssultRifle01",
@@ -11531,7 +12581,8 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0
+      "reload": 0,
+      "subCategory": "hg"
     },
     {
       "id": "HandGrenade01J",
@@ -11574,7 +12625,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": 0,
-      "fuse": 600
+      "fuse": 600,
+      "subCategory": "hg"
     },
     {
       "id": "aWeapon155",
@@ -11616,7 +12668,8 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0
+      "reload": 0,
+      "subCategory": "hg"
     },
     {
       "id": "aWeapon156",
@@ -11658,7 +12711,8 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0
+      "reload": 0,
+      "subCategory": "hg"
     },
     {
       "id": "aWeapon157",
@@ -11700,7 +12754,8 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0
+      "reload": 0,
+      "subCategory": "hg"
     },
     {
       "id": "aWeapon158",
@@ -11743,7 +12798,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": 0,
-      "fuse": 1800
+      "fuse": 1800,
+      "subCategory": "hg"
     },
     {
       "id": "aWeapon159",
@@ -11785,7 +12841,8 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0
+      "reload": 0,
+      "subCategory": "hg"
     },
     {
       "id": "aWeapon160",
@@ -11828,7 +12885,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": 0,
-      "fuse": 300
+      "fuse": 300,
+      "subCategory": "hg"
     },
     {
       "id": "aWeapon161",
@@ -11870,7 +12928,8 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0
+      "reload": 0,
+      "subCategory": "hg"
     },
     {
       "id": "aWeapon162",
@@ -11912,7 +12971,8 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0
+      "reload": 0,
+      "subCategory": "hg"
     },
     {
       "id": "aWeapon163",
@@ -11955,7 +13015,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": 0,
-      "fuse": 600
+      "fuse": 600,
+      "subCategory": "hg"
     },
     {
       "id": "aWeapon164",
@@ -11997,7 +13058,8 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0
+      "reload": 0,
+      "subCategory": "hg"
     },
     {
       "id": "aWeapon165",
@@ -12040,7 +13102,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": 0,
-      "fuse": 600
+      "fuse": 600,
+      "subCategory": "hg"
     },
     {
       "id": "aWeapon166",
@@ -12082,7 +13145,8 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0
+      "reload": 0,
+      "subCategory": "hg"
     },
     {
       "id": "aWeapon167",
@@ -12159,7 +13223,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon168",
@@ -12237,7 +13302,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "fuse": 240
+      "fuse": 240,
+      "subCategory": "gl"
     },
     {
       "id": "aNapalmLauncher01",
@@ -12308,7 +13374,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "duration": 360
+      "duration": 240,
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon169",
@@ -12365,7 +13432,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon170",
@@ -12442,7 +13510,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon171",
@@ -12520,7 +13589,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "fuse": 240
+      "fuse": 240,
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon172",
@@ -12597,7 +13667,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon173",
@@ -12675,7 +13746,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "fuse": 240
+      "fuse": 240,
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon174",
@@ -12733,7 +13805,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "fuse": 600
+      "fuse": 600,
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon175",
@@ -12791,7 +13864,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "fuse": 240
+      "fuse": 240,
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon176",
@@ -12861,7 +13935,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon177",
@@ -12933,7 +14008,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "fuse": 240
+      "fuse": 240,
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon178",
@@ -13004,7 +14080,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "duration": 900
+      "duration": 600,
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon179",
@@ -13062,7 +14139,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "fuse": 600
+      "fuse": 600,
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon180",
@@ -13133,7 +14211,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "duration": 360
+      "duration": 240,
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon181",
@@ -13204,7 +14283,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon182",
@@ -13262,7 +14342,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "fuse": 240
+      "fuse": 240,
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon183",
@@ -13339,7 +14420,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon184",
@@ -13396,7 +14478,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon185",
@@ -13467,7 +14550,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon186",
@@ -13524,7 +14608,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "duration": 1800
+      "duration": 1200,
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon187",
@@ -13581,7 +14666,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "fuse": 240
+      "fuse": 240,
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon188",
@@ -13651,7 +14737,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon189",
@@ -13722,7 +14809,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "duration": 900
+      "duration": 600,
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon190",
@@ -13779,7 +14867,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon191",
@@ -13850,7 +14939,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "duration": 360
+      "duration": 240,
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon192",
@@ -13922,7 +15012,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "subCategory": "gl"
     },
     {
       "id": "aWeapon193",
@@ -14000,7 +15091,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "acid"
     },
     {
       "id": "aWeapon194",
@@ -14070,7 +15162,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "acid"
     },
     {
       "id": "aWeapon195",
@@ -14148,7 +15241,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "acid"
     },
     {
       "id": "aWeapon196",
@@ -14226,7 +15320,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "acid"
     },
     {
       "id": "aWeapon197",
@@ -14296,7 +15391,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "acid"
     },
     {
       "id": "aWeapon198",
@@ -14346,7 +15442,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "flame"
     },
     {
       "id": "aWeapon199",
@@ -14398,7 +15495,8 @@
         "type": "int"
       },
       "duration": 60,
-      "continous": true
+      "continous": true,
+      "subCategory": "flame"
     },
     {
       "id": "aWeapon200",
@@ -14450,7 +15548,8 @@
         "type": "int"
       },
       "duration": 30,
-      "continous": true
+      "continous": true,
+      "subCategory": "flame"
     },
     {
       "id": "aWeapon201",
@@ -14502,7 +15601,8 @@
         "type": "int"
       },
       "duration": 30,
-      "continous": true
+      "continous": true,
+      "subCategory": "flame"
     },
     {
       "id": "aWeapon202",
@@ -14554,7 +15654,8 @@
         "type": "int"
       },
       "duration": 30,
-      "continous": true
+      "continous": true,
+      "subCategory": "flame"
     },
     {
       "id": "aWeapon203",
@@ -14604,7 +15705,8 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0
+      "reload": 0,
+      "subCategory": "firecracker"
     },
     {
       "id": "aWeapon204",
@@ -14654,7 +15756,8 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0
+      "reload": 0,
+      "subCategory": "firecracker"
     },
     {
       "id": "aWeapon205",
@@ -14704,7 +15807,8 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0
+      "reload": 0,
+      "subCategory": "firecracker"
     },
     {
       "id": "aWeapon206",
@@ -14754,7 +15858,8 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0
+      "reload": 0,
+      "subCategory": "firecracker"
     },
     {
       "id": "aWeapon207",
@@ -14804,7 +15909,8 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": 0
+      "reload": 0,
+      "subCategory": "firecracker"
     },
     {
       "id": "aWeapon208",
@@ -14874,7 +15980,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "bound"
     },
     {
       "id": "aWeapon209",
@@ -14944,7 +16051,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "bound"
     },
     {
       "id": "aWeapon210",
@@ -15014,7 +16122,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "bound"
     },
     {
       "id": "aWeapon211",
@@ -15084,7 +16193,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "bound"
     },
     {
       "id": "aWeapon212",
@@ -15162,7 +16272,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "bound"
     },
     {
       "id": "aWeapon213",
@@ -15220,7 +16331,8 @@
         "type": "int"
       },
       "secondary": 3,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "bomb"
     },
     {
       "id": "aWeapon214",
@@ -15278,7 +16390,8 @@
         "type": "int"
       },
       "secondary": 3,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "bomb"
     },
     {
       "id": "aWeapon215",
@@ -15336,7 +16449,8 @@
         "type": "int"
       },
       "secondary": 3,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "bomb"
     },
     {
       "id": "aWeapon216",
@@ -15394,7 +16508,8 @@
         "type": "int"
       },
       "secondary": 3,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "bomb"
     },
     {
       "id": "aWeapon217",
@@ -15452,7 +16567,8 @@
         "type": "int"
       },
       "secondary": 3,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "bomb"
     },
     {
       "id": "aWeapon218",
@@ -15509,7 +16625,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "shots": 75
+      "shots": 75,
+      "subCategory": "mine"
     },
     {
       "id": "aWeapon219",
@@ -15566,7 +16683,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "shots": 100
+      "shots": 100,
+      "subCategory": "mine"
     },
     {
       "id": "aWeapon220",
@@ -15623,7 +16741,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "shots": 75
+      "shots": 75,
+      "subCategory": "mine"
     },
     {
       "id": "aWeapon221",
@@ -15680,7 +16799,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "shots": 100
+      "shots": 100,
+      "subCategory": "mine"
     },
     {
       "id": "aWeapon222",
@@ -15737,7 +16857,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "shots": 60
+      "shots": 60,
+      "subCategory": "mine"
     },
     {
       "id": "aWeapon223",
@@ -15794,7 +16915,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "shots": 80
+      "shots": 80,
+      "subCategory": "mine"
     },
     {
       "id": "aWeapon224",
@@ -15851,7 +16973,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "shots": 100
+      "shots": 100,
+      "subCategory": "mine"
     },
     {
       "id": "aWeapon225",
@@ -15908,7 +17031,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "shots": 60
+      "shots": 60,
+      "subCategory": "mine"
     },
     {
       "id": "aWeapon226",
@@ -15965,7 +17089,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "shots": 100
+      "shots": 100,
+      "subCategory": "mine"
     },
     {
       "id": "aWeapon227",
@@ -16022,7 +17147,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "shots": 60
+      "shots": 60,
+      "subCategory": "mine"
     },
     {
       "id": "aWeapon228",
@@ -16079,7 +17205,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "shots": 60
+      "shots": 60,
+      "subCategory": "mine"
     },
     {
       "id": "aWeapon229",
@@ -16124,7 +17251,8 @@
       "lockDist": 0,
       "reload": -1,
       "duration": 20,
-      "continous": true
+      "continous": true,
+      "subCategory": "reverser"
     },
     {
       "id": "aWeapon230",
@@ -16169,7 +17297,8 @@
       "lockDist": 0,
       "reload": -1,
       "duration": 20,
-      "continous": true
+      "continous": true,
+      "subCategory": "reverser"
     },
     {
       "id": "aWeapon231",
@@ -16220,7 +17349,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 1,
-      "zoom": 8
+      "zoom": 8,
+      "subCategory": "reverser"
     },
     {
       "id": "aWeapon232",
@@ -16262,7 +17392,8 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1
+      "reload": -1,
+      "subCategory": "reverser"
     },
     {
       "id": "aWeapon233",
@@ -16307,7 +17438,8 @@
       "lockDist": 0,
       "reload": -1,
       "duration": 20,
-      "continous": true
+      "continous": true,
+      "subCategory": "reverser"
     },
     {
       "id": "aWeapon234",
@@ -16358,7 +17490,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 1,
-      "zoom": 8
+      "zoom": 8,
+      "subCategory": "reverser"
     },
     {
       "id": "aWeapon235",
@@ -16403,7 +17536,8 @@
       "lockDist": 0,
       "reload": -1,
       "duration": 20,
-      "continous": true
+      "continous": true,
+      "subCategory": "reverser"
     },
     {
       "id": "aWeapon236",
@@ -16455,7 +17589,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 1,
-      "zoom": 8
+      "zoom": 8,
+      "subCategory": "reverser"
     },
     {
       "id": "aWeapon237",
@@ -16499,7 +17634,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "reverser"
     },
     {
       "id": "aWeapon238",
@@ -16550,7 +17686,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 1,
-      "zoom": 6
+      "zoom": 6,
+      "subCategory": "reverser"
     },
     {
       "id": "aWeapon239",
@@ -16595,7 +17732,8 @@
       "lockDist": 0,
       "reload": -1,
       "duration": 20,
-      "continous": true
+      "continous": true,
+      "subCategory": "reverser"
     },
     {
       "id": "aWeapon240",
@@ -16646,7 +17784,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 1,
-      "zoom": 6
+      "zoom": 6,
+      "subCategory": "reverser"
     },
     {
       "id": "aWeapon241",
@@ -16690,7 +17829,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 1,
-      "zoom": 7
+      "zoom": 7,
+      "subCategory": "reverser"
     },
     {
       "id": "npDecoyLauncher_amane",
@@ -16706,7 +17846,6 @@
       "type": "DecoyBullet01",
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
-      "damage": 400,
       "speed": 0.5,
       "accuracy": 0,
       "radius": 0,
@@ -16720,7 +17859,10 @@
       "lockDist": 0,
       "reload": 1800,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "hp": 400,
+      "duration": 14400,
+      "subCategory": "decoy"
     },
     {
       "id": "npDecoyLauncher_mio",
@@ -16736,7 +17878,6 @@
       "type": "DecoyBullet01",
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
-      "damage": 400,
       "speed": 0.5,
       "accuracy": 0,
       "radius": 0,
@@ -16750,7 +17891,10 @@
       "lockDist": 0,
       "reload": 1800,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "hp": 400,
+      "duration": 14400,
+      "subCategory": "decoy"
     },
     {
       "id": "npDecoyLauncher_setu",
@@ -16766,7 +17910,6 @@
       "type": "DecoyBullet01",
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
-      "damage": 400,
       "speed": 0.5,
       "accuracy": 0,
       "radius": 0,
@@ -16780,7 +17923,10 @@
       "lockDist": 0,
       "reload": 1800,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "hp": 400,
+      "duration": 14400,
+      "subCategory": "decoy"
     },
     {
       "id": "npDecoyLauncher_riho",
@@ -16796,7 +17942,6 @@
       "type": "DecoyBullet01",
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
-      "damage": 400,
       "speed": 0.5,
       "accuracy": 0,
       "radius": 0,
@@ -16810,7 +17955,10 @@
       "lockDist": 0,
       "reload": 1800,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "hp": 400,
+      "duration": 14400,
+      "subCategory": "decoy"
     },
     {
       "id": "npDecoyLauncher_nao",
@@ -16826,7 +17974,6 @@
       "type": "DecoyBullet01",
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
-      "damage": 400,
       "speed": 0.5,
       "accuracy": 0,
       "radius": 0,
@@ -16840,7 +17987,10 @@
       "lockDist": 0,
       "reload": 1800,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "hp": 400,
+      "duration": 14400,
+      "subCategory": "decoy"
     },
     {
       "id": "npDecoyLauncher_airi",
@@ -16856,7 +18006,6 @@
       "type": "DecoyBullet01",
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
-      "damage": 400,
       "speed": 0.5,
       "accuracy": 0,
       "radius": 0,
@@ -16870,7 +18019,10 @@
       "lockDist": 0,
       "reload": 1800,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "hp": 400,
+      "duration": 14400,
+      "subCategory": "decoy"
     },
     {
       "id": "npDecoyLauncher_asuka",
@@ -16886,7 +18038,6 @@
       "type": "DecoyBullet01",
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
-      "damage": 400,
       "speed": 0.5,
       "accuracy": 0,
       "radius": 0,
@@ -16900,7 +18051,10 @@
       "lockDist": 0,
       "reload": 1800,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "hp": 400,
+      "duration": 14400,
+      "subCategory": "decoy"
     },
     {
       "id": "npDecoyLauncher_nonono",
@@ -16916,7 +18070,6 @@
       "type": "DecoyBullet01",
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
-      "damage": 400,
       "speed": 0.5,
       "accuracy": 0,
       "radius": 0,
@@ -16930,7 +18083,10 @@
       "lockDist": 0,
       "reload": 1800,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "hp": 400,
+      "duration": 14400,
+      "subCategory": "decoy"
     },
     {
       "id": "npDecoyLauncher_palewing",
@@ -16946,7 +18102,6 @@
       "type": "DecoyBullet01",
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
-      "damage": 400,
       "speed": 0.5,
       "accuracy": 0,
       "radius": 0,
@@ -16960,7 +18115,10 @@
       "lockDist": 0,
       "reload": 1800,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "hp": 400,
+      "duration": 14400,
+      "subCategory": "decoy"
     },
     {
       "id": "aSupportNone",
@@ -44915,7 +46073,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "subCategory": "piercing"
     },
     {
       "id": "hWeapon100",
@@ -44988,7 +46147,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 2.5
+      "zoom": 2.5,
+      "subCategory": "piercing"
     },
     {
       "id": "hWeapon101",
@@ -45047,7 +46207,8 @@
       "lockDist": 0,
       "reload": -1,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "hWeapon102",
@@ -45128,7 +46289,8 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "piercing"
     },
     {
       "id": "hWeapon103",
@@ -45201,7 +46363,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 2.5
+      "zoom": 2.5,
+      "subCategory": "piercing"
     },
     {
       "id": "hWeapon105",
@@ -45282,7 +46445,8 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "piercing"
     },
     {
       "id": "hWeapon106",
@@ -45355,7 +46519,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "subCategory": "piercing"
     },
     {
       "id": "hWeapon107",
@@ -45428,7 +46593,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "subCategory": "piercing"
     },
     {
       "id": "hWeapon108",
@@ -45501,7 +46667,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 2.5
+      "zoom": 2.5,
+      "subCategory": "piercing"
     },
     {
       "id": "hWeapon110",
@@ -45574,7 +46741,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "subCategory": "piercing"
     },
     {
       "id": "hWeapon111",
@@ -45655,7 +46823,8 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "piercing"
     },
     {
       "id": "hWeapon112",
@@ -45728,7 +46897,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "subCategory": "piercing"
     },
     {
       "id": "hWeapon114",
@@ -45809,7 +46979,8 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "piercing"
     },
     {
       "id": "hWeapon115",
@@ -45882,7 +47053,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "subCategory": "piercing"
     },
     {
       "id": "hWeapon116",
@@ -45955,7 +47127,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 3
+      "zoom": 3,
+      "subCategory": "piercing"
     },
     {
       "id": "hWeapon118",
@@ -46036,7 +47209,8 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "piercing"
     },
     {
       "id": "hWeapon119",
@@ -46109,7 +47283,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "subCategory": "piercing"
     },
     {
       "id": "hWeapon120",
@@ -46182,7 +47357,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "hWeapon121",
@@ -46261,7 +47437,8 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "explosive"
     },
     {
       "id": "hWeapon122",
@@ -46348,7 +47525,8 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "explosive"
     },
     {
       "id": "hWeapon123",
@@ -46413,7 +47591,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "explosive"
     },
     {
       "id": "hWeapon124",
@@ -46500,7 +47679,8 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "explosive"
     },
     {
       "id": "hWeapon125",
@@ -46579,7 +47759,8 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "explosive"
     },
     {
       "id": "hWeapon126",
@@ -46658,7 +47839,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "explosive"
     },
     {
       "id": "hWeapon127",
@@ -46737,7 +47919,8 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "explosive"
     },
     {
       "id": "hWeapon128",
@@ -46816,7 +47999,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "explosive"
     },
     {
       "id": "hWeapon129",
@@ -46895,7 +48079,8 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "explosive"
     },
     {
       "id": "hWeapon130",
@@ -46982,7 +48167,8 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "explosive"
     },
     {
       "id": "hWeapon131",
@@ -47061,7 +48247,8 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "explosive"
     },
     {
       "id": "hWeapon132",
@@ -47140,7 +48327,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "explosive"
     },
     {
       "id": "hWeapon133",
@@ -47219,7 +48407,8 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "explosive"
     },
     {
       "id": "hWeapon134",
@@ -47306,7 +48495,8 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "explosive"
     },
     {
       "id": "hWeapon135",
@@ -47385,7 +48575,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "explosive"
     },
     {
       "id": "hWeapon137",
@@ -50640,7 +51831,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 10,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 10
     },
     {
       "id": "eWeapon002",
@@ -50687,7 +51879,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 10,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 11
     },
     {
       "id": "eRequestMortar01",
@@ -50734,7 +51927,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 10,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 30
     },
     {
       "id": "eRequestMortar02",
@@ -50781,7 +51975,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 6
     },
     {
       "id": "eWeapon003",
@@ -50828,7 +52023,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 12
     },
     {
       "id": "eWeapon004",
@@ -50875,7 +52071,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 6
     },
     {
       "id": "eWeapon005",
@@ -50922,7 +52119,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 11,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 12
     },
     {
       "id": "eWeapon006",
@@ -50969,7 +52167,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 10,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 40
     },
     {
       "id": "eWeapon007",
@@ -51016,7 +52215,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 10,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 11
     },
     {
       "id": "eWeapon008",
@@ -51063,7 +52263,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 12
     },
     {
       "id": "eWeapon009",
@@ -51110,7 +52311,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 12
     },
     {
       "id": "eWeapon010",
@@ -51157,7 +52359,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 12
     },
     {
       "id": "eWeapon011",
@@ -51204,7 +52407,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 10,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 11
     },
     {
       "id": "eWeapon012",
@@ -51251,7 +52455,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 10,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 50
     },
     {
       "id": "eWeapon013",
@@ -51298,7 +52503,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 10,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 60
     },
     {
       "id": "eWeapon014",
@@ -51345,7 +52551,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 12
     },
     {
       "id": "eWeapon015",
@@ -51392,7 +52599,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 12
     },
     {
       "id": "eRequestAirStrike01D",
@@ -51461,7 +52669,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 1,
-      "shotInterval": 60
+      "shotInterval": 60,
+      "subRadius": 0
     },
     {
       "id": "eRequestAirStrike01",
@@ -51516,7 +52725,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 55,
-      "shotInterval": 2
+      "shotInterval": 2,
+      "subRadius": 0
     },
     {
       "id": "eWeapon016",
@@ -51571,7 +52781,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 15,
-      "shotInterval": 10
+      "shotInterval": 10,
+      "subRadius": 0
     },
     {
       "id": "eWeapon017",
@@ -51640,7 +52851,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 1,
-      "shotInterval": 60
+      "shotInterval": 60,
+      "subRadius": 10
     },
     {
       "id": "eWeapon018",
@@ -51709,7 +52921,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 1,
-      "shotInterval": 60
+      "shotInterval": 60,
+      "subRadius": 0
     },
     {
       "id": "eWeapon019",
@@ -51778,7 +52991,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 10,
-      "shotInterval": 60
+      "shotInterval": 60,
+      "subRadius": 0
     },
     {
       "id": "eWeapon020",
@@ -51847,7 +53061,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 1,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 0
     },
     {
       "id": "eWeapon021",
@@ -51902,7 +53117,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 22,
-      "shotInterval": 8
+      "shotInterval": 8,
+      "subRadius": 0
     },
     {
       "id": "eWeapon022",
@@ -51971,7 +53187,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 1,
-      "shotInterval": 60
+      "shotInterval": 60,
+      "subRadius": 12
     },
     {
       "id": "eWeapon023",
@@ -52026,7 +53243,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 100,
-      "shotInterval": 1
+      "shotInterval": 1,
+      "subRadius": 0
     },
     {
       "id": "eWeapon024",
@@ -52095,7 +53313,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 11,
-      "shotInterval": 60
+      "shotInterval": 60,
+      "subRadius": 0
     },
     {
       "id": "eWeapon025",
@@ -52164,7 +53383,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 1,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 0
     },
     {
       "id": "eWeapon026",
@@ -52233,7 +53453,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 1,
-      "shotInterval": 60
+      "shotInterval": 60,
+      "subRadius": 13
     },
     {
       "id": "eWeapon027",
@@ -52288,7 +53509,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 110,
-      "shotInterval": 1
+      "shotInterval": 1,
+      "subRadius": 0
     },
     {
       "id": "eWeapon028",
@@ -52343,7 +53565,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 24,
-      "shotInterval": 7
+      "shotInterval": 7,
+      "subRadius": 0
     },
     {
       "id": "eWeapon029",
@@ -52412,7 +53635,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 1,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 0
     },
     {
       "id": "eWeapon030",
@@ -52467,7 +53691,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 150,
-      "shotInterval": 1
+      "shotInterval": 1,
+      "subRadius": 0
     },
     {
       "id": "eWeapon031",
@@ -52536,7 +53761,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 13,
-      "shotInterval": 60
+      "shotInterval": 60,
+      "subRadius": 0
     },
     {
       "id": "eWeapon032",
@@ -52591,7 +53817,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 35,
-      "shotInterval": 6
+      "shotInterval": 6,
+      "subRadius": 0
     },
     {
       "id": "eWeapon033",
@@ -52660,7 +53887,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 3,
-      "shotInterval": 10
+      "shotInterval": 10,
+      "subRadius": 0
     },
     {
       "id": "eWeapon034",
@@ -52715,7 +53943,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 150,
-      "shotInterval": 1
+      "shotInterval": 1,
+      "subRadius": 0
     },
     {
       "id": "eWeapon035",
@@ -52784,7 +54013,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 1,
-      "shotInterval": 60
+      "shotInterval": 60,
+      "subRadius": 14
     },
     {
       "id": "eWeapon036",
@@ -52839,7 +54069,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 24,
-      "shotInterval": 7
+      "shotInterval": 7,
+      "subRadius": 0
     },
     {
       "id": "eWeapon037",
@@ -52908,7 +54139,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 1,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 0
     },
     {
       "id": "eWeapon038",
@@ -52963,7 +54195,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 45,
-      "shotInterval": 7
+      "shotInterval": 7,
+      "subRadius": 0
     },
     {
       "id": "eWeapon039",
@@ -53032,7 +54265,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 1,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 0
     },
     {
       "id": "eWeapon040",
@@ -53101,7 +54335,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 15,
-      "shotInterval": 60
+      "shotInterval": 60,
+      "subRadius": 0
     },
     {
       "id": "eWeapon041",
@@ -53156,7 +54391,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 25,
-      "shotInterval": 6
+      "shotInterval": 6,
+      "subRadius": 0
     },
     {
       "id": "eWeapon042",
@@ -53211,7 +54447,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 110,
-      "shotInterval": 1
+      "shotInterval": 1,
+      "subRadius": 0
     },
     {
       "id": "eWeapon043",
@@ -53280,7 +54517,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 1,
-      "shotInterval": 60
+      "shotInterval": 60,
+      "subRadius": 19
     },
     {
       "id": "eWeapon044",
@@ -53349,7 +54587,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 4,
-      "shotInterval": 8
+      "shotInterval": 8,
+      "subRadius": 0
     },
     {
       "id": "eWeapon045",
@@ -53418,7 +54657,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20,
-      "shotInterval": 60
+      "shotInterval": 60,
+      "subRadius": 0
     },
     {
       "id": "eWeapon046",
@@ -53473,7 +54713,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 150,
-      "shotInterval": 1
+      "shotInterval": 1,
+      "subRadius": 0
     },
     {
       "id": "eWeapon047",
@@ -53542,7 +54783,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 1,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 0
     },
     {
       "id": "eWeapon048",
@@ -53597,7 +54839,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 24,
-      "shotInterval": 5
+      "shotInterval": 5,
+      "subRadius": 0
     },
     {
       "id": "eWeapon049",
@@ -53666,7 +54909,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 1,
-      "shotInterval": 60
+      "shotInterval": 60,
+      "subRadius": 22
     },
     {
       "id": "eWeapon050",
@@ -53735,7 +54979,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 1,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 0
     },
     {
       "id": "eWeapon051",
@@ -53781,7 +55026,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 2,
-      "shots": 70
+      "shots": 70,
+      "subRadius": 0
     },
     {
       "id": "eRequestBomber01",
@@ -53827,7 +55073,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 1,
-      "shots": 20
+      "shots": 20,
+      "subRadius": 10
     },
     {
       "id": "eWeapon052",
@@ -53873,7 +55120,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 1,
-      "shots": 10
+      "shots": 10,
+      "subRadius": 10
     },
     {
       "id": "eWeapon053",
@@ -53919,7 +55167,9 @@
       "credits": true,
       "underground": "blocked",
       "units": 1,
-      "shots": 10
+      "shots": 10,
+      "subRadius": 0,
+      "duration": 960
     },
     {
       "id": "eWeapon054",
@@ -53965,7 +55215,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 3,
-      "shots": 100
+      "shots": 100,
+      "subRadius": 0
     },
     {
       "id": "eWeapon055",
@@ -54011,7 +55262,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 1,
-      "shots": 40
+      "shots": 40,
+      "subRadius": 12
     },
     {
       "id": "eWeapon056",
@@ -54057,7 +55309,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 2,
-      "shots": 100
+      "shots": 100,
+      "subRadius": 0
     },
     {
       "id": "eWeapon057",
@@ -54103,7 +55356,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 2,
-      "shots": 20
+      "shots": 20,
+      "subRadius": 15
     },
     {
       "id": "eWeapon058",
@@ -54149,7 +55403,9 @@
       "credits": true,
       "underground": "blocked",
       "units": 1,
-      "shots": 20
+      "shots": 20,
+      "subRadius": 0,
+      "duration": 3000
     },
     {
       "id": "eWeapon059",
@@ -54195,7 +55451,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 2,
-      "shots": 150
+      "shots": 150,
+      "subRadius": 0
     },
     {
       "id": "eWeapon060",
@@ -54241,7 +55498,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 1,
-      "shots": 10
+      "shots": 10,
+      "subRadius": 11
     },
     {
       "id": "eWeapon061",
@@ -54287,7 +55545,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 3,
-      "shots": 40
+      "shots": 40,
+      "subRadius": 15
     },
     {
       "id": "eWeapon062",
@@ -54333,7 +55592,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 4,
-      "shots": 100
+      "shots": 100,
+      "subRadius": 0
     },
     {
       "id": "eWeapon063",
@@ -54379,7 +55639,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 1,
-      "shots": 10
+      "shots": 10,
+      "subRadius": 12
     },
     {
       "id": "eWeapon064",
@@ -54425,7 +55686,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 1,
-      "shots": 100
+      "shots": 100,
+      "subRadius": 0
     },
     {
       "id": "eWeapon065",
@@ -54471,7 +55733,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 4,
-      "shots": 30
+      "shots": 30,
+      "subRadius": 15
     },
     {
       "id": "eWeapon066",
@@ -54517,7 +55780,9 @@
       "credits": true,
       "underground": "blocked",
       "units": 2,
-      "shots": 15
+      "shots": 15,
+      "subRadius": 0,
+      "duration": 3200
     },
     {
       "id": "eWeapon067",
@@ -54563,7 +55828,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 9,
-      "shots": 50
+      "shots": 50,
+      "subRadius": 0
     },
     {
       "id": "eWeapon068",
@@ -54609,7 +55875,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 1,
-      "shots": 150
+      "shots": 150,
+      "subRadius": 0
     },
     {
       "id": "eWeapon069",
@@ -54655,7 +55922,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 1,
-      "shots": 11
+      "shots": 11,
+      "subRadius": 13
     },
     {
       "id": "eWeapon070",
@@ -54701,7 +55969,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 10,
-      "shots": 16
+      "shots": 16,
+      "subRadius": 15
     },
     {
       "id": "eWeapon071",
@@ -54747,7 +56016,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 1,
-      "shots": 40
+      "shots": 40,
+      "subRadius": 15
     },
     {
       "id": "eWeapon072",
@@ -54793,7 +56063,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 3,
-      "shots": 120
+      "shots": 120,
+      "subRadius": 0
     },
     {
       "id": "eWeapon073",
@@ -54839,7 +56110,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 1,
-      "shots": 200
+      "shots": 200,
+      "subRadius": 10
     },
     {
       "id": "eWeapon074",
@@ -54885,7 +56157,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 2,
-      "shots": 150
+      "shots": 150,
+      "subRadius": 0
     },
     {
       "id": "eWeapon075",
@@ -54931,7 +56204,9 @@
       "credits": true,
       "underground": "blocked",
       "units": 2,
-      "shots": 16
+      "shots": 16,
+      "subRadius": 0,
+      "duration": 2400
     },
     {
       "id": "eWeapon076",
@@ -54977,7 +56252,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 1,
-      "shots": 20
+      "shots": 20,
+      "subRadius": 50
     },
     {
       "id": "eWeapon077",
@@ -55023,7 +56299,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 5,
-      "shots": 100
+      "shots": 100,
+      "subRadius": 0
     },
     {
       "id": "eWeapon078",
@@ -55069,7 +56346,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 1,
-      "shots": 12
+      "shots": 12,
+      "subRadius": 15
     },
     {
       "id": "eWeapon079",
@@ -55115,7 +56393,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 1,
-      "shots": 200
+      "shots": 200,
+      "subRadius": 0
     },
     {
       "id": "eWeapon080",
@@ -55161,7 +56440,9 @@
       "credits": true,
       "underground": "blocked",
       "units": 1,
-      "shots": 40
+      "shots": 40,
+      "subRadius": 0,
+      "duration": 3200
     },
     {
       "id": "eWeapon081",
@@ -55207,7 +56488,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 4,
-      "shots": 150
+      "shots": 150,
+      "subRadius": 0
     },
     {
       "id": "eWeapon082",
@@ -55253,7 +56535,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 4,
-      "shots": 20
+      "shots": 20,
+      "subRadius": 20
     },
     {
       "id": "eWeapon083",
@@ -55306,7 +56589,7 @@
       "secondary": 1,
       "zoom": 4,
       "underground": "blocked",
-      "strikeType": "satellite",
+      "strikeType": "missile",
       "shots": 4
     },
     {
@@ -55360,7 +56643,7 @@
       "secondary": 1,
       "zoom": 4,
       "underground": "blocked",
-      "strikeType": "satellite",
+      "strikeType": "missile",
       "shots": 20
     },
     {
@@ -55414,7 +56697,7 @@
       "secondary": 1,
       "zoom": 4,
       "underground": "blocked",
-      "strikeType": "satellite",
+      "strikeType": "missile",
       "shots": 4
     },
     {
@@ -55468,7 +56751,7 @@
       "secondary": 1,
       "zoom": 4,
       "underground": "blocked",
-      "strikeType": "satellite",
+      "strikeType": "missile",
       "shots": 20
     },
     {
@@ -55523,7 +56806,7 @@
       "secondary": 1,
       "zoom": 4,
       "underground": "blocked",
-      "strikeType": "satellite",
+      "strikeType": "missile",
       "shots": 1
     },
     {
@@ -55577,7 +56860,7 @@
       "secondary": 1,
       "zoom": 4,
       "underground": "blocked",
-      "strikeType": "satellite",
+      "strikeType": "missile",
       "shots": 30
     },
     {
@@ -55632,7 +56915,7 @@
       "secondary": 1,
       "zoom": 4,
       "underground": "blocked",
-      "strikeType": "satellite",
+      "strikeType": "missile",
       "shots": 1
     },
     {
@@ -55686,7 +56969,7 @@
       "secondary": 1,
       "zoom": 4,
       "underground": "blocked",
-      "strikeType": "satellite",
+      "strikeType": "missile",
       "shots": 5
     },
     {
@@ -55740,7 +57023,7 @@
       "secondary": 1,
       "zoom": 4,
       "underground": "blocked",
-      "strikeType": "satellite",
+      "strikeType": "missile",
       "shots": 35
     },
     {
@@ -55794,7 +57077,7 @@
       "secondary": 1,
       "zoom": 4,
       "underground": "blocked",
-      "strikeType": "satellite",
+      "strikeType": "missile",
       "shots": 6
     },
     {
@@ -55849,7 +57132,7 @@
       "secondary": 1,
       "zoom": 4,
       "underground": "blocked",
-      "strikeType": "satellite",
+      "strikeType": "missile",
       "shots": 1
     },
     {
@@ -55904,7 +57187,7 @@
       "secondary": 1,
       "zoom": 4,
       "underground": "blocked",
-      "strikeType": "satellite",
+      "strikeType": "missile",
       "shots": 1
     },
     {
@@ -55958,7 +57241,7 @@
       "secondary": 1,
       "zoom": 4,
       "underground": "blocked",
-      "strikeType": "satellite",
+      "strikeType": "missile",
       "shots": 45
     },
     {
@@ -56012,7 +57295,7 @@
       "secondary": 1,
       "zoom": 4,
       "underground": "blocked",
-      "strikeType": "satellite",
+      "strikeType": "missile",
       "shots": 6
     },
     {
@@ -56067,7 +57350,7 @@
       "secondary": 1,
       "zoom": 4,
       "underground": "blocked",
-      "strikeType": "satellite",
+      "strikeType": "missile",
       "shots": 1
     },
     {
@@ -56123,7 +57406,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 600,
-      "shotInterval": 2
+      "shotInterval": 2,
+      "subRadius": 0
     },
     {
       "id": "eWeapon100",
@@ -56178,7 +57462,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 600,
-      "shotInterval": 2
+      "shotInterval": 2,
+      "subRadius": 0
     },
     {
       "id": "eWeapon101",
@@ -56234,7 +57519,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 90,
-      "shotInterval": 8
+      "shotInterval": 8,
+      "subRadius": 0
     },
     {
       "id": "eWeapon102",
@@ -56289,7 +57575,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 600,
-      "shotInterval": 2
+      "shotInterval": 2,
+      "subRadius": 0
     },
     {
       "id": "eWeapon103",
@@ -56344,7 +57631,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 600,
-      "shotInterval": 2
+      "shotInterval": 2,
+      "subRadius": 0
     },
     {
       "id": "eWeapon104",
@@ -56400,7 +57688,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 90,
-      "shotInterval": 8
+      "shotInterval": 8,
+      "subRadius": 0
     },
     {
       "id": "eWeapon105",
@@ -56455,7 +57744,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 800,
-      "shotInterval": 2
+      "shotInterval": 2,
+      "subRadius": 0
     },
     {
       "id": "eWeapon106",
@@ -56511,7 +57801,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 1,
-      "shotInterval": 8
+      "shotInterval": 8,
+      "subRadius": 0
     },
     {
       "id": "eWeapon107",
@@ -56566,7 +57857,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 800,
-      "shotInterval": 2
+      "shotInterval": 2,
+      "subRadius": 0
     },
     {
       "id": "eWeapon108",
@@ -56622,7 +57914,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 90,
-      "shotInterval": 8
+      "shotInterval": 8,
+      "subRadius": 0
     },
     {
       "id": "eWeapon109",
@@ -56677,7 +57970,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 1600,
-      "shotInterval": 2
+      "shotInterval": 2,
+      "subRadius": 0
     },
     {
       "id": "eWeapon110",
@@ -56733,7 +58027,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 120,
-      "shotInterval": 8
+      "shotInterval": 8,
+      "subRadius": 0
     },
     {
       "id": "eWeapon111",
@@ -56788,7 +58083,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 700,
-      "shotInterval": 2
+      "shotInterval": 2,
+      "subRadius": 0
     },
     {
       "id": "eWeapon112",
@@ -56844,7 +58140,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 80,
-      "shotInterval": 8
+      "shotInterval": 8,
+      "subRadius": 0
     },
     {
       "id": "eWeapon113",
@@ -56900,7 +58197,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 1,
-      "shotInterval": 8
+      "shotInterval": 8,
+      "subRadius": 0
     },
     {
       "id": "eWeapon114",
@@ -56955,7 +58253,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 600,
-      "shotInterval": 2
+      "shotInterval": 2,
+      "subRadius": 0
     },
     {
       "id": "eWeapon115",
@@ -57011,7 +58310,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 60,
-      "shotInterval": 2
+      "shotInterval": 2,
+      "subRadius": 0
     },
     {
       "id": "eWeapon116",
@@ -57067,7 +58367,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 160,
-      "shotInterval": 8
+      "shotInterval": 8,
+      "subRadius": 0
     },
     {
       "id": "eWeapon117",
@@ -57123,7 +58424,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 1,
-      "shotInterval": 8
+      "shotInterval": 8,
+      "subRadius": 0
     },
     {
       "id": "eWeapon118",
@@ -57178,7 +58480,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 600,
-      "shotInterval": 2
+      "shotInterval": 2,
+      "subRadius": 0
     },
     {
       "id": "eLimpetGun01",
@@ -59065,7 +60368,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "bomb"
     },
     {
       "id": "eWeapon150",
@@ -59123,7 +60427,8 @@
         "type": "int"
       },
       "secondary": 3,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "bomb"
     },
     {
       "id": "eWeapon151",
@@ -59193,7 +60498,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "bomb"
     },
     {
       "id": "eWeapon152",
@@ -59263,7 +60569,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "bomb"
     },
     {
       "id": "eWeapon153",
@@ -59322,7 +60629,8 @@
       },
       "secondary": 1,
       "zoom": 4,
-      "shots": 75
+      "shots": 75,
+      "subCategory": "bomb"
     },
     {
       "id": "eWeapon154",
@@ -59380,7 +60688,8 @@
         "type": "int"
       },
       "secondary": 3,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "bomb"
     },
     {
       "id": "eWeapon155",
@@ -59450,7 +60759,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "bomb"
     },
     {
       "id": "eWeapon156",
@@ -59508,7 +60818,8 @@
         "type": "int"
       },
       "secondary": 3,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "bomb"
     },
     {
       "id": "eWeapon157",
@@ -59552,7 +60863,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "bomb"
     },
     {
       "id": "eWeapon158",
@@ -59622,7 +60934,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "bomb"
     },
     {
       "id": "eWeapon159",
@@ -59681,7 +60994,8 @@
       },
       "secondary": 1,
       "zoom": 4,
-      "shots": 75
+      "shots": 75,
+      "subCategory": "bomb"
     },
     {
       "id": "DLC_eSentryFire",
@@ -59714,7 +61028,8 @@
       "zoom": null,
       "shots": 1600,
       "shotInterval": 2,
-      "searchRange": 60
+      "searchRange": 60,
+      "subCategory": "turret"
     },
     {
       "id": "eZEGUN0",
@@ -59768,7 +61083,8 @@
       "zoom": null,
       "shots": 100,
       "shotInterval": 16,
-      "searchRange": 100
+      "searchRange": 100,
+      "subCategory": "turret"
     },
     {
       "id": "eWeapon160",
@@ -59822,7 +61138,8 @@
       "zoom": null,
       "shots": 200,
       "shotInterval": 8,
-      "searchRange": 150
+      "searchRange": 150,
+      "subCategory": "turret"
     },
     {
       "id": "eWeapon161",
@@ -59876,7 +61193,8 @@
       "zoom": null,
       "shots": 400,
       "shotInterval": 4,
-      "searchRange": 300
+      "searchRange": 300,
+      "subCategory": "turret"
     },
     {
       "id": "eWeapon162",
@@ -59930,7 +61248,8 @@
       "zoom": null,
       "shots": 20,
       "shotInterval": 120,
-      "searchRange": 1200
+      "searchRange": 1200,
+      "subCategory": "turret"
     },
     {
       "id": "eWeapon163",
@@ -59991,7 +61310,8 @@
       "zoom": null,
       "shots": 20,
       "shotInterval": 120,
-      "searchRange": 498
+      "searchRange": 498,
+      "subCategory": "turret"
     },
     {
       "id": "eWeapon164",
@@ -60045,7 +61365,8 @@
       "zoom": null,
       "shots": 1600,
       "shotInterval": 2,
-      "searchRange": 60
+      "searchRange": 60,
+      "subCategory": "turret"
     },
     {
       "id": "eWeapon165",
@@ -60099,7 +61420,8 @@
       "zoom": null,
       "shots": 400,
       "shotInterval": 4,
-      "searchRange": 300
+      "searchRange": 300,
+      "subCategory": "turret"
     },
     {
       "id": "eWeapon166",
@@ -60153,7 +61475,8 @@
       "zoom": null,
       "shots": 1600,
       "shotInterval": 2,
-      "searchRange": 120
+      "searchRange": 120,
+      "subCategory": "turret"
     },
     {
       "id": "eWeapon167",
@@ -60207,7 +61530,8 @@
       "zoom": null,
       "shots": 100,
       "shotInterval": 16,
-      "searchRange": 150
+      "searchRange": 150,
+      "subCategory": "turret"
     },
     {
       "id": "eWeapon168",
@@ -60268,7 +61592,8 @@
       "zoom": null,
       "shots": 40,
       "shotInterval": 60,
-      "searchRange": 600
+      "searchRange": 600,
+      "subCategory": "turret"
     },
     {
       "id": "eWeapon169",
@@ -60322,7 +61647,8 @@
       "zoom": null,
       "shots": 500,
       "shotInterval": 4,
-      "searchRange": 300
+      "searchRange": 300,
+      "subCategory": "turret"
     },
     {
       "id": "eWeapon170",
@@ -60376,7 +61702,8 @@
       "zoom": null,
       "shots": 1600,
       "shotInterval": 2,
-      "searchRange": 90
+      "searchRange": 90,
+      "subCategory": "turret"
     },
     {
       "id": "eLockonMarkerL01",
@@ -60390,6 +61717,7 @@
       "raw": 302,
       "odds": 100,
       "type": "",
+      "ammo": 1,
       "weapon": "Weapon_LaserMarker",
       "damage": 0,
       "speed": {
@@ -60406,13 +61734,14 @@
       "life": 1,
       "burstRate": 0,
       "interval": 0,
-      "lockRange": 0,
-      "lockTime": 0,
+      "lockRange": 3,
+      "lockTime": 3,
       "lockType": 0,
       "lockDist": 0,
       "reload": 0,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "laser"
     },
     {
       "id": "eWeapon171",
@@ -60426,6 +61755,7 @@
       "raw": 302,
       "odds": 100,
       "type": "",
+      "ammo": 1,
       "weapon": "Weapon_LaserMarker",
       "damage": 0,
       "speed": {
@@ -60442,13 +61772,14 @@
       "life": 1,
       "burstRate": 0,
       "interval": 0,
-      "lockRange": 0,
-      "lockTime": 0,
+      "lockRange": 5,
+      "lockTime": 5,
       "lockType": 0,
       "lockDist": 0,
       "reload": 0,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "laser"
     },
     {
       "id": "eWeapon172",
@@ -60462,6 +61793,7 @@
       "raw": 302,
       "odds": 100,
       "type": "",
+      "ammo": 1,
       "weapon": "Weapon_LaserMarker",
       "damage": 0,
       "speed": {
@@ -60478,13 +61810,14 @@
       "life": 1,
       "burstRate": 0,
       "interval": 0,
-      "lockRange": 0,
-      "lockTime": 0,
+      "lockRange": 3,
+      "lockTime": 3.5,
       "lockType": 0,
       "lockDist": 0,
       "reload": 0,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "laser"
     },
     {
       "id": "eWeapon173",
@@ -60498,6 +61831,7 @@
       "raw": 302,
       "odds": 100,
       "type": "",
+      "ammo": 1,
       "weapon": "Weapon_LaserMarker",
       "damage": 0,
       "speed": {
@@ -60514,13 +61848,14 @@
       "life": 1,
       "burstRate": 0,
       "interval": 0,
-      "lockRange": 0,
-      "lockTime": 0,
+      "lockRange": 3,
+      "lockTime": 4,
       "lockType": 0,
       "lockDist": 0,
       "reload": 0,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "laser"
     },
     {
       "id": "eWeapon174",
@@ -60534,6 +61869,7 @@
       "raw": 302,
       "odds": 100,
       "type": "",
+      "ammo": 1,
       "weapon": "Weapon_LaserMarker",
       "damage": 0,
       "speed": {
@@ -60550,13 +61886,14 @@
       "life": 1,
       "burstRate": 0,
       "interval": 0,
-      "lockRange": 0,
-      "lockTime": 0,
+      "lockRange": 4,
+      "lockTime": 6,
       "lockType": 0,
       "lockDist": 0,
       "reload": 0,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "laser"
     },
     {
       "id": "eBeconGun",
@@ -60594,13 +61931,14 @@
       "life": 50,
       "burstRate": 0,
       "interval": 60,
-      "lockRange": 0,
-      "lockTime": 0,
+      "lockRange": 1.5,
+      "lockTime": 1,
       "lockType": 0,
       "lockDist": 0,
       "reload": 300,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "beacon"
     },
     {
       "id": "eWeapon175",
@@ -60638,13 +61976,14 @@
       "life": 50,
       "burstRate": 0,
       "interval": 60,
-      "lockRange": 0,
-      "lockTime": 0,
+      "lockRange": 1.8,
+      "lockTime": 1,
       "lockType": 0,
       "lockDist": 0,
       "reload": 300,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "beacon"
     },
     {
       "id": "eWeapon176",
@@ -60682,13 +62021,14 @@
       "life": 40,
       "burstRate": 0,
       "interval": 60,
-      "lockRange": 0,
-      "lockTime": 0,
+      "lockRange": 4,
+      "lockTime": 1.5,
       "lockType": 0,
       "lockDist": 0,
       "reload": 300,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "beacon"
     },
     {
       "id": "eWeapon177",
@@ -60726,13 +62066,14 @@
       "life": 50,
       "burstRate": 0,
       "interval": 40,
-      "lockRange": 0,
-      "lockTime": 0,
+      "lockRange": 2,
+      "lockTime": 1.3,
       "lockType": 0,
       "lockDist": 0,
       "reload": 300,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "beacon"
     },
     {
       "id": "eWeapon178",
@@ -60763,13 +62104,14 @@
       "life": 25,
       "burstRate": 0,
       "interval": 60,
-      "lockRange": 0,
-      "lockTime": 0,
+      "lockRange": 4,
+      "lockTime": 2,
       "lockType": 0,
       "lockDist": 0,
       "reload": 300,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "beacon"
     },
     {
       "id": "eWeapon179",
@@ -60807,13 +62149,14 @@
       "life": 30,
       "burstRate": 0,
       "interval": 30,
-      "lockRange": 0,
-      "lockTime": 0,
+      "lockRange": 2.5,
+      "lockTime": 1.5,
       "lockType": 0,
       "lockDist": 0,
       "reload": 300,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "beacon"
     },
     {
       "id": "eLifeBender",
@@ -60865,7 +62208,9 @@
       "reload": -1,
       "secondary": 0,
       "zoom": 4,
-      "supportType": "life"
+      "supportType": "life",
+      "duration": 3600,
+      "subCategory": "life"
     },
     {
       "id": "eWeapon180",
@@ -60917,7 +62262,9 @@
       "reload": -1,
       "secondary": 0,
       "zoom": 4,
-      "supportType": "life"
+      "supportType": "life",
+      "duration": 3600,
+      "subCategory": "life"
     },
     {
       "id": "eWeapon181",
@@ -60967,7 +62314,9 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "supportType": "life"
+      "supportType": "life",
+      "duration": 3600,
+      "subCategory": "life"
     },
     {
       "id": "eWeapon182",
@@ -61026,7 +62375,9 @@
       "reload": -1,
       "secondary": 1,
       "zoom": 4,
-      "supportType": "life"
+      "supportType": "life",
+      "duration": 600,
+      "subCategory": "life"
     },
     {
       "id": "eWeapon183",
@@ -61085,7 +62436,9 @@
       "reload": -1,
       "secondary": 1,
       "zoom": 4,
-      "supportType": "life"
+      "supportType": "life",
+      "duration": 600,
+      "subCategory": "life"
     },
     {
       "id": "eWeapon184",
@@ -61135,7 +62488,9 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "supportType": "life"
+      "supportType": "life",
+      "duration": 3600,
+      "subCategory": "life"
     },
     {
       "id": "eWeapon185",
@@ -61185,7 +62540,9 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "supportType": "life"
+      "supportType": "life",
+      "duration": 3600,
+      "subCategory": "life"
     },
     {
       "id": "eWeapon186",
@@ -61244,7 +62601,9 @@
       "reload": -1,
       "secondary": 1,
       "zoom": 4,
-      "supportType": "life"
+      "supportType": "life",
+      "duration": 600,
+      "subCategory": "life"
     },
     {
       "id": "eWeapon187",
@@ -61294,7 +62653,9 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "supportType": "life"
+      "supportType": "life",
+      "duration": 3600,
+      "subCategory": "life"
     },
     {
       "id": "eWeapon188",
@@ -61353,7 +62714,9 @@
       "reload": -1,
       "secondary": 1,
       "zoom": 4,
-      "supportType": "life"
+      "supportType": "life",
+      "duration": 600,
+      "subCategory": "life"
     },
     {
       "id": "eWeapon198",
@@ -61419,7 +62782,9 @@
       },
       "secondary": 1,
       "zoom": 4,
-      "supportType": "power"
+      "supportType": "power",
+      "duration": 1800,
+      "subCategory": "power"
     },
     {
       "id": "eWeapon199",
@@ -61476,7 +62841,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "supportType": "power"
+      "supportType": "power",
+      "duration": 3600,
+      "subCategory": "power"
     },
     {
       "id": "eWeapon200",
@@ -61533,7 +62900,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "supportType": "power"
+      "supportType": "power",
+      "duration": 5400,
+      "subCategory": "power"
     },
     {
       "id": "eWeapon201",
@@ -61599,7 +62968,9 @@
       },
       "secondary": 1,
       "zoom": 4,
-      "supportType": "power"
+      "supportType": "power",
+      "duration": 2700,
+      "subCategory": "power"
     },
     {
       "id": "eWeapon202",
@@ -61656,7 +63027,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "supportType": "power"
+      "supportType": "power",
+      "duration": 5400,
+      "subCategory": "power"
     },
     {
       "id": "eWeapon203",
@@ -61722,7 +63095,9 @@
       },
       "secondary": 1,
       "zoom": 4,
-      "supportType": "power"
+      "supportType": "power",
+      "duration": 3600,
+      "subCategory": "power"
     },
     {
       "id": "eWeapon204",
@@ -61779,7 +63154,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "supportType": "power"
+      "supportType": "power",
+      "duration": 5400,
+      "subCategory": "power"
     },
     {
       "id": "eWeapon205",
@@ -61838,7 +63215,9 @@
       },
       "secondary": 0,
       "zoom": 4,
-      "supportType": "guard"
+      "supportType": "guard",
+      "duration": 7200,
+      "subCategory": "guard"
     },
     {
       "id": "eWeapon206",
@@ -61904,7 +63283,9 @@
       },
       "secondary": 1,
       "zoom": 4,
-      "supportType": "guard"
+      "supportType": "guard",
+      "duration": 3600,
+      "subCategory": "guard"
     },
     {
       "id": "eWeapon207",
@@ -61961,7 +63342,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "supportType": "guard"
+      "supportType": "guard",
+      "duration": 7200,
+      "subCategory": "guard"
     },
     {
       "id": "eWeapon208",
@@ -62018,7 +63401,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "supportType": "guard"
+      "supportType": "guard",
+      "duration": 7200,
+      "subCategory": "guard"
     },
     {
       "id": "eWeapon209",
@@ -62084,7 +63469,9 @@
       },
       "secondary": 1,
       "zoom": 4,
-      "supportType": "guard"
+      "supportType": "guard",
+      "duration": 5400,
+      "subCategory": "guard"
     },
     {
       "id": "eWeapon210",
@@ -62141,7 +63528,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "supportType": "guard"
+      "supportType": "guard",
+      "duration": 7200,
+      "subCategory": "guard"
     },
     {
       "id": "eWeapon211",
@@ -62198,7 +63587,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "supportType": "guard"
+      "supportType": "guard",
+      "duration": 7200,
+      "subCategory": "guard"
     },
     {
       "id": "eWeapon212",
@@ -62221,14 +63612,6 @@
         "type": "int"
       },
       "weapon": "Weapon_BasicShoot",
-      "damage": {
-        "base": 300,
-        "algo": 8,
-        "lvMax": 10,
-        "zero": 0.5,
-        "exp": 1,
-        "type": "float"
-      },
       "speed": 0,
       "accuracy": 0,
       "radius": 0,
@@ -62247,7 +63630,16 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "hp": {
+        "base": 300,
+        "algo": 8,
+        "lvMax": 10,
+        "zero": 0.5,
+        "exp": 1,
+        "type": "float"
+      },
+      "subCategory": "defensive"
     },
     {
       "id": "eWeapon213",
@@ -62270,14 +63662,6 @@
         "type": "int"
       },
       "weapon": "Weapon_BasicShoot",
-      "damage": {
-        "base": 120,
-        "algo": 8,
-        "lvMax": 10,
-        "zero": 0.5,
-        "exp": 1,
-        "type": "float"
-      },
       "speed": 0,
       "accuracy": 0,
       "radius": 0,
@@ -62298,7 +63682,17 @@
         "type": "int"
       },
       "secondary": 2,
-      "zoom": null
+      "zoom": null,
+      "hp": {
+        "base": 120,
+        "algo": 8,
+        "lvMax": 10,
+        "zero": 0.5,
+        "exp": 1,
+        "type": "float"
+      },
+      "duration": 5400,
+      "subCategory": "defensive"
     },
     {
       "id": "eWeapon214",
@@ -62321,14 +63715,6 @@
         "type": "int"
       },
       "weapon": "Weapon_BasicShoot",
-      "damage": {
-        "base": 1000,
-        "algo": 8,
-        "lvMax": 10,
-        "zero": 0.5,
-        "exp": 1,
-        "type": "float"
-      },
       "speed": 0,
       "accuracy": 0,
       "radius": 0,
@@ -62347,7 +63733,16 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "hp": {
+        "base": 1000,
+        "algo": 8,
+        "lvMax": 10,
+        "zero": 0.5,
+        "exp": 1,
+        "type": "float"
+      },
+      "subCategory": "defensive"
     },
     {
       "id": "eWeapon215",
@@ -62363,14 +63758,6 @@
       "type": "BarrierBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": {
-        "base": 2400,
-        "algo": 8,
-        "lvMax": 10,
-        "zero": 0.5,
-        "exp": 1,
-        "type": "float"
-      },
       "speed": 0,
       "accuracy": 0,
       "radius": 0,
@@ -62389,7 +63776,16 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "hp": {
+        "base": 2400,
+        "algo": 8,
+        "lvMax": 10,
+        "zero": 0.5,
+        "exp": 1,
+        "type": "float"
+      },
+      "subCategory": "defensive"
     },
     {
       "id": "eWeapon216",
@@ -62412,14 +63808,6 @@
         "type": "int"
       },
       "weapon": "Weapon_BasicShoot",
-      "damage": {
-        "base": 1600,
-        "algo": 8,
-        "lvMax": 10,
-        "zero": 0.5,
-        "exp": 1,
-        "type": "float"
-      },
       "speed": 0,
       "accuracy": 0,
       "radius": 0,
@@ -62440,7 +63828,17 @@
         "type": "int"
       },
       "secondary": 2,
-      "zoom": null
+      "zoom": null,
+      "hp": {
+        "base": 1600,
+        "algo": 8,
+        "lvMax": 10,
+        "zero": 0.5,
+        "exp": 1,
+        "type": "float"
+      },
+      "duration": 5400,
+      "subCategory": "defensive"
     },
     {
       "id": "eWeapon217",
@@ -62463,14 +63861,6 @@
         "type": "int"
       },
       "weapon": "Weapon_BasicShoot",
-      "damage": {
-        "base": 5000,
-        "algo": 8,
-        "lvMax": 10,
-        "zero": 0.5,
-        "exp": 1,
-        "type": "float"
-      },
       "speed": 0,
       "accuracy": 0,
       "radius": 0,
@@ -62489,7 +63879,16 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "hp": {
+        "base": 5000,
+        "algo": 8,
+        "lvMax": 10,
+        "zero": 0.5,
+        "exp": 1,
+        "type": "float"
+      },
+      "subCategory": "defensive"
     },
     {
       "id": "eWeapon218",
@@ -62505,14 +63904,6 @@
       "type": "BarrierBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": {
-        "base": 12000,
-        "algo": 8,
-        "lvMax": 10,
-        "zero": 0.5,
-        "exp": 1,
-        "type": "float"
-      },
       "speed": 0,
       "accuracy": 0,
       "radius": 0,
@@ -62531,7 +63922,16 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "hp": {
+        "base": 12000,
+        "algo": 8,
+        "lvMax": 10,
+        "zero": 0.5,
+        "exp": 1,
+        "type": "float"
+      },
+      "subCategory": "defensive"
     },
     {
       "id": "eWeapon219",
@@ -62554,14 +63954,6 @@
         "type": "int"
       },
       "weapon": "Weapon_BasicShoot",
-      "damage": {
-        "base": 24000,
-        "algo": 8,
-        "lvMax": 10,
-        "zero": 0.5,
-        "exp": 1,
-        "type": "float"
-      },
       "speed": 0,
       "accuracy": 0,
       "radius": 0,
@@ -62580,7 +63972,16 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "hp": {
+        "base": 24000,
+        "algo": 8,
+        "lvMax": 10,
+        "zero": 0.5,
+        "exp": 1,
+        "type": "float"
+      },
+      "subCategory": "defensive"
     },
     {
       "id": "eWeapon220",
@@ -62603,14 +64004,6 @@
         "type": "int"
       },
       "weapon": "Weapon_BasicShoot",
-      "damage": {
-        "base": 4000,
-        "algo": 8,
-        "lvMax": 10,
-        "zero": 0.5,
-        "exp": 1,
-        "type": "float"
-      },
       "speed": 0,
       "accuracy": 0,
       "radius": 0,
@@ -62631,7 +64024,17 @@
         "type": "int"
       },
       "secondary": 2,
-      "zoom": null
+      "zoom": null,
+      "hp": {
+        "base": 4000,
+        "algo": 8,
+        "lvMax": 10,
+        "zero": 0.5,
+        "exp": 1,
+        "type": "float"
+      },
+      "duration": 7200,
+      "subCategory": "defensive"
     },
     {
       "id": "eWeapon221",
@@ -62654,14 +64057,6 @@
         "type": "int"
       },
       "weapon": "Weapon_BasicShoot",
-      "damage": {
-        "base": 30000,
-        "algo": 8,
-        "lvMax": 10,
-        "zero": 0.5,
-        "exp": 1,
-        "type": "float"
-      },
       "speed": 0,
       "accuracy": 0,
       "radius": 0,
@@ -62680,7 +64075,16 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "hp": {
+        "base": 30000,
+        "algo": 8,
+        "lvMax": 10,
+        "zero": 0.5,
+        "exp": 1,
+        "type": "float"
+      },
+      "subCategory": "defensive"
     },
     {
       "id": "eWeapon222",
@@ -62703,14 +64107,6 @@
         "type": "int"
       },
       "weapon": "Weapon_BasicShoot",
-      "damage": {
-        "base": 20000,
-        "algo": 8,
-        "lvMax": 10,
-        "zero": 0.5,
-        "exp": 1,
-        "type": "float"
-      },
       "speed": 0,
       "accuracy": 0,
       "radius": 0,
@@ -62729,7 +64125,16 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "hp": {
+        "base": 20000,
+        "algo": 8,
+        "lvMax": 10,
+        "zero": 0.5,
+        "exp": 1,
+        "type": "float"
+      },
+      "subCategory": "defensive"
     },
     {
       "id": "eWeapon223",
@@ -62752,14 +64157,6 @@
         "type": "int"
       },
       "weapon": "Weapon_BasicShoot",
-      "damage": {
-        "base": 60000,
-        "algo": 8,
-        "lvMax": 10,
-        "zero": 0.5,
-        "exp": 1,
-        "type": "float"
-      },
       "speed": 0,
       "accuracy": 0,
       "radius": 0,
@@ -62778,7 +64175,16 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "hp": {
+        "base": 60000,
+        "algo": 8,
+        "lvMax": 10,
+        "zero": 0.5,
+        "exp": 1,
+        "type": "float"
+      },
+      "subCategory": "defensive"
     },
     {
       "id": "eWeapon224",
@@ -62801,14 +64207,6 @@
         "type": "int"
       },
       "weapon": "Weapon_BasicShoot",
-      "damage": {
-        "base": 16000,
-        "algo": 8,
-        "lvMax": 10,
-        "zero": 0.5,
-        "exp": 1,
-        "type": "float"
-      },
       "speed": 0,
       "accuracy": 0,
       "radius": 0,
@@ -62829,7 +64227,17 @@
         "type": "int"
       },
       "secondary": 2,
-      "zoom": null
+      "zoom": null,
+      "hp": {
+        "base": 16000,
+        "algo": 8,
+        "lvMax": 10,
+        "zero": 0.5,
+        "exp": 1,
+        "type": "float"
+      },
+      "duration": 5400,
+      "subCategory": "defensive"
     },
     {
       "id": "eWeapon225",
@@ -62845,14 +64253,6 @@
       "type": "BarrierBullet01",
       "ammo": 1,
       "weapon": "Weapon_BasicShoot",
-      "damage": {
-        "base": 100000,
-        "algo": 8,
-        "lvMax": 10,
-        "zero": 0.5,
-        "exp": 1,
-        "type": "float"
-      },
       "speed": 0,
       "accuracy": 0,
       "radius": 0,
@@ -62871,7 +64271,16 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "hp": {
+        "base": 100000,
+        "algo": 8,
+        "lvMax": 10,
+        "zero": 0.5,
+        "exp": 1,
+        "type": "float"
+      },
+      "subCategory": "defensive"
     },
     {
       "id": "eWeapon226",
@@ -62894,14 +64303,6 @@
         "type": "int"
       },
       "weapon": "Weapon_BasicShoot",
-      "damage": {
-        "base": 30000,
-        "algo": 8,
-        "lvMax": 10,
-        "zero": 0.5,
-        "exp": 1,
-        "type": "float"
-      },
       "speed": 0,
       "accuracy": 0,
       "radius": 0,
@@ -62922,7 +64323,16 @@
         "type": "int"
       },
       "secondary": 0,
-      "zoom": 4
+      "zoom": 4,
+      "hp": {
+        "base": 30000,
+        "algo": 8,
+        "lvMax": 10,
+        "zero": 0.5,
+        "exp": 1,
+        "type": "float"
+      },
+      "subCategory": "defensive"
     },
     {
       "id": "eWeapon227",
@@ -62985,7 +64395,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "piercingLife": 4
+      "piercingLife": 4,
+      "subCategory": "defensive"
     },
     {
       "id": "eWeapon228",
@@ -63055,7 +64466,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "piercingLife": 4
+      "piercingLife": 4,
+      "subCategory": "defensive"
     },
     {
       "id": "eWeapon229",
@@ -63118,7 +64530,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "piercingLife": 4
+      "piercingLife": 4,
+      "subCategory": "defensive"
     },
     {
       "id": "eWeapon230",
@@ -63181,7 +64594,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "piercingLife": 4
+      "piercingLife": 4,
+      "subCategory": "defensive"
     },
     {
       "id": "eWeapon231",
@@ -63251,7 +64665,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "piercingLife": 4
+      "piercingLife": 4,
+      "subCategory": "defensive"
     },
     {
       "id": "npDecoyLauncher_reika",
@@ -63267,7 +64682,6 @@
       "type": "DecoyBullet01",
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
-      "damage": 400,
       "speed": 0.5,
       "accuracy": 0,
       "radius": 0,
@@ -63281,7 +64695,10 @@
       "lockDist": 0,
       "reload": 1800,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "hp": 400,
+      "duration": 14400,
+      "subCategory": "defensive"
     },
     {
       "id": "npDecoyLauncher_mian",
@@ -63297,7 +64714,6 @@
       "type": "DecoyBullet01",
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
-      "damage": 400,
       "speed": 0.5,
       "accuracy": 0,
       "radius": 0,
@@ -63311,7 +64727,10 @@
       "lockDist": 0,
       "reload": 1800,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "hp": 400,
+      "duration": 14400,
+      "subCategory": "defensive"
     },
     {
       "id": "npDecoyLauncher_rui",
@@ -63327,7 +64746,6 @@
       "type": "DecoyBullet01",
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
-      "damage": 400,
       "speed": 0.5,
       "accuracy": 0,
       "radius": 0,
@@ -63341,7 +64759,10 @@
       "lockDist": 0,
       "reload": 1800,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "hp": 400,
+      "duration": 14400,
+      "subCategory": "defensive"
     },
     {
       "id": "npDecoyLauncher_mari",
@@ -63357,7 +64778,6 @@
       "type": "DecoyBullet01",
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
-      "damage": 400,
       "speed": 0.5,
       "accuracy": 0,
       "radius": 0,
@@ -63371,7 +64791,10 @@
       "lockDist": 0,
       "reload": 1800,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "hp": 400,
+      "duration": 14400,
+      "subCategory": "defensive"
     },
     {
       "id": "npDecoyLauncher_haruka",
@@ -63387,7 +64810,6 @@
       "type": "DecoyBullet01",
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
-      "damage": 400,
       "speed": 0.5,
       "accuracy": 0,
       "radius": 0,
@@ -63401,7 +64823,10 @@
       "lockDist": 0,
       "reload": 1800,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "hp": 400,
+      "duration": 14400,
+      "subCategory": "defensive"
     },
     {
       "id": "npDecoyLauncher_yuu",
@@ -63417,7 +64842,6 @@
       "type": "DecoyBullet01",
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
-      "damage": 400,
       "speed": 0.5,
       "accuracy": 0,
       "radius": 0,
@@ -63431,7 +64855,10 @@
       "lockDist": 0,
       "reload": 1800,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "hp": 400,
+      "duration": 14400,
+      "subCategory": "defensive"
     },
     {
       "id": "npDecoyLauncher_eru",
@@ -63447,7 +64874,6 @@
       "type": "DecoyBullet01",
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
-      "damage": 400,
       "speed": 0.5,
       "accuracy": 0,
       "radius": 0,
@@ -63461,7 +64887,10 @@
       "lockDist": 0,
       "reload": 1800,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "hp": 400,
+      "duration": 14400,
+      "subCategory": "defensive"
     },
     {
       "id": "npDecoyLauncher_uketuke",
@@ -63477,7 +64906,6 @@
       "type": "DecoyBullet01",
       "ammo": 3,
       "weapon": "Weapon_BasicShoot",
-      "damage": 400,
       "speed": 0.5,
       "accuracy": 0,
       "radius": 0,
@@ -63491,7 +64919,10 @@
       "lockDist": 0,
       "reload": 1800,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "hp": 400,
+      "duration": 14400,
+      "subCategory": "defensive"
     },
     {
       "id": "eVehicleNone",
@@ -69633,7 +71064,8 @@
         "exp": 0.5,
         "type": "int"
       },
-      "duration": 900
+      "duration": 600,
+      "subCategory": "gl"
     },
     {
       "id": "EX_A_Weapon007",
@@ -70629,7 +72061,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "EX_A_Weapon022",
@@ -70709,7 +72142,8 @@
         "type": "int"
       },
       "secondary": 4,
-      "zoom": null
+      "zoom": null,
+      "subCategory": "explosive"
     },
     {
       "id": "EX_A_Weapon023",
@@ -70928,7 +72362,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20,
-      "shotInterval": 15
+      "shotInterval": 15,
+      "subRadius": 12
     },
     {
       "id": "EX_A_Weapon028",
@@ -70975,7 +72410,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 1,
-      "shots": 200
+      "shots": 200,
+      "subRadius": 10
     },
     {
       "id": "EX_A_Weapon029",
@@ -71029,7 +72465,7 @@
       "secondary": 1,
       "zoom": 4,
       "underground": "blocked",
-      "strikeType": "satellite",
+      "strikeType": "missile",
       "shots": 45
     },
     {
@@ -71092,7 +72528,8 @@
       "zoom": null,
       "shots": 120,
       "shotInterval": 20,
-      "searchRange": 600
+      "searchRange": 600,
+      "subCategory": "turret"
     },
     {
       "id": "EX_A_Weapon031",
@@ -71841,7 +73278,8 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      }
+      },
+      "subCategory": "gl"
     },
     {
       "id": "EX_B_Weapon007",
@@ -73057,7 +74495,8 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "explosive"
     },
     {
       "id": "EX_B_Weapon025",
@@ -73306,7 +74745,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 1,
-      "shotInterval": 60
+      "shotInterval": 60,
+      "subRadius": 22
     },
     {
       "id": "EX_B_Weapon030",
@@ -73353,7 +74793,8 @@
       "credits": true,
       "underground": "blocked",
       "units": 18,
-      "shots": 50
+      "shots": 50,
+      "subRadius": 0
     },
     {
       "id": "EX_B_Weapon031",
@@ -73400,7 +74841,9 @@
       "credits": true,
       "underground": "blocked",
       "units": 2,
-      "shots": 20
+      "shots": 20,
+      "subRadius": 0,
+      "duration": 3200
     },
     {
       "id": "EX_B_Weapon032",
@@ -73530,7 +74973,8 @@
       "zoom": null,
       "shots": 1300,
       "shotInterval": 2,
-      "searchRange": 400
+      "searchRange": 400,
+      "subCategory": "turret"
     },
     {
       "id": "EX_B_Weapon034",
@@ -73554,14 +74998,6 @@
         "type": "int"
       },
       "weapon": "Weapon_BasicShoot",
-      "damage": {
-        "base": 60000,
-        "algo": 8,
-        "lvMax": 10,
-        "zero": 0.5,
-        "exp": 1,
-        "type": "float"
-      },
       "speed": 0,
       "accuracy": 0,
       "radius": 0,
@@ -73582,7 +75018,16 @@
         "type": "int"
       },
       "secondary": 0,
-      "zoom": 4
+      "zoom": 4,
+      "hp": {
+        "base": 60000,
+        "algo": 8,
+        "lvMax": 10,
+        "zero": 0.5,
+        "exp": 1,
+        "type": "float"
+      },
+      "subCategory": "defensive"
     },
     {
       "id": "EX_B_Weapon035",

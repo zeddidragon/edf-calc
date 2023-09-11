@@ -8668,7 +8668,8 @@
           "speed": 3,
           "radius": 2
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon354",
@@ -8717,7 +8718,8 @@
           "speed": 3,
           "radius": 3
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon355",
@@ -8758,7 +8760,8 @@
           "speed": 1,
           "radius": 6
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon356",
@@ -8807,7 +8810,8 @@
           "speed": 1,
           "radius": 6
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon357",
@@ -8856,7 +8860,8 @@
           "speed": 3,
           "radius": 3
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon358",
@@ -8897,7 +8902,8 @@
           "speed": 1,
           "radius": 6
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon359",
@@ -8946,7 +8952,8 @@
           "speed": 1,
           "radius": 3
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon360",
@@ -8995,7 +9002,8 @@
           "speed": 0.2,
           "radius": 6
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon361",
@@ -9044,7 +9052,8 @@
           "speed": 5,
           "radius": 2
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon362",
@@ -9093,7 +9102,8 @@
           "speed": 2,
           "radius": 6
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon363",
@@ -9142,7 +9152,8 @@
           "speed": 3,
           "radius": 3
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon364",
@@ -9183,7 +9194,8 @@
           "speed": 1.5,
           "radius": 3
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon365",
@@ -9232,7 +9244,8 @@
           "speed": 1.5,
           "radius": 4
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon366",
@@ -9281,7 +9294,8 @@
           "speed": 0.2,
           "radius": 10
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon367",
@@ -9330,7 +9344,8 @@
           "speed": 2,
           "radius": 6
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon368",
@@ -9379,7 +9394,8 @@
           "speed": 10,
           "radius": 2
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon369",
@@ -9428,7 +9444,8 @@
           "speed": 1.5,
           "radius": 4
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon370",
@@ -9477,7 +9494,8 @@
           "speed": 0.2,
           "radius": 8
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon371",
@@ -9518,7 +9536,8 @@
           "speed": 1,
           "radius": 6
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon372",
@@ -9567,7 +9586,8 @@
           "speed": 2,
           "radius": 3
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon373",
@@ -9616,7 +9636,8 @@
           "speed": 3,
           "radius": 4
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon374",
@@ -9665,7 +9686,8 @@
           "speed": 2,
           "radius": 3
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon375",
@@ -9714,7 +9736,8 @@
           "speed": 2,
           "radius": 6
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon376",
@@ -9763,7 +9786,8 @@
           "speed": 10,
           "radius": 2
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "hPileBanker01",
@@ -9798,7 +9822,8 @@
           "speed": 2,
           "swing": 1.5
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon377",
@@ -9820,7 +9845,8 @@
       "interval": 20,
       "reload": 150,
       "secondary": 5,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon378",
@@ -9841,7 +9867,8 @@
       "interval": 15,
       "reload": 90,
       "secondary": 5,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon379",
@@ -9870,7 +9897,8 @@
           "speed": 1,
           "swing": 1
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon380",
@@ -9905,7 +9933,8 @@
           "speed": 3,
           "swing": 1
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon381",
@@ -9942,7 +9971,8 @@
           "speed": 1,
           "swing": 1.5
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon382",
@@ -9964,7 +9994,8 @@
       "interval": 20,
       "reload": 150,
       "secondary": 5,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon383",
@@ -9985,7 +10016,8 @@
       "interval": 10,
       "reload": 90,
       "secondary": 5,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon384",
@@ -10014,7 +10046,8 @@
           "speed": 1,
           "swing": 1
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon385",
@@ -10036,7 +10069,8 @@
       "interval": 20,
       "reload": 150,
       "secondary": 5,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon386",
@@ -10071,7 +10105,8 @@
           "speed": 2,
           "swing": 1.6
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon387",
@@ -10108,7 +10143,8 @@
           "speed": 1,
           "swing": 1
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon388",
@@ -10143,7 +10179,8 @@
           "speed": 2.5,
           "swing": 1.65
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon389",
@@ -10164,7 +10201,8 @@
       "interval": 10,
       "reload": 100,
       "secondary": 5,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon390",
@@ -10193,7 +10231,8 @@
           "speed": 1,
           "swing": 1
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon391",
@@ -10215,7 +10254,8 @@
       "interval": 10,
       "reload": 150,
       "secondary": 5,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon392",
@@ -10250,7 +10290,8 @@
           "speed": 2.5,
           "swing": 1.65
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon393",
@@ -10271,7 +10312,8 @@
       "interval": 10,
       "reload": 80,
       "secondary": 5,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon394",
@@ -10308,7 +10350,8 @@
           "speed": 1,
           "swing": 1.5
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon395",
@@ -10343,7 +10386,8 @@
           "speed": 3,
           "swing": 1
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon396",
@@ -10372,7 +10416,8 @@
           "speed": 1,
           "swing": 1
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon397",
@@ -10393,7 +10438,8 @@
       "interval": 10,
       "reload": 80,
       "secondary": 5,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon398",
@@ -10428,7 +10474,8 @@
           "speed": 3,
           "swing": 1.75
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon399",
@@ -10465,7 +10512,8 @@
           "speed": 1,
           "swing": 1.5
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon400",
@@ -10487,7 +10535,8 @@
       "interval": 10,
       "reload": 150,
       "secondary": 5,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon401",
@@ -10516,7 +10565,8 @@
           "speed": 1,
           "swing": 1
         }
-      ]
+      ],
+      "subCategory": "piercing"
     },
     {
       "id": "hShield01",
@@ -10538,7 +10588,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 70,
-      "range": 80
+      "range": 80,
+      "subCategory": "piercing"
     },
     {
       "id": "hBbuckler01",
@@ -10560,7 +10611,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 50,
-      "range": 57
+      "range": 57,
+      "subCategory": "piercing"
     },
     {
       "id": "hTowershield01",
@@ -10582,7 +10634,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 80,
-      "range": 126
+      "range": 126,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon402",
@@ -10604,7 +10657,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 70,
-      "range": 80
+      "range": 80,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon403",
@@ -10626,7 +10680,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 60,
-      "range": 57
+      "range": 57,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon404",
@@ -10648,7 +10703,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 70,
-      "range": 80
+      "range": 80,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon405",
@@ -10670,7 +10726,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 80,
-      "range": 132
+      "range": 132,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon406",
@@ -10692,7 +10749,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 70,
-      "range": 80
+      "range": 80,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon407",
@@ -10714,7 +10772,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 60,
-      "range": 57
+      "range": 57,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon408",
@@ -10736,7 +10795,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 10,
-      "range": 46
+      "range": 46,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon409",
@@ -10758,7 +10818,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 70,
-      "range": 91
+      "range": 91,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon410",
@@ -10780,7 +10841,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 80,
-      "range": 138
+      "range": 138,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon411",
@@ -10802,7 +10864,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 70,
-      "range": 80
+      "range": 80,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon412",
@@ -10824,7 +10887,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 65,
-      "range": 57
+      "range": 57,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon413",
@@ -10846,7 +10910,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 70,
-      "range": 91
+      "range": 91,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon414",
@@ -10868,7 +10933,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 85,
-      "range": 149
+      "range": 149,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon415",
@@ -10890,7 +10956,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 65,
-      "range": 57
+      "range": 57,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon416",
@@ -10912,7 +10979,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 75,
-      "range": 100
+      "range": 100,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon417",
@@ -10934,7 +11002,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 10,
-      "range": 46
+      "range": 46,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon418",
@@ -10956,7 +11025,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 80,
-      "range": 100
+      "range": 100,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon419",
@@ -10978,7 +11048,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 70,
-      "range": 57
+      "range": 57,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon420",
@@ -11000,7 +11071,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 80,
-      "range": 109
+      "range": 109,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon421",
@@ -11022,7 +11094,8 @@
       "secondary": 6,
       "accuracy": 0,
       "defense": 90,
-      "range": 180
+      "range": 180,
+      "subCategory": "piercing"
     },
     {
       "id": "hGatling01",
@@ -11044,7 +11117,8 @@
       "interval": 3,
       "reload": 480,
       "secondary": 4,
-      "windup": 120
+      "windup": 120,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon422",
@@ -11066,7 +11140,8 @@
       "life": 55,
       "interval": 40,
       "reload": 240,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon423",
@@ -11089,7 +11164,8 @@
       "count": 8,
       "interval": 40,
       "reload": 240,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon424",
@@ -11112,7 +11188,8 @@
       "reload": 300,
       "secondary": 4,
       "piercing": true,
-      "windup": 240
+      "windup": 240,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon425",
@@ -11134,7 +11211,8 @@
       "interval": 2,
       "reload": 540,
       "secondary": 4,
-      "windup": 90
+      "windup": 90,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon426",
@@ -11156,7 +11234,8 @@
       "life": 55,
       "interval": 20,
       "reload": 300,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon427",
@@ -11179,7 +11258,8 @@
       "count": 10,
       "interval": 40,
       "reload": 320,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon428",
@@ -11202,7 +11282,8 @@
       "reload": 330,
       "secondary": 4,
       "piercing": true,
-      "windup": 240
+      "windup": 240,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon429",
@@ -11224,7 +11305,8 @@
       "interval": 3,
       "reload": 600,
       "secondary": 4,
-      "windup": 60
+      "windup": 60,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon430",
@@ -11246,7 +11328,8 @@
       "life": 50,
       "interval": 40,
       "reload": 270,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon431",
@@ -11269,7 +11352,8 @@
       "burstRate": 1,
       "interval": 1,
       "reload": -1,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon432",
@@ -11291,7 +11375,8 @@
       "interval": 3,
       "reload": 480,
       "secondary": 4,
-      "windup": 120
+      "windup": 120,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon433",
@@ -11313,7 +11398,8 @@
       "interval": 2,
       "reload": 540,
       "secondary": 4,
-      "windup": 90
+      "windup": 90,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon434",
@@ -11336,7 +11422,8 @@
       "count": 15,
       "interval": 40,
       "reload": 320,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon435",
@@ -11360,7 +11447,8 @@
       "burstRate": 16,
       "interval": 80,
       "reload": 240,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon436",
@@ -11383,7 +11471,8 @@
       "reload": 300,
       "secondary": 4,
       "piercing": true,
-      "windup": 300
+      "windup": 300,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon437",
@@ -11405,7 +11494,8 @@
       "interval": 4,
       "reload": 600,
       "secondary": 4,
-      "windup": 60
+      "windup": 60,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon438",
@@ -11427,7 +11517,8 @@
       "life": 32,
       "interval": 30,
       "reload": 240,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon439",
@@ -11450,7 +11541,8 @@
       "count": 14,
       "interval": 50,
       "reload": 460,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon440",
@@ -11472,7 +11564,8 @@
       "interval": 3,
       "reload": 480,
       "secondary": 4,
-      "windup": 120
+      "windup": 120,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon441",
@@ -11496,7 +11589,8 @@
       "burstRate": 8,
       "interval": 40,
       "reload": 400,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon442",
@@ -11519,7 +11613,8 @@
       "reload": 300,
       "secondary": 4,
       "piercing": true,
-      "windup": 300
+      "windup": 300,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon443",
@@ -11541,7 +11636,8 @@
       "burst": 1200,
       "interval": 1,
       "reload": -1,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon444",
@@ -11563,7 +11659,8 @@
       "interval": 3,
       "reload": 540,
       "secondary": 4,
-      "windup": 90
+      "windup": 90,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon445",
@@ -11585,7 +11682,8 @@
       "life": 33,
       "interval": 10,
       "reload": 460,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon446",
@@ -11608,7 +11706,8 @@
       "count": 20,
       "interval": 45,
       "reload": 420,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon447",
@@ -11630,7 +11729,8 @@
       "interval": 3,
       "reload": 600,
       "secondary": 4,
-      "windup": 60
+      "windup": 60,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon448",
@@ -11652,7 +11752,8 @@
       "life": 30,
       "interval": 40,
       "reload": 240,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon449",
@@ -11674,7 +11775,8 @@
       "burst": 1500,
       "interval": 1,
       "reload": -1,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon450",
@@ -11697,7 +11799,8 @@
       "count": 30,
       "interval": 40,
       "reload": 330,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon451",
@@ -11719,7 +11822,8 @@
       "interval": 3,
       "reload": 660,
       "secondary": 4,
-      "windup": 180
+      "windup": 180,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon452",
@@ -11742,7 +11846,8 @@
       "reload": 240,
       "secondary": 4,
       "piercing": true,
-      "windup": 360
+      "windup": 360,
+      "subCategory": "piercing"
     },
     {
       "id": "hCannon01",
@@ -11766,7 +11871,8 @@
       "interval": 40,
       "reload": 210,
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon453",
@@ -11790,7 +11896,8 @@
       "interval": 180,
       "reload": 210,
       "secondary": 1,
-      "zoom": 2.5
+      "zoom": 2.5,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon454",
@@ -11813,7 +11920,8 @@
       "reload": -1,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon455",
@@ -11837,7 +11945,8 @@
       "count": 54,
       "interval": 120,
       "reload": 480,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon456",
@@ -11861,7 +11970,8 @@
       "interval": 180,
       "reload": 210,
       "secondary": 1,
-      "zoom": 2.5
+      "zoom": 2.5,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon457",
@@ -11883,7 +11993,8 @@
       "life": 300,
       "interval": 3,
       "reload": 180,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon458",
@@ -11906,7 +12017,8 @@
       "count": 6,
       "interval": 80,
       "reload": 600,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon459",
@@ -11930,7 +12042,8 @@
       "interval": 40,
       "reload": 270,
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon460",
@@ -11954,7 +12067,8 @@
       "interval": 40,
       "reload": 210,
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon461",
@@ -11978,7 +12092,8 @@
       "interval": 180,
       "reload": 240,
       "secondary": 1,
-      "zoom": 2.5
+      "zoom": 2.5,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon462",
@@ -12001,7 +12116,8 @@
       "count": 30,
       "interval": 60,
       "reload": 180,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon463",
@@ -12025,7 +12141,8 @@
       "interval": 40,
       "reload": 190,
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon464",
@@ -12049,7 +12166,8 @@
       "count": 80,
       "interval": 120,
       "reload": 540,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon465",
@@ -12073,7 +12191,8 @@
       "interval": 40,
       "reload": 280,
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon466",
@@ -12096,7 +12215,8 @@
       "count": 2,
       "interval": 3,
       "reload": 180,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon467",
@@ -12119,7 +12239,8 @@
       "count": 12,
       "interval": 80,
       "reload": 360,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon468",
@@ -12143,7 +12264,8 @@
       "interval": 40,
       "reload": 210,
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon469",
@@ -12167,7 +12289,8 @@
       "interval": 180,
       "reload": 240,
       "secondary": 1,
-      "zoom": 3
+      "zoom": 3,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon470",
@@ -12190,7 +12313,8 @@
       "count": 60,
       "interval": 60,
       "reload": 240,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon471",
@@ -12214,7 +12338,8 @@
       "count": 70,
       "interval": 120,
       "reload": 600,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon472",
@@ -12238,7 +12363,8 @@
       "interval": 40,
       "reload": 210,
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon473",
@@ -12262,7 +12388,8 @@
       "interval": 180,
       "reload": 360,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "piercing"
     },
     {
       "id": "Weapon474",
@@ -12286,7 +12413,8 @@
       "interval": 80,
       "reload": 300,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "explosive"
     },
     {
       "id": "hHellStorm01",
@@ -12308,7 +12436,8 @@
       "interval": 120,
       "reload": 480,
       "secondary": 4,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon475",
@@ -12332,7 +12461,8 @@
       "count": 6,
       "interval": 120,
       "reload": 540,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon476",
@@ -12356,7 +12486,8 @@
       "interval": 180,
       "reload": 300,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon477",
@@ -12380,7 +12511,8 @@
       "count": 12,
       "interval": 120,
       "reload": 540,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon478",
@@ -12404,7 +12536,8 @@
       "interval": 180,
       "reload": 300,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon479",
@@ -12428,7 +12561,8 @@
       "interval": 80,
       "reload": 300,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon480",
@@ -12452,7 +12586,8 @@
       "interval": 180,
       "reload": 300,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon481",
@@ -12476,7 +12611,8 @@
       "interval": 80,
       "reload": 300,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon482",
@@ -12500,7 +12636,8 @@
       "count": 15,
       "interval": 120,
       "reload": 540,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon483",
@@ -12524,7 +12661,8 @@
       "interval": 80,
       "reload": 300,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon484",
@@ -12548,7 +12686,8 @@
       "interval": 180,
       "reload": 300,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon485",
@@ -12572,7 +12711,8 @@
       "count": 20,
       "interval": 120,
       "reload": 600,
-      "secondary": 4
+      "secondary": 4,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon486",
@@ -12596,7 +12736,8 @@
       "lockRange": 300,
       "lockTime": 400,
       "lockType": 1,
-      "reload": 120
+      "reload": 120,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon487",
@@ -12623,7 +12764,8 @@
       "lockRange": 200,
       "lockTime": 30,
       "lockType": 1,
-      "reload": 180
+      "reload": 180,
+      "subCategory": "explosive"
     },
     {
       "id": "hClusterMissile01",
@@ -12649,7 +12791,8 @@
       "lockRange": 300,
       "lockTime": 120,
       "lockType": 1,
-      "reload": 360
+      "reload": 360,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon488",
@@ -12673,7 +12816,8 @@
       "lockRange": 300,
       "lockTime": 1500,
       "lockType": 1,
-      "reload": 360
+      "reload": 360,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon489",
@@ -12699,7 +12843,8 @@
       "lockTime": 15,
       "lockType": 1,
       "lockDist": 1,
-      "reload": 180
+      "reload": 180,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon490",
@@ -12725,7 +12870,8 @@
       "lockRange": 250,
       "lockTime": 15,
       "lockType": 1,
-      "reload": 500
+      "reload": 500,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon491",
@@ -12751,7 +12897,8 @@
       "lockRange": 400,
       "lockTime": 30,
       "lockType": 1,
-      "reload": 600
+      "reload": 600,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon492",
@@ -12775,7 +12922,8 @@
       "lockRange": 500,
       "lockTime": 400,
       "lockType": 1,
-      "reload": 120
+      "reload": 120,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon493",
@@ -12802,7 +12950,8 @@
       "lockRange": 400,
       "lockTime": 30,
       "lockType": 1,
-      "reload": 120
+      "reload": 120,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon494",
@@ -12828,7 +12977,8 @@
       "lockTime": 15,
       "lockType": 1,
       "lockDist": 1,
-      "reload": 180
+      "reload": 180,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon495",
@@ -12854,7 +13004,8 @@
       "lockRange": 300,
       "lockTime": 120,
       "lockType": 1,
-      "reload": 360
+      "reload": 360,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon496",
@@ -12878,7 +13029,8 @@
       "lockRange": 400,
       "lockTime": 1500,
       "lockType": 1,
-      "reload": 360
+      "reload": 360,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon497",
@@ -12904,7 +13056,8 @@
       "lockRange": 500,
       "lockTime": 30,
       "lockType": 1,
-      "reload": 600
+      "reload": 600,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon498",
@@ -12928,7 +13081,8 @@
       "lockRange": 700,
       "lockTime": 400,
       "lockType": 1,
-      "reload": 120
+      "reload": 120,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon499",
@@ -12954,7 +13108,8 @@
       "lockRange": 400,
       "lockTime": 15,
       "lockType": 1,
-      "reload": 500
+      "reload": 500,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon500",
@@ -12980,7 +13135,8 @@
       "lockTime": 15,
       "lockType": 1,
       "lockDist": 1,
-      "reload": 180
+      "reload": 180,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon501",
@@ -13007,7 +13163,8 @@
       "lockRange": 400,
       "lockTime": 30,
       "lockType": 1,
-      "reload": 180
+      "reload": 180,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon502",
@@ -13031,7 +13188,8 @@
       "lockRange": 1000,
       "lockTime": 1500,
       "lockType": 1,
-      "reload": 180
+      "reload": 180,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon503",
@@ -13055,7 +13213,8 @@
       "lockRange": 800,
       "lockTime": 400,
       "lockType": 1,
-      "reload": 120
+      "reload": 120,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon504",
@@ -13081,7 +13240,8 @@
       "lockRange": 500,
       "lockTime": 15,
       "lockType": 1,
-      "reload": 200
+      "reload": 200,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon505",
@@ -13107,7 +13267,8 @@
       "lockRange": 700,
       "lockTime": 30,
       "lockType": 1,
-      "reload": 600
+      "reload": 600,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon506",
@@ -13133,7 +13294,8 @@
       "lockTime": 15,
       "lockType": 1,
       "lockDist": 1,
-      "reload": 180
+      "reload": 180,
+      "subCategory": "explosive"
     },
     {
       "id": "Weapon507",
@@ -13157,7 +13319,8 @@
       "lockRange": 1200,
       "lockTime": 300,
       "lockType": 1,
-      "reload": 120
+      "reload": 120,
+      "subCategory": "explosive"
     },
     {
       "id": "eLockonMarkerL01",
@@ -23101,6 +23264,7 @@
           "en": "Missile Launchers",
           "ja": "ミサイルランチャー"
         },
+        "appendix": "*With 0 lock time",
         "headers": [
           "checkbox",
           "level",
@@ -23469,6 +23633,166 @@
           "range",
           "speed",
           "tdps",
+          "total"
+        ]
+      }
+    ],
+    "fencer": [
+      {
+        "category": "hammer",
+        "names": {
+          "en": "CC Strikers",
+          "ja": "近接-打"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "ammo",
+          "defense",
+          "chargeTime",
+          "damage",
+          "radius",
+          "reload",
+          "range"
+        ]
+      },
+      {
+        "category": "spear",
+        "names": {
+          "en": "CC Piercers",
+          "ja": "ブレード系"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "ammo",
+          "piercing",
+          "damage",
+          "interval",
+          "reload",
+          "range",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "shield",
+        "names": {
+          "en": "Shields",
+          "ja": "盾"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "ammo",
+          "defense",
+          "reload",
+          "energy",
+          "range"
+        ]
+      },
+      {
+        "category": "light",
+        "names": {
+          "en": "Automatic Artillery",
+          "ja": "機関砲"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "ammo",
+          "damage",
+          "interval",
+          "windup",
+          "reload",
+          "accuracy",
+          "range",
+          "speed",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "heavy",
+        "names": {
+          "en": "Artillery",
+          "ja": "火砲"
+        },
+        "tables": [
+          {
+            "subCategory": "piercing",
+            "names": {
+              "en": "Piercing",
+              "ja": "重キャノン砲"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "interval",
+              "reload",
+              "accuracy",
+              "range",
+              "speed",
+              "dps",
+              "tdps",
+              "total"
+            ]
+          },
+          {
+            "subCategory": "explosive",
+            "names": {
+              "en": "Explosives",
+              "ja": "迫撃砲"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "radius",
+              "interval",
+              "reload",
+              "accuracy",
+              "range",
+              "speed",
+              "dps",
+              "tdps",
+              "tdps2",
+              "total"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "missile",
+        "names": {
+          "en": "Missile Launchers",
+          "ja": "ミサイルランチャー"
+        },
+        "appendix": "*With 0 lock time",
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "ammo",
+          "damage",
+          "radius",
+          "interval",
+          "lockTime",
+          "reload",
+          "lockRange",
+          "tdps",
+          "tdps2",
           "total"
         ]
       }

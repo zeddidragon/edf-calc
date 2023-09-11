@@ -888,7 +888,7 @@ const headers = [{
       return level
     }
     el.classList.add(difficulty.name)
-    el.textContent = level
+    el.textContent = Math.max(0, level)
     return el
   },
 }, {
@@ -1309,6 +1309,9 @@ const headers = [{
   tooltip: 'Rate of Fire',
   starProp: 'interval',
   cb: wpn => {
+    if(wpn.rof) {
+      return wpn.rof
+    }
     if(!wpn.interval) {
       return '-'
     }
@@ -1428,6 +1431,9 @@ const headers = [{
   tooltip: 'Reload Time',
   starProp: 'reload',
   cb: wpn => {
+    if(wpn.reloadSeconds) {
+      return wpn.reloadSeconds
+    }
     if(wpn.reload <= 0 || !wpn.reload) {
       return '-'
     }
@@ -1456,6 +1462,9 @@ const headers = [{
   },
 }, {
   iff: (ch, cat, wpn) => {
+    if(active.game === 'ia') {
+      return false
+    }
     if([
       'missile',
       'special',
@@ -1629,6 +1638,9 @@ const headers = [{
   },
 }, {
   iff: (ch, cat, wpn) => {
+    if(active.game === 'ia') {
+      return false
+    }
     if(ch === 'bomber' && [
       'missile',
     ].includes(cat)) {
@@ -1750,6 +1762,9 @@ const headers = [{
   },
 }, {
   iff: (ch, cat, wpn) => {
+    if(active.game === 'ia') {
+      return false
+    }
     if([
       'hammer',
       'spear',
@@ -2266,6 +2281,9 @@ const headers = [{
     if(wpn.ammo < 2 && !wpn.duration) {
       return '-'
     }
+    if(wpn.rof) {
+      return (wpn.damage * wpn.rof).toFixed()
+    }
     if(wpn.burst > 100) {
       return (wpn.damage * FPS / (wpn.burstRate || 1)).toFixed(1)
     }
@@ -2374,6 +2392,10 @@ const headers = [{
     }
     if(wpn.reload < 0) {
       return '-'
+    }
+    if(wpn.rof) {
+      const duration = wpn.ammo / wpn.rof + wpn.reloadSeconds
+      return ((wpn.damage * wpn.ammo) / duration).toFixed(1)
     }
     if(wpn.shotInterval) { // Turret
       return +tacticalDps({
@@ -2514,6 +2536,7 @@ const games = [
   '3p',
   '41',
   '5',
+  'ia',
 ]
 
 const gameLabels = [
@@ -2521,6 +2544,7 @@ const gameLabels = [
   'EDF3P',
   'EDF4.1',
   'EDF5',
+  'EDF:IA',
 ]
 
 const gameMenu = document.getElementById('game-dropdown')

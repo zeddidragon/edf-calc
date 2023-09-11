@@ -1040,10 +1040,10 @@
             ]
           },
           {
-            "subCategory": "wire",
+            "subCategory": "shotgun",
             "names": {
-              "en": "Wire Guns",
-              "ja": "ワイヤー"
+              "en": "Suppress Gun",
+              "ja": "サプレスガン"
             },
             "headers": [
               "checkbox",
@@ -1051,10 +1051,12 @@
               "level",
               "name",
               "ammo",
+              "piercing",
               "damage",
               "interval",
               "reload",
               "range",
+              "piercingRange",
               "speed",
               "dps",
               "tdps",
@@ -64396,7 +64398,7 @@
         "type": "int"
       },
       "piercingLife": 4,
-      "subCategory": "defensive"
+      "subCategory": "shotgun"
     },
     {
       "id": "eWeapon228",
@@ -64467,7 +64469,7 @@
         "type": "int"
       },
       "piercingLife": 4,
-      "subCategory": "defensive"
+      "subCategory": "shotgun"
     },
     {
       "id": "eWeapon229",
@@ -64531,7 +64533,7 @@
         "type": "int"
       },
       "piercingLife": 4,
-      "subCategory": "defensive"
+      "subCategory": "shotgun"
     },
     {
       "id": "eWeapon230",
@@ -64595,7 +64597,7 @@
         "type": "int"
       },
       "piercingLife": 4,
-      "subCategory": "defensive"
+      "subCategory": "shotgun"
     },
     {
       "id": "eWeapon231",
@@ -64666,7 +64668,7 @@
         "type": "int"
       },
       "piercingLife": 4,
-      "subCategory": "defensive"
+      "subCategory": "shotgun"
     },
     {
       "id": "npDecoyLauncher_reika",

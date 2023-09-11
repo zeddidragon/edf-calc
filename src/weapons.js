@@ -494,6 +494,7 @@ function populateWeaponDrops(mode, ch, cat) {
 
 const scaledProps = [
   'ammo',
+  'hp',
   'damage',
   'count',
   'radius',

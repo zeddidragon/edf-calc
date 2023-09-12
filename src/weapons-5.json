@@ -350,6 +350,7 @@
               "ja": "リバーサー"
             },
             "subCategory": "reverser",
+            "appendix": "*Assuming mist hits every frame of duration.",
             "headers": [
               "checkbox",
               "stars",
@@ -363,7 +364,9 @@
               "range",
               "speed",
               "dps",
-              "total"
+              "dps2",
+              "total",
+              "total2"
             ]
           }
         ]

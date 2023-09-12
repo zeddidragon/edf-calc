@@ -210,14 +210,14 @@ th.P, th.CR {
 .winger b, .off b, .Normal, .edf5 b, .en b {
   color: #88e;
 }
-.bomber b, .on b, .Hard, .highOdds, .edf41 b {
+.bomber b, .on b, .Hard, .highOdds, .edf41 b, .edfia b {
   color: #8e8;
 }
 .fencer b, .dlc1 b {
   color: #ea8;
 }
 
-.short b, .spear b, .heli b, .stats b, .limpet b, .booster b, .star-10, .star-5 {
+.short b, .spear b, .heli b, .stats b, .limpet b, .booster b, .repair b, .star-10, .star-5 {
   color: #eee;
 }
 .assault b, .laser b, .light b, .gunship b {

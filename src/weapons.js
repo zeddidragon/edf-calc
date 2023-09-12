@@ -105,11 +105,13 @@ function pickGame(game) {
     .getElementById('game-button')
   button.classList.remove(...button.classList)
   button.classList.add('button')
+
   styleButton({
     button,
     label: gameLabels[games.indexOf(game)],
     cls: `edf${game}`,
     cutPoint: 4,
+    prefix: gamePrefixes[game] || 0,
   })
 
   const item = document
@@ -215,14 +217,20 @@ function styleButton({
   label,
   cls,
   cutPoint,
+  prefix,
 }) {
   button.innerHTML = ''
-  for(const pfx of buttonPrefixes) {
-    if(label.startsWith(pfx)) {
-      button.textContent = pfx
-      label = label.slice(pfx.length)
-      break
+  if(!prefix) {
+    for(const pfx of buttonPrefixes) {
+      if(label.startsWith(pfx)) {
+        prefix = pfx.length
+        break
+      }
     }
+  }
+  if(prefix) {
+    button.textContent = label.slice(0, prefix)
+    label = label.slice(prefix)
   }
   boldify(button, label, cutPoint)
   button.classList.add(cls)
@@ -965,6 +973,22 @@ const headers = [{
     return label
   },
 }, {
+  id: 'unlock',
+  label: '🔒',
+  tooltip: 'Obtainment method',
+  cb: wpn => {
+    if(!wpn.unlock) {
+      return '€'
+    }
+    if(wpn.unlock === 'box') {
+      return 'Box ☢'
+    }
+    const el = $('div')
+    el.classList.add('highOdds')
+    el.textContent = 'DLC ☢'
+    return el
+  },
+}, {
   id: 'hp',
   label: 'HP',
   tooltip: 'Durability',
@@ -1059,7 +1083,7 @@ const headers = [{
     if(['power', 'guard'].includes(wpn.supportType)) {
       return `${(+wpn.damage).toFixed(2)}`
     }
-    if(wpn.damage < 1) {
+    if(wpn.damage < 1 && wpn.damage > -1) {
       return +Math.abs(wpn.damage).toFixed(2)
     }
     let dmg = +Math.abs(wpn.damage).toFixed(1)
@@ -1365,6 +1389,26 @@ const headers = [{
       return (+wpn.lockRange).toFixed(0)
     }
     return (wpn.speed * wpn.life).toFixed(0)
+  },
+}, {
+  id: 'boost',
+  label: 'Boost',
+  tooltip: 'Boost',
+  cb: wpn => {
+    if(wpn.damage) {
+      return `${Math.round(wpn.damage * 100) - 100}%`
+    }
+    return '-'
+  },
+}, {
+  id: 'revive',
+  label: 'Revive',
+  tooltip: 'Revive Health %',
+  cb: wpn => {
+    if(wpn.revive) {
+      return `${wpn.revive}%`
+    }
+    return '-'
   },
 }, {
   id: 'healAllyBoost',
@@ -1862,6 +1906,10 @@ const gameLabels = [
   'EDF:IA',
 ]
 
+const gamePrefixes = {
+  'ia': 4,
+}
+
 const gameMenu = document.getElementById('game-dropdown')
 for(let i = 0; i < games.length; i++) {
   const g = games[i]
@@ -1872,6 +1920,7 @@ for(let i = 0; i < games.length; i++) {
     label: gLabel,
     cls: `edf${g}`,
     cutPoint: 4,
+    prefix: gamePrefixes[g] || 0,
   })
   gameMenu.appendChild(item)
   item.addEventListener('click', () => {

@@ -10,6 +10,613 @@
     "Storm",
     "Pale Wing"
   ],
+  "headers": {
+    "ranger": [
+      {
+        "category": "assault",
+        "names": {
+          "en": "Assault Rifle",
+          "ja": "アサルトライフル"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "ammo",
+          "piercing",
+          "damage",
+          "interval",
+          "reload",
+          "accuracy",
+          "range",
+          "speed",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "shotgun",
+        "names": {
+          "en": "Shotguns",
+          "ja": "ショットガン"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "ammo",
+          "damage",
+          "interval",
+          "reload",
+          "accuracy",
+          "range",
+          "speed",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "sniper",
+        "names": {
+          "en": "Sniper Rifles",
+          "ja": "スナイパーライフル"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "ammo",
+          "piercing",
+          "damage",
+          "interval",
+          "reload",
+          "accuracy",
+          "range",
+          "speed",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "rocket",
+        "names": {
+          "en": "Rocket Launchers",
+          "ja": "ロケットランチャー"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "ammo",
+          "damage",
+          "radius",
+          "interval",
+          "reload",
+          "accuracy",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "missile",
+        "names": {
+          "en": "Missile Launchers",
+          "ja": "ミサイルランチャー"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "ammo",
+          "damage",
+          "radius",
+          "interval",
+          "reload",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "grenade",
+        "names": {
+          "en": "Grenades",
+          "ja": "グレネード"
+        },
+        "tables": [
+          {
+            "subCategory": "hg",
+            "names": {
+              "en": "Hand Grenades",
+              "ja": "ハンドグレネード"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "damage",
+              "radius",
+              "duration",
+              "interval",
+              "tdps"
+            ]
+          },
+          {
+            "subCategory": "gl",
+            "names": {
+              "en": "Grenade Launchers",
+              "ja": "グレネードランチャー"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "radius",
+              "duration",
+              "interval",
+              "reload",
+              "accuracy",
+              "dps",
+              "tdps",
+              "total"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "special",
+        "names": {
+          "en": "Special Weapons",
+          "ja": "特殊"
+        },
+        "tables": [
+          {
+            "subCategory": "acid",
+            "names": {
+              "en": "Acid Guns",
+              "ja": "アシッドガン・シリーズ"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "interval",
+              "reload",
+              "range",
+              "speed",
+              "dps",
+              "tdps",
+              "total"
+            ]
+          },
+          {
+            "names": {
+              "en": "Flamethrowers",
+              "ja": "火炎放射器シリーズ"
+            },
+            "subCategory": "flame",
+            "appendix": "*Assuming flame hits every frame of duration.",
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "damage2",
+              "duration",
+              "interval",
+              "reload",
+              "range",
+              "speed",
+              "dps",
+              "dps2",
+              "tdps",
+              "tdps2",
+              "total",
+              "total2"
+            ]
+          },
+          {
+            "subCategory": "bomb",
+            "names": {
+              "en": "Bombs",
+              "ja": "ローラーボムシリーズ"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "radius",
+              "interval",
+              "reload",
+              "speed",
+              "tdps",
+              "total"
+            ]
+          },
+          {
+            "subCategory": "mine",
+            "names": {
+              "en": "Land Mines",
+              "ja": "インパルスシリーズ"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "interval",
+              "reload",
+              "tdps",
+              "total"
+            ]
+          },
+          {
+            "subCategory": "turret",
+            "names": {
+              "en": "Automatic Turrets",
+              "ja": "ZE-GUNシリーズ"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "shots",
+              "radius",
+              "interval",
+              "reload",
+              "dps",
+              "tdps",
+              "total"
+            ]
+          },
+          {
+            "names": {
+              "en": "Firecrackers",
+              "ja": "かんしゃく玉シリーズ"
+            },
+            "subCategory": "firecracker",
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "radius",
+              "interval",
+              "range",
+              "speed",
+              "tdps",
+              "total"
+            ]
+          },
+          {
+            "names": {
+              "en": "Bound Guns",
+              "ja": "バウンドガン・シリーズ"
+            },
+            "subCategory": "bound",
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "interval",
+              "reload",
+              "range",
+              "speed",
+              "dps",
+              "tdps",
+              "total"
+            ]
+          },
+          {
+            "names": {
+              "en": "Crowd Control",
+              "ja": "ヒュプノタイザー"
+            },
+            "subCategory": "cc",
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "radius",
+              "duration",
+              "interval",
+              "reload",
+              "range",
+              "speed",
+              "tdps",
+              "total"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "repair",
+        "names": {
+          "en": "Asssist Tools",
+          "ja": "武器データ/アシストツール"
+        },
+        "tables": [
+          {
+            "subCategory": "reverser",
+            "names": {
+              "en": "Reversers",
+              "ja": "リバーサー"
+            },
+            "appendix": "*Assuming mist hits every frame of duration.",
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "radius",
+              "duration",
+              "interval",
+              "dps",
+              "dps2",
+              "total",
+              "total2"
+            ]
+          },
+          {
+            "subCategory": "drone",
+            "names": {
+              "en": "Reverse Drones",
+              "ja": "リバースドローン"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "radius",
+              "interval",
+              "dps",
+              "total"
+            ]
+          },
+          {
+            "subCategory": "booster",
+            "names": {
+              "en": "Limit Boosters",
+              "ja": "リミットブースター"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "boost",
+              "radius",
+              "duration"
+            ]
+          },
+          {
+            "subCategory": "shield",
+            "names": {
+              "en": "Temp Shields",
+              "ja": "ミニッツシールド"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "defense",
+              "radius",
+              "duration"
+            ]
+          },
+          {
+            "subCategory": "rescue",
+            "names": {
+              "en": "Rescue Drones",
+              "ja": "レスキュードローン"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "revive",
+              "radius"
+            ]
+          }
+        ]
+      }
+    ],
+    "winger": [
+      {
+        "category": "short",
+        "names": {
+          "en": "Short-Range",
+          "ja": "近距離"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "ammo",
+          "damage",
+          "interval",
+          "reload",
+          "accuracy",
+          "energy",
+          "range",
+          "speed",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "laser",
+        "names": {
+          "en": "Mid-Rg Lasers",
+          "ja": "中距離-レーザー"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "ammo",
+          "damage",
+          "interval",
+          "reload",
+          "accuracy",
+          "energy",
+          "range",
+          "speed",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "electro",
+        "names": {
+          "en": "Mid-Rg Electroshock",
+          "ja": "中距離-電撃"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "ammo",
+          "damage",
+          "interval",
+          "reload",
+          "accuracy",
+          "energy",
+          "range",
+          "speed",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "particle",
+        "names": {
+          "en": "Particle Cannons",
+          "ja": "中距離-粒子砲"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "damage",
+          "reload",
+          "accuracy",
+          "energy",
+          "range",
+          "speed",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "sniper",
+        "names": {
+          "en": "Sniper Weapons",
+          "ja": "狙撃兵器"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "damage",
+          "reload",
+          "accuracy",
+          "energy",
+          "range",
+          "speed",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "plasma",
+        "names": {
+          "en": "Ranged Attacks",
+          "ja": "範囲攻撃"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "damage",
+          "radius",
+          "reload",
+          "accuracy",
+          "energy",
+          "range",
+          "speed",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "missile",
+        "names": {
+          "en": "Homing Weapons",
+          "ja": "ホーミング兵器"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "damage",
+          "radius",
+          "reload",
+          "energy",
+          "range",
+          "speed",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "special",
+        "names": {
+          "en": "Special Weapons",
+          "ja": "特殊"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "damage",
+          "shots",
+          "duration",
+          "reload",
+          "energy",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      }
+    ]
+  },
   "weapons": [
     {
       "id": "AssultRifle01",
@@ -101,7 +708,8 @@
       "accuracy": 0.005,
       "life": 100,
       "interval": 40,
-      "reload": 240
+      "reload": 240,
+      "piercing": true
     },
     {
       "id": "Weapon004",
@@ -290,7 +898,8 @@
       "burst": 3,
       "burstRate": 16,
       "interval": 80,
-      "reload": 240
+      "reload": 240,
+      "piercing": true
     },
     {
       "id": "Weapon013",
@@ -478,7 +1087,8 @@
       "accuracy": 0.005,
       "life": 30,
       "interval": 30,
-      "reload": 360
+      "reload": 360,
+      "piercing": true
     },
     {
       "id": "Weapon023",
@@ -532,7 +1142,8 @@
       "accuracy": 0.005,
       "life": 30,
       "interval": 50,
-      "reload": 270
+      "reload": 270,
+      "piercing": true
     },
     {
       "id": "Weapon026",
@@ -628,7 +1239,8 @@
       "accuracy": 0.005,
       "life": 25,
       "interval": 40,
-      "reload": 240
+      "reload": 240,
+      "piercing": true
     },
     {
       "id": "Weapon031",
@@ -1090,7 +1702,8 @@
       "reload": 300,
       "secondary": 1,
       "zoom": 8,
-      "accuracy": 0
+      "accuracy": 0,
+      "piercing": true
     },
     {
       "id": "Weapon052",
@@ -1294,7 +1907,8 @@
       "reload": 210,
       "secondary": 1,
       "zoom": 4,
-      "accuracy": 0
+      "accuracy": 0,
+      "piercing": true
     },
     {
       "id": "Weapon060",
@@ -2406,7 +3020,8 @@
       "radius": 5,
       "life": 600,
       "interval": 60,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "hg"
     },
     {
       "id": "Weapon111",
@@ -2425,7 +3040,8 @@
       "life": 600,
       "interval": 120,
       "accuracy": 0,
-      "fuse": 600
+      "fuse": 600,
+      "subCategory": "hg"
     },
     {
       "id": "Weapon112",
@@ -2443,7 +3059,8 @@
       "radius": 10,
       "life": 1200,
       "interval": 60,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "hg"
     },
     {
       "id": "Weapon113",
@@ -2461,7 +3078,8 @@
       "radius": 10,
       "life": 1200,
       "interval": 60,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "hg"
     },
     {
       "id": "Weapon114",
@@ -2479,7 +3097,8 @@
       "radius": 20,
       "life": 1200,
       "interval": 60,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "hg"
     },
     {
       "id": "Weapon115",
@@ -2498,7 +3117,8 @@
       "life": 1800,
       "interval": 120,
       "accuracy": 0,
-      "fuse": 1800
+      "fuse": 1800,
+      "subCategory": "hg"
     },
     {
       "id": "Weapon116",
@@ -2516,7 +3136,8 @@
       "radius": 11,
       "life": 1200,
       "interval": 60,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "hg"
     },
     {
       "id": "Weapon117",
@@ -2535,7 +3156,8 @@
       "life": 300,
       "interval": 120,
       "accuracy": 0,
-      "fuse": 300
+      "fuse": 300,
+      "subCategory": "hg"
     },
     {
       "id": "Weapon118",
@@ -2553,7 +3175,8 @@
       "radius": 13,
       "life": 1200,
       "interval": 60,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "hg"
     },
     {
       "id": "Weapon119",
@@ -2572,7 +3195,8 @@
       "life": 600,
       "interval": 120,
       "accuracy": 0,
-      "fuse": 600
+      "fuse": 600,
+      "subCategory": "hg"
     },
     {
       "id": "Weapon120",
@@ -2591,7 +3215,8 @@
       "life": 600,
       "interval": 120,
       "accuracy": 0,
-      "fuse": 600
+      "fuse": 600,
+      "subCategory": "hg"
     },
     {
       "id": "Weapon121",
@@ -2609,7 +3234,8 @@
       "radius": 25,
       "life": 1200,
       "interval": 60,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "hg"
     },
     {
       "id": "Weapon122",
@@ -2628,7 +3254,8 @@
       "radius": 7,
       "life": 600,
       "interval": 30,
-      "reload": 120
+      "reload": 120,
+      "subCategory": "gl"
     },
     {
       "id": "Weapon123",
@@ -2648,7 +3275,8 @@
       "life": 240,
       "interval": 30,
       "reload": 120,
-      "fuse": 240
+      "fuse": 240,
+      "subCategory": "gl"
     },
     {
       "id": "Weapon124",
@@ -2668,7 +3296,8 @@
       "life": 1200,
       "count": 10,
       "interval": 30,
-      "reload": 300
+      "reload": 300,
+      "subCategory": "gl"
     },
     {
       "id": "Weapon125",
@@ -2687,7 +3316,8 @@
       "radius": 8,
       "life": 600,
       "interval": 30,
-      "reload": 120
+      "reload": 120,
+      "subCategory": "gl"
     },
     {
       "id": "Weapon126",
@@ -2707,7 +3337,8 @@
       "life": 240,
       "interval": 30,
       "reload": 120,
-      "fuse": 240
+      "fuse": 240,
+      "subCategory": "gl"
     },
     {
       "id": "Weapon127",
@@ -2726,7 +3357,8 @@
       "radius": 5,
       "life": 600,
       "interval": 8,
-      "reload": 180
+      "reload": 180,
+      "subCategory": "gl"
     },
     {
       "id": "Weapon128",
@@ -2746,7 +3378,8 @@
       "life": 240,
       "interval": 30,
       "reload": 160,
-      "fuse": 240
+      "fuse": 240,
+      "subCategory": "gl"
     },
     {
       "id": "Weapon129",
@@ -2766,7 +3399,8 @@
       "life": 600,
       "count": 20,
       "reload": 360,
-      "fuse": 600
+      "fuse": 600,
+      "subCategory": "gl"
     },
     {
       "id": "Weapon130",
@@ -2786,7 +3420,8 @@
       "life": 240,
       "count": 20,
       "reload": 360,
-      "fuse": 240
+      "fuse": 240,
+      "subCategory": "gl"
     },
     {
       "id": "Weapon131",
@@ -2805,7 +3440,8 @@
       "life": 600,
       "interval": 30,
       "reload": 180,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "gl"
     },
     {
       "id": "Weapon132",
@@ -2826,7 +3462,8 @@
       "interval": 30,
       "reload": 160,
       "accuracy": 0,
-      "fuse": 240
+      "fuse": 240,
+      "subCategory": "gl"
     },
     {
       "id": "Weapon133",
@@ -2846,7 +3483,8 @@
       "life": 600,
       "count": 20,
       "reload": 360,
-      "fuse": 600
+      "fuse": 600,
+      "subCategory": "gl"
     },
     {
       "id": "Weapon134",
@@ -2866,7 +3504,8 @@
       "count": 3,
       "interval": 30,
       "reload": 240,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "gl"
     },
     {
       "id": "Weapon135",
@@ -2886,7 +3525,8 @@
       "life": 240,
       "count": 20,
       "reload": 360,
-      "fuse": 240
+      "fuse": 240,
+      "subCategory": "gl"
     },
     {
       "id": "Weapon136",
@@ -2906,7 +3546,8 @@
       "life": 1200,
       "count": 25,
       "interval": 30,
-      "reload": 360
+      "reload": 360,
+      "subCategory": "gl"
     },
     {
       "id": "Weapon137",
@@ -2926,7 +3567,8 @@
       "count": 2,
       "interval": 60,
       "reload": 180,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "gl"
     },
     {
       "id": "Weapon138",
@@ -2945,7 +3587,8 @@
       "life": 240,
       "reload": 180,
       "accuracy": 0,
-      "fuse": 240
+      "fuse": 240,
+      "subCategory": "gl"
     },
     {
       "id": "Weapon139",
@@ -2964,7 +3607,8 @@
       "life": 600,
       "interval": 60,
       "reload": 300,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "gl"
     },
     {
       "id": "Weapon140",
@@ -2984,7 +3628,8 @@
       "life": 1200,
       "count": 30,
       "interval": 30,
-      "reload": 360
+      "reload": 360,
+      "subCategory": "gl"
     },
     {
       "id": "Weapon141",
@@ -3003,7 +3648,8 @@
       "life": 180,
       "count": 6,
       "interval": 30,
-      "reload": 180
+      "reload": 180,
+      "subCategory": "acid"
     },
     {
       "id": "Weapon142",
@@ -3021,7 +3667,8 @@
       "accuracy": 0.02,
       "life": 180,
       "interval": 1,
-      "reload": 180
+      "reload": 180,
+      "subCategory": "acid"
     },
     {
       "id": "Weapon143",
@@ -3040,7 +3687,8 @@
       "life": 60,
       "count": 40,
       "interval": 120,
-      "reload": 300
+      "reload": 300,
+      "subCategory": "acid"
     },
     {
       "id": "Weapon144",
@@ -3059,7 +3707,8 @@
       "life": 180,
       "count": 20,
       "interval": 30,
-      "reload": 180
+      "reload": 180,
+      "subCategory": "acid"
     },
     {
       "id": "Weapon145",
@@ -3077,7 +3726,8 @@
       "accuracy": 0.02,
       "life": 360,
       "interval": 1,
-      "reload": 180
+      "reload": 180,
+      "subCategory": "acid"
     },
     {
       "id": "Weapon146",
@@ -3098,7 +3748,8 @@
       "accuracy": 0,
       "piercing": true,
       "duration": 4,
-      "continous": true
+      "continous": true,
+      "subCategory": "flame"
     },
     {
       "id": "Weapon147",
@@ -3119,7 +3770,8 @@
       "reload": 180,
       "piercing": true,
       "duration": 60,
-      "continous": true
+      "continous": true,
+      "subCategory": "flame"
     },
     {
       "id": "Weapon148",
@@ -3140,7 +3792,8 @@
       "reload": 180,
       "piercing": true,
       "duration": 30,
-      "continous": true
+      "continous": true,
+      "subCategory": "flame"
     },
     {
       "id": "Weapon149",
@@ -3161,7 +3814,8 @@
       "accuracy": 0,
       "piercing": true,
       "duration": 30,
-      "continous": true
+      "continous": true,
+      "subCategory": "flame"
     },
     {
       "id": "Weapon150",
@@ -3182,7 +3836,8 @@
       "accuracy": 0,
       "piercing": true,
       "duration": 30,
-      "continous": true
+      "continous": true,
+      "subCategory": "flame"
     },
     {
       "id": "Weapon151",
@@ -3202,7 +3857,8 @@
       "interval": 40,
       "reload": 600,
       "secondary": 2,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "bomb"
     },
     {
       "id": "Weapon152",
@@ -3222,7 +3878,8 @@
       "interval": 40,
       "reload": 600,
       "secondary": 2,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "bomb"
     },
     {
       "id": "Weapon153",
@@ -3242,7 +3899,8 @@
       "interval": 20,
       "reload": 900,
       "secondary": 2,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "bomb"
     },
     {
       "id": "Weapon154",
@@ -3262,7 +3920,8 @@
       "interval": 40,
       "reload": 600,
       "secondary": 2,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "bomb"
     },
     {
       "id": "Weapon155",
@@ -3282,7 +3941,8 @@
       "interval": 40,
       "reload": 600,
       "secondary": 2,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "bomb"
     },
     {
       "id": "Weapon156",
@@ -3302,7 +3962,8 @@
       "interval": 20,
       "reload": 1800,
       "secondary": 2,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "mine"
     },
     {
       "id": "Weapon157",
@@ -3322,7 +3983,8 @@
       "interval": 20,
       "reload": 1800,
       "secondary": 2,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "mine"
     },
     {
       "id": "Weapon158",
@@ -3342,7 +4004,8 @@
       "interval": 20,
       "reload": 1800,
       "secondary": 2,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "mine"
     },
     {
       "id": "Weapon159",
@@ -3362,7 +4025,8 @@
       "interval": 20,
       "reload": 1800,
       "secondary": 2,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "mine"
     },
     {
       "id": "BonusWeapon03",
@@ -3382,7 +4046,8 @@
       "interval": 20,
       "reload": 1800,
       "secondary": 2,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "mine"
     },
     {
       "id": "Weapon160",
@@ -3402,7 +4067,8 @@
       "interval": 20,
       "reload": 1800,
       "secondary": 2,
-      "accuracy": 0
+      "accuracy": 0,
+      "subCategory": "mine"
     },
     {
       "id": "Weapon161",
@@ -3425,7 +4091,8 @@
       "searchRange": 150,
       "shots": 150,
       "shotInterval": 8,
-      "turnRate": 10
+      "turnRate": 10,
+      "subCategory": "turret"
     },
     {
       "id": "Weapon162",
@@ -3448,7 +4115,8 @@
       "searchRange": 150,
       "shots": 400,
       "shotInterval": 4,
-      "turnRate": 20
+      "turnRate": 20,
+      "subCategory": "turret"
     },
     {
       "id": "Weapon163",
@@ -3471,7 +4139,8 @@
       "searchRange": 800,
       "shots": 20,
       "shotInterval": 120,
-      "turnRate": 10
+      "turnRate": 10,
+      "subCategory": "turret"
     },
     {
       "id": "BonusWeapon02",
@@ -3495,7 +4164,8 @@
       "searchRange": 150,
       "shots": 15,
       "shotInterval": 120,
-      "turnRate": 0.10000000149011612
+      "turnRate": 0.10000000149011612,
+      "subCategory": "turret"
     },
     {
       "id": "Weapon164",
@@ -3518,7 +4188,8 @@
       "searchRange": 150,
       "shots": 400,
       "shotInterval": 4,
-      "turnRate": 20
+      "turnRate": 20,
+      "subCategory": "turret"
     },
     {
       "id": "Weapon165",
@@ -3541,7 +4212,8 @@
       "searchRange": 150,
       "shots": 100,
       "shotInterval": 16,
-      "turnRate": 10
+      "turnRate": 10,
+      "subCategory": "turret"
     },
     {
       "id": "Weapon166",
@@ -3565,7 +4237,8 @@
       "searchRange": 150,
       "shots": 30,
       "shotInterval": 60,
-      "turnRate": 1
+      "turnRate": 1,
+      "subCategory": "turret"
     },
     {
       "id": "Weapon167",
@@ -3588,7 +4261,8 @@
       "searchRange": 150,
       "shots": 375,
       "shotInterval": 4,
-      "turnRate": 20
+      "turnRate": 20,
+      "subCategory": "turret"
     },
     {
       "id": "Weapon168",
@@ -3607,7 +4281,8 @@
       "radius": 1,
       "life": 600,
       "count": 10,
-      "interval": 120
+      "interval": 120,
+      "subCategory": "firecracker"
     },
     {
       "id": "Weapon169",
@@ -3626,7 +4301,8 @@
       "radius": 1,
       "life": 600,
       "count": 30,
-      "interval": 120
+      "interval": 120,
+      "subCategory": "firecracker"
     },
     {
       "id": "Weapon170",
@@ -3645,7 +4321,8 @@
       "radius": 2,
       "life": 600,
       "count": 30,
-      "interval": 120
+      "interval": 120,
+      "subCategory": "firecracker"
     },
     {
       "id": "Weapon171",
@@ -3664,7 +4341,8 @@
       "radius": 1,
       "life": 600,
       "count": 60,
-      "interval": 120
+      "interval": 120,
+      "subCategory": "firecracker"
     },
     {
       "id": "Weapon172",
@@ -3683,7 +4361,8 @@
       "radius": 4,
       "life": 600,
       "count": 30,
-      "interval": 120
+      "interval": 120,
+      "subCategory": "firecracker"
     },
     {
       "id": "Weapon173",
@@ -3701,7 +4380,8 @@
       "accuracy": 0.05,
       "life": 110,
       "interval": 5,
-      "reload": 90
+      "reload": 90,
+      "subCategory": "bound"
     },
     {
       "id": "Weapon174",
@@ -3719,7 +4399,8 @@
       "accuracy": 0.2,
       "life": 120,
       "interval": 2,
-      "reload": 150
+      "reload": 150,
+      "subCategory": "bound"
     },
     {
       "id": "Weapon175",
@@ -3737,7 +4418,8 @@
       "accuracy": 0.03,
       "life": 130,
       "interval": 4,
-      "reload": 90
+      "reload": 90,
+      "subCategory": "bound"
     },
     {
       "id": "Weapon176",
@@ -3755,7 +4437,8 @@
       "accuracy": 0.05,
       "life": 900,
       "interval": 5,
-      "reload": 180
+      "reload": 180,
+      "subCategory": "bound"
     },
     {
       "id": "BonusWeapon04",
@@ -3774,7 +4457,8 @@
       "life": 180,
       "count": 50,
       "interval": 60,
-      "reload": 360
+      "reload": 360,
+      "subCategory": "bound"
     },
     {
       "id": "FirstBonusWeapon01",
@@ -3793,7 +4477,8 @@
       "count": 3,
       "interval": 60,
       "reload": 180,
-      "duration": 420
+      "duration": 420,
+      "subCategory": "cc"
     },
     {
       "id": "Weapon177",
@@ -3811,7 +4496,8 @@
       "accuracy": 0.01,
       "radius": 16,
       "life": 2400,
-      "reload": 420
+      "reload": 420,
+      "subCategory": "cc"
     },
     {
       "id": "Weapon178",
@@ -3831,7 +4517,8 @@
       "reload": 300,
       "secondary": 1,
       "zoom": 4,
-      "duration": 1200
+      "duration": 1200,
+      "subCategory": "cc"
     },
     {
       "id": "Weapon179",
@@ -3851,7 +4538,8 @@
       "count": 5,
       "interval": 30,
       "reload": 300,
-      "duration": 720
+      "duration": 720,
+      "subCategory": "cc"
     },
     {
       "id": "Weapon180",
@@ -3870,7 +4558,8 @@
       "life": 20,
       "interval": 4,
       "reload": 240,
-      "duration": 75
+      "duration": 75,
+      "subCategory": "cc"
     },
     {
       "id": "Weapon181",
@@ -3890,7 +4579,8 @@
       "reload": 460,
       "secondary": 1,
       "zoom": 6,
-      "duration": 1500
+      "duration": 1500,
+      "subCategory": "cc"
     },
     {
       "id": "Weapon182",
@@ -3911,7 +4601,8 @@
       "reload": 480,
       "secondary": 1,
       "zoom": 4,
-      "duration": 600
+      "duration": 600,
+      "subCategory": "cc"
     },
     {
       "id": "Weapon183",
@@ -3931,7 +4622,8 @@
       "life": 2400,
       "count": 5,
       "interval": 1,
-      "reload": 420
+      "reload": 420,
+      "subCategory": "cc"
     },
     {
       "id": "Weapon184",
@@ -3950,7 +4642,8 @@
       "count": 10,
       "interval": 16,
       "reload": 480,
-      "duration": 240
+      "duration": 240,
+      "subCategory": "cc"
     },
     {
       "id": "Weapon185",
@@ -3969,7 +4662,8 @@
       "radius": 50,
       "life": 2400,
       "interval": 120,
-      "reload": 420
+      "reload": 420,
+      "subCategory": "cc"
     },
     {
       "id": "Weapon186",
@@ -3990,7 +4684,8 @@
       "reload": 900,
       "secondary": 1,
       "zoom": 6,
-      "duration": 420
+      "duration": 420,
+      "subCategory": "cc"
     },
     {
       "id": "Weapon187",
@@ -4010,7 +4705,8 @@
       "count": 8,
       "interval": 60,
       "reload": 360,
-      "duration": 480
+      "duration": 480,
+      "subCategory": "cc"
     },
     {
       "id": "Weapon188",
@@ -4030,7 +4726,8 @@
       "life": 2400,
       "count": 5,
       "interval": 1,
-      "reload": 420
+      "reload": 420,
+      "subCategory": "cc"
     },
     {
       "id": "Weapon189",
@@ -4049,7 +4746,8 @@
       "count": 10,
       "interval": 16,
       "reload": 420,
-      "duration": 120
+      "duration": 120,
+      "subCategory": "cc"
     },
     {
       "id": "Weapon190",
@@ -4069,7 +4767,8 @@
       "reload": 300,
       "secondary": 1,
       "zoom": 5,
-      "duration": 1800
+      "duration": 1800,
+      "subCategory": "cc"
     },
     {
       "id": "Weapon191",
@@ -4088,7 +4787,8 @@
       "life": 20,
       "interval": 3,
       "reload": 460,
-      "duration": 120
+      "duration": 120,
+      "subCategory": "cc"
     },
     {
       "id": "Repair01",
@@ -4097,6 +4797,7 @@
       },
       "level": 1,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "RepairAmmo01",
       "ammo": 80,
@@ -4105,7 +4806,11 @@
       "accuracy": 0.1,
       "life": 20,
       "interval": 12,
-      "reload": -1
+      "reload": -1,
+      "piercing": true,
+      "duration": 20,
+      "continous": true,
+      "subCategory": "reverser"
     },
     {
       "id": "Repair02",
@@ -4114,6 +4819,7 @@
       },
       "level": 7,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "RepairAmmo01",
       "ammo": 5,
@@ -4122,7 +4828,11 @@
       "accuracy": 0.1,
       "life": 3600,
       "interval": 1800,
-      "reload": -1
+      "reload": -1,
+      "piercing": true,
+      "duration": 3600,
+      "continous": true,
+      "subCategory": "reverser"
     },
     {
       "id": "Repair03",
@@ -4131,6 +4841,7 @@
       },
       "level": 12,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "RepairAmmo02",
       "ammo": 40,
@@ -4142,7 +4853,8 @@
       "interval": 60,
       "reload": -1,
       "secondary": 1,
-      "zoom": 8
+      "zoom": 8,
+      "subCategory": "reverser"
     },
     {
       "id": "Repair04",
@@ -4151,6 +4863,7 @@
       },
       "level": 20,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "RepairAmmo01",
       "ammo": 4,
@@ -4159,7 +4872,11 @@
       "accuracy": 0.1,
       "life": 3600,
       "interval": 1800,
-      "reload": -1
+      "reload": -1,
+      "piercing": true,
+      "duration": 3600,
+      "continous": true,
+      "subCategory": "reverser"
     },
     {
       "id": "Repair05",
@@ -4168,6 +4885,7 @@
       },
       "level": 28,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "RepairAmmo01",
       "ammo": 160,
@@ -4176,7 +4894,11 @@
       "accuracy": 0.1,
       "life": 20,
       "interval": 12,
-      "reload": -1
+      "reload": -1,
+      "piercing": true,
+      "duration": 20,
+      "continous": true,
+      "subCategory": "reverser"
     },
     {
       "id": "Repair06",
@@ -4185,6 +4907,7 @@
       },
       "level": 35,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "RepairAmmo02",
       "ammo": 5,
@@ -4196,7 +4919,8 @@
       "interval": 60,
       "reload": -1,
       "secondary": 1,
-      "zoom": 8
+      "zoom": 8,
+      "subCategory": "reverser"
     },
     {
       "id": "Repair07",
@@ -4205,6 +4929,7 @@
       },
       "level": 42,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "RepairAmmo01",
       "ammo": 110,
@@ -4213,7 +4938,11 @@
       "accuracy": 0.1,
       "life": 20,
       "interval": 12,
-      "reload": -1
+      "reload": -1,
+      "piercing": true,
+      "duration": 20,
+      "continous": true,
+      "subCategory": "reverser"
     },
     {
       "id": "Repair08",
@@ -4222,6 +4951,7 @@
       },
       "level": 47,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "RepairAmmo02",
       "ammo": 5,
@@ -4234,7 +4964,8 @@
       "interval": 60,
       "reload": -1,
       "secondary": 1,
-      "zoom": 8
+      "zoom": 8,
+      "subCategory": "reverser"
     },
     {
       "id": "Repair09",
@@ -4243,6 +4974,7 @@
       },
       "level": 55,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "RepairAmmo02",
       "ammo": 8,
@@ -4254,7 +4986,8 @@
       "interval": 60,
       "reload": -1,
       "secondary": 1,
-      "zoom": 6
+      "zoom": 6,
+      "subCategory": "reverser"
     },
     {
       "id": "Repair10",
@@ -4263,6 +4996,7 @@
       },
       "level": 62,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "RepairAmmo01",
       "ammo": 5,
@@ -4271,7 +5005,11 @@
       "accuracy": 0.1,
       "life": 3600,
       "interval": 1800,
-      "reload": -1
+      "reload": -1,
+      "piercing": true,
+      "duration": 3600,
+      "continous": true,
+      "subCategory": "reverser"
     },
     {
       "id": "Repair11",
@@ -4280,6 +5018,7 @@
       },
       "level": 70,
       "character": "ranger",
+      "category": "repair",
       "odds": 60,
       "type": "RepairAmmo01",
       "ammo": 100,
@@ -4288,7 +5027,11 @@
       "accuracy": 0.1,
       "life": 20,
       "interval": 12,
-      "reload": -1
+      "reload": -1,
+      "piercing": true,
+      "duration": 20,
+      "continous": true,
+      "subCategory": "reverser"
     },
     {
       "id": "Repair12",
@@ -4297,6 +5040,7 @@
       },
       "level": 77,
       "character": "ranger",
+      "category": "repair",
       "odds": 40,
       "type": "RepairAmmo02",
       "ammo": 10,
@@ -4308,7 +5052,8 @@
       "interval": 60,
       "reload": -1,
       "secondary": 1,
-      "zoom": 6
+      "zoom": 6,
+      "subCategory": "reverser"
     },
     {
       "id": "Repair13",
@@ -4317,6 +5062,7 @@
       },
       "level": 82,
       "character": "ranger",
+      "category": "repair",
       "odds": 20,
       "type": "RepairAmmo01",
       "ammo": 6,
@@ -4325,7 +5071,11 @@
       "accuracy": 0.1,
       "life": 3600,
       "interval": 1800,
-      "reload": -1
+      "reload": -1,
+      "piercing": true,
+      "duration": 3600,
+      "continous": true,
+      "subCategory": "reverser"
     },
     {
       "id": "FirstBonusWeapon03",
@@ -4334,6 +5084,7 @@
       },
       "level": 3,
       "character": "ranger",
+      "category": "repair",
       "odds": 0,
       "type": "MissileAmmo01",
       "ammo": 8,
@@ -4345,7 +5096,9 @@
       "interval": 120,
       "reload": -1,
       "secondary": 1,
-      "zoom": 6
+      "zoom": 6,
+      "supportType": "drone",
+      "subCategory": "drone"
     },
     {
       "id": "Weapon192",
@@ -4354,6 +5107,7 @@
       },
       "level": 37,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "MissileAmmo01",
       "ammo": 12,
@@ -4366,7 +5120,9 @@
       "interval": 120,
       "reload": -1,
       "secondary": 1,
-      "zoom": 6
+      "zoom": 6,
+      "supportType": "drone",
+      "subCategory": "drone"
     },
     {
       "id": "Weapon193",
@@ -4375,6 +5131,7 @@
       },
       "level": 50,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "MissileAmmo01",
       "ammo": 8,
@@ -4386,7 +5143,9 @@
       "interval": 120,
       "reload": -1,
       "secondary": 1,
-      "zoom": 6
+      "zoom": 6,
+      "supportType": "drone",
+      "subCategory": "drone"
     },
     {
       "id": "Weapon194",
@@ -4395,6 +5154,7 @@
       },
       "level": 87,
       "character": "ranger",
+      "category": "repair",
       "odds": 50,
       "type": "MissileAmmo01",
       "ammo": 8,
@@ -4407,7 +5167,9 @@
       "interval": 120,
       "reload": -1,
       "secondary": 1,
-      "zoom": 6
+      "zoom": 6,
+      "supportType": "drone",
+      "subCategory": "drone"
     },
     {
       "id": "FirstBonusWeapon04",
@@ -4416,16 +5178,20 @@
       },
       "level": 3,
       "character": "ranger",
+      "category": "repair",
       "odds": 0,
       "type": "GrenadeAmmo01",
       "ammo": 4,
-      "damage": 60,
+      "damage": 1.4,
       "speed": 0.7,
       "radius": 5,
       "life": 1200,
       "interval": 60,
       "reload": -1,
-      "accuracy": 0
+      "accuracy": 0,
+      "supportType": "booster",
+      "duration": 3600,
+      "subCategory": "booster"
     },
     {
       "id": "Weapon195",
@@ -4434,16 +5200,20 @@
       },
       "level": 11,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "GrenadeAmmo01",
       "ammo": 4,
-      "damage": 70,
+      "damage": 1.4,
       "speed": 0.7,
       "radius": 5,
       "life": 1200,
       "interval": 60,
       "reload": -1,
-      "accuracy": 0
+      "accuracy": 0,
+      "supportType": "booster",
+      "duration": 4200,
+      "subCategory": "booster"
     },
     {
       "id": "Weapon196",
@@ -4452,16 +5222,20 @@
       },
       "level": 36,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "GrenadeAmmo01",
       "ammo": 5,
-      "damage": 80,
+      "damage": 1.5,
       "speed": 0.7,
       "radius": 5,
       "life": 1200,
       "interval": 60,
       "reload": -1,
-      "accuracy": 0
+      "accuracy": 0,
+      "supportType": "booster",
+      "duration": 4800,
+      "subCategory": "booster"
     },
     {
       "id": "Weapon197",
@@ -4470,16 +5244,20 @@
       },
       "level": 61,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "GrenadeAmmo01",
       "ammo": 5,
-      "damage": 100,
+      "damage": 1.6,
       "speed": 0.7,
       "radius": 5,
       "life": 1200,
       "interval": 60,
       "reload": -1,
-      "accuracy": 0
+      "accuracy": 0,
+      "supportType": "booster",
+      "duration": 6000,
+      "subCategory": "booster"
     },
     {
       "id": "Weapon198",
@@ -4488,16 +5266,20 @@
       },
       "level": 86,
       "character": "ranger",
+      "category": "repair",
       "odds": 40,
       "type": "GrenadeAmmo01",
       "ammo": 6,
-      "damage": 120,
+      "damage": 1.6,
       "speed": 0.7,
       "radius": 5,
       "life": 1200,
       "interval": 60,
       "reload": -1,
-      "accuracy": 0
+      "accuracy": 0,
+      "supportType": "booster",
+      "duration": 7200,
+      "subCategory": "booster"
     },
     {
       "id": "Weapon199",
@@ -4506,16 +5288,20 @@
       },
       "level": 17,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "GrenadeAmmo01",
       "ammo": 4,
-      "damage": 90,
       "speed": 0.7,
       "radius": 10,
       "life": 1200,
       "interval": 60,
       "reload": -1,
-      "accuracy": 0
+      "accuracy": 0,
+      "supportType": "shield",
+      "duration": 5400,
+      "defense": 35,
+      "subCategory": "shield"
     },
     {
       "id": "Weapon200",
@@ -4524,16 +5310,20 @@
       },
       "level": 42,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "GrenadeAmmo01",
       "ammo": 4,
-      "damage": 100,
       "speed": 0.7,
       "radius": 20,
       "life": 1200,
       "interval": 60,
       "reload": -1,
-      "accuracy": 0
+      "accuracy": 0,
+      "supportType": "shield",
+      "duration": 6000,
+      "defense": 40,
+      "subCategory": "shield"
     },
     {
       "id": "Weapon201",
@@ -4542,16 +5332,20 @@
       },
       "level": 67,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "GrenadeAmmo01",
       "ammo": 5,
-      "damage": 100,
       "speed": 0.7,
       "radius": 30,
       "life": 1200,
       "interval": 60,
       "reload": -1,
-      "accuracy": 0
+      "accuracy": 0,
+      "supportType": "shield",
+      "duration": 6000,
+      "defense": 45,
+      "subCategory": "shield"
     },
     {
       "id": "Weapon202",
@@ -4560,16 +5354,20 @@
       },
       "level": 92,
       "character": "ranger",
+      "category": "repair",
       "odds": 40,
       "type": "GrenadeAmmo01",
       "ammo": 5,
-      "damage": 100,
       "speed": 0.7,
       "radius": 40,
       "life": 1200,
       "interval": 60,
       "reload": -1,
-      "accuracy": 0
+      "accuracy": 0,
+      "supportType": "shield",
+      "duration": 6000,
+      "defense": 50,
+      "subCategory": "shield"
     },
     {
       "id": "Weapon203",
@@ -4578,16 +5376,19 @@
       },
       "level": 19,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "MissileAmmo01",
       "ammo": 4,
-      "damage": 0.3,
       "speed": 0.1,
       "radius": 4,
       "life": 2400,
       "interval": 180,
       "reload": -1,
-      "accuracy": 0
+      "accuracy": 0,
+      "revive": 35,
+      "supportType": "rescue",
+      "subCategory": "rescue"
     },
     {
       "id": "Weapon204",
@@ -4596,16 +5397,19 @@
       },
       "level": 44,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "MissileAmmo01",
       "ammo": 5,
-      "damage": 0.4,
       "speed": 0.1,
       "radius": 4,
       "life": 2400,
       "interval": 180,
       "reload": -1,
-      "accuracy": 0
+      "accuracy": 0,
+      "revive": 40,
+      "supportType": "rescue",
+      "subCategory": "rescue"
     },
     {
       "id": "Weapon205",
@@ -4614,16 +5418,19 @@
       },
       "level": 69,
       "character": "ranger",
+      "category": "repair",
       "odds": 100,
       "type": "MissileAmmo01",
       "ammo": 6,
-      "damage": 0.4,
       "speed": 0.1,
       "radius": 5,
       "life": 2400,
       "interval": 180,
       "reload": -1,
-      "accuracy": 0
+      "accuracy": 0,
+      "revive": 45,
+      "supportType": "rescue",
+      "subCategory": "rescue"
     },
     {
       "id": "Weapon206",
@@ -4632,16 +5439,19 @@
       },
       "level": 94,
       "character": "ranger",
+      "category": "repair",
       "odds": 50,
       "type": "MissileAmmo01",
       "ammo": 7,
-      "damage": 0.5,
       "speed": 0.1,
       "radius": 5,
       "life": 2400,
       "interval": 180,
       "reload": -1,
-      "accuracy": 0
+      "accuracy": 0,
+      "revive": 50,
+      "supportType": "rescue",
+      "subCategory": "rescue"
     },
     {
       "id": "EnergyRapier01",
@@ -7686,7 +8496,9 @@
       "energy": 45,
       "life": 1200,
       "reload": 3600,
-      "accuracy": 0
+      "accuracy": 0,
+      "shots": 1800,
+      "duration": 1800
     },
     {
       "id": "BonusEnergyWeapon01",
@@ -7705,7 +8517,9 @@
       "energy": 45,
       "life": 1200,
       "reload": 3600,
-      "accuracy": 0
+      "accuracy": 0,
+      "shots": 600,
+      "duration": 1200
     },
     {
       "id": "energyclusterlightning01",
@@ -7724,7 +8538,9 @@
       "radius": 10,
       "energy": 45,
       "life": 1200,
-      "reload": 3600
+      "reload": 3600,
+      "shots": 500,
+      "duration": 1500
     },
     {
       "id": "energyclusterbeam02",
@@ -7743,7 +8559,9 @@
       "energy": 45,
       "life": 1200,
       "reload": 3600,
-      "accuracy": 0
+      "accuracy": 0,
+      "shots": 1800,
+      "duration": 1800
     },
     {
       "id": "energyclusterbeam03",
@@ -7762,7 +8580,9 @@
       "energy": 45,
       "life": 1200,
       "reload": 3600,
-      "accuracy": 0
+      "accuracy": 0,
+      "shots": 1800,
+      "duration": 1800
     },
     {
       "id": "energyclusterlaser01",
@@ -7781,7 +8601,9 @@
       "energy": 45,
       "life": 1200,
       "reload": 3600,
-      "accuracy": 0
+      "accuracy": 0,
+      "shots": 1800,
+      "duration": 1800
     },
     {
       "id": "energyclusterbeam04",
@@ -7800,7 +8622,9 @@
       "energy": 45,
       "life": 1200,
       "reload": 3600,
-      "accuracy": 0
+      "accuracy": 0,
+      "shots": 1800,
+      "duration": 1800
     },
     {
       "id": "energyclusterlaser015",
@@ -7819,7 +8643,9 @@
       "radius": 10,
       "energy": 45,
       "life": 1200,
-      "reload": 3600
+      "reload": 3600,
+      "shots": 1800,
+      "duration": 1800
     },
     {
       "id": "BonusEnergyWeapon03",
@@ -7839,7 +8665,9 @@
       "energy": 45,
       "life": 1200,
       "count": 10,
-      "reload": 3600
+      "reload": 3600,
+      "shots": 600,
+      "duration": 1200
     },
     {
       "id": "energyclusterlightning02",
@@ -7858,7 +8686,9 @@
       "radius": 10,
       "energy": 45,
       "life": 1200,
-      "reload": 3600
+      "reload": 3600,
+      "shots": 500,
+      "duration": 1500
     },
     {
       "id": "energyclusterlaser03",
@@ -7878,7 +8708,9 @@
       "energy": 45,
       "life": 1200,
       "count": 10,
-      "reload": 3600
+      "reload": 3600,
+      "shots": 600,
+      "duration": 1200
     },
     {
       "id": "energyclusterlightning41",
@@ -7898,7 +8730,9 @@
       "energy": 240,
       "life": 1200,
       "count": 2,
-      "reload": 4800
+      "reload": 4800,
+      "shots": 1000,
+      "duration": 1000
     },
     {
       "id": "energyclusterlaser04",
@@ -7918,7 +8752,9 @@
       "life": 1200,
       "count": 10,
       "reload": 3600,
-      "accuracy": 0
+      "accuracy": 0,
+      "shots": 600,
+      "duration": 1200
     },
     {
       "id": "BonusEnergyWeapon05",
@@ -7937,7 +8773,8 @@
       "energy": 300,
       "life": 1200,
       "reload": 2400,
-      "accuracy": 0
+      "accuracy": 0,
+      "shots": 5
     }
   ],
   "modes": [

@@ -1064,6 +1064,137 @@
             ]
           }
         ]
+      },
+      {
+        "category": "tank",
+        "names": {
+          "en": "Tanks",
+          "ja": "戦闘車両"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "reload",
+          "hp",
+          "ammo",
+          "piercing",
+          "damage",
+          "radius",
+          "interval",
+          "accuracy",
+          "range",
+          "speed",
+          "dps",
+          "total"
+        ]
+      },
+      {
+        "category": "ground",
+        "names": {
+          "en": "Ground Vehicles",
+          "ja": "車両"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "reload",
+          "hp",
+          "ammo",
+          "piercing",
+          "damage",
+          "radius",
+          "interval",
+          "accuracy",
+          "lockTime",
+          "range",
+          "speed",
+          "dps",
+          "total"
+        ]
+      },
+      {
+        "category": "heli",
+        "names": {
+          "en": "Helicopters",
+          "ja": "ヘリ"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "reload",
+          "hp",
+          "fuel",
+          "fuelUse",
+          "ammo",
+          "piercing",
+          "damage",
+          "radius",
+          "interval",
+          "accuracy",
+          "lockTime",
+          "range",
+          "speed",
+          "dps",
+          "total"
+        ]
+      },
+      {
+        "category": "mech",
+        "names": {
+          "en": "Powered Exoskeletons",
+          "ja": "バトルマシン"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "reload",
+          "hp",
+          "ammo",
+          "piercing",
+          "damage",
+          "radius",
+          "interval",
+          "accuracy",
+          "lockTime",
+          "range",
+          "speed",
+          "dps",
+          "total"
+        ]
+      },
+      {
+        "category": "super",
+        "names": {
+          "en": "Special Vehicles",
+          "ja": "特殊兵器"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "reload",
+          "hp",
+          "ammo",
+          "piercing",
+          "damage",
+          "radius",
+          "interval",
+          "accuracy",
+          "lockTime",
+          "range",
+          "speed",
+          "dps",
+          "total"
+        ]
       }
     ]
   },
@@ -19331,7 +19462,10 @@
       "hp": 450,
       "weapons": [
         {
-          "name": "Force Saber (Left)",
+          "names": {
+            "ja": "フォースセイバー（左）",
+            "en": "Force Saber (Left)"
+          },
           "type": "LaserBullet01",
           "ammo": 5000,
           "weapon": "Weapon_VehicleShoot",
@@ -19345,7 +19479,10 @@
           "accuracy": 0
         },
         {
-          "name": "Force Saber (Right)",
+          "names": {
+            "ja": "フォースセイバー（右）",
+            "en": "Force Saber (Right)"
+          },
           "type": "LaserBullet01",
           "ammo": 5000,
           "weapon": "Weapon_VehicleShoot",
@@ -19396,7 +19533,10 @@
       "hp": 330,
       "weapons": [
         {
-          "name": "Light Machine Gun (Left)",
+          "names": {
+            "ja": "軽機関銃（左）",
+            "en": "Light Machine Gun (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 1200,
           "weapon": "Weapon_VehicleShoot",
@@ -19409,7 +19549,10 @@
           "interval": 4
         },
         {
-          "name": "Light Machine Gun (Right)",
+          "names": {
+            "ja": "軽機関銃（右）",
+            "en": "Light Machine Gun (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 1200,
           "weapon": "Weapon_VehicleShoot",
@@ -19459,7 +19602,10 @@
       "hp": 960,
       "weapons": [
         {
-          "name": "Light Machine Gun (Left)",
+          "names": {
+            "ja": "軽機関銃（左）",
+            "en": "Light Machine Gun (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 1200,
           "weapon": "Weapon_VehicleShoot",
@@ -19472,7 +19618,10 @@
           "interval": 4
         },
         {
-          "name": "Light Machine Gun (Right)",
+          "names": {
+            "ja": "軽機関銃（右）",
+            "en": "Light Machine Gun (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 1200,
           "weapon": "Weapon_VehicleShoot",
@@ -19522,7 +19671,10 @@
       "hp": 540,
       "weapons": [
         {
-          "name": "Light Machine Gun (Left)",
+          "names": {
+            "ja": "軽機関銃（左）",
+            "en": "Light Machine Gun (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 1200,
           "weapon": "Weapon_VehicleShoot",
@@ -19535,7 +19687,10 @@
           "interval": 4
         },
         {
-          "name": "Light Machine Gun (Right)",
+          "names": {
+            "ja": "軽機関銃（右）",
+            "en": "Light Machine Gun (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 1200,
           "weapon": "Weapon_VehicleShoot",
@@ -19585,7 +19740,10 @@
       "hp": 1500,
       "weapons": [
         {
-          "name": "Light Machine Gun (Left)",
+          "names": {
+            "ja": "軽機関銃（左）",
+            "en": "Light Machine Gun (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 1200,
           "weapon": "Weapon_VehicleShoot",
@@ -19598,7 +19756,10 @@
           "interval": 4
         },
         {
-          "name": "Light Machine Gun (Right)",
+          "names": {
+            "ja": "軽機関銃（右）",
+            "en": "Light Machine Gun (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 1200,
           "weapon": "Weapon_VehicleShoot",
@@ -19648,7 +19809,10 @@
       "hp": 3150,
       "weapons": [
         {
-          "name": "Small Missile (Left)",
+          "names": {
+            "ja": "小型ミサイル（左）",
+            "en": "Small Missile (Left)"
+          },
           "type": "MissileBullet01",
           "ammo": 12,
           "weapon": "Weapon_VehicleShoot",
@@ -19666,7 +19830,10 @@
           "accuracy": 0
         },
         {
-          "name": "Small Missile (Right)",
+          "names": {
+            "ja": "小型ミサイル（右）",
+            "en": "Small Missile (Right)"
+          },
           "type": "MissileBullet01",
           "ammo": 12,
           "weapon": "Weapon_VehicleShoot",
@@ -19721,7 +19888,10 @@
       "hp": 3150,
       "weapons": [
         {
-          "name": "Light Machine Gun (Left)",
+          "names": {
+            "ja": "軽機関銃（左）",
+            "en": "Light Machine Gun (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 1200,
           "weapon": "Weapon_VehicleShoot",
@@ -19734,7 +19904,10 @@
           "interval": 4
         },
         {
-          "name": "Light Machine Gun (Right)",
+          "names": {
+            "ja": "軽機関銃（右）",
+            "en": "Light Machine Gun (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 1200,
           "weapon": "Weapon_VehicleShoot",
@@ -19784,7 +19957,10 @@
       "hp": 4500,
       "weapons": [
         {
-          "name": "Light Machine Gun (Left)",
+          "names": {
+            "ja": "軽機関銃（左）",
+            "en": "Light Machine Gun (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 1200,
           "weapon": "Weapon_VehicleShoot",
@@ -19797,7 +19973,10 @@
           "interval": 4
         },
         {
-          "name": "Light Machine Gun (Right)",
+          "names": {
+            "ja": "軽機関銃（右）",
+            "en": "Light Machine Gun (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 1200,
           "weapon": "Weapon_VehicleShoot",
@@ -19847,7 +20026,10 @@
       "hp": 6600,
       "weapons": [
         {
-          "name": "Light Machine Gun (Left)",
+          "names": {
+            "ja": "軽機関銃（左）",
+            "en": "Light Machine Gun (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 1200,
           "weapon": "Weapon_VehicleShoot",
@@ -19860,7 +20042,10 @@
           "interval": 4
         },
         {
-          "name": "Light Machine Gun (Right)",
+          "names": {
+            "ja": "軽機関銃（右）",
+            "en": "Light Machine Gun (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 1200,
           "weapon": "Weapon_VehicleShoot",
@@ -19931,7 +20116,10 @@
       "hp": 500,
       "weapons": [
         {
-          "name": "Dispersal Howitzer",
+          "names": {
+            "ja": "拡散榴弾砲",
+            "en": "Dispersal Howitzer"
+          },
           "type": "GrenadeBullet01",
           "ammo": 15,
           "weapon": "Weapon_VehicleShoot",
@@ -19984,7 +20172,10 @@
       "hp": 500,
       "weapons": [
         {
-          "name": "105mm Howitzer",
+          "names": {
+            "ja": "１０５ミリ榴弾砲",
+            "en": "105mm Howitzer"
+          },
           "type": "RocketBullet01",
           "ammo": 25,
           "weapon": "Weapon_VehicleShoot",
@@ -20035,7 +20226,10 @@
       "hp": 1200,
       "weapons": [
         {
-          "name": "Railgun",
+          "names": {
+            "ja": "レールガン",
+            "en": "Railgun"
+          },
           "type": "SolidBullet01Rail",
           "ammo": 25,
           "weapon": "Weapon_VehicleShoot",
@@ -20050,7 +20244,10 @@
           "interval": 180
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 500,
           "weapon": "Weapon_VehicleShoot",
@@ -20063,7 +20260,10 @@
           "interval": 4
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 500,
           "weapon": "Weapon_VehicleShoot",
@@ -20112,7 +20312,10 @@
       "hp": 3900,
       "weapons": [
         {
-          "name": "Atomic Ray Cannon",
+          "names": {
+            "ja": "原子光線砲",
+            "en": "Atomic Ray Cannon"
+          },
           "type": "SolidBullet01",
           "ammo": 7000,
           "weapon": "Weapon_VehicleMaser",
@@ -20162,7 +20365,10 @@
       "hp": 2040,
       "weapons": [
         {
-          "name": "Railgun",
+          "names": {
+            "ja": "レールガン",
+            "en": "Railgun"
+          },
           "type": "SolidBullet01Rail",
           "ammo": 25,
           "weapon": "Weapon_VehicleShoot",
@@ -20177,7 +20383,10 @@
           "interval": 180
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 500,
           "weapon": "Weapon_VehicleShoot",
@@ -20190,7 +20399,10 @@
           "interval": 4
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 500,
           "weapon": "Weapon_VehicleShoot",
@@ -20239,7 +20451,10 @@
       "hp": 4440,
       "weapons": [
         {
-          "name": "Menace Electromagnetic Launcher",
+          "names": {
+            "ja": "メナス電磁投射砲",
+            "en": "Menace Electromagnetic Launcher"
+          },
           "type": "SolidBullet01Rail",
           "ammo": 25,
           "weapon": "Weapon_VehicleShoot",
@@ -20254,7 +20469,10 @@
           "interval": 180
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 500,
           "weapon": "Weapon_VehicleShoot",
@@ -20267,7 +20485,10 @@
           "interval": 4
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 500,
           "weapon": "Weapon_VehicleShoot",
@@ -20316,7 +20537,10 @@
       "hp": 6360,
       "weapons": [
         {
-          "name": "Menace Electromagnetic Launcher",
+          "names": {
+            "ja": "メナス電磁投射砲",
+            "en": "Menace Electromagnetic Launcher"
+          },
           "type": "SolidBullet01Rail",
           "ammo": 25,
           "weapon": "Weapon_VehicleShoot",
@@ -20331,7 +20555,10 @@
           "interval": 180
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 500,
           "weapon": "Weapon_VehicleShoot",
@@ -20344,7 +20571,10 @@
           "interval": 4
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 500,
           "weapon": "Weapon_VehicleShoot",
@@ -20393,7 +20623,10 @@
       "hp": 10800,
       "weapons": [
         {
-          "name": "Menace 4D Burst",
+          "names": {
+            "ja": "メナス４Ｄバースト",
+            "en": "Menace 4D Burst"
+          },
           "type": "SolidBullet01Rail",
           "ammo": 45,
           "weapon": "Weapon_VehicleShoot",
@@ -20409,7 +20642,10 @@
           "interval": 180
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 500,
           "weapon": "Weapon_VehicleShoot",
@@ -20422,7 +20658,10 @@
           "interval": 4
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 500,
           "weapon": "Weapon_VehicleShoot",
@@ -20471,7 +20710,10 @@
       "hp": 36000,
       "weapons": [
         {
-          "name": "Atomic Ray Cannon",
+          "names": {
+            "ja": "原子光線砲",
+            "en": "Atomic Ray Cannon"
+          },
           "type": "SolidBullet01",
           "ammo": 7000,
           "weapon": "Weapon_VehicleMaser",
@@ -20521,7 +20763,10 @@
       "hp": 18000,
       "weapons": [
         {
-          "name": "Epsilon Blast",
+          "names": {
+            "ja": "イプシロンブラスト",
+            "en": "Epsilon Blast"
+          },
           "type": "SolidBullet01Rail",
           "ammo": 25,
           "weapon": "Weapon_VehicleShoot",
@@ -20536,7 +20781,10 @@
           "interval": 180
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 500,
           "weapon": "Weapon_VehicleShoot",
@@ -20549,7 +20797,10 @@
           "interval": 4
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 500,
           "weapon": "Weapon_VehicleShoot",
@@ -20598,7 +20849,10 @@
       "hp": 30000,
       "weapons": [
         {
-          "name": "Epsilon Blast",
+          "names": {
+            "ja": "イプシロンブラスト",
+            "en": "Epsilon Blast"
+          },
           "type": "SolidBullet01Rail",
           "ammo": 25,
           "weapon": "Weapon_VehicleShoot",
@@ -20613,7 +20867,10 @@
           "interval": 180
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 500,
           "weapon": "Weapon_VehicleShoot",
@@ -20626,7 +20883,10 @@
           "interval": 4
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 500,
           "weapon": "Weapon_VehicleShoot",
@@ -20675,7 +20935,10 @@
       "hp": 75000,
       "weapons": [
         {
-          "name": "Atomic Ray Cannon",
+          "names": {
+            "ja": "原子光線砲",
+            "en": "Atomic Ray Cannon"
+          },
           "type": "SolidBullet01",
           "ammo": 7000,
           "weapon": "Weapon_VehicleMaser",
@@ -20725,7 +20988,10 @@
       "hp": 780,
       "weapons": [
         {
-          "name": "Autocannon (Left)",
+          "names": {
+            "ja": "機関砲(左)",
+            "en": "Autocannon (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 1800,
           "weapon": "Weapon_VehicleShoot",
@@ -20739,7 +21005,10 @@
           "interval": 3
         },
         {
-          "name": "Autocannon (Right)",
+          "names": {
+            "ja": "機関砲(右)",
+            "en": "Autocannon (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 1800,
           "weapon": "Weapon_VehicleShoot",
@@ -20753,7 +21022,10 @@
           "interval": 3
         },
         {
-          "name": "Missiles",
+          "names": {
+            "ja": "ミサイル",
+            "en": "Missiles"
+          },
           "type": "MissileBullet01",
           "ammo": 20,
           "weapon": "Weapon_VehicleShoot",
@@ -20810,7 +21082,10 @@
       "hp": 510,
       "weapons": [
         {
-          "name": "Auto-acquisition Autocannon",
+          "names": {
+            "ja": "自動捕捉オートキャノン",
+            "en": "Auto-acquisition Autocannon"
+          },
           "type": "SolidBullet01",
           "ammo": 1500,
           "weapon": "Weapon_VehicleShoot",
@@ -20824,7 +21099,10 @@
           "interval": 3
         },
         {
-          "name": "Rocket Cannon",
+          "names": {
+            "ja": "ロケット砲",
+            "en": "Rocket Cannon"
+          },
           "type": "MissileBullet01",
           "ammo": 48,
           "weapon": "Weapon_VehicleShoot",
@@ -20878,7 +21156,10 @@
       "hp": 3240,
       "weapons": [
         {
-          "name": "Dauntless Heavy Gun",
+          "names": {
+            "ja": "ドーントレス重機関砲",
+            "en": "Dauntless Heavy Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 80,
           "weapon": "Weapon_VehicleShoot",
@@ -20931,7 +21212,10 @@
       "hp": 1350,
       "weapons": [
         {
-          "name": "Auto-acquisition Autocannon",
+          "names": {
+            "ja": "自動捕捉オートキャノン",
+            "en": "Auto-acquisition Autocannon"
+          },
           "type": "SolidBullet01",
           "ammo": 1500,
           "weapon": "Weapon_VehicleShoot",
@@ -20945,7 +21229,10 @@
           "interval": 3
         },
         {
-          "name": "Rocket Cannon",
+          "names": {
+            "ja": "ロケット砲",
+            "en": "Rocket Cannon"
+          },
           "type": "MissileBullet01",
           "ammo": 48,
           "weapon": "Weapon_VehicleShoot",
@@ -20999,7 +21286,10 @@
       "hp": 18000,
       "weapons": [
         {
-          "name": "Heavy Flame Gun",
+          "names": {
+            "ja": "ヘビーフレイムガン",
+            "en": "Heavy Flame Gun"
+          },
           "type": "FlameBullet02",
           "ammo": 2000,
           "weapon": "Weapon_VehicleShoot",
@@ -21052,7 +21342,10 @@
       "hp": 2700,
       "weapons": [
         {
-          "name": "Ground Auto-Acquisition Blaze Gun",
+          "names": {
+            "ja": "対地自動捕捉ブレイズガン",
+            "en": "Ground Auto-Acquisition Blaze Gun"
+          },
           "type": "FlameBullet02",
           "ammo": 3000,
           "weapon": "Weapon_VehicleShoot",
@@ -21067,7 +21360,10 @@
           "piercing": true
         },
         {
-          "name": "Unguided Bomb",
+          "names": {
+            "ja": "無誘導爆弾",
+            "en": "Unguided Bomb"
+          },
           "type": "GrenadeBullet01",
           "ammo": 16,
           "weapon": "Weapon_VehicleShoot",
@@ -21121,7 +21417,10 @@
       "hp": 21600,
       "weapons": [
         {
-          "name": "Pitbull Quickfire Cannon",
+          "names": {
+            "ja": "ピットブル速射砲",
+            "en": "Pitbull Quickfire Cannon"
+          },
           "type": "SolidBullet01",
           "ammo": 40,
           "weapon": "Weapon_VehicleShoot",
@@ -21174,7 +21473,10 @@
       "hp": 4800,
       "weapons": [
         {
-          "name": "Auto-acquisition Autocannon",
+          "names": {
+            "ja": "自動捕捉オートキャノン",
+            "en": "Auto-acquisition Autocannon"
+          },
           "type": "SolidBullet01",
           "ammo": 1500,
           "weapon": "Weapon_VehicleShoot",
@@ -21188,7 +21490,10 @@
           "interval": 3
         },
         {
-          "name": "Rocket Cannon",
+          "names": {
+            "ja": "ロケット砲",
+            "en": "Rocket Cannon"
+          },
           "type": "MissileBullet01",
           "ammo": 48,
           "weapon": "Weapon_VehicleShoot",
@@ -21242,7 +21547,10 @@
       "hp": 43200,
       "weapons": [
         {
-          "name": "Dauntless SA Heavy Gun",
+          "names": {
+            "ja": "ドーントレスＳＡ重機関砲",
+            "en": "Dauntless SA Heavy Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 100,
           "weapon": "Weapon_VehicleShoot",
@@ -21295,7 +21603,10 @@
       "hp": 7500,
       "weapons": [
         {
-          "name": "Auto-acquisition Autocannon",
+          "names": {
+            "ja": "自動捕捉オートキャノン",
+            "en": "Auto-acquisition Autocannon"
+          },
           "type": "SolidBullet01",
           "ammo": 1500,
           "weapon": "Weapon_VehicleShoot",
@@ -21309,7 +21620,10 @@
           "interval": 3
         },
         {
-          "name": "Rocket Cannon",
+          "names": {
+            "ja": "ロケット砲",
+            "en": "Rocket Cannon"
+          },
           "type": "MissileBullet01",
           "ammo": 48,
           "weapon": "Weapon_VehicleShoot",
@@ -64983,7 +65297,10 @@
       "hp": 1200,
       "weapons": [
         {
-          "name": "Combat Burner",
+          "names": {
+            "ja": "コンバットバーナー",
+            "en": "Combat Burner"
+          },
           "type": "FlameBullet02",
           "ammo": 3000,
           "weapon": "Weapon_VehicleShoot",
@@ -64998,7 +65315,10 @@
           "piercing": true
         },
         {
-          "name": "Combat Burner",
+          "names": {
+            "ja": "コンバットバーナー",
+            "en": "Combat Burner"
+          },
           "type": "FlameBullet02",
           "ammo": 3000,
           "weapon": "Weapon_VehicleShoot",
@@ -65013,7 +65333,10 @@
           "piercing": true
         },
         {
-          "name": "Grenade Pod (Right)",
+          "names": {
+            "ja": "グレネードポッド（右）",
+            "en": "Grenade Pod (Right)"
+          },
           "type": "GrenadeBullet01",
           "ammo": 40,
           "weapon": "Weapon_VehicleShoot",
@@ -65031,7 +65354,10 @@
           "lockTime": 30
         },
         {
-          "name": "Grenade Pod (Left)",
+          "names": {
+            "ja": "グレネードポッド（左）",
+            "en": "Grenade Pod (Left)"
+          },
           "type": "GrenadeBullet01",
           "ammo": 40,
           "weapon": "Weapon_VehicleShoot",
@@ -65078,7 +65404,10 @@
       "hp": 1200,
       "weapons": [
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 1250,
           "weapon": "Weapon_VehicleShoot",
@@ -65091,7 +65420,10 @@
           "interval": 2
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 1250,
           "weapon": "Weapon_VehicleShoot",
@@ -65140,7 +65472,10 @@
       "hp": 960,
       "weapons": [
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 1250,
           "weapon": "Weapon_VehicleShoot",
@@ -65153,7 +65488,10 @@
           "interval": 2
         },
         {
-          "name": "Rocket Cannon (Left)",
+          "names": {
+            "ja": "ロケット砲(左)",
+            "en": "Rocket Cannon (Left)"
+          },
           "type": "RocketBullet01",
           "ammo": 20,
           "weapon": "Weapon_VehicleShoot",
@@ -65203,7 +65541,10 @@
       "hp": 1380,
       "weapons": [
         {
-          "name": "Large Grenade Launcher (Right)",
+          "names": {
+            "ja": "大型グレネードランチャー(右)",
+            "en": "Large Grenade Launcher (Right)"
+          },
           "type": "GrenadeBullet01",
           "ammo": 40,
           "weapon": "Weapon_VehicleShoot",
@@ -65218,7 +65559,10 @@
           "interval": 40
         },
         {
-          "name": "Explosion (Left)",
+          "names": {
+            "ja": "エクスプロージョン（左）",
+            "en": "Explosion (Left)"
+          },
           "type": "GrenadeBullet01",
           "ammo": 10,
           "weapon": "Weapon_VehicleShoot",
@@ -65270,7 +65614,10 @@
       "hp": 1440,
       "weapons": [
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 1250,
           "weapon": "Weapon_VehicleShoot",
@@ -65283,7 +65630,10 @@
           "interval": 2
         },
         {
-          "name": "Rocket Cannon (Left)",
+          "names": {
+            "ja": "ロケット砲(左)",
+            "en": "Rocket Cannon (Left)"
+          },
           "type": "RocketBullet01",
           "ammo": 20,
           "weapon": "Weapon_VehicleShoot",
@@ -65333,7 +65683,10 @@
       "hp": 1560,
       "weapons": [
         {
-          "name": "Combat Burner",
+          "names": {
+            "ja": "コンバットバーナー",
+            "en": "Combat Burner"
+          },
           "type": "FlameBullet02",
           "ammo": 3000,
           "weapon": "Weapon_VehicleShoot",
@@ -65348,7 +65701,10 @@
           "piercing": true
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 1250,
           "weapon": "Weapon_VehicleShoot",
@@ -65361,7 +65717,10 @@
           "interval": 2
         },
         {
-          "name": "Canister Shot (Right)",
+          "names": {
+            "ja": "散弾砲（右）",
+            "en": "Canister Shot (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 20,
           "weapon": "Weapon_VehicleShoot",
@@ -65376,7 +65735,10 @@
           "interval": 80
         },
         {
-          "name": "Canister Shot (Left)",
+          "names": {
+            "ja": "散弾砲（左）",
+            "en": "Canister Shot (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 20,
           "weapon": "Weapon_VehicleShoot",
@@ -65427,7 +65789,10 @@
       "hp": 1860,
       "weapons": [
         {
-          "name": "Revolver Cannon (Right)",
+          "names": {
+            "ja": "リボルバーカノン(右)",
+            "en": "Revolver Cannon (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 600,
           "weapon": "Weapon_VehicleShoot",
@@ -65441,7 +65806,10 @@
           "interval": 5
         },
         {
-          "name": "Revolver Cannon (Left)",
+          "names": {
+            "ja": "リボルバーカノン(左)",
+            "en": "Revolver Cannon (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 600,
           "weapon": "Weapon_VehicleShoot",
@@ -65455,7 +65823,10 @@
           "interval": 5
         },
         {
-          "name": "Missile Pod (Right)",
+          "names": {
+            "ja": "ミサイルポッド（右）",
+            "en": "Missile Pod (Right)"
+          },
           "type": "MissileBullet01",
           "ammo": 40,
           "weapon": "Weapon_VehicleShoot",
@@ -65474,7 +65845,10 @@
           "lockType": 1
         },
         {
-          "name": "Missile Pod (Left)",
+          "names": {
+            "ja": "ミサイルポッド（左）",
+            "en": "Missile Pod (Left)"
+          },
           "type": "MissileBullet01",
           "ammo": 40,
           "weapon": "Weapon_VehicleShoot",
@@ -65529,7 +65903,10 @@
       "hp": 2220,
       "weapons": [
         {
-          "name": "Heavy Revolver Cannon (Right)",
+          "names": {
+            "ja": "ヘビーリボルバーカノン(右)",
+            "en": "Heavy Revolver Cannon (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 72,
           "weapon": "Weapon_VehicleShoot",
@@ -65545,7 +65922,10 @@
           "interval": 80
         },
         {
-          "name": "Heavy Revolver Cannon (Left)",
+          "names": {
+            "ja": "ヘビーリボルバーカノン(左)",
+            "en": "Heavy Revolver Cannon (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 72,
           "weapon": "Weapon_VehicleShoot",
@@ -65561,7 +65941,10 @@
           "interval": 80
         },
         {
-          "name": "Shoulder Howitzer (Right)",
+          "names": {
+            "ja": "ショルダーハウィツァー（右）",
+            "en": "Shoulder Howitzer (Right)"
+          },
           "type": "RocketBullet01",
           "ammo": 10,
           "weapon": "Weapon_VehicleShoot",
@@ -65576,7 +65959,10 @@
           "interval": 160
         },
         {
-          "name": "Shoulder Howitzer (Left)",
+          "names": {
+            "ja": "ショルダーハウィツァー（左）",
+            "en": "Shoulder Howitzer (Left)"
+          },
           "type": "RocketBullet01",
           "ammo": 10,
           "weapon": "Weapon_VehicleShoot",
@@ -65627,7 +66013,10 @@
       "hp": 3960,
       "weapons": [
         {
-          "name": "Revolver Cannon (Right)",
+          "names": {
+            "ja": "リボルバーカノン(右)",
+            "en": "Revolver Cannon (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 600,
           "weapon": "Weapon_VehicleShoot",
@@ -65641,7 +66030,10 @@
           "interval": 5
         },
         {
-          "name": "Rocket Cannon (Left)",
+          "names": {
+            "ja": "ロケット砲(左)",
+            "en": "Rocket Cannon (Left)"
+          },
           "type": "RocketBullet01",
           "ammo": 20,
           "weapon": "Weapon_VehicleShoot",
@@ -65655,7 +66047,10 @@
           "interval": 80
         },
         {
-          "name": "Missile Pod (Right)",
+          "names": {
+            "ja": "ミサイルポッド（右）",
+            "en": "Missile Pod (Right)"
+          },
           "type": "MissileBullet01",
           "ammo": 40,
           "weapon": "Weapon_VehicleShoot",
@@ -65710,7 +66105,10 @@
       "hp": 7440,
       "weapons": [
         {
-          "name": "Revolver Cannon (Right)",
+          "names": {
+            "ja": "リボルバーカノン(右)",
+            "en": "Revolver Cannon (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 600,
           "weapon": "Weapon_VehicleShoot",
@@ -65724,7 +66122,10 @@
           "interval": 5
         },
         {
-          "name": "Revolver Cannon (Left)",
+          "names": {
+            "ja": "リボルバーカノン(左)",
+            "en": "Revolver Cannon (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 600,
           "weapon": "Weapon_VehicleShoot",
@@ -65738,7 +66139,10 @@
           "interval": 5
         },
         {
-          "name": "Missile Pod (Right)",
+          "names": {
+            "ja": "ミサイルポッド（右）",
+            "en": "Missile Pod (Right)"
+          },
           "type": "MissileBullet01",
           "ammo": 40,
           "weapon": "Weapon_VehicleShoot",
@@ -65757,7 +66161,10 @@
           "lockType": 1
         },
         {
-          "name": "Missile Pod (Left)",
+          "names": {
+            "ja": "ミサイルポッド（左）",
+            "en": "Missile Pod (Left)"
+          },
           "type": "MissileBullet01",
           "ammo": 40,
           "weapon": "Weapon_VehicleShoot",
@@ -65812,7 +66219,10 @@
       "hp": 10320,
       "weapons": [
         {
-          "name": "Revolver Cannon (Right)",
+          "names": {
+            "ja": "リボルバーカノン(右)",
+            "en": "Revolver Cannon (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 600,
           "weapon": "Weapon_VehicleShoot",
@@ -65826,7 +66236,10 @@
           "interval": 5
         },
         {
-          "name": "Rocket Cannon (Left)",
+          "names": {
+            "ja": "ロケット砲(左)",
+            "en": "Rocket Cannon (Left)"
+          },
           "type": "RocketBullet01",
           "ammo": 20,
           "weapon": "Weapon_VehicleShoot",
@@ -65840,7 +66253,10 @@
           "interval": 80
         },
         {
-          "name": "Missile Pod (Right)",
+          "names": {
+            "ja": "ミサイルポッド（右）",
+            "en": "Missile Pod (Right)"
+          },
           "type": "MissileBullet01",
           "ammo": 40,
           "weapon": "Weapon_VehicleShoot",
@@ -65895,7 +66311,10 @@
       "hp": 12360,
       "weapons": [
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 1250,
           "weapon": "Weapon_VehicleShoot",
@@ -65908,7 +66327,10 @@
           "interval": 2
         },
         {
-          "name": "Large Grenade Launcher (Right)",
+          "names": {
+            "ja": "大型グレネードランチャー(右)",
+            "en": "Large Grenade Launcher (Right)"
+          },
           "type": "GrenadeBullet01",
           "ammo": 40,
           "weapon": "Weapon_VehicleShoot",
@@ -65923,7 +66345,10 @@
           "interval": 40
         },
         {
-          "name": "Explosion (Right)",
+          "names": {
+            "ja": "エクスプロージョン（右）",
+            "en": "Explosion (Right)"
+          },
           "type": "GrenadeBullet01",
           "ammo": 10,
           "weapon": "Weapon_VehicleShoot",
@@ -65939,7 +66364,10 @@
           "interval": 120
         },
         {
-          "name": "Explosion (Left)",
+          "names": {
+            "ja": "エクスプロージョン（左）",
+            "en": "Explosion (Left)"
+          },
           "type": "GrenadeBullet01",
           "ammo": 10,
           "weapon": "Weapon_VehicleShoot",
@@ -65991,7 +66419,10 @@
       "hp": 13200,
       "weapons": [
         {
-          "name": "Combat Burner",
+          "names": {
+            "ja": "コンバットバーナー",
+            "en": "Combat Burner"
+          },
           "type": "FlameBullet02",
           "ammo": 3000,
           "weapon": "Weapon_VehicleShoot",
@@ -66006,7 +66437,10 @@
           "piercing": true
         },
         {
-          "name": "Combat Burner",
+          "names": {
+            "ja": "コンバットバーナー",
+            "en": "Combat Burner"
+          },
           "type": "FlameBullet02",
           "ammo": 3000,
           "weapon": "Weapon_VehicleShoot",
@@ -66021,7 +66455,10 @@
           "piercing": true
         },
         {
-          "name": "Canister Shot (Right)",
+          "names": {
+            "ja": "散弾砲（右）",
+            "en": "Canister Shot (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 20,
           "weapon": "Weapon_VehicleShoot",
@@ -66036,7 +66473,10 @@
           "interval": 80
         },
         {
-          "name": "Canister Shot (Left)",
+          "names": {
+            "ja": "散弾砲（左）",
+            "en": "Canister Shot (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 20,
           "weapon": "Weapon_VehicleShoot",
@@ -66087,7 +66527,10 @@
       "hp": 20160,
       "weapons": [
         {
-          "name": "Revolver Rocket Cannon (Right)",
+          "names": {
+            "ja": "リボルバーロケットカノン(右)",
+            "en": "Revolver Rocket Cannon (Right)"
+          },
           "type": "MissileBullet01",
           "ammo": 80,
           "weapon": "Weapon_VehicleShoot",
@@ -66103,7 +66546,10 @@
           "interval": 80
         },
         {
-          "name": "Revolver Rocket Cannon (Left)",
+          "names": {
+            "ja": "リボルバーロケットカノン(左)",
+            "en": "Revolver Rocket Cannon (Left)"
+          },
           "type": "MissileBullet01",
           "ammo": 80,
           "weapon": "Weapon_VehicleShoot",
@@ -66119,7 +66565,10 @@
           "interval": 80
         },
         {
-          "name": "Dispersal Howitzer (Right)",
+          "names": {
+            "ja": "拡散榴弾砲（右）",
+            "en": "Dispersal Howitzer (Right)"
+          },
           "type": "RocketBullet01",
           "ammo": 12,
           "weapon": "Weapon_VehicleShoot",
@@ -66134,7 +66583,10 @@
           "interval": 240
         },
         {
-          "name": "Dispersal Howitzer (Left)",
+          "names": {
+            "ja": "拡散榴弾砲（左）",
+            "en": "Dispersal Howitzer (Left)"
+          },
           "type": "RocketBullet01",
           "ammo": 12,
           "weapon": "Weapon_VehicleShoot",
@@ -66185,7 +66637,10 @@
       "hp": 27600,
       "weapons": [
         {
-          "name": "Combat Burner",
+          "names": {
+            "ja": "コンバットバーナー",
+            "en": "Combat Burner"
+          },
           "type": "FlameBullet02",
           "ammo": 3000,
           "weapon": "Weapon_VehicleShoot",
@@ -66200,7 +66655,10 @@
           "piercing": true
         },
         {
-          "name": "Revolver Cannon (Right)",
+          "names": {
+            "ja": "リボルバーカノン(右)",
+            "en": "Revolver Cannon (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 600,
           "weapon": "Weapon_VehicleShoot",
@@ -66214,7 +66672,10 @@
           "interval": 5
         },
         {
-          "name": "Shoulder Howitzer (Right)",
+          "names": {
+            "ja": "ショルダーハウィツァー（右）",
+            "en": "Shoulder Howitzer (Right)"
+          },
           "type": "RocketBullet01",
           "ammo": 10,
           "weapon": "Weapon_VehicleShoot",
@@ -66229,7 +66690,10 @@
           "interval": 160
         },
         {
-          "name": "Missile Pod (Left)",
+          "names": {
+            "ja": "ミサイルポッド（左）",
+            "en": "Missile Pod (Left)"
+          },
           "type": "MissileBullet01",
           "ammo": 40,
           "weapon": "Weapon_VehicleShoot",
@@ -66284,7 +66748,10 @@
       "hp": 36360,
       "weapons": [
         {
-          "name": "New Revolver Cannon (Right)",
+          "names": {
+            "ja": "リボルバーカノンＲＳ(右)",
+            "en": "New Revolver Cannon (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 600,
           "weapon": "Weapon_VehicleShoot",
@@ -66298,7 +66765,10 @@
           "interval": 5
         },
         {
-          "name": "New Revolver Cannon (Left)",
+          "names": {
+            "ja": "リボルバーカノンＲＳ(左)",
+            "en": "New Revolver Cannon (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 600,
           "weapon": "Weapon_VehicleShoot",
@@ -66312,7 +66782,10 @@
           "interval": 5
         },
         {
-          "name": "Missile Pod (Right)",
+          "names": {
+            "ja": "ミサイルポッド（右）",
+            "en": "Missile Pod (Right)"
+          },
           "type": "MissileBullet01",
           "ammo": 40,
           "weapon": "Weapon_VehicleShoot",
@@ -66331,7 +66804,10 @@
           "lockType": 1
         },
         {
-          "name": "Missile Pod (Left)",
+          "names": {
+            "ja": "ミサイルポッド（左）",
+            "en": "Missile Pod (Left)"
+          },
           "type": "MissileBullet01",
           "ammo": 40,
           "weapon": "Weapon_VehicleShoot",
@@ -66386,7 +66862,10 @@
       "hp": 38400,
       "weapons": [
         {
-          "name": "Combat Burner",
+          "names": {
+            "ja": "コンバットバーナー",
+            "en": "Combat Burner"
+          },
           "type": "FlameBullet02",
           "ammo": 3000,
           "weapon": "Weapon_VehicleShoot",
@@ -66401,7 +66880,10 @@
           "piercing": true
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 1250,
           "weapon": "Weapon_VehicleShoot",
@@ -66414,7 +66896,10 @@
           "interval": 2
         },
         {
-          "name": "Canister Shot (Right)",
+          "names": {
+            "ja": "散弾砲（右）",
+            "en": "Canister Shot (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 20,
           "weapon": "Weapon_VehicleShoot",
@@ -66429,7 +66914,10 @@
           "interval": 80
         },
         {
-          "name": "Canister Shot (Left)",
+          "names": {
+            "ja": "散弾砲（左）",
+            "en": "Canister Shot (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 20,
           "weapon": "Weapon_VehicleShoot",
@@ -66480,7 +66968,10 @@
       "hp": 75600,
       "weapons": [
         {
-          "name": "Revolver Rocket Cannon (Right)",
+          "names": {
+            "ja": "リボルバーロケットカノン(右)",
+            "en": "Revolver Rocket Cannon (Right)"
+          },
           "type": "MissileBullet01",
           "ammo": 80,
           "weapon": "Weapon_VehicleShoot",
@@ -66496,7 +66987,10 @@
           "interval": 80
         },
         {
-          "name": "Revolver Rocket Cannon (Left)",
+          "names": {
+            "ja": "リボルバーロケットカノン(左)",
+            "en": "Revolver Rocket Cannon (Left)"
+          },
           "type": "MissileBullet01",
           "ammo": 80,
           "weapon": "Weapon_VehicleShoot",
@@ -66512,7 +67006,10 @@
           "interval": 80
         },
         {
-          "name": "Dispersal Howitzer (Right)",
+          "names": {
+            "ja": "拡散榴弾砲（右）",
+            "en": "Dispersal Howitzer (Right)"
+          },
           "type": "RocketBullet01",
           "ammo": 12,
           "weapon": "Weapon_VehicleShoot",
@@ -66527,7 +67024,10 @@
           "interval": 240
         },
         {
-          "name": "Dispersal Howitzer (Left)",
+          "names": {
+            "ja": "拡散榴弾砲（左）",
+            "en": "Dispersal Howitzer (Left)"
+          },
           "type": "RocketBullet01",
           "ammo": 12,
           "weapon": "Weapon_VehicleShoot",
@@ -66578,7 +67078,10 @@
       "hp": 76800,
       "weapons": [
         {
-          "name": "Combat Burner",
+          "names": {
+            "ja": "コンバットバーナー",
+            "en": "Combat Burner"
+          },
           "type": "FlameBullet02",
           "ammo": 3000,
           "weapon": "Weapon_VehicleShoot",
@@ -66593,7 +67096,10 @@
           "piercing": true
         },
         {
-          "name": "Combat Burner",
+          "names": {
+            "ja": "コンバットバーナー",
+            "en": "Combat Burner"
+          },
           "type": "FlameBullet02",
           "ammo": 3000,
           "weapon": "Weapon_VehicleShoot",
@@ -66608,7 +67114,10 @@
           "piercing": true
         },
         {
-          "name": "Canister Shot (Right)",
+          "names": {
+            "ja": "散弾砲（右）",
+            "en": "Canister Shot (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 20,
           "weapon": "Weapon_VehicleShoot",
@@ -66623,7 +67132,10 @@
           "interval": 80
         },
         {
-          "name": "Canister Shot (Left)",
+          "names": {
+            "ja": "散弾砲（左）",
+            "en": "Canister Shot (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 20,
           "weapon": "Weapon_VehicleShoot",
@@ -66674,7 +67186,10 @@
       "hp": 99600,
       "weapons": [
         {
-          "name": "Large Grenade Launcher (Right)",
+          "names": {
+            "ja": "大型グレネードランチャー(右)",
+            "en": "Large Grenade Launcher (Right)"
+          },
           "type": "GrenadeBullet01",
           "ammo": 40,
           "weapon": "Weapon_VehicleShoot",
@@ -66689,7 +67204,10 @@
           "interval": 40
         },
         {
-          "name": "Large Grenade Launcher (Left)",
+          "names": {
+            "ja": "大型グレネードランチャー(左)",
+            "en": "Large Grenade Launcher (Left)"
+          },
           "type": "GrenadeBullet01",
           "ammo": 40,
           "weapon": "Weapon_VehicleShoot",
@@ -66704,7 +67222,10 @@
           "interval": 40
         },
         {
-          "name": "Explosion (Right)",
+          "names": {
+            "ja": "エクスプロージョン（右）",
+            "en": "Explosion (Right)"
+          },
           "type": "GrenadeBullet01",
           "ammo": 10,
           "weapon": "Weapon_VehicleShoot",
@@ -66720,7 +67241,10 @@
           "interval": 120
         },
         {
-          "name": "Explosion (Left)",
+          "names": {
+            "ja": "エクスプロージョン（左）",
+            "en": "Explosion (Left)"
+          },
           "type": "GrenadeBullet01",
           "ammo": 10,
           "weapon": "Weapon_VehicleShoot",
@@ -66772,7 +67296,10 @@
       "hp": 104400,
       "weapons": [
         {
-          "name": "Combat Burner",
+          "names": {
+            "ja": "コンバットバーナー",
+            "en": "Combat Burner"
+          },
           "type": "FlameBullet02",
           "ammo": 3000,
           "weapon": "Weapon_VehicleShoot",
@@ -66787,7 +67314,10 @@
           "piercing": true
         },
         {
-          "name": "Revolver Cannon (Right)",
+          "names": {
+            "ja": "リボルバーカノン(右)",
+            "en": "Revolver Cannon (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 600,
           "weapon": "Weapon_VehicleShoot",
@@ -66801,7 +67331,10 @@
           "interval": 5
         },
         {
-          "name": "Shoulder Howitzer S (Right)",
+          "names": {
+            "ja": "ショルダーハウィツァーＳ（右）",
+            "en": "Shoulder Howitzer S (Right)"
+          },
           "type": "RocketBullet01",
           "ammo": 10,
           "weapon": "Weapon_VehicleShoot",
@@ -66816,7 +67349,10 @@
           "interval": 160
         },
         {
-          "name": "Missile Pod (Left)",
+          "names": {
+            "ja": "ミサイルポッド（左）",
+            "en": "Missile Pod (Left)"
+          },
           "type": "MissileBullet01",
           "ammo": 40,
           "weapon": "Weapon_VehicleShoot",
@@ -66870,7 +67406,10 @@
       "hp": 1000,
       "weapons": [
         {
-          "name": "FK200 Gatling Gun",
+          "names": {
+            "ja": "ＦＫ２００ガトリング砲",
+            "en": "FK200 Gatling Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 1600,
           "weapon": "Weapon_Gatling",
@@ -66883,7 +67422,10 @@
           "interval": 3
         },
         {
-          "name": "Compact Cannon (Left)",
+          "names": {
+            "ja": "コンパクト・キャノン（左）",
+            "en": "Compact Cannon (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 120,
           "weapon": "Weapon_VehicleShoot",
@@ -66899,7 +67441,10 @@
           "interval": 60
         },
         {
-          "name": "Compact Cannon (Right)",
+          "names": {
+            "ja": "コンパクト・キャノン（右）",
+            "en": "Compact Cannon (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 120,
           "weapon": "Weapon_VehicleShoot",
@@ -66950,7 +67495,10 @@
       "hp": 1200,
       "weapons": [
         {
-          "name": "FK200 Gatling Gun",
+          "names": {
+            "ja": "ＦＫ２００ガトリング砲",
+            "en": "FK200 Gatling Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 1600,
           "weapon": "Weapon_Gatling",
@@ -66963,7 +67511,10 @@
           "interval": 3
         },
         {
-          "name": "Incinerator (Left)",
+          "names": {
+            "ja": "インシネレーター（左）",
+            "en": "Incinerator (Left)"
+          },
           "type": "FlameBullet02",
           "ammo": 900,
           "weapon": "Weapon_VehicleShoot",
@@ -66976,7 +67527,10 @@
           "piercing": true
         },
         {
-          "name": "Incinerator (Right)",
+          "names": {
+            "ja": "インシネレーター（右）",
+            "en": "Incinerator (Right)"
+          },
           "type": "FlameBullet02",
           "ammo": 900,
           "weapon": "Weapon_VehicleShoot",
@@ -67024,7 +67578,10 @@
       "hp": 1850,
       "weapons": [
         {
-          "name": "FK200 Gatling Gun",
+          "names": {
+            "ja": "ＦＫ２００ガトリング砲",
+            "en": "FK200 Gatling Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 1600,
           "weapon": "Weapon_Gatling",
@@ -67037,7 +67594,10 @@
           "interval": 3
         },
         {
-          "name": "Sniper Cannon (Left)",
+          "names": {
+            "ja": "スナイパーキャノン（左）",
+            "en": "Sniper Cannon (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 25,
           "weapon": "Weapon_VehicleShoot",
@@ -67053,7 +67613,10 @@
           "interval": 120
         },
         {
-          "name": "Heavy Shotgun (Right)",
+          "names": {
+            "ja": "ヘビーショットガン（右）",
+            "en": "Heavy Shotgun (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 45,
           "weapon": "Weapon_VehicleShoot",
@@ -67103,7 +67666,10 @@
       "hp": 3700,
       "weapons": [
         {
-          "name": "FK200 Gatling Gun",
+          "names": {
+            "ja": "ＦＫ２００ガトリング砲",
+            "en": "FK200 Gatling Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 1600,
           "weapon": "Weapon_Gatling",
@@ -67116,7 +67682,10 @@
           "interval": 3
         },
         {
-          "name": "Burst Cannon (Left)",
+          "names": {
+            "ja": "バーストキャノン（左）",
+            "en": "Burst Cannon (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 120,
           "weapon": "Weapon_VehicleShoot",
@@ -67132,7 +67701,10 @@
           "interval": 80
         },
         {
-          "name": "Burst Cannon (Right)",
+          "names": {
+            "ja": "バーストキャノン（右）",
+            "en": "Burst Cannon (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 120,
           "weapon": "Weapon_VehicleShoot",
@@ -67183,7 +67755,10 @@
       "hp": 5000,
       "weapons": [
         {
-          "name": "FK200 Gatling Gun",
+          "names": {
+            "ja": "ＦＫ２００ガトリング砲",
+            "en": "FK200 Gatling Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 1600,
           "weapon": "Weapon_Gatling",
@@ -67196,7 +67771,10 @@
           "interval": 3
         },
         {
-          "name": "Rapid Bazooka (Left)",
+          "names": {
+            "ja": "ラピッドバズーカ砲（左）",
+            "en": "Rapid Bazooka (Left)"
+          },
           "type": "MissileBullet01",
           "ammo": 320,
           "weapon": "Weapon_VehicleShoot",
@@ -67213,7 +67791,10 @@
           "accuracy": 0
         },
         {
-          "name": "Rapid Bazooka (Right)",
+          "names": {
+            "ja": "ラピッドバズーカ砲（右）",
+            "en": "Rapid Bazooka (Right)"
+          },
           "type": "MissileBullet01",
           "ammo": 320,
           "weapon": "Weapon_VehicleShoot",
@@ -67265,7 +67846,10 @@
       "hp": 8000,
       "weapons": [
         {
-          "name": "FK200 Gatling Gun",
+          "names": {
+            "ja": "ＦＫ２００ガトリング砲",
+            "en": "FK200 Gatling Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 1600,
           "weapon": "Weapon_Gatling",
@@ -67278,7 +67862,10 @@
           "interval": 3
         },
         {
-          "name": "Incinerator (Left)",
+          "names": {
+            "ja": "インシネレーター（左）",
+            "en": "Incinerator (Left)"
+          },
           "type": "FlameBullet02",
           "ammo": 900,
           "weapon": "Weapon_VehicleShoot",
@@ -67291,7 +67878,10 @@
           "piercing": true
         },
         {
-          "name": "Heavy Shotgun (Right)",
+          "names": {
+            "ja": "ヘビーショットガン（右）",
+            "en": "Heavy Shotgun (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 45,
           "weapon": "Weapon_VehicleShoot",
@@ -67341,7 +67931,10 @@
       "hp": 14000,
       "weapons": [
         {
-          "name": "FK200 Gatling Gun",
+          "names": {
+            "ja": "ＦＫ２００ガトリング砲",
+            "en": "FK200 Gatling Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 1600,
           "weapon": "Weapon_Gatling",
@@ -67354,7 +67947,10 @@
           "interval": 3
         },
         {
-          "name": "Sniper Cannon (Left)",
+          "names": {
+            "ja": "スナイパーキャノン（左）",
+            "en": "Sniper Cannon (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 25,
           "weapon": "Weapon_VehicleShoot",
@@ -67370,7 +67966,10 @@
           "interval": 120
         },
         {
-          "name": "Sniper Cannon (Right)",
+          "names": {
+            "ja": "スナイパーキャノン（右）",
+            "en": "Sniper Cannon (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 25,
           "weapon": "Weapon_VehicleShoot",
@@ -67421,7 +68020,10 @@
       "hp": 15000,
       "weapons": [
         {
-          "name": "FK200 Gatling Gun",
+          "names": {
+            "ja": "ＦＫ２００ガトリング砲",
+            "en": "FK200 Gatling Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 1600,
           "weapon": "Weapon_Gatling",
@@ -67434,7 +68036,10 @@
           "interval": 3
         },
         {
-          "name": "Burst Cannon (Left)",
+          "names": {
+            "ja": "バーストキャノン（左）",
+            "en": "Burst Cannon (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 120,
           "weapon": "Weapon_VehicleShoot",
@@ -67450,7 +68055,10 @@
           "interval": 80
         },
         {
-          "name": "Burst Cannon (Right)",
+          "names": {
+            "ja": "バーストキャノン（右）",
+            "en": "Burst Cannon (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 120,
           "weapon": "Weapon_VehicleShoot",
@@ -67501,7 +68109,10 @@
       "hp": 15000,
       "weapons": [
         {
-          "name": "FK200 Gatling Gun",
+          "names": {
+            "ja": "ＦＫ２００ガトリング砲",
+            "en": "FK200 Gatling Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 1600,
           "weapon": "Weapon_Gatling",
@@ -67514,7 +68125,10 @@
           "interval": 3
         },
         {
-          "name": "Rapid Bazooka (Left)",
+          "names": {
+            "ja": "ラピッドバズーカ砲（左）",
+            "en": "Rapid Bazooka (Left)"
+          },
           "type": "MissileBullet01",
           "ammo": 320,
           "weapon": "Weapon_VehicleShoot",
@@ -67531,7 +68145,10 @@
           "accuracy": 0
         },
         {
-          "name": "Rapid Bazooka (Right)",
+          "names": {
+            "ja": "ラピッドバズーカ砲（右）",
+            "en": "Rapid Bazooka (Right)"
+          },
           "type": "MissileBullet01",
           "ammo": 320,
           "weapon": "Weapon_VehicleShoot",
@@ -67584,7 +68201,10 @@
       "hp": 24750,
       "weapons": [
         {
-          "name": "Buster Cannon",
+          "names": {
+            "ja": "バスターカノン",
+            "en": "Buster Cannon"
+          },
           "type": "RocketBullet01",
           "ammo": 200,
           "weapon": "Weapon_VehicleShoot",
@@ -67598,7 +68218,10 @@
           "interval": 20
         },
         {
-          "name": "Buster Cannon",
+          "names": {
+            "ja": "バスターカノン",
+            "en": "Buster Cannon"
+          },
           "type": "RocketBullet01",
           "ammo": 200,
           "weapon": "Weapon_VehicleShoot",
@@ -67612,7 +68235,10 @@
           "interval": 20
         },
         {
-          "name": "Missiles",
+          "names": {
+            "ja": "ミサイル",
+            "en": "Missiles"
+          },
           "type": "MissileBullet01",
           "ammo": 200,
           "weapon": "Weapon_VehicleShoot",
@@ -67667,7 +68293,10 @@
       "hp": 125000,
       "weapons": [
         {
-          "name": "Gun Turret",
+          "names": {
+            "ja": "ガン・タレット",
+            "en": "Gun Turret"
+          },
           "type": "SolidBullet01",
           "ammo": 400,
           "weapon": "Weapon_VehicleShoot",
@@ -67682,7 +68311,10 @@
           "interval": 240
         },
         {
-          "name": "Gun Turret",
+          "names": {
+            "ja": "ガン・タレット",
+            "en": "Gun Turret"
+          },
           "type": "SolidBullet01",
           "ammo": 400,
           "weapon": "Weapon_VehicleShoot",
@@ -67733,7 +68365,10 @@
       "hp": 60000,
       "weapons": [
         {
-          "name": "Buster Cannon",
+          "names": {
+            "ja": "バスターカノン",
+            "en": "Buster Cannon"
+          },
           "type": "RocketBullet01",
           "ammo": 200,
           "weapon": "Weapon_VehicleShoot",
@@ -67747,7 +68382,10 @@
           "interval": 20
         },
         {
-          "name": "Buster Cannon",
+          "names": {
+            "ja": "バスターカノン",
+            "en": "Buster Cannon"
+          },
           "type": "RocketBullet01",
           "ammo": 200,
           "weapon": "Weapon_VehicleShoot",
@@ -67761,7 +68399,10 @@
           "interval": 20
         },
         {
-          "name": "Missiles",
+          "names": {
+            "ja": "ミサイル",
+            "en": "Missiles"
+          },
           "type": "MissileBullet01",
           "ammo": 200,
           "weapon": "Weapon_VehicleShoot",
@@ -67816,7 +68457,10 @@
       "hp": 225000,
       "weapons": [
         {
-          "name": "Laser Turret",
+          "names": {
+            "ja": "レーザー・タレット",
+            "en": "Laser Turret"
+          },
           "type": "LaserBullet01",
           "ammo": 1200,
           "weapon": "Weapon_VehicleShoot",
@@ -67830,7 +68474,10 @@
           "accuracy": 0
         },
         {
-          "name": "Laser Turret",
+          "names": {
+            "ja": "レーザー・タレット",
+            "en": "Laser Turret"
+          },
           "type": "LaserBullet01",
           "ammo": 1200,
           "weapon": "Weapon_VehicleShoot",
@@ -67880,7 +68527,10 @@
       "hp": 165000,
       "weapons": [
         {
-          "name": "Buster Cannon",
+          "names": {
+            "ja": "バスターカノン",
+            "en": "Buster Cannon"
+          },
           "type": "RocketBullet01",
           "ammo": 200,
           "weapon": "Weapon_VehicleShoot",
@@ -67894,7 +68544,10 @@
           "interval": 20
         },
         {
-          "name": "Buster Cannon",
+          "names": {
+            "ja": "バスターカノン",
+            "en": "Buster Cannon"
+          },
           "type": "RocketBullet01",
           "ammo": 200,
           "weapon": "Weapon_VehicleShoot",
@@ -67908,7 +68561,10 @@
           "interval": 20
         },
         {
-          "name": "Missiles",
+          "names": {
+            "ja": "ミサイル",
+            "en": "Missiles"
+          },
           "type": "MissileBullet01",
           "ammo": 200,
           "weapon": "Weapon_VehicleShoot",
@@ -67998,7 +68654,10 @@
       "hp": 780,
       "weapons": [
         {
-          "name": "Autocannon (Left)",
+          "names": {
+            "ja": "機関砲(左)",
+            "en": "Autocannon (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 1800,
           "weapon": "Weapon_VehicleShoot",
@@ -68012,7 +68671,10 @@
           "interval": 3
         },
         {
-          "name": "Autocannon (Right)",
+          "names": {
+            "ja": "機関砲(右)",
+            "en": "Autocannon (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 1800,
           "weapon": "Weapon_VehicleShoot",
@@ -68026,7 +68688,10 @@
           "interval": 3
         },
         {
-          "name": "Missiles",
+          "names": {
+            "ja": "ミサイル",
+            "en": "Missiles"
+          },
           "type": "MissileBullet01",
           "ammo": 20,
           "weapon": "Weapon_VehicleShoot",
@@ -68083,7 +68748,10 @@
       "hp": 1620,
       "weapons": [
         {
-          "name": "Vulture (Left)",
+          "names": {
+            "ja": "バルチャー(左)",
+            "en": "Vulture (Left)"
+          },
           "type": "LaserBullet01",
           "ammo": 150,
           "weapon": "Weapon_VehicleShoot",
@@ -68097,7 +68765,10 @@
           "interval": 120
         },
         {
-          "name": "Vulture (Right)",
+          "names": {
+            "ja": "バルチャー(右)",
+            "en": "Vulture (Right)"
+          },
           "type": "LaserBullet01",
           "ammo": 150,
           "weapon": "Weapon_VehicleShoot",
@@ -68111,7 +68782,10 @@
           "interval": 120
         },
         {
-          "name": "Missiles",
+          "names": {
+            "ja": "ミサイル",
+            "en": "Missiles"
+          },
           "type": "MissileBullet01",
           "ammo": 20,
           "weapon": "Weapon_VehicleShoot",
@@ -68168,7 +68842,10 @@
       "hp": 3000,
       "weapons": [
         {
-          "name": "Autocannon (Left)",
+          "names": {
+            "ja": "機関砲(左)",
+            "en": "Autocannon (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 1800,
           "weapon": "Weapon_VehicleShoot",
@@ -68182,7 +68859,10 @@
           "interval": 3
         },
         {
-          "name": "Autocannon (Right)",
+          "names": {
+            "ja": "機関砲(右)",
+            "en": "Autocannon (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 1800,
           "weapon": "Weapon_VehicleShoot",
@@ -68196,7 +68876,10 @@
           "interval": 3
         },
         {
-          "name": "Twin Napalm Gun",
+          "names": {
+            "ja": "連装ナパーム砲",
+            "en": "Twin Napalm Gun"
+          },
           "type": "NapalmBullet01",
           "ammo": 60,
           "weapon": "Weapon_VehicleShoot",
@@ -68251,7 +68934,10 @@
       "hp": 8400,
       "weapons": [
         {
-          "name": "Vulture (Left)",
+          "names": {
+            "ja": "バルチャー(左)",
+            "en": "Vulture (Left)"
+          },
           "type": "LaserBullet01",
           "ammo": 150,
           "weapon": "Weapon_VehicleShoot",
@@ -68265,7 +68951,10 @@
           "interval": 120
         },
         {
-          "name": "Vulture (Right)",
+          "names": {
+            "ja": "バルチャー(右)",
+            "en": "Vulture (Right)"
+          },
           "type": "LaserBullet01",
           "ammo": 150,
           "weapon": "Weapon_VehicleShoot",
@@ -68279,7 +68968,10 @@
           "interval": 120
         },
         {
-          "name": "Missiles",
+          "names": {
+            "ja": "ミサイル",
+            "en": "Missiles"
+          },
           "type": "MissileBullet01",
           "ammo": 20,
           "weapon": "Weapon_VehicleShoot",
@@ -68336,7 +69028,10 @@
       "hp": 13200,
       "weapons": [
         {
-          "name": "Vulture (Left)",
+          "names": {
+            "ja": "バルチャー(左)",
+            "en": "Vulture (Left)"
+          },
           "type": "LaserBullet01",
           "ammo": 150,
           "weapon": "Weapon_VehicleShoot",
@@ -68350,7 +69045,10 @@
           "interval": 120
         },
         {
-          "name": "Vulture (Right)",
+          "names": {
+            "ja": "バルチャー(右)",
+            "en": "Vulture (Right)"
+          },
           "type": "LaserBullet01",
           "ammo": 150,
           "weapon": "Weapon_VehicleShoot",
@@ -68364,7 +69062,10 @@
           "interval": 120
         },
         {
-          "name": "Twin Napalm Gun",
+          "names": {
+            "ja": "連装ナパーム砲",
+            "en": "Twin Napalm Gun"
+          },
           "type": "NapalmBullet01",
           "ammo": 60,
           "weapon": "Weapon_VehicleShoot",
@@ -68419,7 +69120,10 @@
       "hp": 15000,
       "weapons": [
         {
-          "name": "Autocannon (Left)",
+          "names": {
+            "ja": "機関砲(左)",
+            "en": "Autocannon (Left)"
+          },
           "type": "SolidBullet01",
           "ammo": 1800,
           "weapon": "Weapon_VehicleShoot",
@@ -68433,7 +69137,10 @@
           "interval": 3
         },
         {
-          "name": "Autocannon (Right)",
+          "names": {
+            "ja": "機関砲(右)",
+            "en": "Autocannon (Right)"
+          },
           "type": "SolidBullet01",
           "ammo": 1800,
           "weapon": "Weapon_VehicleShoot",
@@ -68447,7 +69154,10 @@
           "interval": 3
         },
         {
-          "name": "Missiles",
+          "names": {
+            "ja": "ミサイル",
+            "en": "Missiles"
+          },
           "type": "MissileBullet01",
           "ammo": 20,
           "weapon": "Weapon_VehicleShoot",
@@ -68532,7 +69242,10 @@
       "hp": 715,
       "weapons": [
         {
-          "name": "Howitzer",
+          "names": {
+            "ja": "榴弾砲",
+            "en": "Howitzer"
+          },
           "type": "RocketBullet01",
           "ammo": 240,
           "weapon": "Weapon_VehicleShoot",
@@ -68618,7 +69331,10 @@
       "hp": 420,
       "weapons": [
         {
-          "name": "Guided Missile",
+          "names": {
+            "ja": "誘導ミサイル",
+            "en": "Guided Missile"
+          },
           "type": "MissileBullet01",
           "ammo": 100,
           "weapon": "Weapon_VehicleShoot",
@@ -68673,7 +69389,10 @@
       "hp": 942,
       "weapons": [
         {
-          "name": "Howitzer",
+          "names": {
+            "ja": "榴弾砲",
+            "en": "Howitzer"
+          },
           "type": "RocketBullet01",
           "ammo": 240,
           "weapon": "Weapon_VehicleShoot",
@@ -68724,7 +69443,10 @@
       "hp": 1170,
       "weapons": [
         {
-          "name": "Smooth-Bore Gun",
+          "names": {
+            "ja": "滑腔砲",
+            "en": "Smooth-Bore Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 360,
           "weapon": "Weapon_VehicleShoot",
@@ -68810,7 +69532,10 @@
       "hp": 570,
       "weapons": [
         {
-          "name": "Convergence Guided Missile Cannon",
+          "names": {
+            "ja": "収束誘導ミサイル砲",
+            "en": "Convergence Guided Missile Cannon"
+          },
           "type": "MissileBullet02",
           "ammo": 100,
           "weapon": "Weapon_VehicleShoot",
@@ -68865,7 +69590,10 @@
       "hp": 2600,
       "weapons": [
         {
-          "name": "Howitzer",
+          "names": {
+            "ja": "榴弾砲",
+            "en": "Howitzer"
+          },
           "type": "RocketBullet01",
           "ammo": 240,
           "weapon": "Weapon_VehicleShoot",
@@ -68916,7 +69644,10 @@
       "hp": 3120,
       "weapons": [
         {
-          "name": "Light Rapid-Fire Gun",
+          "names": {
+            "ja": "軽速射砲",
+            "en": "Light Rapid-Fire Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 800,
           "weapon": "Weapon_VehicleShoot",
@@ -69002,7 +69733,10 @@
       "hp": 1710,
       "weapons": [
         {
-          "name": "Guided Missile",
+          "names": {
+            "ja": "誘導ミサイル",
+            "en": "Guided Missile"
+          },
           "type": "MissileBullet01",
           "ammo": 100,
           "weapon": "Weapon_VehicleShoot",
@@ -69057,7 +69791,10 @@
       "hp": 4550,
       "weapons": [
         {
-          "name": "Smooth-Bore Gun",
+          "names": {
+            "ja": "滑腔砲",
+            "en": "Smooth-Bore Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 360,
           "weapon": "Weapon_VehicleShoot",
@@ -69143,7 +69880,10 @@
       "hp": 3900,
       "weapons": [
         {
-          "name": "Guided Missile",
+          "names": {
+            "ja": "誘導ミサイル",
+            "en": "Guided Missile"
+          },
           "type": "MissileBullet01",
           "ammo": 100,
           "weapon": "Weapon_VehicleShoot",
@@ -69198,7 +69938,10 @@
       "hp": 7150,
       "weapons": [
         {
-          "name": "Howitzer",
+          "names": {
+            "ja": "榴弾砲",
+            "en": "Howitzer"
+          },
           "type": "RocketBullet01",
           "ammo": 240,
           "weapon": "Weapon_VehicleShoot",
@@ -69319,7 +70062,10 @@
       "hp": 13650,
       "weapons": [
         {
-          "name": "Light Rapid-Fire Gun",
+          "names": {
+            "ja": "軽速射砲",
+            "en": "Light Rapid-Fire Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 800,
           "weapon": "Weapon_VehicleShoot",
@@ -69370,7 +70116,10 @@
       "hp": 6600,
       "weapons": [
         {
-          "name": "Convergence Guided Missile Cannon",
+          "names": {
+            "ja": "収束誘導ミサイル砲",
+            "en": "Convergence Guided Missile Cannon"
+          },
           "type": "MissileBullet02",
           "ammo": 100,
           "weapon": "Weapon_VehicleShoot",
@@ -69418,7 +70167,10 @@
       "hp": 500,
       "weapons": [
         {
-          "name": "Timed-Grenade Cannon",
+          "names": {
+            "ja": "時限信管榴弾砲",
+            "en": "Timed-Grenade Cannon"
+          },
           "type": "GrenadeBullet01",
           "ammo": 40,
           "weapon": "Weapon_VehicleShoot",
@@ -69471,7 +70223,10 @@
       "hp": 500,
       "weapons": [
         {
-          "name": "105mm Howitzer",
+          "names": {
+            "ja": "１０５ミリ榴弾砲",
+            "en": "105mm Howitzer"
+          },
           "type": "RocketBullet01",
           "ammo": 25,
           "weapon": "Weapon_VehicleShoot",
@@ -69522,7 +70277,10 @@
       "hp": 1000,
       "weapons": [
         {
-          "name": "90mm Smooth-Bore Gun",
+          "names": {
+            "ja": "９０ミリ滑腔砲",
+            "en": "90mm Smooth-Bore Gun"
+          },
           "type": "SolidBullet01Rail",
           "ammo": 30,
           "weapon": "Weapon_VehicleShoot",
@@ -69573,7 +70331,10 @@
       "hp": 6240,
       "weapons": [
         {
-          "name": "Requiem Cannon",
+          "names": {
+            "ja": "レクイエム砲",
+            "en": "Requiem Cannon"
+          },
           "type": "RocketBullet01",
           "ammo": 10,
           "weapon": "Weapon_VehicleShoot",
@@ -69587,7 +70348,10 @@
           "interval": 300
         },
         {
-          "name": "Howitzer",
+          "names": {
+            "ja": "榴弾砲",
+            "en": "Howitzer"
+          },
           "type": "RocketBullet01",
           "ammo": 40,
           "weapon": "Weapon_VehicleShoot",
@@ -69602,7 +70366,10 @@
           "interval": 80
         },
         {
-          "name": "Howitzer",
+          "names": {
+            "ja": "榴弾砲",
+            "en": "Howitzer"
+          },
           "type": "RocketBullet01",
           "ammo": 40,
           "weapon": "Weapon_VehicleShoot",
@@ -69617,7 +70384,10 @@
           "interval": 80
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "機関銃",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 900,
           "weapon": "Weapon_VehicleShoot",
@@ -69630,7 +70400,10 @@
           "interval": 3
         },
         {
-          "name": "Grenade Discharger (Left)",
+          "names": {
+            "ja": "グレネード射出器（左）",
+            "en": "Grenade Discharger (Left)"
+          },
           "type": "GrenadeBullet01",
           "ammo": 48,
           "weapon": "Weapon_VehicleShoot",
@@ -69646,7 +70419,10 @@
           "interval": 80
         },
         {
-          "name": "Grenade Discharger (Right)",
+          "names": {
+            "ja": "グレネード射出器（右）",
+            "en": "Grenade Discharger (Right)"
+          },
           "type": "GrenadeBullet01",
           "ammo": 48,
           "weapon": "Weapon_VehicleShoot",
@@ -69698,7 +70474,10 @@
       "hp": 1550,
       "weapons": [
         {
-          "name": "120mm Howitzer",
+          "names": {
+            "ja": "１２０ミリ榴弾砲",
+            "en": "120mm Howitzer"
+          },
           "type": "RocketBullet01",
           "ammo": 25,
           "weapon": "Weapon_VehicleShoot",
@@ -69749,7 +70528,10 @@
       "hp": 1600,
       "weapons": [
         {
-          "name": "90mm Smooth-Bore Gun",
+          "names": {
+            "ja": "９０ミリ滑腔砲",
+            "en": "90mm Smooth-Bore Gun"
+          },
           "type": "SolidBullet01Rail",
           "ammo": 30,
           "weapon": "Weapon_VehicleShoot",
@@ -69800,7 +70582,10 @@
       "hp": 1700,
       "weapons": [
         {
-          "name": "Meltgun",
+          "names": {
+            "ja": "メルトガン",
+            "en": "Meltgun"
+          },
           "type": "AcidBullet01",
           "ammo": 160,
           "weapon": "Weapon_VehicleShoot",
@@ -69850,7 +70635,10 @@
       "hp": 2000,
       "weapons": [
         {
-          "name": "115mm Long-Range Howitzer",
+          "names": {
+            "ja": "１１５ミリ長距離榴弾砲",
+            "en": "115mm Long-Range Howitzer"
+          },
           "type": "RocketBullet01",
           "ammo": 25,
           "weapon": "Weapon_VehicleShoot",
@@ -69901,7 +70689,10 @@
       "hp": 3000,
       "weapons": [
         {
-          "name": "120mm Howitzer",
+          "names": {
+            "ja": "１２０ミリ榴弾砲",
+            "en": "120mm Howitzer"
+          },
           "type": "RocketBullet01",
           "ammo": 25,
           "weapon": "Weapon_VehicleShoot",
@@ -69952,7 +70743,10 @@
       "hp": 21600,
       "weapons": [
         {
-          "name": "Requiem Cannon",
+          "names": {
+            "ja": "レクイエム砲",
+            "en": "Requiem Cannon"
+          },
           "type": "RocketBullet01",
           "ammo": 10,
           "weapon": "Weapon_VehicleShoot",
@@ -69966,7 +70760,10 @@
           "interval": 300
         },
         {
-          "name": "Smooth-Bore Gun",
+          "names": {
+            "ja": "滑腔砲",
+            "en": "Smooth-Bore Gun"
+          },
           "type": "SolidBullet01Rail",
           "ammo": 80,
           "weapon": "Weapon_VehicleShoot",
@@ -69981,7 +70778,10 @@
           "interval": 120
         },
         {
-          "name": "Smooth-Bore Gun",
+          "names": {
+            "ja": "滑腔砲",
+            "en": "Smooth-Bore Gun"
+          },
           "type": "SolidBullet01Rail",
           "ammo": 80,
           "weapon": "Weapon_VehicleShoot",
@@ -69996,7 +70796,10 @@
           "interval": 120
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "機関銃",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 900,
           "weapon": "Weapon_VehicleShoot",
@@ -70009,7 +70812,10 @@
           "interval": 3
         },
         {
-          "name": "Missile Launcher (Left)",
+          "names": {
+            "ja": "ミサイルランチャー（左）",
+            "en": "Missile Launcher (Left)"
+          },
           "type": "MissileBullet01",
           "ammo": 48,
           "weapon": "Weapon_VehicleShoot",
@@ -70028,7 +70834,10 @@
           "lockType": 1
         },
         {
-          "name": "Missile Launcher (Right)",
+          "names": {
+            "ja": "ミサイルランチャー（右）",
+            "en": "Missile Launcher (Right)"
+          },
           "type": "MissileBullet01",
           "ammo": 48,
           "weapon": "Weapon_VehicleShoot",
@@ -70083,7 +70892,10 @@
       "hp": 6200,
       "weapons": [
         {
-          "name": "90mm Smooth-Bore Gun",
+          "names": {
+            "ja": "９０ミリ滑腔砲",
+            "en": "90mm Smooth-Bore Gun"
+          },
           "type": "SolidBullet01Rail",
           "ammo": 30,
           "weapon": "Weapon_VehicleShoot",
@@ -70134,7 +70946,10 @@
       "hp": 7000,
       "weapons": [
         {
-          "name": "130mm Howitzer",
+          "names": {
+            "ja": "１３０ミリ榴弾砲",
+            "en": "130mm Howitzer"
+          },
           "type": "RocketBullet01",
           "ammo": 25,
           "weapon": "Weapon_VehicleShoot",
@@ -70185,7 +71000,10 @@
       "hp": 8500,
       "weapons": [
         {
-          "name": "125mm Long-Range Howitzer",
+          "names": {
+            "ja": "１２５ミリ長距離榴弾砲",
+            "en": "125mm Long-Range Howitzer"
+          },
           "type": "RocketBullet01",
           "ammo": 25,
           "weapon": "Weapon_VehicleShoot",
@@ -70236,7 +71054,10 @@
       "hp": 13100,
       "weapons": [
         {
-          "name": "90mm Smooth-Bore Gun",
+          "names": {
+            "ja": "９０ミリ滑腔砲",
+            "en": "90mm Smooth-Bore Gun"
+          },
           "type": "SolidBullet01Rail",
           "ammo": 30,
           "weapon": "Weapon_VehicleShoot",
@@ -70287,7 +71108,10 @@
       "hp": 11000,
       "weapons": [
         {
-          "name": "130mm Howitzer",
+          "names": {
+            "ja": "１３０ミリ榴弾砲",
+            "en": "130mm Howitzer"
+          },
           "type": "RocketBullet01",
           "ammo": 25,
           "weapon": "Weapon_VehicleShoot",
@@ -70338,7 +71162,10 @@
       "hp": 16500,
       "weapons": [
         {
-          "name": "130mm Howitzer",
+          "names": {
+            "ja": "１３０ミリ榴弾砲",
+            "en": "130mm Howitzer"
+          },
           "type": "RocketBullet01",
           "ammo": 25,
           "weapon": "Weapon_VehicleShoot",
@@ -70389,7 +71216,10 @@
       "hp": 23000,
       "weapons": [
         {
-          "name": "135mm Long-Range Howitzer",
+          "names": {
+            "ja": "１３５ミリ長距離榴弾砲",
+            "en": "135mm Long-Range Howitzer"
+          },
           "type": "RocketBullet01",
           "ammo": 25,
           "weapon": "Weapon_VehicleShoot",
@@ -70440,7 +71270,10 @@
       "hp": 110400,
       "weapons": [
         {
-          "name": "Requiem Cannon",
+          "names": {
+            "ja": "レクイエム砲",
+            "en": "Requiem Cannon"
+          },
           "type": "RocketBullet01",
           "ammo": 10,
           "weapon": "Weapon_VehicleShoot",
@@ -70454,7 +71287,10 @@
           "interval": 300
         },
         {
-          "name": "Smooth-Bore Gun",
+          "names": {
+            "ja": "滑腔砲",
+            "en": "Smooth-Bore Gun"
+          },
           "type": "SolidBullet01Rail",
           "ammo": 80,
           "weapon": "Weapon_VehicleShoot",
@@ -70469,7 +71305,10 @@
           "interval": 120
         },
         {
-          "name": "Smooth-Bore Gun",
+          "names": {
+            "ja": "滑腔砲",
+            "en": "Smooth-Bore Gun"
+          },
           "type": "SolidBullet01Rail",
           "ammo": 80,
           "weapon": "Weapon_VehicleShoot",
@@ -70484,7 +71323,10 @@
           "interval": 120
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "機関銃",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 900,
           "weapon": "Weapon_VehicleShoot",
@@ -70497,7 +71339,10 @@
           "interval": 3
         },
         {
-          "name": "Missile Launcher (Left)",
+          "names": {
+            "ja": "ミサイルランチャー（左）",
+            "en": "Missile Launcher (Left)"
+          },
           "type": "MissileBullet01",
           "ammo": 48,
           "weapon": "Weapon_VehicleShoot",
@@ -70516,7 +71361,10 @@
           "lockType": 1
         },
         {
-          "name": "Missile Launcher (Right)",
+          "names": {
+            "ja": "ミサイルランチャー（右）",
+            "en": "Missile Launcher (Right)"
+          },
           "type": "MissileBullet01",
           "ammo": 48,
           "weapon": "Weapon_VehicleShoot",
@@ -70571,7 +71419,10 @@
       "hp": 32000,
       "weapons": [
         {
-          "name": "110mm Smooth-Bore Gun",
+          "names": {
+            "ja": "１１０ミリ滑腔砲",
+            "en": "110mm Smooth-Bore Gun"
+          },
           "type": "SolidBullet01Rail",
           "ammo": 30,
           "weapon": "Weapon_VehicleShoot",
@@ -70622,7 +71473,10 @@
       "hp": 25000,
       "weapons": [
         {
-          "name": "140mm Howitzer",
+          "names": {
+            "ja": "１４０ミリ榴弾砲",
+            "en": "140mm Howitzer"
+          },
           "type": "RocketBullet01",
           "ammo": 25,
           "weapon": "Weapon_VehicleShoot",
@@ -72605,7 +73459,10 @@
       "hp": 120000,
       "weapons": [
         {
-          "name": "XE Requiem Cannon",
+          "names": {
+            "ja": "ＸＥレクイエム砲",
+            "en": "XE Requiem Cannon"
+          },
           "type": "RocketBullet01",
           "ammo": 12,
           "weapon": "Weapon_VehicleShoot",
@@ -72619,7 +73476,10 @@
           "interval": 300
         },
         {
-          "name": "Melt Streamer",
+          "names": {
+            "ja": "メルトストリーマー",
+            "en": "Melt Streamer"
+          },
           "type": "AcidBullet01",
           "ammo": 3000,
           "weapon": "Weapon_VehicleShoot",
@@ -72633,7 +73493,10 @@
           "interval": 1
         },
         {
-          "name": "Melt Streamer",
+          "names": {
+            "ja": "メルトストリーマー",
+            "en": "Melt Streamer"
+          },
           "type": "AcidBullet01",
           "ammo": 3000,
           "weapon": "Weapon_VehicleShoot",
@@ -72647,7 +73510,10 @@
           "interval": 1
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "機関銃",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 900,
           "weapon": "Weapon_VehicleShoot",
@@ -72660,7 +73526,10 @@
           "interval": 3
         },
         {
-          "name": "Grenade Discharger (Left)",
+          "names": {
+            "ja": "グレネード射出器（左）",
+            "en": "Grenade Discharger (Left)"
+          },
           "type": "GrenadeBullet01",
           "ammo": 48,
           "weapon": "Weapon_VehicleShoot",
@@ -72676,7 +73545,10 @@
           "interval": 80
         },
         {
-          "name": "Grenade Discharger (Right)",
+          "names": {
+            "ja": "グレネード射出器（右）",
+            "en": "Grenade Discharger (Right)"
+          },
           "type": "GrenadeBullet01",
           "ammo": 48,
           "weapon": "Weapon_VehicleShoot",
@@ -72728,7 +73600,10 @@
       "hp": 20000,
       "weapons": [
         {
-          "name": "FK200 Gatling Gun",
+          "names": {
+            "ja": "ＦＫ２００ガトリング砲",
+            "en": "FK200 Gatling Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 1600,
           "weapon": "Weapon_Gatling",
@@ -72741,7 +73616,10 @@
           "interval": 3
         },
         {
-          "name": "Rapid Bazooka (Left)",
+          "names": {
+            "ja": "ラピッドバズーカ砲（左）",
+            "en": "Rapid Bazooka (Left)"
+          },
           "type": "MissileBullet01",
           "ammo": 320,
           "weapon": "Weapon_VehicleShoot",
@@ -72758,7 +73636,10 @@
           "accuracy": 0
         },
         {
-          "name": "Rapid Bazooka (Right)",
+          "names": {
+            "ja": "ラピッドバズーカ砲（右）",
+            "en": "Rapid Bazooka (Right)"
+          },
           "type": "MissileBullet01",
           "ammo": 320,
           "weapon": "Weapon_VehicleShoot",
@@ -72812,7 +73693,10 @@
       "hp": 78000,
       "weapons": [
         {
-          "name": "Power Saber",
+          "names": {
+            "ja": "パワーセイバー",
+            "en": "Power Saber"
+          },
           "type": "LaserBullet01",
           "ammo": 6000,
           "weapon": "Weapon_VehicleShoot",
@@ -72826,7 +73710,10 @@
           "accuracy": 0
         },
         {
-          "name": "Power Saber",
+          "names": {
+            "ja": "パワーセイバー",
+            "en": "Power Saber"
+          },
           "type": "LaserBullet01",
           "ammo": 6000,
           "weapon": "Weapon_VehicleShoot",
@@ -72840,7 +73727,10 @@
           "accuracy": 0
         },
         {
-          "name": "Powerdyne MC (Right)",
+          "names": {
+            "ja": "パワーダインＭＣ（右）",
+            "en": "Powerdyne MC (Right)"
+          },
           "type": "LaserBullet01",
           "ammo": 8,
           "weapon": "Weapon_VehicleShoot",
@@ -72854,7 +73744,10 @@
           "accuracy": 0
         },
         {
-          "name": "Powerdyne MC (Left)",
+          "names": {
+            "ja": "パワーダインＭＣ（左）",
+            "en": "Powerdyne MC (Left)"
+          },
           "type": "LaserBullet01",
           "ammo": 8,
           "weapon": "Weapon_VehicleShoot",
@@ -75067,7 +75960,10 @@
       "hp": 15600,
       "weapons": [
         {
-          "name": "Rapid-fire Cannon",
+          "names": {
+            "ja": "散弾速射砲",
+            "en": "Rapid-fire Cannon"
+          },
           "type": "SolidBullet01",
           "ammo": 400,
           "weapon": "Weapon_VehicleShoot",
@@ -75120,7 +76016,10 @@
       "hp": 32000,
       "weapons": [
         {
-          "name": "140mm Long-Range Howitzer",
+          "names": {
+            "ja": "１４０ミリ長距離榴弾砲",
+            "en": "140mm Long-Range Howitzer"
+          },
           "type": "RocketBullet01",
           "ammo": 32,
           "weapon": "Weapon_VehicleShoot",
@@ -75172,7 +76071,10 @@
       "hp": 15000,
       "weapons": [
         {
-          "name": "Vulture (Left)",
+          "names": {
+            "ja": "バルチャー(左)",
+            "en": "Vulture (Left)"
+          },
           "type": "LaserBullet01",
           "ammo": 150,
           "weapon": "Weapon_VehicleShoot",
@@ -75186,7 +76088,10 @@
           "interval": 120
         },
         {
-          "name": "Vulture (Right)",
+          "names": {
+            "ja": "バルチャー(右)",
+            "en": "Vulture (Right)"
+          },
           "type": "LaserBullet01",
           "ammo": 150,
           "weapon": "Weapon_VehicleShoot",
@@ -75200,7 +76105,10 @@
           "interval": 120
         },
         {
-          "name": "Twin Napalm Gun",
+          "names": {
+            "ja": "連装ナパーム砲",
+            "en": "Twin Napalm Gun"
+          },
           "type": "NapalmBullet01",
           "ammo": 60,
           "weapon": "Weapon_VehicleShoot",
@@ -75292,7 +76200,10 @@
       "hp": 90000,
       "weapons": [
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 1250,
           "weapon": "Weapon_VehicleShoot",
@@ -75305,7 +76216,10 @@
           "interval": 2
         },
         {
-          "name": "Machine Gun",
+          "names": {
+            "ja": "マシンガン",
+            "en": "Machine Gun"
+          },
           "type": "SolidBullet01",
           "ammo": 1250,
           "weapon": "Weapon_VehicleShoot",
@@ -75318,7 +76232,10 @@
           "interval": 2
         },
         {
-          "name": "Explosion (Right)",
+          "names": {
+            "ja": "エクスプロージョン（右）",
+            "en": "Explosion (Right)"
+          },
           "type": "GrenadeBullet01",
           "ammo": 10,
           "weapon": "Weapon_VehicleShoot",

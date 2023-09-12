@@ -1000,6 +1000,9 @@ const headers = [{
   tooltip: 'Ammo Capacity',
   starProp: 'ammo',
   cb: wpn => {
+    if(wpn.total) {
+      return wpn.total
+    }
     if(wpn.shieldDurability) {
       return `${Math.round(wpn.shieldDurability * 100)}%`
     }
@@ -1772,6 +1775,9 @@ const headers = [{
   label: 'Total',
   tooltip: 'Total Damage',
   cb: wpn => {
+    if(wpn.total) {
+      return wpn.total
+    }
     if(wpn.attacks?.length) {
       const attacks = wpn.attacks.map(a => a.damage * wpn.damage)
       const dump = Array(wpn.ammo)

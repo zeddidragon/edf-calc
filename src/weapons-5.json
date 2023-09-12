@@ -367,6 +367,145 @@
             ]
           }
         ]
+      },
+      {
+        "category": "equipment",
+        "names": {
+          "en": "Support Equipment",
+          "ja": "補助装備"
+        },
+        "tables": [
+          {
+            "subCategory": "armor",
+            "names": {
+              "en": "Armor",
+              "ja": "プロテクター"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "knockdownImmunity",
+              "speed",
+              "hitSlowdown",
+              "sprintBreakObstacles",
+              "sprintSpeedBoost",
+              "sprintTurnBoost",
+              "sprintAccelerationBoost",
+              "sprintHitSlowdown"
+            ]
+          },
+          {
+            "subCategory": "lock",
+            "names": {
+              "en": "Lock-On Devices",
+              "ja": "レーダー支援システム"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "lockSpeedBoost",
+              "lockRangeBoost",
+              "lockMulti"
+            ]
+          },
+          {
+            "subCategory": "probe",
+            "names": {
+              "en": "Probe / Relief Assistance",
+              "ja": "救護支援装備"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "healAllyBoost",
+              "probeRadius"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "tank",
+        "names": {
+          "en": "Tanks",
+          "ja": "戦闘車両"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "reload",
+          "hp",
+          "ammo",
+          "piercing",
+          "damage",
+          "radius",
+          "interval",
+          "accuracy",
+          "range",
+          "speed",
+          "dps",
+          "total"
+        ]
+      },
+      {
+        "category": "bike",
+        "names": {
+          "en": "Bikes",
+          "ja": "バイク"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "reload",
+          "hp",
+          "fuel",
+          "fuelUse",
+          "ammo",
+          "piercing",
+          "damage",
+          "radius",
+          "interval",
+          "accuracy",
+          "lockTime",
+          "range",
+          "speed",
+          "dps",
+          "total"
+        ]
+      },
+      {
+        "category": "heli",
+        "names": {
+          "en": "Helicopters",
+          "ja": "ヘリ"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "reload",
+          "hp",
+          "fuel",
+          "fuelUse",
+          "ammo",
+          "piercing",
+          "damage",
+          "radius",
+          "interval",
+          "accuracy",
+          "lockTime",
+          "range",
+          "speed",
+          "dps",
+          "total"
+        ]
       }
     ],
     "winger": [
@@ -559,6 +698,31 @@
           "tdps",
           "total"
         ]
+      },
+      {
+        "category": "core",
+        "names": {
+          "en": "Cores",
+          "ja": "プラズマコア"
+        },
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "energy",
+          "chargeRate",
+          "chargeEmergencyRate",
+          "energyUse",
+          "boostUse",
+          "speed",
+          "flightBoost",
+          "dashForwardBoost",
+          "dashBackwardBoost",
+          "dashSideBoost",
+          "airControl",
+          "reloadBoost"
+        ]
       }
     ],
     "fencer": [
@@ -725,6 +889,70 @@
           "tdps",
           "tdps2",
           "total"
+        ]
+      },
+      {
+        "category": "booster",
+        "names": {
+          "en": "Enhanced Boosters",
+          "ja": "補助装備"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "dashCount",
+          "boostCount",
+          "dashCooldown",
+          "boostSpeed"
+        ]
+      },
+      {
+        "category": "protector",
+        "names": {
+          "en": "Enhanced Shields",
+          "ja": "シールド強化"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "ammo",
+          "defense",
+          "range",
+          "shieldUse",
+          "shieldReflectUse",
+          "shieldKnockback"
+        ]
+      },
+      {
+        "category": "muzzle",
+        "names": {
+          "en": "Enhanced Cannons",
+          "ja": "砲撃強化"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "recoil"
+        ]
+      },
+      {
+        "category": "exo",
+        "names": {
+          "en": "Enhanced Exoskeleton",
+          "ja": "スケルトン強化"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "speed",
+          "dashCount",
+          "equipWalkReduction",
+          "equipTurnReduction",
+          "recoil"
         ]
       }
     ],
@@ -18280,7 +18508,8 @@
       "lockTime": 0,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1
+      "reload": -1,
+      "subCategory": "armor"
     },
     {
       "id": "aWeapon242",
@@ -18311,7 +18540,8 @@
       "lockDist": 0,
       "reload": -1,
       "walkSpeed": 1.15,
-      "sprintSpeed": 1.2
+      "sprintSpeed": 1.2,
+      "subCategory": "armor"
     },
     {
       "id": "aWeapon243",
@@ -18341,7 +18571,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "hitSlowdown": 0.5
+      "hitSlowdown": 0.5,
+      "subCategory": "armor"
     },
     {
       "id": "aWeapon244",
@@ -18371,7 +18602,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "sprintDestruction": true
+      "sprintDestruction": true,
+      "subCategory": "armor"
     },
     {
       "id": "aWeapon245",
@@ -18403,7 +18635,8 @@
       "reload": -1,
       "walkSpeed": 1.15,
       "sprintSpeed": 1.2,
-      "sprintDestruction": true
+      "sprintDestruction": true,
+      "subCategory": "armor"
     },
     {
       "id": "aWeapon246",
@@ -18435,7 +18668,8 @@
       "reload": -1,
       "walkSpeed": 1.15,
       "sprintSpeed": 1.2,
-      "hitSlowdown": 0.5
+      "hitSlowdown": 0.5,
+      "subCategory": "armor"
     },
     {
       "id": "aWeapon247",
@@ -18469,7 +18703,8 @@
       "sprintSwirl": 0.25,
       "sprintAcceleration": 0.4,
       "sprintDestruction": true,
-      "sprintHitSlowdown": 0.5
+      "sprintHitSlowdown": 0.5,
+      "subCategory": "armor"
     },
     {
       "id": "aWeapon248",
@@ -18502,7 +18737,8 @@
       "walkSpeed": 1.25,
       "sprintSpeed": 1.3,
       "sprintAcceleration": 2,
-      "sprintSwirl": 1.25
+      "sprintSwirl": 1.25,
+      "subCategory": "armor"
     },
     {
       "id": "aWeapon249",
@@ -18532,7 +18768,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "hitSlowdown": 0
+      "hitSlowdown": 0,
+      "subCategory": "armor"
     },
     {
       "id": "aWeapon250",
@@ -18565,7 +18802,8 @@
       "walkSpeed": 1.15,
       "sprintSpeed": 1.2,
       "sprintDestruction": true,
-      "hitSlowdown": 0.5
+      "hitSlowdown": 0.5,
+      "subCategory": "armor"
     },
     {
       "id": "aWeapon251",
@@ -18595,7 +18833,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "isKnockImmune": true
+      "isKnockImmune": true,
+      "subCategory": "armor"
     },
     {
       "id": "aWeapon252",
@@ -18629,7 +18868,8 @@
       "sprintSpeed": 1.3,
       "sprintAcceleration": 2,
       "sprintSwirl": 1.25,
-      "sprintDestruction": true
+      "sprintDestruction": true,
+      "subCategory": "armor"
     },
     {
       "id": "aWeapon253",
@@ -18663,7 +18903,8 @@
       "sprintSwirl": 0.5,
       "sprintAcceleration": 0.7,
       "sprintDestruction": true,
-      "sprintHitSlowdown": 0.25
+      "sprintHitSlowdown": 0.25,
+      "subCategory": "armor"
     },
     {
       "id": "aWeapon254",
@@ -18696,7 +18937,8 @@
       "walkSpeed": 1.25,
       "sprintSpeed": 1.3,
       "sprintAcceleration": 2,
-      "hitSlowdown": 0.5
+      "hitSlowdown": 0.5,
+      "subCategory": "armor"
     },
     {
       "id": "aWeapon255",
@@ -18729,7 +18971,8 @@
       "walkSpeed": 1.32,
       "sprintSpeed": 1.4,
       "sprintAcceleration": 3,
-      "sprintSwirl": 1.5
+      "sprintSwirl": 1.5,
+      "subCategory": "armor"
     },
     {
       "id": "aWeapon256",
@@ -18764,7 +19007,8 @@
       "sprintAcceleration": 2,
       "sprintSwirl": 1.25,
       "sprintDestruction": true,
-      "isKnockImmune": true
+      "isKnockImmune": true,
+      "subCategory": "armor"
     },
     {
       "id": "aWeapon257",
@@ -18798,7 +19042,8 @@
       "sprintSwirl": 0.75,
       "sprintAcceleration": 1,
       "sprintDestruction": true,
-      "sprintHitSlowdown": 0
+      "sprintHitSlowdown": 0,
+      "subCategory": "armor"
     },
     {
       "id": "aWeapon258",
@@ -18832,7 +19077,8 @@
       "sprintSpeed": 1.4,
       "sprintAcceleration": 3,
       "sprintSwirl": 1.5,
-      "sprintHitSlowdown": 0.5
+      "sprintHitSlowdown": 0.5,
+      "subCategory": "armor"
     },
     {
       "id": "aWeapon259",
@@ -18866,7 +19112,8 @@
       "sprintSpeed": 1.5,
       "sprintAcceleration": 4,
       "sprintSwirl": 2,
-      "sprintDestruction": true
+      "sprintDestruction": true,
+      "subCategory": "armor"
     },
     {
       "id": "aWeapon260",
@@ -18896,7 +19143,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "isMultiLock": true
+      "isMultiLock": true,
+      "subCategory": "lock"
     },
     {
       "id": "aWeapon261",
@@ -18925,7 +19173,8 @@
       "lockTime": 1.5,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1
+      "reload": -1,
+      "subCategory": "lock"
     },
     {
       "id": "aWeapon262",
@@ -18955,7 +19204,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "isMultiLock": true
+      "isMultiLock": true,
+      "subCategory": "lock"
     },
     {
       "id": "aWeapon263",
@@ -18984,7 +19234,8 @@
       "lockTime": 2,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1
+      "reload": -1,
+      "subCategory": "lock"
     },
     {
       "id": "aWeapon264",
@@ -19014,7 +19265,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "isMultiLock": true
+      "isMultiLock": true,
+      "subCategory": "lock"
     },
     {
       "id": "aWeapon265",
@@ -19043,7 +19295,8 @@
       "lockTime": 3,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1
+      "reload": -1,
+      "subCategory": "lock"
     },
     {
       "id": "aWeapon266",
@@ -19073,7 +19326,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "isMultiLock": true
+      "isMultiLock": true,
+      "subCategory": "lock"
     },
     {
       "id": "aWeapon267",
@@ -19102,7 +19356,8 @@
       "lockTime": 4,
       "lockType": 0,
       "lockDist": 0,
-      "reload": -1
+      "reload": -1,
+      "subCategory": "lock"
     },
     {
       "id": "aWeapon268",
@@ -19132,7 +19387,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "allyRecovery": 1.1
+      "allyRecovery": 1.1,
+      "subCategory": "probe"
     },
     {
       "id": "aWeapon269",
@@ -19162,7 +19418,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "allyRecovery": 1.25
+      "allyRecovery": 1.25,
+      "subCategory": "probe"
     },
     {
       "id": "aWeapon270",
@@ -19192,7 +19449,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "allyRecovery": 1.5
+      "allyRecovery": 1.5,
+      "subCategory": "probe"
     },
     {
       "id": "aWeapon271",
@@ -19222,7 +19480,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "allyRecovery": 2
+      "allyRecovery": 2,
+      "subCategory": "probe"
     },
     {
       "id": "aWeapon272",
@@ -19252,7 +19511,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "allyRecovery": 2.5
+      "allyRecovery": 2.5,
+      "subCategory": "probe"
     },
     {
       "id": "DLC_aSupport_pickup",
@@ -19283,7 +19543,8 @@
       "lockDist": 0,
       "reload": -1,
       "itemRange": 2.5,
-      "allyRecovery": 1.1
+      "allyRecovery": 1.1,
+      "subCategory": "probe"
     },
     {
       "id": "aWeapon273",
@@ -19313,7 +19574,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "itemRange": 2
+      "itemRange": 2,
+      "subCategory": "probe"
     },
     {
       "id": "aWeapon274",
@@ -19343,7 +19605,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "itemRange": 3
+      "itemRange": 3,
+      "subCategory": "probe"
     },
     {
       "id": "aWeapon275",
@@ -19373,7 +19636,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "itemRange": 5
+      "itemRange": 5,
+      "subCategory": "probe"
     },
     {
       "id": "aWeapon276",
@@ -19403,7 +19667,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "itemRange": 7
+      "itemRange": 7,
+      "subCategory": "probe"
     },
     {
       "id": "aWeapon277",
@@ -19433,7 +19698,8 @@
       "lockType": 0,
       "lockDist": 0,
       "reload": -1,
-      "itemRange": 11
+      "itemRange": 11,
+      "subCategory": "probe"
     },
     {
       "id": "DLC_Vehicle_Bike",
@@ -71956,7 +72222,8 @@
       "sprintSpeed": 1.4,
       "sprintAcceleration": 3,
       "sprintSwirl": 1.5,
-      "sprintHitSlowdown": 0.8
+      "sprintHitSlowdown": 0.8,
+      "subCategory": "armor"
     },
     {
       "id": "EX_A_Weapon008",
@@ -74285,7 +74552,8 @@
       "lockDist": 0,
       "reload": -1,
       "allyRecovery": 3.5,
-      "itemRange": 9
+      "itemRange": 9,
+      "subCategory": "probe"
     },
     {
       "id": "EX_B_Weapon009",
@@ -74321,7 +74589,8 @@
       "sprintAcceleration": 4,
       "sprintSwirl": 1.5,
       "sprintHitSlowdown": 0.5,
-      "sprintDestruction": true
+      "sprintDestruction": true,
+      "subCategory": "armor"
     },
     {
       "id": "EX_B_Weapon010",

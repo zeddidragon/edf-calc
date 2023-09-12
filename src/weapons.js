@@ -1276,9 +1276,9 @@ const headers = [{
     return +wpn.energy.toFixed(1)
   },
 }, {
-  id: 'chargeBoost',
+  id: 'chargeRate',
   label: 'Chg',
-  tooltip: 'Charge Speed',
+  tooltip: 'Charge Rate',
   cb: wpn => {
     const {
       baseEnergy: nrg = wpn.energy,
@@ -1287,9 +1287,9 @@ const headers = [{
     return (nrg * spd * FPS * 0.001).toFixed(1)
   },
 }, {
-  id: 'chargeEmergencyBoost',
+  id: 'chargeEmergencyRate',
   label: 'Em.C',
-  tooltip: 'Emergency Charge Speed',
+  tooltip: 'Emergency Charge Rate',
   starProp: 'energy',
   cb: wpn => {
     const {
@@ -1524,6 +1524,7 @@ const headers = [{
     return '-'
   },
 }, {
+  id: 'sprintBreakObstacles',
   label: 'Break',
   tooltip: 'Obstacle Destruction During Sprint',
   cb: wpn => {
@@ -1553,6 +1554,7 @@ const headers = [{
     return `${wpn.lockRange}x`
   },
 }, {
+  id: 'lockMulti',
   label: 'Multi',
   tooltip: 'Multi Lock',
   cb: wpn => {
@@ -1562,6 +1564,7 @@ const headers = [{
     return '-'
   },
 }, {
+  id: 'dashCount',
   label: 'Dash',
   tooltip: 'Dash Count',
   cb: wpn => {
@@ -1571,6 +1574,7 @@ const headers = [{
     return '-'
   },
 }, {
+  id: 'boostCount',
   label: 'Boost',
   tooltip: 'Boost Count',
   cb: wpn => {
@@ -1580,6 +1584,7 @@ const headers = [{
     return '-'
   },
 }, {
+  id: 'dashCooldown',
   label: 'D.CD',
   tooltip: 'Dash Cooldown',
   cb: wpn => {
@@ -1589,6 +1594,7 @@ const headers = [{
     return '-'
   },
 }, {
+  id: 'boostSpeed',
   label: 'B.Spd',
   tooltip: 'Boost Speed',
   cb: wpn => {
@@ -1598,6 +1604,7 @@ const headers = [{
     return '-'
   },
 }, {
+  id: 'shieldUse',
   label: 'Cns',
   tooltip: 'Shield Consumption',
   cb: wpn => {
@@ -1607,6 +1614,7 @@ const headers = [{
     return '-'
   },
 }, {
+  id: 'shieldReflectUse',
   label: 'Rf.Cns',
   tooltip: 'Shield Reflect Consumption',
   cb: wpn => {
@@ -1616,6 +1624,7 @@ const headers = [{
     return '-'
   },
 }, {
+  id: 'shieldKnockback',
   label: 'KB',
   tooltip: 'Shield Knockback',
   cb: wpn => {
@@ -1625,6 +1634,7 @@ const headers = [{
     return '-'
   },
 }, {
+  id: 'equipWalkReduction',
   label: 'Eq.Walk',
   tooltip: 'Equip Weight Move Speed Reduction',
   cb: wpn => {
@@ -1634,6 +1644,7 @@ const headers = [{
     return '-'
   },
 }, {
+  id: 'equipTurnReduction',
   label: 'Eq.Turn',
   tooltip: 'Equip Weight Turn Speed Reduction',
   cb: wpn => {
@@ -1643,6 +1654,7 @@ const headers = [{
     return '-'
   },
 }, {
+  id: 'recoil',
   label: 'Stability',
   cb: wpn => {
     if(wpn.equipRecoil != null) {

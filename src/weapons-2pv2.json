@@ -815,7 +815,6 @@
               "checkbox",
               "level",
               "name",
-              "accuracy",
               "range"
             ]
           },
@@ -830,10 +829,7 @@
               "level",
               "name",
               "ammo",
-              "interval",
-              "accuracy",
-              "range",
-              "speed"
+              "range"
             ]
           }
         ]
@@ -1176,6 +1172,7 @@
       "range": 450,
       "zoom": 4,
       "remarks": "初期装備",
+      "subCategory": "laser",
       "names": {
         "en": "Laser Guide Kit N450",
         "ja": "レーザー誘導装置N450"
@@ -1877,6 +1874,7 @@
       "ammo": 2,
       "range": 400,
       "zoom": 4,
+      "subCategory": "beacon",
       "names": {
         "en": "Guide Beacon Gun M1",
         "ja": "誘導ビーコンガンM1"
@@ -2701,6 +2699,7 @@
       "level": 6,
       "range": 600,
       "zoom": 4,
+      "subCategory": "laser",
       "names": {
         "en": "Laser Guide Kit N600",
         "ja": "レーザー誘導装置N600"
@@ -3849,6 +3848,7 @@
       "ammo": 1,
       "range": 700,
       "zoom": 4,
+      "subCategory": "beacon",
       "names": {
         "en": "Guide Beacon Gun LA",
         "ja": "誘導ビーコンガンLA"
@@ -6181,6 +6181,7 @@
       "level": 34,
       "range": 700,
       "zoom": 4,
+      "subCategory": "laser",
       "names": {
         "en": "Laser Guide Kit N700",
         "ja": "レーザー誘導装置N700"
@@ -6731,6 +6732,7 @@
       "ammo": 3,
       "range": 500,
       "zoom": 4,
+      "subCategory": "beacon",
       "names": {
         "en": "Guide Beacon Gun M2",
         "ja": "誘導ビーコンガンM2"
@@ -7836,6 +7838,7 @@
       "ammo": 4,
       "range": 600,
       "zoom": 4,
+      "subCategory": "beacon",
       "names": {
         "en": "Guide Beacon Gun M3",
         "ja": "誘導ビーコンガンM3"
@@ -8319,6 +8322,7 @@
       "level": 57,
       "range": 800,
       "zoom": 4,
+      "subCategory": "laser",
       "names": {
         "en": "Laser Guide Kit N800",
         "ja": "レーザー誘導装置N800"
@@ -9015,6 +9019,7 @@
       "ammo": 2,
       "range": 1000,
       "zoom": 4,
+      "subCategory": "beacon",
       "names": {
         "en": "Guide Beacon Gun LX",
         "ja": "誘導ビーコンガンLX"
@@ -10230,6 +10235,7 @@
       "ammo": 4,
       "range": 700,
       "zoom": 4,
+      "subCategory": "beacon",
       "names": {
         "en": "Guide Beacon Gun MA",
         "ja": "誘導ビーコンガンMA"
@@ -10622,6 +10628,7 @@
       "level": 81,
       "range": 1000,
       "zoom": 4,
+      "subCategory": "laser",
       "names": {
         "en": "Laser Guide Kit N1000",
         "ja": "レーザー誘導装置N1000"

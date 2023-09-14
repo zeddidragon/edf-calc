@@ -565,6 +565,87 @@
         ]
       },
       {
+        "category": "limpet",
+        "names": {
+          "en": "Limpet Guns",
+          "ja": "リムペットガン"
+        },
+        "headers": [
+          "checkbox",
+          "level",
+          "name",
+          "ammo",
+          "damage",
+          "radius",
+          "interval",
+          "reload",
+          "accuracy",
+          "range",
+          "dps",
+          "tdps",
+          "total"
+        ]
+      },
+      {
+        "category": "deploy",
+        "names": {
+          "en": "Umanned Weapons",
+          "ja": "設置兵器"
+        },
+        "tables": [
+          {
+            "subCategory": "roomba",
+            "names": {
+              "en": "Roller Bombs",
+              "ja": "ローラーボム"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "radius",
+              "reload",
+              "total"
+            ]
+          },
+          {
+            "subCategory": "patroller",
+            "names": {
+              "en": "Patrollers",
+              "ja": "パトローラー"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "reload",
+              "total"
+            ]
+          },
+          {
+            "subCategory": "turret",
+            "names": {
+              "en": "Automatic Turrets",
+              "ja": "ZE-GUNシリーズ"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "shots",
+              "reload",
+              "total"
+            ]
+          }
+        ]
+      },
+      {
         "category": "support",
         "names": {
           "en": "Support Equipment",
@@ -624,71 +705,6 @@
               "radius",
               "duration",
               "reload"
-            ]
-          }
-        ]
-      },
-      {
-        "category": "limpet",
-        "names": {
-          "en": "Limpet Guns",
-          "ja": "リムペットガン"
-        },
-        "headers": [
-          "checkbox",
-          "level",
-          "name",
-          "ammo",
-          "damage",
-          "radius",
-          "interval",
-          "reload",
-          "accuracy",
-          "range",
-          "dps",
-          "tdps",
-          "total"
-        ]
-      },
-      {
-        "category": "deploy",
-        "names": {
-          "en": "Stationary Weapons",
-          "ja": "設置兵器"
-        },
-        "tables": [
-          {
-            "subCategory": "bomb",
-            "names": {
-              "en": "Bombs",
-              "ja": "ローラーボムシリーズ"
-            },
-            "headers": [
-              "checkbox",
-              "level",
-              "name",
-              "ammo",
-              "damage",
-              "radius",
-              "reload",
-              "total"
-            ]
-          },
-          {
-            "subCategory": "turret",
-            "names": {
-              "en": "Automatic Turrets",
-              "ja": "ZE-GUNシリーズ"
-            },
-            "headers": [
-              "checkbox",
-              "level",
-              "name",
-              "ammo",
-              "damage",
-              "shots",
-              "reload",
-              "total"
             ]
           }
         ]
@@ -1081,24 +1097,6 @@
       }
     },
     {
-      "id": "bomber-support-1",
-      "idx": 1,
-      "idxAdjust": "0",
-      "character": "bomber",
-      "category": "support",
-      "level": 0,
-      "ammo": 3,
-      "recoveryAmount": 0.12,
-      "radius": 12,
-      "durationSeconds": 60,
-      "remarks": "総回復量432",
-      "subCategory": "life",
-      "names": {
-        "en": "Life Vendor",
-        "ja": "ライフベンダー"
-      }
-    },
-    {
       "id": "bomber-limpet-1",
       "idx": 1,
       "idxAdjust": "0",
@@ -1114,6 +1112,24 @@
       "names": {
         "en": "Limpet Guns",
         "ja": "リムペットガン"
+      }
+    },
+    {
+      "id": "bomber-support-1",
+      "idx": 1,
+      "idxAdjust": "0",
+      "character": "bomber",
+      "category": "support",
+      "level": 0,
+      "ammo": 3,
+      "recoveryAmount": 0.12,
+      "radius": 12,
+      "durationSeconds": 60,
+      "remarks": "総回復量432",
+      "subCategory": "life",
+      "names": {
+        "en": "Life Vendor",
+        "ja": "ライフベンダー"
       }
     },
     {
@@ -3150,7 +3166,7 @@
       "damage": 300,
       "radius": 10,
       "reloadSeconds": 3.7,
-      "subCategory": "bomb",
+      "subCategory": "roomba",
       "names": {
         "en": "Roller Bomb",
         "ja": "ローラーボム"
@@ -5466,7 +5482,7 @@
       "damage": 800,
       "radius": 12,
       "reloadSeconds": 4,
-      "subCategory": "bomb",
+      "subCategory": "roomba",
       "names": {
         "en": "Roller Bomb D",
         "ja": "ローラーボムD"
@@ -6511,7 +6527,7 @@
       "patrollerRange": 30,
       "reloadSeconds": 4,
       "zoom": 4,
-      "subCategory": "bomb",
+      "subCategory": "patroller",
       "names": {
         "en": "Patroller",
         "ja": "パトローラー"
@@ -7858,7 +7874,7 @@
       "damage": 1500,
       "radius": 15,
       "reloadSeconds": 3,
-      "subCategory": "bomb",
+      "subCategory": "roomba",
       "names": {
         "en": "Roller Bomb D2",
         "ja": "ローラーボムD2"
@@ -8625,7 +8641,7 @@
       "reloadSeconds": 4,
       "zoom": 4,
       "remarks": "とても速い玩具",
-      "subCategory": "bomb",
+      "subCategory": "patroller",
       "names": {
         "en": "Speed Star",
         "ja": "スピードスター"
@@ -10012,7 +10028,7 @@
       "damage": 2500,
       "radius": 17,
       "reloadSeconds": 3,
-      "subCategory": "bomb",
+      "subCategory": "roomba",
       "names": {
         "en": "Roller Bomb DZ",
         "ja": "ローラーボムDZ"
@@ -10645,7 +10661,7 @@
       "patrollerRange": 50,
       "reloadSeconds": 4,
       "zoom": 4,
-      "subCategory": "bomb",
+      "subCategory": "patroller",
       "names": {
         "en": "Patroller DA",
         "ja": "パトローラーDA"
@@ -11348,7 +11364,7 @@
       "zoom": 4,
       "remarks": "開始直後は要請不可 初期値4000pts",
       "names": {
-        "en": "Divine Edicts",
+        "en": "Divine Edict",
         "ja": "ルール オブ ゴッド"
       }
     },

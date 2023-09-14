@@ -665,7 +665,7 @@
       {
         "category": "support",
         "names": {
-          "en": "Support Equipment",
+          "en": "Support Gear",
           "ja": "サポート装置"
         },
         "tables": [
@@ -688,6 +688,23 @@
               "dps2",
               "total",
               "total2"
+            ]
+          },
+          {
+            "subCategory": "plasma",
+            "names": {
+              "en": "Plasma Chargers",
+              "ja": "プラズマチャージャー"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "radius",
+              "duration",
+              "reload"
             ]
           },
           {

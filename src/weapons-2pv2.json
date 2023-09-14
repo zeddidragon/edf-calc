@@ -642,6 +642,23 @@
               "reload",
               "total"
             ]
+          },
+          {
+            "subCategory": "beetle",
+            "names": {
+              "en": "Assault Beetles",
+              "ja": "アサルトビートル"
+            },
+            "headers": [
+              "checkbox",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "radius",
+              "reload",
+              "total"
+            ]
           }
         ]
       },
@@ -3586,7 +3603,7 @@
       "damage": 400,
       "reloadSeconds": 5,
       "radius": 8,
-      "subCategory": "bomb",
+      "subCategory": "beetle",
       "names": {
         "en": "Assault Beetle",
         "ja": "アサルトビートル"
@@ -6986,7 +7003,7 @@
       "damage": 800,
       "reloadSeconds": 5,
       "radius": 15,
-      "subCategory": "bomb",
+      "subCategory": "beetle",
       "names": {
         "en": "Assault BeetleDA",
         "ja": "アサルトビートルDA"
@@ -8508,7 +8525,7 @@
       "damage": 2000,
       "reloadSeconds": 5,
       "radius": 12,
-      "subCategory": "bomb",
+      "subCategory": "beetle",
       "names": {
         "en": "Stag Beetle",
         "ja": "スタグビートル"
@@ -8643,7 +8660,7 @@
       "remarks": "とても速い玩具",
       "subCategory": "patroller",
       "names": {
-        "en": "Speed Star",
+        "en": "Speedster",
         "ja": "スピードスター"
       }
     },

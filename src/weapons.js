@@ -7,6 +7,23 @@ let charLabels
 let charHeaders
 let langs
 
+function localize(prop, fallback) {
+  if(typeof prop === 'string') {
+    return prop
+  }
+  if(!prop) {
+    return fallback
+  }
+  if(prop[active.lang]) {
+    return prop[active.lang]
+  }
+  if(fallback) {
+    return fallback
+  }
+  const [key] = Object.keys(prop)
+  return prop[key]
+}
+
 const stateKeys = [
   'game',
   'mode',
@@ -274,7 +291,7 @@ function pickChar(ch, cat) {
   }
   const lang = active.lang || 'en'
   for(const cat of categories) {
-    const label = cat.names[lang]
+    const label = localize(cat.names)
     const li = $('a')
     styleButton({
       button: li,
@@ -307,7 +324,7 @@ function pickCategory(ch, cat) {
   const cutPoint = ['spear', 'hammer'].includes(cat.category) ? 4 : 2
   styleButton({
     button,
-    label: cat.names[active.lang || 'en'] || '',
+    label: localize(cat.names),
     cls: cat.category,
   })
 
@@ -713,7 +730,7 @@ function populateWeaponStats(ch, cat) {
     }
     */
     if(tables.length > 1) {
-      const name = table.names[lang]
+      const name = localize(table.names)
       const h = $('h3')
       h.textContent = name
       weaponTables.appendChild(h)
@@ -942,9 +959,18 @@ const headers = [{
   cb: wpn => {
     const el = $('div')
     el.classList.add('name')
-    const name = wpn.names ? wpn.names[active.lang || 'en'] : wpn.name
+    const name = localize(wpn.names, wpn.name)
     el.textContent += name
     return el
+  },
+}, {
+  id: 'fuseType',
+  label: 'Fuse',
+  cb: wpn => {
+    if(!wpn.fuseType) {
+      return '-'
+    }
+    return localize(wpn.fuseType)
   },
 }, {
   id: 'dropWeight',
@@ -1077,6 +1103,12 @@ const headers = [{
   starProp: 'damage',
   starProp2: 'count',
   cb: wpn => {
+    if(wpn.damageRank) {
+      return localize(wpn.damageRank)
+    }
+    if(wpn.recoveryAmount) {
+      return wpn.recoveryAmount
+    }
     if(!wpn.damage) {
       return '-'
     }
@@ -1154,6 +1186,10 @@ const headers = [{
   label: 'Dur',
   tooltip: 'Duration',
   cb: wpn => {
+    const seconds = wpn.fuseSeconds || wpn.durationSeconds
+    if(seconds) {
+      return seconds
+    }
     const duration = wpn.fuse || wpn.duration
     if(!duration) return '-'
     return +(duration / FPS).toFixed(1)
@@ -1263,6 +1299,9 @@ const headers = [{
   tooltip: 'Accuracy',
   starProp: 'accuracy',
   cb: wpn => {
+    if(wpn.accuracyRank) {
+      return wpn.accuracyRank
+    }
     if(!wpn.speed) return '-'
     if(wpn.accuracy == null) return '-'
     return [
@@ -1287,6 +1326,15 @@ const headers = [{
       [1.6, 'L'],
       [Infinity, 'Z'],
     ].find(([a]) => a >= wpn.accuracy)[1]
+  },
+}, {
+  id: 'zoom',
+  label: 'Zoom',
+  cb: wpn => {
+    if(!wpn.zoom) {
+      return '-'
+    }
+    return `${+wpn.zoom.toFixed(1)}x`
   },
 }, {
   id: 'energy',
@@ -1362,6 +1410,9 @@ const headers = [{
   tooltip: 'Range',
   starProp: 'speed',
   cb: wpn => {
+    if(wpn.range) {
+      return wpn.range
+    }
     if(wpn.searchRange) {
       return wpn.searchRange
     }
@@ -1711,6 +1762,9 @@ const headers = [{
   label: 'DPS',
   tooltip: 'Damage Per Second',
   cb: wpn => {
+    if(wpn.recoveryAmount) {
+      return (wpn.recoveryAmount * FPS).toFixed(1)
+    }
     if(!wpn.damage) {
       return '-'
     }
@@ -1750,6 +1804,9 @@ const headers = [{
   label: 'DPS*',
   tooltip: 'Damage Per Second*',
   cb: wpn => {
+    if(wpn.recoveryAmount) {
+      return (wpn.ammo * wpn.recoveryAmount * FPS).toFixed(1)
+    }
     if(wpn.category === 'support') {
       if(!['life', 'plasma'].includes(wpn.supportType)) {
         return '-'
@@ -1786,6 +1843,10 @@ const headers = [{
     if(!wpn.damage) {
       return '-'
     }
+    if(!wpn.ammo && wpn.reloadSeconds) {
+      const dmg = burstDamage(wpn)
+      return (dmg / wpn.reloadSeconds).toFixed(1)
+    }
     if(!wpn.ammo) {
       return '-'
     }
@@ -1796,7 +1857,7 @@ const headers = [{
       return '-'
     }
     if(wpn.rof) {
-      const duration = wpn.ammo / wpn.rof + wpn.reloadSeconds
+      const duration = wpn.ammo / wpn.rof + (wpn.reloadSeconds || 0)
       return ((wpn.damage * wpn.ammo) / duration).toFixed(1)
     }
     if(wpn.shotInterval) { // Turret
@@ -1831,6 +1892,9 @@ const headers = [{
   label: 'Total',
   tooltip: 'Total Damage',
   cb: wpn => {
+    if(wpn.recoveryAmount) {
+      return +(wpn.recoveryAmount * wpn.durationSeconds * FPS).toFixed()
+    }
     if(wpn.total) {
       return wpn.total
     }
@@ -1843,9 +1907,6 @@ const headers = [{
       return +(dump * (wpn.count || 1)).toFixed(1)
     }
     if(!wpn.damage) {
-      return '-'
-    }
-    if(!wpn.ammo) {
       return '-'
     }
     if(wpn.category === 'support') {
@@ -1869,6 +1930,9 @@ const headers = [{
   label: 'Total*',
   tooltip: 'Total Damage*',
   cb: wpn => {
+    if(wpn.recoveryAmount) {
+      return +(wpn.ammo * wpn.recoveryAmount * wpn.durationSeconds * FPS).toFixed()
+    }
     if(wpn.category === 'support') {
       if(!['life', 'plasma'].includes(wpn.supportType)) {
         return '-'
@@ -1891,6 +1955,7 @@ const headers = [{
 }]
 
 const games = [
+  '2pv2',
   '3',
   '3p',
   '41',
@@ -1899,6 +1964,7 @@ const games = [
 ]
 
 const gameLabels = [
+  'EDF2PV2',
   'EDF3',
   'EDF3P',
   'EDF4.1',

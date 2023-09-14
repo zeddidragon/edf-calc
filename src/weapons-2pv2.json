@@ -9712,25 +9712,6 @@
       }
     },
     {
-      "id": "ranger-shotgun-18",
-      "idx": 18,
-      "idxAdjust": "72",
-      "character": "ranger",
-      "category": "shotgun",
-      "level": 75,
-      "ammo": 15,
-      "rof": 4,
-      "damage": 60,
-      "count": 15,
-      "reloadSeconds": 4,
-      "range": 150,
-      "accuracyRank": "B-",
-      "names": {
-        "en": "Sparrow Shot X",
-        "ja": "スパローショットX"
-      }
-    },
-    {
       "id": "winger-missile-22",
       "idx": 22,
       "idxAdjust": "72",
@@ -9899,6 +9880,25 @@
       "names": {
         "en": "AS-99RR",
         "ja": "AS-99RR"
+      }
+    },
+    {
+      "id": "ranger-shotgun-18",
+      "idx": 18,
+      "idxAdjust": "75",
+      "character": "ranger",
+      "category": "shotgun",
+      "level": 75,
+      "ammo": 15,
+      "rof": 4,
+      "damage": 60,
+      "count": 15,
+      "reloadSeconds": 4,
+      "range": 150,
+      "accuracyRank": "B-",
+      "names": {
+        "en": "Sparrow Shot X",
+        "ja": "スパローショットX"
       }
     },
     {

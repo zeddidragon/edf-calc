@@ -340,6 +340,7 @@ function pickCategory(ch, cat) {
 
 function populateLangs() {
   const langMenu = document.getElementById('lang-dropdown')
+  langMenu.innerHTML = ''
   for(const lang of langs) {
     const item = $('a')
     styleButton({

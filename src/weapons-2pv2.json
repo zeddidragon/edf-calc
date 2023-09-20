@@ -239,7 +239,8 @@
               "name",
               "ammo",
               "damage",
-              "zoom"
+              "zoom",
+              "total"
             ]
           },
           {
@@ -850,7 +851,6 @@
       "reloadSeconds": 1.5,
       "range": 150,
       "accuracyRank": "B",
-      "remarks": "初期装備",
       "names": {
         "en": "AS-18",
         "ja": "AS-18"
@@ -870,7 +870,6 @@
       "reloadSeconds": 4,
       "range": 130,
       "accuracyRank": "B",
-      "remarks": "●",
       "names": {
         "en": "SG-4",
         "ja": "SG-4"
@@ -890,7 +889,6 @@
       "range": 600,
       "accuracyRank": "S",
       "zoom": 4,
-      "remarks": "●",
       "names": {
         "en": "SNR-227",
         "ja": "SNR-227"
@@ -910,7 +908,6 @@
       "range": 900,
       "accuracyRank": "B",
       "radius": 5,
-      "remarks": "初期装備",
       "names": {
         "en": "Goliath-1",
         "ja": "ゴリアス-1"
@@ -929,7 +926,6 @@
       "lockRange": 370,
       "homingRank": "A",
       "radius": 10,
-      "remarks": "●",
       "names": {
         "en": "Sky Turtle Prototype",
         "ja": "スカイタートル試作"
@@ -948,7 +944,6 @@
         "en": "contact"
       },
       "radius": 5,
-      "remarks": "初期装備",
       "subCategory": "hg",
       "names": {
         "en": "HG-01A",
@@ -970,7 +965,6 @@
       "accuracyRank": "G",
       "reloadSeconds": 0.5,
       "energy": 25,
-      "remarks": "● 初期装備",
       "names": {
         "en": "Rapier",
         "ja": "レイピア"
@@ -990,7 +984,6 @@
       "accuracyRank": "S",
       "reloadSeconds": 2,
       "energy": 20,
-      "remarks": "●",
       "names": {
         "en": "LAZR-197",
         "ja": "LAZR-197"
@@ -1008,7 +1001,6 @@
       "range": 200,
       "accuracyRank": "B",
       "energy": 0.7,
-      "remarks": "●",
       "names": {
         "en": "Ixion ",
         "ja": "イクシオン"
@@ -1028,7 +1020,6 @@
       "accuracyRank": "A-",
       "energy": 15,
       "zoom": 6,
-      "remarks": "●",
       "names": {
         "en": "Proto Thunder Sniper",
         "ja": "サンダースナイパー試作型"
@@ -1065,7 +1056,6 @@
       "homingRank": "A",
       "energy": 3,
       "radius": 5,
-      "remarks": "●",
       "names": {
         "en": "Mirage Zero",
         "ja": "ミラージュ・ゼロ"
@@ -1083,7 +1073,6 @@
       "credits": true,
       "reload": 3600,
       "shots": 10,
-      "remarks": "初期装備 開始直後は要請不可",
       "names": {
         "en": "Howitzer〔Artillery Squad〕",
         "ja": "榴弾砲〔砲兵隊〕"
@@ -1138,7 +1127,6 @@
       "damage": 30,
       "reloadSeconds": 2,
       "radius": 4,
-      "remarks": "初期装備",
       "names": {
         "en": "Limpet Guns",
         "ja": "リムペットガン"
@@ -1155,7 +1143,6 @@
       "recoveryAmount": 0.12,
       "radius": 12,
       "durationSeconds": 60,
-      "remarks": "総回復量432",
       "subCategory": "life",
       "names": {
         "en": "Life Vendor",
@@ -1171,7 +1158,6 @@
       "level": 0,
       "range": 450,
       "zoom": 4,
-      "remarks": "初期装備",
       "subCategory": "laser",
       "names": {
         "en": "Laser Guide Kit N450",
@@ -1192,7 +1178,6 @@
       "range": 900,
       "accuracyRank": "B",
       "radius": 7,
-      "remarks": "●",
       "names": {
         "en": "Goliath-D",
         "ja": "ゴリアス-D"
@@ -1212,7 +1197,6 @@
       },
       "fuseSeconds": 5,
       "radius": 5,
-      "remarks": "初期装備",
       "subCategory": "hg",
       "names": {
         "en": "HG-01",
@@ -1232,7 +1216,6 @@
       "radius": 10,
       "accuracyRank": "B",
       "energy": 16,
-      "remarks": "●",
       "names": {
         "en": "E2 Plasma Launcher",
         "ja": "E2プラズマ・ランチャー"
@@ -1251,7 +1234,6 @@
       "reloadSeconds": 1.5,
       "range": 150,
       "accuracyRank": "B",
-      "remarks": "●",
       "subCategory": "bound",
       "names": {
         "en": "Bound Gun ",
@@ -1272,7 +1254,6 @@
       "lockRange": 300,
       "homingRank": "C",
       "radius": 5,
-      "remarks": "●",
       "names": {
         "en": "Emerald M-0",
         "ja": "エメロードM-0"
@@ -1290,7 +1271,6 @@
       "reloadSeconds": 10,
       "shots": 20,
       "zoom": 4,
-      "remarks": "W入隊パック 特典B",
       "names": {
         "en": "88mm Support Gun",
         "ja": "88ミリ支援砲〔攻撃機〕"
@@ -1325,7 +1305,6 @@
       "damage": 7,
       "reloadSeconds": 20,
       "turretRange": 150,
-      "remarks": "初期装備",
       "subCategory": "turret",
       "names": {
         "en": "ZE-GUN Prototype",
@@ -1345,7 +1324,6 @@
       "reloadSeconds": 2.5,
       "range": 120,
       "accuracyRank": "B",
-      "remarks": "●",
       "names": {
         "en": "AS-18R",
         "ja": "AS-18R"
@@ -1385,7 +1363,6 @@
         "en": "contact"
       },
       "radius": 5,
-      "remarks": "●",
       "subCategory": "gl",
       "names": {
         "en": "G Launcher UM-1A",
@@ -1422,7 +1399,6 @@
       "accuracyRank": "S",
       "energy": 0.15,
       "zoom": 5,
-      "remarks": "●",
       "names": {
         "en": "LRSL-33",
         "ja": "LRSL-33"
@@ -1442,7 +1418,6 @@
       "accuracyRank": "A",
       "reloadSeconds": 2,
       "energy": 20,
-      "remarks": "●",
       "names": {
         "en": "Laser Lance",
         "ja": "レーザーランス"
@@ -1461,7 +1436,6 @@
       "reloadSeconds": 1.5,
       "range": 250,
       "accuracyRank": "A",
-      "remarks": "● 低弾速",
       "names": {
         "en": "AS-18D",
         "ja": "AS-18D"
@@ -1481,7 +1455,6 @@
       "radius": 2,
       "accuracyRank": "B-",
       "energy": 8,
-      "remarks": "●",
       "names": {
         "en": "Plasma Shot",
         "ja": "プラズマ・ショット"
@@ -1500,7 +1473,6 @@
       "accuracyRank": "S",
       "energy": 40,
       "zoom": 8,
-      "remarks": "○ DL版 期間限定特典",
       "names": {
         "en": "MONSTER-ZERO",
         "ja": "MONSTER-ZERO"
@@ -1520,7 +1492,6 @@
       },
       "radius": 7,
       "reloadSeconds": 4,
-      "remarks": "● 弾速がとても遅い",
       "names": {
         "en": "Plasma Grenade A",
         "ja": "プラズマ・グレネードA"
@@ -1537,7 +1508,6 @@
       "damage": 50,
       "count": 200,
       "reloadSeconds": 11,
-      "remarks": "Amazon初回特典 ノーダメージの弾も発生する",
       "names": {
         "en": "Floating Mine",
         "ja": "フローティング・マイン"
@@ -1557,7 +1527,6 @@
       "range": 75,
       "searchRange": 40,
       "shotTotal": 300,
-      "remarks": "○",
       "subCategory": "mine",
       "names": {
         "en": "Y9 Impulse",
@@ -1596,7 +1565,6 @@
       "range": 200,
       "accuracyRank": "B",
       "energy": 0.85,
-      "remarks": "● V字型に発射",
       "names": {
         "en": "Ixion 2-Way",
         "ja": "イクシオン2WAY"
@@ -1616,7 +1584,6 @@
       "lockRange": 600,
       "homingRank": "B-",
       "radius": 1,
-      "remarks": "●",
       "names": {
         "en": "ML-R",
         "ja": "ML-R"
@@ -1669,7 +1636,6 @@
         "ja": "RANK1"
       },
       "ammo": 80,
-      "remarks": "☆● 回復量：4～42",
       "subCategory": "reverser",
       "names": {
         "en": "Reverser M1",
@@ -1690,7 +1656,6 @@
       },
       "radius": 10,
       "reloadSeconds": 5,
-      "remarks": "● 弾速がとても遅い",
       "names": {
         "en": "Plasma Grenade B",
         "ja": "プラズマ・グレネードB"
@@ -1726,7 +1691,6 @@
       "reloadSeconds": 10,
       "radius": 15,
       "shotTotal": 1750,
-      "remarks": "○",
       "subCategory": "bomb",
       "names": {
         "en": "C20 Bomb",
@@ -1744,7 +1708,6 @@
       "hp": 40,
       "durationSeconds": 20,
       "reloadSeconds": 30,
-      "remarks": "○ D3P WEBSHOP 特典 獣耳がキュートなホストガール",
       "subCategory": "decoy",
       "names": {
         "en": "Pure Decoy Launcher [Chiri]",
@@ -1764,7 +1727,6 @@
       "attackDirection": "全方位",
       "reloadSeconds": 60,
       "energy": 45,
-      "remarks": "●",
       "names": {
         "en": "Pandora",
         "ja": "パンドラ"
@@ -1803,7 +1765,6 @@
       "range": 600,
       "accuracyRank": "SS",
       "zoom": 4,
-      "remarks": "連射型",
       "names": {
         "en": "SNR-227R",
         "ja": "SNR-227R"
@@ -1858,7 +1819,6 @@
       "radius": 10,
       "accuracyRank": "B",
       "energy": 18,
-      "remarks": "●",
       "names": {
         "en": "E3 Plasma Launcher",
         "ja": "E3プラズマ・ランチャー"
@@ -1891,7 +1851,6 @@
       "hp": 40,
       "durationSeconds": 20,
       "reloadSeconds": 30,
-      "remarks": "射出式 D3P WEBSHOP 特典",
       "subCategory": "decoy",
       "names": {
         "en": "Pure Decoy Launcher [Ange]",
@@ -1914,7 +1873,6 @@
       "reloadSeconds": 5,
       "range": 15,
       "accuracyRank": "B",
-      "remarks": "●",
       "subCategory": "flame",
       "names": {
         "en": "Flamethrower F1",
@@ -1934,7 +1892,6 @@
       "homingRank": "A",
       "energy": 6,
       "radius": 10,
-      "remarks": "●",
       "names": {
         "en": "Geist",
         "ja": "ガイスト"
@@ -1957,7 +1914,6 @@
       },
       "fuseSeconds": 5,
       "radius": 9,
-      "remarks": "●",
       "subCategory": "gl",
       "names": {
         "en": "G Launcher UM-1",
@@ -1979,7 +1935,6 @@
       "range": 900,
       "accuracyRank": "A",
       "radius": 6,
-      "remarks": "●",
       "names": {
         "en": "Volcano-2W",
         "ja": "ボルケーノ-2W"
@@ -2000,7 +1955,6 @@
       "accuracyRank": "D",
       "reloadSeconds": 1,
       "energy": 3,
-      "remarks": "●",
       "names": {
         "en": "Eclat 10",
         "ja": "エクレール10"
@@ -2019,7 +1973,6 @@
       "accuracyRank": "A+",
       "energy": 0.15,
       "zoom": 4,
-      "remarks": "●",
       "names": {
         "en": "LRSL-34",
         "ja": "LRSL-34"
@@ -2039,7 +1992,6 @@
       "reloadSeconds": 4,
       "range": 90,
       "accuracyRank": "C",
-      "remarks": "○ 貫通 初回特典",
       "names": {
         "en": "Sting Shot",
         "ja": "スティング・ショット"
@@ -2079,7 +2031,6 @@
       "accuracyRank": "A",
       "reloadSeconds": 1.5,
       "energy": 30,
-      "remarks": "○ W入隊パック 特典A",
       "names": {
         "en": "Spark Lancer",
         "ja": "スパークランサー"
@@ -2116,7 +2067,6 @@
       "reloadSeconds": 4,
       "range": 70,
       "accuracyRank": "E",
-      "remarks": "●",
       "names": {
         "en": "SG-5",
         "ja": "SG-5"
@@ -2151,7 +2101,6 @@
       "damage": 27,
       "range": 200,
       "accuracyRank": "B",
-      "remarks": "● エネルギーユニット内蔵",
       "names": {
         "en": "Ixion MX",
         "ja": "イクシオンMX"
@@ -2230,7 +2179,6 @@
       "accuracyRank": "S",
       "reloadSeconds": 2,
       "energy": 25,
-      "remarks": "● V字型に発射",
       "names": {
         "en": "LARG-V",
         "ja": "LARG-V"
@@ -2285,7 +2233,6 @@
       "range": 300,
       "searchRange": 100,
       "shotTotal": 400,
-      "remarks": "○",
       "subCategory": "mine",
       "names": {
         "en": "Y9 Anti-Aircraft Impulse",
@@ -2321,7 +2268,6 @@
       "reloadSeconds": 1.5,
       "range": 150,
       "accuracyRank": "B",
-      "remarks": "●",
       "names": {
         "en": "AS-18 Mk.2",
         "ja": "AS-18改"
@@ -2360,7 +2306,6 @@
       "reloadSeconds": 4,
       "range": 70,
       "accuracyRank": "E",
-      "remarks": "垂直に拡散",
       "names": {
         "en": "SG-5V",
         "ja": "SG-5V"
@@ -2417,7 +2362,6 @@
       "homingRank": "C",
       "energy": 1,
       "radius": 1,
-      "remarks": "●",
       "names": {
         "en": "Rapid Mirage ",
         "ja": "ラピッド・ミラージュ"
@@ -2454,7 +2398,6 @@
       "range": 200,
       "accuracyRank": "B",
       "energy": 0.75,
-      "remarks": "●",
       "names": {
         "en": "Ixion Mk.2",
         "ja": "イクシオン・マーク2"
@@ -2475,7 +2418,6 @@
       "accuracyRank": "B-",
       "reloadSeconds": 0.5,
       "energy": 25,
-      "remarks": "●",
       "names": {
         "en": "Rapier Thrust",
         "ja": "レイピア・スラスト"
@@ -2494,7 +2436,6 @@
       "attackDirection": "下方",
       "reloadSeconds": 60,
       "energy": 45,
-      "remarks": "EASY特典",
       "names": {
         "en": "Heaven's Gate",
         "ja": "ヘブンズ・ゲート"
@@ -2569,7 +2510,6 @@
       "radius": 10,
       "accuracyRank": "B",
       "energy": 15,
-      "remarks": "V字型に発射",
       "names": {
         "en": "Dual Plasma Launcher",
         "ja": "2連プラズマ・ランチャー"
@@ -2605,7 +2545,6 @@
       "accuracyRank": "B-",
       "energy": 0.5,
       "zoom": 4,
-      "remarks": "EN消費多、低精度",
       "names": {
         "en": "LRSL-35",
         "ja": "LRSL-35"
@@ -2625,7 +2564,6 @@
       },
       "radius": 5,
       "reloadSeconds": 3,
-      "remarks": "● 弾速が早く、すぐに落下する",
       "names": {
         "en": "Rapid Grenade",
         "ja": "ラピッド・グレネード"
@@ -2684,7 +2622,6 @@
       "accuracyRank": "S",
       "reloadSeconds": 3,
       "energy": 24,
-      "remarks": "●",
       "names": {
         "en": "LAZR-198",
         "ja": "LAZR-198"
@@ -2719,7 +2656,6 @@
       "range": 600,
       "accuracyRank": "A-",
       "zoom": 6,
-      "remarks": "● 低精度",
       "names": {
         "en": "SNR-228",
         "ja": "SNR-228"
@@ -2738,7 +2674,6 @@
         "en": "contact"
       },
       "radius": 15,
-      "remarks": "● 飛距離が異常に短い",
       "subCategory": "hg",
       "names": {
         "en": "HG-13A",
@@ -2814,7 +2749,6 @@
       "attackDirection": "下方",
       "reloadSeconds": 60,
       "energy": 45,
-      "remarks": "●",
       "names": {
         "en": "Thunder Cluster",
         "ja": "サンダー・クラスター"
@@ -2836,7 +2770,6 @@
       "reloadSeconds": 5,
       "range": 30,
       "accuracyRank": "B",
-      "remarks": "●",
       "subCategory": "flame",
       "names": {
         "en": "Flamethrower F2",
@@ -2859,7 +2792,6 @@
         "en": "contact"
       },
       "radius": 6,
-      "remarks": "●",
       "subCategory": "gl",
       "names": {
         "en": "G Launcher UM-1A Mk.2",
@@ -2900,7 +2832,6 @@
       "accuracyRank": "SSS",
       "reloadSeconds": 2.5,
       "energy": 21,
-      "remarks": "●",
       "names": {
         "en": "Laser Lance B",
         "ja": "レーザーランスB"
@@ -2921,7 +2852,6 @@
       "range": 900,
       "accuracyRank": "A",
       "radius": 8,
-      "remarks": "●",
       "names": {
         "en": "Volcano-3W",
         "ja": "ボルケーノ-3W"
@@ -2940,7 +2870,6 @@
       "accuracyRank": "S",
       "energy": 0.22,
       "zoom": 5.5,
-      "remarks": "●",
       "names": {
         "en": "LRSL-36",
         "ja": "LRSL-36"
@@ -2975,7 +2904,7 @@
         "ja": "RANK2"
       },
       "ammo": 5,
-      "remarks": "☆● 回復量：約540",
+      "total": "~540",
       "subCategory": "reverser",
       "names": {
         "en": "Aerial Reverser 1",
@@ -2996,7 +2925,6 @@
       "range": 75,
       "searchRange": 45,
       "shotTotal": 600,
-      "remarks": "○",
       "subCategory": "mine",
       "names": {
         "en": "Y10 Impulse",
@@ -3050,7 +2978,6 @@
       "homingRank": "B",
       "energy": 10,
       "radius": 5,
-      "remarks": "●",
       "names": {
         "en": "Mirage 5-Way",
         "ja": "ミラージュ5WAY"
@@ -3069,7 +2996,6 @@
       "range": 200,
       "accuracyRank": "A+",
       "energy": 1.1,
-      "remarks": "●",
       "names": {
         "en": "Ixion 3-Way",
         "ja": "イクシオン3WAY"
@@ -3104,7 +3030,6 @@
       "hp": 120,
       "durationSeconds": 90,
       "reloadSeconds": 20,
-      "remarks": "赤陸戦",
       "subCategory": "decoy",
       "names": {
         "en": "Decoy Type A",
@@ -3123,7 +3048,6 @@
       "range": 180,
       "accuracyRank": "B",
       "energy": 1,
-      "remarks": "●",
       "names": {
         "en": "Pulsar Shot ",
         "ja": "パルサーショット"
@@ -3144,7 +3068,6 @@
       "count": null,
       "raidDirection": "後→前",
       "raidFormation": "3連続",
-      "remarks": "3列だが幅は狭い",
       "names": {
         "en": "Strafing Attack Plan 3A",
         "ja": "機銃掃射プラン3A〔爆撃機〕"
@@ -3181,7 +3104,6 @@
       "reloadSeconds": 1.5,
       "range": 150,
       "accuracyRank": "B",
-      "remarks": "●",
       "subCategory": "bound",
       "names": {
         "en": "Bound Gun M2",
@@ -3220,7 +3142,6 @@
       "accuracyRank": "G",
       "reloadSeconds": 0.5,
       "energy": 28,
-      "remarks": "●",
       "names": {
         "en": "M2 Rapier",
         "ja": "M2レイピア"
@@ -3256,7 +3177,6 @@
       "radius": 15,
       "accuracyRank": "B",
       "energy": 18,
-      "remarks": "急速に落下する",
       "names": {
         "en": "D Plasma Launcher",
         "ja": "D型プラズマ・ランチャー"
@@ -3334,7 +3254,6 @@
       "reloadSeconds": 4,
       "range": 50,
       "accuracyRank": "A",
-      "remarks": "○ 貫通",
       "names": {
         "en": "Slug Shot",
         "ja": "スラッグショット"
@@ -3403,7 +3322,6 @@
       "recoveryAmount": 0.18,
       "radius": 12,
       "durationSeconds": 60,
-      "remarks": "総回復量648",
       "subCategory": "life",
       "names": {
         "en": "Life Vendor M2",
@@ -3424,7 +3342,6 @@
       "accuracyRank": "A-",
       "energy": 16,
       "zoom": 4,
-      "remarks": "●",
       "names": {
         "en": "Thunder Sniper B",
         "ja": "サンダースナイパーB"
@@ -3442,7 +3359,6 @@
       "damage": 2.3,
       "reloadSeconds": 20,
       "turretRange": 300,
-      "remarks": "速射型",
       "subCategory": "turret",
       "names": {
         "en": "ZER-GUN",
@@ -3483,7 +3399,6 @@
       "accuracyRank": "B+",
       "energy": 20,
       "zoom": 6,
-      "remarks": "●",
       "names": {
         "en": "Thunder Sniper 15",
         "ja": "サンダースナイパー15"
@@ -3503,7 +3418,6 @@
       },
       "fuseSeconds": 20,
       "radius": 15,
-      "remarks": "飛距離が異常に短い",
       "subCategory": "hg",
       "names": {
         "en": "HG-13 Mk.2",
@@ -3541,7 +3455,6 @@
       "range": 1300,
       "accuracyRank": "B+",
       "radius": 2,
-      "remarks": "●",
       "names": {
         "en": "Goliath-R",
         "ja": "ゴリアス-R"
@@ -3560,7 +3473,6 @@
       "range": 200,
       "accuracyRank": "A",
       "energy": 0.95,
-      "remarks": "● 2WAYより角度が広い",
       "names": {
         "en": "Ixion Wide",
         "ja": "イクシオンWIDE"
@@ -3601,7 +3513,6 @@
       },
       "fuseSeconds": 4,
       "radius": 9,
-      "remarks": "●",
       "subCategory": "gl",
       "names": {
         "en": "G Launcher UM-1 Mk.2",
@@ -3640,7 +3551,6 @@
       "accuracyRank": "A",
       "reloadSeconds": 2,
       "energy": 23,
-      "remarks": "●",
       "names": {
         "en": "2-Way Lance",
         "ja": "2WAYランス"
@@ -3653,12 +3563,9 @@
       "character": "ranger",
       "category": "special",
       "level": 12,
-      "damageRank": {
-        "ja": "RANK3"
-      },
       "ammo": 40,
       "zoom": 8,
-      "remarks": "☆● 回復量：40",
+      "damage": 40,
       "subCategory": "reverser",
       "names": {
         "en": "Reverse Gun",
@@ -3716,7 +3623,6 @@
       "range": 1000,
       "accuracyRank": "B+",
       "radius": 7,
-      "remarks": "●",
       "names": {
         "en": "Goliath-DC",
         "ja": "ゴリアス-DC"
@@ -3737,7 +3643,6 @@
       "accuracyRank": "C",
       "reloadSeconds": 2,
       "energy": 60,
-      "remarks": "●",
       "names": {
         "en": "Thunder Bow 15",
         "ja": "サンダーボウ15"
@@ -3775,7 +3680,6 @@
       "homingRank": "A",
       "energy": 7,
       "radius": 12,
-      "remarks": "●",
       "names": {
         "en": "Geist 2",
         "ja": "ガイスト2"
@@ -3791,7 +3695,6 @@
       "ammo": 3,
       "hp": 1000,
       "reloadSeconds": 20,
-      "remarks": "縦長",
       "subCategory": "defensive",
       "names": {
         "en": "Anti-Aircraft Bunker",
@@ -3812,7 +3715,6 @@
       "range": 300,
       "searchRange": 100,
       "shotTotal": 440,
-      "remarks": "○",
       "subCategory": "mine",
       "names": {
         "en": "Y10 Anti-Aircraft Impulse",
@@ -3925,7 +3827,6 @@
       "accuracyRank": "S",
       "reloadSeconds": 4,
       "energy": 29,
-      "remarks": "●",
       "names": {
         "en": "LAZR-199",
         "ja": "LAZR-199"
@@ -3982,7 +3883,6 @@
       "radius": 20,
       "accuracyRank": "B",
       "energy": 120,
-      "remarks": "弾速が早く、直進する",
       "names": {
         "en": "Blast Launcher",
         "ja": "ブラスト・ランチャー"
@@ -4151,7 +4051,6 @@
       "range": 180,
       "accuracyRank": "A",
       "energy": 1.4,
-      "remarks": "●",
       "names": {
         "en": "Ixion 5-Way",
         "ja": "イクシオン5WAY"
@@ -4171,7 +4070,6 @@
       },
       "radius": 15,
       "reloadSeconds": 20,
-      "remarks": "弾速が遅い",
       "names": {
         "en": "Blast Grenade",
         "ja": "ブラスト・グレネード"
@@ -4189,7 +4087,6 @@
       "reloadSeconds": 10,
       "radius": 20,
       "shotTotal": 5000,
-      "remarks": "○",
       "subCategory": "bomb",
       "names": {
         "en": "C24 Bomb",
@@ -4246,7 +4143,6 @@
       "accuracyRank": "B+",
       "energy": 1.6,
       "zoom": 3,
-      "remarks": "● 連射型",
       "names": {
         "en": "Thunder Sniper R",
         "ja": "サンダースナイパーR"
@@ -4305,7 +4201,6 @@
       "radius": 10,
       "accuracyRank": "B",
       "energy": 20,
-      "remarks": "●",
       "names": {
         "en": "3× Plasma Launcher",
         "ja": "3連プラズマ・ランチャー"
@@ -4327,7 +4222,6 @@
         "en": "contact"
       },
       "radius": 5,
-      "remarks": "● 連射型",
       "subCategory": "gl",
       "names": {
         "en": "G Launcher UM-2A",
@@ -4348,7 +4242,6 @@
       "accuracyRank": "B-",
       "reloadSeconds": 3,
       "energy": 20,
-      "remarks": "●",
       "names": {
         "en": "Laser Lance Rカスタム",
         "ja": "レーザーランスRカスタム"
@@ -4367,7 +4260,6 @@
       "range": 200,
       "accuracyRank": "B-",
       "energy": 2.7,
-      "remarks": "●",
       "names": {
         "en": "Dynastrike ",
         "ja": "ダイナスト"
@@ -4385,7 +4277,6 @@
       "radius": 12,
       "durationSeconds": 120,
       "reloadSeconds": 20,
-      "remarks": "カット率最高",
       "subCategory": "guard",
       "names": {
         "en": "Guard Post M2",
@@ -4438,7 +4329,6 @@
       "homingRank": "B",
       "energy": 9,
       "radius": 5,
-      "remarks": "弾速が早い",
       "names": {
         "en": "Mirage 5-Way B",
         "ja": "ミラージュ5WAY-B"
@@ -4459,7 +4349,6 @@
       "accuracyRank": "C+",
       "reloadSeconds": 1.5,
       "energy": 45,
-      "remarks": "●",
       "names": {
         "en": "Thunder Bow 15S",
         "ja": "サンダーボウ15S"
@@ -4477,7 +4366,6 @@
       "reloadSeconds": 7.5,
       "shots": 150,
       "zoom": 4,
-      "remarks": "なぜかAと同スペック switch版では修正された",
       "names": {
         "en": "Auto Cannon C",
         "ja": "機関砲C〔攻撃機〕"
@@ -4495,7 +4383,6 @@
       "radius": 4,
       "durationSeconds": 10,
       "zoom": 4,
-      "remarks": "総回復量1020",
       "subCategory": "life",
       "names": {
         "en": "Life Spout Gun",
@@ -4533,7 +4420,6 @@
       "attackDirection": "全方位",
       "reloadSeconds": 60,
       "energy": 45,
-      "remarks": "●",
       "names": {
         "en": "Pandora β",
         "ja": "パンドラβ"
@@ -4553,7 +4439,6 @@
       "reloadSeconds": 4,
       "range": 150,
       "accuracyRank": "A-",
-      "remarks": "ほとんど拡散しない",
       "names": {
         "en": "SG-6",
         "ja": "SG-6"
@@ -4593,7 +4478,6 @@
       "accuracyRank": "B-",
       "reloadSeconds": 0.5,
       "energy": 22,
-      "remarks": "●",
       "names": {
         "en": "M3 Rapier Thrust",
         "ja": "M3レイピア・スラスト"
@@ -4612,7 +4496,6 @@
       "radius": 15,
       "accuracyRank": "B",
       "energy": 20,
-      "remarks": "弾速が遅く、ほぼ直進する",
       "names": {
         "en": "D2 Plasma Launcher",
         "ja": "D2プラズマ・ランチャー"
@@ -4726,7 +4609,7 @@
         "ja": "RANK4"
       },
       "ammo": 5,
-      "remarks": "☆ 回復量：約1610",
+      "total": "~1610",
       "subCategory": "reverser",
       "names": {
         "en": "Aerial Reverser 2",
@@ -4780,7 +4663,6 @@
       "ammo": 1,
       "hp": 2400,
       "reloadSeconds": 20,
-      "remarks": "横長",
       "subCategory": "defensive",
       "names": {
         "en": "Heavy Bunker",
@@ -4801,7 +4683,6 @@
       "range": 60,
       "searchRange": 45,
       "shotTotal": 680,
-      "remarks": "○",
       "subCategory": "mine",
       "names": {
         "en": "Y10 Wide Impulse",
@@ -4839,7 +4720,6 @@
       "range": 400,
       "accuracyRank": "S",
       "zoom": 6,
-      "remarks": "連射型",
       "names": {
         "en": "SNR-229R",
         "ja": "SNR-229R"
@@ -4877,7 +4757,6 @@
       "range": 180,
       "accuracyRank": "A",
       "energy": 1.3,
-      "remarks": "●",
       "names": {
         "en": "Ixion 4-Way",
         "ja": "イクシオン4WAY"
@@ -4957,7 +4836,6 @@
       },
       "fuseSeconds": 5,
       "radius": 8,
-      "remarks": "NORMAL特典",
       "subCategory": "gl",
       "names": {
         "en": "Splash GR Prototype",
@@ -5015,7 +4893,6 @@
       "range": 150,
       "accuracyRank": "E",
       "zoom": 2,
-      "remarks": "● 低精度",
       "names": {
         "en": "AS-20SSS",
         "ja": "AS-20SSS"
@@ -5034,7 +4911,6 @@
       "reloadSeconds": 5,
       "range": 200,
       "accuracyRank": "A",
-      "remarks": "超低弾速",
       "subCategory": "bound",
       "names": {
         "en": "Bound Gun B08",
@@ -5097,7 +4973,6 @@
       "accuracyRank": "G",
       "reloadSeconds": 2.5,
       "energy": 26,
-      "remarks": "● NORMAL特典",
       "names": {
         "en": "Laser Chainsaw",
         "ja": "レーザー・チェーンソー"
@@ -5135,7 +5010,6 @@
       "radius": 2,
       "accuracyRank": "A+",
       "energy": 24,
-      "remarks": "弾速がとても速く、直進する",
       "names": {
         "en": "M15 Plasma Launcher",
         "ja": "M15プラズマ・ランチャー"
@@ -5154,7 +5028,6 @@
       "range": 84,
       "accuracyRank": "SSS",
       "reloadSeconds": 30,
-      "remarks": "● エネルギーユニット内蔵",
       "names": {
         "en": "MX Laser Lance",
         "ja": "MXレーザーランス"
@@ -5231,7 +5104,6 @@
       },
       "fuseSeconds": 5,
       "radius": 8,
-      "remarks": "EASY特典",
       "subCategory": "gl",
       "names": {
         "en": "Soccer GR Prototype",
@@ -5302,7 +5174,6 @@
       "damage": 100,
       "reloadSeconds": 20,
       "turretRange": 498,
-      "remarks": "ロケット弾を発射",
       "subCategory": "turret",
       "names": {
         "en": "ZE Launcher",
@@ -5321,7 +5192,6 @@
       "damage": 12,
       "count": 10,
       "reloadSeconds": 6,
-      "remarks": "散弾",
       "names": {
         "en": "Splendor Shot",
         "ja": "スプレンダー・ショット"
@@ -5342,7 +5212,6 @@
       },
       "radius": 2,
       "reloadSeconds": 10,
-      "remarks": "●",
       "names": {
         "en": "Wide Grenade 20",
         "ja": "ワイド・グレネード20"
@@ -5360,7 +5229,6 @@
       "radius": 4,
       "durationSeconds": 10,
       "zoom": 4,
-      "remarks": "総回復量1560",
       "subCategory": "life",
       "names": {
         "en": "Life Spout Gun M2",
@@ -5380,7 +5248,6 @@
         "en": "contact"
       },
       "radius": 10,
-      "remarks": "●",
       "subCategory": "hg",
       "names": {
         "en": "GHG-99A",
@@ -5401,7 +5268,6 @@
       "homingRank": "A",
       "energy": 3,
       "radius": 2,
-      "remarks": "● 垂直に拡散",
       "names": {
         "en": "Mirage 15",
         "ja": "ミラージュ15"
@@ -5439,7 +5305,6 @@
       "reloadSeconds": 5,
       "range": 30,
       "accuracyRank": "B",
-      "remarks": "● 射程距離が最短",
       "names": {
         "en": "Sparrow Shot M2",
         "ja": "スパローショットM2"
@@ -5498,7 +5363,6 @@
         "en": "contact"
       },
       "radius": 2,
-      "remarks": "●",
       "subCategory": "firecracker",
       "names": {
         "en": "Firecracker 3",
@@ -5534,7 +5398,6 @@
       "range": 200,
       "accuracyRank": "B-",
       "energy": 0.7,
-      "remarks": "●",
       "names": {
         "en": "Ixion Mk.3",
         "ja": "イクシオン・マーク3"
@@ -5571,7 +5434,6 @@
       "range": 600,
       "accuracyRank": "S",
       "zoom": 4,
-      "remarks": "●",
       "names": {
         "en": "SNR-230",
         "ja": "SNR-230"
@@ -5593,7 +5455,6 @@
         "en": "contact"
       },
       "radius": 7,
-      "remarks": "●",
       "subCategory": "gl",
       "names": {
         "en": "G Launcher UM-3A",
@@ -5628,7 +5489,6 @@
         "ja": "RANK5"
       },
       "ammo": 160,
-      "remarks": "☆● 回復量：2～168",
       "subCategory": "reverser",
       "names": {
         "en": "Reverser M2",
@@ -5646,7 +5506,6 @@
       "hp": 1600,
       "durationSeconds": 90,
       "reloadSeconds": 20,
-      "remarks": "青ペリコ",
       "subCategory": "decoy",
       "names": {
         "en": "Decoy Type B",
@@ -5685,7 +5544,6 @@
       "radius": 7,
       "accuracyRank": "B",
       "energy": 9,
-      "remarks": "V字型に発射、弾速が早い",
       "names": {
         "en": "Twin Plasma Launcher R",
         "ja": "2連プラズマ・ランチャーR"
@@ -5817,7 +5675,6 @@
       "accuracyRank": "SSS",
       "reloadSeconds": 2,
       "energy": 25,
-      "remarks": "短射程",
       "names": {
         "en": "Laser Lance C",
         "ja": "レーザーランスC"
@@ -5854,7 +5711,6 @@
       "reloadSeconds": 4,
       "range": 70,
       "accuracyRank": "A",
-      "remarks": "○ 貫通",
       "names": {
         "en": "Slug Shot BC",
         "ja": "スラッグショットBC"
@@ -5874,7 +5730,6 @@
       "range": 80,
       "searchRange": 60,
       "shotTotal": 800,
-      "remarks": "○",
       "subCategory": "mine",
       "names": {
         "en": "Y11 Impulse",
@@ -5893,7 +5748,6 @@
       "damage": 60,
       "reloadSeconds": 2,
       "radius": 3.5,
-      "remarks": "連射型",
       "names": {
         "en": "Limpet Chain Gun",
         "ja": "リムペット・チェーンガン"
@@ -5947,7 +5801,6 @@
       "credits": true,
       "reload": 3600,
       "shots": 10,
-      "remarks": "開始直後は要請不可",
       "names": {
         "en": "Large Howitzer",
         "ja": "大型榴弾砲〔砲兵隊〕"
@@ -5987,7 +5840,6 @@
       "accuracyRank": "S",
       "reloadSeconds": 2.5,
       "energy": 30,
-      "remarks": "●",
       "names": {
         "en": "LAZR-201",
         "ja": "LAZR-201"
@@ -6007,7 +5859,6 @@
       "range": 1300,
       "accuracyRank": "B",
       "radius": 6,
-      "remarks": "●",
       "names": {
         "en": "Goliath-2R",
         "ja": "ゴリアス-2R"
@@ -6048,7 +5899,6 @@
       "reloadSeconds": 10,
       "range": 110,
       "accuracyRank": "B",
-      "remarks": "●",
       "subCategory": "flame",
       "names": {
         "en": "Blaze Cannon",
@@ -6065,7 +5915,6 @@
       "ammo": 5,
       "hp": 5000,
       "reloadSeconds": 20,
-      "remarks": "青。5枚重ねると視界が悪い",
       "subCategory": "defensive",
       "names": {
         "en": "Electromagnetic Bunker M2",
@@ -6087,7 +5936,6 @@
       "accuracyRank": "B-",
       "reloadSeconds": 4,
       "energy": 30,
-      "remarks": "● 垂直に拡散",
       "names": {
         "en": "3-Way Lance",
         "ja": "3WAYランス"
@@ -6107,7 +5955,6 @@
       },
       "radius": 20,
       "reloadSeconds": 3,
-      "remarks": "● 弾速が早く、すぐに落下する",
       "names": {
         "en": "Plasma Grenade SP",
         "ja": "プラズマ・グレネードSP"
@@ -6127,7 +5974,6 @@
       "reloadSeconds": 4,
       "range": 150,
       "accuracyRank": "H",
-      "remarks": "●",
       "names": {
         "en": "Governor S",
         "ja": "ガバナーS"
@@ -6147,7 +5993,6 @@
       "accuracyRank": "Z",
       "reloadSeconds": 10,
       "energy": 59,
-      "remarks": "異常な低精度",
       "names": {
         "en": "Grom X",
         "ja": "グロームX"
@@ -6165,7 +6010,6 @@
       "reloadSeconds": 15,
       "radius": 15,
       "shotTotal": 30000,
-      "remarks": "○",
       "subCategory": "bomb",
       "names": {
         "en": "C25 Special Bomb",
@@ -6200,7 +6044,6 @@
       "attackDirection": "下方",
       "reloadSeconds": 60,
       "energy": 45,
-      "remarks": "●",
       "names": {
         "en": "Pandora α",
         "ja": "パンドラα"
@@ -6223,7 +6066,6 @@
         "en": "contact"
       },
       "radius": 7,
-      "remarks": "三連装",
       "subCategory": "gl",
       "names": {
         "en": "G Launcher UM-3WAY",
@@ -6259,7 +6101,6 @@
       "reloadSeconds": 1.5,
       "range": 150,
       "accuracyRank": "B+",
-      "remarks": "●",
       "names": {
         "en": "AS-21",
         "ja": "AS-21"
@@ -6278,7 +6119,6 @@
       "reloadSeconds": 1.5,
       "range": 180,
       "accuracyRank": "D",
-      "remarks": "●",
       "subCategory": "bound",
       "names": {
         "en": "Bound Gun S",
@@ -6299,7 +6139,6 @@
       "range": 30,
       "accuracyRank": "D+",
       "reloadSeconds": 20,
-      "remarks": "● エネルギーユニット内蔵",
       "names": {
         "en": "MX Rapier",
         "ja": "MXレイピア"
@@ -6320,7 +6159,6 @@
       "lockRange": 600,
       "homingRank": "S",
       "radius": 1,
-      "remarks": "二連装",
       "names": {
         "en": "ML-2RW",
         "ja": "ML-2RW"
@@ -6386,12 +6224,9 @@
       "character": "ranger",
       "category": "special",
       "level": 35,
-      "damageRank": {
-        "ja": "RANK6"
-      },
       "ammo": 5,
       "zoom": 8,
-      "remarks": "☆ 回復量：1000",
+      "damage": 1000,
       "subCategory": "reverser",
       "names": {
         "en": "Reverse Shooter T1",
@@ -6409,7 +6244,6 @@
       "recoveryAmount": 0.54,
       "radius": 12,
       "durationSeconds": 60,
-      "remarks": "総回復量1944",
       "subCategory": "life",
       "names": {
         "en": "Life Vendor M3",
@@ -6448,7 +6282,6 @@
       "radius": 15,
       "accuracyRank": "B",
       "energy": 21,
-      "remarks": "●",
       "names": {
         "en": "E5 Plasma Launcher",
         "ja": "E5プラズマ・ランチャー"
@@ -6467,7 +6300,6 @@
       "range": 170,
       "accuracyRank": "A",
       "energy": 1.3,
-      "remarks": "●",
       "names": {
         "en": "Ixion 6-Way",
         "ja": "イクシオン6WAY"
@@ -6581,7 +6413,6 @@
         "en": "contact"
       },
       "radius": 12,
-      "remarks": "●",
       "subCategory": "hg",
       "names": {
         "en": "GHG-XA",
@@ -6602,7 +6433,6 @@
       "accuracyRank": "B",
       "reloadSeconds": 8,
       "energy": 62,
-      "remarks": "●",
       "names": {
         "en": "Grom SS",
         "ja": "グロームSS"
@@ -6660,7 +6490,6 @@
       },
       "fuseSeconds": 5,
       "radius": 10,
-      "remarks": "●",
       "subCategory": "gl",
       "names": {
         "en": "Splash GR",
@@ -6769,7 +6598,6 @@
       "reloadSeconds": 5,
       "range": 200,
       "accuracyRank": "B+",
-      "remarks": "●",
       "names": {
         "en": "AS-21RL",
         "ja": "AS-21RL"
@@ -6785,7 +6613,6 @@
       "ammo": 1,
       "hp": 12000,
       "reloadSeconds": 20,
-      "remarks": "狭い",
       "subCategory": "defensive",
       "names": {
         "en": "Personal Shelter",
@@ -6806,7 +6633,6 @@
       "accuracyRank": "SSS",
       "reloadSeconds": 3.5,
       "energy": 70,
-      "remarks": "●",
       "names": {
         "en": "Burst Lance",
         "ja": "バースト・ランス"
@@ -6826,7 +6652,6 @@
       },
       "radius": 15,
       "reloadSeconds": 5,
-      "remarks": "弾速がとても早く、すぐに落下する",
       "names": {
         "en": "Plasma Grenade C",
         "ja": "プラズマ・グレネードC"
@@ -6865,7 +6690,6 @@
       "range": 800,
       "accuracyRank": "B+",
       "zoom": 12,
-      "remarks": "● 低精度",
       "names": {
         "en": "SNR-X",
         "ja": "SNR-X"
@@ -6887,7 +6711,6 @@
       "reloadSeconds": 6,
       "range": 90,
       "accuracyRank": "B",
-      "remarks": "●",
       "subCategory": "flame",
       "names": {
         "en": "Flamethrower F5",
@@ -6908,7 +6731,6 @@
       "radius": 7,
       "accuracyRank": "B",
       "energy": 9,
-      "remarks": "V字型に発射、弾速が早い",
       "names": {
         "en": "Twin Plasma Launcher S",
         "ja": "2連プラズマ・ランチャーS"
@@ -6928,7 +6750,6 @@
       "range": 600,
       "accuracyRank": "S",
       "zoom": 4,
-      "remarks": "●",
       "names": {
         "en": "SNR-230 Mk.2",
         "ja": "SNR-230改"
@@ -6967,7 +6788,6 @@
       "range": 900,
       "accuracyRank": "C",
       "radius": 10,
-      "remarks": "●",
       "names": {
         "en": "Volcano-6A",
         "ja": "ボルケーノ-6A"
@@ -6986,7 +6806,6 @@
       "range": 260,
       "accuracyRank": "B-",
       "energy": 10,
-      "remarks": "●",
       "names": {
         "en": "Dynastrike X",
         "ja": "ダイナストX"
@@ -7005,7 +6824,6 @@
       "accuracyRank": "A",
       "energy": 0.25,
       "zoom": 6,
-      "remarks": "● 低精度",
       "names": {
         "en": "LRSL-S",
         "ja": "LRSL-S"
@@ -7039,7 +6857,6 @@
         "ja": "RANK7"
       },
       "ammo": 110,
-      "remarks": "☆● 回復量：100～260",
       "subCategory": "reverser",
       "names": {
         "en": "Reverser M3",
@@ -7079,7 +6896,6 @@
         "en": "contact"
       },
       "radius": 1,
-      "remarks": "●",
       "subCategory": "firecracker",
       "names": {
         "en": "Firecracker 4",
@@ -7099,7 +6915,6 @@
       "count": 6,
       "reloadSeconds": 4,
       "radius": 5.5,
-      "remarks": "散弾",
       "names": {
         "en": "Limpet Shot",
         "ja": "リムペット・ショット"
@@ -7119,7 +6934,6 @@
       "lockRange": 900,
       "homingRank": "A",
       "radius": 7,
-      "remarks": "●",
       "names": {
         "en": "Emerald M-2",
         "ja": "エメロードM-2"
@@ -7138,7 +6952,6 @@
       "lockRange": 600,
       "homingRank": "A",
       "energy": 3,
-      "remarks": "水平に拡散",
       "names": {
         "en": "Mirage 15S",
         "ja": "ミラージュ15S"
@@ -7178,7 +6991,6 @@
       "accuracyRank": "D+",
       "reloadSeconds": 3,
       "energy": 71,
-      "remarks": "●",
       "names": {
         "en": "Thunder Bow 20R",
         "ja": "サンダーボウ20R"
@@ -7239,7 +7051,6 @@
       },
       "fuseSeconds": 3,
       "radius": 12,
-      "remarks": "三連装",
       "subCategory": "gl",
       "names": {
         "en": "G Launcher UM-W3",
@@ -7277,7 +7088,6 @@
       "range": 400,
       "searchRange": 120,
       "shotTotal": 1600,
-      "remarks": "○",
       "subCategory": "mine",
       "names": {
         "en": "Y11 Anti-Aircraft Impulse",
@@ -7315,7 +7125,6 @@
       "accuracyRank": "C+",
       "reloadSeconds": 1,
       "energy": 12,
-      "remarks": "●",
       "names": {
         "en": "RapierG Thrusts",
         "ja": "レイピアGスラスト"
@@ -7353,7 +7162,6 @@
       "radius": 25,
       "accuracyRank": "A",
       "energy": 31,
-      "remarks": "弾速がとても早く、直進する",
       "names": {
         "en": "EX Plasma Launcher",
         "ja": "EXプラズマ・ランチャー"
@@ -7374,7 +7182,6 @@
       "accuracyRank": "S",
       "reloadSeconds": 2,
       "energy": 35,
-      "remarks": "●",
       "names": {
         "en": "LARG-W3",
         "ja": "LARG-W3"
@@ -7411,7 +7218,6 @@
       "range": 170,
       "accuracyRank": "A",
       "energy": 1.3,
-      "remarks": "● 拡散範囲が狭い",
       "names": {
         "en": "Ixion 6-Way-S",
         "ja": "イクシオン6WAY-S"
@@ -7429,7 +7235,6 @@
       "damage": 20,
       "reloadSeconds": 20,
       "turretRange": 300,
-      "remarks": "速射型",
       "subCategory": "turret",
       "names": {
         "en": "ZERA-GUN",
@@ -7472,7 +7277,6 @@
       "reloadSeconds": 10,
       "radius": 30,
       "shotTotal": 30000,
-      "remarks": "○",
       "subCategory": "bomb",
       "names": {
         "en": "C30 Bomb",
@@ -7492,7 +7296,6 @@
       "lockRange": 370,
       "homingRank": "A",
       "radius": 20,
-      "remarks": "●",
       "names": {
         "en": "Sky Turtle",
         "ja": "スカイタートル"
@@ -7512,7 +7315,6 @@
       "accuracyRank": "A",
       "reloadSeconds": 2.5,
       "energy": 55,
-      "remarks": "●",
       "names": {
         "en": "Idunn-E Custom",
         "ja": "イズナ-Eカスタム"
@@ -7570,7 +7372,6 @@
       "range": 260,
       "accuracyRank": "C",
       "energy": 9,
-      "remarks": "●",
       "names": {
         "en": "Dynastrike Z",
         "ja": "ダイナストZ"
@@ -7617,12 +7418,10 @@
       "character": "ranger",
       "category": "special",
       "level": 47,
-      "damageRank": {
-        "ja": "RANK8"
-      },
       "ammo": 5,
       "zoom": 3,
-      "remarks": "☆● 散弾 回復量：300*10",
+      "damage": 300,
+      "count": 10,
       "subCategory": "reverser",
       "names": {
         "en": "Reverse Bomber",
@@ -7644,7 +7443,6 @@
       "accuracyRank": "A",
       "reloadSeconds": 1.5,
       "energy": 28,
-      "remarks": "○",
       "names": {
         "en": "Spark Lance",
         "ja": "スパーク・ランス"
@@ -7665,7 +7463,6 @@
       "count": null,
       "raidDirection": "周囲9方向",
       "raidFormation": "発煙筒上空で交差",
-      "remarks": "実際の要請ポイントは200 switch版では修正された",
       "names": {
         "en": "Strafing Attack Plan 9",
         "ja": "機銃掃射プラン9〔爆撃機〕"
@@ -7684,7 +7481,6 @@
       "reloadSeconds": 15,
       "range": 180,
       "accuracyRank": "D",
-      "remarks": "超低弾速",
       "subCategory": "bound",
       "names": {
         "en": "Bound Gun B08S",
@@ -7706,7 +7502,6 @@
       "range": 2000,
       "accuracyRank": "A",
       "zoom": 6,
-      "remarks": "HARD特典、反射弾を発射",
       "names": {
         "en": "Five Star SR-B",
         "ja": "ファイブスターSR-B"
@@ -7726,7 +7521,6 @@
       "range": 90,
       "searchRange": 60,
       "shotTotal": 800,
-      "remarks": "○",
       "subCategory": "mine",
       "names": {
         "en": "Y20 Impulse",
@@ -7744,7 +7538,6 @@
       "recoveryAmount": 0.8,
       "radius": 18,
       "durationSeconds": 60,
-      "remarks": "総回復量2880",
       "subCategory": "life",
       "names": {
         "en": "Life Vendor MH",
@@ -7765,7 +7558,6 @@
       "attackDirection": "下方",
       "reloadSeconds": 60,
       "energy": 45,
-      "remarks": "HARD特典",
       "names": {
         "en": "Heaven's Gate β",
         "ja": "ヘブンズ・ゲートβ"
@@ -7802,7 +7594,6 @@
       "radius": 20,
       "accuracyRank": "B-",
       "energy": 49,
-      "remarks": "弾速がとても早く、直進する",
       "names": {
         "en": "EX3× Plasma Launcher",
         "ja": "EX3連プラズマ・ランチャー"
@@ -7822,7 +7613,6 @@
       "accuracyRank": "SSS",
       "reloadSeconds": 3,
       "energy": 20,
-      "remarks": "●",
       "names": {
         "en": "Laser Lance X",
         "ja": "レーザーランスX"
@@ -7858,7 +7648,6 @@
       "range": 1000,
       "accuracyRank": "SSS",
       "zoom": 8,
-      "remarks": "●",
       "names": {
         "en": "Lysander 2",
         "ja": "ライサンダー2"
@@ -7952,7 +7741,6 @@
       "accuracyRank": "C+",
       "reloadSeconds": 5,
       "energy": 28,
-      "remarks": "●",
       "names": {
         "en": "RapierG Thrusts 2",
         "ja": "レイピアGスラスト2"
@@ -7992,7 +7780,6 @@
       "reloadSeconds": 5,
       "range": 100,
       "accuracyRank": "B",
-      "remarks": "●",
       "names": {
         "en": "Sparrow Shot M3",
         "ja": "スパローショットM3"
@@ -8117,7 +7904,6 @@
       "accuracyRank": "S",
       "reloadSeconds": 3,
       "energy": 18,
-      "remarks": "●",
       "names": {
         "en": "LAZR-299",
         "ja": "LAZR-299"
@@ -8155,7 +7941,6 @@
       "radius": 5,
       "accuracyRank": "A+",
       "energy": 26,
-      "remarks": "弾速がとても速く、直進する",
       "names": {
         "en": "M30 Plasma Launcher",
         "ja": "M30プラズマ・ランチャー"
@@ -8225,12 +8010,9 @@
       "character": "ranger",
       "category": "special",
       "level": 55,
-      "damageRank": {
-        "ja": "RANK9"
-      },
       "ammo": 8,
       "zoom": 6,
-      "remarks": "☆ 回復量：1000",
+      "damage": 1000,
       "subCategory": "reverser",
       "names": {
         "en": "Reverse Shooter T2",
@@ -8287,7 +8069,6 @@
       "ammo": 3,
       "hp": 12000,
       "reloadSeconds": 10,
-      "remarks": "敵方向に発生。赤。高くて長い",
       "subCategory": "defensive",
       "names": {
         "en": "Electromagnetic Prison",
@@ -8342,7 +8123,6 @@
       "homingRank": "A",
       "energy": 9,
       "radius": 5,
-      "remarks": "弾速が遅い、超低燃費(※)",
       "names": {
         "en": "Mirage 5-Way S",
         "ja": "ミラージュ5WAY-S"
@@ -8381,7 +8161,6 @@
       "range": 250,
       "accuracyRank": "A",
       "energy": 1.3,
-      "remarks": "●",
       "names": {
         "en": "Ixion 9-Way",
         "ja": "イクシオン9WAY"
@@ -8434,7 +8213,6 @@
       "damage": 110,
       "reloadSeconds": 2,
       "radius": 3.5,
-      "remarks": "連射型",
       "names": {
         "en": "Limpet Chain Gun M2",
         "ja": "リムペット・チェーンガンM2"
@@ -8489,7 +8267,6 @@
       "reloadSeconds": 75,
       "shots": 700,
       "zoom": 4,
-      "remarks": "着弾地点がブレる",
       "names": {
         "en": "Satellite Blaster High",
         "ja": "サテライトブラスター高出力射撃"
@@ -8565,7 +8342,6 @@
       "accuracyRank": "SSS",
       "reloadSeconds": 3,
       "energy": 30,
-      "remarks": "●",
       "names": {
         "en": "Demonic Lance",
         "ja": "デモニック・ランス"
@@ -8603,7 +8379,6 @@
       "radius": 4,
       "durationSeconds": 10,
       "zoom": 4,
-      "remarks": "総回復量4680",
       "subCategory": "life",
       "names": {
         "en": "Life Spout Gun M3",
@@ -8625,7 +8400,6 @@
       "count": null,
       "raidDirection": "後→前",
       "raidFormation": "直進",
-      "remarks": "落下が遅い",
       "names": {
         "en": "Cluster Strike",
         "ja": "クラスター弾〔爆撃機ミッドナイト〕"
@@ -8678,7 +8452,6 @@
       "damage": 0,
       "reloadSeconds": 4,
       "zoom": 4,
-      "remarks": "とても速い玩具",
       "subCategory": "patroller",
       "names": {
         "en": "Speedster",
@@ -8737,7 +8510,6 @@
       "radius": 15,
       "accuracyRank": "B",
       "energy": 14,
-      "remarks": "連射型",
       "names": {
         "en": "RSR Plasma Launcher",
         "ja": "RSRプラズマ・ランチャー"
@@ -8811,7 +8583,6 @@
       "homingRank": "S",
       "energy": 40,
       "radius": 20,
-      "remarks": "弾速が少し遅い",
       "names": {
         "en": "Psiblade α",
         "ja": "サイ・ブレードα"
@@ -8846,7 +8617,7 @@
         "ja": "RANK10"
       },
       "ammo": 8,
-      "remarks": "☆ 回復量：約2700",
+      "total": "~2700",
       "subCategory": "reverser",
       "names": {
         "en": "Aerial Reverser 3",
@@ -8868,7 +8639,6 @@
       "accuracyRank": "B",
       "reloadSeconds": 4,
       "energy": 26,
-      "remarks": "●",
       "names": {
         "en": "4-Way Lance",
         "ja": "4WAYランス"
@@ -8927,7 +8697,6 @@
       "hp": 4000,
       "durationSeconds": 120,
       "reloadSeconds": 20,
-      "remarks": "青陸戦",
       "subCategory": "decoy",
       "names": {
         "en": "Decoy Type O",
@@ -8966,7 +8735,6 @@
       "range": 500,
       "searchRange": 150,
       "shotTotal": 4800,
-      "remarks": "○",
       "subCategory": "mine",
       "names": {
         "en": "YDX Anti-Aircraft Impulse",
@@ -9055,7 +8823,6 @@
       "range": 300,
       "accuracyRank": "A+",
       "energy": 0.7,
-      "remarks": "●",
       "names": {
         "en": "Ixion Mk.4",
         "ja": "イクシオン・マーク4"
@@ -9114,7 +8881,6 @@
       "accuracyRank": "B-",
       "reloadSeconds": 3,
       "energy": 34,
-      "remarks": "●",
       "names": {
         "en": "Plasma Sweeper",
         "ja": "プラズマ・ブルーム"
@@ -9136,7 +8902,6 @@
       "reloadSeconds": 6,
       "range": 170,
       "accuracyRank": "B",
-      "remarks": "実際の射程は100m強",
       "subCategory": "flame",
       "names": {
         "en": "Flamethrower F6",
@@ -9179,7 +8944,6 @@
       },
       "radius": 15,
       "reloadSeconds": 5,
-      "remarks": "すぐに落下する",
       "names": {
         "en": "Plasma Grenade F",
         "ja": "プラズマ・グレネードF"
@@ -9251,7 +9015,6 @@
       "reloadSeconds": 15,
       "radius": 40,
       "shotTotal": 120000,
-      "remarks": "○ 起爆可能までラグあり",
       "subCategory": "bomb",
       "names": {
         "en": "C70 Bomb",
@@ -9270,7 +9033,6 @@
       "credits": true,
       "reload": 3600,
       "shots": 10,
-      "remarks": "開始直後は要請不可",
       "names": {
         "en": "Enhanced Howitzer",
         "ja": "強化榴弾砲〔砲兵隊〕"
@@ -9434,7 +9196,6 @@
       "ammo": 2,
       "hp": 30000,
       "reloadSeconds": 20,
-      "remarks": "青。とても高い",
       "subCategory": "defensive",
       "names": {
         "en": "Anti-Aircraft BunkerME",
@@ -9506,7 +9267,6 @@
       "range": 600,
       "accuracyRank": "C-",
       "zoom": 8,
-      "remarks": "エネルギーユニット内蔵",
       "names": {
         "en": "Thunder Sniper MX",
         "ja": "サンダースナイパーMX"
@@ -9562,7 +9322,6 @@
       "accuracyRank": "S",
       "energy": 0.18,
       "zoom": 10,
-      "remarks": "●",
       "names": {
         "en": "LRSL-AC",
         "ja": "LRSL-AC"
@@ -9584,7 +9343,6 @@
         "en": "contact"
       },
       "radius": 20,
-      "remarks": "通称馬糞",
       "subCategory": "gl",
       "names": {
         "en": "G Launcher UM-XA",
@@ -9602,7 +9360,6 @@
         "ja": "RANK-X"
       },
       "ammo": 80,
-      "remarks": "☆ 回復量：450～650",
       "subCategory": "reverser",
       "names": {
         "en": "Reverser X",
@@ -9641,7 +9398,6 @@
       "damage": 30,
       "count": 6,
       "reloadSeconds": 3,
-      "remarks": "連射型",
       "names": {
         "en": "Splendor Chain Gun",
         "ja": "スプレンダー・チェーンガン"
@@ -9661,7 +9417,6 @@
       "range": 600,
       "searchRange": 100,
       "shotTotal": 3200,
-      "remarks": "○ 弾速早い",
       "subCategory": "mine",
       "names": {
         "en": "YDX Strike Impulse",
@@ -9683,7 +9438,6 @@
       "accuracyRank": "F",
       "reloadSeconds": 0.5,
       "energy": 26,
-      "remarks": "●",
       "names": {
         "en": "Master Rapier",
         "ja": "マスター・レイピア"
@@ -9741,7 +9495,6 @@
       "reload": 1500,
       "shots": 60,
       "zoom": 4,
-      "remarks": "速射型",
       "names": {
         "en": "Spritefall Mode α",
         "ja": "スプライトフォールModeα"
@@ -9759,7 +9512,6 @@
       "damage": 450,
       "reloadSeconds": 20,
       "turretRange": 600,
-      "remarks": "ロケット弾を発射",
       "subCategory": "turret",
       "names": {
         "en": "ZEX Launcher",
@@ -9794,7 +9546,6 @@
       "ammo": 5,
       "hp": 20000,
       "reloadSeconds": 40,
-      "remarks": "赤",
       "subCategory": "defensive",
       "names": {
         "en": "Electromagnetic BunkerGH",
@@ -9814,7 +9565,6 @@
       "reloadSeconds": 6,
       "range": 75,
       "accuracyRank": "A",
-      "remarks": "○ 貫通",
       "names": {
         "en": "Slug Shot DA",
         "ja": "スラッグショットDA"
@@ -9833,7 +9583,6 @@
       "reloadSeconds": 2,
       "accuracyRank": "A",
       "radius": 18,
-      "remarks": "☆ 弾速が早い",
       "names": {
         "en": "Goliath-EM",
         "ja": "ゴリアス-EM"
@@ -9912,7 +9661,6 @@
       "accuracyRank": "S",
       "reloadSeconds": 3,
       "energy": 180,
-      "remarks": "HARDEST特典",
       "names": {
         "en": "Cyclone Laser",
         "ja": "サイクロン・レーザー"
@@ -9931,7 +9679,6 @@
       "reloadSeconds": 4,
       "range": 160,
       "accuracyRank": "B",
-      "remarks": "☆",
       "names": {
         "en": "AS-99RR",
         "ja": "AS-99RR"
@@ -9990,7 +9737,6 @@
       "accuracyRank": "SSS",
       "reloadSeconds": 1.5,
       "energy": 16,
-      "remarks": "●",
       "names": {
         "en": "Laser Lance Σ",
         "ja": "レーザーランスΣ"
@@ -10011,7 +9757,6 @@
       "homingRank": "C+",
       "radius": 10,
       "zoom": 6,
-      "remarks": "HARDEST特典",
       "names": {
         "en": "Lucifer S",
         "ja": "ルシフェルS"
@@ -10049,7 +9794,6 @@
         "en": "contact"
       },
       "radius": 4,
-      "remarks": "☆",
       "subCategory": "firecracker",
       "names": {
         "en": "Spread Grenade",
@@ -10105,7 +9849,6 @@
       "range": 120,
       "searchRange": 80,
       "shotTotal": 5000,
-      "remarks": "○",
       "subCategory": "mine",
       "names": {
         "en": "Y21 Impulse",
@@ -10124,7 +9867,6 @@
       "credits": true,
       "reload": 3600,
       "shots": 10,
-      "remarks": "開始直後は要請不可 初期値1800pts",
       "names": {
         "en": "Gigantic Howitzer",
         "ja": "巨大榴弾砲〔砲兵隊〕"
@@ -10141,7 +9883,6 @@
       "recoveryAmount": 1.6,
       "radius": 25,
       "durationSeconds": 60,
-      "remarks": "総回復量5760",
       "subCategory": "life",
       "names": {
         "en": "Life Vendor ZD",
@@ -10162,7 +9903,6 @@
       "reloadSeconds": 8,
       "range": 150,
       "accuracyRank": "B-",
-      "remarks": "☆",
       "names": {
         "en": "SG-99MR",
         "ja": "SG-99MR"
@@ -10181,7 +9921,6 @@
       "reloadSeconds": 2,
       "homingRank": "A+",
       "radius": 10,
-      "remarks": "☆",
       "names": {
         "en": "Emerald M-3",
         "ja": "エメロードM-3"
@@ -10254,7 +9993,6 @@
       "range": 300,
       "accuracyRank": "A+",
       "energy": 1.2,
-      "remarks": "●",
       "names": {
         "en": "Ixion Mk.X",
         "ja": "イクシオン・マークX"
@@ -10267,12 +10005,9 @@
       "character": "ranger",
       "category": "special",
       "level": 77,
-      "damageRank": {
-        "ja": "RANK-X"
-      },
       "ammo": 8,
       "zoom": 8,
-      "remarks": "☆ 回復量：2000",
+      "damage": 2000,
       "subCategory": "reverser",
       "names": {
         "en": "Reverse Shooter X",
@@ -10293,7 +10028,6 @@
       "accuracyRank": "A",
       "reloadSeconds": 3.5,
       "energy": 55,
-      "remarks": "●",
       "names": {
         "en": "Idunn-FF",
         "ja": "イズナ-FF"
@@ -10347,7 +10081,6 @@
       "reload": 100,
       "shots": 1,
       "zoom": 4,
-      "remarks": "即発射",
       "names": {
         "en": "Spritefall Mode β3",
         "ja": "スプライトフォールModeβ3"
@@ -10363,7 +10096,6 @@
       "ammo": 2,
       "hp": 60000,
       "reloadSeconds": 40,
-      "remarks": "青。幅広",
       "subCategory": "defensive",
       "names": {
         "en": "Borderline",
@@ -10385,7 +10117,6 @@
       "accuracyRank": "B",
       "reloadSeconds": 4,
       "energy": 26,
-      "remarks": "●",
       "names": {
         "en": "Sacred Lance",
         "ja": "ホーリーランス"
@@ -10402,7 +10133,6 @@
       "reloadSeconds": 40,
       "shots": 600,
       "zoom": 4,
-      "remarks": "攻撃範囲は半径10m弱程度ある模様",
       "names": {
         "en": "Satellite Blaster Q",
         "ja": "サテライトブラスターQ"
@@ -10420,7 +10150,6 @@
       "radius": 4,
       "durationSeconds": 10,
       "zoom": 4,
-      "remarks": "総回復量7200",
       "subCategory": "life",
       "names": {
         "en": "Life Spout Gun ZM",
@@ -10439,7 +10168,6 @@
       "damage": 35,
       "reloadSeconds": 20,
       "turretRange": 300,
-      "remarks": "速射型",
       "subCategory": "turret",
       "names": {
         "en": "ZEXR-GUN",
@@ -10458,7 +10186,6 @@
       "damage": 80,
       "count": 6,
       "reloadSeconds": 5,
-      "remarks": "散弾",
       "names": {
         "en": "Splendor Shot AX",
         "ja": "スプレンダー・ショットAX"
@@ -10533,7 +10260,6 @@
       "range": 300,
       "accuracyRank": "A+",
       "energy": 1.3,
-      "remarks": "☆●",
       "names": {
         "en": "Luxard",
         "ja": "ルクサード"
@@ -10552,7 +10278,6 @@
       "accuracyRank": "S",
       "energy": 0.16,
       "zoom": 10,
-      "remarks": "☆●",
       "names": {
         "en": "SIG Sniper",
         "ja": "SIGスナイパー"
@@ -10572,7 +10297,6 @@
       },
       "radius": 17,
       "reloadSeconds": 3,
-      "remarks": "☆ すぐに落下する",
       "names": {
         "en": "Plasma Grenade Σ",
         "ja": "プラズマ・グレネードΣ"
@@ -10613,7 +10337,6 @@
       "accuracyRank": "A",
       "reloadSeconds": 1.5,
       "energy": 20,
-      "remarks": "○",
       "names": {
         "en": "Spark Lance ZA",
         "ja": "スパーク・ランスZA"
@@ -10665,7 +10388,6 @@
       "accuracyRank": "S",
       "reloadSeconds": 4.5,
       "energy": 18,
-      "remarks": "☆●",
       "names": {
         "en": "SIG-LAZR",
         "ja": "SIG-LAZR"
@@ -10723,7 +10445,6 @@
       "accuracyRank": "B-",
       "reloadSeconds": 0.5,
       "energy": 26,
-      "remarks": "●",
       "names": {
         "en": "Master Rapier T",
         "ja": "マスター・レイピアT"
@@ -10744,7 +10465,6 @@
       "accuracyRank": "C",
       "reloadSeconds": 2.7,
       "energy": 55,
-      "remarks": "☆",
       "names": {
         "en": "Thunder Bow XD",
         "ja": "サンダーボウXD"
@@ -10761,7 +10481,6 @@
       "hp": 16000,
       "durationSeconds": 90,
       "reloadSeconds": 30,
-      "remarks": "紫ペリコ",
       "subCategory": "decoy",
       "names": {
         "en": "Decoy Type AB",
@@ -10782,7 +10501,6 @@
       "reloadSeconds": 6,
       "range": 180,
       "accuracyRank": "B-",
-      "remarks": "☆",
       "names": {
         "en": "Sparrow Buster",
         "ja": "スパローバスター"
@@ -10800,7 +10518,6 @@
       "reload": 5000,
       "shots": 200,
       "zoom": 4,
-      "remarks": "開始直後は要請不可 初期値2500pts",
       "names": {
         "en": "Laguna Blaster",
         "ja": "ラグナブラスター"
@@ -10819,7 +10536,6 @@
       "reloadSeconds": 3,
       "range": 500,
       "accuracyRank": "A++",
-      "remarks": "☆",
       "names": {
         "en": "AS-DD",
         "ja": "AS-DD"
@@ -10853,7 +10569,7 @@
         "ja": "RANK-X"
       },
       "ammo": 10,
-      "remarks": "☆ 回復量：約5400",
+      "total": "~5400",
       "subCategory": "reverser",
       "names": {
         "en": "Aerial Reverser X",
@@ -11037,7 +10753,6 @@
       "attackDirection": "特殊",
       "reloadSeconds": 60,
       "energy": 45,
-      "remarks": "☆●",
       "names": {
         "en": "Final Days",
         "ja": "エンドオブアース"
@@ -11056,7 +10771,6 @@
       "attackDirection": "全方位",
       "reloadSeconds": 80,
       "energy": 240,
-      "remarks": "☆",
       "names": {
         "en": "Thunder Orb",
         "ja": "サンダーオーブ"
@@ -11094,7 +10808,6 @@
       "reloadSeconds": 3,
       "range": 90,
       "accuracyRank": "A",
-      "remarks": "○ 貫通",
       "names": {
         "en": "Slug Shot EA",
         "ja": "スラッグショットEA"
@@ -11114,7 +10827,6 @@
       "radius": 30,
       "accuracyRank": "A",
       "energy": 75,
-      "remarks": "☆ 弾速がとても早い",
       "names": {
         "en": "Plasmafall Σ",
         "ja": "プラズマ・フォールΣ"
@@ -11135,7 +10847,6 @@
       "accuracyRank": "SSS",
       "reloadSeconds": 3,
       "energy": 30,
-      "remarks": "●",
       "names": {
         "en": "Luonottar",
         "ja": "ルオンノタル"
@@ -11151,7 +10862,6 @@
       "ammo": 1,
       "hp": 100000,
       "reloadSeconds": 40,
-      "remarks": "青。広くて高い",
       "subCategory": "defensive",
       "names": {
         "en": "Electromagnetic Wall",
@@ -11170,7 +10880,6 @@
       "damage": 400,
       "reloadSeconds": 1.5,
       "radius": 4,
-      "remarks": "連射型",
       "names": {
         "en": "Limpet Chain Gun ZD",
         "ja": "リムペット・チェーンガンZD"
@@ -11186,7 +10895,6 @@
       "ammo": 5,
       "hp": 30000,
       "reloadSeconds": 30,
-      "remarks": "赤",
       "subCategory": "defensive",
       "names": {
         "en": "Absolute Bunker",
@@ -11207,7 +10915,6 @@
       "reloadSeconds": 6,
       "range": 130,
       "accuracyRank": "B",
-      "remarks": "横へ広く拡散する",
       "names": {
         "en": "SG-100",
         "ja": "SG-100"
@@ -11227,7 +10934,6 @@
       "range": 192,
       "accuracyRank": "A+",
       "zoom": 2,
-      "remarks": "弾速が早い",
       "names": {
         "en": "AS-100F",
         "ja": "AS-100F"
@@ -11265,7 +10971,6 @@
       "homingRank": "C+",
       "radius": 25,
       "zoom": 6,
-      "remarks": "☆",
       "names": {
         "en": "Prominence 3",
         "ja": "プロミネンス3"
@@ -11285,7 +10990,6 @@
       "accuracyRank": "SSS",
       "reloadSeconds": 1.5,
       "energy": 25,
-      "remarks": "●",
       "names": {
         "en": "Hreimdarr",
         "ja": "フレイドマル"
@@ -11304,7 +11008,6 @@
       "radius": 25,
       "accuracyRank": "B",
       "energy": 15,
-      "remarks": "☆ 弾速が早い",
       "names": {
         "en": "RZR Plasma Launcher",
         "ja": "RZRプラズマ・ランチャー"
@@ -11322,7 +11025,6 @@
       "accuracyRank": "A++",
       "energy": 720,
       "zoom": 12,
-      "remarks": "☆",
       "names": {
         "en": "Gungnir",
         "ja": "グングニル"
@@ -11362,7 +11064,6 @@
       "reloadSeconds": 5,
       "range": 150,
       "accuracyRank": "E",
-      "remarks": "☆●",
       "names": {
         "en": "Buffalo",
         "ja": "バッファロー"
@@ -11385,7 +11086,6 @@
         "en": "contact"
       },
       "radius": 20,
-      "remarks": "V字型に発射",
       "subCategory": "gl",
       "names": {
         "en": "G Launcher UM-V2",
@@ -11403,7 +11103,6 @@
       "credits": true,
       "reload": 8000,
       "zoom": 4,
-      "remarks": "開始直後は要請不可 初期値4000pts",
       "names": {
         "en": "Divine Edict",
         "ja": "ルール オブ ゴッド"
@@ -11421,7 +11120,6 @@
       "attackDirection": "下方",
       "reloadSeconds": 40,
       "energy": 300,
-      "remarks": "INFERNO特典 実際に発射されるのは5発 協力プレイ時使用不可",
       "names": {
         "en": "Armageddon Cluster",
         "ja": "アルマゲドン・クラスター"
@@ -11441,7 +11139,6 @@
       "range": 1600,
       "accuracyRank": "B+",
       "radius": 70,
-      "remarks": "INFERNO特典 協力プレイ時使用不可",
       "names": {
         "en": "Genocide Cannon",
         "ja": "ジェノサイド砲"

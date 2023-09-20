@@ -1051,9 +1051,6 @@ const headers = [{
   tooltip: 'Ammo Capacity',
   starProp: 'ammo',
   cb: wpn => {
-    if(wpn.total) {
-      return wpn.total
-    }
     if(wpn.shieldDurability) {
       return `${Math.round(wpn.shieldDurability * 100)}%`
     }

@@ -425,7 +425,9 @@ function gameHasLockons(game) {
 
 function populateWeaponDrops(mode, ch, cat) {
   const extra = document.getElementById('extra')
-  extra.textContent = ''
+  if(extra) {
+    extra.textContent = ''
+  }
 
   const weaponTables = document.getElementById('weapon-tables')
   const weaponTable = $('table')
@@ -922,13 +924,6 @@ const headers = [{
     return el
   },
 }, {
-  id: 'id',
-  label: 'ID',
-  tooltip: 'ID',
-  cb: wpn => {
-    return wpn.id
-  },
-}, {
   id: 'level',
   label: 'Lv',
   tooltip: 'Level',
@@ -963,15 +958,6 @@ const headers = [{
     const name = localize(wpn.names, wpn.name)
     el.textContent += name
     return el
-  },
-}, {
-  id: 'fuseType',
-  label: 'Fuse',
-  cb: wpn => {
-    if(!wpn.fuseType) {
-      return '-'
-    }
-    return localize(wpn.fuseType)
   },
 }, {
   id: 'dropWeight',
@@ -1014,6 +1000,15 @@ const headers = [{
     el.classList.add('highOdds')
     el.textContent = 'DLC ☢'
     return el
+  },
+}, {
+  id: 'fuseType',
+  label: 'Fuse',
+  cb: wpn => {
+    if(!wpn.fuseType) {
+      return '-'
+    }
+    return localize(wpn.fuseType)
   },
 }, {
   id: 'hp',

@@ -4210,12 +4210,6 @@
       "accuracy": 0.1,
       "life": 20,
       "reload": -1,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "piercing": true,
       "duration": 20,
       "continous": true,
@@ -4241,12 +4235,6 @@
       "life": 20,
       "interval": 1,
       "reload": -1,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "piercing": true,
       "duration": 20,
       "continous": true,
@@ -4296,12 +4284,6 @@
       "life": 180,
       "interval": 1,
       "reload": -1,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "subCategory": "reverser"
     },
     {
@@ -4323,12 +4305,6 @@
       "life": 20,
       "interval": 1,
       "reload": -1,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "piercing": true,
       "duration": 20,
       "continous": true,
@@ -4378,12 +4354,6 @@
       "life": 20,
       "interval": 1,
       "reload": -1,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "piercing": true,
       "duration": 20,
       "continous": true,
@@ -4483,12 +4453,6 @@
       "life": 20,
       "interval": 1,
       "reload": -1,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "piercing": true,
       "duration": 20,
       "continous": true,
@@ -5231,12 +5195,6 @@
       "life": 3,
       "interval": 1,
       "reload": 120,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "accuracy": 0
     },
     {
@@ -5258,12 +5216,6 @@
       "life": 6,
       "interval": 1,
       "reload": 120,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "accuracy": 0
     },
     {
@@ -5286,12 +5238,6 @@
       "count": 2,
       "interval": 1,
       "reload": 120,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "accuracy": 0
     },
     {
@@ -5313,12 +5259,6 @@
       "life": 4,
       "interval": 1,
       "reload": 180,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "accuracy": 0
     },
     {
@@ -5340,12 +5280,6 @@
       "life": 4,
       "interval": 1,
       "reload": 240,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "accuracy": 0
     },
     {
@@ -5367,12 +5301,6 @@
       "life": 4,
       "interval": 1,
       "reload": 180,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "accuracy": 0
     },
     {
@@ -5395,12 +5323,6 @@
       "count": 2,
       "interval": 1,
       "reload": 150,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "accuracy": 0
     },
     {
@@ -5422,12 +5344,6 @@
       "life": 4,
       "interval": 1,
       "reload": 150,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "accuracy": 0
     },
     {
@@ -5450,12 +5366,6 @@
       "count": 2,
       "interval": 1,
       "reload": 160,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "accuracy": 0
     },
     {
@@ -5477,12 +5387,6 @@
       "life": 4,
       "interval": 1,
       "reload": 150,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "accuracy": 0
     },
     {
@@ -5505,12 +5409,6 @@
       "count": 3,
       "interval": 1,
       "reload": 120,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "accuracy": 0
     },
     {
@@ -5532,12 +5430,6 @@
       "life": 4,
       "interval": 1,
       "reload": 120,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "accuracy": 0
     },
     {
@@ -5560,12 +5452,6 @@
       "count": 8,
       "interval": 1,
       "reload": 180,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "accuracy": 0
     },
     {
@@ -5587,12 +5473,6 @@
       "life": 4,
       "interval": 1,
       "reload": 180,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "accuracy": 0
     },
     {
@@ -5614,12 +5494,6 @@
       "life": 4,
       "interval": 1,
       "reload": 240,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "accuracy": 0
     },
     {
@@ -5642,12 +5516,6 @@
       "count": 2,
       "interval": 1,
       "reload": 300,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "accuracy": 0
     },
     {
@@ -5669,12 +5537,6 @@
       "life": 4,
       "interval": 1,
       "reload": 270,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "accuracy": 0
     },
     {
@@ -5696,12 +5558,6 @@
       "life": 4,
       "interval": 1,
       "reload": 200,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "accuracy": 0
     },
     {
@@ -5723,12 +5579,6 @@
       "life": 3,
       "interval": 1,
       "reload": 270,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "accuracy": 0
     },
     {
@@ -13453,12 +13303,6 @@
       "life": 3600,
       "interval": 60,
       "reload": -1,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 4
-        }
-      ],
       "supportType": "life",
       "duration": 3600,
       "subCategory": "life"
@@ -13687,12 +13531,6 @@
       "life": 5400,
       "interval": 60,
       "reload": 2700,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 4
-        }
-      ],
       "supportType": "plasma",
       "duration": 5400,
       "subCategory": "plasma"
@@ -13743,12 +13581,6 @@
       "life": 5400,
       "interval": 60,
       "reload": 2700,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 4
-        }
-      ],
       "supportType": "plasma",
       "duration": 5400,
       "subCategory": "plasma"
@@ -13773,12 +13605,6 @@
       "life": 800,
       "interval": 60,
       "reload": 1800,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 4
-        }
-      ],
       "supportType": "plasma",
       "duration": 800,
       "subCategory": "plasma"
@@ -13803,12 +13629,6 @@
       "life": 5400,
       "interval": 60,
       "reload": 2700,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 4
-        }
-      ],
       "supportType": "plasma",
       "duration": 5400,
       "subCategory": "plasma"
@@ -13859,12 +13679,6 @@
       "life": 1200,
       "interval": 60,
       "reload": 1800,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 4
-        }
-      ],
       "supportType": "plasma",
       "duration": 1200,
       "subCategory": "plasma"
@@ -13889,12 +13703,6 @@
       "life": 5400,
       "interval": 60,
       "reload": 2700,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 4
-        }
-      ],
       "supportType": "plasma",
       "duration": 5400,
       "subCategory": "plasma"
@@ -14119,12 +13927,6 @@
       "life": 7200,
       "interval": 60,
       "reload": 3600,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 4
-        }
-      ],
       "supportType": "guard",
       "duration": 7200,
       "subCategory": "guard"
@@ -14176,12 +13978,6 @@
       "life": 7200,
       "interval": 60,
       "reload": 3600,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "supportType": "guard",
       "duration": 7200,
       "subCategory": "guard"
@@ -14206,12 +14002,6 @@
       "life": 7200,
       "interval": 60,
       "reload": 3600,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "supportType": "guard",
       "duration": 7200,
       "subCategory": "guard"
@@ -14263,12 +14053,6 @@
       "life": 7200,
       "interval": 60,
       "reload": 3600,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "supportType": "guard",
       "duration": 7200,
       "subCategory": "guard"
@@ -14293,12 +14077,6 @@
       "life": 7200,
       "interval": 60,
       "reload": 3600,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 0
-        }
-      ],
       "supportType": "guard",
       "duration": 7200,
       "subCategory": "guard"
@@ -17682,12 +17460,6 @@
       "life": 1800,
       "interval": 30,
       "reload": 1800,
-      "zoom": [
-        {
-          "type": "int",
-          "value": 4
-        }
-      ],
       "hp": 30000,
       "subCategory": "defensive"
     },
@@ -23857,6 +23629,7 @@
           "interval",
           "reload",
           "accuracy",
+          "zoom",
           "range",
           "speed",
           "dps",
@@ -23903,6 +23676,7 @@
           "interval",
           "reload",
           "accuracy",
+          "zoom",
           "range",
           "speed",
           "dps",
@@ -23926,6 +23700,7 @@
           "interval",
           "reload",
           "accuracy",
+          "zoom",
           "dps",
           "tdps",
           "total"
@@ -23948,6 +23723,7 @@
           "interval",
           "lockTime",
           "reload",
+          "zoom",
           "lockRange",
           "tdps",
           "tdps2",
@@ -24022,6 +23798,7 @@
               "ammo",
               "hp",
               "duration",
+              "zoom",
               "reload"
             ]
           },
@@ -24129,6 +23906,7 @@
               "radius",
               "duration",
               "interval",
+              "zoom",
               "range",
               "speed",
               "dps",
@@ -24243,6 +24021,7 @@
           "damage",
           "reload",
           "accuracy",
+          "zoom",
           "energy",
           "range",
           "speed",
@@ -24416,6 +24195,7 @@
               "interval",
               "reload",
               "accuracy",
+              "zoom",
               "range",
               "speed",
               "dps",
@@ -24439,6 +24219,7 @@
               "interval",
               "reload",
               "accuracy",
+              "zoom",
               "range",
               "speed",
               "dps",
@@ -24594,6 +24375,7 @@
               "damage",
               "shots",
               "radius",
+              "zoom",
               "reload",
               "total"
             ]
@@ -24613,6 +24395,7 @@
               "shots",
               "radius",
               "subRadius",
+              "zoom",
               "reload",
               "total"
             ]
@@ -24641,6 +24424,7 @@
               "radius",
               "duration",
               "interval",
+              "zoom",
               "dps",
               "total"
             ]
@@ -24660,6 +24444,7 @@
               "radius",
               "duration",
               "interval",
+              "zoom",
               "reload",
               "dps",
               "total"
@@ -24680,6 +24465,7 @@
               "radius",
               "duration",
               "interval",
+              "zoom",
               "reload"
             ]
           },
@@ -24698,6 +24484,7 @@
               "radius",
               "duration",
               "interval",
+              "zoom",
               "reload"
             ]
           }
@@ -24747,6 +24534,7 @@
               "damage",
               "radius",
               "interval",
+              "zoom",
               "reload",
               "speed",
               "tdps",
@@ -24814,6 +24602,7 @@
               "ammo",
               "hp",
               "duration",
+              "zoom",
               "reload"
             ]
           },

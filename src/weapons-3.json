@@ -25,6 +25,7 @@
           "interval",
           "reload",
           "accuracy",
+          "zoom",
           "range",
           "speed",
           "dps",
@@ -70,6 +71,7 @@
           "interval",
           "reload",
           "accuracy",
+          "zoom",
           "range",
           "speed",
           "dps",
@@ -93,6 +95,7 @@
           "interval",
           "reload",
           "accuracy",
+          "zoom",
           "dps",
           "tdps",
           "total"
@@ -113,6 +116,7 @@
           "radius",
           "interval",
           "reload",
+          "zoom",
           "tdps",
           "total"
         ]

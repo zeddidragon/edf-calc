@@ -31,6 +31,7 @@ menu {
   width: fit-content;
 }
 
+
 menu a {
   cursor: pointer;
   flex: 1;
@@ -56,7 +57,7 @@ menu a {
 
 #save-load-textarea {
   width: 100%;
-  height: 5em;
+  height: 8em;
 }
 
 .save-load-buttons {

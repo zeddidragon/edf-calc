@@ -52,6 +52,7 @@ const cached = {}
 
 let isLoaded = false
 async function loadWeapons(game) {
+  closeSaveLoad()
   isLoaded = false
   const data = await fetch(`src/weapons-${game}.json`).then(res => res.json())
   table = data.weapons
@@ -884,12 +885,7 @@ const headers = [{
       el.setAttribute('checked', '1')
     }
     el.addEventListener('change', () => {
-      if(saveLoadState) {
-        saveLoadState = 0
-        document
-          .getElementById('save-load-text')
-          .setAttribute('data-state', 'inactive')
-      }
+      closeSaveLoad()
       const v = 1 - (localStorage[key] || 0)
       localStorage[key] = v
       if(v) {
@@ -914,16 +910,11 @@ const headers = [{
     const key = weaponKey(wpn, 'starred')
     const ownedKey = weaponKey(wpn)
     el.setAttribute('type', 'checkbox')
-    if(localStorage[key]) {
+    if(localStorage[key] > 0) {
       el.setAttribute('checked', '1')
     }
     el.addEventListener('change', () => {
-      if(saveLoadState) {
-        saveLoadState = 0
-        document
-          .getElementById('save-load-text')
-          .setAttribute('data-state', 'inactive')
-      }
+      closeSaveLoad()
       const owned = document.getElementById(ownedKey)
       const v = 1 - (localStorage[key] || 0)
       localStorage[key] = v
@@ -2025,13 +2016,13 @@ async function bufferToBase64(buffer) {
   return base64url.slice(base64url.indexOf(',') + 1);
 }
 
-function encodeSave() {
+function encodeSave(type) {
   const size = Math.ceil(table.length / 8)
   const buffer = new Uint8Array(size)
   let pow = 0
   let i = 0
   for(const wpn of table) {
-    const key = weaponKey(wpn)
+    const key = weaponKey(wpn, type)
     if(localStorage[key] > 0) {
       buffer[i] = buffer[i] | Math.pow(2, pow)
     }
@@ -2045,17 +2036,26 @@ function encodeSave() {
   return bufferToBase64(buffer)
 }
 
-function restoreSaveData(data) {
-  const [game, payload] = data.split(':')
+function restoreSave(data) {
+  const [game, owned, starred] = data.split(':')
+  console.log({ game, owned, starred })
   if(game !== active.game) {
     throw new Error(`Wrong game: ${game}\nExpected: ${active.game}`)
   }
+  restoreSaveData(owned)
+  if(starred) {
+    restoreSaveData(starred, 'starred')
+  }
+  loadWeapons(game)
+}
+
+function restoreSaveData(payload, type) {
   const parsed = atob(payload)
   let pow = 0
   let i = 0
   let char = parsed.charCodeAt(0)
   for(const wpn of table) {
-    const key = weaponKey(wpn)
+    const key = weaponKey(wpn, type)
     const isActive = (char >> pow) & 1
     if(isActive) {
       localStorage[key] = '1'
@@ -2070,7 +2070,6 @@ function restoreSaveData(data) {
       pow++
     }
   }
-  loadWeapons(active.game)
 }
 
 const catLabels = {
@@ -2152,20 +2151,36 @@ importButton
   .addEventListener('click', async () => {
     const importText = saveLoadArea.value
     try {
-      await restoreSaveData(importText)
+      await restoreSave(importText)
     } catch(err) {
       saveLoadArea.value = err.message
     }
   })
-async function toggleSaveLoad() {
+
+function closeSaveLoad() {
+  if(!saveLoadState) {
+    return
+  }
+  saveLoadState = 0
+  document
+    .getElementById('save-load-text')
+    .setAttribute('data-state', 'inactive')
 }
+
 document
   .getElementById('save-load-toggle')
   .addEventListener('click', async () => {
     saveLoadState = 1 - saveLoadState
     const stateName = ['inactive', 'active'][saveLoadState]
     if(saveLoadState) {
-      exportText = `${active.game}:${await encodeSave()}`
+      const parts = [
+        active.game,
+        await encodeSave()
+      ]
+      if(gameHasStars()) {
+        parts.push(await encodeSave('starred'))
+      }
+      exportText = parts.join(':')
       saveLoadArea.value = exportText
     }
     document

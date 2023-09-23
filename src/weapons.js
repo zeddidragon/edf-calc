@@ -419,8 +419,8 @@ function populateWeapons(m, ch, cat) {
   }
 }
 
-function gameHasLockons(game) {
-  return ['4', '41', '5', '6'].includes(game)
+function gameHasStars() {
+  return [5, 6].includes(+active.game)
 }
 
 function populateWeaponDrops(mode, ch, cat) {
@@ -447,8 +447,6 @@ function populateWeaponDrops(mode, ch, cat) {
   const { difficulties, missions } = mode
 
   const diffSpreads = {}
-  const gameHasStars = [5, 6].includes(+active.game)
-
   for(const difficulty of difficulties) {
     const cell = $('th')
     cell.textContent = difficulty.name
@@ -863,6 +861,11 @@ const gameScopes = {
   4: '',
 }
 
+function weaponKey(wpn, type = 'owned') {
+  const scope = gameScopes[active.game] || `.${active.game}`
+  return `${type}${scope}.${wpn.id}`
+}
+
 const FPS = 60
 const headers = [{
   id: 'checkbox',
@@ -873,15 +876,20 @@ const headers = [{
       return ''
     }
     const { game } = active
-    const scope = gameScopes[game] || `.${game}`
     const el = $('input')
-    const key = `owned${scope}.${wpn.id}`
+    const key = weaponKey(wpn)
     el.setAttribute('id', key)
     el.setAttribute('type', 'checkbox')
-    if(localStorage[key]) {
+    if(localStorage[key] > 0) {
       el.setAttribute('checked', '1')
     }
     el.addEventListener('change', () => {
+      if(saveLoadState) {
+        saveLoadState = 0
+        document
+          .getElementById('save-load-text')
+          .setAttribute('data-state', 'inactive')
+      }
       const v = 1 - (localStorage[key] || 0)
       localStorage[key] = v
       if(v) {
@@ -903,13 +911,19 @@ const headers = [{
     const { game } = active
     const scope = gameScopes[game] || `.${game}`
     const el = $('input')
-    const key = `starred${scope}.${wpn.id}`
-    const ownedKey = `owned${scope}.${wpn.id}`
+    const key = weaponKey(wpn, 'starred')
+    const ownedKey = weaponKey(wpn)
     el.setAttribute('type', 'checkbox')
     if(localStorage[key]) {
       el.setAttribute('checked', '1')
     }
     el.addEventListener('change', () => {
+      if(saveLoadState) {
+        saveLoadState = 0
+        document
+          .getElementById('save-load-text')
+          .setAttribute('data-state', 'inactive')
+      }
       const owned = document.getElementById(ownedKey)
       const v = 1 - (localStorage[key] || 0)
       localStorage[key] = v
@@ -1998,6 +2012,67 @@ function boldify(el, str, cutPoint=2) {
   return el
 }
 
+// Copied from stackoverflow: https://stackoverflow.com/a/66046176
+// note: `buffer` arg can be an ArrayBuffer or a Uint8Array
+async function bufferToBase64(buffer) {
+  // use a FileReader to generate a base64 data URI:
+  const base64url = await new Promise(r => {
+    const reader = new FileReader()
+    reader.onload = () => r(reader.result)
+    reader.readAsDataURL(new Blob([buffer]))
+  });
+  // remove the `data:...;base64,` part from the start
+  return base64url.slice(base64url.indexOf(',') + 1);
+}
+
+function encodeSave() {
+  const size = Math.ceil(table.length / 8)
+  const buffer = new Uint8Array(size)
+  let pow = 0
+  let i = 0
+  for(const wpn of table) {
+    const key = weaponKey(wpn)
+    if(localStorage[key] > 0) {
+      buffer[i] = buffer[i] | Math.pow(2, pow)
+    }
+    if(pow >= 7) {
+      pow = 0
+      i++
+    } else {
+      pow++
+    }
+  }
+  return bufferToBase64(buffer)
+}
+
+function restoreSaveData(data) {
+  const [game, payload] = data.split(':')
+  if(game !== active.game) {
+    throw new Error(`Wrong game: ${game}\nExpected: ${active.game}`)
+  }
+  const parsed = atob(payload)
+  let pow = 0
+  let i = 0
+  let char = parsed.charCodeAt(0)
+  for(const wpn of table) {
+    const key = weaponKey(wpn)
+    const isActive = (char >> pow) & 1
+    if(isActive) {
+      localStorage[key] = '1'
+    } else if(localStorage[key] > 0) {
+      localStorage[key] = '0'
+    }
+    if(pow >= 7) {
+      pow = 0
+      i++
+      char = parsed.charCodeAt(i)
+    } else {
+      pow++
+    }
+  }
+  loadWeapons(active.game)
+}
+
 const catLabels = {
   ranger: {
     assault: 'Assault Rifles',
@@ -2054,5 +2129,48 @@ const catLabels = {
     super: 'Special Vehicles',
   },
 }
+
+let saveLoadState = 0
+let exportText
+const saveLoadArea = document
+  .getElementById('save-load-textarea')
+const copyButton = document
+  .getElementById('save-load-copy')
+const importButton = document
+  .getElementById('save-load-import')
+copyButton
+  .addEventListener('click', () => {
+    saveLoadArea.select()
+    saveLoadArea.setSelectionRange(0, 99999)
+    navigator.clipboard.writeText(exportText)
+    copyButton.textContent = 'Copied!'
+    setTimeout(() => {
+      copyButton.textContent = 'Copy'
+    }, 1200)
+  })
+importButton
+  .addEventListener('click', async () => {
+    const importText = saveLoadArea.value
+    try {
+      await restoreSaveData(importText)
+    } catch(err) {
+      saveLoadArea.value = err.message
+    }
+  })
+async function toggleSaveLoad() {
+}
+document
+  .getElementById('save-load-toggle')
+  .addEventListener('click', async () => {
+    saveLoadState = 1 - saveLoadState
+    const stateName = ['inactive', 'active'][saveLoadState]
+    if(saveLoadState) {
+      exportText = `${active.game}:${await encodeSave()}`
+      saveLoadArea.value = exportText
+    }
+    document
+      .getElementById('save-load-text')
+      .setAttribute('data-state', stateName)
+  })
 
 loadWeapons(active.game || '5')

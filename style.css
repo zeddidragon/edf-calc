@@ -46,6 +46,27 @@ menu a {
   flex-direction: column;
 }
 
+#save-load-text[data-state="inactive"] {
+  display: none;
+}
+
+#save-load-text {
+  padding: 1em;
+}
+
+#save-load-textarea {
+  width: 100%;
+  height: 5em;
+}
+
+.save-load-buttons {
+  display: flex;
+}
+
+.save-load-buttons .button {
+  text-align: center;
+}
+
 .selected {
   display: block;
   border-bottom: thick solid #edf;
@@ -207,13 +228,13 @@ th.P, th.CR {
 .ranger b, .dlc2 b, .Inferno, .lowOdds, .edf3 b, .edf3p b, .ja b {
   color: #e88;
 }
-.winger b, .off b, .Normal, .edf5 b, .en b, .edf2pv2 b {
+.winger b, .off b, .Normal, .edf5 b, .en b, #save-load-copy {
   color: #88e;
 }
-.bomber b, .on b, .Hard, .highOdds, .edf41 b, .edfia b {
+.bomber b, .on b, .Hard, .highOdds, .edf41 b, .edfia b, #save-load-import {
   color: #8e8;
 }
-.fencer b, .dlc1 b {
+.fencer b, .dlc1 b, .edf2pv2 b {
   color: #ea8;
 }
 
@@ -238,7 +259,7 @@ th.P, th.CR {
 .grenade b, .plasma b, .raid b, .artillery b {
   color: #ea8;
 }
-.special b, .super b {
+.special b, .super b, #save-load-toggle b {
   color: #e8a;
 }
 .deploy b, .Easy, .starter, .star-0 {

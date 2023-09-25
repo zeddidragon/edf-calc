@@ -1423,7 +1423,7 @@ const headers = [{
     if(!wpn.life || !wpn.speed) {
       return '-'
     }
-    if(wpn.speed < 0 || wpn.life < 0) {
+    if((wpn.speed || 0) <= 0 || (wpn.life || 0) <= 0) {
       return '-'
     }
     return (wpn.speed * wpn.life).toFixed(1)
@@ -1435,7 +1435,13 @@ const headers = [{
   starProp: 'lockRange',
   cb: wpn => {
     if(wpn.category === 'missile') {
+      if(!wpn.lockRange) {
+        return '-'
+      }
       return (+wpn.lockRange).toFixed(0)
+    }
+    if((wpn.speed || 0) <= 0 || (wpn.life || 0) <= 0) {
+      return '-'
     }
     return (wpn.speed * wpn.life).toFixed(0)
   },
@@ -1841,9 +1847,11 @@ const headers = [{
     if(!wpn.damage) {
       return '-'
     }
-    if(!wpn.ammo && wpn.reloadSeconds) {
-      const dmg = burstDamage(wpn)
-      return (dmg / wpn.reloadSeconds).toFixed(1)
+    if(wpn.rof || wpn.reloadSeconds) {
+      const ammo = wpn.ammo || 1
+      const damage = wpn.damage * (wpn.count || 1)
+      const duration = ((ammo / wpn.rof) || 0) + (wpn.reloadSeconds || 0)
+      return ((damage * ammo) / duration).toFixed(1)
     }
     if(!wpn.ammo) {
       return '-'
@@ -1853,10 +1861,6 @@ const headers = [{
     }
     if(wpn.reload < 0) {
       return '-'
-    }
-    if(wpn.rof) {
-      const duration = wpn.ammo / wpn.rof + (wpn.reloadSeconds || 0)
-      return ((wpn.damage * wpn.ammo) / duration).toFixed(1)
     }
     if(wpn.shotInterval) { // Turret
       return +tacticalDps({

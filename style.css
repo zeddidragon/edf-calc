@@ -232,7 +232,7 @@ th.P, th.CR {
 .winger b, .off b, .Normal, .edf5 b, .en b, #save-load-copy {
   color: #88e;
 }
-.bomber b, .on b, .Hard, .highOdds, .edf41 b, .edfia b, #save-load-import {
+.bomber b, .on b, .Hard, .highOdds, .edf4 b, .edf41 b, .edfia b, #save-load-import {
   color: #8e8;
 }
 .fencer b, .dlc1 b, .edf2pv2 b {

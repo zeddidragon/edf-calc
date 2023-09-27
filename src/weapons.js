@@ -1960,6 +1960,7 @@ const games = [
   '2pv2',
   '3',
   '3p',
+  '4',
   '41',
   '5',
   'ia',
@@ -1969,6 +1970,7 @@ const gameLabels = [
   'EDF2PV2',
   'EDF3',
   'EDF3P',
+  'EDF4',
   'EDF4.1',
   'EDF5',
   'EDF:IA',
@@ -2042,7 +2044,6 @@ function encodeSave(type) {
 
 function restoreSave(data) {
   const [game, owned, starred] = data.split(':')
-  console.log({ game, owned, starred })
   if(game !== active.game) {
     throw new Error(`Wrong game: ${game}\nExpected: ${active.game}`)
   }

@@ -22053,10 +22053,13 @@
             20
           ],
           "weaponLimits": [
-            10775,
-            70025
+            2.5,
+            25
           ],
-          "armorLimits": null
+          "armorLimits": [
+            431,
+            2801
+          ]
         },
         {
           "name": "Normal",
@@ -22268,10 +22271,13 @@
             25
           ],
           "weaponLimits": [
-            10775,
-            70025
+            2.5,
+            25
           ],
-          "armorLimits": null
+          "armorLimits": [
+            431,
+            2801
+          ]
         },
         {
           "name": "Hard",
@@ -22483,10 +22489,13 @@
             50
           ],
           "weaponLimits": [
-            70025,
-            150850
+            25,
+            50
           ],
-          "armorLimits": null
+          "armorLimits": [
+            2801,
+            6034
+          ]
         },
         {
           "name": "Hardest",
@@ -22698,10 +22707,13 @@
             75
           ],
           "weaponLimits": [
-            150850,
-            204725
+            50,
+            75
           ],
-          "armorLimits": null
+          "armorLimits": [
+            6034,
+            8189
+          ]
         },
         {
           "name": "Inferno",
@@ -22912,7 +22924,13 @@
             100,
             100
           ],
-          "weaponLimits": -1,
+          "weaponLimits": [
+            75,
+            100,
+            null,
+            null,
+            null
+          ],
           "armorLimits": null
         }
       ]

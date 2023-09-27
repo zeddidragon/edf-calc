@@ -20864,7 +20864,7 @@
   },
   "modes": [
     {
-      "name": "GameMode_Scenario",
+      "name": "OFF",
       "missions": 85,
       "difficulties": [
         {
@@ -21840,7 +21840,7 @@
       ]
     },
     {
-      "name": "GameMode_OnlineScenario",
+      "name": "ON",
       "missions": 94,
       "difficulties": [
         {

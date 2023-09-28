@@ -10312,13 +10312,13 @@
       "ammo": 3,
       "damageRank": {
         "ja": "ムズムズする？",
-        "en": "Negligible"
+        "en": "Itchy?"
       },
       "reloadSeconds": 20,
       "zoom": 8,
       "subCategory": "acid",
       "names": {
-        "en": "Insecticide Spray EX",
+        "en": "Bug Killer EX",
         "ja": "殺虫スプレーEX"
       }
     },

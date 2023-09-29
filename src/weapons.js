@@ -862,6 +862,38 @@ function cycleTime(wpn) {
   return (magTime || interval) / FPS
 }
 
+function chargeRate(wpn) {
+  const {
+    baseEnergy: nrg = wpn.energy,
+    chargeSpeed: spd = 1.0
+  } = wpn
+  return (nrg * spd * FPS * 0.001)
+}
+
+function chargeEmergencyRate(wpn) {
+  const {
+    energy: nrg,
+    emergencyChargeSpeed: spd = 1.0
+  } = wpn
+  return (nrg * spd * FPS * 0.002)
+}
+
+function energyUse(wpn) {
+  const {
+    baseEnergy: nrg = wpn.energy,
+    flightConsumption: usg = 1.0
+  } = wpn
+  return (nrg * usg * FPS * 0.0025)
+}
+
+function boostUse(wpn) {
+  const {
+    baseEnergy: nrg = wpn.energy,
+    boostConsumption: usg = 1.0
+  } = wpn
+  return (nrg * usg * 0.03)
+}
+
 const gameScopes = {
   4: '',
 }
@@ -1357,11 +1389,14 @@ const headers = [{
   label: 'Chg',
   tooltip: 'Charge Rate',
   cb: wpn => {
-    const {
-      baseEnergy: nrg = wpn.energy,
-      chargeSpeed: spd = 1.0
-    } = wpn
-    return (nrg * spd * FPS * 0.001).toFixed(1)
+    return chargeRate(wpn).toFixed(1)
+  },
+}, {
+  id: 'chargeRatio',
+  label: '%',
+  tooltip: 'Charge Rate',
+  cb: wpn => {
+    return (100 * chargeRate(wpn) / wpn.energy).toFixed(1)
   },
 }, {
   id: 'chargeEmergencyRate',
@@ -1369,33 +1404,42 @@ const headers = [{
   tooltip: 'Emergency Charge Rate',
   starProp: 'energy',
   cb: wpn => {
-    const {
-      energy: nrg,
-      emergencyChargeSpeed: spd = 1.0
-    } = wpn
-    return (nrg * spd * FPS * 0.002).toFixed(1)
+    return (100 * chargeEmergencyRate(wpn) / wpn.energy).toFixed(1)
+  },
+}, {
+  id: 'chargeEmergencyRatio',
+  label: '%',
+  tooltip: 'Emergency Charge Rate %',
+  cb: wpn => {
+    return (100 * chargeEmergencyRate(wpn) / wpn.energy).toFixed(1)
   },
 }, {
   id: 'energyUse',
   label: 'Cns',
   tooltip: 'Flight Consumption',
   cb: wpn => {
-    const {
-      baseEnergy: nrg = wpn.energy,
-      flightConsumption: usg = 1.0
-    } = wpn
-    return (nrg * usg * FPS * 0.0025).toFixed(1)
+    return energyUse(wpn).toFixed(1)
+  },
+}, {
+  id: 'energyUseRatio',
+  label: '%',
+  tooltip: 'Flight Consumption %',
+  cb: wpn => {
+    return (100 * energyUse(wpn) / wpn.energy).toFixed(1)
   },
 }, {
   id: 'boostUse',
   label: 'B.Cns',
   tooltip: 'Boost Consumption',
   cb: wpn => {
-    const {
-      baseEnergy: nrg = wpn.energy,
-      boostConsumption: usg = 1.0
-    } = wpn
-    return (nrg * usg * 0.03).toFixed(1)
+    return boostUse(wpn).toFixed(1)
+  },
+}, {
+  id: 'boostUseRatio',
+  label: '%',
+  tooltip: 'Boost Consumption %',
+  cb: wpn => {
+    return (100 * boostUse(wpn) / wpn.energy).toFixed(1)
   },
 }, {
   id: 'piercingRange',
@@ -1999,6 +2043,7 @@ const headers = [{
     ).toFixed(1)
   },
 }]
+
 
 const games = [
   '2pv2',

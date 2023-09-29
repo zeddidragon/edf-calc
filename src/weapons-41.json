@@ -23939,7 +23939,9 @@
           "speed",
           "dps",
           "tdps",
-          "total"
+          "total",
+          "eps",
+          "dpe"
         ]
       },
       {
@@ -23962,7 +23964,9 @@
           "speed",
           "dps",
           "tdps",
-          "total"
+          "total",
+          "eps",
+          "dpe"
         ]
       },
       {
@@ -23985,7 +23989,9 @@
           "speed",
           "dps",
           "tdps",
-          "total"
+          "total",
+          "eps",
+          "dpe"
         ]
       },
       {
@@ -23999,13 +24005,15 @@
           "level",
           "name",
           "damage",
-          "reload",
+          "interval",
           "accuracy",
           "energy",
           "range",
           "speed",
           "tdps",
-          "total"
+          "total",
+          "eps",
+          "dpe"
         ]
       },
       {
@@ -24026,7 +24034,9 @@
           "range",
           "speed",
           "tdps",
-          "total"
+          "total",
+          "eps",
+          "dpe"
         ]
       },
       {
@@ -24047,7 +24057,9 @@
           "range",
           "speed",
           "tdps",
-          "total"
+          "total",
+          "eps",
+          "dpe"
         ]
       },
       {
@@ -24068,7 +24080,9 @@
           "range",
           "speed",
           "tdps",
-          "total"
+          "total",
+          "eps",
+          "dpe"
         ]
       },
       {
@@ -24087,7 +24101,9 @@
           "energy",
           "dps",
           "tdps",
-          "total"
+          "total",
+          "eps",
+          "dpe"
         ]
       }
     ],

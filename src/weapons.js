@@ -859,7 +859,7 @@ function cycleTime(wpn) {
     let count = wpn.lockDist === 1 ? wpn.count : wpn.ammo
     magTime += (wpn.lockTime || 0) * count
   }
-  return FPS / (magTime || interval)
+  return (magTime || interval) / FPS
 }
 
 const gameScopes = {
@@ -1205,6 +1205,9 @@ const headers = [{
     if(wpn.rof) {
       return wpn.rof
     }
+    if(wpn.ammo < 2 && wpn.reload < FPS * 10) {
+      return (FPS / wpn.reload).toFixed(1)
+    }
     if(!wpn.interval) {
       return '-'
     }
@@ -1217,7 +1220,7 @@ const headers = [{
     if(wpn.shotInterval) {
       return +(FPS / wpn.shotInterval).toFixed(2)
     }
-    if(wpn.ammo < 2 && wpn.reload) {
+    if(wpn.ammo < 2) {
       return '-'
     }
     if(wpn.category === 'short' && wpn.burst > 1) {
@@ -1963,7 +1966,7 @@ const headers = [{
   label: 'EPS',
   tooltip: 'Energy Per Second',
   cb: wpn => {
-    if(!wpn.energy) {
+    if(wpn.energy < 0.05) {
       return '-'
     }
     if(wpn.rof && !(wpn.ammo > 1 )) {
@@ -1983,7 +1986,7 @@ const headers = [{
   label: 'DPE',
   tooltip: 'Damage Per Energy',
   cb: wpn => {
-    if(!wpn.energy) {
+    if(wpn.energy < 0.05) {
       return '-'
     }
     if(!wpn.damage) {

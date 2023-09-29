@@ -847,6 +847,10 @@ function quickDps(wpn) {
 
 function tacticalDps(wpn) {
   const mDmg = magDamage(wpn)
+  return magDamage(wpn) / cycleTime(wpn)
+}
+
+function cycleTime(wpn) {
   const interval = wpn.interval || 1
   const bursts = wpn.ammo / (wpn.burst || 1)
   const bTime = burstTime(wpn)
@@ -855,7 +859,7 @@ function tacticalDps(wpn) {
     let count = wpn.lockDist === 1 ? wpn.count : wpn.ammo
     magTime += (wpn.lockTime || 0) * count
   }
-  return (mDmg * FPS / (magTime || interval))
+  return FPS / (magTime || interval)
 }
 
 const gameScopes = {
@@ -1783,7 +1787,7 @@ const headers = [{
       return '-'
     }
     if(wpn.rof) {
-      return (wpn.damage * wpn.rof).toFixed()
+      return (wpn.damage * (wpn.count || 1) * wpn.rof).toFixed()
     }
     if(wpn.burst > 100) {
       return (wpn.damage * FPS / (wpn.burstRate || 1)).toFixed(1)
@@ -1953,6 +1957,43 @@ const headers = [{
       return +(dump * wpn.duration).toFixed(1)
     }
     return '-'
+  },
+}, {
+  id: 'eps',
+  label: 'EPS',
+  tooltip: 'Energy Per Second',
+  cb: wpn => {
+    if(!wpn.energy) {
+      return '-'
+    }
+    if(wpn.rof && !(wpn.ammo > 1 )) {
+      return (wpn.energy * wpn.rof).toFixed(1)
+    }
+    if(wpn.reloadSeconds) {
+      let time = wpn.reloadSeconds
+      if(wpn.ammo > 1) {
+        time += wpn.ammo / wpn.rof
+      }
+      return (wpn.energy / time).toFixed(1)
+    }
+    return (wpn.energy / cycleTime(wpn)).toFixed(1)
+  },
+}, {
+  id: 'dpe',
+  label: 'DPE',
+  tooltip: 'Damage Per Energy',
+  cb: wpn => {
+    if(!wpn.energy) {
+      return '-'
+    }
+    if(!wpn.damage) {
+      return '-'
+    }
+    return ( wpn.damage
+      * (wpn.count || 1)
+      * (wpn.ammo || 1)
+      / wpn.energy
+    ).toFixed(1)
   },
 }]
 

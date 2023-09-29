@@ -3,16 +3,16 @@
     "en"
   ],
   "classes": [
-    "ranger",
-    "winger",
     "fencer",
-    "bomber"
+    "winger",
+    "bomber",
+    "ranger"
   ],
   "charLabels": [
-    "Trooper",
-    "Jet",
     "Battle",
-    "Tactical"
+    "Jet",
+    "Tactical",
+    "Trooper"
   ],
   "headers": {
     "ranger": [

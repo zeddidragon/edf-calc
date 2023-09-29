@@ -1237,7 +1237,7 @@ const headers = [{
     if(wpn.rof) {
       return wpn.rof
     }
-    if(wpn.ammo < 2 && wpn.reload < FPS * 10) {
+    if((wpn.ammo || 1) < 2 && wpn.reload < FPS * 10) {
       return (FPS / wpn.reload).toFixed(1)
     }
     if(!wpn.interval) {
@@ -1249,7 +1249,7 @@ const headers = [{
     if(wpn.category == 'missile' && wpn.character === 'winger') {
       return +(FPS / wpn.reload).toFixed(2)
     }
-    if(wpn.shotInterval) {
+    if(wpn.shotInterval && wpn.category !== 'gunship') { // Turrets
       return +(FPS / wpn.shotInterval).toFixed(2)
     }
     if(wpn.ammo < 2) {
@@ -1268,6 +1268,19 @@ const headers = [{
       return '-'
     }
     return rof
+  },
+}, {
+  id: 'interval2',
+  label: 'RoF*',
+  tooltip: 'Rate of Fire (Barrage)',
+  cb: wpn => {
+    if(!wpn.shotInterval) {
+      return '-'
+    }
+    if(wpn.shots < 5) {
+      return '-'
+    }
+    return (FPS / wpn.shotInterval).toFixed(1)
   },
 }, {
   id: 'windup',
@@ -1823,7 +1836,7 @@ const headers = [{
     if(!wpn.damage) {
       return '-'
     }
-    if(wpn.shotInterval) { // Turret
+    if(wpn.shotInterval && wpn.category !== 'gunship') { // Turret
       return quickDps({
         ...wpn,
         shots: wpn.ammo,
@@ -1859,6 +1872,16 @@ const headers = [{
   label: 'DPS*',
   tooltip: 'Damage Per Second*',
   cb: wpn => {
+    if(wpn.shotInterval && wpn.shots > 5) { // Turret or gunship
+      return quickDps({
+        ...wpn,
+        shots: 1,
+        interval: wpn.shotInterval,
+      })
+    }
+    if(wpn.category === 'gunship') {
+      return '-'
+    }
     if(wpn.recoveryAmount) {
       return (wpn.ammo * wpn.recoveryAmount * FPS).toFixed(1)
     }
@@ -1870,13 +1893,6 @@ const headers = [{
         return '-'
       }
       return +(wpn.damage * FPS * wpn.ammo).toFixed(1)
-    }
-    if(wpn.shotInterval) { // Turret
-      return quickDps({
-        ...wpn,
-        shots: wpn.ammo,
-        interval: wpn.shotInterval,
-      })
     }
     if(wpn.continous) {
       return +Math.abs((wpn.damage

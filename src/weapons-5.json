@@ -6,14 +6,14 @@
   "classes": [
     "ranger",
     "winger",
-    "fencer",
-    "bomber"
+    "bomber",
+    "fencer"
   ],
   "charLabels": [
     "Ranger",
     "Wing Diver",
-    "Fencer",
-    "Air Raider"
+    "Air Raider",
+    "Fencer"
   ],
   "headers": {
     "ranger": [
@@ -1014,7 +1014,7 @@
           "en": "Request Gunships",
           "ja": "攻撃機ホエール"
         },
-        "appendix": "*Area for each blast",
+        "appendix": "*For barrage shots",
         "headers": [
           "checkbox",
           "stars",
@@ -1026,11 +1026,13 @@
           "radius",
           "subRadius",
           "interval",
+          "interval2",
           "reload",
           "zoom",
           "range",
           "speed",
           "dps",
+          "dps2",
           "tdps",
           "total"
         ]
@@ -1264,6 +1266,7 @@
               "en": "Automatic Turrets",
               "ja": "ZE-GUNシリーズ"
             },
+            "appendix": "*For a single turret",
             "headers": [
               "checkbox",
               "stars",
@@ -1276,6 +1279,7 @@
               "interval",
               "reload",
               "dps",
+              "dps2",
               "tdps",
               "total"
             ]
@@ -53613,7 +53617,6 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 10,
-      "shotInterval": 60,
       "subRadius": 0
     },
     {
@@ -53935,7 +53938,6 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 11,
-      "shotInterval": 60,
       "subRadius": 0
     },
     {
@@ -54383,7 +54385,6 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 13,
-      "shotInterval": 60,
       "subRadius": 0
     },
     {
@@ -54957,7 +54958,6 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 15,
-      "shotInterval": 60,
       "subRadius": 0
     },
     {
@@ -55279,7 +55279,6 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20,
-      "shotInterval": 60,
       "subRadius": 0
     },
     {

@@ -6,14 +6,14 @@
   "classes": [
     "ranger",
     "winger",
-    "fencer",
-    "bomber"
+    "bomber",
+    "fencer"
   ],
   "charLabels": [
     "Ranger",
     "Wing Diver",
-    "Fencer",
-    "Air Raider"
+    "Air Raider",
+    "Fencer"
   ],
   "weapons": [
     {

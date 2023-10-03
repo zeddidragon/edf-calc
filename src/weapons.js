@@ -1237,7 +1237,7 @@ const headers = [{
     if(wpn.rof) {
       return wpn.rof
     }
-    if((wpn.ammo || 1) < 2 && wpn.reload < FPS * 10) {
+    if((wpn.ammo || 1) < 2 && wpn.reload < FPS) {
       return (FPS / wpn.reload).toFixed(1)
     }
     if(!wpn.interval) {
@@ -1251,6 +1251,9 @@ const headers = [{
     }
     if(wpn.category === 'short' && wpn.burst > 1) {
       return `- x ${wpn.burst}`
+    }
+    if(wpn.category === 'missile' && wpn.lockTime && wpn.burstRate) {
+      return (FPS / wpn.burstRate).toFixed(1)
     }
     if(wpn.burst > 1 && wpn.interval > 1) {
       const burstRof = FPS / wpn.burstRate

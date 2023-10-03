@@ -22239,8 +22239,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "ammoDamageCurve": 1.25
+      }
     },
     {
       "id": "pWeapon004",
@@ -22451,8 +22450,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "ammoDamageCurve": 1.25
+      }
     },
     {
       "id": "pWeapon007",
@@ -22795,8 +22793,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "ammoDamageCurve": 1.25
+      }
     },
     {
       "id": "pWeapon012",
@@ -23286,8 +23283,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "ammoDamageCurve": 1.25
+      }
     },
     {
       "id": "pWeapon019",
@@ -23488,8 +23484,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "ammoDamageCurve": 1.25
+      }
     },
     {
       "id": "pWeapon022",
@@ -23985,8 +23980,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "ammoDamageCurve": 1.25
+      }
     },
     {
       "id": "pWeapon029",
@@ -24190,8 +24184,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "ammoDamageCurve": 1.25
+      }
     },
     {
       "id": "pWeapon032",
@@ -24758,8 +24751,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "ammoDamageCurve": 1.25
+      }
     },
     {
       "id": "pWeapon040",
@@ -25112,8 +25104,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "ammoDamageCurve": 1.25
+      }
     },
     {
       "id": "LAZR01",
@@ -74706,8 +74697,7 @@
         "zero": 1,
         "exp": 0.5,
         "type": "int"
-      },
-      "ammoDamageCurve": 1.25
+      }
     },
     {
       "id": "EX_B_Weapon011",

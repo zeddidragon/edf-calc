@@ -1243,12 +1243,6 @@ const headers = [{
     if(!wpn.interval) {
       return '-'
     }
-    if(wpn.category === 'particle') {
-      return +(FPS / wpn.reload).toFixed(2)
-    }
-    if(wpn.category == 'missile' && wpn.character === 'winger') {
-      return +(FPS / wpn.reload).toFixed(2)
-    }
     if(wpn.shotInterval && wpn.category !== 'gunship') { // Turrets
       return +(FPS / wpn.shotInterval).toFixed(2)
     }

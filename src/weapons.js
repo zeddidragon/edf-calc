@@ -557,6 +557,9 @@ function populateWeaponStats(ch, cat) {
     .filter(t => t.character === ch && t.category === cat)
     .map(w => {
       const obj = { ...w }
+      if(w.category === 'core') {
+        obj.baseEnergy = w.energy?.base || w.energy
+      }
       for(const prop of scaledProps) {
         obj[prop] = getProp(w, prop, obj)
       }
@@ -864,7 +867,7 @@ function cycleTime(wpn) {
 
 function chargeRate(wpn) {
   const {
-    baseEnergy: nrg = wpn.energy,
+    baseEnergy: nrg = wpn.baseEnergy,
     chargeSpeed: spd = 1.0
   } = wpn
   return (nrg * spd * FPS * 0.001)
@@ -1414,7 +1417,7 @@ const headers = [{
   tooltip: 'Emergency Charge Rate',
   starProp: 'energy',
   cb: wpn => {
-    return (100 * chargeEmergencyRate(wpn) / wpn.energy).toFixed(1)
+    return chargeEmergencyRate(wpn).toFixed(1)
   },
 }, {
   id: 'chargeEmergencyRatio',

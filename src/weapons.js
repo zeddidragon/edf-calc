@@ -939,6 +939,7 @@ const headers = [{
   id: 'stars',
   label: '★',
   tooltip: 'Max Rank',
+  iff: () => gameHasStars(),
   cb: wpn => {
     if(!wpn.id) {
       return ''

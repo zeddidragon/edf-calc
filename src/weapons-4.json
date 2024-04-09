@@ -1,20 +1,7 @@
 {
-  "langs": [
-    "en",
-    "ja"
-  ],
-  "classes": [
-    "ranger",
-    "winger",
-    "bomber",
-    "fencer"
-  ],
-  "charLabels": [
-    "Ranger",
-    "Wing Diver",
-    "Air Raider",
-    "Fencer"
-  ],
+  "langs": ["en", "ja"],
+  "classes": ["ranger", "winger", "bomber", "fencer"],
+  "charLabels": ["Ranger", "Wing Diver", "Air Raider", "Fencer"],
   "weapons": [
     {
       "id": "AssultRifle01",
@@ -8151,18 +8138,8 @@
       "secondary": 5,
       "accuracy": 0,
       "attacks": [
-        {
-          "name": "Combo",
-          "damage": 1,
-          "speed": 1,
-          "swing": 1
-        },
-        {
-          "name": "Combo",
-          "damage": 1.5,
-          "speed": 2,
-          "swing": 1.5
-        }
+        {"name": "Combo", "damage": 1, "speed": 1, "swing": 1},
+        {"name": "Combo", "damage": 1.5, "speed": 2, "swing": 1.5}
       ]
     },
     {
@@ -8219,14 +8196,7 @@
       "reload": 180,
       "secondary": 5,
       "accuracy": 0,
-      "attacks": [
-        {
-          "name": "Combo",
-          "damage": 1,
-          "speed": 1,
-          "swing": 1
-        }
-      ]
+      "attacks": [{"name": "Combo", "damage": 1, "speed": 1, "swing": 1}]
     },
     {
       "id": "Weapon372",
@@ -8246,18 +8216,8 @@
       "secondary": 5,
       "accuracy": 0,
       "attacks": [
-        {
-          "name": "Combo",
-          "damage": 1,
-          "speed": 1,
-          "swing": 1
-        },
-        {
-          "name": "Combo",
-          "damage": 3,
-          "speed": 3,
-          "swing": 1
-        }
+        {"name": "Combo", "damage": 1, "speed": 1, "swing": 1},
+        {"name": "Combo", "damage": 3, "speed": 3, "swing": 1}
       ]
     },
     {
@@ -8280,18 +8240,8 @@
       "secondary": 5,
       "accuracy": 0,
       "attacks": [
-        {
-          "name": "Combo",
-          "damage": 1,
-          "speed": 1,
-          "swing": 1
-        },
-        {
-          "name": "Combo",
-          "damage": 1.5,
-          "speed": 1,
-          "swing": 1.5
-        }
+        {"name": "Combo", "damage": 1, "speed": 1, "swing": 1},
+        {"name": "Combo", "damage": 1.5, "speed": 1, "swing": 1.5}
       ]
     },
     {
@@ -8348,14 +8298,7 @@
       "reload": 180,
       "secondary": 5,
       "accuracy": 0,
-      "attacks": [
-        {
-          "name": "Combo",
-          "damage": 1,
-          "speed": 1,
-          "swing": 1
-        }
-      ]
+      "attacks": [{"name": "Combo", "damage": 1, "speed": 1, "swing": 1}]
     },
     {
       "id": "Weapon377",
@@ -8394,18 +8337,8 @@
       "secondary": 5,
       "accuracy": 0,
       "attacks": [
-        {
-          "name": "Combo",
-          "damage": 1,
-          "speed": 1,
-          "swing": 1
-        },
-        {
-          "name": "Combo",
-          "damage": 2.5,
-          "speed": 2,
-          "swing": 1.6
-        }
+        {"name": "Combo", "damage": 1, "speed": 1, "swing": 1},
+        {"name": "Combo", "damage": 2.5, "speed": 2, "swing": 1.6}
       ]
     },
     {
@@ -8428,18 +8361,8 @@
       "secondary": 5,
       "accuracy": 0,
       "attacks": [
-        {
-          "name": "Combo",
-          "damage": 1,
-          "speed": 1,
-          "swing": 1.5
-        },
-        {
-          "name": "Combo",
-          "damage": 1.5,
-          "speed": 1,
-          "swing": 1
-        }
+        {"name": "Combo", "damage": 1, "speed": 1, "swing": 1.5},
+        {"name": "Combo", "damage": 1.5, "speed": 1, "swing": 1}
       ]
     },
     {
@@ -8460,18 +8383,8 @@
       "secondary": 5,
       "accuracy": 0,
       "attacks": [
-        {
-          "name": "Combo",
-          "damage": 1,
-          "speed": 1,
-          "swing": 1
-        },
-        {
-          "name": "Combo",
-          "damage": 3,
-          "speed": 2.5,
-          "swing": 1.65
-        }
+        {"name": "Combo", "damage": 1, "speed": 1, "swing": 1},
+        {"name": "Combo", "damage": 3, "speed": 2.5, "swing": 1.65}
       ]
     },
     {
@@ -8509,14 +8422,7 @@
       "reload": 180,
       "secondary": 5,
       "accuracy": 0,
-      "attacks": [
-        {
-          "name": "Combo",
-          "damage": 1,
-          "speed": 1,
-          "swing": 1
-        }
-      ]
+      "attacks": [{"name": "Combo", "damage": 1, "speed": 1, "swing": 1}]
     },
     {
       "id": "Weapon383",
@@ -8555,18 +8461,8 @@
       "secondary": 5,
       "accuracy": 0,
       "attacks": [
-        {
-          "name": "Combo",
-          "damage": 1,
-          "speed": 1,
-          "swing": 1
-        },
-        {
-          "name": "Combo",
-          "damage": 2.5,
-          "speed": 2.5,
-          "swing": 1.65
-        }
+        {"name": "Combo", "damage": 1, "speed": 1, "swing": 1},
+        {"name": "Combo", "damage": 2.5, "speed": 2.5, "swing": 1.65}
       ]
     },
     {
@@ -8607,18 +8503,8 @@
       "secondary": 5,
       "accuracy": 0,
       "attacks": [
-        {
-          "name": "Combo",
-          "damage": 1,
-          "speed": 1,
-          "swing": 1
-        },
-        {
-          "name": "Combo",
-          "damage": 1.5,
-          "speed": 1,
-          "swing": 1.5
-        }
+        {"name": "Combo", "damage": 1, "speed": 1, "swing": 1},
+        {"name": "Combo", "damage": 1.5, "speed": 1, "swing": 1.5}
       ]
     },
     {
@@ -8639,18 +8525,8 @@
       "secondary": 5,
       "accuracy": 0,
       "attacks": [
-        {
-          "name": "Combo",
-          "damage": 1,
-          "speed": 1,
-          "swing": 1
-        },
-        {
-          "name": "Combo",
-          "damage": 4,
-          "speed": 3,
-          "swing": 1
-        }
+        {"name": "Combo", "damage": 1, "speed": 1, "swing": 1},
+        {"name": "Combo", "damage": 4, "speed": 3, "swing": 1}
       ]
     },
     {
@@ -8670,14 +8546,7 @@
       "reload": 120,
       "secondary": 5,
       "accuracy": 0,
-      "attacks": [
-        {
-          "name": "Combo",
-          "damage": 1,
-          "speed": 1,
-          "swing": 1
-        }
-      ]
+      "attacks": [{"name": "Combo", "damage": 1, "speed": 1, "swing": 1}]
     },
     {
       "id": "Weapon389",
@@ -8715,18 +8584,8 @@
       "secondary": 5,
       "accuracy": 0,
       "attacks": [
-        {
-          "name": "Combo",
-          "damage": 1,
-          "speed": 1,
-          "swing": 1
-        },
-        {
-          "name": "Combo",
-          "damage": 2.5,
-          "speed": 3,
-          "swing": 1.75
-        }
+        {"name": "Combo", "damage": 1, "speed": 1, "swing": 1},
+        {"name": "Combo", "damage": 2.5, "speed": 3, "swing": 1.75}
       ]
     },
     {
@@ -8749,18 +8608,8 @@
       "secondary": 5,
       "accuracy": 0,
       "attacks": [
-        {
-          "name": "Combo",
-          "damage": 1,
-          "speed": 1,
-          "swing": 2
-        },
-        {
-          "name": "Combo",
-          "damage": 2,
-          "speed": 1,
-          "swing": 1.5
-        }
+        {"name": "Combo", "damage": 1, "speed": 1, "swing": 2},
+        {"name": "Combo", "damage": 2, "speed": 1, "swing": 1.5}
       ]
     },
     {
@@ -8799,14 +8648,7 @@
       "reload": 180,
       "secondary": 5,
       "accuracy": 0,
-      "attacks": [
-        {
-          "name": "Combo",
-          "damage": 1,
-          "speed": 1,
-          "swing": 1
-        }
-      ]
+      "attacks": [{"name": "Combo", "damage": 1, "speed": 1, "swing": 1}]
     },
     {
       "id": "hShield01",
@@ -15068,10 +14910,7 @@
       "hp": 400,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "105mm Howitzer",
           "type": "RocketBullet01",
           "ammo": 35,
@@ -15106,10 +14945,7 @@
       "hp": 495,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Howitzer",
           "type": "RocketBullet01",
           "ammo": 120,
@@ -15144,10 +14980,7 @@
       "hp": 500,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "105mm Howitzer",
           "type": "RocketBullet01",
           "ammo": 35,
@@ -15182,10 +15015,7 @@
       "hp": 800,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Combat Burner",
           "type": "FlameBullet02",
           "ammo": 3000,
@@ -15201,10 +15031,7 @@
           "piercing": true
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Combat Burner",
           "type": "FlameBullet02",
           "ammo": 3000,
@@ -15239,10 +15066,7 @@
       "hp": 640,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Revolver Cannon",
           "type": "SolidBullet01",
           "ammo": 900,
@@ -15257,10 +15081,7 @@
           "interval": 5
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Rocket Cannon",
           "type": "RocketBullet01",
           "ammo": 30,
@@ -15294,10 +15115,7 @@
       "hp": 390,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 1800,
@@ -15312,10 +15130,7 @@
           "interval": 3
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Missiles",
           "type": "MissileBullet01",
           "ammo": 20,
@@ -15354,10 +15169,7 @@
       "hp": 1950,
       "weapons": [
         {
-          "names": {
-            "ja": "医療機器",
-            "en": "Medicinal Equipment"
-          },
+          "names": {"ja": "医療機器", "en": "Medicinal Equipment"},
           "total": 600,
           "damage": 0.6499999761581421,
           "interval": 1
@@ -15382,10 +15194,7 @@
       "hp": 420,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Homing Rocket Cannon",
           "type": "MissileBullet01",
           "ammo": 50,
@@ -15424,10 +15233,7 @@
       "hp": 1100,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "105mm Howitzer",
           "type": "RocketBullet01",
           "ammo": 35,
@@ -15462,10 +15268,7 @@
       "hp": 225,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 1200,
@@ -15499,10 +15302,7 @@
       "hp": 1500,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Railgun",
           "type": "SolidBullet01Rail",
           "ammo": 25,
@@ -15518,10 +15318,7 @@
           "interval": 180
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 500,
@@ -15535,10 +15332,7 @@
           "interval": 4
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 500,
@@ -15571,10 +15365,7 @@
       "hp": 1040,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Combat Burner",
           "type": "FlameBullet02",
           "ammo": 3000,
@@ -15590,10 +15381,7 @@
           "piercing": true
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Combat Burner",
           "type": "FlameBullet02",
           "ammo": 3000,
@@ -15609,10 +15397,7 @@
           "piercing": true
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Canister Shot(Right)",
           "type": "SolidBullet01",
           "ammo": 20,
@@ -15628,10 +15413,7 @@
           "interval": 80
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Canister Shot(Left)",
           "type": "SolidBullet01",
           "ammo": 20,
@@ -15666,10 +15448,7 @@
       "hp": 6240,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Requiem Gun",
           "type": "RocketBullet01",
           "ammo": 10,
@@ -15684,10 +15463,7 @@
           "interval": 300
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Howitzer",
           "type": "RocketBullet01",
           "ammo": 40,
@@ -15703,10 +15479,7 @@
           "interval": 80
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Howitzer",
           "type": "RocketBullet01",
           "ammo": 40,
@@ -15722,10 +15495,7 @@
           "interval": 80
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 900,
@@ -15739,10 +15509,7 @@
           "interval": 3
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Grenade Discharger(Left)",
           "type": "GrenadeBullet01",
           "ammo": 48,
@@ -15759,10 +15526,7 @@
           "interval": 80
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Grenade Discharger(Right)",
           "type": "GrenadeBullet01",
           "ammo": 48,
@@ -15798,10 +15562,7 @@
       "hp": 510,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Auto-acquisition Autocannon",
           "type": "SolidBullet01",
           "ammo": 1500,
@@ -15816,10 +15577,7 @@
           "interval": 3
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Rocket Cannon",
           "type": "MissileBullet01",
           "ammo": 48,
@@ -15855,10 +15613,7 @@
       "hp": 1550,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "120mm Howitzer",
           "type": "RocketBullet01",
           "ammo": 35,
@@ -15893,10 +15648,7 @@
       "hp": 1240,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Revolver Cannon",
           "type": "SolidBullet01",
           "ammo": 900,
@@ -15911,10 +15663,7 @@
           "interval": 5
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Rocket Cannon",
           "type": "RocketBullet01",
           "ammo": 30,
@@ -15948,10 +15697,7 @@
       "hp": 810,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Smooth-bore Gun",
           "type": "SolidBullet01",
           "ammo": 160,
@@ -15986,10 +15732,7 @@
       "hp": 1080,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Dauntless Heavy Gun",
           "type": "SolidBullet01",
           "ammo": 80,
@@ -16024,10 +15767,7 @@
       "hp": 2700,
       "weapons": [
         {
-          "names": {
-            "ja": "医療機器",
-            "en": "Medicinal Equipment"
-          },
+          "names": {"ja": "医療機器", "en": "Medicinal Equipment"},
           "total": 1200,
           "damage": 0.44999998807907104,
           "interval": 1
@@ -16052,10 +15792,7 @@
       "hp": 1700,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Meltgun",
           "type": "AcidBullet01",
           "ammo": 160,
@@ -16089,10 +15826,7 @@
       "hp": 270,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 1200,
@@ -16126,10 +15860,7 @@
       "hp": 2040,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Railgun",
           "type": "SolidBullet01Rail",
           "ammo": 25,
@@ -16145,10 +15876,7 @@
           "interval": 180
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 500,
@@ -16162,10 +15890,7 @@
           "interval": 4
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 500,
@@ -16198,10 +15923,7 @@
       "hp": 1480,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Heavy Revolver Cannon",
           "type": "SolidBullet01",
           "ammo": 72,
@@ -16218,10 +15940,7 @@
           "interval": 80
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Heavy Revolver Cannon",
           "type": "SolidBullet01",
           "ammo": 72,
@@ -16238,10 +15957,7 @@
           "interval": 80
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Shoulder Howitzer(Right)",
           "type": "RocketBullet01",
           "ammo": 10,
@@ -16257,10 +15973,7 @@
           "interval": 160
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Shoulder Howitzer(Left)",
           "type": "RocketBullet01",
           "ammo": 10,
@@ -16295,10 +16008,7 @@
       "hp": 570,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Convergence Guided Rocket Cannon",
           "type": "MissileBullet02",
           "ammo": 50,
@@ -16337,10 +16047,7 @@
       "hp": 2000,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "115mm Long-range Howitzer",
           "type": "RocketBullet01",
           "ammo": 35,
@@ -16375,10 +16082,7 @@
       "hp": 3000,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "120mm Howitzer",
           "type": "RocketBullet01",
           "ammo": 35,
@@ -16413,10 +16117,7 @@
       "hp": 900,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Vulture",
           "type": "LaserBullet01",
           "ammo": 150,
@@ -16431,10 +16132,7 @@
           "interval": 120
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Missiles",
           "type": "MissileBullet01",
           "ammo": 20,
@@ -16473,10 +16171,7 @@
       "hp": 2640,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Revolver Cannon",
           "type": "SolidBullet01",
           "ammo": 900,
@@ -16491,10 +16186,7 @@
           "interval": 5
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Rocket Cannon",
           "type": "RocketBullet01",
           "ammo": 30,
@@ -16509,10 +16201,7 @@
           "interval": 80
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Missile Pod(Right)",
           "type": "MissileBullet01",
           "ammo": 32,
@@ -16551,10 +16240,7 @@
       "hp": 24750,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Buster Cannon",
           "type": "RocketBullet01",
           "ammo": 200,
@@ -16569,10 +16255,7 @@
           "interval": 20
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Buster Cannon",
           "type": "RocketBullet01",
           "ammo": 200,
@@ -16587,10 +16270,7 @@
           "interval": 20
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Missiles",
           "type": "MissileBullet01",
           "ammo": 200,
@@ -16629,10 +16309,7 @@
       "hp": 4440,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Menace Electromagnetic Launcher",
           "type": "SolidBullet01Rail",
           "ammo": 25,
@@ -16648,10 +16325,7 @@
           "interval": 180
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 500,
@@ -16665,10 +16339,7 @@
           "interval": 4
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 500,
@@ -16701,10 +16372,7 @@
       "hp": 1800,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Howitzer",
           "type": "RocketBullet01",
           "ammo": 120,
@@ -16739,10 +16407,7 @@
       "hp": 3440,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Revolver Cannon",
           "type": "SolidBullet01",
           "ammo": 900,
@@ -16757,10 +16422,7 @@
           "interval": 5
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Revolver Cannon",
           "type": "SolidBullet01",
           "ammo": 900,
@@ -16775,10 +16437,7 @@
           "interval": 5
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Missile Pod(Right)",
           "type": "MissileBullet01",
           "ammo": 32,
@@ -16798,10 +16457,7 @@
           "lockType": 1
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Missile Pod(Left)",
           "type": "MissileBullet01",
           "ammo": 32,
@@ -16840,10 +16496,7 @@
       "hp": 4400,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "120mm Howitzer",
           "type": "RocketBullet01",
           "ammo": 35,
@@ -16878,10 +16531,7 @@
       "hp": 1350,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Auto-acquisition Autocannon",
           "type": "SolidBullet01",
           "ammo": 1500,
@@ -16896,10 +16546,7 @@
           "interval": 3
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Rocket Cannon",
           "type": "MissileBullet01",
           "ammo": 48,
@@ -16935,10 +16582,7 @@
       "hp": 21600,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Requiem Gun",
           "type": "RocketBullet01",
           "ammo": 10,
@@ -16953,10 +16597,7 @@
           "interval": 300
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Smooth-bore Gun",
           "type": "SolidBullet01Rail",
           "ammo": 80,
@@ -16972,10 +16613,7 @@
           "interval": 120
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Smooth-bore Gun",
           "type": "SolidBullet01Rail",
           "ammo": 80,
@@ -16991,10 +16629,7 @@
           "interval": 120
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 900,
@@ -17008,10 +16643,7 @@
           "interval": 3
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Missile Launcher(Left)",
           "type": "MissileBullet01",
           "ammo": 48,
@@ -17031,10 +16663,7 @@
           "lockType": 1
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Missile Launcher(Right)",
           "type": "MissileBullet01",
           "ammo": 48,
@@ -17073,10 +16702,7 @@
       "hp": 2160,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Light Rapid-fire Gun",
           "type": "SolidBullet01",
           "ammo": 400,
@@ -17111,10 +16737,7 @@
       "hp": 7200,
       "weapons": [
         {
-          "names": {
-            "ja": "医療機器",
-            "en": "Medicinal Equipment"
-          },
+          "names": {"ja": "医療機器", "en": "Medicinal Equipment"},
           "total": 1800,
           "damage": 2,
           "interval": 1
@@ -17139,10 +16762,7 @@
       "hp": 6000,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Heavy Frame Gun",
           "type": "FlameBullet02",
           "ammo": 2000,
@@ -17177,10 +16797,7 @@
       "hp": 750,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 1200,
@@ -17214,10 +16831,7 @@
       "hp": 4240,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Revolver Cannon",
           "type": "SolidBullet01",
           "ammo": 900,
@@ -17232,10 +16846,7 @@
           "interval": 5
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Rocket Cannon",
           "type": "RocketBullet01",
           "ammo": 30,
@@ -17250,10 +16861,7 @@
           "interval": 80
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Missile Pod(Right)",
           "type": "MissileBullet01",
           "ammo": 32,
@@ -17292,10 +16900,7 @@
       "hp": 6360,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Menace Electromagnetic Launcher",
           "type": "SolidBullet01Rail",
           "ammo": 25,
@@ -17311,10 +16916,7 @@
           "interval": 180
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 500,
@@ -17328,10 +16930,7 @@
           "interval": 4
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 500,
@@ -17364,10 +16963,7 @@
       "hp": 1710,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 1800,
@@ -17382,10 +16978,7 @@
           "interval": 3
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Twin Napalm Gun",
           "type": "NapalmBullet01",
           "ammo": 60,
@@ -17422,10 +17015,7 @@
       "hp": 1710,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Homing Rocket Cannon",
           "type": "MissileBullet01",
           "ammo": 50,
@@ -17464,10 +17054,7 @@
       "hp": 3360,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Combat Burner",
           "type": "FlameBullet02",
           "ammo": 3000,
@@ -17483,10 +17070,7 @@
           "piercing": true
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Combat Burner",
           "type": "FlameBullet02",
           "ammo": 3000,
@@ -17502,10 +17086,7 @@
           "piercing": true
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Canister Shot(Right)",
           "type": "SolidBullet01",
           "ammo": 20,
@@ -17521,10 +17102,7 @@
           "interval": 80
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Canister Shot(Left)",
           "type": "SolidBullet01",
           "ammo": 20,
@@ -17559,10 +17137,7 @@
       "hp": 7000,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "130mm Howitzer",
           "type": "RocketBullet01",
           "ammo": 35,
@@ -17597,10 +17172,7 @@
       "hp": 3150,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Smooth-bore Gun",
           "type": "SolidBullet01",
           "ammo": 160,
@@ -17635,10 +17207,7 @@
       "hp": 6400,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Revolver Rocket Cannon",
           "type": "MissileBullet01",
           "ammo": 120,
@@ -17655,10 +17224,7 @@
           "interval": 80
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Revolver Rocket Cannon",
           "type": "MissileBullet01",
           "ammo": 120,
@@ -17675,10 +17241,7 @@
           "interval": 80
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Dispersal Howitzer(Right)",
           "type": "RocketBullet01",
           "ammo": 12,
@@ -17694,10 +17257,7 @@
           "interval": 240
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Dispersal Howitzer(Left)",
           "type": "RocketBullet01",
           "ammo": 12,
@@ -17732,10 +17292,7 @@
       "hp": 60000,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Buster Cannon",
           "type": "RocketBullet01",
           "ammo": 200,
@@ -17750,10 +17307,7 @@
           "interval": 20
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Buster Cannon",
           "type": "RocketBullet01",
           "ammo": 200,
@@ -17768,10 +17322,7 @@
           "interval": 20
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Missiles",
           "type": "MissileBullet01",
           "ammo": 200,
@@ -17810,10 +17361,7 @@
       "hp": 8500,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "125mm Long-range Howitzer",
           "type": "RocketBullet01",
           "ammo": 35,
@@ -17848,10 +17396,7 @@
       "hp": 10800,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Menace 4D Burst",
           "type": "SolidBullet01Rail",
           "ammo": 60,
@@ -17868,10 +17413,7 @@
           "interval": 180
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 500,
@@ -17885,10 +17427,7 @@
           "interval": 4
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 500,
@@ -17921,10 +17460,7 @@
       "hp": 13500,
       "weapons": [
         {
-          "names": {
-            "ja": "医療機器",
-            "en": "Medicinal Equipment"
-          },
+          "names": {"ja": "医療機器", "en": "Medicinal Equipment"},
           "total": 6000,
           "damage": 4,
           "interval": 1
@@ -17949,10 +17485,7 @@
       "hp": 2700,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Ground Auto-acquisition Blaze Gun",
           "type": "FlameBullet02",
           "ammo": 3000,
@@ -17968,10 +17501,7 @@
           "piercing": true
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Unguided bomb",
           "type": "GrenadeBullet01",
           "ammo": 16,
@@ -18007,10 +17537,7 @@
       "hp": 8000,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Combat Burner",
           "type": "FlameBullet02",
           "ammo": 3000,
@@ -18026,10 +17553,7 @@
           "piercing": true
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Revolver Cannon",
           "type": "SolidBullet01",
           "ammo": 900,
@@ -18044,10 +17568,7 @@
           "interval": 5
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Shoulder Howitzer(Right)",
           "type": "RocketBullet01",
           "ammo": 10,
@@ -18063,10 +17584,7 @@
           "interval": 160
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Missile Pod(Left)",
           "type": "MissileBullet01",
           "ammo": 32,
@@ -18105,10 +17623,7 @@
       "hp": 1575,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 1200,
@@ -18142,10 +17657,7 @@
       "hp": 11000,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "130mm Howitzer",
           "type": "RocketBullet01",
           "ammo": 35,
@@ -18180,10 +17692,7 @@
       "hp": 9600,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "New Revolver Cannon",
           "type": "SolidBullet01",
           "ammo": 900,
@@ -18198,10 +17707,7 @@
           "interval": 5
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "New Revolver Cannon",
           "type": "SolidBullet01",
           "ammo": 900,
@@ -18216,10 +17722,7 @@
           "interval": 5
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Missile Pod(Right)",
           "type": "MissileBullet01",
           "ammo": 32,
@@ -18239,10 +17742,7 @@
           "lockType": 1
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Missile Pod(Left)",
           "type": "MissileBullet01",
           "ammo": 32,
@@ -18281,10 +17781,7 @@
       "hp": 7200,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Pitbull Quickfire Cannon",
           "type": "SolidBullet01",
           "ammo": 40,
@@ -18319,10 +17816,7 @@
       "hp": 3900,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Homing Rocket Cannon",
           "type": "MissileBullet01",
           "ammo": 50,
@@ -18361,10 +17855,7 @@
       "hp": 4950,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Howitzer",
           "type": "RocketBullet01",
           "ammo": 120,
@@ -18399,10 +17890,7 @@
       "hp": 4200,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Vulture",
           "type": "LaserBullet01",
           "ammo": 150,
@@ -18417,10 +17905,7 @@
           "interval": 120
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Missiles",
           "type": "MissileBullet01",
           "ammo": 20,
@@ -18459,10 +17944,7 @@
       "hp": 12000,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Combat Burner",
           "type": "FlameBullet02",
           "ammo": 3000,
@@ -18478,10 +17960,7 @@
           "piercing": true
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Combat Burner",
           "type": "FlameBullet02",
           "ammo": 3000,
@@ -18497,10 +17976,7 @@
           "piercing": true
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Canister Shot(Right)",
           "type": "SolidBullet01",
           "ammo": 20,
@@ -18516,10 +17992,7 @@
           "interval": 80
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Canister Shot(Left)",
           "type": "SolidBullet01",
           "ammo": 20,
@@ -18554,10 +18027,7 @@
       "hp": 18000,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Blast Menace EML",
           "type": "SolidBullet01Rail",
           "ammo": 25,
@@ -18573,10 +18043,7 @@
           "interval": 180
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 500,
@@ -18590,10 +18057,7 @@
           "interval": 4
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 500,
@@ -18626,10 +18090,7 @@
       "hp": 4800,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Auto-acquisition Autocannon",
           "type": "SolidBullet01",
           "ammo": 1500,
@@ -18644,10 +18105,7 @@
           "interval": 3
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Rocket Cannon",
           "type": "MissileBullet01",
           "ammo": 48,
@@ -18683,10 +18141,7 @@
       "hp": 16500,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "130mm Howitzer",
           "type": "RocketBullet01",
           "ammo": 35,
@@ -18721,10 +18176,7 @@
       "hp": 25500,
       "weapons": [
         {
-          "names": {
-            "ja": "医療機器",
-            "en": "Medicinal Equipment"
-          },
+          "names": {"ja": "医療機器", "en": "Medicinal Equipment"},
           "total": 10000,
           "damage": 7,
           "interval": 1
@@ -18749,10 +18201,7 @@
       "hp": 16800,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Revolver Rocket Cannon",
           "type": "MissileBullet01",
           "ammo": 120,
@@ -18769,10 +18218,7 @@
           "interval": 80
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Revolver Rocket Cannon",
           "type": "MissileBullet01",
           "ammo": 120,
@@ -18789,10 +18235,7 @@
           "interval": 80
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Dispersal Howitzer(Right)",
           "type": "RocketBullet01",
           "ammo": 12,
@@ -18808,10 +18251,7 @@
           "interval": 240
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Dispersal Howitzer(Left)",
           "type": "RocketBullet01",
           "ammo": 12,
@@ -18846,10 +18286,7 @@
       "hp": 3300,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 1200,
@@ -18883,10 +18320,7 @@
       "hp": 33000,
       "weapons": [
         {
-          "names": {
-            "ja": "医療機器",
-            "en": "Medicinal Equipment"
-          },
+          "names": {"ja": "医療機器", "en": "Medicinal Equipment"},
           "total": 20000,
           "damage": 7,
           "interval": 1
@@ -18911,10 +18345,7 @@
       "hp": 23000,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "135mm Long-range Howitzer",
           "type": "RocketBullet01",
           "ammo": 35,
@@ -18949,10 +18380,7 @@
       "hp": 9450,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Light Rapid-fire Gun",
           "type": "SolidBullet01",
           "ammo": 400,
@@ -18987,10 +18415,7 @@
       "hp": 6600,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Vulture",
           "type": "LaserBullet01",
           "ammo": 150,
@@ -19005,10 +18430,7 @@
           "interval": 120
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Twin Napalm Gun",
           "type": "NapalmBullet01",
           "ammo": 60,
@@ -19045,10 +18467,7 @@
       "hp": 165000,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Buster Cannon",
           "type": "RocketBullet01",
           "ammo": 200,
@@ -19063,10 +18482,7 @@
           "interval": 20
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Buster Cannon",
           "type": "RocketBullet01",
           "ammo": 200,
@@ -19081,10 +18497,7 @@
           "interval": 20
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Missiles",
           "type": "MissileBullet01",
           "ammo": 200,
@@ -19123,10 +18536,7 @@
       "hp": 6600,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Convergence Guided Rocket Cannon",
           "type": "MissileBullet02",
           "ammo": 50,
@@ -19165,10 +18575,7 @@
       "hp": 14400,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Dauntless SA Heavy Gun",
           "type": "SolidBullet01",
           "ammo": 100,
@@ -19203,10 +18610,7 @@
       "hp": 14000,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Combat Burner",
           "type": "FlameBullet02",
           "ammo": 3000,
@@ -19222,10 +18626,7 @@
           "piercing": true
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Combat Burner",
           "type": "FlameBullet02",
           "ammo": 3000,
@@ -19241,10 +18642,7 @@
           "piercing": true
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Canister Shot(Right)",
           "type": "SolidBullet01",
           "ammo": 20,
@@ -19260,10 +18658,7 @@
           "interval": 80
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Canister Shot(Left)",
           "type": "SolidBullet01",
           "ammo": 20,
@@ -19298,10 +18693,7 @@
       "hp": 7500,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Auto-acquisition Autocannon",
           "type": "SolidBullet01",
           "ammo": 1500,
@@ -19316,10 +18708,7 @@
           "interval": 3
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Rocket Cannon",
           "type": "MissileBullet01",
           "ammo": 48,
@@ -19355,10 +18744,7 @@
       "hp": 110400,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Requiem Gun",
           "type": "RocketBullet01",
           "ammo": 10,
@@ -19373,10 +18759,7 @@
           "interval": 300
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Smooth-bore Gun",
           "type": "SolidBullet01Rail",
           "ammo": 80,
@@ -19392,10 +18775,7 @@
           "interval": 120
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Smooth-bore Gun",
           "type": "SolidBullet01Rail",
           "ammo": 80,
@@ -19411,10 +18791,7 @@
           "interval": 120
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 900,
@@ -19428,10 +18805,7 @@
           "interval": 3
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Missile Launcher(Left)",
           "type": "MissileBullet01",
           "ammo": 48,
@@ -19451,10 +18825,7 @@
           "lockType": 1
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Missile Launcher(Right)",
           "type": "MissileBullet01",
           "ammo": 48,
@@ -19493,10 +18864,7 @@
       "hp": 20000,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Combat Burner",
           "type": "FlameBullet02",
           "ammo": 3000,
@@ -19512,10 +18880,7 @@
           "piercing": true
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Revolver Cannon",
           "type": "SolidBullet01",
           "ammo": 900,
@@ -19530,10 +18895,7 @@
           "interval": 5
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Shoulder Howitzer S(Right)",
           "type": "RocketBullet01",
           "ammo": 10,
@@ -19549,10 +18911,7 @@
           "interval": 160
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Missile Pod(Left)",
           "type": "MissileBullet01",
           "ammo": 32,
@@ -19591,10 +18950,7 @@
       "hp": 30000,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Blast Menace EML",
           "type": "SolidBullet01Rail",
           "ammo": 25,
@@ -19610,10 +18966,7 @@
           "interval": 180
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 500,
@@ -19627,10 +18980,7 @@
           "interval": 4
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 500,
@@ -19663,10 +19013,7 @@
       "hp": 7500,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Machine Gun",
           "type": "SolidBullet01",
           "ammo": 1800,
@@ -19681,10 +19028,7 @@
           "interval": 3
         },
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "Missiles",
           "type": "MissileBullet01",
           "ammo": 20,
@@ -19723,10 +19067,7 @@
       "hp": 25000,
       "weapons": [
         {
-          "names": {
-            "ja": null,
-            "en": null
-          },
+          "names": {"ja": null, "en": null},
           "name": "140mm Howitzer",
           "type": "RocketBullet01",
           "ammo": 35,
@@ -19748,10 +19089,7 @@
     "ranger": [
       {
         "category": "assault",
-        "names": {
-          "en": "Assault Rifle",
-          "ja": "アサルトライフル"
-        },
+        "names": {"en": "Assault Rifle", "ja": "アサルトライフル"},
         "headers": [
           "checkbox",
           "level",
@@ -19771,10 +19109,7 @@
       },
       {
         "category": "shotgun",
-        "names": {
-          "en": "Shotguns",
-          "ja": "ショットガン"
-        },
+        "names": {"en": "Shotguns", "ja": "ショットガン"},
         "headers": [
           "checkbox",
           "level",
@@ -19794,10 +19129,7 @@
       },
       {
         "category": "sniper",
-        "names": {
-          "en": "Sniper Rifles",
-          "ja": "スナイパーライフル"
-        },
+        "names": {"en": "Sniper Rifles", "ja": "スナイパーライフル"},
         "headers": [
           "checkbox",
           "level",
@@ -19818,10 +19150,7 @@
       },
       {
         "category": "rocket",
-        "names": {
-          "en": "Rocket Launchers",
-          "ja": "ロケットランチャー"
-        },
+        "names": {"en": "Rocket Launchers", "ja": "ロケットランチャー"},
         "headers": [
           "checkbox",
           "level",
@@ -19840,10 +19169,7 @@
       },
       {
         "category": "missile",
-        "names": {
-          "en": "Missile Launchers",
-          "ja": "ミサイルランチャー"
-        },
+        "names": {"en": "Missile Launchers", "ja": "ミサイルランチャー"},
         "appendix": "*With 0 lock time",
         "headers": [
           "checkbox",
@@ -19864,17 +19190,11 @@
       },
       {
         "category": "grenade",
-        "names": {
-          "en": "Grenades",
-          "ja": "グレネード"
-        },
+        "names": {"en": "Grenades", "ja": "グレネード"},
         "tables": [
           {
             "subCategory": "hg",
-            "names": {
-              "en": "Hand Grenades",
-              "ja": "ハンドグレネード"
-            },
+            "names": {"en": "Hand Grenades", "ja": "ハンドグレネード"},
             "headers": [
               "checkbox",
               "level",
@@ -19888,10 +19208,7 @@
           },
           {
             "subCategory": "gl",
-            "names": {
-              "en": "Grenade Launchers",
-              "ja": "グレネードランチャー"
-            },
+            "names": {"en": "Grenade Launchers", "ja": "グレネードランチャー"},
             "headers": [
               "checkbox",
               "level",
@@ -19912,17 +19229,11 @@
       },
       {
         "category": "special",
-        "names": {
-          "en": "Special Weapons",
-          "ja": "特殊"
-        },
+        "names": {"en": "Special Weapons", "ja": "特殊"},
         "tables": [
           {
             "subCategory": "decoy",
-            "names": {
-              "en": "Decoys",
-              "ja": "ピュアデコイ・ランチャー"
-            },
+            "names": {"en": "Decoys", "ja": "ピュアデコイ・ランチャー"},
             "headers": [
               "checkbox",
               "level",
@@ -19936,10 +19247,7 @@
           },
           {
             "subCategory": "acid",
-            "names": {
-              "en": "Acid Guns",
-              "ja": "アシッドガン・シリーズ"
-            },
+            "names": {"en": "Acid Guns", "ja": "アシッドガン・シリーズ"},
             "headers": [
               "checkbox",
               "level",
@@ -19956,10 +19264,7 @@
             ]
           },
           {
-            "names": {
-              "en": "Flamethrowers",
-              "ja": "火炎放射器シリーズ"
-            },
+            "names": {"en": "Flamethrowers", "ja": "火炎放射器シリーズ"},
             "subCategory": "flame",
             "appendix": "*Assuming flame hits every frame of duration.",
             "headers": [
@@ -19983,10 +19288,7 @@
             ]
           },
           {
-            "names": {
-              "en": "Firecrackers",
-              "ja": "かんしゃく玉シリーズ"
-            },
+            "names": {"en": "Firecrackers", "ja": "かんしゃく玉シリーズ"},
             "subCategory": "firecracker",
             "headers": [
               "checkbox",
@@ -20002,10 +19304,7 @@
             ]
           },
           {
-            "names": {
-              "en": "Bound Guns",
-              "ja": "バウンドガン・シリーズ"
-            },
+            "names": {"en": "Bound Guns", "ja": "バウンドガン・シリーズ"},
             "subCategory": "bound",
             "headers": [
               "checkbox",
@@ -20023,10 +19322,7 @@
             ]
           },
           {
-            "names": {
-              "en": "Reversers",
-              "ja": "リバーサー"
-            },
+            "names": {"en": "Reversers", "ja": "リバーサー"},
             "subCategory": "reverser",
             "appendix": "*Assuming mist hits every frame of duration.",
             "headers": [
@@ -20053,10 +19349,7 @@
     "winger": [
       {
         "category": "short",
-        "names": {
-          "en": "Short-Range",
-          "ja": "近距離"
-        },
+        "names": {"en": "Short-Range", "ja": "近距離"},
         "headers": [
           "checkbox",
           "level",
@@ -20078,10 +19371,7 @@
       },
       {
         "category": "laser",
-        "names": {
-          "en": "Mid-Rg Lasers",
-          "ja": "中距離-レーザー"
-        },
+        "names": {"en": "Mid-Rg Lasers", "ja": "中距離-レーザー"},
         "headers": [
           "checkbox",
           "level",
@@ -20103,10 +19393,7 @@
       },
       {
         "category": "electro",
-        "names": {
-          "en": "Mid-Rg Electroshock",
-          "ja": "中距離-電撃"
-        },
+        "names": {"en": "Mid-Rg Electroshock", "ja": "中距離-電撃"},
         "headers": [
           "checkbox",
           "level",
@@ -20128,10 +19415,7 @@
       },
       {
         "category": "particle",
-        "names": {
-          "en": "Particle Cannons",
-          "ja": "中距離-粒子砲"
-        },
+        "names": {"en": "Particle Cannons", "ja": "中距離-粒子砲"},
         "headers": [
           "checkbox",
           "level",
@@ -20150,10 +19434,7 @@
       },
       {
         "category": "sniper",
-        "names": {
-          "en": "Sniper Weapons",
-          "ja": "狙撃兵器"
-        },
+        "names": {"en": "Sniper Weapons", "ja": "狙撃兵器"},
         "headers": [
           "checkbox",
           "level",
@@ -20173,10 +19454,7 @@
       },
       {
         "category": "plasma",
-        "names": {
-          "en": "Ranged Attacks",
-          "ja": "範囲攻撃"
-        },
+        "names": {"en": "Ranged Attacks", "ja": "範囲攻撃"},
         "headers": [
           "checkbox",
           "level",
@@ -20196,10 +19474,7 @@
       },
       {
         "category": "missile",
-        "names": {
-          "en": "Homing Weapons",
-          "ja": "ホーミング兵器"
-        },
+        "names": {"en": "Homing Weapons", "ja": "ホーミング兵器"},
         "headers": [
           "checkbox",
           "level",
@@ -20219,10 +19494,7 @@
       },
       {
         "category": "special",
-        "names": {
-          "en": "Special Weapons",
-          "ja": "特殊"
-        },
+        "names": {"en": "Special Weapons", "ja": "特殊"},
         "headers": [
           "checkbox",
           "level",
@@ -20242,10 +19514,7 @@
     "fencer": [
       {
         "category": "hammer",
-        "names": {
-          "en": "CC Strikers",
-          "ja": "近接-打"
-        },
+        "names": {"en": "CC Strikers", "ja": "近接-打"},
         "headers": [
           "checkbox",
           "level",
@@ -20261,10 +19530,7 @@
       },
       {
         "category": "spear",
-        "names": {
-          "en": "CC Piercers",
-          "ja": "ブレード系"
-        },
+        "names": {"en": "CC Piercers", "ja": "ブレード系"},
         "headers": [
           "checkbox",
           "level",
@@ -20282,10 +19548,7 @@
       },
       {
         "category": "shield",
-        "names": {
-          "en": "Shields",
-          "ja": "盾"
-        },
+        "names": {"en": "Shields", "ja": "盾"},
         "headers": [
           "checkbox",
           "level",
@@ -20299,10 +19562,7 @@
       },
       {
         "category": "light",
-        "names": {
-          "en": "Automatic Artillery",
-          "ja": "機関砲"
-        },
+        "names": {"en": "Automatic Artillery", "ja": "機関砲"},
         "headers": [
           "checkbox",
           "level",
@@ -20322,17 +19582,11 @@
       },
       {
         "category": "heavy",
-        "names": {
-          "en": "Artillery",
-          "ja": "火砲"
-        },
+        "names": {"en": "Artillery", "ja": "火砲"},
         "tables": [
           {
             "subCategory": "piercing",
-            "names": {
-              "en": "Piercing",
-              "ja": "重キャノン砲"
-            },
+            "names": {"en": "Piercing", "ja": "重キャノン砲"},
             "headers": [
               "checkbox",
               "level",
@@ -20353,10 +19607,7 @@
           },
           {
             "subCategory": "explosive",
-            "names": {
-              "en": "Explosives",
-              "ja": "迫撃砲"
-            },
+            "names": {"en": "Explosives", "ja": "迫撃砲"},
             "headers": [
               "checkbox",
               "level",
@@ -20379,10 +19630,7 @@
       },
       {
         "category": "missile",
-        "names": {
-          "en": "Missile Launchers",
-          "ja": "ミサイルランチャー"
-        },
+        "names": {"en": "Missile Launchers", "ja": "ミサイルランチャー"},
         "appendix": "*With 0 lock time",
         "headers": [
           "checkbox",
@@ -20404,17 +19652,11 @@
     "bomber": [
       {
         "category": "guide",
-        "names": {
-          "en": "Guidance Equipment",
-          "ja": "誘導装置"
-        },
+        "names": {"en": "Guidance Equipment", "ja": "誘導装置"},
         "tables": [
           {
             "subCategory": "laser",
-            "names": {
-              "en": "Laser Guide Kits",
-              "ja": "レーザー誘導装置"
-            },
+            "names": {"en": "Laser Guide Kits", "ja": "レーザー誘導装置"},
             "headers": [
               "checkbox",
               "level",
@@ -20427,10 +19669,7 @@
           },
           {
             "subCategory": "beacon",
-            "names": {
-              "en": "Guide Beacon Guns",
-              "ja": "誘導ビーコンガン"
-            },
+            "names": {"en": "Guide Beacon Guns", "ja": "誘導ビーコンガン"},
             "headers": [
               "checkbox",
               "level",
@@ -20448,17 +19687,11 @@
       },
       {
         "category": "raid",
-        "names": {
-          "en": "Calling For Support",
-          "ja": "支援要請"
-        },
+        "names": {"en": "Calling For Support", "ja": "支援要請"},
         "tables": [
           {
             "subCategory": "artillery",
-            "names": {
-              "en": "Artillery Squad",
-              "ja": "砲兵隊"
-            },
+            "names": {"en": "Artillery Squad", "ja": "砲兵隊"},
             "appendix": "*Area for each blast",
             "headers": [
               "checkbox",
@@ -20474,10 +19707,7 @@
           },
           {
             "subCategory": "whale",
-            "names": {
-              "en": "Attack Whale",
-              "ja": "攻撃機ホエール"
-            },
+            "names": {"en": "Attack Whale", "ja": "攻撃機ホエール"},
             "appendix": "*Area for each blast",
             "headers": [
               "checkbox",
@@ -20493,10 +19723,7 @@
           },
           {
             "subCategory": "planes",
-            "names": {
-              "en": "Air Raids",
-              "ja": "爆撃機カロン＆ミッドナイト"
-            },
+            "names": {"en": "Air Raids", "ja": "爆撃機カロン＆ミッドナイト"},
             "appendix": "*Area for each blast",
             "headers": [
               "checkbox",
@@ -20512,10 +19739,7 @@
           },
           {
             "subCategory": "missile",
-            "names": {
-              "en": "Missile Strikes",
-              "ja": "ミサイル"
-            },
+            "names": {"en": "Missile Strikes", "ja": "ミサイル"},
             "headers": [
               "checkbox",
               "level",
@@ -20530,10 +19754,7 @@
           },
           {
             "subCategory": "laser",
-            "names": {
-              "en": "Orbital Lasers",
-              "ja": "攻撃機ホエール"
-            },
+            "names": {"en": "Orbital Lasers", "ja": "攻撃機ホエール"},
             "appendix": "*Area for each blast",
             "headers": [
               "checkbox",
@@ -20552,17 +19773,11 @@
       },
       {
         "category": "support",
-        "names": {
-          "en": "Support Equipment",
-          "ja": "サポート装置"
-        },
+        "names": {"en": "Support Equipment", "ja": "サポート装置"},
         "tables": [
           {
             "subCategory": "life",
-            "names": {
-              "en": "Life Vendors",
-              "ja": "ライフベンダー"
-            },
+            "names": {"en": "Life Vendors", "ja": "ライフベンダー"},
             "headers": [
               "checkbox",
               "level",
@@ -20579,10 +19794,7 @@
           },
           {
             "subCategory": "plasma",
-            "names": {
-              "en": "Plasma Chargers",
-              "ja": "プラズマチャージャー"
-            },
+            "names": {"en": "Plasma Chargers", "ja": "プラズマチャージャー"},
             "headers": [
               "checkbox",
               "level",
@@ -20600,10 +19812,7 @@
           },
           {
             "subCategory": "power",
-            "names": {
-              "en": "Power Assists",
-              "ja": "パワーポスト"
-            },
+            "names": {"en": "Power Assists", "ja": "パワーポスト"},
             "headers": [
               "checkbox",
               "level",
@@ -20619,10 +19828,7 @@
           },
           {
             "subCategory": "guard",
-            "names": {
-              "en": "Guard Assists",
-              "ja": "ガードポスト"
-            },
+            "names": {"en": "Guard Assists", "ja": "ガードポスト"},
             "headers": [
               "checkbox",
               "level",
@@ -20640,10 +19846,7 @@
       },
       {
         "category": "limpet",
-        "names": {
-          "en": "Limpet Guns",
-          "ja": "リムペットガン"
-        },
+        "names": {"en": "Limpet Guns", "ja": "リムペットガン"},
         "headers": [
           "checkbox",
           "level",
@@ -20663,17 +19866,11 @@
       },
       {
         "category": "deploy",
-        "names": {
-          "en": "Stationary Weapons",
-          "ja": "設置兵器"
-        },
+        "names": {"en": "Stationary Weapons", "ja": "設置兵器"},
         "tables": [
           {
             "subCategory": "bomb",
-            "names": {
-              "en": "Bombs",
-              "ja": "ローラーボムシリーズ"
-            },
+            "names": {"en": "Bombs", "ja": "ローラーボムシリーズ"},
             "headers": [
               "checkbox",
               "level",
@@ -20691,10 +19888,7 @@
           },
           {
             "subCategory": "mine",
-            "names": {
-              "en": "Land Mines",
-              "ja": "インパルスシリーズ"
-            },
+            "names": {"en": "Land Mines", "ja": "インパルスシリーズ"},
             "headers": [
               "checkbox",
               "level",
@@ -20709,10 +19903,7 @@
           },
           {
             "subCategory": "turret",
-            "names": {
-              "en": "Automatic Turrets",
-              "ja": "ZE-GUNシリーズ"
-            },
+            "names": {"en": "Automatic Turrets", "ja": "ZE-GUNシリーズ"},
             "headers": [
               "checkbox",
               "level",
@@ -20732,17 +19923,11 @@
       },
       {
         "category": "special",
-        "names": {
-          "en": "Special Weapons",
-          "ja": "特殊"
-        },
+        "names": {"en": "Special Weapons", "ja": "特殊"},
         "tables": [
           {
             "subCategory": "defensive",
-            "names": {
-              "en": "Defensive",
-              "ja": "トーチカ"
-            },
+            "names": {"en": "Defensive", "ja": "トーチカ"},
             "headers": [
               "checkbox",
               "level",
@@ -20756,10 +19941,7 @@
           },
           {
             "subCategory": "wire",
-            "names": {
-              "en": "Wire Guns",
-              "ja": "ワイヤー"
-            },
+            "names": {"en": "Wire Guns", "ja": "ワイヤー"},
             "headers": [
               "checkbox",
               "level",
@@ -20779,10 +19961,7 @@
       },
       {
         "category": "tank",
-        "names": {
-          "en": "Tanks",
-          "ja": "戦闘車両"
-        },
+        "names": {"en": "Tanks", "ja": "戦闘車両"},
         "headers": [
           "checkbox",
           "level",
@@ -20803,10 +19982,7 @@
       },
       {
         "category": "ground",
-        "names": {
-          "en": "Ground Vehicles",
-          "ja": "車両"
-        },
+        "names": {"en": "Ground Vehicles", "ja": "車両"},
         "headers": [
           "checkbox",
           "level",
@@ -20828,10 +20004,7 @@
       },
       {
         "category": "heli",
-        "names": {
-          "en": "Helicopters",
-          "ja": "ヘリ"
-        },
+        "names": {"en": "Helicopters", "ja": "ヘリ"},
         "headers": [
           "checkbox",
           "level",
@@ -20853,10 +20026,7 @@
       },
       {
         "category": "mech",
-        "names": {
-          "en": "Powered Exoskeletons",
-          "ja": "バトルマシン"
-        },
+        "names": {"en": "Powered Exoskeletons", "ja": "バトルマシン"},
         "headers": [
           "checkbox",
           "level",
@@ -20885,20 +20055,9 @@
       "difficulties": [
         {
           "name": "Easy",
-          "progressScaling": [
-            5,
-            20
-          ],
-          "playerScaling": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "drops": [
-            0,
-            20
-          ],
+          "progressScaling": [5, 20],
+          "playerScaling": [1, 1, 1, 1],
+          "drops": [0, 20],
           "dropSpread": 5,
           "dropsLow": [
             -5,
@@ -21079,20 +20238,9 @@
         },
         {
           "name": "Normal",
-          "progressScaling": [
-            10,
-            25
-          ],
-          "playerScaling": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "drops": [
-            0,
-            25
-          ],
+          "progressScaling": [10, 25],
+          "playerScaling": [1, 1, 1, 1],
+          "drops": [0, 25],
           "dropSpread": 5,
           "dropsLow": [
             -5,
@@ -21273,20 +20421,9 @@
         },
         {
           "name": "Hard",
-          "progressScaling": [
-            30,
-            58
-          ],
-          "playerScaling": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "drops": [
-            21.25,
-            50
-          ],
+          "progressScaling": [30, 58],
+          "playerScaling": [1, 1, 1, 1],
+          "drops": [21.25, 50],
           "dropSpread": 12.5,
           "dropsLow": [
             8,
@@ -21467,20 +20604,9 @@
         },
         {
           "name": "Hardest",
-          "progressScaling": [
-            70,
-            150
-          ],
-          "playerScaling": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "drops": [
-            44,
-            75
-          ],
+          "progressScaling": [70, 150],
+          "playerScaling": [1, 1, 1, 1],
+          "drops": [44, 75],
           "dropSpread": 60,
           "dropsLow": [
             -17,
@@ -21661,20 +20787,9 @@
         },
         {
           "name": "Inferno",
-          "progressScaling": [
-            160,
-            280
-          ],
-          "playerScaling": [
-            1,
-            1,
-            1,
-            1
-          ],
-          "drops": [
-            50,
-            100
-          ],
+          "progressScaling": [160, 280],
+          "playerScaling": [1, 1, 1, 1],
+          "drops": [50, 100],
           "dropSpread": 60,
           "dropsLow": [
             -11,
@@ -21861,20 +20976,9 @@
       "difficulties": [
         {
           "name": "Easy",
-          "progressScaling": [
-            5,
-            21
-          ],
-          "playerScaling": [
-            1.2,
-            0.75,
-            1,
-            1.2
-          ],
-          "drops": [
-            0,
-            20
-          ],
+          "progressScaling": [5, 21],
+          "playerScaling": [1.2, 0.75, 1, 1.2],
+          "drops": [0, 20],
           "dropSpread": 5,
           "dropsLow": [
             -5,
@@ -22068,31 +21172,14 @@
             20,
             20
           ],
-          "weaponLimits": [
-            2.5,
-            25
-          ],
-          "armorLimits": [
-            431,
-            2801
-          ]
+          "weaponLimits": [2.5, 25],
+          "armorLimits": [431, 2801]
         },
         {
           "name": "Normal",
-          "progressScaling": [
-            10,
-            26
-          ],
-          "playerScaling": [
-            1.2,
-            0.75,
-            1,
-            1.2
-          ],
-          "drops": [
-            0,
-            25
-          ],
+          "progressScaling": [10, 26],
+          "playerScaling": [1.2, 0.75, 1, 1.2],
+          "drops": [0, 25],
           "dropSpread": 5,
           "dropsLow": [
             -5,
@@ -22286,31 +21373,14 @@
             25,
             25
           ],
-          "weaponLimits": [
-            2.5,
-            25
-          ],
-          "armorLimits": [
-            431,
-            2801
-          ]
+          "weaponLimits": [2.5, 25],
+          "armorLimits": [431, 2801]
         },
         {
           "name": "Hard",
-          "progressScaling": [
-            30,
-            58
-          ],
-          "playerScaling": [
-            1.2,
-            0.75,
-            1,
-            1.2
-          ],
-          "drops": [
-            21.25,
-            50
-          ],
+          "progressScaling": [30, 58],
+          "playerScaling": [1.2, 0.75, 1, 1.2],
+          "drops": [21.25, 50],
           "dropSpread": 12.5,
           "dropsLow": [
             8,
@@ -22504,31 +21574,14 @@
             50,
             50
           ],
-          "weaponLimits": [
-            25,
-            50
-          ],
-          "armorLimits": [
-            2801,
-            6034
-          ]
+          "weaponLimits": [25, 50],
+          "armorLimits": [2801, 6034]
         },
         {
           "name": "Hardest",
-          "progressScaling": [
-            70,
-            150
-          ],
-          "playerScaling": [
-            1.2,
-            0.75,
-            1,
-            1.2
-          ],
-          "drops": [
-            44,
-            75
-          ],
+          "progressScaling": [70, 150],
+          "playerScaling": [1.2, 0.75, 1, 1.2],
+          "drops": [44, 75],
           "dropSpread": 60,
           "dropsLow": [
             -17,
@@ -22722,31 +21775,14 @@
             75,
             75
           ],
-          "weaponLimits": [
-            50,
-            75
-          ],
-          "armorLimits": [
-            6034,
-            8189
-          ]
+          "weaponLimits": [50, 75],
+          "armorLimits": [6034, 8189]
         },
         {
           "name": "Inferno",
-          "progressScaling": [
-            160,
-            280
-          ],
-          "playerScaling": [
-            1.2,
-            0.75,
-            1,
-            1.2
-          ],
-          "drops": [
-            50,
-            100
-          ],
+          "progressScaling": [160, 280],
+          "playerScaling": [1.2, 0.75, 1, 1.2],
+          "drops": [50, 100],
           "dropSpread": 60,
           "dropsLow": [
             -11,
@@ -22940,13 +21976,7 @@
             100,
             100
           ],
-          "weaponLimits": [
-            75,
-            100,
-            null,
-            null,
-            null
-          ],
+          "weaponLimits": [75, 100, null, null, null],
           "armorLimits": null
         }
       ]

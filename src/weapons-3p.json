@@ -1,23 +1,12 @@
 {
-  "langs": [
-    "en"
-  ],
-  "classes": [
-    "ranger",
-    "winger"
-  ],
-  "charLabels": [
-    "Storm",
-    "Pale Wing"
-  ],
+  "langs": ["en"],
+  "classes": ["ranger", "winger"],
+  "charLabels": ["Storm", "Pale Wing"],
   "headers": {
     "ranger": [
       {
         "category": "assault",
-        "names": {
-          "en": "Assault Rifle",
-          "ja": "アサルトライフル"
-        },
+        "names": {"en": "Assault Rifle", "ja": "アサルトライフル"},
         "headers": [
           "checkbox",
           "level",
@@ -38,10 +27,7 @@
       },
       {
         "category": "shotgun",
-        "names": {
-          "en": "Shotguns",
-          "ja": "ショットガン"
-        },
+        "names": {"en": "Shotguns", "ja": "ショットガン"},
         "headers": [
           "checkbox",
           "level",
@@ -60,10 +46,7 @@
       },
       {
         "category": "sniper",
-        "names": {
-          "en": "Sniper Rifles",
-          "ja": "スナイパーライフル"
-        },
+        "names": {"en": "Sniper Rifles", "ja": "スナイパーライフル"},
         "headers": [
           "checkbox",
           "level",
@@ -84,10 +67,7 @@
       },
       {
         "category": "rocket",
-        "names": {
-          "en": "Rocket Launchers",
-          "ja": "ロケットランチャー"
-        },
+        "names": {"en": "Rocket Launchers", "ja": "ロケットランチャー"},
         "headers": [
           "checkbox",
           "level",
@@ -106,10 +86,7 @@
       },
       {
         "category": "missile",
-        "names": {
-          "en": "Missile Launchers",
-          "ja": "ミサイルランチャー"
-        },
+        "names": {"en": "Missile Launchers", "ja": "ミサイルランチャー"},
         "headers": [
           "checkbox",
           "level",
@@ -126,17 +103,11 @@
       },
       {
         "category": "grenade",
-        "names": {
-          "en": "Grenades",
-          "ja": "グレネード"
-        },
+        "names": {"en": "Grenades", "ja": "グレネード"},
         "tables": [
           {
             "subCategory": "hg",
-            "names": {
-              "en": "Hand Grenades",
-              "ja": "ハンドグレネード"
-            },
+            "names": {"en": "Hand Grenades", "ja": "ハンドグレネード"},
             "headers": [
               "checkbox",
               "level",
@@ -150,10 +121,7 @@
           },
           {
             "subCategory": "gl",
-            "names": {
-              "en": "Grenade Launchers",
-              "ja": "グレネードランチャー"
-            },
+            "names": {"en": "Grenade Launchers", "ja": "グレネードランチャー"},
             "headers": [
               "checkbox",
               "level",
@@ -174,17 +142,11 @@
       },
       {
         "category": "special",
-        "names": {
-          "en": "Special Weapons",
-          "ja": "特殊"
-        },
+        "names": {"en": "Special Weapons", "ja": "特殊"},
         "tables": [
           {
             "subCategory": "acid",
-            "names": {
-              "en": "Acid Guns",
-              "ja": "アシッドガン・シリーズ"
-            },
+            "names": {"en": "Acid Guns", "ja": "アシッドガン・シリーズ"},
             "headers": [
               "checkbox",
               "level",
@@ -201,10 +163,7 @@
             ]
           },
           {
-            "names": {
-              "en": "Flamethrowers",
-              "ja": "火炎放射器シリーズ"
-            },
+            "names": {"en": "Flamethrowers", "ja": "火炎放射器シリーズ"},
             "subCategory": "flame",
             "appendix": "*Assuming flame hits every frame of duration.",
             "headers": [
@@ -229,10 +188,7 @@
           },
           {
             "subCategory": "bomb",
-            "names": {
-              "en": "Bombs",
-              "ja": "ローラーボムシリーズ"
-            },
+            "names": {"en": "Bombs", "ja": "ローラーボムシリーズ"},
             "headers": [
               "checkbox",
               "level",
@@ -249,10 +205,7 @@
           },
           {
             "subCategory": "mine",
-            "names": {
-              "en": "Land Mines",
-              "ja": "インパルスシリーズ"
-            },
+            "names": {"en": "Land Mines", "ja": "インパルスシリーズ"},
             "headers": [
               "checkbox",
               "level",
@@ -267,10 +220,7 @@
           },
           {
             "subCategory": "turret",
-            "names": {
-              "en": "Automatic Turrets",
-              "ja": "ZE-GUNシリーズ"
-            },
+            "names": {"en": "Automatic Turrets", "ja": "ZE-GUNシリーズ"},
             "headers": [
               "checkbox",
               "level",
@@ -287,10 +237,7 @@
             ]
           },
           {
-            "names": {
-              "en": "Firecrackers",
-              "ja": "かんしゃく玉シリーズ"
-            },
+            "names": {"en": "Firecrackers", "ja": "かんしゃく玉シリーズ"},
             "subCategory": "firecracker",
             "headers": [
               "checkbox",
@@ -306,10 +253,7 @@
             ]
           },
           {
-            "names": {
-              "en": "Bound Guns",
-              "ja": "バウンドガン・シリーズ"
-            },
+            "names": {"en": "Bound Guns", "ja": "バウンドガン・シリーズ"},
             "subCategory": "bound",
             "headers": [
               "checkbox",
@@ -327,10 +271,7 @@
             ]
           },
           {
-            "names": {
-              "en": "Crowd Control",
-              "ja": "ヒュプノタイザー"
-            },
+            "names": {"en": "Crowd Control", "ja": "ヒュプノタイザー"},
             "subCategory": "cc",
             "headers": [
               "checkbox",
@@ -353,17 +294,11 @@
       },
       {
         "category": "repair",
-        "names": {
-          "en": "Tools",
-          "ja": "武器データ/アシストツール"
-        },
+        "names": {"en": "Tools", "ja": "武器データ/アシストツール"},
         "tables": [
           {
             "subCategory": "reverser",
-            "names": {
-              "en": "Reversers",
-              "ja": "リバーサー"
-            },
+            "names": {"en": "Reversers", "ja": "リバーサー"},
             "appendix": "*Assuming mist hits every frame of duration.",
             "headers": [
               "checkbox",
@@ -382,10 +317,7 @@
           },
           {
             "subCategory": "drone",
-            "names": {
-              "en": "Reverse Drones",
-              "ja": "リバースドローン"
-            },
+            "names": {"en": "Reverse Drones", "ja": "リバースドローン"},
             "headers": [
               "checkbox",
               "level",
@@ -401,10 +333,7 @@
           },
           {
             "subCategory": "booster",
-            "names": {
-              "en": "Limit Boosters",
-              "ja": "リミットブースター"
-            },
+            "names": {"en": "Limit Boosters", "ja": "リミットブースター"},
             "headers": [
               "checkbox",
               "level",
@@ -417,10 +346,7 @@
           },
           {
             "subCategory": "shield",
-            "names": {
-              "en": "Temp Shields",
-              "ja": "ミニッツシールド"
-            },
+            "names": {"en": "Temp Shields", "ja": "ミニッツシールド"},
             "headers": [
               "checkbox",
               "level",
@@ -433,18 +359,8 @@
           },
           {
             "subCategory": "rescue",
-            "names": {
-              "en": "Rescue Drones",
-              "ja": "レスキュードローン"
-            },
-            "headers": [
-              "checkbox",
-              "level",
-              "name",
-              "ammo",
-              "revive",
-              "radius"
-            ]
+            "names": {"en": "Rescue Drones", "ja": "レスキュードローン"},
+            "headers": ["checkbox", "level", "name", "ammo", "revive", "radius"]
           }
         ]
       }
@@ -452,10 +368,7 @@
     "winger": [
       {
         "category": "short",
-        "names": {
-          "en": "Short-Range",
-          "ja": "近距離"
-        },
+        "names": {"en": "Short-Range", "ja": "近距離"},
         "headers": [
           "checkbox",
           "level",
@@ -477,10 +390,7 @@
       },
       {
         "category": "laser",
-        "names": {
-          "en": "Mid-Rg Lasers",
-          "ja": "中距離-レーザー"
-        },
+        "names": {"en": "Mid-Rg Lasers", "ja": "中距離-レーザー"},
         "headers": [
           "checkbox",
           "level",
@@ -502,10 +412,7 @@
       },
       {
         "category": "electro",
-        "names": {
-          "en": "Mid-Rg Electroshock",
-          "ja": "中距離-電撃"
-        },
+        "names": {"en": "Mid-Rg Electroshock", "ja": "中距離-電撃"},
         "headers": [
           "checkbox",
           "level",
@@ -527,10 +434,7 @@
       },
       {
         "category": "particle",
-        "names": {
-          "en": "Particle Cannons",
-          "ja": "中距離-粒子砲"
-        },
+        "names": {"en": "Particle Cannons", "ja": "中距離-粒子砲"},
         "headers": [
           "checkbox",
           "level",
@@ -549,10 +453,7 @@
       },
       {
         "category": "sniper",
-        "names": {
-          "en": "Sniper Weapons",
-          "ja": "狙撃兵器"
-        },
+        "names": {"en": "Sniper Weapons", "ja": "狙撃兵器"},
         "headers": [
           "checkbox",
           "level",
@@ -572,10 +473,7 @@
       },
       {
         "category": "plasma",
-        "names": {
-          "en": "Ranged Attacks",
-          "ja": "範囲攻撃"
-        },
+        "names": {"en": "Ranged Attacks", "ja": "範囲攻撃"},
         "headers": [
           "checkbox",
           "level",
@@ -595,10 +493,7 @@
       },
       {
         "category": "missile",
-        "names": {
-          "en": "Homing Weapons",
-          "ja": "ホーミング兵器"
-        },
+        "names": {"en": "Homing Weapons", "ja": "ホーミング兵器"},
         "headers": [
           "checkbox",
           "level",
@@ -617,10 +512,7 @@
       },
       {
         "category": "special",
-        "names": {
-          "en": "Special Weapons",
-          "ja": "特殊"
-        },
+        "names": {"en": "Special Weapons", "ja": "特殊"},
         "headers": [
           "checkbox",
           "level",
@@ -642,9 +534,7 @@
   "weapons": [
     {
       "id": "AssultRifle01",
-      "names": {
-        "en": "AF14"
-      },
+      "names": {"en": "AF14"},
       "level": 0,
       "character": "ranger",
       "category": "assault",
@@ -660,9 +550,7 @@
     },
     {
       "id": "Weapon001",
-      "names": {
-        "en": "AF14-RA"
-      },
+      "names": {"en": "AF14-RA"},
       "level": 1,
       "character": "ranger",
       "category": "assault",
@@ -678,9 +566,7 @@
     },
     {
       "id": "Weapon002",
-      "names": {
-        "en": "AF14-ST"
-      },
+      "names": {"en": "AF14-ST"},
       "level": 2,
       "character": "ranger",
       "category": "assault",
@@ -696,9 +582,7 @@
     },
     {
       "id": "FirstBonusWeapon02",
-      "names": {
-        "en": "Heat Blaster"
-      },
+      "names": {"en": "Heat Blaster"},
       "level": 3,
       "character": "ranger",
       "category": "assault",
@@ -716,9 +600,7 @@
     },
     {
       "id": "Weapon003",
-      "names": {
-        "en": "Titania Autocannon"
-      },
+      "names": {"en": "Titania Autocannon"},
       "level": 3,
       "character": "ranger",
       "category": "assault",
@@ -735,9 +617,7 @@
     },
     {
       "id": "Weapon004",
-      "names": {
-        "en": "AF14-RAR"
-      },
+      "names": {"en": "AF14-RAR"},
       "level": 4,
       "character": "ranger",
       "category": "assault",
@@ -753,9 +633,7 @@
     },
     {
       "id": "Weapon005",
-      "names": {
-        "en": "AF14-B3"
-      },
+      "names": {"en": "AF14-B3"},
       "level": 5,
       "character": "ranger",
       "category": "assault",
@@ -775,9 +653,7 @@
     },
     {
       "id": "AssultRifle_18K",
-      "names": {
-        "en": "AF15"
-      },
+      "names": {"en": "AF15"},
       "level": 7,
       "character": "ranger",
       "category": "assault",
@@ -793,9 +669,7 @@
     },
     {
       "id": "Weapon006",
-      "names": {
-        "en": "AF15-ST"
-      },
+      "names": {"en": "AF15-ST"},
       "level": 10,
       "character": "ranger",
       "category": "assault",
@@ -811,9 +685,7 @@
     },
     {
       "id": "Weapon007",
-      "names": {
-        "en": "Heat Blaster G1"
-      },
+      "names": {"en": "Heat Blaster G1"},
       "level": 11,
       "character": "ranger",
       "category": "assault",
@@ -831,9 +703,7 @@
     },
     {
       "id": "Weapon008",
-      "names": {
-        "en": "AF16"
-      },
+      "names": {"en": "AF16"},
       "level": 12,
       "character": "ranger",
       "category": "assault",
@@ -849,9 +719,7 @@
     },
     {
       "id": "Weapon009",
-      "names": {
-        "en": "AF-V"
-      },
+      "names": {"en": "AF-V"},
       "level": 13,
       "character": "ranger",
       "category": "assault",
@@ -868,9 +736,7 @@
     },
     {
       "id": "Weapon010",
-      "names": {
-        "en": "AF16-RA"
-      },
+      "names": {"en": "AF16-RA"},
       "level": 16,
       "character": "ranger",
       "category": "assault",
@@ -886,9 +752,7 @@
     },
     {
       "id": "Weapon011",
-      "names": {
-        "en": "AF17"
-      },
+      "names": {"en": "AF17"},
       "level": 18,
       "character": "ranger",
       "category": "assault",
@@ -904,9 +768,7 @@
     },
     {
       "id": "Weapon012",
-      "names": {
-        "en": "Autocannon B3"
-      },
+      "names": {"en": "Autocannon B3"},
       "level": 21,
       "character": "ranger",
       "category": "assault",
@@ -925,9 +787,7 @@
     },
     {
       "id": "Weapon013",
-      "names": {
-        "en": "AF18"
-      },
+      "names": {"en": "AF18"},
       "level": 23,
       "character": "ranger",
       "category": "assault",
@@ -943,9 +803,7 @@
     },
     {
       "id": "Weapon014",
-      "names": {
-        "en": "AF18-RA"
-      },
+      "names": {"en": "AF18-RA"},
       "level": 25,
       "character": "ranger",
       "category": "assault",
@@ -961,9 +819,7 @@
     },
     {
       "id": "Weapon015",
-      "names": {
-        "en": "AF18-X"
-      },
+      "names": {"en": "AF18-X"},
       "level": 26,
       "character": "ranger",
       "category": "assault",
@@ -979,9 +835,7 @@
     },
     {
       "id": "Weapon016",
-      "names": {
-        "en": "AF19-ST"
-      },
+      "names": {"en": "AF19-ST"},
       "level": 28,
       "character": "ranger",
       "category": "assault",
@@ -997,9 +851,7 @@
     },
     {
       "id": "Weapon017",
-      "names": {
-        "en": "Heat Blaster G2"
-      },
+      "names": {"en": "Heat Blaster G2"},
       "level": 32,
       "character": "ranger",
       "category": "assault",
@@ -1017,9 +869,7 @@
     },
     {
       "id": "Weapon018",
-      "names": {
-        "en": "AF19"
-      },
+      "names": {"en": "AF19"},
       "level": 32,
       "character": "ranger",
       "category": "assault",
@@ -1037,9 +887,7 @@
     },
     {
       "id": "Weapon019",
-      "names": {
-        "en": "AF19-RA"
-      },
+      "names": {"en": "AF19-RA"},
       "level": 38,
       "character": "ranger",
       "category": "assault",
@@ -1055,9 +903,7 @@
     },
     {
       "id": "Weapon020",
-      "names": {
-        "en": "AF19X-B3"
-      },
+      "names": {"en": "AF19X-B3"},
       "level": 43,
       "character": "ranger",
       "category": "assault",
@@ -1077,9 +923,7 @@
     },
     {
       "id": "Weapon021",
-      "names": {
-        "en": "AF20"
-      },
+      "names": {"en": "AF20"},
       "level": 46,
       "character": "ranger",
       "category": "assault",
@@ -1095,9 +939,7 @@
     },
     {
       "id": "Weapon022",
-      "names": {
-        "en": "Autocannon R"
-      },
+      "names": {"en": "Autocannon R"},
       "level": 47,
       "character": "ranger",
       "category": "assault",
@@ -1114,9 +956,7 @@
     },
     {
       "id": "Weapon023",
-      "names": {
-        "en": "AF20-ST"
-      },
+      "names": {"en": "AF20-ST"},
       "level": 51,
       "character": "ranger",
       "category": "assault",
@@ -1132,9 +972,7 @@
     },
     {
       "id": "Weapon024",
-      "names": {
-        "en": "AF20-RAR"
-      },
+      "names": {"en": "AF20-RAR"},
       "level": 56,
       "character": "ranger",
       "category": "assault",
@@ -1150,9 +988,7 @@
     },
     {
       "id": "Weapon025",
-      "names": {
-        "en": "Battle Cannon"
-      },
+      "names": {"en": "Battle Cannon"},
       "level": 57,
       "character": "ranger",
       "category": "assault",
@@ -1169,9 +1005,7 @@
     },
     {
       "id": "Weapon026",
-      "names": {
-        "en": "AF21-B4"
-      },
+      "names": {"en": "AF21-B4"},
       "level": 60,
       "character": "ranger",
       "category": "assault",
@@ -1189,9 +1023,7 @@
     },
     {
       "id": "Weapon027",
-      "names": {
-        "en": "Heat Blaster X"
-      },
+      "names": {"en": "Heat Blaster X"},
       "level": 61,
       "character": "ranger",
       "category": "assault",
@@ -1209,9 +1041,7 @@
     },
     {
       "id": "Weapon028",
-      "names": {
-        "en": "AF99"
-      },
+      "names": {"en": "AF99"},
       "level": 64,
       "character": "ranger",
       "category": "assault",
@@ -1229,9 +1059,7 @@
     },
     {
       "id": "Weapon029",
-      "names": {
-        "en": "AF99-ST"
-      },
+      "names": {"en": "AF99-ST"},
       "level": 67,
       "character": "ranger",
       "category": "assault",
@@ -1247,9 +1075,7 @@
     },
     {
       "id": "Weapon030",
-      "names": {
-        "en": "Battle Cannon AX"
-      },
+      "names": {"en": "Battle Cannon AX"},
       "level": 75,
       "character": "ranger",
       "category": "assault",
@@ -1266,9 +1092,7 @@
     },
     {
       "id": "Weapon031",
-      "names": {
-        "en": "Heat Blaster Z"
-      },
+      "names": {"en": "Heat Blaster Z"},
       "level": 75,
       "character": "ranger",
       "category": "assault",
@@ -1286,9 +1110,7 @@
     },
     {
       "id": "Weapon032",
-      "names": {
-        "en": "AF100"
-      },
+      "names": {"en": "AF100"},
       "level": 75,
       "character": "ranger",
       "category": "assault",
@@ -1306,9 +1128,7 @@
     },
     {
       "id": "Shotgun_SG4",
-      "names": {
-        "en": "Buffalo G1"
-      },
+      "names": {"en": "Buffalo G1"},
       "level": 0,
       "character": "ranger",
       "category": "shotgun",
@@ -1325,9 +1145,7 @@
     },
     {
       "id": "Weapon033",
-      "names": {
-        "en": "Buffalo G2"
-      },
+      "names": {"en": "Buffalo G2"},
       "level": 3,
       "character": "ranger",
       "category": "shotgun",
@@ -1344,9 +1162,7 @@
     },
     {
       "id": "Weapon034",
-      "names": {
-        "en": "Governor 25"
-      },
+      "names": {"en": "Governor 25"},
       "level": 8,
       "character": "ranger",
       "category": "shotgun",
@@ -1363,9 +1179,7 @@
     },
     {
       "id": "Weapon035",
-      "names": {
-        "en": "Wideshot"
-      },
+      "names": {"en": "Wideshot"},
       "level": 11,
       "character": "ranger",
       "category": "shotgun",
@@ -1382,9 +1196,7 @@
     },
     {
       "id": "Weapon036",
-      "names": {
-        "en": "Wideshot VR"
-      },
+      "names": {"en": "Wideshot VR"},
       "level": 14,
       "character": "ranger",
       "category": "shotgun",
@@ -1401,9 +1213,7 @@
     },
     {
       "id": "Shotgun_SPS",
-      "names": {
-        "en": "Sparrow Shot"
-      },
+      "names": {"en": "Sparrow Shot"},
       "level": 15,
       "character": "ranger",
       "category": "shotgun",
@@ -1420,9 +1230,7 @@
     },
     {
       "id": "Weapon037",
-      "names": {
-        "en": "Buffalo G3 Burst"
-      },
+      "names": {"en": "Buffalo G3 Burst"},
       "level": 17,
       "character": "ranger",
       "category": "shotgun",
@@ -1441,9 +1249,7 @@
     },
     {
       "id": "Weapon038",
-      "names": {
-        "en": "Buffalo G3"
-      },
+      "names": {"en": "Buffalo G3"},
       "level": 20,
       "character": "ranger",
       "category": "shotgun",
@@ -1460,9 +1266,7 @@
     },
     {
       "id": "Weapon039",
-      "names": {
-        "en": "Sparrow Shot M2"
-      },
+      "names": {"en": "Sparrow Shot M2"},
       "level": 27,
       "character": "ranger",
       "category": "shotgun",
@@ -1479,9 +1283,7 @@
     },
     {
       "id": "Weapon040",
-      "names": {
-        "en": "Governor 50"
-      },
+      "names": {"en": "Governor 50"},
       "level": 30,
       "character": "ranger",
       "category": "shotgun",
@@ -1498,9 +1300,7 @@
     },
     {
       "id": "Weapon041",
-      "names": {
-        "en": "Wideshot A1"
-      },
+      "names": {"en": "Wideshot A1"},
       "level": 35,
       "character": "ranger",
       "category": "shotgun",
@@ -1517,9 +1317,7 @@
     },
     {
       "id": "Weapon042",
-      "names": {
-        "en": "Buffalo G4"
-      },
+      "names": {"en": "Buffalo G4"},
       "level": 41,
       "character": "ranger",
       "category": "shotgun",
@@ -1536,9 +1334,7 @@
     },
     {
       "id": "Weapon043",
-      "names": {
-        "en": "Wideshot A1-VR"
-      },
+      "names": {"en": "Wideshot A1-VR"},
       "level": 44,
       "character": "ranger",
       "category": "shotgun",
@@ -1555,9 +1351,7 @@
     },
     {
       "id": "Weapon044",
-      "names": {
-        "en": "Buffalo G9"
-      },
+      "names": {"en": "Buffalo G9"},
       "level": 50,
       "character": "ranger",
       "category": "shotgun",
@@ -1574,9 +1368,7 @@
     },
     {
       "id": "Weapon045",
-      "names": {
-        "en": "Sparrow Shot M3"
-      },
+      "names": {"en": "Sparrow Shot M3"},
       "level": 55,
       "character": "ranger",
       "category": "shotgun",
@@ -1593,9 +1385,7 @@
     },
     {
       "id": "Weapon046",
-      "names": {
-        "en": "Governor 100"
-      },
+      "names": {"en": "Governor 100"},
       "level": 65,
       "character": "ranger",
       "category": "shotgun",
@@ -1612,9 +1402,7 @@
     },
     {
       "id": "Weapon047",
-      "names": {
-        "en": "Buffalo GSS"
-      },
+      "names": {"en": "Buffalo GSS"},
       "level": 69,
       "character": "ranger",
       "category": "shotgun",
@@ -1631,9 +1419,7 @@
     },
     {
       "id": "Weapon048",
-      "names": {
-        "en": "Sparrow Shot MX"
-      },
+      "names": {"en": "Sparrow Shot MX"},
       "level": 72,
       "character": "ranger",
       "category": "shotgun",
@@ -1650,9 +1436,7 @@
     },
     {
       "id": "Weapon049",
-      "names": {
-        "en": "Buffalo Wide"
-      },
+      "names": {"en": "Buffalo Wide"},
       "level": 85,
       "character": "ranger",
       "category": "shotgun",
@@ -1669,9 +1453,7 @@
     },
     {
       "id": "SniperRifle_SNR227",
-      "names": {
-        "en": "MMF40"
-      },
+      "names": {"en": "MMF40"},
       "level": 0,
       "character": "ranger",
       "category": "sniper",
@@ -1689,9 +1471,7 @@
     },
     {
       "id": "Weapon050",
-      "names": {
-        "en": "MMF40-RA"
-      },
+      "names": {"en": "MMF40-RA"},
       "level": 2,
       "character": "ranger",
       "category": "sniper",
@@ -1709,9 +1489,7 @@
     },
     {
       "id": "Weapon051",
-      "names": {
-        "en": "Stringer"
-      },
+      "names": {"en": "Stringer"},
       "level": 4,
       "character": "ranger",
       "category": "sniper",
@@ -1729,9 +1507,7 @@
     },
     {
       "id": "Weapon052",
-      "names": {
-        "en": "MMF41"
-      },
+      "names": {"en": "MMF41"},
       "level": 6,
       "character": "ranger",
       "category": "sniper",
@@ -1749,9 +1525,7 @@
     },
     {
       "id": "Weapon053",
-      "names": {
-        "en": "MMF41-B3"
-      },
+      "names": {"en": "MMF41-B3"},
       "level": 9,
       "character": "ranger",
       "category": "sniper",
@@ -1771,9 +1545,7 @@
     },
     {
       "id": "SniperRifle_RTH",
-      "names": {
-        "en": "Lysander"
-      },
+      "names": {"en": "Lysander"},
       "level": 13,
       "character": "ranger",
       "category": "sniper",
@@ -1791,9 +1563,7 @@
     },
     {
       "id": "Weapon054",
-      "names": {
-        "en": "MMF42"
-      },
+      "names": {"en": "MMF42"},
       "level": 17,
       "character": "ranger",
       "category": "sniper",
@@ -1811,9 +1581,7 @@
     },
     {
       "id": "Weapon055",
-      "names": {
-        "en": "Nova Buster M1"
-      },
+      "names": {"en": "Nova Buster M1"},
       "level": 18,
       "character": "ranger",
       "category": "sniper",
@@ -1832,9 +1600,7 @@
     },
     {
       "id": "Weapon056",
-      "names": {
-        "en": "MMF42-RA"
-      },
+      "names": {"en": "MMF42-RA"},
       "level": 21,
       "character": "ranger",
       "category": "sniper",
@@ -1852,9 +1618,7 @@
     },
     {
       "id": "BonusWeapon01",
-      "names": {
-        "en": "Zero Laser Rifle"
-      },
+      "names": {"en": "Zero Laser Rifle"},
       "level": 24,
       "character": "ranger",
       "category": "sniper",
@@ -1872,9 +1636,7 @@
     },
     {
       "id": "Weapon057",
-      "names": {
-        "en": "MMF43"
-      },
+      "names": {"en": "MMF43"},
       "level": 28,
       "character": "ranger",
       "category": "sniper",
@@ -1892,9 +1654,7 @@
     },
     {
       "id": "Weapon058",
-      "names": {
-        "en": "MMF43-B2"
-      },
+      "names": {"en": "MMF43-B2"},
       "level": 32,
       "character": "ranger",
       "category": "sniper",
@@ -1914,9 +1674,7 @@
     },
     {
       "id": "Weapon059",
-      "names": {
-        "en": "Stringer J2"
-      },
+      "names": {"en": "Stringer J2"},
       "level": 36,
       "character": "ranger",
       "category": "sniper",
@@ -1934,9 +1692,7 @@
     },
     {
       "id": "Weapon060",
-      "names": {
-        "en": "MMF50"
-      },
+      "names": {"en": "MMF50"},
       "level": 39,
       "character": "ranger",
       "category": "sniper",
@@ -1954,9 +1710,7 @@
     },
     {
       "id": "Weapon061",
-      "names": {
-        "en": "Five Card XA"
-      },
+      "names": {"en": "Five Card XA"},
       "level": 41,
       "character": "ranger",
       "category": "sniper",
@@ -1975,9 +1729,7 @@
     },
     {
       "id": "Weapon062",
-      "names": {
-        "en": "Lysander 2"
-      },
+      "names": {"en": "Lysander 2"},
       "level": 45,
       "character": "ranger",
       "category": "sniper",
@@ -1995,9 +1747,7 @@
     },
     {
       "id": "Weapon063",
-      "names": {
-        "en": "MMF100"
-      },
+      "names": {"en": "MMF100"},
       "level": 47,
       "character": "ranger",
       "category": "sniper",
@@ -2015,9 +1765,7 @@
     },
     {
       "id": "Weapon064",
-      "names": {
-        "en": "Five Card XB"
-      },
+      "names": {"en": "Five Card XB"},
       "level": 50,
       "character": "ranger",
       "category": "sniper",
@@ -2036,9 +1784,7 @@
     },
     {
       "id": "Weapon065",
-      "names": {
-        "en": "Nova Buster M2"
-      },
+      "names": {"en": "Nova Buster M2"},
       "level": 52,
       "character": "ranger",
       "category": "sniper",
@@ -2057,9 +1803,7 @@
     },
     {
       "id": "Weapon066",
-      "names": {
-        "en": "MMF200"
-      },
+      "names": {"en": "MMF200"},
       "level": 60,
       "character": "ranger",
       "category": "sniper",
@@ -2077,9 +1821,7 @@
     },
     {
       "id": "Weapon067",
-      "names": {
-        "en": "Lysander F"
-      },
+      "names": {"en": "Lysander F"},
       "level": 70,
       "character": "ranger",
       "category": "sniper",
@@ -2097,9 +1839,7 @@
     },
     {
       "id": "Weapon068",
-      "names": {
-        "en": "Nova Buster M3"
-      },
+      "names": {"en": "Nova Buster M3"},
       "level": 72,
       "character": "ranger",
       "category": "sniper",
@@ -2118,9 +1858,7 @@
     },
     {
       "id": "Weapon069",
-      "names": {
-        "en": "Lysander Z"
-      },
+      "names": {"en": "Lysander Z"},
       "level": 90,
       "character": "ranger",
       "category": "sniper",
@@ -2138,9 +1876,7 @@
     },
     {
       "id": "RocketLauncher01",
-      "names": {
-        "en": "Stingray M1"
-      },
+      "names": {"en": "Stingray M1"},
       "level": 0,
       "character": "ranger",
       "category": "rocket",
@@ -2157,9 +1893,7 @@
     },
     {
       "id": "Weapon070",
-      "names": {
-        "en": "Stingray ST"
-      },
+      "names": {"en": "Stingray ST"},
       "level": 0,
       "character": "ranger",
       "category": "rocket",
@@ -2176,9 +1910,7 @@
     },
     {
       "id": "Weapon071",
-      "names": {
-        "en": "Bloodfire M1"
-      },
+      "names": {"en": "Bloodfire M1"},
       "level": 2,
       "character": "ranger",
       "category": "rocket",
@@ -2195,9 +1927,7 @@
     },
     {
       "id": "Weapon072",
-      "names": {
-        "en": "Volcano 3A"
-      },
+      "names": {"en": "Volcano 3A"},
       "level": 4,
       "character": "ranger",
       "category": "rocket",
@@ -2215,9 +1945,7 @@
     },
     {
       "id": "RocketLauncherGDD",
-      "names": {
-        "en": "Stingray ST2"
-      },
+      "names": {"en": "Stingray ST2"},
       "level": 7,
       "character": "ranger",
       "category": "rocket",
@@ -2234,9 +1962,7 @@
     },
     {
       "id": "Weapon073",
-      "names": {
-        "en": "Volcano 3W-Burst"
-      },
+      "names": {"en": "Volcano 3W-Burst"},
       "level": 9,
       "character": "ranger",
       "category": "rocket",
@@ -2256,9 +1982,7 @@
     },
     {
       "id": "Weapon074",
-      "names": {
-        "en": "Cascade 1"
-      },
+      "names": {"en": "Cascade 1"},
       "level": 10,
       "character": "ranger",
       "category": "rocket",
@@ -2275,9 +1999,7 @@
     },
     {
       "id": "Weapon075",
-      "names": {
-        "en": "A1 Plasma Launcher"
-      },
+      "names": {"en": "A1 Plasma Launcher"},
       "level": 11,
       "character": "ranger",
       "category": "rocket",
@@ -2294,9 +2016,7 @@
     },
     {
       "id": "Weapon076",
-      "names": {
-        "en": "Goliath D1"
-      },
+      "names": {"en": "Goliath D1"},
       "level": 17,
       "character": "ranger",
       "category": "rocket",
@@ -2314,9 +2034,7 @@
     },
     {
       "id": "Weapon077",
-      "names": {
-        "en": "Stingray M2"
-      },
+      "names": {"en": "Stingray M2"},
       "level": 20,
       "character": "ranger",
       "category": "rocket",
@@ -2333,9 +2051,7 @@
     },
     {
       "id": "Weapon078",
-      "names": {
-        "en": "Bloodfire M2"
-      },
+      "names": {"en": "Bloodfire M2"},
       "level": 22,
       "character": "ranger",
       "category": "rocket",
@@ -2352,9 +2068,7 @@
     },
     {
       "id": "Weapon079",
-      "names": {
-        "en": "Stingray M3"
-      },
+      "names": {"en": "Stingray M3"},
       "level": 26,
       "character": "ranger",
       "category": "rocket",
@@ -2371,9 +2085,7 @@
     },
     {
       "id": "Weapon080",
-      "names": {
-        "en": "A2 Plasma Launcher"
-      },
+      "names": {"en": "A2 Plasma Launcher"},
       "level": 29,
       "character": "ranger",
       "category": "rocket",
@@ -2391,9 +2103,7 @@
     },
     {
       "id": "Weapon081",
-      "names": {
-        "en": "Cascade 2"
-      },
+      "names": {"en": "Cascade 2"},
       "level": 31,
       "character": "ranger",
       "category": "rocket",
@@ -2410,9 +2120,7 @@
     },
     {
       "id": "Weapon082",
-      "names": {
-        "en": "Goliath D2"
-      },
+      "names": {"en": "Goliath D2"},
       "level": 35,
       "character": "ranger",
       "category": "rocket",
@@ -2430,9 +2138,7 @@
     },
     {
       "id": "Weapon083",
-      "names": {
-        "en": "Stingray M4"
-      },
+      "names": {"en": "Stingray M4"},
       "level": 40,
       "character": "ranger",
       "category": "rocket",
@@ -2449,9 +2155,7 @@
     },
     {
       "id": "Weapon084",
-      "names": {
-        "en": "Bloodfire M3"
-      },
+      "names": {"en": "Bloodfire M3"},
       "level": 40,
       "character": "ranger",
       "category": "rocket",
@@ -2468,9 +2172,7 @@
     },
     {
       "id": "Weapon085",
-      "names": {
-        "en": "Volcano B10"
-      },
+      "names": {"en": "Volcano B10"},
       "level": 43,
       "character": "ranger",
       "category": "rocket",
@@ -2489,9 +2191,7 @@
     },
     {
       "id": "Weapon086",
-      "names": {
-        "en": "Goliath Z"
-      },
+      "names": {"en": "Goliath Z"},
       "level": 50,
       "character": "ranger",
       "category": "rocket",
@@ -2509,9 +2209,7 @@
     },
     {
       "id": "Weapon087",
-      "names": {
-        "en": "Volcano 6W"
-      },
+      "names": {"en": "Volcano 6W"},
       "level": 53,
       "character": "ranger",
       "category": "rocket",
@@ -2529,9 +2227,7 @@
     },
     {
       "id": "Weapon088",
-      "names": {
-        "en": "A3 Plasma Launcher"
-      },
+      "names": {"en": "A3 Plasma Launcher"},
       "level": 57,
       "character": "ranger",
       "category": "rocket",
@@ -2548,9 +2244,7 @@
     },
     {
       "id": "Weapon089",
-      "names": {
-        "en": "Bloodfire M4"
-      },
+      "names": {"en": "Bloodfire M4"},
       "level": 62,
       "character": "ranger",
       "category": "rocket",
@@ -2567,9 +2261,7 @@
     },
     {
       "id": "Weapon090",
-      "names": {
-        "en": "Stingray M99"
-      },
+      "names": {"en": "Stingray M99"},
       "level": 62,
       "character": "ranger",
       "category": "rocket",
@@ -2586,9 +2278,7 @@
     },
     {
       "id": "Weapon091",
-      "names": {
-        "en": "Stingray MF"
-      },
+      "names": {"en": "Stingray MF"},
       "level": 78,
       "character": "ranger",
       "category": "rocket",
@@ -2607,9 +2297,7 @@
     },
     {
       "id": "Weapon092",
-      "names": {
-        "en": "Blood Inferno"
-      },
+      "names": {"en": "Blood Inferno"},
       "level": 87,
       "character": "ranger",
       "category": "rocket",
@@ -2626,9 +2314,7 @@
     },
     {
       "id": "BonusWeapon05",
-      "names": {
-        "en": "Genocide Gun"
-      },
+      "names": {"en": "Genocide Gun"},
       "level": 99,
       "character": "ranger",
       "category": "rocket",
@@ -2647,9 +2333,7 @@
     },
     {
       "id": "Missile_SkyTT",
-      "names": {
-        "en": "Air Tortoise 01"
-      },
+      "names": {"en": "Air Tortoise 01"},
       "level": 0,
       "character": "ranger",
       "category": "missile",
@@ -2665,9 +2349,7 @@
     },
     {
       "id": "Missile_EM0",
-      "names": {
-        "en": "ME1 Emerald"
-      },
+      "names": {"en": "ME1 Emerald"},
       "level": 0,
       "character": "ranger",
       "category": "missile",
@@ -2684,9 +2366,7 @@
     },
     {
       "id": "Weapon093",
-      "names": {
-        "en": "MLRA"
-      },
+      "names": {"en": "MLRA"},
       "level": 1,
       "character": "ranger",
       "category": "missile",
@@ -2703,9 +2383,7 @@
     },
     {
       "id": "Weapon094",
-      "names": {
-        "en": "Air Tortoise 02"
-      },
+      "names": {"en": "Air Tortoise 02"},
       "level": 3,
       "character": "ranger",
       "category": "missile",
@@ -2721,9 +2399,7 @@
     },
     {
       "id": "Weapon095",
-      "names": {
-        "en": "ME2 Emerald"
-      },
+      "names": {"en": "ME2 Emerald"},
       "level": 4,
       "character": "ranger",
       "category": "missile",
@@ -2740,9 +2416,7 @@
     },
     {
       "id": "Weapon096",
-      "names": {
-        "en": "MLRA-2"
-      },
+      "names": {"en": "MLRA-2"},
       "level": 10,
       "character": "ranger",
       "category": "missile",
@@ -2759,9 +2433,7 @@
     },
     {
       "id": "Weapon097",
-      "names": {
-        "en": "Homing Cannon"
-      },
+      "names": {"en": "Homing Cannon"},
       "level": 12,
       "character": "ranger",
       "category": "missile",
@@ -2778,9 +2450,7 @@
     },
     {
       "id": "Weapon098",
-      "names": {
-        "en": "ME3 Emerald"
-      },
+      "names": {"en": "ME3 Emerald"},
       "level": 15,
       "character": "ranger",
       "category": "missile",
@@ -2797,9 +2467,7 @@
     },
     {
       "id": "Weapon099",
-      "names": {
-        "en": "MLRA-3"
-      },
+      "names": {"en": "MLRA-3"},
       "level": 21,
       "character": "ranger",
       "category": "missile",
@@ -2816,9 +2484,7 @@
     },
     {
       "id": "Weapon100",
-      "names": {
-        "en": "Prominence M1"
-      },
+      "names": {"en": "Prominence M1"},
       "level": 27,
       "character": "ranger",
       "category": "missile",
@@ -2836,9 +2502,7 @@
     },
     {
       "id": "Weapon101",
-      "names": {
-        "en": "FORK-A20"
-      },
+      "names": {"en": "FORK-A20"},
       "level": 29,
       "character": "ranger",
       "category": "missile",
@@ -2855,9 +2519,7 @@
     },
     {
       "id": "Weapon102",
-      "names": {
-        "en": "Homing Cannon G"
-      },
+      "names": {"en": "Homing Cannon G"},
       "level": 32,
       "character": "ranger",
       "category": "missile",
@@ -2874,9 +2536,7 @@
     },
     {
       "id": "Weapon103",
-      "names": {
-        "en": "MLRA-TW"
-      },
+      "names": {"en": "MLRA-TW"},
       "level": 35,
       "character": "ranger",
       "category": "missile",
@@ -2894,9 +2554,7 @@
     },
     {
       "id": "Weapon104",
-      "names": {
-        "en": "MEX Emerald"
-      },
+      "names": {"en": "MEX Emerald"},
       "level": 43,
       "character": "ranger",
       "category": "missile",
@@ -2913,9 +2571,7 @@
     },
     {
       "id": "Weapon105",
-      "names": {
-        "en": "Air Tortoise ME"
-      },
+      "names": {"en": "Air Tortoise ME"},
       "level": 47,
       "character": "ranger",
       "category": "missile",
@@ -2931,9 +2587,7 @@
     },
     {
       "id": "Weapon106",
-      "names": {
-        "en": "Homing Cannon GX"
-      },
+      "names": {"en": "Homing Cannon GX"},
       "level": 52,
       "character": "ranger",
       "category": "missile",
@@ -2950,9 +2604,7 @@
     },
     {
       "id": "Weapon107",
-      "names": {
-        "en": "Prominence M2"
-      },
+      "names": {"en": "Prominence M2"},
       "level": 62,
       "character": "ranger",
       "category": "missile",
@@ -2970,9 +2622,7 @@
     },
     {
       "id": "Weapon108",
-      "names": {
-        "en": "FORK-X20"
-      },
+      "names": {"en": "FORK-X20"},
       "level": 67,
       "character": "ranger",
       "category": "missile",
@@ -2989,9 +2639,7 @@
     },
     {
       "id": "Weapon109",
-      "names": {
-        "en": "Prominence MA"
-      },
+      "names": {"en": "Prominence MA"},
       "level": 77,
       "character": "ranger",
       "category": "missile",
@@ -3009,9 +2657,7 @@
     },
     {
       "id": "Weapon110",
-      "names": {
-        "en": "Homing Blastgun"
-      },
+      "names": {"en": "Homing Blastgun"},
       "level": 77,
       "character": "ranger",
       "category": "missile",
@@ -3028,9 +2674,7 @@
     },
     {
       "id": "HandGrenade01",
-      "names": {
-        "en": "MG10"
-      },
+      "names": {"en": "MG10"},
       "level": 0,
       "character": "ranger",
       "category": "grenade",
@@ -3047,9 +2691,7 @@
     },
     {
       "id": "Weapon111",
-      "names": {
-        "en": "MG10J"
-      },
+      "names": {"en": "MG10J"},
       "level": 0,
       "character": "ranger",
       "category": "grenade",
@@ -3067,9 +2709,7 @@
     },
     {
       "id": "Weapon112",
-      "names": {
-        "en": "MG11"
-      },
+      "names": {"en": "MG11"},
       "level": 2,
       "character": "ranger",
       "category": "grenade",
@@ -3086,9 +2726,7 @@
     },
     {
       "id": "Weapon113",
-      "names": {
-        "en": "MG12"
-      },
+      "names": {"en": "MG12"},
       "level": 5,
       "character": "ranger",
       "category": "grenade",
@@ -3105,9 +2743,7 @@
     },
     {
       "id": "Weapon114",
-      "names": {
-        "en": "MG13"
-      },
+      "names": {"en": "MG13"},
       "level": 8,
       "character": "ranger",
       "category": "grenade",
@@ -3124,9 +2760,7 @@
     },
     {
       "id": "Weapon115",
-      "names": {
-        "en": "MG13J"
-      },
+      "names": {"en": "MG13J"},
       "level": 12,
       "character": "ranger",
       "category": "grenade",
@@ -3144,9 +2778,7 @@
     },
     {
       "id": "Weapon116",
-      "names": {
-        "en": "MG14"
-      },
+      "names": {"en": "MG14"},
       "level": 14,
       "character": "ranger",
       "category": "grenade",
@@ -3163,9 +2795,7 @@
     },
     {
       "id": "Weapon117",
-      "names": {
-        "en": "MG14J"
-      },
+      "names": {"en": "MG14J"},
       "level": 15,
       "character": "ranger",
       "category": "grenade",
@@ -3183,9 +2813,7 @@
     },
     {
       "id": "Weapon118",
-      "names": {
-        "en": "MG20"
-      },
+      "names": {"en": "MG20"},
       "level": 27,
       "character": "ranger",
       "category": "grenade",
@@ -3202,9 +2830,7 @@
     },
     {
       "id": "Weapon119",
-      "names": {
-        "en": "MG21J"
-      },
+      "names": {"en": "MG21J"},
       "level": 38,
       "character": "ranger",
       "category": "grenade",
@@ -3222,9 +2848,7 @@
     },
     {
       "id": "Weapon120",
-      "names": {
-        "en": "MG29SJ"
-      },
+      "names": {"en": "MG29SJ"},
       "level": 52,
       "character": "ranger",
       "category": "grenade",
@@ -3242,9 +2866,7 @@
     },
     {
       "id": "Weapon121",
-      "names": {
-        "en": "MG30"
-      },
+      "names": {"en": "MG30"},
       "level": 72,
       "character": "ranger",
       "category": "grenade",
@@ -3261,9 +2883,7 @@
     },
     {
       "id": "Weapon122",
-      "names": {
-        "en": "UM1 Grenade Launcher"
-      },
+      "names": {"en": "UM1 Grenade Launcher"},
       "level": 0,
       "character": "ranger",
       "category": "grenade",
@@ -3281,9 +2901,7 @@
     },
     {
       "id": "Weapon123",
-      "names": {
-        "en": "UM1-J Grenade Launcher"
-      },
+      "names": {"en": "UM1-J Grenade Launcher"},
       "level": 2,
       "character": "ranger",
       "category": "grenade",
@@ -3302,9 +2920,7 @@
     },
     {
       "id": "Weapon124",
-      "names": {
-        "en": "Stampede M1"
-      },
+      "names": {"en": "Stampede M1"},
       "level": 5,
       "character": "ranger",
       "category": "grenade",
@@ -3323,9 +2939,7 @@
     },
     {
       "id": "Weapon125",
-      "names": {
-        "en": "UM2 Grenade Launcher"
-      },
+      "names": {"en": "UM2 Grenade Launcher"},
       "level": 7,
       "character": "ranger",
       "category": "grenade",
@@ -3343,9 +2957,7 @@
     },
     {
       "id": "Weapon126",
-      "names": {
-        "en": "UM2-J Grenade Launcher"
-      },
+      "names": {"en": "UM2-J Grenade Launcher"},
       "level": 12,
       "character": "ranger",
       "category": "grenade",
@@ -3364,9 +2976,7 @@
     },
     {
       "id": "Weapon127",
-      "names": {
-        "en": "UMRA Grenade Launcher"
-      },
+      "names": {"en": "UMRA Grenade Launcher"},
       "level": 17,
       "character": "ranger",
       "category": "grenade",
@@ -3384,9 +2994,7 @@
     },
     {
       "id": "Weapon128",
-      "names": {
-        "en": "UM3-J Grenade Launcher"
-      },
+      "names": {"en": "UM3-J Grenade Launcher"},
       "level": 19,
       "character": "ranger",
       "category": "grenade",
@@ -3405,9 +3013,7 @@
     },
     {
       "id": "Weapon129",
-      "names": {
-        "en": "Splash Grenade"
-      },
+      "names": {"en": "Splash Grenade"},
       "level": 22,
       "character": "ranger",
       "category": "grenade",
@@ -3426,9 +3032,7 @@
     },
     {
       "id": "Weapon130",
-      "names": {
-        "en": "Sticky Grenade Prototype"
-      },
+      "names": {"en": "Sticky Grenade Prototype"},
       "level": 25,
       "character": "ranger",
       "category": "grenade",
@@ -3447,9 +3051,7 @@
     },
     {
       "id": "Weapon131",
-      "names": {
-        "en": "UM4 Grenade Launcher"
-      },
+      "names": {"en": "UM4 Grenade Launcher"},
       "level": 28,
       "character": "ranger",
       "category": "grenade",
@@ -3467,9 +3069,7 @@
     },
     {
       "id": "Weapon132",
-      "names": {
-        "en": "BRUTE-J Triple Grenade Launcher"
-      },
+      "names": {"en": "BRUTE-J Triple Grenade Launcher"},
       "level": 31,
       "character": "ranger",
       "category": "grenade",
@@ -3489,9 +3089,7 @@
     },
     {
       "id": "Weapon133",
-      "names": {
-        "en": "Splash Grenade α"
-      },
+      "names": {"en": "Splash Grenade α"},
       "level": 37,
       "character": "ranger",
       "category": "grenade",
@@ -3510,9 +3108,7 @@
     },
     {
       "id": "Weapon134",
-      "names": {
-        "en": "BRUTE Triple Grenade Launcher"
-      },
+      "names": {"en": "BRUTE Triple Grenade Launcher"},
       "level": 42,
       "character": "ranger",
       "category": "grenade",
@@ -3531,9 +3127,7 @@
     },
     {
       "id": "Weapon135",
-      "names": {
-        "en": "Sticky Grenade"
-      },
+      "names": {"en": "Sticky Grenade"},
       "level": 46,
       "character": "ranger",
       "category": "grenade",
@@ -3552,9 +3146,7 @@
     },
     {
       "id": "Weapon136",
-      "names": {
-        "en": "Stampede M2"
-      },
+      "names": {"en": "Stampede M2"},
       "level": 46,
       "character": "ranger",
       "category": "grenade",
@@ -3573,9 +3165,7 @@
     },
     {
       "id": "Weapon137",
-      "names": {
-        "en": "CRUMBLE Twin Grenade Launcher"
-      },
+      "names": {"en": "CRUMBLE Twin Grenade Launcher"},
       "level": 52,
       "character": "ranger",
       "category": "grenade",
@@ -3594,9 +3184,7 @@
     },
     {
       "id": "Weapon138",
-      "names": {
-        "en": "Sticky Grenade α"
-      },
+      "names": {"en": "Sticky Grenade α"},
       "level": 62,
       "character": "ranger",
       "category": "grenade",
@@ -3614,9 +3202,7 @@
     },
     {
       "id": "Weapon139",
-      "names": {
-        "en": "UMAX Grenade Launcher"
-      },
+      "names": {"en": "UMAX Grenade Launcher"},
       "level": 67,
       "character": "ranger",
       "category": "grenade",
@@ -3634,9 +3220,7 @@
     },
     {
       "id": "Weapon140",
-      "names": {
-        "en": "Stampede XM"
-      },
+      "names": {"en": "Stampede XM"},
       "level": 71,
       "character": "ranger",
       "category": "grenade",
@@ -3655,9 +3239,7 @@
     },
     {
       "id": "Weapon141",
-      "names": {
-        "en": "Acid Shot Prototype"
-      },
+      "names": {"en": "Acid Shot Prototype"},
       "level": 7,
       "character": "ranger",
       "category": "special",
@@ -3675,9 +3257,7 @@
     },
     {
       "id": "Weapon142",
-      "names": {
-        "en": "Acid Gun"
-      },
+      "names": {"en": "Acid Gun"},
       "level": 20,
       "character": "ranger",
       "category": "special",
@@ -3694,9 +3274,7 @@
     },
     {
       "id": "Weapon143",
-      "names": {
-        "en": "Acid Shot"
-      },
+      "names": {"en": "Acid Shot"},
       "level": 37,
       "character": "ranger",
       "category": "special",
@@ -3714,9 +3292,7 @@
     },
     {
       "id": "Weapon144",
-      "names": {
-        "en": "Wide Acid Gun"
-      },
+      "names": {"en": "Wide Acid Gun"},
       "level": 52,
       "character": "ranger",
       "category": "special",
@@ -3734,9 +3310,7 @@
     },
     {
       "id": "Weapon145",
-      "names": {
-        "en": "Super Acid Gun"
-      },
+      "names": {"en": "Super Acid Gun"},
       "level": 57,
       "character": "ranger",
       "category": "special",
@@ -3753,9 +3327,7 @@
     },
     {
       "id": "Weapon146",
-      "names": {
-        "en": "Torch"
-      },
+      "names": {"en": "Torch"},
       "level": 0,
       "character": "ranger",
       "category": "special",
@@ -3775,9 +3347,7 @@
     },
     {
       "id": "Weapon147",
-      "names": {
-        "en": "Flame Thrower"
-      },
+      "names": {"en": "Flame Thrower"},
       "level": 5,
       "character": "ranger",
       "category": "special",
@@ -3797,9 +3367,7 @@
     },
     {
       "id": "Weapon148",
-      "names": {
-        "en": "Flame Thrower α"
-      },
+      "names": {"en": "Flame Thrower α"},
       "level": 29,
       "character": "ranger",
       "category": "special",
@@ -3819,9 +3387,7 @@
     },
     {
       "id": "Weapon149",
-      "names": {
-        "en": "Flame Cannon"
-      },
+      "names": {"en": "Flame Cannon"},
       "level": 55,
       "character": "ranger",
       "category": "special",
@@ -3841,9 +3407,7 @@
     },
     {
       "id": "Weapon150",
-      "names": {
-        "en": "Magma Cannon"
-      },
+      "names": {"en": "Magma Cannon"},
       "level": 82,
       "character": "ranger",
       "category": "special",
@@ -3863,9 +3427,7 @@
     },
     {
       "id": "Weapon151",
-      "names": {
-        "en": "C24 Hand Bomb"
-      },
+      "names": {"en": "C24 Hand Bomb"},
       "level": 2,
       "character": "ranger",
       "category": "special",
@@ -3884,9 +3446,7 @@
     },
     {
       "id": "Weapon152",
-      "names": {
-        "en": "C24 Bomb"
-      },
+      "names": {"en": "C24 Bomb"},
       "level": 16,
       "character": "ranger",
       "category": "special",
@@ -3905,9 +3465,7 @@
     },
     {
       "id": "Weapon153",
-      "names": {
-        "en": "C25 Special Bomb"
-      },
+      "names": {"en": "C25 Special Bomb"},
       "level": 33,
       "character": "ranger",
       "category": "special",
@@ -3926,9 +3484,7 @@
     },
     {
       "id": "Weapon154",
-      "names": {
-        "en": "C26 Bomb"
-      },
+      "names": {"en": "C26 Bomb"},
       "level": 47,
       "character": "ranger",
       "category": "special",
@@ -3947,9 +3503,7 @@
     },
     {
       "id": "Weapon155",
-      "names": {
-        "en": "C70 Bomb"
-      },
+      "names": {"en": "C70 Bomb"},
       "level": 65,
       "character": "ranger",
       "category": "special",
@@ -3968,9 +3522,7 @@
     },
     {
       "id": "Weapon156",
-      "names": {
-        "en": "Y10 Impulse"
-      },
+      "names": {"en": "Y10 Impulse"},
       "level": 7,
       "character": "ranger",
       "category": "special",
@@ -3989,9 +3541,7 @@
     },
     {
       "id": "Weapon157",
-      "names": {
-        "en": "Y10 Wide Impulse"
-      },
+      "names": {"en": "Y10 Wide Impulse"},
       "level": 20,
       "character": "ranger",
       "category": "special",
@@ -4010,9 +3560,7 @@
     },
     {
       "id": "Weapon158",
-      "names": {
-        "en": "Y11 Impulse"
-      },
+      "names": {"en": "Y11 Impulse"},
       "level": 30,
       "character": "ranger",
       "category": "special",
@@ -4031,9 +3579,7 @@
     },
     {
       "id": "Weapon159",
-      "names": {
-        "en": "Y11 Anti-Aircraft Impulse"
-      },
+      "names": {"en": "Y11 Anti-Aircraft Impulse"},
       "level": 44,
       "character": "ranger",
       "category": "special",
@@ -4052,9 +3598,7 @@
     },
     {
       "id": "BonusWeapon03",
-      "names": {
-        "en": "Y20 Impulse"
-      },
+      "names": {"en": "Y20 Impulse"},
       "level": 50,
       "character": "ranger",
       "category": "special",
@@ -4073,9 +3617,7 @@
     },
     {
       "id": "Weapon160",
-      "names": {
-        "en": "Y21 Impulse"
-      },
+      "names": {"en": "Y21 Impulse"},
       "level": 75,
       "character": "ranger",
       "category": "special",
@@ -4094,9 +3636,7 @@
     },
     {
       "id": "Weapon161",
-      "names": {
-        "en": "ZE-GUN"
-      },
+      "names": {"en": "ZE-GUN"},
       "level": 6,
       "character": "ranger",
       "category": "special",
@@ -4118,9 +3658,7 @@
     },
     {
       "id": "Weapon162",
-      "names": {
-        "en": "ZER-GUN"
-      },
+      "names": {"en": "ZER-GUN"},
       "level": 12,
       "character": "ranger",
       "category": "special",
@@ -4142,9 +3680,7 @@
     },
     {
       "id": "Weapon163",
-      "names": {
-        "en": "ZE Sniper"
-      },
+      "names": {"en": "ZE Sniper"},
       "level": 19,
       "character": "ranger",
       "category": "special",
@@ -4166,9 +3702,7 @@
     },
     {
       "id": "BonusWeapon02",
-      "names": {
-        "en": "ZE Launcher"
-      },
+      "names": {"en": "ZE Launcher"},
       "level": 25,
       "character": "ranger",
       "category": "special",
@@ -4191,9 +3725,7 @@
     },
     {
       "id": "Weapon164",
-      "names": {
-        "en": "ZERA-GUN"
-      },
+      "names": {"en": "ZERA-GUN"},
       "level": 45,
       "character": "ranger",
       "category": "special",
@@ -4215,9 +3747,7 @@
     },
     {
       "id": "Weapon165",
-      "names": {
-        "en": "ZE-GUN5"
-      },
+      "names": {"en": "ZE-GUN5"},
       "level": 67,
       "character": "ranger",
       "category": "special",
@@ -4239,9 +3769,7 @@
     },
     {
       "id": "Weapon166",
-      "names": {
-        "en": "ZEX Launcher"
-      },
+      "names": {"en": "ZEX Launcher"},
       "level": 72,
       "character": "ranger",
       "category": "special",
@@ -4264,9 +3792,7 @@
     },
     {
       "id": "Weapon167",
-      "names": {
-        "en": "ZEXR-GUN"
-      },
+      "names": {"en": "ZEXR-GUN"},
       "level": 80,
       "character": "ranger",
       "category": "special",
@@ -4288,9 +3814,7 @@
     },
     {
       "id": "Weapon168",
-      "names": {
-        "en": "Firecracker 1"
-      },
+      "names": {"en": "Firecracker 1"},
       "level": 5,
       "character": "ranger",
       "category": "special",
@@ -4308,9 +3832,7 @@
     },
     {
       "id": "Weapon169",
-      "names": {
-        "en": "Firecracker 2"
-      },
+      "names": {"en": "Firecracker 2"},
       "level": 18,
       "character": "ranger",
       "category": "special",
@@ -4328,9 +3850,7 @@
     },
     {
       "id": "Weapon170",
-      "names": {
-        "en": "Firecracker 3"
-      },
+      "names": {"en": "Firecracker 3"},
       "level": 25,
       "character": "ranger",
       "category": "special",
@@ -4348,9 +3868,7 @@
     },
     {
       "id": "Weapon171",
-      "names": {
-        "en": "Firecracker 4"
-      },
+      "names": {"en": "Firecracker 4"},
       "level": 42,
       "character": "ranger",
       "category": "special",
@@ -4368,9 +3886,7 @@
     },
     {
       "id": "Weapon172",
-      "names": {
-        "en": "Burst Firecracker"
-      },
+      "names": {"en": "Burst Firecracker"},
       "level": 55,
       "character": "ranger",
       "category": "special",
@@ -4388,9 +3904,7 @@
     },
     {
       "id": "Weapon173",
-      "names": {
-        "en": "P78 Bound Gun"
-      },
+      "names": {"en": "P78 Bound Gun"},
       "level": 3,
       "character": "ranger",
       "category": "special",
@@ -4407,9 +3921,7 @@
     },
     {
       "id": "Weapon174",
-      "names": {
-        "en": "P79 Bound Gun"
-      },
+      "names": {"en": "P79 Bound Gun"},
       "level": 10,
       "character": "ranger",
       "category": "special",
@@ -4426,9 +3938,7 @@
     },
     {
       "id": "Weapon175",
-      "names": {
-        "en": "P80 Bound Gun"
-      },
+      "names": {"en": "P80 Bound Gun"},
       "level": 33,
       "character": "ranger",
       "category": "special",
@@ -4445,9 +3955,7 @@
     },
     {
       "id": "Weapon176",
-      "names": {
-        "en": "P89 Bound Gun"
-      },
+      "names": {"en": "P89 Bound Gun"},
       "level": 58,
       "character": "ranger",
       "category": "special",
@@ -4464,9 +3972,7 @@
     },
     {
       "id": "BonusWeapon04",
-      "names": {
-        "en": "PX50 Bound Shot"
-      },
+      "names": {"en": "PX50 Bound Shot"},
       "level": 75,
       "character": "ranger",
       "category": "special",
@@ -4484,9 +3990,7 @@
     },
     {
       "id": "FirstBonusWeapon01",
-      "names": {
-        "en": "Electro Paralyzer"
-      },
+      "names": {"en": "Electro Paralyzer"},
       "level": 3,
       "character": "ranger",
       "category": "special",
@@ -4504,9 +4008,7 @@
     },
     {
       "id": "Weapon177",
-      "names": {
-        "en": "Killer Drone"
-      },
+      "names": {"en": "Killer Drone"},
       "level": 9,
       "character": "ranger",
       "category": "special",
@@ -4523,9 +4025,7 @@
     },
     {
       "id": "Weapon178",
-      "names": {
-        "en": "Hypnotizer"
-      },
+      "names": {"en": "Hypnotizer"},
       "level": 13,
       "character": "ranger",
       "category": "special",
@@ -4544,9 +4044,7 @@
     },
     {
       "id": "Weapon179",
-      "names": {
-        "en": "Aurora Terrorizer"
-      },
+      "names": {"en": "Aurora Terrorizer"},
       "level": 21,
       "character": "ranger",
       "category": "special",
@@ -4565,9 +4063,7 @@
     },
     {
       "id": "Weapon180",
-      "names": {
-        "en": "Rapid Paralyzer"
-      },
+      "names": {"en": "Rapid Paralyzer"},
       "level": 28,
       "character": "ranger",
       "category": "special",
@@ -4585,9 +4081,7 @@
     },
     {
       "id": "Weapon181",
-      "names": {
-        "en": "Terrorizer ST"
-      },
+      "names": {"en": "Terrorizer ST"},
       "level": 33,
       "character": "ranger",
       "category": "special",
@@ -4606,9 +4100,7 @@
     },
     {
       "id": "Weapon182",
-      "names": {
-        "en": "Burst Hypnotizer"
-      },
+      "names": {"en": "Burst Hypnotizer"},
       "level": 37,
       "character": "ranger",
       "category": "special",
@@ -4628,9 +4120,7 @@
     },
     {
       "id": "Weapon183",
-      "names": {
-        "en": "Killer Drone Fleet"
-      },
+      "names": {"en": "Killer Drone Fleet"},
       "level": 47,
       "character": "ranger",
       "category": "special",
@@ -4649,9 +4139,7 @@
     },
     {
       "id": "Weapon184",
-      "names": {
-        "en": "Aurora Hypnotizer"
-      },
+      "names": {"en": "Aurora Hypnotizer"},
       "level": 50,
       "character": "ranger",
       "category": "special",
@@ -4669,9 +4157,7 @@
     },
     {
       "id": "Weapon185",
-      "names": {
-        "en": "Dread Drone"
-      },
+      "names": {"en": "Dread Drone"},
       "level": 60,
       "character": "ranger",
       "category": "special",
@@ -4689,9 +4175,7 @@
     },
     {
       "id": "Weapon186",
-      "names": {
-        "en": "High-Burst Paralyzer"
-      },
+      "names": {"en": "High-Burst Paralyzer"},
       "level": 67,
       "character": "ranger",
       "category": "special",
@@ -4711,9 +4195,7 @@
     },
     {
       "id": "Weapon187",
-      "names": {
-        "en": "Aurora Terrorizer G"
-      },
+      "names": {"en": "Aurora Terrorizer G"},
       "level": 71,
       "character": "ranger",
       "category": "special",
@@ -4732,9 +4214,7 @@
     },
     {
       "id": "Weapon188",
-      "names": {
-        "en": "Killer Assault Fleet"
-      },
+      "names": {"en": "Killer Assault Fleet"},
       "level": 72,
       "character": "ranger",
       "category": "special",
@@ -4753,9 +4233,7 @@
     },
     {
       "id": "Weapon189",
-      "names": {
-        "en": "Aurora Hypnotizer GX"
-      },
+      "names": {"en": "Aurora Hypnotizer GX"},
       "level": 84,
       "character": "ranger",
       "category": "special",
@@ -4773,9 +4251,7 @@
     },
     {
       "id": "Weapon190",
-      "names": {
-        "en": "Terrorizer SX"
-      },
+      "names": {"en": "Terrorizer SX"},
       "level": 87,
       "character": "ranger",
       "category": "special",
@@ -4794,9 +4270,7 @@
     },
     {
       "id": "Weapon191",
-      "names": {
-        "en": "Maximum Paralyzer"
-      },
+      "names": {"en": "Maximum Paralyzer"},
       "level": 93,
       "character": "ranger",
       "category": "special",
@@ -4814,9 +4288,7 @@
     },
     {
       "id": "Repair01",
-      "names": {
-        "en": "Reverser M1"
-      },
+      "names": {"en": "Reverser M1"},
       "level": 1,
       "character": "ranger",
       "category": "repair",
@@ -4836,9 +4308,7 @@
     },
     {
       "id": "Repair02",
-      "names": {
-        "en": "Aerial Reverser 1"
-      },
+      "names": {"en": "Aerial Reverser 1"},
       "level": 7,
       "character": "ranger",
       "category": "repair",
@@ -4858,9 +4328,7 @@
     },
     {
       "id": "Repair03",
-      "names": {
-        "en": "Reverse Gun"
-      },
+      "names": {"en": "Reverse Gun"},
       "level": 12,
       "character": "ranger",
       "category": "repair",
@@ -4880,9 +4348,7 @@
     },
     {
       "id": "Repair04",
-      "names": {
-        "en": "Aerial Reverser 2"
-      },
+      "names": {"en": "Aerial Reverser 2"},
       "level": 20,
       "character": "ranger",
       "category": "repair",
@@ -4902,9 +4368,7 @@
     },
     {
       "id": "Repair05",
-      "names": {
-        "en": "Reverser M2"
-      },
+      "names": {"en": "Reverser M2"},
       "level": 28,
       "character": "ranger",
       "category": "repair",
@@ -4924,9 +4388,7 @@
     },
     {
       "id": "Repair06",
-      "names": {
-        "en": "Reverse Shooter T1"
-      },
+      "names": {"en": "Reverse Shooter T1"},
       "level": 35,
       "character": "ranger",
       "category": "repair",
@@ -4946,9 +4408,7 @@
     },
     {
       "id": "Repair07",
-      "names": {
-        "en": "Reverser M3"
-      },
+      "names": {"en": "Reverser M3"},
       "level": 42,
       "character": "ranger",
       "category": "repair",
@@ -4968,9 +4428,7 @@
     },
     {
       "id": "Repair08",
-      "names": {
-        "en": "Reverse Bomber"
-      },
+      "names": {"en": "Reverse Bomber"},
       "level": 47,
       "character": "ranger",
       "category": "repair",
@@ -4991,9 +4449,7 @@
     },
     {
       "id": "Repair09",
-      "names": {
-        "en": "Reverse Shooter T2"
-      },
+      "names": {"en": "Reverse Shooter T2"},
       "level": 55,
       "character": "ranger",
       "category": "repair",
@@ -5013,9 +4469,7 @@
     },
     {
       "id": "Repair10",
-      "names": {
-        "en": "Aerial Reverser 3"
-      },
+      "names": {"en": "Aerial Reverser 3"},
       "level": 62,
       "character": "ranger",
       "category": "repair",
@@ -5035,9 +4489,7 @@
     },
     {
       "id": "Repair11",
-      "names": {
-        "en": "Reverser X"
-      },
+      "names": {"en": "Reverser X"},
       "level": 70,
       "character": "ranger",
       "category": "repair",
@@ -5057,9 +4509,7 @@
     },
     {
       "id": "Repair12",
-      "names": {
-        "en": "Reverse Shooter X"
-      },
+      "names": {"en": "Reverse Shooter X"},
       "level": 77,
       "character": "ranger",
       "category": "repair",
@@ -5079,9 +4529,7 @@
     },
     {
       "id": "Repair13",
-      "names": {
-        "en": "Aerial Reverser X"
-      },
+      "names": {"en": "Aerial Reverser X"},
       "level": 82,
       "character": "ranger",
       "category": "repair",
@@ -5101,9 +4549,7 @@
     },
     {
       "id": "FirstBonusWeapon03",
-      "names": {
-        "en": "Reverse Drone"
-      },
+      "names": {"en": "Reverse Drone"},
       "level": 3,
       "character": "ranger",
       "category": "repair",
@@ -5124,9 +4570,7 @@
     },
     {
       "id": "Weapon192",
-      "names": {
-        "en": "Reverse Drone Fleet"
-      },
+      "names": {"en": "Reverse Drone Fleet"},
       "level": 37,
       "character": "ranger",
       "category": "repair",
@@ -5148,9 +4592,7 @@
     },
     {
       "id": "Weapon193",
-      "names": {
-        "en": "Reverse Burst Drone"
-      },
+      "names": {"en": "Reverse Burst Drone"},
       "level": 50,
       "character": "ranger",
       "category": "repair",
@@ -5171,9 +4613,7 @@
     },
     {
       "id": "Weapon194",
-      "names": {
-        "en": "Reverse Assault Fleet"
-      },
+      "names": {"en": "Reverse Assault Fleet"},
       "level": 87,
       "character": "ranger",
       "category": "repair",
@@ -5195,9 +4635,7 @@
     },
     {
       "id": "FirstBonusWeapon04",
-      "names": {
-        "en": "Limit Booster"
-      },
+      "names": {"en": "Limit Booster"},
       "level": 3,
       "character": "ranger",
       "category": "repair",
@@ -5217,9 +4655,7 @@
     },
     {
       "id": "Weapon195",
-      "names": {
-        "en": "Limit Booster A1"
-      },
+      "names": {"en": "Limit Booster A1"},
       "level": 11,
       "character": "ranger",
       "category": "repair",
@@ -5239,9 +4675,7 @@
     },
     {
       "id": "Weapon196",
-      "names": {
-        "en": "Limit Booster A2"
-      },
+      "names": {"en": "Limit Booster A2"},
       "level": 36,
       "character": "ranger",
       "category": "repair",
@@ -5261,9 +4695,7 @@
     },
     {
       "id": "Weapon197",
-      "names": {
-        "en": "Limit Booster A3"
-      },
+      "names": {"en": "Limit Booster A3"},
       "level": 61,
       "character": "ranger",
       "category": "repair",
@@ -5283,9 +4715,7 @@
     },
     {
       "id": "Weapon198",
-      "names": {
-        "en": "Limit Booster A4"
-      },
+      "names": {"en": "Limit Booster A4"},
       "level": 86,
       "character": "ranger",
       "category": "repair",
@@ -5305,9 +4735,7 @@
     },
     {
       "id": "Weapon199",
-      "names": {
-        "en": "Tempshield A1"
-      },
+      "names": {"en": "Tempshield A1"},
       "level": 17,
       "character": "ranger",
       "category": "repair",
@@ -5327,9 +4755,7 @@
     },
     {
       "id": "Weapon200",
-      "names": {
-        "en": "Tempshield A2"
-      },
+      "names": {"en": "Tempshield A2"},
       "level": 42,
       "character": "ranger",
       "category": "repair",
@@ -5349,9 +4775,7 @@
     },
     {
       "id": "Weapon201",
-      "names": {
-        "en": "Tempshield A3"
-      },
+      "names": {"en": "Tempshield A3"},
       "level": 67,
       "character": "ranger",
       "category": "repair",
@@ -5371,9 +4795,7 @@
     },
     {
       "id": "Weapon202",
-      "names": {
-        "en": "Tempshield A4"
-      },
+      "names": {"en": "Tempshield A4"},
       "level": 92,
       "character": "ranger",
       "category": "repair",
@@ -5393,9 +4815,7 @@
     },
     {
       "id": "Weapon203",
-      "names": {
-        "en": "Rescue Drone"
-      },
+      "names": {"en": "Rescue Drone"},
       "level": 19,
       "character": "ranger",
       "category": "repair",
@@ -5414,9 +4834,7 @@
     },
     {
       "id": "Weapon204",
-      "names": {
-        "en": "Rescue Drone M2"
-      },
+      "names": {"en": "Rescue Drone M2"},
       "level": 44,
       "character": "ranger",
       "category": "repair",
@@ -5435,9 +4853,7 @@
     },
     {
       "id": "Weapon205",
-      "names": {
-        "en": "Rescue Drone M3"
-      },
+      "names": {"en": "Rescue Drone M3"},
       "level": 69,
       "character": "ranger",
       "category": "repair",
@@ -5456,9 +4872,7 @@
     },
     {
       "id": "Weapon206",
-      "names": {
-        "en": "Rescue Drone M4"
-      },
+      "names": {"en": "Rescue Drone M4"},
       "level": 94,
       "character": "ranger",
       "category": "repair",
@@ -5477,9 +4891,7 @@
     },
     {
       "id": "EnergyRapier01",
-      "names": {
-        "en": "Rapier"
-      },
+      "names": {"en": "Rapier"},
       "level": 0,
       "character": "winger",
       "category": "short",
@@ -5497,9 +4909,7 @@
     },
     {
       "id": "energylance01",
-      "names": {
-        "en": "Laser Lance"
-      },
+      "names": {"en": "Laser Lance"},
       "level": 0,
       "character": "winger",
       "category": "short",
@@ -5516,9 +4926,7 @@
     },
     {
       "id": "energyrapier02",
-      "names": {
-        "en": "Rapier Thrust"
-      },
+      "names": {"en": "Rapier Thrust"},
       "level": 5,
       "character": "winger",
       "category": "short",
@@ -5536,9 +4944,7 @@
     },
     {
       "id": "energylance02",
-      "names": {
-        "en": "Laser Lance B"
-      },
+      "names": {"en": "Laser Lance B"},
       "level": 7,
       "character": "winger",
       "category": "short",
@@ -5555,9 +4961,7 @@
     },
     {
       "id": "energyrapier03",
-      "names": {
-        "en": "M2 Rapier"
-      },
+      "names": {"en": "M2 Rapier"},
       "level": 10,
       "character": "winger",
       "category": "short",
@@ -5575,9 +4979,7 @@
     },
     {
       "id": "energylance02w",
-      "names": {
-        "en": "2-Way Lance"
-      },
+      "names": {"en": "2-Way Lance"},
       "level": 12,
       "character": "winger",
       "category": "short",
@@ -5595,9 +4997,7 @@
     },
     {
       "id": "energylance04",
-      "names": {
-        "en": "Battle Ram"
-      },
+      "names": {"en": "Battle Ram"},
       "level": 15,
       "character": "winger",
       "category": "short",
@@ -5613,9 +5013,7 @@
     },
     {
       "id": "energylance03",
-      "names": {
-        "en": "Laser Lance R Custom"
-      },
+      "names": {"en": "Laser Lance R Custom"},
       "level": 17,
       "character": "winger",
       "category": "short",
@@ -5632,9 +5030,7 @@
     },
     {
       "id": "energyrapier04",
-      "names": {
-        "en": "M3 Rapier Thrust"
-      },
+      "names": {"en": "M3 Rapier Thrust"},
       "level": 20,
       "character": "winger",
       "category": "short",
@@ -5652,9 +5048,7 @@
     },
     {
       "id": "energylance05",
-      "names": {
-        "en": "MX Laser Lance"
-      },
+      "names": {"en": "MX Laser Lance"},
       "level": 25,
       "character": "winger",
       "category": "short",
@@ -5671,9 +5065,7 @@
     },
     {
       "id": "energyrapier05",
-      "names": {
-        "en": "Plasma Whip"
-      },
+      "names": {"en": "Plasma Whip"},
       "level": 30,
       "character": "winger",
       "category": "short",
@@ -5691,9 +5083,7 @@
     },
     {
       "id": "energylance06",
-      "names": {
-        "en": "Laser Lance C"
-      },
+      "names": {"en": "Laser Lance C"},
       "level": 30,
       "character": "winger",
       "category": "short",
@@ -5710,9 +5100,7 @@
     },
     {
       "id": "energylance06w",
-      "names": {
-        "en": "3-Way Lance"
-      },
+      "names": {"en": "3-Way Lance"},
       "level": 32,
       "character": "winger",
       "category": "short",
@@ -5730,9 +5118,7 @@
     },
     {
       "id": "energyrapier06",
-      "names": {
-        "en": "MX Rapier"
-      },
+      "names": {"en": "MX Rapier"},
       "level": 35,
       "character": "winger",
       "category": "short",
@@ -5750,9 +5136,7 @@
     },
     {
       "id": "energylance07",
-      "names": {
-        "en": "Burst Lance"
-      },
+      "names": {"en": "Burst Lance"},
       "level": 40,
       "character": "winger",
       "category": "short",
@@ -5769,9 +5153,7 @@
     },
     {
       "id": "energyrapier07",
-      "names": {
-        "en": "Rapier G Thrust"
-      },
+      "names": {"en": "Rapier G Thrust"},
       "level": 45,
       "character": "winger",
       "category": "short",
@@ -5789,9 +5171,7 @@
     },
     {
       "id": "energylance08",
-      "names": {
-        "en": "Laser Lance X"
-      },
+      "names": {"en": "Laser Lance X"},
       "level": 50,
       "character": "winger",
       "category": "short",
@@ -5808,9 +5188,7 @@
     },
     {
       "id": "energyrapier08",
-      "names": {
-        "en": "Rapier G Thrust 2"
-      },
+      "names": {"en": "Rapier G Thrust 2"},
       "level": 52,
       "character": "winger",
       "category": "short",
@@ -5828,9 +5206,7 @@
     },
     {
       "id": "energyrapier09",
-      "names": {
-        "en": "Plasma Whip S"
-      },
+      "names": {"en": "Plasma Whip S"},
       "level": 57,
       "character": "winger",
       "category": "short",
@@ -5848,9 +5224,7 @@
     },
     {
       "id": "energylance09",
-      "names": {
-        "en": "Demonic Lance"
-      },
+      "names": {"en": "Demonic Lance"},
       "level": 60,
       "character": "winger",
       "category": "short",
@@ -5866,9 +5240,7 @@
     },
     {
       "id": "energylance09w",
-      "names": {
-        "en": "4-Way Lance"
-      },
+      "names": {"en": "4-Way Lance"},
       "level": 62,
       "character": "winger",
       "category": "short",
@@ -5886,9 +5258,7 @@
     },
     {
       "id": "energyrapier10",
-      "names": {
-        "en": "Plasma Broom"
-      },
+      "names": {"en": "Plasma Broom"},
       "level": 65,
       "character": "winger",
       "category": "short",
@@ -5906,9 +5276,7 @@
     },
     {
       "id": "energyrapier11",
-      "names": {
-        "en": "Master Rapier"
-      },
+      "names": {"en": "Master Rapier"},
       "level": 72,
       "character": "winger",
       "category": "short",
@@ -5926,9 +5294,7 @@
     },
     {
       "id": "energylance10",
-      "names": {
-        "en": "Laser Lance Σ"
-      },
+      "names": {"en": "Laser Lance Σ"},
       "level": 75,
       "character": "winger",
       "category": "short",
@@ -5945,9 +5311,7 @@
     },
     {
       "id": "energylance11w",
-      "names": {
-        "en": "Sacred Lance"
-      },
+      "names": {"en": "Sacred Lance"},
       "level": 80,
       "character": "winger",
       "category": "short",
@@ -5965,9 +5329,7 @@
     },
     {
       "id": "energyrapier12",
-      "names": {
-        "en": "Master Rapier T"
-      },
+      "names": {"en": "Master Rapier T"},
       "level": 82,
       "character": "winger",
       "category": "short",
@@ -5985,9 +5347,7 @@
     },
     {
       "id": "energylance100",
-      "names": {
-        "en": "Luonnotar"
-      },
+      "names": {"en": "Luonnotar"},
       "level": 90,
       "character": "winger",
       "category": "short",
@@ -6005,9 +5365,7 @@
     },
     {
       "id": "energylance101",
-      "names": {
-        "en": "Hreidmarr"
-      },
+      "names": {"en": "Hreidmarr"},
       "level": 92,
       "character": "winger",
       "category": "short",
@@ -6024,9 +5382,7 @@
     },
     {
       "id": "energylaser01",
-      "names": {
-        "en": "LAZR-197"
-      },
+      "names": {"en": "LAZR-197"},
       "level": 0,
       "character": "winger",
       "category": "laser",
@@ -6043,9 +5399,7 @@
     },
     {
       "id": "energyrifle01",
-      "names": {
-        "en": "Ixion"
-      },
+      "names": {"en": "Ixion"},
       "level": 0,
       "character": "winger",
       "category": "particle",
@@ -6061,9 +5415,7 @@
     },
     {
       "id": "energylightning01",
-      "names": {
-        "en": "Idunn"
-      },
+      "names": {"en": "Idunn"},
       "level": 1,
       "character": "winger",
       "category": "electro",
@@ -6080,9 +5432,7 @@
     },
     {
       "id": "energyrifle015w",
-      "names": {
-        "en": "Ixion 2-Way"
-      },
+      "names": {"en": "Ixion 2-Way"},
       "level": 1,
       "character": "winger",
       "category": "particle",
@@ -6099,9 +5449,7 @@
     },
     {
       "id": "energylightning03",
-      "names": {
-        "en": "Eclat 10"
-      },
+      "names": {"en": "Eclat 10"},
       "level": 2,
       "character": "winger",
       "category": "electro",
@@ -6118,9 +5466,7 @@
     },
     {
       "id": "energylightning15s",
-      "names": {
-        "en": "Thunder Bow 10"
-      },
+      "names": {"en": "Thunder Bow 10"},
       "level": 3,
       "character": "winger",
       "category": "electro",
@@ -6138,9 +5484,7 @@
     },
     {
       "id": "energylaser012",
-      "names": {
-        "en": "LARG-V"
-      },
+      "names": {"en": "LARG-V"},
       "level": 3,
       "character": "winger",
       "category": "laser",
@@ -6158,9 +5502,7 @@
     },
     {
       "id": "energylightning15",
-      "names": {
-        "en": "Idunn-B"
-      },
+      "names": {"en": "Idunn-B"},
       "level": 4,
       "character": "winger",
       "category": "electro",
@@ -6177,9 +5519,7 @@
     },
     {
       "id": "energyrifle02",
-      "names": {
-        "en": "Ixion MX"
-      },
+      "names": {"en": "Ixion MX"},
       "level": 3,
       "character": "winger",
       "category": "particle",
@@ -6195,9 +5535,7 @@
     },
     {
       "id": "energyrifle021",
-      "names": {
-        "en": "Ixion Mark II"
-      },
+      "names": {"en": "Ixion Mark II"},
       "level": 5,
       "character": "winger",
       "category": "particle",
@@ -6213,9 +5551,7 @@
     },
     {
       "id": "energylaser02",
-      "names": {
-        "en": "LAZR-198"
-      },
+      "names": {"en": "LAZR-198"},
       "level": 6,
       "character": "winger",
       "category": "laser",
@@ -6232,9 +5568,7 @@
     },
     {
       "id": "energyrifle025",
-      "names": {
-        "en": "Ixion 3-Way"
-      },
+      "names": {"en": "Ixion 3-Way"},
       "level": 8,
       "character": "winger",
       "category": "particle",
@@ -6251,9 +5585,7 @@
     },
     {
       "id": "energylightning02",
-      "names": {
-        "en": "Idunn-C Custom"
-      },
+      "names": {"en": "Idunn-C Custom"},
       "level": 7,
       "character": "winger",
       "category": "electro",
@@ -6270,9 +5602,7 @@
     },
     {
       "id": "energyrifle03emp",
-      "names": {
-        "en": "Pulsar Shot"
-      },
+      "names": {"en": "Pulsar Shot"},
       "level": 8,
       "character": "winger",
       "category": "particle",
@@ -6288,9 +5618,7 @@
     },
     {
       "id": "energylightning04",
-      "names": {
-        "en": "Eclat 20"
-      },
+      "names": {"en": "Eclat 20"},
       "level": 11,
       "character": "winger",
       "category": "electro",
@@ -6307,9 +5635,7 @@
     },
     {
       "id": "energyrifle035w",
-      "names": {
-        "en": "Ixion Wide"
-      },
+      "names": {"en": "Ixion Wide"},
       "level": 12,
       "character": "winger",
       "category": "particle",
@@ -6326,9 +5652,7 @@
     },
     {
       "id": "energylightning45s",
-      "names": {
-        "en": "Thunder Bow 15"
-      },
+      "names": {"en": "Thunder Bow 15"},
       "level": 13,
       "character": "winger",
       "category": "electro",
@@ -6346,9 +5670,7 @@
     },
     {
       "id": "energylaser03",
-      "names": {
-        "en": "LAZR-199"
-      },
+      "names": {"en": "LAZR-199"},
       "level": 15,
       "character": "winger",
       "category": "laser",
@@ -6365,9 +5687,7 @@
     },
     {
       "id": "energyrifle04w",
-      "names": {
-        "en": "Ixion 5-Way"
-      },
+      "names": {"en": "Ixion 5-Way"},
       "level": 16,
       "character": "winger",
       "category": "particle",
@@ -6384,9 +5704,7 @@
     },
     {
       "id": "energyrifle04sg",
-      "names": {
-        "en": "Dynastrike"
-      },
+      "names": {"en": "Dynastrike"},
       "level": 17,
       "character": "winger",
       "category": "particle",
@@ -6403,9 +5721,7 @@
     },
     {
       "id": "energylightning47s",
-      "names": {
-        "en": "Thunder Bow 15S"
-      },
+      "names": {"en": "Thunder Bow 15S"},
       "level": 18,
       "character": "winger",
       "category": "electro",
@@ -6423,9 +5739,7 @@
     },
     {
       "id": "energylaser04",
-      "names": {
-        "en": "LAZR-200"
-      },
+      "names": {"en": "LAZR-200"},
       "level": 20,
       "character": "winger",
       "category": "laser",
@@ -6442,9 +5756,7 @@
     },
     {
       "id": "energyrifle045w",
-      "names": {
-        "en": "Ixion 4-Way"
-      },
+      "names": {"en": "Ixion 4-Way"},
       "level": 22,
       "character": "winger",
       "category": "particle",
@@ -6461,9 +5773,7 @@
     },
     {
       "id": "energylightning05",
-      "names": {
-        "en": "Idunn-D Custom"
-      },
+      "names": {"en": "Idunn-D Custom"},
       "level": 25,
       "character": "winger",
       "category": "electro",
@@ -6480,9 +5790,7 @@
     },
     {
       "id": "BonusEnergyWeapon02",
-      "names": {
-        "en": "Laser Chainsaw"
-      },
+      "names": {"en": "Laser Chainsaw"},
       "level": 25,
       "character": "winger",
       "category": "laser",
@@ -6500,9 +5808,7 @@
     },
     {
       "id": "energyrifle05",
-      "names": {
-        "en": "Ixion Mark III"
-      },
+      "names": {"en": "Ixion Mark III"},
       "level": 28,
       "character": "winger",
       "category": "particle",
@@ -6518,9 +5824,7 @@
     },
     {
       "id": "energylightning06",
-      "names": {
-        "en": "Thunder Bow 20"
-      },
+      "names": {"en": "Thunder Bow 20"},
       "level": 30,
       "character": "winger",
       "category": "electro",
@@ -6538,9 +5842,7 @@
     },
     {
       "id": "energylaser05",
-      "names": {
-        "en": "LAZR-201"
-      },
+      "names": {"en": "LAZR-201"},
       "level": 32,
       "character": "winger",
       "category": "laser",
@@ -6557,9 +5859,7 @@
     },
     {
       "id": "energylightning07",
-      "names": {
-        "en": "Grom X"
-      },
+      "names": {"en": "Grom X"},
       "level": 33,
       "character": "winger",
       "category": "electro",
@@ -6576,9 +5876,7 @@
     },
     {
       "id": "energyrifle08emp",
-      "names": {
-        "en": "Pulsar Shot α"
-      },
+      "names": {"en": "Pulsar Shot α"},
       "level": 35,
       "character": "winger",
       "category": "particle",
@@ -6594,9 +5892,7 @@
     },
     {
       "id": "energyrifle055w",
-      "names": {
-        "en": "Ixion 6-Way"
-      },
+      "names": {"en": "Ixion 6-Way"},
       "level": 36,
       "character": "winger",
       "category": "particle",
@@ -6613,9 +5909,7 @@
     },
     {
       "id": "energylightning08",
-      "names": {
-        "en": "Grom SS"
-      },
+      "names": {"en": "Grom SS"},
       "level": 38,
       "character": "winger",
       "category": "electro",
@@ -6632,9 +5926,7 @@
     },
     {
       "id": "energylaser55",
-      "names": {
-        "en": "LAZR-202"
-      },
+      "names": {"en": "LAZR-202"},
       "level": 40,
       "character": "winger",
       "category": "laser",
@@ -6651,9 +5943,7 @@
     },
     {
       "id": "energyrifle06sg",
-      "names": {
-        "en": "Dynastrike X"
-      },
+      "names": {"en": "Dynastrike X"},
       "level": 42,
       "character": "winger",
       "category": "particle",
@@ -6670,9 +5960,7 @@
     },
     {
       "id": "energylightning85s",
-      "names": {
-        "en": "Thunderbow 20R"
-      },
+      "names": {"en": "Thunderbow 20R"},
       "level": 43,
       "character": "winger",
       "category": "electro",
@@ -6690,9 +5978,7 @@
     },
     {
       "id": "energylaser05W",
-      "names": {
-        "en": "LARG-W3"
-      },
+      "names": {"en": "LARG-W3"},
       "level": 45,
       "character": "winger",
       "category": "laser",
@@ -6710,9 +5996,7 @@
     },
     {
       "id": "energyrifle065w",
-      "names": {
-        "en": "Ixion 6-Way S"
-      },
+      "names": {"en": "Ixion 6-Way S"},
       "level": 46,
       "character": "winger",
       "category": "particle",
@@ -6729,9 +6013,7 @@
     },
     {
       "id": "energyrifle07sg",
-      "names": {
-        "en": "Dynastrike Z"
-      },
+      "names": {"en": "Dynastrike Z"},
       "level": 47,
       "character": "winger",
       "category": "particle",
@@ -6748,9 +6030,7 @@
     },
     {
       "id": "energylightning09",
-      "names": {
-        "en": "Idunn-E Custom"
-      },
+      "names": {"en": "Idunn-E Custom"},
       "level": 47,
       "character": "winger",
       "category": "electro",
@@ -6767,9 +6047,7 @@
     },
     {
       "id": "energyrifle09sg",
-      "names": {
-        "en": "Dynastrike α"
-      },
+      "names": {"en": "Dynastrike α"},
       "level": 52,
       "character": "winger",
       "category": "particle",
@@ -6786,9 +6064,7 @@
     },
     {
       "id": "energylaser06",
-      "names": {
-        "en": "LAZR-299"
-      },
+      "names": {"en": "LAZR-299"},
       "level": 55,
       "character": "winger",
       "category": "laser",
@@ -6805,9 +6081,7 @@
     },
     {
       "id": "energyrifle09w",
-      "names": {
-        "en": "Ixion 9-Way"
-      },
+      "names": {"en": "Ixion 9-Way"},
       "level": 57,
       "character": "winger",
       "category": "particle",
@@ -6824,9 +6098,7 @@
     },
     {
       "id": "energylightning10",
-      "names": {
-        "en": "Eclat 30"
-      },
+      "names": {"en": "Eclat 30"},
       "level": 60,
       "character": "winger",
       "category": "electro",
@@ -6843,9 +6115,7 @@
     },
     {
       "id": "energyrifle403emp",
-      "names": {
-        "en": "Pulsar Shot WR"
-      },
+      "names": {"en": "Pulsar Shot WR"},
       "level": 62,
       "character": "winger",
       "category": "particle",
@@ -6862,9 +6132,7 @@
     },
     {
       "id": "energyrifle10",
-      "names": {
-        "en": "Ixion Mark IV"
-      },
+      "names": {"en": "Ixion Mark IV"},
       "level": 65,
       "character": "winger",
       "category": "particle",
@@ -6880,9 +6148,7 @@
     },
     {
       "id": "energylaser07",
-      "names": {
-        "en": "LAZR-300"
-      },
+      "names": {"en": "LAZR-300"},
       "level": 65,
       "character": "winger",
       "category": "laser",
@@ -6899,9 +6165,7 @@
     },
     {
       "id": "energylightning11",
-      "names": {
-        "en": "Thunder Bow 30"
-      },
+      "names": {"en": "Thunder Bow 30"},
       "level": 67,
       "character": "winger",
       "category": "electro",
@@ -6919,9 +6183,7 @@
     },
     {
       "id": "energylightning12",
-      "names": {
-        "en": "Eclat LIM"
-      },
+      "names": {"en": "Eclat LIM"},
       "level": 75,
       "character": "winger",
       "category": "electro",
@@ -6938,9 +6200,7 @@
     },
     {
       "id": "energylaser08",
-      "names": {
-        "en": "ARC-LAZR"
-      },
+      "names": {"en": "ARC-LAZR"},
       "level": 75,
       "character": "winger",
       "category": "laser",
@@ -6957,9 +6217,7 @@
     },
     {
       "id": "BonusEnergyWeapon04",
-      "names": {
-        "en": "Cyclone Laser"
-      },
+      "names": {"en": "Cyclone Laser"},
       "level": 75,
       "character": "winger",
       "category": "laser",
@@ -6977,9 +6235,7 @@
     },
     {
       "id": "energyrifle10w",
-      "names": {
-        "en": "Ixion Mark X"
-      },
+      "names": {"en": "Ixion Mark X"},
       "level": 77,
       "character": "winger",
       "category": "particle",
@@ -6996,9 +6252,7 @@
     },
     {
       "id": "energylightning13",
-      "names": {
-        "en": "Idunn-FF"
-      },
+      "names": {"en": "Idunn-FF"},
       "level": 82,
       "character": "winger",
       "category": "electro",
@@ -7015,9 +6269,7 @@
     },
     {
       "id": "energyrifle100",
-      "names": {
-        "en": "Luxard"
-      },
+      "names": {"en": "Luxard"},
       "level": 87,
       "character": "winger",
       "category": "particle",
@@ -7034,9 +6286,7 @@
     },
     {
       "id": "energylaser100",
-      "names": {
-        "en": "SIG-LAZR"
-      },
+      "names": {"en": "SIG-LAZR"},
       "level": 90,
       "character": "winger",
       "category": "laser",
@@ -7053,9 +6303,7 @@
     },
     {
       "id": "energylightning100",
-      "names": {
-        "en": "Thunder Bow XD"
-      },
+      "names": {"en": "Thunder Bow XD"},
       "level": 92,
       "character": "winger",
       "category": "electro",
@@ -7073,9 +6321,7 @@
     },
     {
       "id": "energylsniper005",
-      "names": {
-        "en": "Proto Thunder Sniper"
-      },
+      "names": {"en": "Proto Thunder Sniper"},
       "level": 0,
       "character": "winger",
       "category": "sniper",
@@ -7094,9 +6340,7 @@
     },
     {
       "id": "energylasersniper01",
-      "names": {
-        "en": "LRSL-33"
-      },
+      "names": {"en": "LRSL-33"},
       "level": 0,
       "character": "winger",
       "category": "sniper",
@@ -7113,9 +6357,7 @@
     },
     {
       "id": "energylasersniper02",
-      "names": {
-        "en": "LRSL-34"
-      },
+      "names": {"en": "LRSL-34"},
       "level": 2,
       "character": "winger",
       "category": "sniper",
@@ -7132,9 +6374,7 @@
     },
     {
       "id": "energylsniper01",
-      "names": {
-        "en": "Thunder Sniper A"
-      },
+      "names": {"en": "Thunder Sniper A"},
       "level": 3,
       "character": "winger",
       "category": "sniper",
@@ -7153,9 +6393,7 @@
     },
     {
       "id": "energylasersniper03",
-      "names": {
-        "en": "LRSL-35"
-      },
+      "names": {"en": "LRSL-35"},
       "level": 5,
       "character": "winger",
       "category": "sniper",
@@ -7172,9 +6410,7 @@
     },
     {
       "id": "energylasersniper04",
-      "names": {
-        "en": "LRSL-36"
-      },
+      "names": {"en": "LRSL-36"},
       "level": 7,
       "character": "winger",
       "category": "sniper",
@@ -7191,9 +6427,7 @@
     },
     {
       "id": "energylasersniper05",
-      "names": {
-        "en": "Monster"
-      },
+      "names": {"en": "Monster"},
       "level": 10,
       "character": "winger",
       "category": "sniper",
@@ -7210,9 +6444,7 @@
     },
     {
       "id": "energylsniper02",
-      "names": {
-        "en": "Thunder Sniper B"
-      },
+      "names": {"en": "Thunder Sniper B"},
       "level": 11,
       "character": "winger",
       "category": "sniper",
@@ -7231,9 +6463,7 @@
     },
     {
       "id": "energylsniper03",
-      "names": {
-        "en": "Thunder Sniper 15"
-      },
+      "names": {"en": "Thunder Sniper 15"},
       "level": 12,
       "character": "winger",
       "category": "sniper",
@@ -7252,9 +6482,7 @@
     },
     {
       "id": "energylsniper04",
-      "names": {
-        "en": "Thunder Sniper C"
-      },
+      "names": {"en": "Thunder Sniper C"},
       "level": 15,
       "character": "winger",
       "category": "sniper",
@@ -7273,9 +6501,7 @@
     },
     {
       "id": "energylsniper05",
-      "names": {
-        "en": "Thunder Sniper R"
-      },
+      "names": {"en": "Thunder Sniper R"},
       "level": 17,
       "character": "winger",
       "category": "sniper",
@@ -7293,9 +6519,7 @@
     },
     {
       "id": "energylasersniper06",
-      "names": {
-        "en": "LRSL-37"
-      },
+      "names": {"en": "LRSL-37"},
       "level": 20,
       "character": "winger",
       "category": "sniper",
@@ -7312,9 +6536,7 @@
     },
     {
       "id": "energylsniper06",
-      "names": {
-        "en": "Raijin"
-      },
+      "names": {"en": "Raijin"},
       "level": 30,
       "character": "winger",
       "category": "sniper",
@@ -7332,9 +6554,7 @@
     },
     {
       "id": "energylasersniper07",
-      "names": {
-        "en": "LRSL-38"
-      },
+      "names": {"en": "LRSL-38"},
       "level": 37,
       "character": "winger",
       "category": "sniper",
@@ -7351,9 +6571,7 @@
     },
     {
       "id": "energylsniper07",
-      "names": {
-        "en": "Thunder Sniper D"
-      },
+      "names": {"en": "Thunder Sniper D"},
       "level": 41,
       "character": "winger",
       "category": "sniper",
@@ -7372,9 +6590,7 @@
     },
     {
       "id": "energylasersniper08",
-      "names": {
-        "en": "LRSL-S"
-      },
+      "names": {"en": "LRSL-S"},
       "level": 42,
       "character": "winger",
       "category": "sniper",
@@ -7391,9 +6607,7 @@
     },
     {
       "id": "energylsniper08",
-      "names": {
-        "en": "Thunder Sniper 6"
-      },
+      "names": {"en": "Thunder Sniper 6"},
       "level": 45,
       "character": "winger",
       "category": "sniper",
@@ -7412,9 +6626,7 @@
     },
     {
       "id": "energylasersniper09",
-      "names": {
-        "en": "Monster-S"
-      },
+      "names": {"en": "Monster-S"},
       "level": 55,
       "character": "winger",
       "category": "sniper",
@@ -7431,9 +6643,7 @@
     },
     {
       "id": "energylsniper09",
-      "names": {
-        "en": "Thunder Sniper 40"
-      },
+      "names": {"en": "Thunder Sniper 40"},
       "level": 62,
       "character": "winger",
       "category": "sniper",
@@ -7452,9 +6662,7 @@
     },
     {
       "id": "energylsniper10",
-      "names": {
-        "en": "Thunder Sniper MX"
-      },
+      "names": {"en": "Thunder Sniper MX"},
       "level": 70,
       "character": "winger",
       "category": "sniper",
@@ -7473,9 +6681,7 @@
     },
     {
       "id": "energylasersniper10",
-      "names": {
-        "en": "LRSL-AC"
-      },
+      "names": {"en": "LRSL-AC"},
       "level": 70,
       "character": "winger",
       "category": "sniper",
@@ -7492,9 +6698,7 @@
     },
     {
       "id": "energylasersniper100",
-      "names": {
-        "en": "SIG Sniper"
-      },
+      "names": {"en": "SIG Sniper"},
       "level": 80,
       "character": "winger",
       "category": "sniper",
@@ -7511,9 +6715,7 @@
     },
     {
       "id": "energylsniper11",
-      "names": {
-        "en": "Gungnir"
-      },
+      "names": {"en": "Gungnir"},
       "level": 92,
       "character": "winger",
       "category": "sniper",
@@ -7531,9 +6733,7 @@
     },
     {
       "id": "EnergyPrasmaCannon01",
-      "names": {
-        "en": "E1 Plasma Launcher"
-      },
+      "names": {"en": "E1 Plasma Launcher"},
       "level": 0,
       "character": "winger",
       "category": "plasma",
@@ -7550,9 +6750,7 @@
     },
     {
       "id": "energygrenade01",
-      "names": {
-        "en": "Plasma Grenade A"
-      },
+      "names": {"en": "Plasma Grenade A"},
       "level": 0,
       "character": "winger",
       "category": "plasma",
@@ -7569,9 +6767,7 @@
     },
     {
       "id": "energypcannon02",
-      "names": {
-        "en": "Plasma Shot"
-      },
+      "names": {"en": "Plasma Shot"},
       "level": 0,
       "character": "winger",
       "category": "plasma",
@@ -7589,9 +6785,7 @@
     },
     {
       "id": "energypcannon015",
-      "names": {
-        "en": "E2 Plasma Launcher"
-      },
+      "names": {"en": "E2 Plasma Launcher"},
       "level": 0,
       "character": "winger",
       "category": "plasma",
@@ -7608,9 +6802,7 @@
     },
     {
       "id": "energygrenade02",
-      "names": {
-        "en": "Plasma Grenade B"
-      },
+      "names": {"en": "Plasma Grenade B"},
       "level": 1,
       "character": "winger",
       "category": "plasma",
@@ -7627,9 +6819,7 @@
     },
     {
       "id": "energypcannon025",
-      "names": {
-        "en": "E3 Plasma Launcher"
-      },
+      "names": {"en": "E3 Plasma Launcher"},
       "level": 2,
       "character": "winger",
       "category": "plasma",
@@ -7646,9 +6836,7 @@
     },
     {
       "id": "energypcannon027",
-      "names": {
-        "en": "Dual Plasma Launcher"
-      },
+      "names": {"en": "Dual Plasma Launcher"},
       "level": 5,
       "character": "winger",
       "category": "plasma",
@@ -7666,9 +6854,7 @@
     },
     {
       "id": "energygrenade03",
-      "names": {
-        "en": "Rapid Grenade"
-      },
+      "names": {"en": "Rapid Grenade"},
       "level": 5,
       "character": "winger",
       "category": "plasma",
@@ -7685,9 +6871,7 @@
     },
     {
       "id": "energypcannon03",
-      "names": {
-        "en": "D Plasma Launcher"
-      },
+      "names": {"en": "D Plasma Launcher"},
       "level": 10,
       "character": "winger",
       "category": "plasma",
@@ -7704,9 +6888,7 @@
     },
     {
       "id": "energypcannon031",
-      "names": {
-        "en": "E4 Plasma Launcher"
-      },
+      "names": {"en": "E4 Plasma Launcher"},
       "level": 10,
       "character": "winger",
       "category": "plasma",
@@ -7723,9 +6905,7 @@
     },
     {
       "id": "energypcannon036",
-      "names": {
-        "en": "Blast Launcher"
-      },
+      "names": {"en": "Blast Launcher"},
       "level": 15,
       "character": "winger",
       "category": "plasma",
@@ -7742,9 +6922,7 @@
     },
     {
       "id": "energygrenade04",
-      "names": {
-        "en": "Blast Grenade"
-      },
+      "names": {"en": "Blast Grenade"},
       "level": 16,
       "character": "winger",
       "category": "plasma",
@@ -7761,9 +6939,7 @@
     },
     {
       "id": "energypcannon037",
-      "names": {
-        "en": "3x Plasma Launcher"
-      },
+      "names": {"en": "3x Plasma Launcher"},
       "level": 17,
       "character": "winger",
       "category": "plasma",
@@ -7781,9 +6957,7 @@
     },
     {
       "id": "energypcannon035",
-      "names": {
-        "en": "D2 Plasma Launcher"
-      },
+      "names": {"en": "D2 Plasma Launcher"},
       "level": 20,
       "character": "winger",
       "category": "plasma",
@@ -7800,9 +6974,7 @@
     },
     {
       "id": "energypcannon04",
-      "names": {
-        "en": "Plasmafall"
-      },
+      "names": {"en": "Plasmafall"},
       "level": 25,
       "character": "winger",
       "category": "plasma",
@@ -7819,9 +6991,7 @@
     },
     {
       "id": "energypcannon041",
-      "names": {
-        "en": "M15 Plasma Launcher"
-      },
+      "names": {"en": "M15 Plasma Launcher"},
       "level": 25,
       "character": "winger",
       "category": "plasma",
@@ -7839,9 +7009,7 @@
     },
     {
       "id": "energygrenade05",
-      "names": {
-        "en": "Wide Grenade 20"
-      },
+      "names": {"en": "Wide Grenade 20"},
       "level": 26,
       "character": "winger",
       "category": "plasma",
@@ -7859,9 +7027,7 @@
     },
     {
       "id": "energypcannon042",
-      "names": {
-        "en": "2x Plasma Launcher R"
-      },
+      "names": {"en": "2x Plasma Launcher R"},
       "level": 29,
       "character": "winger",
       "category": "plasma",
@@ -7879,9 +7045,7 @@
     },
     {
       "id": "energygrenade06",
-      "names": {
-        "en": "Plasma Grenade SP"
-      },
+      "names": {"en": "Plasma Grenade SP"},
       "level": 32,
       "character": "winger",
       "category": "plasma",
@@ -7898,9 +7062,7 @@
     },
     {
       "id": "energypcannon045",
-      "names": {
-        "en": "E5 Plasma Launcher"
-      },
+      "names": {"en": "E5 Plasma Launcher"},
       "level": 36,
       "character": "winger",
       "category": "plasma",
@@ -7917,9 +7079,7 @@
     },
     {
       "id": "energygrenade07",
-      "names": {
-        "en": "Plasma Grenade C"
-      },
+      "names": {"en": "Plasma Grenade C"},
       "level": 40,
       "character": "winger",
       "category": "plasma",
@@ -7936,9 +7096,7 @@
     },
     {
       "id": "energypcannon047",
-      "names": {
-        "en": "2x Plasma Launcher S"
-      },
+      "names": {"en": "2x Plasma Launcher S"},
       "level": 41,
       "character": "winger",
       "category": "plasma",
@@ -7956,9 +7114,7 @@
     },
     {
       "id": "energypcannon05",
-      "names": {
-        "en": "EX Plasma Launcher"
-      },
+      "names": {"en": "EX Plasma Launcher"},
       "level": 45,
       "character": "winger",
       "category": "plasma",
@@ -7975,9 +7131,7 @@
     },
     {
       "id": "energypcannon07",
-      "names": {
-        "en": "EX3x Plasma Launcher"
-      },
+      "names": {"en": "EX3x Plasma Launcher"},
       "level": 50,
       "character": "winger",
       "category": "plasma",
@@ -7995,9 +7149,7 @@
     },
     {
       "id": "energypcannon075",
-      "names": {
-        "en": "M30 Plasma Launcher"
-      },
+      "names": {"en": "M30 Plasma Launcher"},
       "level": 55,
       "character": "winger",
       "category": "plasma",
@@ -8015,9 +7167,7 @@
     },
     {
       "id": "energygrenade08",
-      "names": {
-        "en": "Wide Grenade 40"
-      },
+      "names": {"en": "Wide Grenade 40"},
       "level": 60,
       "character": "winger",
       "category": "plasma",
@@ -8035,9 +7185,7 @@
     },
     {
       "id": "energypcannon08",
-      "names": {
-        "en": "RSR Plasma Launcher"
-      },
+      "names": {"en": "RSR Plasma Launcher"},
       "level": 62,
       "character": "winger",
       "category": "plasma",
@@ -8054,9 +7202,7 @@
     },
     {
       "id": "energygrenade09",
-      "names": {
-        "en": "Plasma Grenade F"
-      },
+      "names": {"en": "Plasma Grenade F"},
       "level": 65,
       "character": "winger",
       "category": "plasma",
@@ -8073,9 +7219,7 @@
     },
     {
       "id": "energypcannon10",
-      "names": {
-        "en": "XSX Plasma Launcher"
-      },
+      "names": {"en": "XSX Plasma Launcher"},
       "level": 67,
       "character": "winger",
       "category": "plasma",
@@ -8093,9 +7237,7 @@
     },
     {
       "id": "energygrenade400",
-      "names": {
-        "en": "Plasma Grenade Σ"
-      },
+      "names": {"en": "Plasma Grenade Σ"},
       "level": 80,
       "character": "winger",
       "category": "plasma",
@@ -8112,9 +7254,7 @@
     },
     {
       "id": "energypcannon100",
-      "names": {
-        "en": "Plasmafall Σ"
-      },
+      "names": {"en": "Plasmafall Σ"},
       "level": 87,
       "character": "winger",
       "category": "plasma",
@@ -8132,9 +7272,7 @@
     },
     {
       "id": "energypcannon101",
-      "names": {
-        "en": "RZR Plasma Launcher"
-      },
+      "names": {"en": "RZR Plasma Launcher"},
       "level": 92,
       "character": "winger",
       "category": "plasma",
@@ -8151,9 +7289,7 @@
     },
     {
       "id": "energyhominglaser01",
-      "names": {
-        "en": "Mirage Zero"
-      },
+      "names": {"en": "Mirage Zero"},
       "level": 0,
       "character": "winger",
       "category": "missile",
@@ -8170,9 +7306,7 @@
     },
     {
       "id": "energyhominglaser02",
-      "names": {
-        "en": "Geist"
-      },
+      "names": {"en": "Geist"},
       "level": 2,
       "character": "winger",
       "category": "missile",
@@ -8189,9 +7323,7 @@
     },
     {
       "id": "energyhominglaser03",
-      "names": {
-        "en": "Rapid Mirage"
-      },
+      "names": {"en": "Rapid Mirage"},
       "level": 5,
       "character": "winger",
       "category": "missile",
@@ -8208,9 +7340,7 @@
     },
     {
       "id": "energyhominglaser035",
-      "names": {
-        "en": "Mirage 5-Way"
-      },
+      "names": {"en": "Mirage 5-Way"},
       "level": 8,
       "character": "winger",
       "category": "missile",
@@ -8228,9 +7358,7 @@
     },
     {
       "id": "energyhominglaser036",
-      "names": {
-        "en": "Geist 2"
-      },
+      "names": {"en": "Geist 2"},
       "level": 13,
       "character": "winger",
       "category": "missile",
@@ -8247,9 +7375,7 @@
     },
     {
       "id": "energyhominglaser04",
-      "names": {
-        "en": "Mirage 5-Way B"
-      },
+      "names": {"en": "Mirage 5-Way B"},
       "level": 18,
       "character": "winger",
       "category": "missile",
@@ -8267,9 +7393,7 @@
     },
     {
       "id": "energyhominglaser05",
-      "names": {
-        "en": "Mirage Rumble"
-      },
+      "names": {"en": "Mirage Rumble"},
       "level": 25,
       "character": "winger",
       "category": "missile",
@@ -8286,9 +7410,7 @@
     },
     {
       "id": "energyhominglaser06",
-      "names": {
-        "en": "Mirage 15"
-      },
+      "names": {"en": "Mirage 15"},
       "level": 27,
       "character": "winger",
       "category": "missile",
@@ -8306,9 +7428,7 @@
     },
     {
       "id": "energyhominglaser061",
-      "names": {
-        "en": "Psyblade"
-      },
+      "names": {"en": "Psyblade"},
       "level": 31,
       "character": "winger",
       "category": "missile",
@@ -8325,9 +7445,7 @@
     },
     {
       "id": "energyhominglaser062",
-      "names": {
-        "en": "Geist 3"
-      },
+      "names": {"en": "Geist 3"},
       "level": 37,
       "character": "winger",
       "category": "missile",
@@ -8345,9 +7463,7 @@
     },
     {
       "id": "energyhominglaser065",
-      "names": {
-        "en": "Mirage 15S"
-      },
+      "names": {"en": "Mirage 15S"},
       "level": 43,
       "character": "winger",
       "category": "missile",
@@ -8365,9 +7481,7 @@
     },
     {
       "id": "energyhominglaser067",
-      "names": {
-        "en": "Fenrir"
-      },
+      "names": {"en": "Fenrir"},
       "level": 52,
       "character": "winger",
       "category": "missile",
@@ -8384,9 +7498,7 @@
     },
     {
       "id": "energyhominglaser0675",
-      "names": {
-        "en": "Mirage 5-Way S"
-      },
+      "names": {"en": "Mirage 5-Way S"},
       "level": 57,
       "character": "winger",
       "category": "missile",
@@ -8404,9 +7516,7 @@
     },
     {
       "id": "energyhominglaser0677",
-      "names": {
-        "en": "Psyblade α"
-      },
+      "names": {"en": "Psyblade α"},
       "level": 62,
       "character": "winger",
       "category": "missile",
@@ -8423,9 +7533,7 @@
     },
     {
       "id": "energyhominglaser0678",
-      "names": {
-        "en": "Geist D"
-      },
+      "names": {"en": "Geist D"},
       "level": 62,
       "character": "winger",
       "category": "missile",
@@ -8443,9 +7551,7 @@
     },
     {
       "id": "energyhominglaser07",
-      "names": {
-        "en": "Ghost Chaser"
-      },
+      "names": {"en": "Ghost Chaser"},
       "level": 67,
       "character": "winger",
       "category": "missile",
@@ -8463,9 +7569,7 @@
     },
     {
       "id": "energyhominglaser068",
-      "names": {
-        "en": "Fenrir 3-Way"
-      },
+      "names": {"en": "Fenrir 3-Way"},
       "level": 72,
       "character": "winger",
       "category": "missile",
@@ -8483,9 +7587,7 @@
     },
     {
       "id": "energyhominglaser08",
-      "names": {
-        "en": "Mirage 15WR"
-      },
+      "names": {"en": "Mirage 15WR"},
       "level": 77,
       "character": "winger",
       "category": "missile",
@@ -8503,9 +7605,7 @@
     },
     {
       "id": "energyclusterbeam01",
-      "names": {
-        "en": "Pandora"
-      },
+      "names": {"en": "Pandora"},
       "level": 2,
       "character": "winger",
       "category": "special",
@@ -8524,9 +7624,7 @@
     },
     {
       "id": "BonusEnergyWeapon01",
-      "names": {
-        "en": "Heaven's Gate"
-      },
+      "names": {"en": "Heaven's Gate"},
       "level": 24,
       "character": "winger",
       "category": "special",
@@ -8545,9 +7643,7 @@
     },
     {
       "id": "energyclusterlightning01",
-      "names": {
-        "en": "Thunder Cluster"
-      },
+      "names": {"en": "Thunder Cluster"},
       "level": 7,
       "character": "winger",
       "category": "special",
@@ -8566,9 +7662,7 @@
     },
     {
       "id": "energyclusterbeam02",
-      "names": {
-        "en": "Pandora +"
-      },
+      "names": {"en": "Pandora +"},
       "level": 13,
       "character": "winger",
       "category": "special",
@@ -8587,9 +7681,7 @@
     },
     {
       "id": "energyclusterbeam03",
-      "names": {
-        "en": "Pandora β"
-      },
+      "names": {"en": "Pandora β"},
       "level": 20,
       "character": "winger",
       "category": "special",
@@ -8608,9 +7700,7 @@
     },
     {
       "id": "energyclusterlaser01",
-      "names": {
-        "en": "Psy Cluster"
-      },
+      "names": {"en": "Psy Cluster"},
       "level": 25,
       "character": "winger",
       "category": "special",
@@ -8629,9 +7719,7 @@
     },
     {
       "id": "energyclusterbeam04",
-      "names": {
-        "en": "Pandora α"
-      },
+      "names": {"en": "Pandora α"},
       "level": 34,
       "character": "winger",
       "category": "special",
@@ -8650,9 +7738,7 @@
     },
     {
       "id": "energyclusterlaser015",
-      "names": {
-        "en": "Psy Cluster α"
-      },
+      "names": {"en": "Psy Cluster α"},
       "level": 42,
       "character": "winger",
       "category": "special",
@@ -8671,9 +7757,7 @@
     },
     {
       "id": "BonusEnergyWeapon03",
-      "names": {
-        "en": "Heaven's Gate β"
-      },
+      "names": {"en": "Heaven's Gate β"},
       "level": 50,
       "character": "winger",
       "category": "special",
@@ -8693,9 +7777,7 @@
     },
     {
       "id": "energyclusterlightning02",
-      "names": {
-        "en": "Thunder Cluster α"
-      },
+      "names": {"en": "Thunder Cluster α"},
       "level": 55,
       "character": "winger",
       "category": "special",
@@ -8714,9 +7796,7 @@
     },
     {
       "id": "energyclusterlaser03",
-      "names": {
-        "en": "Heaven's Gate α"
-      },
+      "names": {"en": "Heaven's Gate α"},
       "level": 70,
       "character": "winger",
       "category": "special",
@@ -8736,9 +7816,7 @@
     },
     {
       "id": "energyclusterlightning41",
-      "names": {
-        "en": "Thunder Orb"
-      },
+      "names": {"en": "Thunder Orb"},
       "level": 87,
       "character": "winger",
       "category": "special",
@@ -8758,9 +7836,7 @@
     },
     {
       "id": "energyclusterlaser04",
-      "names": {
-        "en": "Final Days"
-      },
+      "names": {"en": "Final Days"},
       "level": 87,
       "character": "winger",
       "category": "special",
@@ -8780,9 +7856,7 @@
     },
     {
       "id": "BonusEnergyWeapon05",
-      "names": {
-        "en": "Armageddon Cluster"
-      },
+      "names": {"en": "Armageddon Cluster"},
       "level": 99,
       "character": "winger",
       "category": "special",
@@ -8804,58 +7878,17 @@
       "name": "ON",
       "missions": 60,
       "difficulties": [
-        {
-          "name": "Easy",
-          "weaponLimits": [
-            1,
-            25
-          ],
-          "armorLimits": [
-            400,
-            1500
-          ]
-        },
-        {
-          "name": "Normal",
-          "weaponLimits": [
-            1,
-            25
-          ],
-          "armorLimits": [
-            400,
-            1500
-          ]
-        },
-        {
-          "name": "Hard",
-          "weaponLimits": [
-            25,
-            50
-          ],
-          "armorLimits": [
-            1500,
-            3000
-          ]
-        },
+        {"name": "Easy", "weaponLimits": [1, 25], "armorLimits": [400, 1500]},
+        {"name": "Normal", "weaponLimits": [1, 25], "armorLimits": [400, 1500]},
+        {"name": "Hard", "weaponLimits": [25, 50], "armorLimits": [1500, 3000]},
         {
           "name": "Hardest",
-          "weaponLimits": [
-            50,
-            75
-          ],
-          "armorLimits": [
-            3000,
-            4000
-          ]
+          "weaponLimits": [50, 75],
+          "armorLimits": [3000, 4000]
         },
         {
           "name": "Inferno",
-          "weaponLimits": [
-            75,
-            100,
-            null,
-            null
-          ],
+          "weaponLimits": [75, 100, null, null],
           "armorLimits": null
         }
       ]

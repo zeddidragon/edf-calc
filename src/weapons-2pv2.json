@@ -1,26 +1,12 @@
 {
-  "langs": [
-    "en",
-    "ja"
-  ],
-  "classes": [
-    "ranger",
-    "winger",
-    "bomber"
-  ],
-  "charLabels": [
-    "Trooper",
-    "Palewing",
-    "Air Raider"
-  ],
+  "langs": ["en", "ja"],
+  "classes": ["ranger", "winger", "bomber"],
+  "charLabels": ["Trooper", "Palewing", "Air Raider"],
   "headers": {
     "ranger": [
       {
         "category": "assault",
-        "names": {
-          "en": "Assault Rifle",
-          "ja": "アサルトライフル"
-        },
+        "names": {"en": "Assault Rifle", "ja": "アサルトライフル"},
         "headers": [
           "checkbox",
           "level",
@@ -38,10 +24,7 @@
       },
       {
         "category": "shotgun",
-        "names": {
-          "en": "Shotguns",
-          "ja": "ショットガン"
-        },
+        "names": {"en": "Shotguns", "ja": "ショットガン"},
         "headers": [
           "checkbox",
           "level",
@@ -60,10 +43,7 @@
       },
       {
         "category": "sniper",
-        "names": {
-          "en": "Sniper Rifles",
-          "ja": "スナイパーライフル"
-        },
+        "names": {"en": "Sniper Rifles", "ja": "スナイパーライフル"},
         "headers": [
           "checkbox",
           "level",
@@ -81,10 +61,7 @@
       },
       {
         "category": "rocket",
-        "names": {
-          "en": "Rocket Launchers",
-          "ja": "ロケットランチャー"
-        },
+        "names": {"en": "Rocket Launchers", "ja": "ロケットランチャー"},
         "headers": [
           "checkbox",
           "level",
@@ -102,10 +79,7 @@
       },
       {
         "category": "missile",
-        "names": {
-          "en": "Missile Launchers",
-          "ja": "ミサイルランチャー"
-        },
+        "names": {"en": "Missile Launchers", "ja": "ミサイルランチャー"},
         "headers": [
           "checkbox",
           "level",
@@ -122,17 +96,11 @@
       },
       {
         "category": "grenade",
-        "names": {
-          "en": "Grenades",
-          "ja": "グレネード"
-        },
+        "names": {"en": "Grenades", "ja": "グレネード"},
         "tables": [
           {
             "subCategory": "hg",
-            "names": {
-              "en": "Hand Grenades",
-              "ja": "ハンドグレネード"
-            },
+            "names": {"en": "Hand Grenades", "ja": "ハンドグレネード"},
             "headers": [
               "checkbox",
               "level",
@@ -144,10 +112,7 @@
           },
           {
             "subCategory": "gl",
-            "names": {
-              "en": "Grenade Launchers",
-              "ja": "グレネードランチャー"
-            },
+            "names": {"en": "Grenade Launchers", "ja": "グレネードランチャー"},
             "headers": [
               "checkbox",
               "level",
@@ -167,17 +132,11 @@
       },
       {
         "category": "special",
-        "names": {
-          "en": "Special Weapons",
-          "ja": "特殊"
-        },
+        "names": {"en": "Special Weapons", "ja": "特殊"},
         "tables": [
           {
             "subCategory": "decoy",
-            "names": {
-              "en": "Decoys",
-              "ja": "ピュアデコイ・ランチャー"
-            },
+            "names": {"en": "Decoys", "ja": "ピュアデコイ・ランチャー"},
             "headers": [
               "checkbox",
               "level",
@@ -190,10 +149,7 @@
           },
           {
             "subCategory": "bound",
-            "names": {
-              "en": "Bound Guns",
-              "ja": "バウンドガン・シリーズ"
-            },
+            "names": {"en": "Bound Guns", "ja": "バウンドガン・シリーズ"},
             "headers": [
               "checkbox",
               "level",
@@ -210,10 +166,7 @@
           },
           {
             "subCategory": "flame",
-            "names": {
-              "en": "Flamethrowers",
-              "ja": "火炎放射器シリーズ"
-            },
+            "names": {"en": "Flamethrowers", "ja": "火炎放射器シリーズ"},
             "appendix": "*Assuming flame hits every frame of duration.",
             "headers": [
               "checkbox",
@@ -227,10 +180,7 @@
             ]
           },
           {
-            "names": {
-              "en": "Reversers",
-              "ja": "リバーサー"
-            },
+            "names": {"en": "Reversers", "ja": "リバーサー"},
             "subCategory": "reverser",
             "appendix": "*Assuming mist hits every frame of duration.",
             "headers": [
@@ -245,10 +195,7 @@
           },
           {
             "subCategory": "acid",
-            "names": {
-              "en": "Insecticide Spray",
-              "ja": "殺虫スプレーEX"
-            },
+            "names": {"en": "Insecticide Spray", "ja": "殺虫スプレーEX"},
             "headers": [
               "checkbox",
               "level",
@@ -261,24 +208,12 @@
           },
           {
             "subCategory": "firecracker",
-            "names": {
-              "en": "Firecrackers",
-              "ja": "かんしゃく玉シリーズ"
-            },
-            "headers": [
-              "checkbox",
-              "level",
-              "name",
-              "damage",
-              "radius"
-            ]
+            "names": {"en": "Firecrackers", "ja": "かんしゃく玉シリーズ"},
+            "headers": ["checkbox", "level", "name", "damage", "radius"]
           },
           {
             "subCategory": "bomb",
-            "names": {
-              "en": "Bombs",
-              "ja": "ローラーボムシリーズ"
-            },
+            "names": {"en": "Bombs", "ja": "ローラーボムシリーズ"},
             "headers": [
               "checkbox",
               "level",
@@ -293,10 +228,7 @@
           },
           {
             "subCategory": "mine",
-            "names": {
-              "en": "Land Mines",
-              "ja": "インパルスシリーズ"
-            },
+            "names": {"en": "Land Mines", "ja": "インパルスシリーズ"},
             "headers": [
               "checkbox",
               "level",
@@ -313,10 +245,7 @@
     "winger": [
       {
         "category": "short",
-        "names": {
-          "en": "Short-Range",
-          "ja": "近距離"
-        },
+        "names": {"en": "Short-Range", "ja": "近距離"},
         "headers": [
           "checkbox",
           "level",
@@ -338,10 +267,7 @@
       },
       {
         "category": "laser",
-        "names": {
-          "en": "Mid-Rg Lasers",
-          "ja": "中距離-レーザー"
-        },
+        "names": {"en": "Mid-Rg Lasers", "ja": "中距離-レーザー"},
         "headers": [
           "checkbox",
           "level",
@@ -363,10 +289,7 @@
       },
       {
         "category": "electro",
-        "names": {
-          "en": "Mid-Rg Electroshock",
-          "ja": "中距離-電撃"
-        },
+        "names": {"en": "Mid-Rg Electroshock", "ja": "中距離-電撃"},
         "headers": [
           "checkbox",
           "level",
@@ -387,10 +310,7 @@
       },
       {
         "category": "particle",
-        "names": {
-          "en": "Particle Cannons",
-          "ja": "中距離-粒子砲"
-        },
+        "names": {"en": "Particle Cannons", "ja": "中距離-粒子砲"},
         "headers": [
           "checkbox",
           "level",
@@ -407,10 +327,7 @@
       },
       {
         "category": "sniper",
-        "names": {
-          "en": "Sniper Weapons",
-          "ja": "狙撃兵器"
-        },
+        "names": {"en": "Sniper Weapons", "ja": "狙撃兵器"},
         "headers": [
           "checkbox",
           "level",
@@ -428,10 +345,7 @@
       },
       {
         "category": "plasma",
-        "names": {
-          "en": "Ranged Attacks",
-          "ja": "範囲攻撃"
-        },
+        "names": {"en": "Ranged Attacks", "ja": "範囲攻撃"},
         "headers": [
           "checkbox",
           "level",
@@ -451,10 +365,7 @@
       },
       {
         "category": "missile",
-        "names": {
-          "en": "Homing Weapons",
-          "ja": "ホーミング兵器"
-        },
+        "names": {"en": "Homing Weapons", "ja": "ホーミング兵器"},
         "headers": [
           "checkbox",
           "level",
@@ -470,10 +381,7 @@
       },
       {
         "category": "special",
-        "names": {
-          "en": "Special Weapons",
-          "ja": "特殊"
-        },
+        "names": {"en": "Special Weapons", "ja": "特殊"},
         "headers": [
           "checkbox",
           "level",
@@ -492,10 +400,7 @@
     "bomber": [
       {
         "category": "artillery",
-        "names": {
-          "en": "Request Artillery Units",
-          "ja": "砲兵隊"
-        },
+        "names": {"en": "Request Artillery Units", "ja": "砲兵隊"},
         "headers": [
           "checkbox",
           "level",
@@ -509,10 +414,7 @@
       },
       {
         "category": "gunship",
-        "names": {
-          "en": "Request Gunships",
-          "ja": "攻撃機ホエール"
-        },
+        "names": {"en": "Request Gunships", "ja": "攻撃機ホエール"},
         "headers": [
           "checkbox",
           "level",
@@ -527,10 +429,7 @@
       },
       {
         "category": "planes",
-        "names": {
-          "en": "Request Bombers",
-          "ja": "爆撃機カロン＆ミッドナイト"
-        },
+        "names": {"en": "Request Bombers", "ja": "爆撃機カロン＆ミッドナイト"},
         "headers": [
           "checkbox",
           "level",
@@ -544,10 +443,7 @@
       },
       {
         "category": "missile",
-        "names": {
-          "en": "Request Missiles",
-          "ja": "ミサイル"
-        },
+        "names": {"en": "Request Missiles", "ja": "ミサイル"},
         "headers": [
           "checkbox",
           "level",
@@ -563,10 +459,7 @@
       },
       {
         "category": "satellite",
-        "names": {
-          "en": "Request Satellites",
-          "ja": "攻撃機ホエール"
-        },
+        "names": {"en": "Request Satellites", "ja": "攻撃機ホエール"},
         "headers": [
           "checkbox",
           "level",
@@ -583,10 +476,7 @@
       },
       {
         "category": "limpet",
-        "names": {
-          "en": "Limpet Guns",
-          "ja": "リムペットガン"
-        },
+        "names": {"en": "Limpet Guns", "ja": "リムペットガン"},
         "headers": [
           "checkbox",
           "level",
@@ -605,17 +495,11 @@
       },
       {
         "category": "deploy",
-        "names": {
-          "en": "Umanned Weapons",
-          "ja": "設置兵器"
-        },
+        "names": {"en": "Umanned Weapons", "ja": "設置兵器"},
         "tables": [
           {
             "subCategory": "roomba",
-            "names": {
-              "en": "Roller Bombs",
-              "ja": "ローラーボム"
-            },
+            "names": {"en": "Roller Bombs", "ja": "ローラーボム"},
             "headers": [
               "checkbox",
               "level",
@@ -629,10 +513,7 @@
           },
           {
             "subCategory": "patroller",
-            "names": {
-              "en": "Patrollers",
-              "ja": "パトローラー"
-            },
+            "names": {"en": "Patrollers", "ja": "パトローラー"},
             "headers": [
               "checkbox",
               "level",
@@ -645,10 +526,7 @@
           },
           {
             "subCategory": "turret",
-            "names": {
-              "en": "Automatic Turrets",
-              "ja": "ZE-GUNシリーズ"
-            },
+            "names": {"en": "Automatic Turrets", "ja": "ZE-GUNシリーズ"},
             "headers": [
               "checkbox",
               "level",
@@ -662,10 +540,7 @@
           },
           {
             "subCategory": "beetle",
-            "names": {
-              "en": "Assault Beetles",
-              "ja": "アサルトビートル"
-            },
+            "names": {"en": "Assault Beetles", "ja": "アサルトビートル"},
             "headers": [
               "checkbox",
               "level",
@@ -681,17 +556,11 @@
       },
       {
         "category": "support",
-        "names": {
-          "en": "Support Gear",
-          "ja": "サポート装置"
-        },
+        "names": {"en": "Support Gear", "ja": "サポート装置"},
         "tables": [
           {
             "subCategory": "life",
-            "names": {
-              "en": "Life Vendors",
-              "ja": "ライフベンダー"
-            },
+            "names": {"en": "Life Vendors", "ja": "ライフベンダー"},
             "appendix": "*expending all ammo",
             "headers": [
               "checkbox",
@@ -709,10 +578,7 @@
           },
           {
             "subCategory": "plasma",
-            "names": {
-              "en": "Plasma Chargers",
-              "ja": "プラズマチャージャー"
-            },
+            "names": {"en": "Plasma Chargers", "ja": "プラズマチャージャー"},
             "headers": [
               "checkbox",
               "level",
@@ -726,10 +592,7 @@
           },
           {
             "subCategory": "power",
-            "names": {
-              "en": "Power Assists",
-              "ja": "パワーポスト"
-            },
+            "names": {"en": "Power Assists", "ja": "パワーポスト"},
             "headers": [
               "checkbox",
               "level",
@@ -743,10 +606,7 @@
           },
           {
             "subCategory": "guard",
-            "names": {
-              "en": "Guard Assists",
-              "ja": "ガードポスト"
-            },
+            "names": {"en": "Guard Assists", "ja": "ガードポスト"},
             "headers": [
               "checkbox",
               "level",
@@ -762,32 +622,16 @@
       },
       {
         "category": "special",
-        "names": {
-          "en": "Special Weapons",
-          "ja": "特殊"
-        },
+        "names": {"en": "Special Weapons", "ja": "特殊"},
         "tables": [
           {
             "subCategory": "wire",
-            "names": {
-              "en": "Wire Guns",
-              "ja": "ワイヤー"
-            },
-            "headers": [
-              "checkbox",
-              "level",
-              "name",
-              "ammo",
-              "damage",
-              "reload"
-            ]
+            "names": {"en": "Wire Guns", "ja": "ワイヤー"},
+            "headers": ["checkbox", "level", "name", "ammo", "damage", "reload"]
           },
           {
             "subCategory": "decoy",
-            "names": {
-              "en": "Decoys",
-              "ja": "ピュアデコイ・ランチャー"
-            },
+            "names": {"en": "Decoys", "ja": "ピュアデコイ・ランチャー"},
             "headers": [
               "checkbox",
               "level",
@@ -800,54 +644,24 @@
           },
           {
             "subCategory": "defensive",
-            "names": {
-              "en": "Defensive",
-              "ja": "トーチカ"
-            },
-            "headers": [
-              "checkbox",
-              "level",
-              "name",
-              "ammo",
-              "hp",
-              "reload"
-            ]
+            "names": {"en": "Defensive", "ja": "トーチカ"},
+            "headers": ["checkbox", "level", "name", "ammo", "hp", "reload"]
           }
         ]
       },
       {
         "category": "guide",
-        "names": {
-          "en": "Guidance Equipment",
-          "ja": "誘導装置"
-        },
+        "names": {"en": "Guidance Equipment", "ja": "誘導装置"},
         "tables": [
           {
             "subCategory": "laser",
-            "names": {
-              "en": "Laser Guide Kits",
-              "ja": "レーザー誘導装置"
-            },
-            "headers": [
-              "checkbox",
-              "level",
-              "name",
-              "range"
-            ]
+            "names": {"en": "Laser Guide Kits", "ja": "レーザー誘導装置"},
+            "headers": ["checkbox", "level", "name", "range"]
           },
           {
             "subCategory": "beacon",
-            "names": {
-              "en": "Guide Beacon Guns",
-              "ja": "誘導ビーコンガン"
-            },
-            "headers": [
-              "checkbox",
-              "level",
-              "name",
-              "ammo",
-              "range"
-            ]
+            "names": {"en": "Guide Beacon Guns", "ja": "誘導ビーコンガン"},
+            "headers": ["checkbox", "level", "name", "ammo", "range"]
           }
         ]
       }
@@ -867,10 +681,7 @@
       "reloadSeconds": 1.5,
       "range": 150,
       "accuracyRank": "B",
-      "names": {
-        "en": "AS-18",
-        "ja": "AS-18"
-      }
+      "names": {"en": "AS-18", "ja": "AS-18"}
     },
     {
       "id": "ranger-shotgun-1",
@@ -886,10 +697,7 @@
       "reloadSeconds": 4,
       "range": 130,
       "accuracyRank": "B",
-      "names": {
-        "en": "SG-4",
-        "ja": "SG-4"
-      }
+      "names": {"en": "SG-4", "ja": "SG-4"}
     },
     {
       "id": "ranger-sniper-1",
@@ -905,10 +713,7 @@
       "range": 600,
       "accuracyRank": "S",
       "zoom": 4,
-      "names": {
-        "en": "SNR-227",
-        "ja": "SNR-227"
-      }
+      "names": {"en": "SNR-227", "ja": "SNR-227"}
     },
     {
       "id": "ranger-rocket-1",
@@ -924,10 +729,7 @@
       "range": 900,
       "accuracyRank": "B",
       "radius": 5,
-      "names": {
-        "en": "Goliath-1",
-        "ja": "ゴリアス-1"
-      }
+      "names": {"en": "Goliath-1", "ja": "ゴリアス-1"}
     },
     {
       "id": "ranger-missile-1",
@@ -942,10 +744,7 @@
       "lockRange": 370,
       "homingRank": "A",
       "radius": 10,
-      "names": {
-        "en": "Sky Turtle Prototype",
-        "ja": "スカイタートル試作"
-      }
+      "names": {"en": "Sky Turtle Prototype", "ja": "スカイタートル試作"}
     },
     {
       "id": "ranger-grenade-1",
@@ -955,16 +754,10 @@
       "category": "grenade",
       "level": 0,
       "damage": 200,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 5,
       "subCategory": "hg",
-      "names": {
-        "en": "HG-01A",
-        "ja": "HG-01A"
-      }
+      "names": {"en": "HG-01A", "ja": "HG-01A"}
     },
     {
       "id": "winger-short-1",
@@ -981,10 +774,7 @@
       "accuracyRank": "G",
       "reloadSeconds": 0.5,
       "energy": 25,
-      "names": {
-        "en": "Rapier",
-        "ja": "レイピア"
-      }
+      "names": {"en": "Rapier", "ja": "レイピア"}
     },
     {
       "id": "winger-laser-1",
@@ -1000,10 +790,7 @@
       "accuracyRank": "S",
       "reloadSeconds": 2,
       "energy": 20,
-      "names": {
-        "en": "LAZR-197",
-        "ja": "LAZR-197"
-      }
+      "names": {"en": "LAZR-197", "ja": "LAZR-197"}
     },
     {
       "id": "winger-particle-1",
@@ -1017,10 +804,7 @@
       "range": 200,
       "accuracyRank": "B",
       "energy": 0.7,
-      "names": {
-        "en": "Ixion ",
-        "ja": "イクシオン"
-      }
+      "names": {"en": "Ixion ", "ja": "イクシオン"}
     },
     {
       "id": "winger-sniper-1",
@@ -1036,10 +820,7 @@
       "accuracyRank": "A-",
       "energy": 15,
       "zoom": 6,
-      "names": {
-        "en": "Proto Thunder Sniper",
-        "ja": "サンダースナイパー試作型"
-      }
+      "names": {"en": "Proto Thunder Sniper", "ja": "サンダースナイパー試作型"}
     },
     {
       "id": "winger-plasma-1",
@@ -1054,10 +835,7 @@
       "radius": 10,
       "accuracyRank": "B",
       "energy": 16,
-      "names": {
-        "en": "E1 Plasma Launcher",
-        "ja": "E1プラズマ・ランチャー"
-      }
+      "names": {"en": "E1 Plasma Launcher", "ja": "E1プラズマ・ランチャー"}
     },
     {
       "id": "winger-missile-1",
@@ -1072,10 +850,7 @@
       "homingRank": "A",
       "energy": 3,
       "radius": 5,
-      "names": {
-        "en": "Mirage Zero",
-        "ja": "ミラージュ・ゼロ"
-      }
+      "names": {"en": "Mirage Zero", "ja": "ミラージュ・ゼロ"}
     },
     {
       "id": "bomber-artillery-1",
@@ -1089,10 +864,7 @@
       "credits": true,
       "reload": 3600,
       "shots": 10,
-      "names": {
-        "en": "Howitzer〔Artillery Squad〕",
-        "ja": "榴弾砲〔砲兵隊〕"
-      }
+      "names": {"en": "Howitzer〔Artillery Squad〕", "ja": "榴弾砲〔砲兵隊〕"}
     },
     {
       "id": "bomber-gunship-1",
@@ -1106,10 +878,7 @@
       "reloadSeconds": 7.5,
       "shots": 150,
       "zoom": 4,
-      "names": {
-        "en": "Auto Cannon A",
-        "ja": "機関砲A〔攻撃機〕"
-      }
+      "names": {"en": "Auto Cannon A", "ja": "機関砲A〔攻撃機〕"}
     },
     {
       "id": "bomber-planes-1",
@@ -1126,10 +895,7 @@
       "count": null,
       "raidDirection": "後→前",
       "raidFormation": "直進",
-      "names": {
-        "en": "Strafing Attack Plan 1A",
-        "ja": "機銃掃射プラン1A〔爆撃機〕"
-      }
+      "names": {"en": "Strafing Attack Plan 1A", "ja": "機銃掃射プラン1A〔爆撃機〕"}
     },
     {
       "id": "bomber-limpet-1",
@@ -1143,10 +909,7 @@
       "damage": 30,
       "reloadSeconds": 2,
       "radius": 4,
-      "names": {
-        "en": "Limpet Guns",
-        "ja": "リムペットガン"
-      }
+      "names": {"en": "Limpet Guns", "ja": "リムペットガン"}
     },
     {
       "id": "bomber-support-1",
@@ -1160,10 +923,7 @@
       "radius": 12,
       "durationSeconds": 60,
       "subCategory": "life",
-      "names": {
-        "en": "Life Vendor",
-        "ja": "ライフベンダー"
-      }
+      "names": {"en": "Life Vendor", "ja": "ライフベンダー"}
     },
     {
       "id": "bomber-guide-1",
@@ -1175,10 +935,7 @@
       "range": 450,
       "zoom": 4,
       "subCategory": "laser",
-      "names": {
-        "en": "Laser Guide Kit N450",
-        "ja": "レーザー誘導装置N450"
-      }
+      "names": {"en": "Laser Guide Kit N450", "ja": "レーザー誘導装置N450"}
     },
     {
       "id": "ranger-rocket-2",
@@ -1194,10 +951,7 @@
       "range": 900,
       "accuracyRank": "B",
       "radius": 7,
-      "names": {
-        "en": "Goliath-D",
-        "ja": "ゴリアス-D"
-      }
+      "names": {"en": "Goliath-D", "ja": "ゴリアス-D"}
     },
     {
       "id": "ranger-grenade-2",
@@ -1207,17 +961,11 @@
       "category": "grenade",
       "level": 0,
       "damage": 400,
-      "fuseType": {
-        "ja": "時間",
-        "en": "timed"
-      },
+      "fuseType": {"ja": "時間", "en": "timed"},
       "fuseSeconds": 5,
       "radius": 5,
       "subCategory": "hg",
-      "names": {
-        "en": "HG-01",
-        "ja": "HG-01"
-      }
+      "names": {"en": "HG-01", "ja": "HG-01"}
     },
     {
       "id": "winger-plasma-2",
@@ -1232,10 +980,7 @@
       "radius": 10,
       "accuracyRank": "B",
       "energy": 16,
-      "names": {
-        "en": "E2 Plasma Launcher",
-        "ja": "E2プラズマ・ランチャー"
-      }
+      "names": {"en": "E2 Plasma Launcher", "ja": "E2プラズマ・ランチャー"}
     },
     {
       "id": "ranger-special-3",
@@ -1251,10 +996,7 @@
       "range": 150,
       "accuracyRank": "B",
       "subCategory": "bound",
-      "names": {
-        "en": "Bound Gun ",
-        "ja": "バウンドガン"
-      }
+      "names": {"en": "Bound Gun ", "ja": "バウンドガン"}
     },
     {
       "id": "ranger-missile-6",
@@ -1270,10 +1012,7 @@
       "lockRange": 300,
       "homingRank": "C",
       "radius": 5,
-      "names": {
-        "en": "Emerald M-0",
-        "ja": "エメロードM-0"
-      }
+      "names": {"en": "Emerald M-0", "ja": "エメロードM-0"}
     },
     {
       "id": "bomber-gunship-9",
@@ -1287,10 +1026,7 @@
       "reloadSeconds": 10,
       "shots": 20,
       "zoom": 4,
-      "names": {
-        "en": "88mm Support Gun",
-        "ja": "88ミリ支援砲〔攻撃機〕"
-      }
+      "names": {"en": "88mm Support Gun", "ja": "88ミリ支援砲〔攻撃機〕"}
     },
     {
       "id": "bomber-gunship-10",
@@ -1304,10 +1040,7 @@
       "reloadSeconds": 20,
       "shots": 20,
       "zoom": 4,
-      "names": {
-        "en": "105mm Cannon A",
-        "ja": "105ミリ砲A〔攻撃機〕"
-      }
+      "names": {"en": "105mm Cannon A", "ja": "105ミリ砲A〔攻撃機〕"}
     },
     {
       "id": "bomber-deploy-10",
@@ -1322,10 +1055,7 @@
       "reloadSeconds": 20,
       "turretRange": 150,
       "subCategory": "turret",
-      "names": {
-        "en": "ZE-GUN Prototype",
-        "ja": "ZE-GUN試作型"
-      }
+      "names": {"en": "ZE-GUN Prototype", "ja": "ZE-GUN試作型"}
     },
     {
       "id": "ranger-assault-12",
@@ -1340,10 +1070,7 @@
       "reloadSeconds": 2.5,
       "range": 120,
       "accuracyRank": "B",
-      "names": {
-        "en": "AS-18R",
-        "ja": "AS-18R"
-      }
+      "names": {"en": "AS-18R", "ja": "AS-18R"}
     },
     {
       "id": "bomber-support-12",
@@ -1358,10 +1085,7 @@
       "durationSeconds": 90,
       "reloadSeconds": 45,
       "subCategory": "plasma",
-      "names": {
-        "en": "Plasma Charger",
-        "ja": "プラズマチャージャー"
-      }
+      "names": {"en": "Plasma Charger", "ja": "プラズマチャージャー"}
     },
     {
       "id": "ranger-grenade-13",
@@ -1374,16 +1098,10 @@
       "rof": 2,
       "damage": 110,
       "reloadSeconds": 2,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 5,
       "subCategory": "gl",
-      "names": {
-        "en": "G Launcher UM-1A",
-        "ja": "GランチャーUM-1A"
-      }
+      "names": {"en": "G Launcher UM-1A", "ja": "GランチャーUM-1A"}
     },
     {
       "id": "bomber-limpet-14",
@@ -1397,10 +1115,7 @@
       "damage": 4,
       "count": 8,
       "reloadSeconds": 2,
-      "names": {
-        "en": "Limpet Splendor",
-        "ja": "リムペット・スプレンダー"
-      }
+      "names": {"en": "Limpet Splendor", "ja": "リムペット・スプレンダー"}
     },
     {
       "id": "winger-sniper-15",
@@ -1415,10 +1130,7 @@
       "accuracyRank": "S",
       "energy": 0.15,
       "zoom": 5,
-      "names": {
-        "en": "LRSL-33",
-        "ja": "LRSL-33"
-      }
+      "names": {"en": "LRSL-33", "ja": "LRSL-33"}
     },
     {
       "id": "winger-short-16",
@@ -1434,10 +1146,7 @@
       "accuracyRank": "A",
       "reloadSeconds": 2,
       "energy": 20,
-      "names": {
-        "en": "Laser Lance",
-        "ja": "レーザーランス"
-      }
+      "names": {"en": "Laser Lance", "ja": "レーザーランス"}
     },
     {
       "id": "ranger-assault-20",
@@ -1452,10 +1161,7 @@
       "reloadSeconds": 1.5,
       "range": 250,
       "accuracyRank": "A",
-      "names": {
-        "en": "AS-18D",
-        "ja": "AS-18D"
-      }
+      "names": {"en": "AS-18D", "ja": "AS-18D"}
     },
     {
       "id": "winger-plasma-23",
@@ -1471,10 +1177,7 @@
       "radius": 2,
       "accuracyRank": "B-",
       "energy": 8,
-      "names": {
-        "en": "Plasma Shot",
-        "ja": "プラズマ・ショット"
-      }
+      "names": {"en": "Plasma Shot", "ja": "プラズマ・ショット"}
     },
     {
       "id": "winger-sniper-25",
@@ -1489,10 +1192,7 @@
       "accuracyRank": "S",
       "energy": 40,
       "zoom": 8,
-      "names": {
-        "en": "MONSTER-ZERO",
-        "ja": "MONSTER-ZERO"
-      }
+      "names": {"en": "MONSTER-ZERO", "ja": "MONSTER-ZERO"}
     },
     {
       "id": "winger-plasma-28",
@@ -1502,16 +1202,10 @@
       "category": "plasma",
       "level": 0,
       "damage": 250,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 7,
       "reloadSeconds": 4,
-      "names": {
-        "en": "Plasma Grenade A",
-        "ja": "プラズマ・グレネードA"
-      }
+      "names": {"en": "Plasma Grenade A", "ja": "プラズマ・グレネードA"}
     },
     {
       "id": "bomber-limpet-29",
@@ -1524,10 +1218,7 @@
       "damage": 50,
       "count": 200,
       "reloadSeconds": 11,
-      "names": {
-        "en": "Floating Mine",
-        "ja": "フローティング・マイン"
-      }
+      "names": {"en": "Floating Mine", "ja": "フローティング・マイン"}
     },
     {
       "id": "ranger-special-52",
@@ -1544,10 +1235,7 @@
       "searchRange": 40,
       "shotTotal": 300,
       "subCategory": "mine",
-      "names": {
-        "en": "Y9 Impulse",
-        "ja": "Y9インパルス"
-      }
+      "names": {"en": "Y9 Impulse", "ja": "Y9インパルス"}
     },
     {
       "id": "winger-electro-1",
@@ -1563,10 +1251,7 @@
       "accuracyRank": "B",
       "reloadSeconds": 2,
       "energy": 60,
-      "names": {
-        "en": "Idunn-A",
-        "ja": "イズナ-A"
-      }
+      "names": {"en": "Idunn-A", "ja": "イズナ-A"}
     },
     {
       "id": "winger-particle-7",
@@ -1581,10 +1266,7 @@
       "range": 200,
       "accuracyRank": "B",
       "energy": 0.85,
-      "names": {
-        "en": "Ixion 2-Way",
-        "ja": "イクシオン2WAY"
-      }
+      "names": {"en": "Ixion 2-Way", "ja": "イクシオン2WAY"}
     },
     {
       "id": "ranger-missile-12",
@@ -1600,10 +1282,7 @@
       "lockRange": 600,
       "homingRank": "B-",
       "radius": 1,
-      "names": {
-        "en": "ML-R",
-        "ja": "ML-R"
-      }
+      "names": {"en": "ML-R", "ja": "ML-R"}
     },
     {
       "id": "bomber-planes-14",
@@ -1620,10 +1299,7 @@
       "count": null,
       "raidDirection": "後→前",
       "raidFormation": "直進",
-      "names": {
-        "en": "Air Strike Plan 1A",
-        "ja": "爆撃プラン1A〔爆撃機〕"
-      }
+      "names": {"en": "Air Strike Plan 1A", "ja": "爆撃プラン1A〔爆撃機〕"}
     },
     {
       "id": "bomber-special-16",
@@ -1636,10 +1312,7 @@
       "hp": 300,
       "reloadSeconds": 20,
       "subCategory": "defensive",
-      "names": {
-        "en": "Electromagnetic Bunker",
-        "ja": "電磁トーチカ"
-      }
+      "names": {"en": "Electromagnetic Bunker", "ja": "電磁トーチカ"}
     },
     {
       "id": "ranger-special-21",
@@ -1648,15 +1321,10 @@
       "character": "ranger",
       "category": "special",
       "level": 1,
-      "damageRank": {
-        "ja": "RANK1"
-      },
+      "damageRank": {"ja": "RANK1"},
       "ammo": 80,
       "subCategory": "reverser",
-      "names": {
-        "en": "Reverser M1",
-        "ja": "リバーサーM1"
-      }
+      "names": {"en": "Reverser M1", "ja": "リバーサーM1"}
     },
     {
       "id": "winger-plasma-29",
@@ -1666,16 +1334,10 @@
       "category": "plasma",
       "level": 1,
       "damage": 260,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 10,
       "reloadSeconds": 5,
-      "names": {
-        "en": "Plasma Grenade B",
-        "ja": "プラズマ・グレネードB"
-      }
+      "names": {"en": "Plasma Grenade B", "ja": "プラズマ・グレネードB"}
     },
     {
       "id": "bomber-support-32",
@@ -1690,10 +1352,7 @@
       "durationSeconds": 120,
       "reloadSeconds": 20,
       "subCategory": "guard",
-      "names": {
-        "en": "Guard Post",
-        "ja": "ガードポスト"
-      }
+      "names": {"en": "Guard Post", "ja": "ガードポスト"}
     },
     {
       "id": "ranger-special-46",
@@ -1708,10 +1367,7 @@
       "radius": 15,
       "shotTotal": 1750,
       "subCategory": "bomb",
-      "names": {
-        "en": "C20 Bomb",
-        "ja": "C20爆弾"
-      }
+      "names": {"en": "C20 Bomb", "ja": "C20爆弾"}
     },
     {
       "id": "ranger-special-1",
@@ -1725,10 +1381,7 @@
       "durationSeconds": 20,
       "reloadSeconds": 30,
       "subCategory": "decoy",
-      "names": {
-        "en": "Pure Decoy Launcher [Chiri]",
-        "ja": "ピュアデコイ・ランチャー〔ちり〕"
-      }
+      "names": {"en": "Pure Decoy Launcher [Chiri]", "ja": "ピュアデコイ・ランチャー〔ちり〕"}
     },
     {
       "id": "winger-special-1",
@@ -1743,10 +1396,7 @@
       "attackDirection": "全方位",
       "reloadSeconds": 60,
       "energy": 45,
-      "names": {
-        "en": "Pandora",
-        "ja": "パンドラ"
-      }
+      "names": {"en": "Pandora", "ja": "パンドラ"}
     },
     {
       "id": "bomber-missile-1",
@@ -1762,10 +1412,7 @@
       "homingRank": "C",
       "zoom": 4,
       "shotTotal": 2000,
-      "names": {
-        "en": "AH Cruise Missile",
-        "ja": "AH巡航ミサイル"
-      }
+      "names": {"en": "AH Cruise Missile", "ja": "AH巡航ミサイル"}
     },
     {
       "id": "ranger-sniper-2",
@@ -1781,10 +1428,7 @@
       "range": 600,
       "accuracyRank": "SS",
       "zoom": 4,
-      "names": {
-        "en": "SNR-227R",
-        "ja": "SNR-227R"
-      }
+      "names": {"en": "SNR-227R", "ja": "SNR-227R"}
     },
     {
       "id": "bomber-limpet-2",
@@ -1798,10 +1442,7 @@
       "damage": 40,
       "reloadSeconds": 2,
       "radius": 4,
-      "names": {
-        "en": "Limpet Gun D",
-        "ja": "リムペットガンD"
-      }
+      "names": {"en": "Limpet Gun D", "ja": "リムペットガンD"}
     },
     {
       "id": "ranger-grenade-3",
@@ -1811,16 +1452,10 @@
       "category": "grenade",
       "level": 2,
       "damage": 250,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 12,
       "subCategory": "hg",
-      "names": {
-        "en": "HG-02A",
-        "ja": "HG-02A"
-      }
+      "names": {"en": "HG-02A", "ja": "HG-02A"}
     },
     {
       "id": "winger-plasma-3",
@@ -1835,10 +1470,7 @@
       "radius": 10,
       "accuracyRank": "B",
       "energy": 18,
-      "names": {
-        "en": "E3 Plasma Launcher",
-        "ja": "E3プラズマ・ランチャー"
-      }
+      "names": {"en": "E3 Plasma Launcher", "ja": "E3プラズマ・ランチャー"}
     },
     {
       "id": "bomber-guide-7",
@@ -1851,10 +1483,7 @@
       "range": 400,
       "zoom": 4,
       "subCategory": "beacon",
-      "names": {
-        "en": "Guide Beacon Gun M1",
-        "ja": "誘導ビーコンガンM1"
-      }
+      "names": {"en": "Guide Beacon Gun M1", "ja": "誘導ビーコンガンM1"}
     },
     {
       "id": "bomber-special-10",
@@ -1868,10 +1497,7 @@
       "durationSeconds": 20,
       "reloadSeconds": 30,
       "subCategory": "decoy",
-      "names": {
-        "en": "Pure Decoy Launcher [Ange]",
-        "ja": "ピュアデコイ・ランチャー〔アンジュ〕"
-      }
+      "names": {"en": "Pure Decoy Launcher [Ange]", "ja": "ピュアデコイ・ランチャー〔アンジュ〕"}
     },
     {
       "id": "ranger-special-11",
@@ -1882,18 +1508,12 @@
       "level": 2,
       "ammo": 60,
       "rof": 6,
-      "damageRank": {
-        "ja": "小",
-        "en": "Low"
-      },
+      "damageRank": {"ja": "小", "en": "Low"},
       "reloadSeconds": 5,
       "range": 15,
       "accuracyRank": "B",
       "subCategory": "flame",
-      "names": {
-        "en": "Flamethrower F1",
-        "ja": "火炎放射器F1"
-      }
+      "names": {"en": "Flamethrower F1", "ja": "火炎放射器F1"}
     },
     {
       "id": "winger-missile-13",
@@ -1908,10 +1528,7 @@
       "homingRank": "A",
       "energy": 6,
       "radius": 10,
-      "names": {
-        "en": "Geist",
-        "ja": "ガイスト"
-      }
+      "names": {"en": "Geist", "ja": "ガイスト"}
     },
     {
       "id": "ranger-grenade-14",
@@ -1924,17 +1541,11 @@
       "rof": 2,
       "damage": 150,
       "reloadSeconds": 2,
-      "fuseType": {
-        "ja": "時間",
-        "en": "timed"
-      },
+      "fuseType": {"ja": "時間", "en": "timed"},
       "fuseSeconds": 5,
       "radius": 9,
       "subCategory": "gl",
-      "names": {
-        "en": "G Launcher UM-1",
-        "ja": "GランチャーUM-1"
-      }
+      "names": {"en": "G Launcher UM-1", "ja": "GランチャーUM-1"}
     },
     {
       "id": "ranger-rocket-16",
@@ -1951,10 +1562,7 @@
       "range": 900,
       "accuracyRank": "A",
       "radius": 6,
-      "names": {
-        "en": "Volcano-2W",
-        "ja": "ボルケーノ-2W"
-      }
+      "names": {"en": "Volcano-2W", "ja": "ボルケーノ-2W"}
     },
     {
       "id": "winger-electro-16",
@@ -1971,10 +1579,7 @@
       "accuracyRank": "D",
       "reloadSeconds": 1,
       "energy": 3,
-      "names": {
-        "en": "Eclat 10",
-        "ja": "エクレール10"
-      }
+      "names": {"en": "Eclat 10", "ja": "エクレール10"}
     },
     {
       "id": "winger-sniper-16",
@@ -1989,10 +1594,7 @@
       "accuracyRank": "A+",
       "energy": 0.15,
       "zoom": 4,
-      "names": {
-        "en": "LRSL-34",
-        "ja": "LRSL-34"
-      }
+      "names": {"en": "LRSL-34", "ja": "LRSL-34"}
     },
     {
       "id": "ranger-shotgun-21",
@@ -2008,10 +1610,7 @@
       "reloadSeconds": 4,
       "range": 90,
       "accuracyRank": "C",
-      "names": {
-        "en": "Sting Shot",
-        "ja": "スティング・ショット"
-      }
+      "names": {"en": "Sting Shot", "ja": "スティング・ショット"}
     },
     {
       "id": "bomber-support-28",
@@ -2027,10 +1626,7 @@
       "reloadSeconds": 15,
       "zoom": 4,
       "subCategory": "power",
-      "names": {
-        "en": "Post Assist Gun",
-        "ja": "パワーアシストガン"
-      }
+      "names": {"en": "Post Assist Gun", "ja": "パワーアシストガン"}
     },
     {
       "id": "winger-short-35",
@@ -2047,10 +1643,7 @@
       "accuracyRank": "A",
       "reloadSeconds": 1.5,
       "energy": 30,
-      "names": {
-        "en": "Spark Lancer",
-        "ja": "スパークランサー"
-      }
+      "names": {"en": "Spark Lancer", "ja": "スパークランサー"}
     },
     {
       "id": "bomber-special-1",
@@ -2064,10 +1657,7 @@
       "count": 5,
       "reloadSeconds": 6.7,
       "subCategory": "wire",
-      "names": {
-        "en": "Caesar Wire",
-        "ja": "シーザー・ワイヤー"
-      }
+      "names": {"en": "Caesar Wire", "ja": "シーザー・ワイヤー"}
     },
     {
       "id": "ranger-shotgun-2",
@@ -2083,10 +1673,7 @@
       "reloadSeconds": 4,
       "range": 70,
       "accuracyRank": "E",
-      "names": {
-        "en": "SG-5",
-        "ja": "SG-5"
-      }
+      "names": {"en": "SG-5", "ja": "SG-5"}
     },
     {
       "id": "ranger-missile-2",
@@ -2101,10 +1688,7 @@
       "lockRange": 370,
       "homingRank": "A",
       "radius": 20,
-      "names": {
-        "en": "Sky Turtle Prototype β",
-        "ja": "スカイタートル試作β"
-      }
+      "names": {"en": "Sky Turtle Prototype β", "ja": "スカイタートル試作β"}
     },
     {
       "id": "winger-particle-2",
@@ -2117,10 +1701,7 @@
       "damage": 27,
       "range": 200,
       "accuracyRank": "B",
-      "names": {
-        "en": "Ixion MX",
-        "ja": "イクシオンMX"
-      }
+      "names": {"en": "Ixion MX", "ja": "イクシオンMX"}
     },
     {
       "id": "winger-sniper-2",
@@ -2136,10 +1717,7 @@
       "accuracyRank": "A-",
       "energy": 15,
       "zoom": 4,
-      "names": {
-        "en": "Thunder Sniper A",
-        "ja": "サンダースナイパーA"
-      }
+      "names": {"en": "Thunder Sniper A", "ja": "サンダースナイパーA"}
     },
     {
       "id": "ranger-grenade-4",
@@ -2149,16 +1727,10 @@
       "category": "grenade",
       "level": 3,
       "damage": 500,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 12,
       "subCategory": "hg",
-      "names": {
-        "en": "HG-03A",
-        "ja": "HG-03A"
-      }
+      "names": {"en": "HG-03A", "ja": "HG-03A"}
     },
     {
       "id": "winger-electro-8",
@@ -2175,10 +1747,7 @@
       "accuracyRank": "C",
       "reloadSeconds": 2,
       "energy": 60,
-      "names": {
-        "en": "Thunder Bow 10",
-        "ja": "サンダーボウ10"
-      }
+      "names": {"en": "Thunder Bow 10", "ja": "サンダーボウ10"}
     },
     {
       "id": "winger-laser-12",
@@ -2195,10 +1764,7 @@
       "accuracyRank": "S",
       "reloadSeconds": 2,
       "energy": 25,
-      "names": {
-        "en": "LARG-V",
-        "ja": "LARG-V"
-      }
+      "names": {"en": "LARG-V", "ja": "LARG-V"}
     },
     {
       "id": "ranger-assault-13",
@@ -2213,10 +1779,7 @@
       "reloadSeconds": 3,
       "range": 120,
       "accuracyRank": "B",
-      "names": {
-        "en": "AS-18RR",
-        "ja": "AS-18RR"
-      }
+      "names": {"en": "AS-18RR", "ja": "AS-18RR"}
     },
     {
       "id": "bomber-gunship-19",
@@ -2230,10 +1793,7 @@
       "reloadSeconds": 3.5,
       "shots": 1,
       "zoom": 4,
-      "names": {
-        "en": "150mm Cannon A",
-        "ja": "150ミリ砲A〔攻撃機〕"
-      }
+      "names": {"en": "150mm Cannon A", "ja": "150ミリ砲A〔攻撃機〕"}
     },
     {
       "id": "ranger-special-53",
@@ -2250,10 +1810,7 @@
       "searchRange": 100,
       "shotTotal": 400,
       "subCategory": "mine",
-      "names": {
-        "en": "Y9 Anti-Aircraft Impulse",
-        "ja": "Y9対空インパルス"
-      }
+      "names": {"en": "Y9 Anti-Aircraft Impulse", "ja": "Y9対空インパルス"}
     },
     {
       "id": "bomber-satellite-1",
@@ -2266,10 +1823,7 @@
       "reloadSeconds": 45,
       "shots": 600,
       "zoom": 4,
-      "names": {
-        "en": "Satellite Blaster A",
-        "ja": "サテライトブラスターA"
-      }
+      "names": {"en": "Satellite Blaster A", "ja": "サテライトブラスターA"}
     },
     {
       "id": "ranger-assault-2",
@@ -2284,10 +1838,7 @@
       "reloadSeconds": 1.5,
       "range": 150,
       "accuracyRank": "B",
-      "names": {
-        "en": "AS-18 Mk.2",
-        "ja": "AS-18改"
-      }
+      "names": {"en": "AS-18 Mk.2", "ja": "AS-18改"}
     },
     {
       "id": "winger-electro-2",
@@ -2303,10 +1854,7 @@
       "accuracyRank": "B",
       "reloadSeconds": 2,
       "energy": 60,
-      "names": {
-        "en": "Idunn-B",
-        "ja": "イズナ-B"
-      }
+      "names": {"en": "Idunn-B", "ja": "イズナ-B"}
     },
     {
       "id": "ranger-shotgun-3",
@@ -2322,10 +1870,7 @@
       "reloadSeconds": 4,
       "range": 70,
       "accuracyRank": "E",
-      "names": {
-        "en": "SG-5V",
-        "ja": "SG-5V"
-      }
+      "names": {"en": "SG-5V", "ja": "SG-5V"}
     },
     {
       "id": "ranger-sniper-3",
@@ -2341,10 +1886,7 @@
       "range": 800,
       "accuracyRank": "SSS",
       "zoom": 8,
-      "names": {
-        "en": "SNR-227D",
-        "ja": "SNR-227D"
-      }
+      "names": {"en": "SNR-227D", "ja": "SNR-227D"}
     },
     {
       "id": "bomber-support-19",
@@ -2360,10 +1902,7 @@
       "reloadSeconds": 60,
       "zoom": 6,
       "subCategory": "plasma",
-      "names": {
-        "en": "Plasma Battery Gun",
-        "ja": "プラズマバッテリーガン"
-      }
+      "names": {"en": "Plasma Battery Gun", "ja": "プラズマバッテリーガン"}
     },
     {
       "id": "winger-missile-2",
@@ -2378,10 +1917,7 @@
       "homingRank": "C",
       "energy": 1,
       "radius": 1,
-      "names": {
-        "en": "Rapid Mirage ",
-        "ja": "ラピッド・ミラージュ"
-      }
+      "names": {"en": "Rapid Mirage ", "ja": "ラピッド・ミラージュ"}
     },
     {
       "id": "ranger-rocket-3",
@@ -2397,10 +1933,7 @@
       "range": 1000,
       "accuracyRank": "B+",
       "radius": 10,
-      "names": {
-        "en": "Goliath-DD",
-        "ja": "ゴリアス-DD"
-      }
+      "names": {"en": "Goliath-DD", "ja": "ゴリアス-DD"}
     },
     {
       "id": "winger-particle-3",
@@ -2414,10 +1947,7 @@
       "range": 200,
       "accuracyRank": "B",
       "energy": 0.75,
-      "names": {
-        "en": "Ixion Mk.2",
-        "ja": "イクシオン・マーク2"
-      }
+      "names": {"en": "Ixion Mk.2", "ja": "イクシオン・マーク2"}
     },
     {
       "id": "winger-short-5",
@@ -2434,10 +1964,7 @@
       "accuracyRank": "B-",
       "reloadSeconds": 0.5,
       "energy": 25,
-      "names": {
-        "en": "Rapier Thrust",
-        "ja": "レイピア・スラスト"
-      }
+      "names": {"en": "Rapier Thrust", "ja": "レイピア・スラスト"}
     },
     {
       "id": "winger-special-6",
@@ -2452,10 +1979,7 @@
       "attackDirection": "下方",
       "reloadSeconds": 60,
       "energy": 45,
-      "names": {
-        "en": "Heaven's Gate",
-        "ja": "ヘブンズ・ゲート"
-      }
+      "names": {"en": "Heaven's Gate", "ja": "ヘブンズ・ゲート"}
     },
     {
       "id": "ranger-missile-7",
@@ -2471,10 +1995,7 @@
       "lockRange": 300,
       "homingRank": "B",
       "radius": 5,
-      "names": {
-        "en": "Emerald M",
-        "ja": "エメロードM"
-      }
+      "names": {"en": "Emerald M", "ja": "エメロードM"}
     },
     {
       "id": "ranger-shotgun-10",
@@ -2490,10 +2011,7 @@
       "reloadSeconds": 4,
       "range": 70,
       "accuracyRank": "F",
-      "names": {
-        "en": "Governor 0",
-        "ja": "ガバナーO"
-      }
+      "names": {"en": "Governor 0", "ja": "ガバナーO"}
     },
     {
       "id": "bomber-gunship-11",
@@ -2507,10 +2025,7 @@
       "reloadSeconds": 20,
       "shots": 30,
       "zoom": 4,
-      "names": {
-        "en": "105mm Cannon B",
-        "ja": "105ミリ砲B〔攻撃機〕"
-      }
+      "names": {"en": "105mm Cannon B", "ja": "105ミリ砲B〔攻撃機〕"}
     },
     {
       "id": "winger-plasma-14",
@@ -2526,10 +2041,7 @@
       "radius": 10,
       "accuracyRank": "B",
       "energy": 15,
-      "names": {
-        "en": "Dual Plasma Launcher",
-        "ja": "2連プラズマ・ランチャー"
-      }
+      "names": {"en": "Dual Plasma Launcher", "ja": "2連プラズマ・ランチャー"}
     },
     {
       "id": "bomber-limpet-15",
@@ -2543,10 +2055,7 @@
       "damage": 6,
       "count": 8,
       "reloadSeconds": 2,
-      "names": {
-        "en": "Limpet Splendor D",
-        "ja": "リムペット・スプレンダーD"
-      }
+      "names": {"en": "Limpet Splendor D", "ja": "リムペット・スプレンダーD"}
     },
     {
       "id": "winger-sniper-17",
@@ -2561,10 +2070,7 @@
       "accuracyRank": "B-",
       "energy": 0.5,
       "zoom": 4,
-      "names": {
-        "en": "LRSL-35",
-        "ja": "LRSL-35"
-      }
+      "names": {"en": "LRSL-35", "ja": "LRSL-35"}
     },
     {
       "id": "winger-plasma-30",
@@ -2574,16 +2080,10 @@
       "category": "plasma",
       "level": 5,
       "damage": 320,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 5,
       "reloadSeconds": 3,
-      "names": {
-        "en": "Rapid Grenade",
-        "ja": "ラピッド・グレネード"
-      }
+      "names": {"en": "Rapid Grenade", "ja": "ラピッド・グレネード"}
     },
     {
       "id": "bomber-support-38",
@@ -2599,10 +2099,7 @@
       "reloadSeconds": 15,
       "zoom": 4,
       "subCategory": "guard",
-      "names": {
-        "en": "Guard Assist Gun",
-        "ja": "ガードアシストガン"
-      }
+      "names": {"en": "Guard Assist Gun", "ja": "ガードアシストガン"}
     },
     {
       "id": "ranger-special-39",
@@ -2613,16 +2110,10 @@
       "level": 5,
       "damage": 30,
       "count": 10,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 1,
       "subCategory": "firecracker",
-      "names": {
-        "en": "Firecracker 1",
-        "ja": "かんしゃく玉1号"
-      }
+      "names": {"en": "Firecracker 1", "ja": "かんしゃく玉1号"}
     },
     {
       "id": "winger-laser-2",
@@ -2638,10 +2129,7 @@
       "accuracyRank": "S",
       "reloadSeconds": 3,
       "energy": 24,
-      "names": {
-        "en": "LAZR-198",
-        "ja": "LAZR-198"
-      }
+      "names": {"en": "LAZR-198", "ja": "LAZR-198"}
     },
     {
       "id": "bomber-guide-2",
@@ -2653,10 +2141,7 @@
       "range": 600,
       "zoom": 4,
       "subCategory": "laser",
-      "names": {
-        "en": "Laser Guide Kit N600",
-        "ja": "レーザー誘導装置N600"
-      }
+      "names": {"en": "Laser Guide Kit N600", "ja": "レーザー誘導装置N600"}
     },
     {
       "id": "ranger-sniper-4",
@@ -2672,10 +2157,7 @@
       "range": 600,
       "accuracyRank": "A-",
       "zoom": 6,
-      "names": {
-        "en": "SNR-228",
-        "ja": "SNR-228"
-      }
+      "names": {"en": "SNR-228", "ja": "SNR-228"}
     },
     {
       "id": "ranger-grenade-5",
@@ -2685,16 +2167,10 @@
       "category": "grenade",
       "level": 6,
       "damage": 2000,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 15,
       "subCategory": "hg",
-      "names": {
-        "en": "HG-13A",
-        "ja": "HG-13A"
-      }
+      "names": {"en": "HG-13A", "ja": "HG-13A"}
     },
     {
       "id": "bomber-deploy-11",
@@ -2709,10 +2185,7 @@
       "reloadSeconds": 20,
       "turretRange": 150,
       "subCategory": "turret",
-      "names": {
-        "en": "ZE-GUN",
-        "ja": "ZE-GUN"
-      }
+      "names": {"en": "ZE-GUN", "ja": "ZE-GUN"}
     },
     {
       "id": "winger-electro-3",
@@ -2728,10 +2201,7 @@
       "accuracyRank": "A",
       "reloadSeconds": 2.5,
       "energy": 50,
-      "names": {
-        "en": "Idunn-C Custom",
-        "ja": "イズナ-Cカスタム"
-      }
+      "names": {"en": "Idunn-C Custom", "ja": "イズナ-Cカスタム"}
     },
     {
       "id": "bomber-missile-7",
@@ -2747,10 +2217,7 @@
       "homingRank": "B+",
       "zoom": 4,
       "shotTotal": 5000,
-      "names": {
-        "en": "AH High-Speed Missile Group",
-        "ja": "AH高速ミサイル群"
-      }
+      "names": {"en": "AH High-Speed Missile Group", "ja": "AH高速ミサイル群"}
     },
     {
       "id": "winger-special-11",
@@ -2765,10 +2232,7 @@
       "attackDirection": "下方",
       "reloadSeconds": 60,
       "energy": 45,
-      "names": {
-        "en": "Thunder Cluster",
-        "ja": "サンダー・クラスター"
-      }
+      "names": {"en": "Thunder Cluster", "ja": "サンダー・クラスター"}
     },
     {
       "id": "ranger-special-12",
@@ -2779,18 +2243,12 @@
       "level": 7,
       "ammo": 40,
       "rof": 6,
-      "damageRank": {
-        "ja": "小＋",
-        "en": "Low+"
-      },
+      "damageRank": {"ja": "小＋", "en": "Low+"},
       "reloadSeconds": 5,
       "range": 30,
       "accuracyRank": "B",
       "subCategory": "flame",
-      "names": {
-        "en": "Flamethrower F2",
-        "ja": "火炎放射器F2"
-      }
+      "names": {"en": "Flamethrower F2", "ja": "火炎放射器F2"}
     },
     {
       "id": "ranger-grenade-15",
@@ -2803,16 +2261,10 @@
       "rof": 2,
       "damage": 160,
       "reloadSeconds": 2,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 6,
       "subCategory": "gl",
-      "names": {
-        "en": "G Launcher UM-1A Mk.2",
-        "ja": "GランチャーUM-1A改"
-      }
+      "names": {"en": "G Launcher UM-1A Mk.2", "ja": "GランチャーUM-1A改"}
     },
     {
       "id": "ranger-rocket-17",
@@ -2829,10 +2281,7 @@
       "range": 900,
       "accuracyRank": "C",
       "radius": 6,
-      "names": {
-        "en": "Volcano-3A",
-        "ja": "ボルケーノ-3A"
-      }
+      "names": {"en": "Volcano-3A", "ja": "ボルケーノ-3A"}
     },
     {
       "id": "winger-short-17",
@@ -2848,10 +2297,7 @@
       "accuracyRank": "SSS",
       "reloadSeconds": 2.5,
       "energy": 21,
-      "names": {
-        "en": "Laser Lance B",
-        "ja": "レーザーランスB"
-      }
+      "names": {"en": "Laser Lance B", "ja": "レーザーランスB"}
     },
     {
       "id": "ranger-rocket-18",
@@ -2868,10 +2314,7 @@
       "range": 900,
       "accuracyRank": "A",
       "radius": 8,
-      "names": {
-        "en": "Volcano-3W",
-        "ja": "ボルケーノ-3W"
-      }
+      "names": {"en": "Volcano-3W", "ja": "ボルケーノ-3W"}
     },
     {
       "id": "winger-sniper-18",
@@ -2886,10 +2329,7 @@
       "accuracyRank": "S",
       "energy": 0.22,
       "zoom": 5.5,
-      "names": {
-        "en": "LRSL-36",
-        "ja": "LRSL-36"
-      }
+      "names": {"en": "LRSL-36", "ja": "LRSL-36"}
     },
     {
       "id": "ranger-assault-21",
@@ -2904,10 +2344,7 @@
       "reloadSeconds": 1.5,
       "range": 250,
       "accuracyRank": "A",
-      "names": {
-        "en": "AS-19D",
-        "ja": "AS-19D"
-      }
+      "names": {"en": "AS-19D", "ja": "AS-19D"}
     },
     {
       "id": "ranger-special-26",
@@ -2916,16 +2353,11 @@
       "character": "ranger",
       "category": "special",
       "level": 7,
-      "damageRank": {
-        "ja": "RANK2"
-      },
+      "damageRank": {"ja": "RANK2"},
       "ammo": 5,
       "total": "~540",
       "subCategory": "reverser",
-      "names": {
-        "en": "Aerial Reverser 1",
-        "ja": "エリアルリバーサー1"
-      }
+      "names": {"en": "Aerial Reverser 1", "ja": "エリアルリバーサー1"}
     },
     {
       "id": "ranger-special-54",
@@ -2942,10 +2374,7 @@
       "searchRange": 45,
       "shotTotal": 600,
       "subCategory": "mine",
-      "names": {
-        "en": "Y10 Impulse",
-        "ja": "Y10インパルス"
-      }
+      "names": {"en": "Y10 Impulse", "ja": "Y10インパルス"}
     },
     {
       "id": "bomber-special-2",
@@ -2958,10 +2387,7 @@
       "damage": 7,
       "reloadSeconds": 7,
       "subCategory": "wire",
-      "names": {
-        "en": "Rapid-Fire Wire",
-        "ja": "ラピッドファイア・ワイヤー"
-      }
+      "names": {"en": "Rapid-Fire Wire", "ja": "ラピッドファイア・ワイヤー"}
     },
     {
       "id": "bomber-limpet-3",
@@ -2975,10 +2401,7 @@
       "damage": 60,
       "reloadSeconds": 2,
       "radius": 4,
-      "names": {
-        "en": "Limpet Gun M2",
-        "ja": "リムペットガンM2"
-      }
+      "names": {"en": "Limpet Gun M2", "ja": "リムペットガンM2"}
     },
     {
       "id": "winger-missile-5",
@@ -2994,10 +2417,7 @@
       "homingRank": "B",
       "energy": 10,
       "radius": 5,
-      "names": {
-        "en": "Mirage 5-Way",
-        "ja": "ミラージュ5WAY"
-      }
+      "names": {"en": "Mirage 5-Way", "ja": "ミラージュ5WAY"}
     },
     {
       "id": "winger-particle-8",
@@ -3012,10 +2432,7 @@
       "range": 200,
       "accuracyRank": "A+",
       "energy": 1.1,
-      "names": {
-        "en": "Ixion 3-Way",
-        "ja": "イクシオン3WAY"
-      }
+      "names": {"en": "Ixion 3-Way", "ja": "イクシオン3WAY"}
     },
     {
       "id": "bomber-satellite-11",
@@ -3030,10 +2447,7 @@
       "reload": 1200,
       "shots": 45,
       "zoom": 4,
-      "names": {
-        "en": "Spritefall A",
-        "ja": "スプライトフォールA"
-      }
+      "names": {"en": "Spritefall A", "ja": "スプライトフォールA"}
     },
     {
       "id": "bomber-special-11",
@@ -3047,10 +2461,7 @@
       "durationSeconds": 90,
       "reloadSeconds": 20,
       "subCategory": "decoy",
-      "names": {
-        "en": "Decoy Type A",
-        "ja": "デコイ-A型"
-      }
+      "names": {"en": "Decoy Type A", "ja": "デコイ-A型"}
     },
     {
       "id": "winger-particle-23",
@@ -3064,10 +2475,7 @@
       "range": 180,
       "accuracyRank": "B",
       "energy": 1,
-      "names": {
-        "en": "Pulsar Shot ",
-        "ja": "パルサーショット"
-      }
+      "names": {"en": "Pulsar Shot ", "ja": "パルサーショット"}
     },
     {
       "id": "bomber-planes-2",
@@ -3084,10 +2492,7 @@
       "count": null,
       "raidDirection": "後→前",
       "raidFormation": "3連続",
-      "names": {
-        "en": "Strafing Attack Plan 3A",
-        "ja": "機銃掃射プラン3A〔爆撃機〕"
-      }
+      "names": {"en": "Strafing Attack Plan 3A", "ja": "機銃掃射プラン3A〔爆撃機〕"}
     },
     {
       "id": "ranger-assault-3",
@@ -3102,10 +2507,7 @@
       "reloadSeconds": 1.5,
       "range": 180,
       "accuracyRank": "B",
-      "names": {
-        "en": "AS-19",
-        "ja": "AS-19"
-      }
+      "names": {"en": "AS-19", "ja": "AS-19"}
     },
     {
       "id": "ranger-special-4",
@@ -3121,10 +2523,7 @@
       "range": 150,
       "accuracyRank": "B",
       "subCategory": "bound",
-      "names": {
-        "en": "Bound Gun M2",
-        "ja": "バウンドガンM2"
-      }
+      "names": {"en": "Bound Gun M2", "ja": "バウンドガンM2"}
     },
     {
       "id": "bomber-deploy-1",
@@ -3138,10 +2537,7 @@
       "radius": 10,
       "reloadSeconds": 3.7,
       "subCategory": "roomba",
-      "names": {
-        "en": "Roller Bomb",
-        "ja": "ローラーボム"
-      }
+      "names": {"en": "Roller Bomb", "ja": "ローラーボム"}
     },
     {
       "id": "winger-short-2",
@@ -3158,10 +2554,7 @@
       "accuracyRank": "G",
       "reloadSeconds": 0.5,
       "energy": 28,
-      "names": {
-        "en": "M2 Rapier",
-        "ja": "M2レイピア"
-      }
+      "names": {"en": "M2 Rapier", "ja": "M2レイピア"}
     },
     {
       "id": "bomber-gunship-2",
@@ -3175,10 +2568,7 @@
       "reloadSeconds": 7.5,
       "shots": 150,
       "zoom": 4,
-      "names": {
-        "en": "Auto Cannon B",
-        "ja": "機関砲B〔攻撃機〕"
-      }
+      "names": {"en": "Auto Cannon B", "ja": "機関砲B〔攻撃機〕"}
     },
     {
       "id": "winger-plasma-4",
@@ -3193,10 +2583,7 @@
       "radius": 15,
       "accuracyRank": "B",
       "energy": 18,
-      "names": {
-        "en": "D Plasma Launcher",
-        "ja": "D型プラズマ・ランチャー"
-      }
+      "names": {"en": "D Plasma Launcher", "ja": "D型プラズマ・ランチャー"}
     },
     {
       "id": "winger-plasma-5",
@@ -3211,10 +2598,7 @@
       "radius": 12,
       "accuracyRank": "A-",
       "energy": 16,
-      "names": {
-        "en": "E4 Plasma Launcher",
-        "ja": "E4プラズマ・ランチャー"
-      }
+      "names": {"en": "E4 Plasma Launcher", "ja": "E4プラズマ・ランチャー"}
     },
     {
       "id": "ranger-missile-13",
@@ -3230,10 +2614,7 @@
       "lockRange": 600,
       "homingRank": "B",
       "radius": 1,
-      "names": {
-        "en": "ML-R Mk.2",
-        "ja": "ML-R改"
-      }
+      "names": {"en": "ML-R Mk.2", "ja": "ML-R改"}
     },
     {
       "id": "ranger-special-13",
@@ -3244,18 +2625,12 @@
       "level": 10,
       "ammo": 1500,
       "rof": 60,
-      "damageRank": {
-        "ja": "小＋＋",
-        "en": "Low++"
-      },
+      "damageRank": {"ja": "小＋＋", "en": "Low++"},
       "reloadSeconds": 10,
       "range": 110,
       "accuracyRank": "A",
       "subCategory": "flame",
-      "names": {
-        "en": "Flame Cannon",
-        "ja": "火炎砲"
-      }
+      "names": {"en": "Flame Cannon", "ja": "火炎砲"}
     },
     {
       "id": "ranger-shotgun-22",
@@ -3270,10 +2645,7 @@
       "reloadSeconds": 4,
       "range": 50,
       "accuracyRank": "A",
-      "names": {
-        "en": "Slug Shot",
-        "ja": "スラッグショット"
-      }
+      "names": {"en": "Slug Shot", "ja": "スラッグショット"}
     },
     {
       "id": "bomber-support-23",
@@ -3288,10 +2660,7 @@
       "durationSeconds": 60,
       "reloadSeconds": 20,
       "subCategory": "power",
-      "names": {
-        "en": "Power Post ",
-        "ja": "パワーポスト"
-      }
+      "names": {"en": "Power Post ", "ja": "パワーポスト"}
     },
     {
       "id": "winger-sniper-26",
@@ -3306,10 +2675,7 @@
       "accuracyRank": "S",
       "energy": 30,
       "zoom": 8,
-      "names": {
-        "en": "MONSTER",
-        "ja": "MONSTER"
-      }
+      "names": {"en": "MONSTER", "ja": "MONSTER"}
     },
     {
       "id": "bomber-satellite-2",
@@ -3322,10 +2688,7 @@
       "reloadSeconds": 45,
       "shots": 600,
       "zoom": 4,
-      "names": {
-        "en": "Satellite Blaster B",
-        "ja": "サテライトブラスターB"
-      }
+      "names": {"en": "Satellite Blaster B", "ja": "サテライトブラスターB"}
     },
     {
       "id": "bomber-support-2",
@@ -3339,10 +2702,7 @@
       "radius": 12,
       "durationSeconds": 60,
       "subCategory": "life",
-      "names": {
-        "en": "Life Vendor M2",
-        "ja": "ライフベンダーM2"
-      }
+      "names": {"en": "Life Vendor M2", "ja": "ライフベンダーM2"}
     },
     {
       "id": "winger-sniper-3",
@@ -3358,10 +2718,7 @@
       "accuracyRank": "A-",
       "energy": 16,
       "zoom": 4,
-      "names": {
-        "en": "Thunder Sniper B",
-        "ja": "サンダースナイパーB"
-      }
+      "names": {"en": "Thunder Sniper B", "ja": "サンダースナイパーB"}
     },
     {
       "id": "bomber-deploy-12",
@@ -3376,10 +2733,7 @@
       "reloadSeconds": 20,
       "turretRange": 300,
       "subCategory": "turret",
-      "names": {
-        "en": "ZER-GUN",
-        "ja": "ZER-GUN"
-      }
+      "names": {"en": "ZER-GUN", "ja": "ZER-GUN"}
     },
     {
       "id": "winger-electro-17",
@@ -3396,10 +2750,7 @@
       "accuracyRank": "D",
       "reloadSeconds": 1,
       "energy": 7,
-      "names": {
-        "en": "Eclat 20",
-        "ja": "エクレール20"
-      }
+      "names": {"en": "Eclat 20", "ja": "エクレール20"}
     },
     {
       "id": "winger-sniper-4",
@@ -3415,10 +2766,7 @@
       "accuracyRank": "B+",
       "energy": 20,
       "zoom": 6,
-      "names": {
-        "en": "Thunder Sniper 15",
-        "ja": "サンダースナイパー15"
-      }
+      "names": {"en": "Thunder Sniper 15", "ja": "サンダースナイパー15"}
     },
     {
       "id": "ranger-grenade-6",
@@ -3428,17 +2776,11 @@
       "category": "grenade",
       "level": 12,
       "damage": 2000,
-      "fuseType": {
-        "ja": "時間",
-        "en": "timed"
-      },
+      "fuseType": {"ja": "時間", "en": "timed"},
       "fuseSeconds": 20,
       "radius": 15,
       "subCategory": "hg",
-      "names": {
-        "en": "HG-13 Mk.2",
-        "ja": "HG-13改"
-      }
+      "names": {"en": "HG-13 Mk.2", "ja": "HG-13改"}
     },
     {
       "id": "bomber-artillery-6",
@@ -3452,10 +2794,7 @@
       "credits": true,
       "reload": 2400,
       "shots": 20,
-      "names": {
-        "en": "Cannon A",
-        "ja": "カノン砲A〔砲兵隊〕"
-      }
+      "names": {"en": "Cannon A", "ja": "カノン砲A〔砲兵隊〕"}
     },
     {
       "id": "ranger-rocket-9",
@@ -3471,10 +2810,7 @@
       "range": 1300,
       "accuracyRank": "B+",
       "radius": 2,
-      "names": {
-        "en": "Goliath-R",
-        "ja": "ゴリアス-R"
-      }
+      "names": {"en": "Goliath-R", "ja": "ゴリアス-R"}
     },
     {
       "id": "winger-particle-9",
@@ -3489,10 +2825,7 @@
       "range": 200,
       "accuracyRank": "A",
       "energy": 0.95,
-      "names": {
-        "en": "Ixion Wide",
-        "ja": "イクシオンWIDE"
-      }
+      "names": {"en": "Ixion Wide", "ja": "イクシオンWIDE"}
     },
     {
       "id": "ranger-assault-14",
@@ -3507,10 +2840,7 @@
       "reloadSeconds": 2.5,
       "range": 120,
       "accuracyRank": "C",
-      "names": {
-        "en": "AS-19R",
-        "ja": "AS-19R"
-      }
+      "names": {"en": "AS-19R", "ja": "AS-19R"}
     },
     {
       "id": "ranger-grenade-16",
@@ -3523,17 +2853,11 @@
       "rof": 2,
       "damage": 230,
       "reloadSeconds": 2,
-      "fuseType": {
-        "ja": "時間",
-        "en": "timed"
-      },
+      "fuseType": {"ja": "時間", "en": "timed"},
       "fuseSeconds": 4,
       "radius": 9,
       "subCategory": "gl",
-      "names": {
-        "en": "G Launcher UM-1 Mk.2",
-        "ja": "GランチャーUM-1改"
-      }
+      "names": {"en": "G Launcher UM-1 Mk.2", "ja": "GランチャーUM-1改"}
     },
     {
       "id": "bomber-deploy-20",
@@ -3547,10 +2871,7 @@
       "reloadSeconds": 5,
       "radius": 8,
       "subCategory": "beetle",
-      "names": {
-        "en": "Assault Beetle",
-        "ja": "アサルトビートル"
-      }
+      "names": {"en": "Assault Beetle", "ja": "アサルトビートル"}
     },
     {
       "id": "winger-short-26",
@@ -3567,10 +2888,7 @@
       "accuracyRank": "A",
       "reloadSeconds": 2,
       "energy": 23,
-      "names": {
-        "en": "2-Way Lance",
-        "ja": "2WAYランス"
-      }
+      "names": {"en": "2-Way Lance", "ja": "2WAYランス"}
     },
     {
       "id": "ranger-special-31",
@@ -3583,10 +2901,7 @@
       "zoom": 8,
       "damage": 40,
       "subCategory": "reverser",
-      "names": {
-        "en": "Reverse Gun",
-        "ja": "リバースガン"
-      }
+      "names": {"en": "Reverse Gun", "ja": "リバースガン"}
     },
     {
       "id": "winger-special-2",
@@ -3601,10 +2916,7 @@
       "attackDirection": "上方",
       "reloadSeconds": 60,
       "energy": 45,
-      "names": {
-        "en": "Pandora M",
-        "ja": "パンドラ改"
-      }
+      "names": {"en": "Pandora M", "ja": "パンドラ改"}
     },
     {
       "id": "bomber-missile-2",
@@ -3620,10 +2932,7 @@
       "homingRank": "C",
       "zoom": 4,
       "shotTotal": 6000,
-      "names": {
-        "en": "AHM Cruise Missile",
-        "ja": "AHM巡航ミサイル"
-      }
+      "names": {"en": "AHM Cruise Missile", "ja": "AHM巡航ミサイル"}
     },
     {
       "id": "ranger-rocket-4",
@@ -3639,10 +2948,7 @@
       "range": 1000,
       "accuracyRank": "B+",
       "radius": 7,
-      "names": {
-        "en": "Goliath-DC",
-        "ja": "ゴリアス-DC"
-      }
+      "names": {"en": "Goliath-DC", "ja": "ゴリアス-DC"}
     },
     {
       "id": "winger-electro-9",
@@ -3659,10 +2965,7 @@
       "accuracyRank": "C",
       "reloadSeconds": 2,
       "energy": 60,
-      "names": {
-        "en": "Thunder Bow 15",
-        "ja": "サンダーボウ15"
-      }
+      "names": {"en": "Thunder Bow 15", "ja": "サンダーボウ15"}
     },
     {
       "id": "ranger-sniper-13",
@@ -3678,10 +2981,7 @@
       "range": 700,
       "accuracyRank": "S",
       "zoom": 8,
-      "names": {
-        "en": "Lysander 1",
-        "ja": "ライサンダー1"
-      }
+      "names": {"en": "Lysander 1", "ja": "ライサンダー1"}
     },
     {
       "id": "winger-missile-14",
@@ -3696,10 +2996,7 @@
       "homingRank": "A",
       "energy": 7,
       "radius": 12,
-      "names": {
-        "en": "Geist 2",
-        "ja": "ガイスト2"
-      }
+      "names": {"en": "Geist 2", "ja": "ガイスト2"}
     },
     {
       "id": "bomber-special-17",
@@ -3712,10 +3009,7 @@
       "hp": 1000,
       "reloadSeconds": 20,
       "subCategory": "defensive",
-      "names": {
-        "en": "Anti-Aircraft Bunker",
-        "ja": "対空防護トーチカ"
-      }
+      "names": {"en": "Anti-Aircraft Bunker", "ja": "対空防護トーチカ"}
     },
     {
       "id": "ranger-special-55",
@@ -3732,10 +3026,7 @@
       "searchRange": 100,
       "shotTotal": 440,
       "subCategory": "mine",
-      "names": {
-        "en": "Y10 Anti-Aircraft Impulse",
-        "ja": "Y10対空インパルス"
-      }
+      "names": {"en": "Y10 Anti-Aircraft Impulse", "ja": "Y10対空インパルス"}
     },
     {
       "id": "ranger-grenade-7",
@@ -3745,16 +3036,10 @@
       "category": "grenade",
       "level": 14,
       "damage": 1000,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 10,
       "subCategory": "hg",
-      "names": {
-        "en": "GHG-17A",
-        "ja": "GHG-17A"
-      }
+      "names": {"en": "GHG-17A", "ja": "GHG-17A"}
     },
     {
       "id": "bomber-guide-8",
@@ -3767,10 +3052,7 @@
       "range": 700,
       "zoom": 4,
       "subCategory": "beacon",
-      "names": {
-        "en": "Guide Beacon Gun LA",
-        "ja": "誘導ビーコンガンLA"
-      }
+      "names": {"en": "Guide Beacon Gun LA", "ja": "誘導ビーコンガンLA"}
     },
     {
       "id": "bomber-support-13",
@@ -3785,10 +3067,7 @@
       "durationSeconds": 90,
       "reloadSeconds": 45,
       "subCategory": "plasma",
-      "names": {
-        "en": "Plasma Charger M2",
-        "ja": "プラズマチャージャーM2"
-      }
+      "names": {"en": "Plasma Charger M2", "ja": "プラズマチャージャーM2"}
     },
     {
       "id": "ranger-shotgun-15",
@@ -3804,10 +3083,7 @@
       "reloadSeconds": 3,
       "range": 100,
       "accuracyRank": "B",
-      "names": {
-        "en": "Sparrow Shot",
-        "ja": "スパローショット"
-      }
+      "names": {"en": "Sparrow Shot", "ja": "スパローショット"}
     },
     {
       "id": "bomber-planes-15",
@@ -3824,10 +3100,7 @@
       "count": null,
       "raidDirection": "後→前",
       "raidFormation": "直進",
-      "names": {
-        "en": "Air Strike Plan 1B",
-        "ja": "爆撃プラン1B〔爆撃機〕"
-      }
+      "names": {"en": "Air Strike Plan 1B", "ja": "爆撃プラン1B〔爆撃機〕"}
     },
     {
       "id": "winger-laser-3",
@@ -3843,10 +3116,7 @@
       "accuracyRank": "S",
       "reloadSeconds": 4,
       "energy": 29,
-      "names": {
-        "en": "LAZR-199",
-        "ja": "LAZR-199"
-      }
+      "names": {"en": "LAZR-199", "ja": "LAZR-199"}
     },
     {
       "id": "ranger-special-5",
@@ -3862,10 +3132,7 @@
       "range": 150,
       "accuracyRank": "B",
       "subCategory": "bound",
-      "names": {
-        "en": "Bound Gun M3",
-        "ja": "バウンドガンM3"
-      }
+      "names": {"en": "Bound Gun M3", "ja": "バウンドガンM3"}
     },
     {
       "id": "winger-sniper-5",
@@ -3881,10 +3148,7 @@
       "accuracyRank": "B",
       "energy": 17,
       "zoom": 4,
-      "names": {
-        "en": "Thunder Sniper C",
-        "ja": "サンダースナイパーC"
-      }
+      "names": {"en": "Thunder Sniper C", "ja": "サンダースナイパーC"}
     },
     {
       "id": "winger-plasma-6",
@@ -3899,10 +3163,7 @@
       "radius": 20,
       "accuracyRank": "B",
       "energy": 120,
-      "names": {
-        "en": "Blast Launcher",
-        "ja": "ブラスト・ランチャー"
-      }
+      "names": {"en": "Blast Launcher", "ja": "ブラスト・ランチャー"}
     },
     {
       "id": "ranger-missile-8",
@@ -3918,10 +3179,7 @@
       "lockRange": 600,
       "homingRank": "B",
       "radius": 5,
-      "names": {
-        "en": "Emerald ME",
-        "ja": "エメロードME"
-      }
+      "names": {"en": "Emerald ME", "ja": "エメロードME"}
     },
     {
       "id": "ranger-special-14",
@@ -3932,19 +3190,13 @@
       "level": 15,
       "ammo": 60,
       "rof": 60,
-      "damageRank": {
-        "ja": "中",
-        "en": "Middle"
-      },
+      "damageRank": {"ja": "中", "en": "Middle"},
       "reloadSeconds": 7,
       "range": 60,
       "accuracyRank": "D",
       "zoom": 1.5,
       "subCategory": "flame",
-      "names": {
-        "en": "Flamethrower F3R",
-        "ja": "火炎放射器F3R"
-      }
+      "names": {"en": "Flamethrower F3R", "ja": "火炎放射器F3R"}
     },
     {
       "id": "bomber-limpet-16",
@@ -3958,10 +3210,7 @@
       "damage": 8,
       "count": 8,
       "reloadSeconds": 2.5,
-      "names": {
-        "en": "Limpet Splendor M2",
-        "ja": "リムペット・スプレンダーM2"
-      }
+      "names": {"en": "Limpet Splendor M2", "ja": "リムペット・スプレンダーM2"}
     },
     {
       "id": "bomber-gunship-20",
@@ -3975,10 +3224,7 @@
       "reloadSeconds": 3.5,
       "shots": 1,
       "zoom": 4,
-      "names": {
-        "en": "150mm Cannon Lapis 1",
-        "ja": "150ミリ砲ラピス1〔攻撃機〕"
-      }
+      "names": {"en": "150mm Cannon Lapis 1", "ja": "150ミリ砲ラピス1〔攻撃機〕"}
     },
     {
       "id": "winger-short-32",
@@ -3993,10 +3239,7 @@
       "accuracyRank": "SSS",
       "reloadSeconds": 2.5,
       "energy": 20,
-      "names": {
-        "en": "Battle Ram",
-        "ja": "バトル・ラム"
-      }
+      "names": {"en": "Battle Ram", "ja": "バトル・ラム"}
     },
     {
       "id": "bomber-special-3",
@@ -4010,10 +3253,7 @@
       "count": 8,
       "reloadSeconds": 6.7,
       "subCategory": "wire",
-      "names": {
-        "en": "Skytrap Wire",
-        "ja": "スカイトラップ・ワイヤー"
-      }
+      "names": {"en": "Skytrap Wire", "ja": "スカイトラップ・ワイヤー"}
     },
     {
       "id": "ranger-grenade-8",
@@ -4023,17 +3263,11 @@
       "category": "grenade",
       "level": 16,
       "damage": 1500,
-      "fuseType": {
-        "ja": "時間",
-        "en": "timed"
-      },
+      "fuseType": {"ja": "時間", "en": "timed"},
       "fuseSeconds": 5,
       "radius": 10,
       "subCategory": "hg",
-      "names": {
-        "en": "GHG-17",
-        "ja": "GHG-17"
-      }
+      "names": {"en": "GHG-17", "ja": "GHG-17"}
     },
     {
       "id": "bomber-missile-8",
@@ -4049,10 +3283,7 @@
       "homingRank": "B+",
       "zoom": 4,
       "shotTotal": 12000,
-      "names": {
-        "en": "AHM High-Speed Missile Group",
-        "ja": "AHM高速ミサイル群"
-      }
+      "names": {"en": "AHM High-Speed Missile Group", "ja": "AHM高速ミサイル群"}
     },
     {
       "id": "winger-particle-10",
@@ -4067,10 +3298,7 @@
       "range": 180,
       "accuracyRank": "A",
       "energy": 1.4,
-      "names": {
-        "en": "Ixion 5-Way",
-        "ja": "イクシオン5WAY"
-      }
+      "names": {"en": "Ixion 5-Way", "ja": "イクシオン5WAY"}
     },
     {
       "id": "winger-plasma-31",
@@ -4080,16 +3308,10 @@
       "category": "plasma",
       "level": 16,
       "damage": 1000,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 15,
       "reloadSeconds": 20,
-      "names": {
-        "en": "Blast Grenade",
-        "ja": "ブラスト・グレネード"
-      }
+      "names": {"en": "Blast Grenade", "ja": "ブラスト・グレネード"}
     },
     {
       "id": "ranger-special-47",
@@ -4104,10 +3326,7 @@
       "radius": 20,
       "shotTotal": 5000,
       "subCategory": "bomb",
-      "names": {
-        "en": "C24 Bomb",
-        "ja": "C24爆弾"
-      }
+      "names": {"en": "C24 Bomb", "ja": "C24爆弾"}
     },
     {
       "id": "ranger-assault-4",
@@ -4122,10 +3341,7 @@
       "reloadSeconds": 1.5,
       "range": 180,
       "accuracyRank": "B",
-      "names": {
-        "en": "AS-19 Mk.2",
-        "ja": "AS-19改"
-      }
+      "names": {"en": "AS-19 Mk.2", "ja": "AS-19改"}
     },
     {
       "id": "ranger-sniper-5",
@@ -4141,10 +3357,7 @@
       "range": 600,
       "accuracyRank": "S",
       "zoom": 4,
-      "names": {
-        "en": "SNR-229",
-        "ja": "SNR-229"
-      }
+      "names": {"en": "SNR-229", "ja": "SNR-229"}
     },
     {
       "id": "winger-sniper-6",
@@ -4159,10 +3372,7 @@
       "accuracyRank": "B+",
       "energy": 1.6,
       "zoom": 3,
-      "names": {
-        "en": "Thunder Sniper R",
-        "ja": "サンダースナイパーR"
-      }
+      "names": {"en": "Thunder Sniper R", "ja": "サンダースナイパーR"}
     },
     {
       "id": "ranger-rocket-13",
@@ -4179,10 +3389,7 @@
       "accuracyRank": "A",
       "zoom": 3,
       "radius": 12,
-      "names": {
-        "en": "Goliath-S Custom",
-        "ja": "ゴリアス-Sカスタム"
-      }
+      "names": {"en": "Goliath-S Custom", "ja": "ゴリアス-Sカスタム"}
     },
     {
       "id": "bomber-missile-13",
@@ -4198,10 +3405,7 @@
       "shots": 1,
       "homingRank": "B",
       "zoom": 4,
-      "names": {
-        "en": "NX Large Cruise Missile",
-        "ja": "NX大型巡航ミサイル"
-      }
+      "names": {"en": "NX Large Cruise Missile", "ja": "NX大型巡航ミサイル"}
     },
     {
       "id": "winger-plasma-15",
@@ -4217,10 +3421,7 @@
       "radius": 10,
       "accuracyRank": "B",
       "energy": 20,
-      "names": {
-        "en": "3× Plasma Launcher",
-        "ja": "3連プラズマ・ランチャー"
-      }
+      "names": {"en": "3× Plasma Launcher", "ja": "3連プラズマ・ランチャー"}
     },
     {
       "id": "ranger-grenade-17",
@@ -4233,16 +3434,10 @@
       "rof": 7.5,
       "damage": 100,
       "reloadSeconds": 3,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 5,
       "subCategory": "gl",
-      "names": {
-        "en": "G Launcher UM-2A",
-        "ja": "GランチャーUM-2A"
-      }
+      "names": {"en": "G Launcher UM-2A", "ja": "GランチャーUM-2A"}
     },
     {
       "id": "winger-short-18",
@@ -4258,10 +3453,7 @@
       "accuracyRank": "B-",
       "reloadSeconds": 3,
       "energy": 20,
-      "names": {
-        "en": "Laser Lance Rカスタム",
-        "ja": "レーザーランスRカスタム"
-      }
+      "names": {"en": "Laser Lance Rカスタム", "ja": "レーザーランスRカスタム"}
     },
     {
       "id": "winger-particle-18",
@@ -4276,10 +3468,7 @@
       "range": 200,
       "accuracyRank": "B-",
       "energy": 2.7,
-      "names": {
-        "en": "Dynastrike ",
-        "ja": "ダイナスト"
-      }
+      "names": {"en": "Dynastrike ", "ja": "ダイナスト"}
     },
     {
       "id": "bomber-support-33",
@@ -4294,10 +3483,7 @@
       "durationSeconds": 120,
       "reloadSeconds": 20,
       "subCategory": "guard",
-      "names": {
-        "en": "Guard Post M2",
-        "ja": "ガードポストM2"
-      }
+      "names": {"en": "Guard Post M2", "ja": "ガードポストM2"}
     },
     {
       "id": "bomber-satellite-3",
@@ -4310,10 +3496,7 @@
       "reloadSeconds": 50,
       "shots": 600,
       "zoom": 4,
-      "names": {
-        "en": "Satellite Blaster C",
-        "ja": "サテライトブラスターC"
-      }
+      "names": {"en": "Satellite Blaster C", "ja": "サテライトブラスターC"}
     },
     {
       "id": "bomber-limpet-4",
@@ -4326,10 +3509,7 @@
       "damage": 450,
       "reloadSeconds": 2,
       "radius": 8,
-      "names": {
-        "en": "Limpet Launcher",
-        "ja": "リムペット・ランチャー"
-      }
+      "names": {"en": "Limpet Launcher", "ja": "リムペット・ランチャー"}
     },
     {
       "id": "winger-missile-6",
@@ -4345,10 +3525,7 @@
       "homingRank": "B",
       "energy": 9,
       "radius": 5,
-      "names": {
-        "en": "Mirage 5-Way B",
-        "ja": "ミラージュ5WAY-B"
-      }
+      "names": {"en": "Mirage 5-Way B", "ja": "ミラージュ5WAY-B"}
     },
     {
       "id": "winger-electro-10",
@@ -4365,10 +3542,7 @@
       "accuracyRank": "C+",
       "reloadSeconds": 1.5,
       "energy": 45,
-      "names": {
-        "en": "Thunder Bow 15S",
-        "ja": "サンダーボウ15S"
-      }
+      "names": {"en": "Thunder Bow 15S", "ja": "サンダーボウ15S"}
     },
     {
       "id": "bomber-gunship-3",
@@ -4382,10 +3556,7 @@
       "reloadSeconds": 7.5,
       "shots": 150,
       "zoom": 4,
-      "names": {
-        "en": "Auto Cannon C",
-        "ja": "機関砲C〔攻撃機〕"
-      }
+      "names": {"en": "Auto Cannon C", "ja": "機関砲C〔攻撃機〕"}
     },
     {
       "id": "bomber-support-7",
@@ -4400,10 +3571,7 @@
       "durationSeconds": 10,
       "zoom": 4,
       "subCategory": "life",
-      "names": {
-        "en": "Life Spout Gun",
-        "ja": "ライフスパウトガン"
-      }
+      "names": {"en": "Life Spout Gun", "ja": "ライフスパウトガン"}
     },
     {
       "id": "bomber-deploy-13",
@@ -4418,10 +3586,7 @@
       "reloadSeconds": 20,
       "turretRange": 1200,
       "subCategory": "turret",
-      "names": {
-        "en": "ZE Sniper",
-        "ja": "ZEスナイパー"
-      }
+      "names": {"en": "ZE Sniper", "ja": "ZEスナイパー"}
     },
     {
       "id": "winger-special-3",
@@ -4436,10 +3601,7 @@
       "attackDirection": "全方位",
       "reloadSeconds": 60,
       "energy": 45,
-      "names": {
-        "en": "Pandora β",
-        "ja": "パンドラβ"
-      }
+      "names": {"en": "Pandora β", "ja": "パンドラβ"}
     },
     {
       "id": "ranger-shotgun-4",
@@ -4455,10 +3617,7 @@
       "reloadSeconds": 4,
       "range": 150,
       "accuracyRank": "A-",
-      "names": {
-        "en": "SG-6",
-        "ja": "SG-6"
-      }
+      "names": {"en": "SG-6", "ja": "SG-6"}
     },
     {
       "id": "winger-laser-4",
@@ -4474,10 +3633,7 @@
       "accuracyRank": "S",
       "reloadSeconds": 3,
       "energy": 26,
-      "names": {
-        "en": "LAZR-200",
-        "ja": "LAZR-200"
-      }
+      "names": {"en": "LAZR-200", "ja": "LAZR-200"}
     },
     {
       "id": "winger-short-6",
@@ -4494,10 +3650,7 @@
       "accuracyRank": "B-",
       "reloadSeconds": 0.5,
       "energy": 22,
-      "names": {
-        "en": "M3 Rapier Thrust",
-        "ja": "M3レイピア・スラスト"
-      }
+      "names": {"en": "M3 Rapier Thrust", "ja": "M3レイピア・スラスト"}
     },
     {
       "id": "winger-plasma-8",
@@ -4512,10 +3665,7 @@
       "radius": 15,
       "accuracyRank": "B",
       "energy": 20,
-      "names": {
-        "en": "D2 Plasma Launcher",
-        "ja": "D2プラズマ・ランチャー"
-      }
+      "names": {"en": "D2 Plasma Launcher", "ja": "D2プラズマ・ランチャー"}
     },
     {
       "id": "ranger-missile-14",
@@ -4531,10 +3681,7 @@
       "lockRange": 600,
       "homingRank": "S",
       "radius": 1,
-      "names": {
-        "en": "ML-2R",
-        "ja": "ML-2R"
-      }
+      "names": {"en": "ML-2R", "ja": "ML-2R"}
     },
     {
       "id": "bomber-planes-16",
@@ -4551,10 +3698,7 @@
       "count": null,
       "raidDirection": "斜後→斜前",
       "raidFormation": "発煙筒上空で交差",
-      "names": {
-        "en": "Air Strike Plan 2A",
-        "ja": "爆撃プラン2A〔爆撃機〕"
-      }
+      "names": {"en": "Air Strike Plan 2A", "ja": "爆撃プラン2A〔爆撃機〕"}
     },
     {
       "id": "bomber-limpet-17",
@@ -4568,10 +3712,7 @@
       "damage": 10,
       "count": 6,
       "reloadSeconds": 4,
-      "names": {
-        "en": "Limpet Splendor A30",
-        "ja": "リムペット・スプレンダーA30"
-      }
+      "names": {"en": "Limpet Splendor A30", "ja": "リムペット・スプレンダーA30"}
     },
     {
       "id": "ranger-grenade-18",
@@ -4584,17 +3725,11 @@
       "rof": 2,
       "damage": 400,
       "reloadSeconds": 3,
-      "fuseType": {
-        "ja": "時間",
-        "en": "timed"
-      },
+      "fuseType": {"ja": "時間", "en": "timed"},
       "fuseSeconds": 5,
       "radius": 11,
       "subCategory": "gl",
-      "names": {
-        "en": "G Launcher UM-2",
-        "ja": "GランチャーUM-2"
-      }
+      "names": {"en": "G Launcher UM-2", "ja": "GランチャーUM-2"}
     },
     {
       "id": "winger-sniper-19",
@@ -4609,10 +3744,7 @@
       "accuracyRank": "A++",
       "energy": 0.24,
       "zoom": 6,
-      "names": {
-        "en": "LRSL-37",
-        "ja": "LRSL-37"
-      }
+      "names": {"en": "LRSL-37", "ja": "LRSL-37"}
     },
     {
       "id": "ranger-special-27",
@@ -4621,16 +3753,11 @@
       "character": "ranger",
       "category": "special",
       "level": 20,
-      "damageRank": {
-        "ja": "RANK4"
-      },
+      "damageRank": {"ja": "RANK4"},
       "ammo": 5,
       "total": "~1610",
       "subCategory": "reverser",
-      "names": {
-        "en": "Aerial Reverser 2",
-        "ja": "エリアルリバーサー2"
-      }
+      "names": {"en": "Aerial Reverser 2", "ja": "エリアルリバーサー2"}
     },
     {
       "id": "ranger-special-40",
@@ -4641,16 +3768,10 @@
       "level": 20,
       "damage": 50,
       "count": 30,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 1,
       "subCategory": "firecracker",
-      "names": {
-        "en": "Firecracker 2",
-        "ja": "かんしゃく玉2号"
-      }
+      "names": {"en": "Firecracker 2", "ja": "かんしゃく玉2号"}
     },
     {
       "id": "bomber-gunship-12",
@@ -4664,10 +3785,7 @@
       "reloadSeconds": 20,
       "shots": 30,
       "zoom": 4,
-      "names": {
-        "en": "105mm Cannon C",
-        "ja": "105ミリ砲C〔攻撃機〕"
-      }
+      "names": {"en": "105mm Cannon C", "ja": "105ミリ砲C〔攻撃機〕"}
     },
     {
       "id": "bomber-special-18",
@@ -4680,10 +3798,7 @@
       "hp": 2400,
       "reloadSeconds": 20,
       "subCategory": "defensive",
-      "names": {
-        "en": "Heavy Bunker",
-        "ja": "ワイドウォールトーチカ"
-      }
+      "names": {"en": "Heavy Bunker", "ja": "ワイドウォールトーチカ"}
     },
     {
       "id": "ranger-special-56",
@@ -4700,10 +3815,7 @@
       "searchRange": 45,
       "shotTotal": 680,
       "subCategory": "mine",
-      "names": {
-        "en": "Y10 Wide Impulse",
-        "ja": "Y10ワイド・インパルス"
-      }
+      "names": {"en": "Y10 Wide Impulse", "ja": "Y10ワイド・インパルス"}
     },
     {
       "id": "bomber-limpet-5",
@@ -4717,10 +3829,7 @@
       "damage": 110,
       "reloadSeconds": 2,
       "radius": 4.5,
-      "names": {
-        "en": "Limpet Gun M3",
-        "ja": "リムペットガンM3"
-      }
+      "names": {"en": "Limpet Gun M3", "ja": "リムペットガンM3"}
     },
     {
       "id": "ranger-sniper-6",
@@ -4736,10 +3845,7 @@
       "range": 400,
       "accuracyRank": "S",
       "zoom": 6,
-      "names": {
-        "en": "SNR-229R",
-        "ja": "SNR-229R"
-      }
+      "names": {"en": "SNR-229R", "ja": "SNR-229R"}
     },
     {
       "id": "ranger-rocket-10",
@@ -4755,10 +3861,7 @@
       "range": 1300,
       "accuracyRank": "D",
       "radius": 2,
-      "names": {
-        "en": "Goliath-R Custom",
-        "ja": "ゴリアス-Rカスタム"
-      }
+      "names": {"en": "Goliath-R Custom", "ja": "ゴリアス-Rカスタム"}
     },
     {
       "id": "winger-particle-11",
@@ -4773,10 +3876,7 @@
       "range": 180,
       "accuracyRank": "A",
       "energy": 1.3,
-      "names": {
-        "en": "Ixion 4-Way",
-        "ja": "イクシオン4WAY"
-      }
+      "names": {"en": "Ixion 4-Way", "ja": "イクシオン4WAY"}
     },
     {
       "id": "bomber-satellite-12",
@@ -4791,10 +3891,7 @@
       "reload": 1200,
       "shots": 45,
       "zoom": 4,
-      "names": {
-        "en": "Spritefall B",
-        "ja": "スプライトフォールB"
-      }
+      "names": {"en": "Spritefall B", "ja": "スプライトフォールB"}
     },
     {
       "id": "bomber-planes-3",
@@ -4811,10 +3908,7 @@
       "count": null,
       "raidDirection": "後→前",
       "raidFormation": "2並行",
-      "names": {
-        "en": "Strafing Attack Plan 2A",
-        "ja": "機銃掃射プラン2A〔爆撃機〕"
-      }
+      "names": {"en": "Strafing Attack Plan 2A", "ja": "機銃掃射プラン2A〔爆撃機〕"}
     },
     {
       "id": "ranger-assault-5",
@@ -4829,10 +3923,7 @@
       "reloadSeconds": 2,
       "range": 150,
       "accuracyRank": "B",
-      "names": {
-        "en": "AS-20",
-        "ja": "AS-20"
-      }
+      "names": {"en": "AS-20", "ja": "AS-20"}
     },
     {
       "id": "ranger-grenade-26",
@@ -4846,17 +3937,11 @@
       "damage": 200,
       "count": 20,
       "reloadSeconds": 6,
-      "fuseType": {
-        "ja": "時間",
-        "en": "timed"
-      },
+      "fuseType": {"ja": "時間", "en": "timed"},
       "fuseSeconds": 5,
       "radius": 8,
       "subCategory": "gl",
-      "names": {
-        "en": "Splash GR Prototype",
-        "ja": "スプラッシュGR試作"
-      }
+      "names": {"en": "Splash GR Prototype", "ja": "スプラッシュGR試作"}
     },
     {
       "id": "winger-missile-3",
@@ -4871,10 +3956,7 @@
       "homingRank": "A",
       "energy": 2,
       "radius": 5,
-      "names": {
-        "en": "Mirage Rumble",
-        "ja": "ミラージュ・ランブル"
-      }
+      "names": {"en": "Mirage Rumble", "ja": "ミラージュ・ランブル"}
     },
     {
       "id": "winger-electro-4",
@@ -4890,10 +3972,7 @@
       "accuracyRank": "A",
       "reloadSeconds": 3,
       "energy": 48,
-      "names": {
-        "en": "Idunn-D Custom",
-        "ja": "イズナ-Dカスタム"
-      }
+      "names": {"en": "Idunn-D Custom", "ja": "イズナ-Dカスタム"}
     },
     {
       "id": "ranger-assault-6",
@@ -4909,10 +3988,7 @@
       "range": 150,
       "accuracyRank": "E",
       "zoom": 2,
-      "names": {
-        "en": "AS-20SSS",
-        "ja": "AS-20SSS"
-      }
+      "names": {"en": "AS-20SSS", "ja": "AS-20SSS"}
     },
     {
       "id": "ranger-special-6",
@@ -4928,10 +4004,7 @@
       "range": 200,
       "accuracyRank": "A",
       "subCategory": "bound",
-      "names": {
-        "en": "Bound Gun B08",
-        "ja": "バウンドガンB08"
-      }
+      "names": {"en": "Bound Gun B08", "ja": "バウンドガンB08"}
     },
     {
       "id": "bomber-missile-9",
@@ -4947,10 +4020,7 @@
       "homingRank": "A",
       "zoom": 4,
       "shotTotal": 24000,
-      "names": {
-        "en": "Lionic 30",
-        "ja": "ライオニック30"
-      }
+      "names": {"en": "Lionic 30", "ja": "ライオニック30"}
     },
     {
       "id": "ranger-special-15",
@@ -4961,18 +4031,12 @@
       "level": 25,
       "ammo": 30,
       "rof": 6,
-      "damageRank": {
-        "ja": "中",
-        "en": "Middle"
-      },
+      "damageRank": {"ja": "中", "en": "Middle"},
       "reloadSeconds": 6,
       "range": 50,
       "accuracyRank": "B",
       "subCategory": "flame",
-      "names": {
-        "en": "Flamethrower F4",
-        "ja": "火炎放射器F4"
-      }
+      "names": {"en": "Flamethrower F4", "ja": "火炎放射器F4"}
     },
     {
       "id": "winger-laser-15",
@@ -4989,10 +4053,7 @@
       "accuracyRank": "G",
       "reloadSeconds": 2.5,
       "energy": 26,
-      "names": {
-        "en": "Laser Chainsaw",
-        "ja": "レーザー・チェーンソー"
-      }
+      "names": {"en": "Laser Chainsaw", "ja": "レーザー・チェーンソー"}
     },
     {
       "id": "winger-special-15",
@@ -5007,10 +4068,7 @@
       "attackDirection": "下方",
       "reloadSeconds": 60,
       "energy": 45,
-      "names": {
-        "en": "Psi Cluster",
-        "ja": "サイ・クラスター"
-      }
+      "names": {"en": "Psi Cluster", "ja": "サイ・クラスター"}
     },
     {
       "id": "winger-plasma-16",
@@ -5026,10 +4084,7 @@
       "radius": 2,
       "accuracyRank": "A+",
       "energy": 24,
-      "names": {
-        "en": "M15 Plasma Launcher",
-        "ja": "M15プラズマ・ランチャー"
-      }
+      "names": {"en": "M15 Plasma Launcher", "ja": "M15プラズマ・ランチャー"}
     },
     {
       "id": "winger-short-19",
@@ -5044,10 +4099,7 @@
       "range": 84,
       "accuracyRank": "SSS",
       "reloadSeconds": 30,
-      "names": {
-        "en": "MX Laser Lance",
-        "ja": "MXレーザーランス"
-      }
+      "names": {"en": "MX Laser Lance", "ja": "MXレーザーランス"}
     },
     {
       "id": "bomber-gunship-21",
@@ -5061,10 +4113,7 @@
       "reloadSeconds": 3.5,
       "shots": 1,
       "zoom": 4,
-      "names": {
-        "en": "150mm Cannon B",
-        "ja": "150ミリ砲B〔攻撃機〕"
-      }
+      "names": {"en": "150mm Cannon B", "ja": "150ミリ砲B〔攻撃機〕"}
     },
     {
       "id": "bomber-support-24",
@@ -5079,10 +4128,7 @@
       "durationSeconds": 90,
       "reloadSeconds": 20,
       "subCategory": "power",
-      "names": {
-        "en": "Post Post M2",
-        "ja": "パワーポストM2"
-      }
+      "names": {"en": "Post Post M2", "ja": "パワーポストM2"}
     },
     {
       "id": "winger-plasma-25",
@@ -5097,10 +4143,7 @@
       "radius": 15,
       "accuracyRank": "B",
       "energy": 13,
-      "names": {
-        "en": "Plasmafall",
-        "ja": "プラズマ・フォール"
-      }
+      "names": {"en": "Plasmafall", "ja": "プラズマ・フォール"}
     },
     {
       "id": "ranger-grenade-29",
@@ -5114,17 +4157,11 @@
       "damage": 150,
       "count": 20,
       "reloadSeconds": 6,
-      "fuseType": {
-        "ja": "時間",
-        "en": "timed"
-      },
+      "fuseType": {"ja": "時間", "en": "timed"},
       "fuseSeconds": 5,
       "radius": 8,
       "subCategory": "gl",
-      "names": {
-        "en": "Soccer GR Prototype",
-        "ja": "サッカーGR試作"
-      }
+      "names": {"en": "Soccer GR Prototype", "ja": "サッカーGR試作"}
     },
     {
       "id": "bomber-satellite-4",
@@ -5137,10 +4174,7 @@
       "reloadSeconds": 45,
       "shots": 800,
       "zoom": 4,
-      "names": {
-        "en": "Satellite Blaster D",
-        "ja": "サテライトブラスターD"
-      }
+      "names": {"en": "Satellite Blaster D", "ja": "サテライトブラスターD"}
     },
     {
       "id": "bomber-special-4",
@@ -5154,10 +4188,7 @@
       "count": 24,
       "reloadSeconds": 13.3,
       "subCategory": "wire",
-      "names": {
-        "en": "Wire Shot",
-        "ja": "ワイヤー・ショット"
-      }
+      "names": {"en": "Wire Shot", "ja": "ワイヤー・ショット"}
     },
     {
       "id": "ranger-rocket-5",
@@ -5173,10 +4204,7 @@
       "range": 1000,
       "accuracyRank": "B+",
       "radius": 7,
-      "names": {
-        "en": "Goliath-2",
-        "ja": "ゴリアス-2"
-      }
+      "names": {"en": "Goliath-2", "ja": "ゴリアス-2"}
     },
     {
       "id": "bomber-deploy-14",
@@ -5191,10 +4219,7 @@
       "reloadSeconds": 20,
       "turretRange": 498,
       "subCategory": "turret",
-      "names": {
-        "en": "ZE Launcher",
-        "ja": "ZEランチャー"
-      }
+      "names": {"en": "ZE Launcher", "ja": "ZEランチャー"}
     },
     {
       "id": "bomber-limpet-18",
@@ -5208,10 +4233,7 @@
       "damage": 12,
       "count": 10,
       "reloadSeconds": 6,
-      "names": {
-        "en": "Splendor Shot",
-        "ja": "スプレンダー・ショット"
-      }
+      "names": {"en": "Splendor Shot", "ja": "スプレンダー・ショット"}
     },
     {
       "id": "winger-plasma-37",
@@ -5222,16 +4244,10 @@
       "level": 26,
       "damage": 65,
       "count": 20,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 2,
       "reloadSeconds": 10,
-      "names": {
-        "en": "Wide Grenade 20",
-        "ja": "ワイド・グレネード20"
-      }
+      "names": {"en": "Wide Grenade 20", "ja": "ワイド・グレネード20"}
     },
     {
       "id": "bomber-support-8",
@@ -5246,10 +4262,7 @@
       "durationSeconds": 10,
       "zoom": 4,
       "subCategory": "life",
-      "names": {
-        "en": "Life Spout Gun M2",
-        "ja": "ライフスパウトガンM2"
-      }
+      "names": {"en": "Life Spout Gun M2", "ja": "ライフスパウトガンM2"}
     },
     {
       "id": "ranger-grenade-9",
@@ -5259,16 +4272,10 @@
       "category": "grenade",
       "level": 27,
       "damage": 2000,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 10,
       "subCategory": "hg",
-      "names": {
-        "en": "GHG-99A",
-        "ja": "GHG-99A"
-      }
+      "names": {"en": "GHG-99A", "ja": "GHG-99A"}
     },
     {
       "id": "winger-missile-9",
@@ -5284,10 +4291,7 @@
       "homingRank": "A",
       "energy": 3,
       "radius": 2,
-      "names": {
-        "en": "Mirage 15",
-        "ja": "ミラージュ15"
-      }
+      "names": {"en": "Mirage 15", "ja": "ミラージュ15"}
     },
     {
       "id": "ranger-assault-15",
@@ -5302,10 +4306,7 @@
       "reloadSeconds": 2.5,
       "range": 150,
       "accuracyRank": "A",
-      "names": {
-        "en": "AS-20R",
-        "ja": "AS-20R"
-      }
+      "names": {"en": "AS-20R", "ja": "AS-20R"}
     },
     {
       "id": "ranger-shotgun-16",
@@ -5321,10 +4322,7 @@
       "reloadSeconds": 5,
       "range": 30,
       "accuracyRank": "B",
-      "names": {
-        "en": "Sparrow Shot M2",
-        "ja": "スパローショットM2"
-      }
+      "names": {"en": "Sparrow Shot M2", "ja": "スパローショットM2"}
     },
     {
       "id": "ranger-missile-17",
@@ -5340,10 +4338,7 @@
       "homingRank": "C+",
       "radius": 15,
       "zoom": 6,
-      "names": {
-        "en": "Prominence 1",
-        "ja": "プロミネンス1"
-      }
+      "names": {"en": "Prominence 1", "ja": "プロミネンス1"}
     },
     {
       "id": "bomber-planes-17",
@@ -5360,10 +4355,7 @@
       "count": null,
       "raidDirection": "右→左",
       "raidFormation": "3並行",
-      "names": {
-        "en": "Air Strike Plan 3A",
-        "ja": "爆撃プラン3A〔爆撃機〕"
-      }
+      "names": {"en": "Air Strike Plan 3A", "ja": "爆撃プラン3A〔爆撃機〕"}
     },
     {
       "id": "ranger-special-41",
@@ -5374,16 +4366,10 @@
       "level": 27,
       "damage": 100,
       "count": 30,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 2,
       "subCategory": "firecracker",
-      "names": {
-        "en": "Firecracker 3",
-        "ja": "かんしゃく玉3号"
-      }
+      "names": {"en": "Firecracker 3", "ja": "かんしゃく玉3号"}
     },
     {
       "id": "bomber-deploy-2",
@@ -5397,10 +4383,7 @@
       "radius": 12,
       "reloadSeconds": 4,
       "subCategory": "roomba",
-      "names": {
-        "en": "Roller Bomb D",
-        "ja": "ローラーボムD"
-      }
+      "names": {"en": "Roller Bomb D", "ja": "ローラーボムD"}
     },
     {
       "id": "winger-particle-4",
@@ -5414,10 +4397,7 @@
       "range": 200,
       "accuracyRank": "B-",
       "energy": 0.7,
-      "names": {
-        "en": "Ixion Mk.3",
-        "ja": "イクシオン・マーク3"
-      }
+      "names": {"en": "Ixion Mk.3", "ja": "イクシオン・マーク3"}
     },
     {
       "id": "bomber-gunship-4",
@@ -5431,10 +4411,7 @@
       "reloadSeconds": 10,
       "shots": 200,
       "zoom": 4,
-      "names": {
-        "en": "Minigun",
-        "ja": "ミニガン〔攻撃機〕"
-      }
+      "names": {"en": "Minigun", "ja": "ミニガン〔攻撃機〕"}
     },
     {
       "id": "ranger-sniper-7",
@@ -5450,10 +4427,7 @@
       "range": 600,
       "accuracyRank": "S",
       "zoom": 4,
-      "names": {
-        "en": "SNR-230",
-        "ja": "SNR-230"
-      }
+      "names": {"en": "SNR-230", "ja": "SNR-230"}
     },
     {
       "id": "ranger-grenade-19",
@@ -5466,16 +4440,10 @@
       "rof": 2,
       "damage": 600,
       "reloadSeconds": 2,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 7,
       "subCategory": "gl",
-      "names": {
-        "en": "G Launcher UM-3A",
-        "ja": "GランチャーUM-3A"
-      }
+      "names": {"en": "G Launcher UM-3A", "ja": "GランチャーUM-3A"}
     },
     {
       "id": "bomber-limpet-19",
@@ -5489,10 +4457,7 @@
       "damage": 16,
       "count": 8,
       "reloadSeconds": 2,
-      "names": {
-        "en": "Limpet Splendor M3",
-        "ja": "リムペット・スプレンダーM3"
-      }
+      "names": {"en": "Limpet Splendor M3", "ja": "リムペット・スプレンダーM3"}
     },
     {
       "id": "ranger-special-22",
@@ -5501,15 +4466,10 @@
       "character": "ranger",
       "category": "special",
       "level": 28,
-      "damageRank": {
-        "ja": "RANK5"
-      },
+      "damageRank": {"ja": "RANK5"},
       "ammo": 160,
       "subCategory": "reverser",
-      "names": {
-        "en": "Reverser M2",
-        "ja": "リバーサーM2"
-      }
+      "names": {"en": "Reverser M2", "ja": "リバーサーM2"}
     },
     {
       "id": "bomber-special-12",
@@ -5523,10 +4483,7 @@
       "durationSeconds": 90,
       "reloadSeconds": 20,
       "subCategory": "decoy",
-      "names": {
-        "en": "Decoy Type B",
-        "ja": "デコイ-B型"
-      }
+      "names": {"en": "Decoy Type B", "ja": "デコイ-B型"}
     },
     {
       "id": "bomber-support-14",
@@ -5541,10 +4498,7 @@
       "durationSeconds": 13,
       "reloadSeconds": 30,
       "subCategory": "plasma",
-      "names": {
-        "en": "Plasma Streamer",
-        "ja": "プラズマストリーマー"
-      }
+      "names": {"en": "Plasma Streamer", "ja": "プラズマストリーマー"}
     },
     {
       "id": "winger-plasma-17",
@@ -5560,10 +4514,7 @@
       "radius": 7,
       "accuracyRank": "B",
       "energy": 9,
-      "names": {
-        "en": "Twin Plasma Launcher R",
-        "ja": "2連プラズマ・ランチャーR"
-      }
+      "names": {"en": "Twin Plasma Launcher R", "ja": "2連プラズマ・ランチャーR"}
     },
     {
       "id": "ranger-missile-21",
@@ -5579,10 +4530,7 @@
       "lockRange": 300,
       "homingRank": "S",
       "radius": 1,
-      "names": {
-        "en": "Sol Ring A20",
-        "ja": "ソルリングA20"
-      }
+      "names": {"en": "Sol Ring A20", "ja": "ソルリングA20"}
     },
     {
       "id": "winger-electro-11",
@@ -5599,10 +4547,7 @@
       "accuracyRank": "C",
       "reloadSeconds": 3,
       "energy": 63,
-      "names": {
-        "en": "Thunder Bow 20",
-        "ja": "サンダーボウ20"
-      }
+      "names": {"en": "Thunder Bow 20", "ja": "サンダーボウ20"}
     },
     {
       "id": "winger-sniper-12",
@@ -5617,10 +4562,7 @@
       "accuracyRank": "A++",
       "energy": 70,
       "zoom": 12,
-      "names": {
-        "en": "Raijin",
-        "ja": "ライジン"
-      }
+      "names": {"en": "Raijin", "ja": "ライジン"}
     },
     {
       "id": "winger-short-13",
@@ -5637,10 +4579,7 @@
       "accuracyRank": "K",
       "reloadSeconds": 2,
       "energy": 120,
-      "names": {
-        "en": "Plasma Whip",
-        "ja": "プラズマ・ウィップ"
-      }
+      "names": {"en": "Plasma Whip", "ja": "プラズマ・ウィップ"}
     },
     {
       "id": "bomber-gunship-13",
@@ -5654,10 +4593,7 @@
       "reloadSeconds": 25,
       "shots": 40,
       "zoom": 4,
-      "names": {
-        "en": "105mm Cannon Concentrated Fire",
-        "ja": "105ミリ砲集中射撃〔攻撃機〕"
-      }
+      "names": {"en": "105mm Cannon Concentrated Fire", "ja": "105ミリ砲集中射撃〔攻撃機〕"}
     },
     {
       "id": "bomber-satellite-19",
@@ -5672,10 +4608,7 @@
       "reload": 100,
       "shots": 1,
       "zoom": 4,
-      "names": {
-        "en": "Spritefall Mode β",
-        "ja": "スプライトフォールModeβ"
-      }
+      "names": {"en": "Spritefall Mode β", "ja": "スプライトフォールModeβ"}
     },
     {
       "id": "winger-short-20",
@@ -5691,10 +4624,7 @@
       "accuracyRank": "SSS",
       "reloadSeconds": 2,
       "energy": 25,
-      "names": {
-        "en": "Laser Lance C",
-        "ja": "レーザーランスC"
-      }
+      "names": {"en": "Laser Lance C", "ja": "レーザーランスC"}
     },
     {
       "id": "ranger-assault-22",
@@ -5709,10 +4639,7 @@
       "reloadSeconds": 1.5,
       "range": 300,
       "accuracyRank": "A",
-      "names": {
-        "en": "AS-21D",
-        "ja": "AS-21D"
-      }
+      "names": {"en": "AS-21D", "ja": "AS-21D"}
     },
     {
       "id": "ranger-shotgun-23",
@@ -5727,10 +4654,7 @@
       "reloadSeconds": 4,
       "range": 70,
       "accuracyRank": "A",
-      "names": {
-        "en": "Slug Shot BC",
-        "ja": "スラッグショットBC"
-      }
+      "names": {"en": "Slug Shot BC", "ja": "スラッグショットBC"}
     },
     {
       "id": "ranger-special-57",
@@ -5747,10 +4671,7 @@
       "searchRange": 60,
       "shotTotal": 800,
       "subCategory": "mine",
-      "names": {
-        "en": "Y11 Impulse",
-        "ja": "Y11インパルス"
-      }
+      "names": {"en": "Y11 Impulse", "ja": "Y11インパルス"}
     },
     {
       "id": "bomber-limpet-6",
@@ -5764,10 +4685,7 @@
       "damage": 60,
       "reloadSeconds": 2,
       "radius": 3.5,
-      "names": {
-        "en": "Limpet Chain Gun",
-        "ja": "リムペット・チェーンガン"
-      }
+      "names": {"en": "Limpet Chain Gun", "ja": "リムペット・チェーンガン"}
     },
     {
       "id": "winger-missile-18",
@@ -5782,10 +4700,7 @@
       "homingRank": "S",
       "energy": 40,
       "radius": 12,
-      "names": {
-        "en": "Psiblade",
-        "ja": "サイ・ブレード"
-      }
+      "names": {"en": "Psiblade", "ja": "サイ・ブレード"}
     },
     {
       "id": "bomber-support-34",
@@ -5800,10 +4715,7 @@
       "durationSeconds": 120,
       "reloadSeconds": 20,
       "subCategory": "guard",
-      "names": {
-        "en": "Zone Protector",
-        "ja": "ゾーンプロテクター"
-      }
+      "names": {"en": "Zone Protector", "ja": "ゾーンプロテクター"}
     },
     {
       "id": "bomber-artillery-2",
@@ -5817,10 +4729,7 @@
       "credits": true,
       "reload": 3600,
       "shots": 10,
-      "names": {
-        "en": "Large Howitzer",
-        "ja": "大型榴弾砲〔砲兵隊〕"
-      }
+      "names": {"en": "Large Howitzer", "ja": "大型榴弾砲〔砲兵隊〕"}
     },
     {
       "id": "bomber-planes-4",
@@ -5837,10 +4746,7 @@
       "count": null,
       "raidDirection": "後→前 狭角の扇形",
       "raidFormation": "4連続 発煙筒上空で交差",
-      "names": {
-        "en": "Strafing Attack Plan 4A",
-        "ja": "機銃掃射プラン4A〔爆撃機〕"
-      }
+      "names": {"en": "Strafing Attack Plan 4A", "ja": "機銃掃射プラン4A〔爆撃機〕"}
     },
     {
       "id": "winger-laser-5",
@@ -5856,10 +4762,7 @@
       "accuracyRank": "S",
       "reloadSeconds": 2.5,
       "energy": 30,
-      "names": {
-        "en": "LAZR-201",
-        "ja": "LAZR-201"
-      }
+      "names": {"en": "LAZR-201", "ja": "LAZR-201"}
     },
     {
       "id": "ranger-rocket-11",
@@ -5875,10 +4778,7 @@
       "range": 1300,
       "accuracyRank": "B",
       "radius": 6,
-      "names": {
-        "en": "Goliath-2R",
-        "ja": "ゴリアス-2R"
-      }
+      "names": {"en": "Goliath-2R", "ja": "ゴリアス-2R"}
     },
     {
       "id": "bomber-missile-14",
@@ -5894,10 +4794,7 @@
       "shots": 1,
       "homingRank": "B",
       "zoom": 4,
-      "names": {
-        "en": "Tempest A1",
-        "ja": "テンペストA1"
-      }
+      "names": {"en": "Tempest A1", "ja": "テンペストA1"}
     },
     {
       "id": "ranger-special-16",
@@ -5908,18 +4805,12 @@
       "level": 32,
       "ammo": 1500,
       "rof": 60,
-      "damageRank": {
-        "ja": "中",
-        "en": "Middle"
-      },
+      "damageRank": {"ja": "中", "en": "Middle"},
       "reloadSeconds": 10,
       "range": 110,
       "accuracyRank": "B",
       "subCategory": "flame",
-      "names": {
-        "en": "Blaze Cannon",
-        "ja": "灼熱火炎砲"
-      }
+      "names": {"en": "Blaze Cannon", "ja": "灼熱火炎砲"}
     },
     {
       "id": "bomber-special-19",
@@ -5932,10 +4823,7 @@
       "hp": 5000,
       "reloadSeconds": 20,
       "subCategory": "defensive",
-      "names": {
-        "en": "Electromagnetic Bunker M2",
-        "ja": "電磁トーチカM2"
-      }
+      "names": {"en": "Electromagnetic Bunker M2", "ja": "電磁トーチカM2"}
     },
     {
       "id": "winger-short-27",
@@ -5952,10 +4840,7 @@
       "accuracyRank": "B-",
       "reloadSeconds": 4,
       "energy": 30,
-      "names": {
-        "en": "3-Way Lance",
-        "ja": "3WAYランス"
-      }
+      "names": {"en": "3-Way Lance", "ja": "3WAYランス"}
     },
     {
       "id": "winger-plasma-32",
@@ -5965,16 +4850,10 @@
       "category": "plasma",
       "level": 32,
       "damage": 200,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 20,
       "reloadSeconds": 3,
-      "names": {
-        "en": "Plasma Grenade SP",
-        "ja": "プラズマ・グレネードSP"
-      }
+      "names": {"en": "Plasma Grenade SP", "ja": "プラズマ・グレネードSP"}
     },
     {
       "id": "ranger-shotgun-11",
@@ -5990,10 +4869,7 @@
       "reloadSeconds": 4,
       "range": 150,
       "accuracyRank": "H",
-      "names": {
-        "en": "Governor S",
-        "ja": "ガバナーS"
-      }
+      "names": {"en": "Governor S", "ja": "ガバナーS"}
     },
     {
       "id": "winger-electro-21",
@@ -6009,10 +4885,7 @@
       "accuracyRank": "Z",
       "reloadSeconds": 10,
       "energy": 59,
-      "names": {
-        "en": "Grom X",
-        "ja": "グロームX"
-      }
+      "names": {"en": "Grom X", "ja": "グロームX"}
     },
     {
       "id": "ranger-special-48",
@@ -6027,10 +4900,7 @@
       "radius": 15,
       "shotTotal": 30000,
       "subCategory": "bomb",
-      "names": {
-        "en": "C25 Special Bomb",
-        "ja": "C25特殊爆弾"
-      }
+      "names": {"en": "C25 Special Bomb", "ja": "C25特殊爆弾"}
     },
     {
       "id": "bomber-guide-3",
@@ -6042,10 +4912,7 @@
       "range": 700,
       "zoom": 4,
       "subCategory": "laser",
-      "names": {
-        "en": "Laser Guide Kit N700",
-        "ja": "レーザー誘導装置N700"
-      }
+      "names": {"en": "Laser Guide Kit N700", "ja": "レーザー誘導装置N700"}
     },
     {
       "id": "winger-special-4",
@@ -6060,10 +4927,7 @@
       "attackDirection": "下方",
       "reloadSeconds": 60,
       "energy": 45,
-      "names": {
-        "en": "Pandora α",
-        "ja": "パンドラα"
-      }
+      "names": {"en": "Pandora α", "ja": "パンドラα"}
     },
     {
       "id": "ranger-grenade-20",
@@ -6077,16 +4941,10 @@
       "damage": 600,
       "count": 3,
       "reloadSeconds": 2,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 7,
       "subCategory": "gl",
-      "names": {
-        "en": "G Launcher UM-3WAY",
-        "ja": "GランチャーUM-3WAY"
-      }
+      "names": {"en": "G Launcher UM-3WAY", "ja": "GランチャーUM-3WAY"}
     },
     {
       "id": "bomber-satellite-5",
@@ -6099,10 +4957,7 @@
       "reloadSeconds": 60,
       "shots": 800,
       "zoom": 4,
-      "names": {
-        "en": "Satellite Blaster E",
-        "ja": "サテライトブラスターE"
-      }
+      "names": {"en": "Satellite Blaster E", "ja": "サテライトブラスターE"}
     },
     {
       "id": "ranger-assault-7",
@@ -6117,10 +4972,7 @@
       "reloadSeconds": 1.5,
       "range": 150,
       "accuracyRank": "B+",
-      "names": {
-        "en": "AS-21",
-        "ja": "AS-21"
-      }
+      "names": {"en": "AS-21", "ja": "AS-21"}
     },
     {
       "id": "ranger-special-7",
@@ -6136,10 +4988,7 @@
       "range": 180,
       "accuracyRank": "D",
       "subCategory": "bound",
-      "names": {
-        "en": "Bound Gun S",
-        "ja": "バウンドガンS"
-      }
+      "names": {"en": "Bound Gun S", "ja": "バウンドガンS"}
     },
     {
       "id": "winger-short-7",
@@ -6155,10 +5004,7 @@
       "range": 30,
       "accuracyRank": "D+",
       "reloadSeconds": 20,
-      "names": {
-        "en": "MX Rapier",
-        "ja": "MXレイピア"
-      }
+      "names": {"en": "MX Rapier", "ja": "MXレイピア"}
     },
     {
       "id": "ranger-missile-15",
@@ -6175,10 +5021,7 @@
       "lockRange": 600,
       "homingRank": "S",
       "radius": 1,
-      "names": {
-        "en": "ML-2RW",
-        "ja": "ML-2RW"
-      }
+      "names": {"en": "ML-2RW", "ja": "ML-2RW"}
     },
     {
       "id": "bomber-gunship-22",
@@ -6192,10 +5035,7 @@
       "reloadSeconds": 5.5,
       "shots": 3,
       "zoom": 4,
-      "names": {
-        "en": "150mm Cannon Triple Cannon",
-        "ja": "150ミリ砲3連装砲〔攻撃機〕"
-      }
+      "names": {"en": "150mm Cannon Triple Cannon", "ja": "150ミリ砲3連装砲〔攻撃機〕"}
     },
     {
       "id": "winger-particle-24",
@@ -6209,10 +5049,7 @@
       "range": 240,
       "accuracyRank": "B",
       "energy": 2,
-      "names": {
-        "en": "Pulsar Shot α",
-        "ja": "パルサーショットα"
-      }
+      "names": {"en": "Pulsar Shot α", "ja": "パルサーショットα"}
     },
     {
       "id": "bomber-support-29",
@@ -6228,10 +5065,7 @@
       "reloadSeconds": 11.7,
       "zoom": 4,
       "subCategory": "power",
-      "names": {
-        "en": "Post Assist Gun M2",
-        "ja": "パワーアシストガンM2"
-      }
+      "names": {"en": "Post Assist Gun M2", "ja": "パワーアシストガンM2"}
     },
     {
       "id": "ranger-special-32",
@@ -6244,10 +5078,7 @@
       "zoom": 8,
       "damage": 1000,
       "subCategory": "reverser",
-      "names": {
-        "en": "Reverse Shooter T1",
-        "ja": "リバースシューターT1"
-      }
+      "names": {"en": "Reverse Shooter T1", "ja": "リバースシューターT1"}
     },
     {
       "id": "bomber-support-3",
@@ -6261,10 +5092,7 @@
       "radius": 12,
       "durationSeconds": 60,
       "subCategory": "life",
-      "names": {
-        "en": "Life Vendor M3",
-        "ja": "ライフベンダーM3"
-      }
+      "names": {"en": "Life Vendor M3", "ja": "ライフベンダーM3"}
     },
     {
       "id": "ranger-sniper-8",
@@ -6280,10 +5108,7 @@
       "range": 800,
       "accuracyRank": "SSS",
       "zoom": 4,
-      "names": {
-        "en": "SNR-230D",
-        "ja": "SNR-230D"
-      }
+      "names": {"en": "SNR-230D", "ja": "SNR-230D"}
     },
     {
       "id": "winger-plasma-9",
@@ -6298,10 +5123,7 @@
       "radius": 15,
       "accuracyRank": "B",
       "energy": 21,
-      "names": {
-        "en": "E5 Plasma Launcher",
-        "ja": "E5プラズマ・ランチャー"
-      }
+      "names": {"en": "E5 Plasma Launcher", "ja": "E5プラズマ・ランチャー"}
     },
     {
       "id": "winger-particle-12",
@@ -6316,10 +5138,7 @@
       "range": 170,
       "accuracyRank": "A",
       "energy": 1.3,
-      "names": {
-        "en": "Ixion 6-Way",
-        "ja": "イクシオン6WAY"
-      }
+      "names": {"en": "Ixion 6-Way", "ja": "イクシオン6WAY"}
     },
     {
       "id": "bomber-missile-3",
@@ -6335,10 +5154,7 @@
       "homingRank": "B",
       "zoom": 4,
       "shotTotal": 20000,
-      "names": {
-        "en": "N5 Cruise Missile",
-        "ja": "N5巡航ミサイル"
-      }
+      "names": {"en": "N5 Cruise Missile", "ja": "N5巡航ミサイル"}
     },
     {
       "id": "winger-missile-15",
@@ -6354,10 +5170,7 @@
       "homingRank": "A",
       "energy": 4,
       "radius": 20,
-      "names": {
-        "en": "Geist 3",
-        "ja": "ガイスト3"
-      }
+      "names": {"en": "Geist 3", "ja": "ガイスト3"}
     },
     {
       "id": "winger-sniper-20",
@@ -6372,10 +5185,7 @@
       "accuracyRank": "S",
       "energy": 0.2,
       "zoom": 7,
-      "names": {
-        "en": "LRSL-38",
-        "ja": "LRSL-38"
-      }
+      "names": {"en": "LRSL-38", "ja": "LRSL-38"}
     },
     {
       "id": "bomber-planes-5",
@@ -6392,10 +5202,7 @@
       "count": null,
       "raidDirection": "後→前",
       "raidFormation": "直進",
-      "names": {
-        "en": "Strafing Attack Plan 1B",
-        "ja": "機銃掃射プラン1B〔爆撃機〕"
-      }
+      "names": {"en": "Strafing Attack Plan 1B", "ja": "機銃掃射プラン1B〔爆撃機〕"}
     },
     {
       "id": "bomber-deploy-6",
@@ -6411,10 +5218,7 @@
       "reloadSeconds": 4,
       "zoom": 4,
       "subCategory": "patroller",
-      "names": {
-        "en": "Patroller",
-        "ja": "パトローラー"
-      }
+      "names": {"en": "Patroller", "ja": "パトローラー"}
     },
     {
       "id": "ranger-grenade-10",
@@ -6424,16 +5228,10 @@
       "category": "grenade",
       "level": 38,
       "damage": 2500,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 12,
       "subCategory": "hg",
-      "names": {
-        "en": "GHG-XA",
-        "ja": "GHG-XA"
-      }
+      "names": {"en": "GHG-XA", "ja": "GHG-XA"}
     },
     {
       "id": "winger-electro-22",
@@ -6449,10 +5247,7 @@
       "accuracyRank": "B",
       "reloadSeconds": 8,
       "energy": 62,
-      "names": {
-        "en": "Grom SS",
-        "ja": "グロームSS"
-      }
+      "names": {"en": "Grom SS", "ja": "グロームSS"}
     },
     {
       "id": "bomber-limpet-26",
@@ -6466,10 +5261,7 @@
       "damage": 30,
       "count": 10,
       "reloadSeconds": 8,
-      "names": {
-        "en": "Limpet Detector",
-        "ja": "リムペット・ディテクター"
-      }
+      "names": {"en": "Limpet Detector", "ja": "リムペット・ディテクター"}
     },
     {
       "id": "bomber-artillery-7",
@@ -6483,10 +5275,7 @@
       "credits": true,
       "reload": 2400,
       "shots": 20,
-      "names": {
-        "en": "Cannon B",
-        "ja": "カノン砲B〔砲兵隊〕"
-      }
+      "names": {"en": "Cannon B", "ja": "カノン砲B〔砲兵隊〕"}
     },
     {
       "id": "ranger-grenade-27",
@@ -6500,17 +5289,11 @@
       "damage": 1000,
       "count": 20,
       "reloadSeconds": 6,
-      "fuseType": {
-        "ja": "時間",
-        "en": "timed"
-      },
+      "fuseType": {"ja": "時間", "en": "timed"},
       "fuseSeconds": 5,
       "radius": 10,
       "subCategory": "gl",
-      "names": {
-        "en": "Splash GR",
-        "ja": "スプラッシュGR"
-      }
+      "names": {"en": "Splash GR", "ja": "スプラッシュGR"}
     },
     {
       "id": "ranger-shotgun-5",
@@ -6526,10 +5309,7 @@
       "reloadSeconds": 8,
       "range": 130,
       "accuracyRank": "B",
-      "names": {
-        "en": "SG-7",
-        "ja": "SG-7"
-      }
+      "names": {"en": "SG-7", "ja": "SG-7"}
     },
     {
       "id": "bomber-gunship-5",
@@ -6543,10 +5323,7 @@
       "reloadSeconds": 7.5,
       "shots": 200,
       "zoom": 4,
-      "names": {
-        "en": "Auto Cannon D",
-        "ja": "機関砲D〔攻撃機〕"
-      }
+      "names": {"en": "Auto Cannon D", "ja": "機関砲D〔攻撃機〕"}
     },
     {
       "id": "winger-laser-6",
@@ -6562,10 +5339,7 @@
       "accuracyRank": "S",
       "reloadSeconds": 2.5,
       "energy": 30,
-      "names": {
-        "en": "LAZR-202",
-        "ja": "LAZR-202"
-      }
+      "names": {"en": "LAZR-202", "ja": "LAZR-202"}
     },
     {
       "id": "bomber-guide-9",
@@ -6578,10 +5352,7 @@
       "range": 500,
       "zoom": 4,
       "subCategory": "beacon",
-      "names": {
-        "en": "Guide Beacon Gun M2",
-        "ja": "誘導ビーコンガンM2"
-      }
+      "names": {"en": "Guide Beacon Gun M2", "ja": "誘導ビーコンガンM2"}
     },
     {
       "id": "bomber-satellite-13",
@@ -6596,10 +5367,7 @@
       "reload": 1200,
       "shots": 45,
       "zoom": 4,
-      "names": {
-        "en": "Spritefall C",
-        "ja": "スプライトフォールC"
-      }
+      "names": {"en": "Spritefall C", "ja": "スプライトフォールC"}
     },
     {
       "id": "ranger-assault-16",
@@ -6614,10 +5382,7 @@
       "reloadSeconds": 5,
       "range": 200,
       "accuracyRank": "B+",
-      "names": {
-        "en": "AS-21RL",
-        "ja": "AS-21RL"
-      }
+      "names": {"en": "AS-21RL", "ja": "AS-21RL"}
     },
     {
       "id": "bomber-special-20",
@@ -6630,10 +5395,7 @@
       "hp": 12000,
       "reloadSeconds": 20,
       "subCategory": "defensive",
-      "names": {
-        "en": "Personal Shelter",
-        "ja": "パーソナル シェルター"
-      }
+      "names": {"en": "Personal Shelter", "ja": "パーソナル シェルター"}
     },
     {
       "id": "winger-short-21",
@@ -6649,10 +5411,7 @@
       "accuracyRank": "SSS",
       "reloadSeconds": 3.5,
       "energy": 70,
-      "names": {
-        "en": "Burst Lance",
-        "ja": "バースト・ランス"
-      }
+      "names": {"en": "Burst Lance", "ja": "バースト・ランス"}
     },
     {
       "id": "winger-plasma-33",
@@ -6662,16 +5421,10 @@
       "category": "plasma",
       "level": 40,
       "damage": 650,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 15,
       "reloadSeconds": 5,
-      "names": {
-        "en": "Plasma Grenade C",
-        "ja": "プラズマ・グレネードC"
-      }
+      "names": {"en": "Plasma Grenade C", "ja": "プラズマ・グレネードC"}
     },
     {
       "id": "winger-sniper-7",
@@ -6687,10 +5440,7 @@
       "accuracyRank": "A",
       "energy": 14,
       "zoom": 6,
-      "names": {
-        "en": "Thunder Sniper D",
-        "ja": "サンダースナイパーD"
-      }
+      "names": {"en": "Thunder Sniper D", "ja": "サンダースナイパーD"}
     },
     {
       "id": "ranger-sniper-9",
@@ -6706,10 +5456,7 @@
       "range": 800,
       "accuracyRank": "B+",
       "zoom": 12,
-      "names": {
-        "en": "SNR-X",
-        "ja": "SNR-X"
-      }
+      "names": {"en": "SNR-X", "ja": "SNR-X"}
     },
     {
       "id": "ranger-special-17",
@@ -6720,18 +5467,12 @@
       "level": 41,
       "ammo": 20,
       "rof": 6,
-      "damageRank": {
-        "ja": "中＋",
-        "en": "Middle+"
-      },
+      "damageRank": {"ja": "中＋", "en": "Middle+"},
       "reloadSeconds": 6,
       "range": 90,
       "accuracyRank": "B",
       "subCategory": "flame",
-      "names": {
-        "en": "Flamethrower F5",
-        "ja": "火炎放射器F5"
-      }
+      "names": {"en": "Flamethrower F5", "ja": "火炎放射器F5"}
     },
     {
       "id": "winger-plasma-18",
@@ -6747,10 +5488,7 @@
       "radius": 7,
       "accuracyRank": "B",
       "energy": 9,
-      "names": {
-        "en": "Twin Plasma Launcher S",
-        "ja": "2連プラズマ・ランチャーS"
-      }
+      "names": {"en": "Twin Plasma Launcher S", "ja": "2連プラズマ・ランチャーS"}
     },
     {
       "id": "ranger-sniper-10",
@@ -6766,10 +5504,7 @@
       "range": 600,
       "accuracyRank": "S",
       "zoom": 4,
-      "names": {
-        "en": "SNR-230 Mk.2",
-        "ja": "SNR-230改"
-      }
+      "names": {"en": "SNR-230 Mk.2", "ja": "SNR-230改"}
     },
     {
       "id": "winger-special-16",
@@ -6784,10 +5519,7 @@
       "attackDirection": "前方",
       "reloadSeconds": 60,
       "energy": 45,
-      "names": {
-        "en": "Psi Cluster α",
-        "ja": "サイ・クラスターα"
-      }
+      "names": {"en": "Psi Cluster α", "ja": "サイ・クラスターα"}
     },
     {
       "id": "ranger-rocket-19",
@@ -6804,10 +5536,7 @@
       "range": 900,
       "accuracyRank": "C",
       "radius": 10,
-      "names": {
-        "en": "Volcano-6A",
-        "ja": "ボルケーノ-6A"
-      }
+      "names": {"en": "Volcano-6A", "ja": "ボルケーノ-6A"}
     },
     {
       "id": "winger-particle-19",
@@ -6822,10 +5551,7 @@
       "range": 260,
       "accuracyRank": "B-",
       "energy": 10,
-      "names": {
-        "en": "Dynastrike X",
-        "ja": "ダイナストX"
-      }
+      "names": {"en": "Dynastrike X", "ja": "ダイナストX"}
     },
     {
       "id": "winger-sniper-21",
@@ -6840,10 +5566,7 @@
       "accuracyRank": "A",
       "energy": 0.25,
       "zoom": 6,
-      "names": {
-        "en": "LRSL-S",
-        "ja": "LRSL-S"
-      }
+      "names": {"en": "LRSL-S", "ja": "LRSL-S"}
     },
     {
       "id": "bomber-deploy-21",
@@ -6857,10 +5580,7 @@
       "reloadSeconds": 5,
       "radius": 15,
       "subCategory": "beetle",
-      "names": {
-        "en": "Assault BeetleDA",
-        "ja": "アサルトビートルDA"
-      }
+      "names": {"en": "Assault BeetleDA", "ja": "アサルトビートルDA"}
     },
     {
       "id": "ranger-special-23",
@@ -6869,15 +5589,10 @@
       "character": "ranger",
       "category": "special",
       "level": 42,
-      "damageRank": {
-        "ja": "RANK7"
-      },
+      "damageRank": {"ja": "RANK7"},
       "ammo": 110,
       "subCategory": "reverser",
-      "names": {
-        "en": "Reverser M3",
-        "ja": "リバーサーM3"
-      }
+      "names": {"en": "Reverser M3", "ja": "リバーサーM3"}
     },
     {
       "id": "bomber-support-39",
@@ -6893,10 +5608,7 @@
       "reloadSeconds": 7.5,
       "zoom": 4,
       "subCategory": "guard",
-      "names": {
-        "en": "Guard Assist Gun G",
-        "ja": "ガードアシストガンG"
-      }
+      "names": {"en": "Guard Assist Gun G", "ja": "ガードアシストガンG"}
     },
     {
       "id": "ranger-special-42",
@@ -6907,16 +5619,10 @@
       "level": 42,
       "damage": 90,
       "count": 60,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 1,
       "subCategory": "firecracker",
-      "names": {
-        "en": "Firecracker 4",
-        "ja": "かんしゃく玉4号"
-      }
+      "names": {"en": "Firecracker 4", "ja": "かんしゃく玉4号"}
     },
     {
       "id": "bomber-limpet-7",
@@ -6931,10 +5637,7 @@
       "count": 6,
       "reloadSeconds": 4,
       "radius": 5.5,
-      "names": {
-        "en": "Limpet Shot",
-        "ja": "リムペット・ショット"
-      }
+      "names": {"en": "Limpet Shot", "ja": "リムペット・ショット"}
     },
     {
       "id": "ranger-missile-9",
@@ -6950,10 +5653,7 @@
       "lockRange": 900,
       "homingRank": "A",
       "radius": 7,
-      "names": {
-        "en": "Emerald M-2",
-        "ja": "エメロードM-2"
-      }
+      "names": {"en": "Emerald M-2", "ja": "エメロードM-2"}
     },
     {
       "id": "winger-missile-10",
@@ -6968,10 +5668,7 @@
       "lockRange": 600,
       "homingRank": "A",
       "energy": 3,
-      "names": {
-        "en": "Mirage 15S",
-        "ja": "ミラージュ15S"
-      }
+      "names": {"en": "Mirage 15S", "ja": "ミラージュ15S"}
     },
     {
       "id": "bomber-missile-10",
@@ -6987,10 +5684,7 @@
       "homingRank": "A",
       "zoom": 4,
       "shotTotal": 52500,
-      "names": {
-        "en": "Lionic 35",
-        "ja": "ライオニック35"
-      }
+      "names": {"en": "Lionic 35", "ja": "ライオニック35"}
     },
     {
       "id": "winger-electro-12",
@@ -7007,10 +5701,7 @@
       "accuracyRank": "D+",
       "reloadSeconds": 3,
       "energy": 71,
-      "names": {
-        "en": "Thunder Bow 20R",
-        "ja": "サンダーボウ20R"
-      }
+      "names": {"en": "Thunder Bow 20R", "ja": "サンダーボウ20R"}
     },
     {
       "id": "bomber-gunship-14",
@@ -7024,10 +5715,7 @@
       "reloadSeconds": 18,
       "shots": 30,
       "zoom": 4,
-      "names": {
-        "en": "120mm Cannon A",
-        "ja": "120ミリ砲A〔攻撃機〕"
-      }
+      "names": {"en": "120mm Cannon A", "ja": "120ミリ砲A〔攻撃機〕"}
     },
     {
       "id": "bomber-planes-18",
@@ -7044,10 +5732,7 @@
       "count": null,
       "raidDirection": "後→前",
       "raidFormation": "4並行",
-      "names": {
-        "en": "Air Strike Plan 4A",
-        "ja": "爆撃プラン4A〔爆撃機〕"
-      }
+      "names": {"en": "Air Strike Plan 4A", "ja": "爆撃プラン4A〔爆撃機〕"}
     },
     {
       "id": "ranger-grenade-21",
@@ -7061,17 +5746,11 @@
       "damage": 900,
       "count": 3,
       "reloadSeconds": 2.5,
-      "fuseType": {
-        "ja": "時間",
-        "en": "timed"
-      },
+      "fuseType": {"ja": "時間", "en": "timed"},
       "fuseSeconds": 3,
       "radius": 12,
       "subCategory": "gl",
-      "names": {
-        "en": "G Launcher UM-W3",
-        "ja": "GランチャーUM-W3"
-      }
+      "names": {"en": "G Launcher UM-W3", "ja": "GランチャーUM-W3"}
     },
     {
       "id": "bomber-special-5",
@@ -7085,10 +5764,7 @@
       "count": 12,
       "reloadSeconds": 6.7,
       "subCategory": "wire",
-      "names": {
-        "en": "Skytrap Wire12W",
-        "ja": "スカイトラップ・ワイヤー12W"
-      }
+      "names": {"en": "Skytrap Wire12W", "ja": "スカイトラップ・ワイヤー12W"}
     },
     {
       "id": "ranger-special-58",
@@ -7105,10 +5781,7 @@
       "searchRange": 120,
       "shotTotal": 1600,
       "subCategory": "mine",
-      "names": {
-        "en": "Y11 Anti-Aircraft Impulse",
-        "ja": "Y11対空インパルス"
-      }
+      "names": {"en": "Y11 Anti-Aircraft Impulse", "ja": "Y11対空インパルス"}
     },
     {
       "id": "bomber-satellite-6",
@@ -7121,10 +5794,7 @@
       "reloadSeconds": 120,
       "shots": 1600,
       "zoom": 4,
-      "names": {
-        "en": "Satellite Blaster Precise-Fire",
-        "ja": "サテライトブラスター精密射撃"
-      }
+      "names": {"en": "Satellite Blaster Precise-Fire", "ja": "サテライトブラスター精密射撃"}
     },
     {
       "id": "winger-short-8",
@@ -7141,10 +5811,7 @@
       "accuracyRank": "C+",
       "reloadSeconds": 1,
       "energy": 12,
-      "names": {
-        "en": "RapierG Thrusts",
-        "ja": "レイピアGスラスト"
-      }
+      "names": {"en": "RapierG Thrusts", "ja": "レイピアGスラスト"}
     },
     {
       "id": "winger-sniper-8",
@@ -7160,10 +5827,7 @@
       "accuracyRank": "A",
       "energy": 24,
       "zoom": 8,
-      "names": {
-        "en": "Thunder Sniper 6",
-        "ja": "サンダースナイパー6"
-      }
+      "names": {"en": "Thunder Sniper 6", "ja": "サンダースナイパー6"}
     },
     {
       "id": "winger-plasma-10",
@@ -7178,10 +5842,7 @@
       "radius": 25,
       "accuracyRank": "A",
       "energy": 31,
-      "names": {
-        "en": "EX Plasma Launcher",
-        "ja": "EXプラズマ・ランチャー"
-      }
+      "names": {"en": "EX Plasma Launcher", "ja": "EXプラズマ・ランチャー"}
     },
     {
       "id": "winger-laser-13",
@@ -7198,10 +5859,7 @@
       "accuracyRank": "S",
       "reloadSeconds": 2,
       "energy": 35,
-      "names": {
-        "en": "LARG-W3",
-        "ja": "LARG-W3"
-      }
+      "names": {"en": "LARG-W3", "ja": "LARG-W3"}
     },
     {
       "id": "bomber-support-15",
@@ -7216,10 +5874,7 @@
       "durationSeconds": 90,
       "reloadSeconds": 45,
       "subCategory": "plasma",
-      "names": {
-        "en": "Plasma Charger M3",
-        "ja": "プラズマチャージャーM3"
-      }
+      "names": {"en": "Plasma Charger M3", "ja": "プラズマチャージャーM3"}
     },
     {
       "id": "winger-particle-13",
@@ -7234,10 +5889,7 @@
       "range": 170,
       "accuracyRank": "A",
       "energy": 1.3,
-      "names": {
-        "en": "Ixion 6-Way-S",
-        "ja": "イクシオン6WAY-S"
-      }
+      "names": {"en": "Ixion 6-Way-S", "ja": "イクシオン6WAY-S"}
     },
     {
       "id": "bomber-deploy-15",
@@ -7252,10 +5904,7 @@
       "reloadSeconds": 20,
       "turretRange": 300,
       "subCategory": "turret",
-      "names": {
-        "en": "ZERA-GUN",
-        "ja": "ZERA-GUN"
-      }
+      "names": {"en": "ZERA-GUN", "ja": "ZERA-GUN"}
     },
     {
       "id": "ranger-grenade-30",
@@ -7269,17 +5918,11 @@
       "damage": 400,
       "count": 20,
       "reloadSeconds": 6,
-      "fuseType": {
-        "ja": "時間",
-        "en": "timed"
-      },
+      "fuseType": {"ja": "時間", "en": "timed"},
       "fuseSeconds": 5,
       "radius": 10,
       "subCategory": "gl",
-      "names": {
-        "en": "Soccer Grenade",
-        "ja": "サッカーグレネード"
-      }
+      "names": {"en": "Soccer Grenade", "ja": "サッカーグレネード"}
     },
     {
       "id": "ranger-special-49",
@@ -7294,10 +5937,7 @@
       "radius": 30,
       "shotTotal": 30000,
       "subCategory": "bomb",
-      "names": {
-        "en": "C30 Bomb",
-        "ja": "C30爆弾"
-      }
+      "names": {"en": "C30 Bomb", "ja": "C30爆弾"}
     },
     {
       "id": "ranger-missile-3",
@@ -7312,10 +5952,7 @@
       "lockRange": 370,
       "homingRank": "A",
       "radius": 20,
-      "names": {
-        "en": "Sky Turtle",
-        "ja": "スカイタートル"
-      }
+      "names": {"en": "Sky Turtle", "ja": "スカイタートル"}
     },
     {
       "id": "winger-electro-5",
@@ -7331,10 +5968,7 @@
       "accuracyRank": "A",
       "reloadSeconds": 2.5,
       "energy": 55,
-      "names": {
-        "en": "Idunn-E Custom",
-        "ja": "イズナ-Eカスタム"
-      }
+      "names": {"en": "Idunn-E Custom", "ja": "イズナ-Eカスタム"}
     },
     {
       "id": "ranger-assault-8",
@@ -7350,10 +5984,7 @@
       "range": 180,
       "accuracyRank": "A",
       "zoom": 2,
-      "names": {
-        "en": "AS-22",
-        "ja": "AS-22"
-      }
+      "names": {"en": "AS-22", "ja": "AS-22"}
     },
     {
       "id": "ranger-sniper-18",
@@ -7370,10 +6001,7 @@
       "range": 500,
       "accuracyRank": "A",
       "zoom": 4,
-      "names": {
-        "en": "Five Star SR",
-        "ja": "ファイブスターSR"
-      }
+      "names": {"en": "Five Star SR", "ja": "ファイブスターSR"}
     },
     {
       "id": "winger-particle-20",
@@ -7388,10 +6016,7 @@
       "range": 260,
       "accuracyRank": "C",
       "energy": 9,
-      "names": {
-        "en": "Dynastrike Z",
-        "ja": "ダイナストZ"
-      }
+      "names": {"en": "Dynastrike Z", "ja": "ダイナストZ"}
     },
     {
       "id": "bomber-limpet-20",
@@ -7405,10 +6030,7 @@
       "damage": 42,
       "count": 40,
       "reloadSeconds": 3,
-      "names": {
-        "en": "Limpet Buster",
-        "ja": "リムペット・バスター"
-      }
+      "names": {"en": "Limpet Buster", "ja": "リムペット・バスター"}
     },
     {
       "id": "bomber-gunship-23",
@@ -7422,10 +6044,7 @@
       "reloadSeconds": 3.5,
       "shots": 1,
       "zoom": 4,
-      "names": {
-        "en": "150mm Cannon Lapis 2",
-        "ja": "150ミリ砲ラピス2〔攻撃機〕"
-      }
+      "names": {"en": "150mm Cannon Lapis 2", "ja": "150ミリ砲ラピス2〔攻撃機〕"}
     },
     {
       "id": "ranger-special-33",
@@ -7439,10 +6058,7 @@
       "damage": 300,
       "count": 10,
       "subCategory": "reverser",
-      "names": {
-        "en": "Reverse Bomber",
-        "ja": "リバースボンバー"
-      }
+      "names": {"en": "Reverse Bomber", "ja": "リバースボンバー"}
     },
     {
       "id": "winger-short-36",
@@ -7459,10 +6075,7 @@
       "accuracyRank": "A",
       "reloadSeconds": 1.5,
       "energy": 28,
-      "names": {
-        "en": "Spark Lance",
-        "ja": "スパーク・ランス"
-      }
+      "names": {"en": "Spark Lance", "ja": "スパーク・ランス"}
     },
     {
       "id": "bomber-planes-6",
@@ -7479,10 +6092,7 @@
       "count": null,
       "raidDirection": "周囲9方向",
       "raidFormation": "発煙筒上空で交差",
-      "names": {
-        "en": "Strafing Attack Plan 9",
-        "ja": "機銃掃射プラン9〔爆撃機〕"
-      }
+      "names": {"en": "Strafing Attack Plan 9", "ja": "機銃掃射プラン9〔爆撃機〕"}
     },
     {
       "id": "ranger-special-8",
@@ -7498,10 +6108,7 @@
       "range": 180,
       "accuracyRank": "D",
       "subCategory": "bound",
-      "names": {
-        "en": "Bound Gun B08S",
-        "ja": "バウンドガンB08S"
-      }
+      "names": {"en": "Bound Gun B08S", "ja": "バウンドガンB08S"}
     },
     {
       "id": "ranger-sniper-19",
@@ -7518,10 +6125,7 @@
       "range": 2000,
       "accuracyRank": "A",
       "zoom": 6,
-      "names": {
-        "en": "Five Star SR-B",
-        "ja": "ファイブスターSR-B"
-      }
+      "names": {"en": "Five Star SR-B", "ja": "ファイブスターSR-B"}
     },
     {
       "id": "ranger-special-59",
@@ -7538,10 +6142,7 @@
       "searchRange": 60,
       "shotTotal": 800,
       "subCategory": "mine",
-      "names": {
-        "en": "Y20 Impulse",
-        "ja": "Y20インパルス"
-      }
+      "names": {"en": "Y20 Impulse", "ja": "Y20インパルス"}
     },
     {
       "id": "bomber-support-4",
@@ -7555,10 +6156,7 @@
       "radius": 18,
       "durationSeconds": 60,
       "subCategory": "life",
-      "names": {
-        "en": "Life Vendor MH",
-        "ja": "ライフベンダーMH"
-      }
+      "names": {"en": "Life Vendor MH", "ja": "ライフベンダーMH"}
     },
     {
       "id": "winger-special-7",
@@ -7574,10 +6172,7 @@
       "attackDirection": "下方",
       "reloadSeconds": 60,
       "energy": 45,
-      "names": {
-        "en": "Heaven's Gate β",
-        "ja": "ヘブンズ・ゲートβ"
-      }
+      "names": {"en": "Heaven's Gate β", "ja": "ヘブンズ・ゲートβ"}
     },
     {
       "id": "bomber-gunship-15",
@@ -7591,10 +6186,7 @@
       "reloadSeconds": 20,
       "shots": 40,
       "zoom": 4,
-      "names": {
-        "en": "120mm Cannon Concentrated Fire",
-        "ja": "120ミリ砲集中射撃〔攻撃機〕"
-      }
+      "names": {"en": "120mm Cannon Concentrated Fire", "ja": "120ミリ砲集中射撃〔攻撃機〕"}
     },
     {
       "id": "winger-plasma-19",
@@ -7610,10 +6202,7 @@
       "radius": 20,
       "accuracyRank": "B-",
       "energy": 49,
-      "names": {
-        "en": "EX3× Plasma Launcher",
-        "ja": "EX3連プラズマ・ランチャー"
-      }
+      "names": {"en": "EX3× Plasma Launcher", "ja": "EX3連プラズマ・ランチャー"}
     },
     {
       "id": "winger-short-22",
@@ -7629,10 +6218,7 @@
       "accuracyRank": "SSS",
       "reloadSeconds": 3,
       "energy": 20,
-      "names": {
-        "en": "Laser Lance X",
-        "ja": "レーザーランスX"
-      }
+      "names": {"en": "Laser Lance X", "ja": "レーザーランスX"}
     },
     {
       "id": "bomber-guide-10",
@@ -7645,10 +6231,7 @@
       "range": 600,
       "zoom": 4,
       "subCategory": "beacon",
-      "names": {
-        "en": "Guide Beacon Gun M3",
-        "ja": "誘導ビーコンガンM3"
-      }
+      "names": {"en": "Guide Beacon Gun M3", "ja": "誘導ビーコンガンM3"}
     },
     {
       "id": "ranger-sniper-14",
@@ -7664,10 +6247,7 @@
       "range": 1000,
       "accuracyRank": "SSS",
       "zoom": 8,
-      "names": {
-        "en": "Lysander 2",
-        "ja": "ライサンダー2"
-      }
+      "names": {"en": "Lysander 2", "ja": "ライサンダー2"}
     },
     {
       "id": "bomber-missile-19",
@@ -7682,10 +6262,7 @@
       "shots": 1,
       "homingRank": "S",
       "zoom": 4,
-      "names": {
-        "en": "War Hammer",
-        "ja": "ウォーハンマー"
-      }
+      "names": {"en": "War Hammer", "ja": "ウォーハンマー"}
     },
     {
       "id": "ranger-assault-23",
@@ -7700,10 +6277,7 @@
       "reloadSeconds": 5,
       "range": 400,
       "accuracyRank": "A+",
-      "names": {
-        "en": "AS-22D",
-        "ja": "AS-22D"
-      }
+      "names": {"en": "AS-22D", "ja": "AS-22D"}
     },
     {
       "id": "bomber-deploy-3",
@@ -7717,10 +6291,7 @@
       "radius": 15,
       "reloadSeconds": 3,
       "subCategory": "roomba",
-      "names": {
-        "en": "Roller Bomb D2",
-        "ja": "ローラーボムD2"
-      }
+      "names": {"en": "Roller Bomb D2", "ja": "ローラーボムD2"}
     },
     {
       "id": "bomber-planes-7",
@@ -7737,10 +6308,7 @@
       "count": null,
       "raidDirection": "後→前",
       "raidFormation": "直進",
-      "names": {
-        "en": "Strafing Attack Plan 1C",
-        "ja": "機銃掃射プラン1C〔爆撃機〕"
-      }
+      "names": {"en": "Strafing Attack Plan 1C", "ja": "機銃掃射プラン1C〔爆撃機〕"}
     },
     {
       "id": "winger-short-9",
@@ -7757,10 +6325,7 @@
       "accuracyRank": "C+",
       "reloadSeconds": 5,
       "energy": 28,
-      "names": {
-        "en": "RapierG Thrusts 2",
-        "ja": "レイピアGスラスト2"
-      }
+      "names": {"en": "RapierG Thrusts 2", "ja": "レイピアGスラスト2"}
     },
     {
       "id": "ranger-rocket-14",
@@ -7777,10 +6342,7 @@
       "accuracyRank": "A+",
       "zoom": 3,
       "radius": 20,
-      "names": {
-        "en": "Goliath-SSS",
-        "ja": "ゴリアス-SSS"
-      }
+      "names": {"en": "Goliath-SSS", "ja": "ゴリアス-SSS"}
     },
     {
       "id": "ranger-shotgun-17",
@@ -7796,10 +6358,7 @@
       "reloadSeconds": 5,
       "range": 100,
       "accuracyRank": "B",
-      "names": {
-        "en": "Sparrow Shot M3",
-        "ja": "スパローショットM3"
-      }
+      "names": {"en": "Sparrow Shot M3", "ja": "スパローショットM3"}
     },
     {
       "id": "winger-particle-21",
@@ -7814,10 +6373,7 @@
       "range": 260,
       "accuracyRank": "B-",
       "energy": 1.3,
-      "names": {
-        "en": "Dynastrike α",
-        "ja": "ダイナストα"
-      }
+      "names": {"en": "Dynastrike α", "ja": "ダイナストα"}
     },
     {
       "id": "winger-missile-21",
@@ -7831,10 +6387,7 @@
       "lockRange": 800,
       "homingRank": "C",
       "energy": 1.5,
-      "names": {
-        "en": "Fenrir",
-        "ja": "フェンリル"
-      }
+      "names": {"en": "Fenrir", "ja": "フェンリル"}
     },
     {
       "id": "bomber-limpet-21",
@@ -7848,10 +6401,7 @@
       "damage": 30,
       "count": 8,
       "reloadSeconds": 2,
-      "names": {
-        "en": "Limpet Splendor M9",
-        "ja": "リムペット・スプレンダーM9"
-      }
+      "names": {"en": "Limpet Splendor M9", "ja": "リムペット・スプレンダーM9"}
     },
     {
       "id": "bomber-satellite-14",
@@ -7866,10 +6416,7 @@
       "reload": 1300,
       "shots": 60,
       "zoom": 4,
-      "names": {
-        "en": "Spritefall R",
-        "ja": "スプライトフォールR"
-      }
+      "names": {"en": "Spritefall R", "ja": "スプライトフォールR"}
     },
     {
       "id": "bomber-support-20",
@@ -7885,10 +6432,7 @@
       "reloadSeconds": 60,
       "zoom": 8,
       "subCategory": "plasma",
-      "names": {
-        "en": "Plasma Battery Gun M2",
-        "ja": "プラズマバッテリーガンM2"
-      }
+      "names": {"en": "Plasma Battery Gun M2", "ja": "プラズマバッテリーガンM2"}
     },
     {
       "id": "bomber-special-6",
@@ -7901,10 +6445,7 @@
       "damage": 50,
       "reloadSeconds": 7,
       "subCategory": "wire",
-      "names": {
-        "en": "Rapid-Fire Wire DA",
-        "ja": "ラピッドファイア・ワイヤーDA"
-      }
+      "names": {"en": "Rapid-Fire Wire DA", "ja": "ラピッドファイア・ワイヤーDA"}
     },
     {
       "id": "winger-laser-7",
@@ -7920,10 +6461,7 @@
       "accuracyRank": "S",
       "reloadSeconds": 3,
       "energy": 18,
-      "names": {
-        "en": "LAZR-299",
-        "ja": "LAZR-299"
-      }
+      "names": {"en": "LAZR-299", "ja": "LAZR-299"}
     },
     {
       "id": "winger-special-12",
@@ -7938,10 +6476,7 @@
       "attackDirection": "下方",
       "reloadSeconds": 60,
       "energy": 45,
-      "names": {
-        "en": "Thunder Cluster α",
-        "ja": "サンダー・クラスターα"
-      }
+      "names": {"en": "Thunder Cluster α", "ja": "サンダー・クラスターα"}
     },
     {
       "id": "winger-plasma-20",
@@ -7957,10 +6492,7 @@
       "radius": 5,
       "accuracyRank": "A+",
       "energy": 26,
-      "names": {
-        "en": "M30 Plasma Launcher",
-        "ja": "M30プラズマ・ランチャー"
-      }
+      "names": {"en": "M30 Plasma Launcher", "ja": "M30プラズマ・ランチャー"}
     },
     {
       "id": "ranger-grenade-22",
@@ -7973,16 +6505,10 @@
       "rof": 1,
       "damage": 2000,
       "reloadSeconds": 3,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 20,
       "subCategory": "gl",
-      "names": {
-        "en": "G Launcher UM-4A",
-        "ja": "GランチャーUM-4A"
-      }
+      "names": {"en": "G Launcher UM-4A", "ja": "GランチャーUM-4A"}
     },
     {
       "id": "bomber-gunship-24",
@@ -7996,10 +6522,7 @@
       "reloadSeconds": 3.3,
       "shots": 1,
       "zoom": 4,
-      "names": {
-        "en": "150mm Cannon C",
-        "ja": "150ミリ砲C〔攻撃機〕"
-      }
+      "names": {"en": "150mm Cannon C", "ja": "150ミリ砲C〔攻撃機〕"}
     },
     {
       "id": "winger-sniper-27",
@@ -8014,10 +6537,7 @@
       "accuracyRank": "A+",
       "energy": 39,
       "zoom": 8,
-      "names": {
-        "en": "MONSTER-S",
-        "ja": "MONSTER-S"
-      }
+      "names": {"en": "MONSTER-S", "ja": "MONSTER-S"}
     },
     {
       "id": "ranger-special-34",
@@ -8030,10 +6550,7 @@
       "zoom": 6,
       "damage": 1000,
       "subCategory": "reverser",
-      "names": {
-        "en": "Reverse Shooter T2",
-        "ja": "リバースシューターT2"
-      }
+      "names": {"en": "Reverse Shooter T2", "ja": "リバースシューターT2"}
     },
     {
       "id": "ranger-special-43",
@@ -8044,16 +6561,10 @@
       "level": 55,
       "damage": 260,
       "count": 30,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 4,
       "subCategory": "firecracker",
-      "names": {
-        "en": "Burst Firecracker ",
-        "ja": "爆殺かんしゃく玉"
-      }
+      "names": {"en": "Burst Firecracker ", "ja": "爆殺かんしゃく玉"}
     },
     {
       "id": "bomber-planes-19",
@@ -8070,10 +6581,7 @@
       "count": null,
       "raidDirection": "右→左",
       "raidFormation": "10連続",
-      "names": {
-        "en": "Air Strike Plan Z",
-        "ja": "爆撃プランZ〔爆撃機〕"
-      }
+      "names": {"en": "Air Strike Plan Z", "ja": "爆撃プランZ〔爆撃機〕"}
     },
     {
       "id": "bomber-special-21",
@@ -8086,10 +6594,7 @@
       "hp": 12000,
       "reloadSeconds": 10,
       "subCategory": "defensive",
-      "names": {
-        "en": "Electromagnetic Prison",
-        "ja": "電磁プリズン"
-      }
+      "names": {"en": "Electromagnetic Prison", "ja": "電磁プリズン"}
     },
     {
       "id": "bomber-missile-4",
@@ -8105,10 +6610,7 @@
       "homingRank": "S",
       "zoom": 4,
       "shotTotal": 36000,
-      "names": {
-        "en": "N6 Cruise Missile",
-        "ja": "N6巡航ミサイル"
-      }
+      "names": {"en": "N6 Cruise Missile", "ja": "N6巡航ミサイル"}
     },
     {
       "id": "bomber-guide-4",
@@ -8120,10 +6622,7 @@
       "range": 800,
       "zoom": 4,
       "subCategory": "laser",
-      "names": {
-        "en": "Laser Guide Kit N800",
-        "ja": "レーザー誘導装置N800"
-      }
+      "names": {"en": "Laser Guide Kit N800", "ja": "レーザー誘導装置N800"}
     },
     {
       "id": "winger-missile-7",
@@ -8139,10 +6638,7 @@
       "homingRank": "A",
       "energy": 9,
       "radius": 5,
-      "names": {
-        "en": "Mirage 5-Way S",
-        "ja": "ミラージュ5WAY-S"
-      }
+      "names": {"en": "Mirage 5-Way S", "ja": "ミラージュ5WAY-S"}
     },
     {
       "id": "winger-short-14",
@@ -8159,10 +6655,7 @@
       "accuracyRank": "K",
       "reloadSeconds": 2,
       "energy": 120,
-      "names": {
-        "en": "Plasma Whip S",
-        "ja": "プラズマ・ウィップS"
-      }
+      "names": {"en": "Plasma Whip S", "ja": "プラズマ・ウィップS"}
     },
     {
       "id": "winger-particle-14",
@@ -8177,10 +6670,7 @@
       "range": 250,
       "accuracyRank": "A",
       "energy": 1.3,
-      "names": {
-        "en": "Ixion 9-Way",
-        "ja": "イクシオン9WAY"
-      }
+      "names": {"en": "Ixion 9-Way", "ja": "イクシオン9WAY"}
     },
     {
       "id": "ranger-assault-17",
@@ -8195,10 +6685,7 @@
       "reloadSeconds": 3,
       "range": 140,
       "accuracyRank": "B",
-      "names": {
-        "en": "AS-22RR",
-        "ja": "AS-22RR"
-      }
+      "names": {"en": "AS-22RR", "ja": "AS-22RR"}
     },
     {
       "id": "bomber-artillery-8",
@@ -8212,10 +6699,7 @@
       "credits": true,
       "reload": 2400,
       "shots": 20,
-      "names": {
-        "en": "Cannon C",
-        "ja": "カノン砲C〔砲兵隊〕"
-      }
+      "names": {"en": "Cannon C", "ja": "カノン砲C〔砲兵隊〕"}
     },
     {
       "id": "bomber-limpet-8",
@@ -8229,10 +6713,7 @@
       "damage": 110,
       "reloadSeconds": 2,
       "radius": 3.5,
-      "names": {
-        "en": "Limpet Chain Gun M2",
-        "ja": "リムペット・チェーンガンM2"
-      }
+      "names": {"en": "Limpet Chain Gun M2", "ja": "リムペット・チェーンガンM2"}
     },
     {
       "id": "bomber-planes-20",
@@ -8249,10 +6730,7 @@
       "count": null,
       "raidDirection": "後→前",
       "raidFormation": "直進",
-      "names": {
-        "en": "Air Strike Plan 1C",
-        "ja": "爆撃プラン1C〔爆撃機〕"
-      }
+      "names": {"en": "Air Strike Plan 1C", "ja": "爆撃プラン1C〔爆撃機〕"}
     },
     {
       "id": "bomber-support-25",
@@ -8267,10 +6745,7 @@
       "durationSeconds": 90,
       "reloadSeconds": 20,
       "subCategory": "power",
-      "names": {
-        "en": "Offensive Territory",
-        "ja": "オフェンシブテリトリー"
-      }
+      "names": {"en": "Offensive Territory", "ja": "オフェンシブテリトリー"}
     },
     {
       "id": "bomber-satellite-7",
@@ -8283,10 +6758,7 @@
       "reloadSeconds": 75,
       "shots": 700,
       "zoom": 4,
-      "names": {
-        "en": "Satellite Blaster High",
-        "ja": "サテライトブラスター高出力射撃"
-      }
+      "names": {"en": "Satellite Blaster High", "ja": "サテライトブラスター高出力射撃"}
     },
     {
       "id": "bomber-planes-8",
@@ -8303,10 +6775,7 @@
       "count": null,
       "raidDirection": "後→前",
       "raidFormation": "3並行",
-      "names": {
-        "en": "Strafing Attack Plan 3B",
-        "ja": "機銃掃射プラン3B〔爆撃機〕"
-      }
+      "names": {"en": "Strafing Attack Plan 3B", "ja": "機銃掃射プラン3B〔爆撃機〕"}
     },
     {
       "id": "winger-electro-18",
@@ -8323,10 +6792,7 @@
       "accuracyRank": "D",
       "reloadSeconds": 1.2,
       "energy": 11,
-      "names": {
-        "en": "Eclat 30",
-        "ja": "エクレール30"
-      }
+      "names": {"en": "Eclat 30", "ja": "エクレール30"}
     },
     {
       "id": "bomber-deploy-22",
@@ -8340,10 +6806,7 @@
       "reloadSeconds": 5,
       "radius": 12,
       "subCategory": "beetle",
-      "names": {
-        "en": "Stag Beetle",
-        "ja": "スタグビートル"
-      }
+      "names": {"en": "Stag Beetle", "ja": "スタグビートル"}
     },
     {
       "id": "winger-short-33",
@@ -8358,10 +6821,7 @@
       "accuracyRank": "SSS",
       "reloadSeconds": 3,
       "energy": 30,
-      "names": {
-        "en": "Demonic Lance",
-        "ja": "デモニック・ランス"
-      }
+      "names": {"en": "Demonic Lance", "ja": "デモニック・ランス"}
     },
     {
       "id": "winger-plasma-38",
@@ -8372,16 +6832,10 @@
       "level": 60,
       "damage": 400,
       "count": 40,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 5,
       "reloadSeconds": 10,
-      "names": {
-        "en": "Wide Grenade 40",
-        "ja": "ワイド・グレネード40"
-      }
+      "names": {"en": "Wide Grenade 40", "ja": "ワイド・グレネード40"}
     },
     {
       "id": "bomber-support-9",
@@ -8396,10 +6850,7 @@
       "durationSeconds": 10,
       "zoom": 4,
       "subCategory": "life",
-      "names": {
-        "en": "Life Spout Gun M3",
-        "ja": "ライフスパウトガンM3"
-      }
+      "names": {"en": "Life Spout Gun M3", "ja": "ライフスパウトガンM3"}
     },
     {
       "id": "bomber-planes-21",
@@ -8416,10 +6867,7 @@
       "count": null,
       "raidDirection": "後→前",
       "raidFormation": "直進",
-      "names": {
-        "en": "Cluster Strike",
-        "ja": "クラスター弾〔爆撃機ミッドナイト〕"
-      }
+      "names": {"en": "Cluster Strike", "ja": "クラスター弾〔爆撃機ミッドナイト〕"}
     },
     {
       "id": "bomber-limpet-27",
@@ -8433,10 +6881,7 @@
       "damage": 90,
       "count": 10,
       "reloadSeconds": 7,
-      "names": {
-        "en": "Limpet Detector ME",
-        "ja": "リムペット・ディテクターME"
-      }
+      "names": {"en": "Limpet Detector ME", "ja": "リムペット・ディテクターME"}
     },
     {
       "id": "ranger-rocket-6",
@@ -8452,10 +6897,7 @@
       "range": 1180,
       "accuracyRank": "B+",
       "radius": 15,
-      "names": {
-        "en": "Goliath-99",
-        "ja": "ゴリアス-99"
-      }
+      "names": {"en": "Goliath-99", "ja": "ゴリアス-99"}
     },
     {
       "id": "bomber-deploy-7",
@@ -8469,10 +6911,7 @@
       "reloadSeconds": 4,
       "zoom": 4,
       "subCategory": "patroller",
-      "names": {
-        "en": "Speedster",
-        "ja": "スピードスター"
-      }
+      "names": {"en": "Speedster", "ja": "スピードスター"}
     },
     {
       "id": "winger-sniper-9",
@@ -8488,10 +6927,7 @@
       "accuracyRank": "C-",
       "energy": 35,
       "zoom": 8,
-      "names": {
-        "en": "Thunder Sniper 40",
-        "ja": "サンダースナイパー40"
-      }
+      "names": {"en": "Thunder Sniper 40", "ja": "サンダースナイパー40"}
     },
     {
       "id": "bomber-planes-9",
@@ -8508,10 +6944,7 @@
       "count": null,
       "raidDirection": "後→前",
       "raidFormation": "2並行",
-      "names": {
-        "en": "Strafing Attack Plan 2B",
-        "ja": "機銃掃射プラン2B〔爆撃機〕"
-      }
+      "names": {"en": "Strafing Attack Plan 2B", "ja": "機銃掃射プラン2B〔爆撃機〕"}
     },
     {
       "id": "winger-plasma-11",
@@ -8526,10 +6959,7 @@
       "radius": 15,
       "accuracyRank": "B",
       "energy": 14,
-      "names": {
-        "en": "RSR Plasma Launcher",
-        "ja": "RSRプラズマ・ランチャー"
-      }
+      "names": {"en": "RSR Plasma Launcher", "ja": "RSRプラズマ・ランチャー"}
     },
     {
       "id": "winger-missile-16",
@@ -8545,10 +6975,7 @@
       "homingRank": "A",
       "energy": 4,
       "radius": 20,
-      "names": {
-        "en": "Geist D",
-        "ja": "ガイストD"
-      }
+      "names": {"en": "Geist D", "ja": "ガイストD"}
     },
     {
       "id": "bomber-gunship-16",
@@ -8562,10 +6989,7 @@
       "reloadSeconds": 20,
       "shots": 30,
       "zoom": 4,
-      "names": {
-        "en": "120mm Cannon B",
-        "ja": "120ミリ砲B〔攻撃機〕"
-      }
+      "names": {"en": "120mm Cannon B", "ja": "120ミリ砲B〔攻撃機〕"}
     },
     {
       "id": "ranger-missile-18",
@@ -8581,10 +7005,7 @@
       "homingRank": "C+",
       "radius": 20,
       "zoom": 6,
-      "names": {
-        "en": "Prominence 2",
-        "ja": "プロミネンス2"
-      }
+      "names": {"en": "Prominence 2", "ja": "プロミネンス2"}
     },
     {
       "id": "winger-missile-19",
@@ -8599,10 +7020,7 @@
       "homingRank": "S",
       "energy": 40,
       "radius": 20,
-      "names": {
-        "en": "Psiblade α",
-        "ja": "サイ・ブレードα"
-      }
+      "names": {"en": "Psiblade α", "ja": "サイ・ブレードα"}
     },
     {
       "id": "winger-particle-25",
@@ -8617,10 +7035,7 @@
       "range": 360,
       "accuracyRank": "B",
       "energy": 1,
-      "names": {
-        "en": "Pulsar Shot WR",
-        "ja": "パルサーショットWR"
-      }
+      "names": {"en": "Pulsar Shot WR", "ja": "パルサーショットWR"}
     },
     {
       "id": "ranger-special-28",
@@ -8629,16 +7044,11 @@
       "character": "ranger",
       "category": "special",
       "level": 62,
-      "damageRank": {
-        "ja": "RANK10"
-      },
+      "damageRank": {"ja": "RANK10"},
       "ammo": 8,
       "total": "~2700",
       "subCategory": "reverser",
-      "names": {
-        "en": "Aerial Reverser 3",
-        "ja": "エリアルリバーサー3"
-      }
+      "names": {"en": "Aerial Reverser 3", "ja": "エリアルリバーサー3"}
     },
     {
       "id": "winger-short-28",
@@ -8655,10 +7065,7 @@
       "accuracyRank": "B",
       "reloadSeconds": 4,
       "energy": 26,
-      "names": {
-        "en": "4-Way Lance",
-        "ja": "4WAYランス"
-      }
+      "names": {"en": "4-Way Lance", "ja": "4WAYランス"}
     },
     {
       "id": "ranger-grenade-31",
@@ -8671,17 +7078,11 @@
       "rof": 1,
       "damage": 5000,
       "reloadSeconds": 3,
-      "fuseType": {
-        "ja": "時間",
-        "en": "timed"
-      },
+      "fuseType": {"ja": "時間", "en": "timed"},
       "fuseSeconds": 5,
       "radius": 20,
       "subCategory": "gl",
-      "names": {
-        "en": "Soccer Grenade D",
-        "ja": "サッカーグレネードD"
-      }
+      "names": {"en": "Soccer Grenade D", "ja": "サッカーグレネードD"}
     },
     {
       "id": "ranger-shotgun-12",
@@ -8697,10 +7098,7 @@
       "reloadSeconds": 4,
       "range": 150,
       "accuracyRank": "E",
-      "names": {
-        "en": "Governor SX",
-        "ja": "ガバナーSX"
-      }
+      "names": {"en": "Governor SX", "ja": "ガバナーSX"}
     },
     {
       "id": "bomber-special-13",
@@ -8714,10 +7112,7 @@
       "durationSeconds": 120,
       "reloadSeconds": 20,
       "subCategory": "decoy",
-      "names": {
-        "en": "Decoy Type O",
-        "ja": "デコイ-O型"
-      }
+      "names": {"en": "Decoy Type O", "ja": "デコイ-O型"}
     },
     {
       "id": "bomber-satellite-15",
@@ -8732,10 +7127,7 @@
       "reload": 1400,
       "shots": 40,
       "zoom": 4,
-      "names": {
-        "en": "Spritefall DE",
-        "ja": "スプライトフォールDE"
-      }
+      "names": {"en": "Spritefall DE", "ja": "スプライトフォールDE"}
     },
     {
       "id": "ranger-special-60",
@@ -8752,10 +7144,7 @@
       "searchRange": 150,
       "shotTotal": 4800,
       "subCategory": "mine",
-      "names": {
-        "en": "YDX Anti-Aircraft Impulse",
-        "ja": "YDX対空インパルス"
-      }
+      "names": {"en": "YDX Anti-Aircraft Impulse", "ja": "YDX対空インパルス"}
     },
     {
       "id": "bomber-gunship-6",
@@ -8769,10 +7158,7 @@
       "reloadSeconds": 7.5,
       "shots": 150,
       "zoom": 4,
-      "names": {
-        "en": "Auto Cannon E",
-        "ja": "機関砲E〔攻撃機〕"
-      }
+      "names": {"en": "Auto Cannon E", "ja": "機関砲E〔攻撃機〕"}
     },
     {
       "id": "ranger-assault-9",
@@ -8788,10 +7174,7 @@
       "range": 180,
       "accuracyRank": "A+",
       "zoom": 2,
-      "names": {
-        "en": "AS-99",
-        "ja": "AS-99"
-      }
+      "names": {"en": "AS-99", "ja": "AS-99"}
     },
     {
       "id": "bomber-guide-11",
@@ -8804,10 +7187,7 @@
       "range": 1000,
       "zoom": 4,
       "subCategory": "beacon",
-      "names": {
-        "en": "Guide Beacon Gun LX",
-        "ja": "誘導ビーコンガンLX"
-      }
+      "names": {"en": "Guide Beacon Gun LX", "ja": "誘導ビーコンガンLX"}
     },
     {
       "id": "bomber-support-35",
@@ -8822,10 +7202,7 @@
       "durationSeconds": 120,
       "reloadSeconds": 20,
       "subCategory": "guard",
-      "names": {
-        "en": "Guard Post M3",
-        "ja": "ガードポストM3"
-      }
+      "names": {"en": "Guard Post M3", "ja": "ガードポストM3"}
     },
     {
       "id": "winger-particle-5",
@@ -8839,10 +7216,7 @@
       "range": 300,
       "accuracyRank": "A+",
       "energy": 0.7,
-      "names": {
-        "en": "Ixion Mk.4",
-        "ja": "イクシオン・マーク4"
-      }
+      "names": {"en": "Ixion Mk.4", "ja": "イクシオン・マーク4"}
     },
     {
       "id": "winger-laser-8",
@@ -8858,10 +7232,7 @@
       "accuracyRank": "S",
       "reloadSeconds": 4,
       "energy": 26,
-      "names": {
-        "en": "LAZR-300",
-        "ja": "LAZR-300"
-      }
+      "names": {"en": "LAZR-300", "ja": "LAZR-300"}
     },
     {
       "id": "ranger-special-9",
@@ -8877,10 +7248,7 @@
       "range": 300,
       "accuracyRank": "D",
       "subCategory": "bound",
-      "names": {
-        "en": "Bound Gun XS",
-        "ja": "バウンドガンXS"
-      }
+      "names": {"en": "Bound Gun XS", "ja": "バウンドガンXS"}
     },
     {
       "id": "winger-short-10",
@@ -8897,10 +7265,7 @@
       "accuracyRank": "B-",
       "reloadSeconds": 3,
       "energy": 34,
-      "names": {
-        "en": "Plasma Sweeper",
-        "ja": "プラズマ・ブルーム"
-      }
+      "names": {"en": "Plasma Sweeper", "ja": "プラズマ・ブルーム"}
     },
     {
       "id": "ranger-special-18",
@@ -8911,18 +7276,12 @@
       "level": 65,
       "ammo": 150,
       "rof": 60,
-      "damageRank": {
-        "ja": "大",
-        "en": "High"
-      },
+      "damageRank": {"ja": "大", "en": "High"},
       "reloadSeconds": 6,
       "range": 170,
       "accuracyRank": "B",
       "subCategory": "flame",
-      "names": {
-        "en": "Flamethrower F6",
-        "ja": "火炎放射器F6"
-      }
+      "names": {"en": "Flamethrower F6", "ja": "火炎放射器F6"}
     },
     {
       "id": "ranger-special-19",
@@ -8933,18 +7292,12 @@
       "level": 65,
       "ammo": 1500,
       "rof": 60,
-      "damageRank": {
-        "ja": "大＋",
-        "en": "High+"
-      },
+      "damageRank": {"ja": "大＋", "en": "High+"},
       "reloadSeconds": 8,
       "range": 110,
       "accuracyRank": "B",
       "subCategory": "flame",
-      "names": {
-        "en": "Magma Cannon",
-        "ja": "マグマ火炎砲"
-      }
+      "names": {"en": "Magma Cannon", "ja": "マグマ火炎砲"}
     },
     {
       "id": "winger-plasma-34",
@@ -8954,16 +7307,10 @@
       "category": "plasma",
       "level": 65,
       "damage": 2300,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 15,
       "reloadSeconds": 5,
-      "names": {
-        "en": "Plasma Grenade F",
-        "ja": "プラズマ・グレネードF"
-      }
+      "names": {"en": "Plasma Grenade F", "ja": "プラズマ・グレネードF"}
     },
     {
       "id": "bomber-limpet-9",
@@ -8977,10 +7324,7 @@
       "damage": 300,
       "reloadSeconds": 2,
       "radius": 6.5,
-      "names": {
-        "en": "Limpet Gun MA",
-        "ja": "リムペットガンMA"
-      }
+      "names": {"en": "Limpet Gun MA", "ja": "リムペットガンMA"}
     },
     {
       "id": "bomber-satellite-20",
@@ -8995,10 +7339,7 @@
       "reload": 100,
       "shots": 1,
       "zoom": 4,
-      "names": {
-        "en": "Spritefall Mode β2",
-        "ja": "スプライトフォールModeβ2"
-      }
+      "names": {"en": "Spritefall Mode β2", "ja": "スプライトフォールModeβ2"}
     },
     {
       "id": "bomber-support-30",
@@ -9014,10 +7355,7 @@
       "reloadSeconds": 7.5,
       "zoom": 4,
       "subCategory": "power",
-      "names": {
-        "en": "Post Assist Gun MG",
-        "ja": "パワーアシストガンMG"
-      }
+      "names": {"en": "Post Assist Gun MG", "ja": "パワーアシストガンMG"}
     },
     {
       "id": "ranger-special-50",
@@ -9032,10 +7370,7 @@
       "radius": 40,
       "shotTotal": 120000,
       "subCategory": "bomb",
-      "names": {
-        "en": "C70 Bomb",
-        "ja": "C70爆弾"
-      }
+      "names": {"en": "C70 Bomb", "ja": "C70爆弾"}
     },
     {
       "id": "bomber-artillery-3",
@@ -9049,10 +7384,7 @@
       "credits": true,
       "reload": 3600,
       "shots": 10,
-      "names": {
-        "en": "Enhanced Howitzer",
-        "ja": "強化榴弾砲〔砲兵隊〕"
-      }
+      "names": {"en": "Enhanced Howitzer", "ja": "強化榴弾砲〔砲兵隊〕"}
     },
     {
       "id": "winger-electro-13",
@@ -9069,10 +7401,7 @@
       "accuracyRank": "C",
       "reloadSeconds": 2.3,
       "energy": 50,
-      "names": {
-        "en": "Thunder Bow 30",
-        "ja": "サンダーボウ30"
-      }
+      "names": {"en": "Thunder Bow 30", "ja": "サンダーボウ30"}
     },
     {
       "id": "winger-plasma-21",
@@ -9088,10 +7417,7 @@
       "radius": 22,
       "accuracyRank": "A",
       "energy": 41,
-      "names": {
-        "en": "XSX Plasma Launcher",
-        "ja": "XSXプラズマ・ランチャー"
-      }
+      "names": {"en": "XSX Plasma Launcher", "ja": "XSXプラズマ・ランチャー"}
     },
     {
       "id": "ranger-missile-22",
@@ -9107,10 +7433,7 @@
       "lockRange": 300,
       "homingRank": "S",
       "radius": 2,
-      "names": {
-        "en": "Sol Ring X",
-        "ja": "ソルリングX"
-      }
+      "names": {"en": "Sol Ring X", "ja": "ソルリングX"}
     },
     {
       "id": "winger-missile-24",
@@ -9125,10 +7448,7 @@
       "lockRange": 600,
       "homingRank": "A",
       "energy": 32,
-      "names": {
-        "en": "Ghost Chaser",
-        "ja": "ゴースト・チェイサー"
-      }
+      "names": {"en": "Ghost Chaser", "ja": "ゴースト・チェイサー"}
     },
     {
       "id": "bomber-special-7",
@@ -9142,10 +7462,7 @@
       "count": 12,
       "reloadSeconds": 6.7,
       "subCategory": "wire",
-      "names": {
-        "en": "Caesar Wire ZD",
-        "ja": "シーザー・ワイヤーZD"
-      }
+      "names": {"en": "Caesar Wire ZD", "ja": "シーザー・ワイヤーZD"}
     },
     {
       "id": "bomber-deploy-16",
@@ -9160,10 +7477,7 @@
       "reloadSeconds": 20,
       "turretRange": 150,
       "subCategory": "turret",
-      "names": {
-        "en": "ZE-GUN10",
-        "ja": "ZE-GUN10"
-      }
+      "names": {"en": "ZE-GUN10", "ja": "ZE-GUN10"}
     },
     {
       "id": "ranger-assault-24",
@@ -9178,10 +7492,7 @@
       "reloadSeconds": 3,
       "range": 400,
       "accuracyRank": "A+",
-      "names": {
-        "en": "AS-99D",
-        "ja": "AS-99D"
-      }
+      "names": {"en": "AS-99D", "ja": "AS-99D"}
     },
     {
       "id": "ranger-shotgun-6",
@@ -9197,10 +7508,7 @@
       "reloadSeconds": 8,
       "range": 130,
       "accuracyRank": "B",
-      "names": {
-        "en": "SG-99",
-        "ja": "SG-99"
-      }
+      "names": {"en": "SG-99", "ja": "SG-99"}
     },
     {
       "id": "bomber-special-22",
@@ -9213,10 +7521,7 @@
       "hp": 30000,
       "reloadSeconds": 20,
       "subCategory": "defensive",
-      "names": {
-        "en": "Anti-Aircraft BunkerME",
-        "ja": "対空防護トーチカME"
-      }
+      "names": {"en": "Anti-Aircraft BunkerME", "ja": "対空防護トーチカME"}
     },
     {
       "id": "bomber-gunship-25",
@@ -9230,10 +7535,7 @@
       "reloadSeconds": 4.5,
       "shots": 4,
       "zoom": 4,
-      "names": {
-        "en": "150mm Cannon D",
-        "ja": "150ミリ砲D〔攻撃機〕"
-      }
+      "names": {"en": "150mm Cannon D", "ja": "150ミリ砲D〔攻撃機〕"}
     },
     {
       "id": "winger-special-8",
@@ -9249,10 +7551,7 @@
       "attackDirection": "下方",
       "reloadSeconds": 60,
       "energy": 45,
-      "names": {
-        "en": "Heaven's Gate α",
-        "ja": "ヘブンズ・ゲートα"
-      }
+      "names": {"en": "Heaven's Gate α", "ja": "ヘブンズ・ゲートα"}
     },
     {
       "id": "bomber-satellite-8",
@@ -9265,10 +7564,7 @@
       "reloadSeconds": 43,
       "shots": 600,
       "zoom": 4,
-      "names": {
-        "en": "Satellite Blaster Full-Power",
-        "ja": "サテライトブラスター最大出力射撃"
-      }
+      "names": {"en": "Satellite Blaster Full-Power", "ja": "サテライトブラスター最大出力射撃"}
     },
     {
       "id": "winger-sniper-10",
@@ -9283,10 +7579,7 @@
       "range": 600,
       "accuracyRank": "C-",
       "zoom": 8,
-      "names": {
-        "en": "Thunder Sniper MX",
-        "ja": "サンダースナイパーMX"
-      }
+      "names": {"en": "Thunder Sniper MX", "ja": "サンダースナイパーMX"}
     },
     {
       "id": "ranger-sniper-15",
@@ -9302,10 +7595,7 @@
       "range": 1000,
       "accuracyRank": "SSS",
       "zoom": 10,
-      "names": {
-        "en": "Lysander F",
-        "ja": "ライサンダーF"
-      }
+      "names": {"en": "Lysander F", "ja": "ライサンダーF"}
     },
     {
       "id": "bomber-support-16",
@@ -9320,10 +7610,7 @@
       "durationSeconds": 20,
       "reloadSeconds": 30,
       "subCategory": "plasma",
-      "names": {
-        "en": "Plasma Streamer DA",
-        "ja": "プラズマストリーマーDA"
-      }
+      "names": {"en": "Plasma Streamer DA", "ja": "プラズマストリーマーDA"}
     },
     {
       "id": "winger-sniper-22",
@@ -9338,10 +7625,7 @@
       "accuracyRank": "S",
       "energy": 0.18,
       "zoom": 10,
-      "names": {
-        "en": "LRSL-AC",
-        "ja": "LRSL-AC"
-      }
+      "names": {"en": "LRSL-AC", "ja": "LRSL-AC"}
     },
     {
       "id": "ranger-grenade-23",
@@ -9354,16 +7638,10 @@
       "rof": 1,
       "damage": 2000,
       "reloadSeconds": 6,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 20,
       "subCategory": "gl",
-      "names": {
-        "en": "G Launcher UM-XA",
-        "ja": "GランチャーUM-XA"
-      }
+      "names": {"en": "G Launcher UM-XA", "ja": "GランチャーUM-XA"}
     },
     {
       "id": "ranger-special-24",
@@ -9372,15 +7650,10 @@
       "character": "ranger",
       "category": "special",
       "level": 70,
-      "damageRank": {
-        "ja": "RANK-X"
-      },
+      "damageRank": {"ja": "RANK-X"},
       "ammo": 80,
       "subCategory": "reverser",
-      "names": {
-        "en": "Reverser X",
-        "ja": "リバーサーX"
-      }
+      "names": {"en": "Reverser X", "ja": "リバーサーX"}
     },
     {
       "id": "bomber-planes-22",
@@ -9397,10 +7670,7 @@
       "count": null,
       "raidDirection": "右→左",
       "raidFormation": "直進",
-      "names": {
-        "en": "Air Strike Plan 1S",
-        "ja": "爆撃プラン1S〔爆撃機〕"
-      }
+      "names": {"en": "Air Strike Plan 1S", "ja": "爆撃プラン1S〔爆撃機〕"}
     },
     {
       "id": "bomber-limpet-22",
@@ -9414,10 +7684,7 @@
       "damage": 30,
       "count": 6,
       "reloadSeconds": 3,
-      "names": {
-        "en": "Splendor Chain Gun",
-        "ja": "スプレンダー・チェーンガン"
-      }
+      "names": {"en": "Splendor Chain Gun", "ja": "スプレンダー・チェーンガン"}
     },
     {
       "id": "ranger-special-61",
@@ -9434,10 +7701,7 @@
       "searchRange": 100,
       "shotTotal": 3200,
       "subCategory": "mine",
-      "names": {
-        "en": "YDX Strike Impulse",
-        "ja": "YDXストライク・インパルス"
-      }
+      "names": {"en": "YDX Strike Impulse", "ja": "YDXストライク・インパルス"}
     },
     {
       "id": "winger-short-3",
@@ -9454,10 +7718,7 @@
       "accuracyRank": "F",
       "reloadSeconds": 0.5,
       "energy": 26,
-      "names": {
-        "en": "Master Rapier",
-        "ja": "マスター・レイピア"
-      }
+      "names": {"en": "Master Rapier", "ja": "マスター・レイピア"}
     },
     {
       "id": "ranger-grenade-11",
@@ -9467,17 +7728,11 @@
       "category": "grenade",
       "level": 72,
       "damage": 3500,
-      "fuseType": {
-        "ja": "時間",
-        "en": "timed"
-      },
+      "fuseType": {"ja": "時間", "en": "timed"},
       "fuseSeconds": 10,
       "radius": 20,
       "subCategory": "hg",
-      "names": {
-        "en": "GHG-MAX",
-        "ja": "GHG-MAX"
-      }
+      "names": {"en": "GHG-MAX", "ja": "GHG-MAX"}
     },
     {
       "id": "bomber-missile-15",
@@ -9493,10 +7748,7 @@
       "shots": 1,
       "homingRank": "B",
       "zoom": 4,
-      "names": {
-        "en": "Tempest A2",
-        "ja": "テンペストA2"
-      }
+      "names": {"en": "Tempest A2", "ja": "テンペストA2"}
     },
     {
       "id": "bomber-satellite-16",
@@ -9511,10 +7763,7 @@
       "reload": 1500,
       "shots": 60,
       "zoom": 4,
-      "names": {
-        "en": "Spritefall Mode α",
-        "ja": "スプライトフォールModeα"
-      }
+      "names": {"en": "Spritefall Mode α", "ja": "スプライトフォールModeα"}
     },
     {
       "id": "bomber-deploy-17",
@@ -9529,10 +7778,7 @@
       "reloadSeconds": 20,
       "turretRange": 600,
       "subCategory": "turret",
-      "names": {
-        "en": "ZEX Launcher",
-        "ja": "ZEXランチャー"
-      }
+      "names": {"en": "ZEX Launcher", "ja": "ZEXランチャー"}
     },
     {
       "id": "winger-missile-22",
@@ -9547,10 +7793,7 @@
       "lockRange": 800,
       "homingRank": "C",
       "energy": 2,
-      "names": {
-        "en": "Fenrir 3-Way",
-        "ja": "フェンリル3WAY"
-      }
+      "names": {"en": "Fenrir 3-Way", "ja": "フェンリル3WAY"}
     },
     {
       "id": "bomber-special-23",
@@ -9563,10 +7806,7 @@
       "hp": 20000,
       "reloadSeconds": 40,
       "subCategory": "defensive",
-      "names": {
-        "en": "Electromagnetic BunkerGH",
-        "ja": "電磁トーチカGH"
-      }
+      "names": {"en": "Electromagnetic BunkerGH", "ja": "電磁トーチカGH"}
     },
     {
       "id": "ranger-shotgun-24",
@@ -9581,10 +7821,7 @@
       "reloadSeconds": 6,
       "range": 75,
       "accuracyRank": "A",
-      "names": {
-        "en": "Slug Shot DA",
-        "ja": "スラッグショットDA"
-      }
+      "names": {"en": "Slug Shot DA", "ja": "スラッグショットDA"}
     },
     {
       "id": "ranger-rocket-7",
@@ -9599,10 +7836,7 @@
       "reloadSeconds": 2,
       "accuracyRank": "A",
       "radius": 18,
-      "names": {
-        "en": "Goliath-EM",
-        "ja": "ゴリアス-EM"
-      }
+      "names": {"en": "Goliath-EM", "ja": "ゴリアス-EM"}
     },
     {
       "id": "winger-laser-9",
@@ -9618,10 +7852,7 @@
       "accuracyRank": "S",
       "reloadSeconds": 4.5,
       "energy": 21,
-      "names": {
-        "en": "ARC-LAZR",
-        "ja": "ARC-LAZR"
-      }
+      "names": {"en": "ARC-LAZR", "ja": "ARC-LAZR"}
     },
     {
       "id": "bomber-planes-10",
@@ -9638,10 +7869,7 @@
       "count": null,
       "raidDirection": "後→前",
       "raidFormation": "5列連続",
-      "names": {
-        "en": "Strafing Attack Plan 5",
-        "ja": "機銃掃射プラン5〔爆撃機〕"
-      }
+      "names": {"en": "Strafing Attack Plan 5", "ja": "機銃掃射プラン5〔爆撃機〕"}
     },
     {
       "id": "bomber-missile-16",
@@ -9657,10 +7885,7 @@
       "shots": 1,
       "homingRank": "B",
       "zoom": 4,
-      "names": {
-        "en": "Tempest A3",
-        "ja": "テンペストA3"
-      }
+      "names": {"en": "Tempest A3", "ja": "テンペストA3"}
     },
     {
       "id": "winger-laser-17",
@@ -9677,10 +7902,7 @@
       "accuracyRank": "S",
       "reloadSeconds": 3,
       "energy": 180,
-      "names": {
-        "en": "Cyclone Laser",
-        "ja": "サイクロン・レーザー"
-      }
+      "names": {"en": "Cyclone Laser", "ja": "サイクロン・レーザー"}
     },
     {
       "id": "ranger-assault-18",
@@ -9695,10 +7917,7 @@
       "reloadSeconds": 4,
       "range": 160,
       "accuracyRank": "B",
-      "names": {
-        "en": "AS-99RR",
-        "ja": "AS-99RR"
-      }
+      "names": {"en": "AS-99RR", "ja": "AS-99RR"}
     },
     {
       "id": "ranger-shotgun-18",
@@ -9714,10 +7933,7 @@
       "reloadSeconds": 4,
       "range": 150,
       "accuracyRank": "B-",
-      "names": {
-        "en": "Sparrow Shot X",
-        "ja": "スパローショットX"
-      }
+      "names": {"en": "Sparrow Shot X", "ja": "スパローショットX"}
     },
     {
       "id": "winger-electro-19",
@@ -9734,10 +7950,7 @@
       "accuracyRank": "D",
       "reloadSeconds": 1.2,
       "energy": 12,
-      "names": {
-        "en": "Eclat LIM",
-        "ja": "エクレールLIM"
-      }
+      "names": {"en": "Eclat LIM", "ja": "エクレールLIM"}
     },
     {
       "id": "winger-short-23",
@@ -9753,10 +7966,7 @@
       "accuracyRank": "SSS",
       "reloadSeconds": 1.5,
       "energy": 16,
-      "names": {
-        "en": "Laser Lance Σ",
-        "ja": "レーザーランスΣ"
-      }
+      "names": {"en": "Laser Lance Σ", "ja": "レーザーランスΣ"}
     },
     {
       "id": "ranger-missile-24",
@@ -9773,10 +7983,7 @@
       "homingRank": "C+",
       "radius": 10,
       "zoom": 6,
-      "names": {
-        "en": "Lucifer S",
-        "ja": "ルシフェルS"
-      }
+      "names": {"en": "Lucifer S", "ja": "ルシフェルS"}
     },
     {
       "id": "bomber-support-36",
@@ -9791,10 +7998,7 @@
       "durationSeconds": 120,
       "reloadSeconds": 20,
       "subCategory": "guard",
-      "names": {
-        "en": "Zone Protector ZM",
-        "ja": "ゾーンプロテクターZM"
-      }
+      "names": {"en": "Zone Protector ZM", "ja": "ゾーンプロテクターZM"}
     },
     {
       "id": "ranger-special-44",
@@ -9805,16 +8009,10 @@
       "level": 75,
       "damage": 400,
       "count": 30,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 4,
       "subCategory": "firecracker",
-      "names": {
-        "en": "Spread Grenade",
-        "ja": "スプレッド・グレネード"
-      }
+      "names": {"en": "Spread Grenade", "ja": "スプレッド・グレネード"}
     },
     {
       "id": "bomber-deploy-4",
@@ -9828,10 +8026,7 @@
       "radius": 17,
       "reloadSeconds": 3,
       "subCategory": "roomba",
-      "names": {
-        "en": "Roller Bomb DZ",
-        "ja": "ローラーボムDZ"
-      }
+      "names": {"en": "Roller Bomb DZ", "ja": "ローラーボムDZ"}
     },
     {
       "id": "bomber-satellite-17",
@@ -9846,10 +8041,7 @@
       "reload": 1600,
       "shots": 80,
       "zoom": 4,
-      "names": {
-        "en": "Spritefall Q",
-        "ja": "スプライトフォールQ"
-      }
+      "names": {"en": "Spritefall Q", "ja": "スプライトフォールQ"}
     },
     {
       "id": "ranger-special-62",
@@ -9866,10 +8058,7 @@
       "searchRange": 80,
       "shotTotal": 5000,
       "subCategory": "mine",
-      "names": {
-        "en": "Y21 Impulse",
-        "ja": "Y21インパルス"
-      }
+      "names": {"en": "Y21 Impulse", "ja": "Y21インパルス"}
     },
     {
       "id": "bomber-artillery-4",
@@ -9883,10 +8072,7 @@
       "credits": true,
       "reload": 3600,
       "shots": 10,
-      "names": {
-        "en": "Gigantic Howitzer",
-        "ja": "巨大榴弾砲〔砲兵隊〕"
-      }
+      "names": {"en": "Gigantic Howitzer", "ja": "巨大榴弾砲〔砲兵隊〕"}
     },
     {
       "id": "bomber-support-5",
@@ -9900,10 +8086,7 @@
       "radius": 25,
       "durationSeconds": 60,
       "subCategory": "life",
-      "names": {
-        "en": "Life Vendor ZD",
-        "ja": "ライフベンダーZD"
-      }
+      "names": {"en": "Life Vendor ZD", "ja": "ライフベンダーZD"}
     },
     {
       "id": "ranger-shotgun-7",
@@ -9919,10 +8102,7 @@
       "reloadSeconds": 8,
       "range": 150,
       "accuracyRank": "B-",
-      "names": {
-        "en": "SG-99MR",
-        "ja": "SG-99MR"
-      }
+      "names": {"en": "SG-99MR", "ja": "SG-99MR"}
     },
     {
       "id": "ranger-missile-10",
@@ -9937,10 +8117,7 @@
       "reloadSeconds": 2,
       "homingRank": "A+",
       "radius": 10,
-      "names": {
-        "en": "Emerald M-3",
-        "ja": "エメロードM-3"
-      }
+      "names": {"en": "Emerald M-3", "ja": "エメロードM-3"}
     },
     {
       "id": "winger-missile-11",
@@ -9955,10 +8132,7 @@
       "lockRange": 600,
       "homingRank": "A",
       "energy": 2.5,
-      "names": {
-        "en": "Mirage 15WR",
-        "ja": "ミラージュ15WR"
-      }
+      "names": {"en": "Mirage 15WR", "ja": "ミラージュ15WR"}
     },
     {
       "id": "bomber-planes-11",
@@ -9975,10 +8149,7 @@
       "count": null,
       "raidDirection": "後→前",
       "raidFormation": "直進",
-      "names": {
-        "en": "Strafing Attack Plan 1D",
-        "ja": "機銃掃射プラン1D〔爆撃機〕"
-      }
+      "names": {"en": "Strafing Attack Plan 1D", "ja": "機銃掃射プラン1D〔爆撃機〕"}
     },
     {
       "id": "bomber-guide-12",
@@ -9991,10 +8162,7 @@
       "range": 700,
       "zoom": 4,
       "subCategory": "beacon",
-      "names": {
-        "en": "Guide Beacon Gun MA",
-        "ja": "誘導ビーコンガンMA"
-      }
+      "names": {"en": "Guide Beacon Gun MA", "ja": "誘導ビーコンガンMA"}
     },
     {
       "id": "winger-particle-15",
@@ -10009,10 +8177,7 @@
       "range": 300,
       "accuracyRank": "A+",
       "energy": 1.2,
-      "names": {
-        "en": "Ixion Mk.X",
-        "ja": "イクシオン・マークX"
-      }
+      "names": {"en": "Ixion Mk.X", "ja": "イクシオン・マークX"}
     },
     {
       "id": "ranger-special-35",
@@ -10025,10 +8190,7 @@
       "zoom": 8,
       "damage": 2000,
       "subCategory": "reverser",
-      "names": {
-        "en": "Reverse Shooter X",
-        "ja": "リバースシューターX"
-      }
+      "names": {"en": "Reverse Shooter X", "ja": "リバースシューターX"}
     },
     {
       "id": "winger-electro-6",
@@ -10044,10 +8206,7 @@
       "accuracyRank": "A",
       "reloadSeconds": 3.5,
       "energy": 55,
-      "names": {
-        "en": "Idunn-FF",
-        "ja": "イズナ-FF"
-      }
+      "names": {"en": "Idunn-FF", "ja": "イズナ-FF"}
     },
     {
       "id": "bomber-limpet-10",
@@ -10061,10 +8220,7 @@
       "damage": 500,
       "reloadSeconds": 2.5,
       "radius": 8,
-      "names": {
-        "en": "Limpet Gun MT",
-        "ja": "リムペットガンMT"
-      }
+      "names": {"en": "Limpet Gun MT", "ja": "リムペットガンMT"}
     },
     {
       "id": "bomber-support-17",
@@ -10079,10 +8235,7 @@
       "durationSeconds": 90,
       "reloadSeconds": 45,
       "subCategory": "plasma",
-      "names": {
-        "en": "Plasma Charger ZM",
-        "ja": "プラズマチャージャーZM"
-      }
+      "names": {"en": "Plasma Charger ZM", "ja": "プラズマチャージャーZM"}
     },
     {
       "id": "bomber-satellite-21",
@@ -10097,10 +8250,7 @@
       "reload": 100,
       "shots": 1,
       "zoom": 4,
-      "names": {
-        "en": "Spritefall Mode β3",
-        "ja": "スプライトフォールModeβ3"
-      }
+      "names": {"en": "Spritefall Mode β3", "ja": "スプライトフォールModeβ3"}
     },
     {
       "id": "bomber-special-24",
@@ -10113,10 +8263,7 @@
       "hp": 60000,
       "reloadSeconds": 40,
       "subCategory": "defensive",
-      "names": {
-        "en": "Borderline",
-        "ja": "ボーダーライン"
-      }
+      "names": {"en": "Borderline", "ja": "ボーダーライン"}
     },
     {
       "id": "winger-short-29",
@@ -10133,10 +8280,7 @@
       "accuracyRank": "B",
       "reloadSeconds": 4,
       "energy": 26,
-      "names": {
-        "en": "Sacred Lance",
-        "ja": "ホーリーランス"
-      }
+      "names": {"en": "Sacred Lance", "ja": "ホーリーランス"}
     },
     {
       "id": "bomber-satellite-9",
@@ -10149,10 +8293,7 @@
       "reloadSeconds": 40,
       "shots": 600,
       "zoom": 4,
-      "names": {
-        "en": "Satellite Blaster Q",
-        "ja": "サテライトブラスターQ"
-      }
+      "names": {"en": "Satellite Blaster Q", "ja": "サテライトブラスターQ"}
     },
     {
       "id": "bomber-support-10",
@@ -10167,10 +8308,7 @@
       "durationSeconds": 10,
       "zoom": 4,
       "subCategory": "life",
-      "names": {
-        "en": "Life Spout Gun ZM",
-        "ja": "ライフスパウトガンZM"
-      }
+      "names": {"en": "Life Spout Gun ZM", "ja": "ライフスパウトガンZM"}
     },
     {
       "id": "bomber-deploy-18",
@@ -10185,10 +8323,7 @@
       "reloadSeconds": 20,
       "turretRange": 300,
       "subCategory": "turret",
-      "names": {
-        "en": "ZEXR-GUN",
-        "ja": "ZEXR-GUN"
-      }
+      "names": {"en": "ZEXR-GUN", "ja": "ZEXR-GUN"}
     },
     {
       "id": "bomber-limpet-23",
@@ -10202,10 +8337,7 @@
       "damage": 80,
       "count": 6,
       "reloadSeconds": 5,
-      "names": {
-        "en": "Splendor Shot AX",
-        "ja": "スプレンダー・ショットAX"
-      }
+      "names": {"en": "Splendor Shot AX", "ja": "スプレンダー・ショットAX"}
     },
     {
       "id": "bomber-special-8",
@@ -10219,10 +8351,7 @@
       "count": 16,
       "reloadSeconds": 6.7,
       "subCategory": "wire",
-      "names": {
-        "en": "Skytrap Wire 16W",
-        "ja": "スカイトラップ・ワイヤー16W"
-      }
+      "names": {"en": "Skytrap Wire 16W", "ja": "スカイトラップ・ワイヤー16W"}
     },
     {
       "id": "bomber-missile-11",
@@ -10238,10 +8367,7 @@
       "homingRank": "S",
       "zoom": 4,
       "shotTotal": 108000,
-      "names": {
-        "en": "Lionic 45",
-        "ja": "ライオニック45"
-      }
+      "names": {"en": "Lionic 45", "ja": "ライオニック45"}
     },
     {
       "id": "bomber-planes-12",
@@ -10258,10 +8384,7 @@
       "count": null,
       "raidDirection": "後→前",
       "raidFormation": "4並行",
-      "names": {
-        "en": "Strafing Attack Plan 4Z",
-        "ja": "機銃掃射プラン4Z〔爆撃機〕"
-      }
+      "names": {"en": "Strafing Attack Plan 4Z", "ja": "機銃掃射プラン4Z〔爆撃機〕"}
     },
     {
       "id": "winger-particle-16",
@@ -10276,10 +8399,7 @@
       "range": 300,
       "accuracyRank": "A+",
       "energy": 1.3,
-      "names": {
-        "en": "Luxard",
-        "ja": "ルクサード"
-      }
+      "names": {"en": "Luxard", "ja": "ルクサード"}
     },
     {
       "id": "winger-sniper-23",
@@ -10294,10 +8414,7 @@
       "accuracyRank": "S",
       "energy": 0.16,
       "zoom": 10,
-      "names": {
-        "en": "SIG Sniper",
-        "ja": "SIGスナイパー"
-      }
+      "names": {"en": "SIG Sniper", "ja": "SIGスナイパー"}
     },
     {
       "id": "winger-plasma-35",
@@ -10307,16 +8424,10 @@
       "category": "plasma",
       "level": 80,
       "damage": 3200,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 17,
       "reloadSeconds": 3,
-      "names": {
-        "en": "Plasma Grenade Σ",
-        "ja": "プラズマ・グレネードΣ"
-      }
+      "names": {"en": "Plasma Grenade Σ", "ja": "プラズマ・グレネードΣ"}
     },
     {
       "id": "ranger-special-37",
@@ -10326,17 +8437,11 @@
       "category": "special",
       "level": 80,
       "ammo": 3,
-      "damageRank": {
-        "ja": "ムズムズする？",
-        "en": "Itchy?"
-      },
+      "damageRank": {"ja": "ムズムズする？", "en": "Itchy?"},
       "reloadSeconds": 20,
       "zoom": 8,
       "subCategory": "acid",
-      "names": {
-        "en": "Bug Killer EX",
-        "ja": "殺虫スプレーEX"
-      }
+      "names": {"en": "Bug Killer EX", "ja": "殺虫スプレーEX"}
     },
     {
       "id": "winger-short-37",
@@ -10353,10 +8458,7 @@
       "accuracyRank": "A",
       "reloadSeconds": 1.5,
       "energy": 20,
-      "names": {
-        "en": "Spark Lance ZA",
-        "ja": "スパーク・ランスZA"
-      }
+      "names": {"en": "Spark Lance ZA", "ja": "スパーク・ランスZA"}
     },
     {
       "id": "bomber-guide-5",
@@ -10368,10 +8470,7 @@
       "range": 1000,
       "zoom": 4,
       "subCategory": "laser",
-      "names": {
-        "en": "Laser Guide Kit N1000",
-        "ja": "レーザー誘導装置N1000"
-      }
+      "names": {"en": "Laser Guide Kit N1000", "ja": "レーザー誘導装置N1000"}
     },
     {
       "id": "bomber-gunship-7",
@@ -10385,10 +8484,7 @@
       "reloadSeconds": 10,
       "shots": 200,
       "zoom": 4,
-      "names": {
-        "en": "Vulcan Cannon",
-        "ja": "バルカン砲〔攻撃機〕"
-      }
+      "names": {"en": "Vulcan Cannon", "ja": "バルカン砲〔攻撃機〕"}
     },
     {
       "id": "winger-laser-10",
@@ -10404,10 +8500,7 @@
       "accuracyRank": "S",
       "reloadSeconds": 4.5,
       "energy": 18,
-      "names": {
-        "en": "SIG-LAZR",
-        "ja": "SIG-LAZR"
-      }
+      "names": {"en": "SIG-LAZR", "ja": "SIG-LAZR"}
     },
     {
       "id": "ranger-missile-4",
@@ -10422,10 +8515,7 @@
       "lockRange": 710,
       "homingRank": "A",
       "radius": 40,
-      "names": {
-        "en": "Leviathan",
-        "ja": "リバイアサン"
-      }
+      "names": {"en": "Leviathan", "ja": "リバイアサン"}
     },
     {
       "id": "bomber-deploy-8",
@@ -10441,10 +8531,7 @@
       "reloadSeconds": 4,
       "zoom": 4,
       "subCategory": "patroller",
-      "names": {
-        "en": "Patroller DA",
-        "ja": "パトローラーDA"
-      }
+      "names": {"en": "Patroller DA", "ja": "パトローラーDA"}
     },
     {
       "id": "winger-short-11",
@@ -10461,10 +8548,7 @@
       "accuracyRank": "B-",
       "reloadSeconds": 0.5,
       "energy": 26,
-      "names": {
-        "en": "Master Rapier T",
-        "ja": "マスター・レイピアT"
-      }
+      "names": {"en": "Master Rapier T", "ja": "マスター・レイピアT"}
     },
     {
       "id": "winger-electro-14",
@@ -10481,10 +8565,7 @@
       "accuracyRank": "C",
       "reloadSeconds": 2.7,
       "energy": 55,
-      "names": {
-        "en": "Thunder Bow XD",
-        "ja": "サンダーボウXD"
-      }
+      "names": {"en": "Thunder Bow XD", "ja": "サンダーボウXD"}
     },
     {
       "id": "bomber-special-14",
@@ -10498,10 +8579,7 @@
       "durationSeconds": 90,
       "reloadSeconds": 30,
       "subCategory": "decoy",
-      "names": {
-        "en": "Decoy Type AB",
-        "ja": "デコイ-AB型"
-      }
+      "names": {"en": "Decoy Type AB", "ja": "デコイ-AB型"}
     },
     {
       "id": "ranger-shotgun-19",
@@ -10517,10 +8595,7 @@
       "reloadSeconds": 6,
       "range": 180,
       "accuracyRank": "B-",
-      "names": {
-        "en": "Sparrow Buster",
-        "ja": "スパローバスター"
-      }
+      "names": {"en": "Sparrow Buster", "ja": "スパローバスター"}
     },
     {
       "id": "bomber-satellite-23",
@@ -10534,10 +8609,7 @@
       "reload": 5000,
       "shots": 200,
       "zoom": 4,
-      "names": {
-        "en": "Laguna Blaster",
-        "ja": "ラグナブラスター"
-      }
+      "names": {"en": "Laguna Blaster", "ja": "ラグナブラスター"}
     },
     {
       "id": "ranger-assault-25",
@@ -10552,10 +8624,7 @@
       "reloadSeconds": 3,
       "range": 500,
       "accuracyRank": "A++",
-      "names": {
-        "en": "AS-DD",
-        "ja": "AS-DD"
-      }
+      "names": {"en": "AS-DD", "ja": "AS-DD"}
     },
     {
       "id": "bomber-gunship-26",
@@ -10569,10 +8638,7 @@
       "reloadSeconds": 3,
       "shots": 1,
       "zoom": 4,
-      "names": {
-        "en": "150mm Cannon Q",
-        "ja": "150ミリ砲Q〔攻撃機〕"
-      }
+      "names": {"en": "150mm Cannon Q", "ja": "150ミリ砲Q〔攻撃機〕"}
     },
     {
       "id": "ranger-special-29",
@@ -10581,16 +8647,11 @@
       "character": "ranger",
       "category": "special",
       "level": 82,
-      "damageRank": {
-        "ja": "RANK-X"
-      },
+      "damageRank": {"ja": "RANK-X"},
       "ammo": 10,
       "total": "~5400",
       "subCategory": "reverser",
-      "names": {
-        "en": "Aerial Reverser X",
-        "ja": "エリアルリバーサーX"
-      }
+      "names": {"en": "Aerial Reverser X", "ja": "エリアルリバーサーX"}
     },
     {
       "id": "bomber-missile-5",
@@ -10606,10 +8667,7 @@
       "homingRank": "S",
       "zoom": 4,
       "shotTotal": 48000,
-      "names": {
-        "en": "N7 Cruise Missile",
-        "ja": "N7巡航ミサイル"
-      }
+      "names": {"en": "N7 Cruise Missile", "ja": "N7巡航ミサイル"}
     },
     {
       "id": "bomber-artillery-9",
@@ -10623,10 +8681,7 @@
       "credits": true,
       "reload": 2400,
       "shots": 20,
-      "names": {
-        "en": "Cannon D",
-        "ja": "カノン砲D〔砲兵隊〕"
-      }
+      "names": {"en": "Cannon D", "ja": "カノン砲D〔砲兵隊〕"}
     },
     {
       "id": "bomber-limpet-11",
@@ -10640,10 +8695,7 @@
       "damage": 2000,
       "reloadSeconds": 5,
       "radius": 15,
-      "names": {
-        "en": "Limpet Heavy Gun",
-        "ja": "リムペット・ヘビーガン"
-      }
+      "names": {"en": "Limpet Heavy Gun", "ja": "リムペット・ヘビーガン"}
     },
     {
       "id": "bomber-planes-23",
@@ -10660,10 +8712,7 @@
       "count": null,
       "raidDirection": "斜後→斜前 扇型",
       "raidFormation": "4連続 発煙筒上空で交差",
-      "names": {
-        "en": "Air Strike Plan 4Z",
-        "ja": "爆撃プラン4Z〔爆撃機〕"
-      }
+      "names": {"en": "Air Strike Plan 4Z", "ja": "爆撃プラン4Z〔爆撃機〕"}
     },
     {
       "id": "bomber-support-26",
@@ -10678,10 +8727,7 @@
       "durationSeconds": 90,
       "reloadSeconds": 20,
       "subCategory": "power",
-      "names": {
-        "en": "Post Post ZM",
-        "ja": "パワーポストZM"
-      }
+      "names": {"en": "Post Post ZM", "ja": "パワーポストZM"}
     },
     {
       "id": "ranger-sniper-11",
@@ -10697,10 +8743,7 @@
       "range": 1000,
       "accuracyRank": "SSS",
       "zoom": 10,
-      "names": {
-        "en": "Hercules",
-        "ja": "ハーキュリー"
-      }
+      "names": {"en": "Hercules", "ja": "ハーキュリー"}
     },
     {
       "id": "bomber-gunship-17",
@@ -10714,10 +8757,7 @@
       "reloadSeconds": 17,
       "shots": 30,
       "zoom": 4,
-      "names": {
-        "en": "120mm Cannon Q",
-        "ja": "120ミリ砲Q〔攻撃機〕"
-      }
+      "names": {"en": "120mm Cannon Q", "ja": "120ミリ砲Q〔攻撃機〕"}
     },
     {
       "id": "bomber-limpet-24",
@@ -10731,10 +8771,7 @@
       "damage": 60,
       "count": 8,
       "reloadSeconds": 1.7,
-      "names": {
-        "en": "Limpet Splendor ZD",
-        "ja": "リムペット・スプレンダーZD"
-      }
+      "names": {"en": "Limpet Splendor ZD", "ja": "リムペット・スプレンダーZD"}
     },
     {
       "id": "bomber-support-21",
@@ -10750,10 +8787,7 @@
       "reloadSeconds": 60,
       "zoom": 12,
       "subCategory": "plasma",
-      "names": {
-        "en": "Plasma Battery Gun ZM",
-        "ja": "プラズマバッテリーガンZM"
-      }
+      "names": {"en": "Plasma Battery Gun ZM", "ja": "プラズマバッテリーガンZM"}
     },
     {
       "id": "winger-special-9",
@@ -10769,10 +8803,7 @@
       "attackDirection": "特殊",
       "reloadSeconds": 60,
       "energy": 45,
-      "names": {
-        "en": "Final Days",
-        "ja": "エンドオブアース"
-      }
+      "names": {"en": "Final Days", "ja": "エンドオブアース"}
     },
     {
       "id": "winger-special-13",
@@ -10787,10 +8818,7 @@
       "attackDirection": "全方位",
       "reloadSeconds": 80,
       "energy": 240,
-      "names": {
-        "en": "Thunder Orb",
-        "ja": "サンダーオーブ"
-      }
+      "names": {"en": "Thunder Orb", "ja": "サンダーオーブ"}
     },
     {
       "id": "bomber-missile-17",
@@ -10806,10 +8834,7 @@
       "shots": 1,
       "homingRank": "B",
       "zoom": 4,
-      "names": {
-        "en": "Tempest S1A",
-        "ja": "テンペストS1A"
-      }
+      "names": {"en": "Tempest S1A", "ja": "テンペストS1A"}
     },
     {
       "id": "ranger-shotgun-25",
@@ -10824,10 +8849,7 @@
       "reloadSeconds": 3,
       "range": 90,
       "accuracyRank": "A",
-      "names": {
-        "en": "Slug Shot EA",
-        "ja": "スラッグショットEA"
-      }
+      "names": {"en": "Slug Shot EA", "ja": "スラッグショットEA"}
     },
     {
       "id": "winger-plasma-26",
@@ -10843,10 +8865,7 @@
       "radius": 30,
       "accuracyRank": "A",
       "energy": 75,
-      "names": {
-        "en": "Plasmafall Σ",
-        "ja": "プラズマ・フォールΣ"
-      }
+      "names": {"en": "Plasmafall Σ", "ja": "プラズマ・フォールΣ"}
     },
     {
       "id": "winger-short-30",
@@ -10863,10 +8882,7 @@
       "accuracyRank": "SSS",
       "reloadSeconds": 3,
       "energy": 30,
-      "names": {
-        "en": "Luonottar",
-        "ja": "ルオンノタル"
-      }
+      "names": {"en": "Luonottar", "ja": "ルオンノタル"}
     },
     {
       "id": "bomber-special-25",
@@ -10879,10 +8895,7 @@
       "hp": 100000,
       "reloadSeconds": 40,
       "subCategory": "defensive",
-      "names": {
-        "en": "Electromagnetic Wall",
-        "ja": "電磁城壁"
-      }
+      "names": {"en": "Electromagnetic Wall", "ja": "電磁城壁"}
     },
     {
       "id": "bomber-limpet-12",
@@ -10896,10 +8909,7 @@
       "damage": 400,
       "reloadSeconds": 1.5,
       "radius": 4,
-      "names": {
-        "en": "Limpet Chain Gun ZD",
-        "ja": "リムペット・チェーンガンZD"
-      }
+      "names": {"en": "Limpet Chain Gun ZD", "ja": "リムペット・チェーンガンZD"}
     },
     {
       "id": "bomber-special-26",
@@ -10912,10 +8922,7 @@
       "hp": 30000,
       "reloadSeconds": 30,
       "subCategory": "defensive",
-      "names": {
-        "en": "Absolute Bunker",
-        "ja": "アブソリュートトーチカ"
-      }
+      "names": {"en": "Absolute Bunker", "ja": "アブソリュートトーチカ"}
     },
     {
       "id": "ranger-shotgun-8",
@@ -10931,10 +8938,7 @@
       "reloadSeconds": 6,
       "range": 130,
       "accuracyRank": "B",
-      "names": {
-        "en": "SG-100",
-        "ja": "SG-100"
-      }
+      "names": {"en": "SG-100", "ja": "SG-100"}
     },
     {
       "id": "ranger-assault-10",
@@ -10950,10 +8954,7 @@
       "range": 192,
       "accuracyRank": "A+",
       "zoom": 2,
-      "names": {
-        "en": "AS-100F",
-        "ja": "AS-100F"
-      }
+      "names": {"en": "AS-100F", "ja": "AS-100F"}
     },
     {
       "id": "ranger-sniper-16",
@@ -10969,10 +8970,7 @@
       "range": 1000,
       "accuracyRank": "SSS",
       "zoom": 10,
-      "names": {
-        "en": "Lysander Z",
-        "ja": "ライサンダーZ"
-      }
+      "names": {"en": "Lysander Z", "ja": "ライサンダーZ"}
     },
     {
       "id": "ranger-missile-19",
@@ -10987,10 +8985,7 @@
       "homingRank": "C+",
       "radius": 25,
       "zoom": 6,
-      "names": {
-        "en": "Prominence 3",
-        "ja": "プロミネンス3"
-      }
+      "names": {"en": "Prominence 3", "ja": "プロミネンス3"}
     },
     {
       "id": "winger-short-24",
@@ -11006,10 +9001,7 @@
       "accuracyRank": "SSS",
       "reloadSeconds": 1.5,
       "energy": 25,
-      "names": {
-        "en": "Hreimdarr",
-        "ja": "フレイドマル"
-      }
+      "names": {"en": "Hreimdarr", "ja": "フレイドマル"}
     },
     {
       "id": "winger-plasma-12",
@@ -11024,10 +9016,7 @@
       "radius": 25,
       "accuracyRank": "B",
       "energy": 15,
-      "names": {
-        "en": "RZR Plasma Launcher",
-        "ja": "RZRプラズマ・ランチャー"
-      }
+      "names": {"en": "RZR Plasma Launcher", "ja": "RZRプラズマ・ランチャー"}
     },
     {
       "id": "winger-sniper-13",
@@ -11041,10 +9030,7 @@
       "accuracyRank": "A++",
       "energy": 720,
       "zoom": 12,
-      "names": {
-        "en": "Gungnir",
-        "ja": "グングニル"
-      }
+      "names": {"en": "Gungnir", "ja": "グングニル"}
     },
     {
       "id": "ranger-rocket-20",
@@ -11061,10 +9047,7 @@
       "range": 900,
       "accuracyRank": "A",
       "radius": 16,
-      "names": {
-        "en": "Volcano-6W",
-        "ja": "ボルケーノ-6W"
-      }
+      "names": {"en": "Volcano-6W", "ja": "ボルケーノ-6W"}
     },
     {
       "id": "ranger-shotgun-13",
@@ -11080,10 +9063,7 @@
       "reloadSeconds": 5,
       "range": 150,
       "accuracyRank": "E",
-      "names": {
-        "en": "Buffalo",
-        "ja": "バッファロー"
-      }
+      "names": {"en": "Buffalo", "ja": "バッファロー"}
     },
     {
       "id": "ranger-grenade-24",
@@ -11097,16 +9077,10 @@
       "damage": 2000,
       "count": 2,
       "reloadSeconds": 6,
-      "fuseType": {
-        "ja": "接触",
-        "en": "contact"
-      },
+      "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 20,
       "subCategory": "gl",
-      "names": {
-        "en": "G Launcher UM-V2",
-        "ja": "GランチャーUM-V2"
-      }
+      "names": {"en": "G Launcher UM-V2", "ja": "GランチャーUM-V2"}
     },
     {
       "id": "bomber-satellite-25",
@@ -11119,10 +9093,7 @@
       "credits": true,
       "reload": 8000,
       "zoom": 4,
-      "names": {
-        "en": "Divine Edict",
-        "ja": "ルール オブ ゴッド"
-      }
+      "names": {"en": "Divine Edict", "ja": "ルール オブ ゴッド"}
     },
     {
       "id": "winger-special-18",
@@ -11136,10 +9107,7 @@
       "attackDirection": "下方",
       "reloadSeconds": 40,
       "energy": 300,
-      "names": {
-        "en": "Armageddon Cluster",
-        "ja": "アルマゲドン・クラスター"
-      }
+      "names": {"en": "Armageddon Cluster", "ja": "アルマゲドン・クラスター"}
     },
     {
       "id": "ranger-rocket-22",
@@ -11155,10 +9123,7 @@
       "range": 1600,
       "accuracyRank": "B+",
       "radius": 70,
-      "names": {
-        "en": "Genocide Cannon",
-        "ja": "ジェノサイド砲"
-      }
+      "names": {"en": "Genocide Cannon", "ja": "ジェノサイド砲"}
     }
   ],
   "modes": [
@@ -11166,58 +9131,17 @@
       "name": "ON",
       "missions": 78,
       "difficulties": [
-        {
-          "name": "Easy",
-          "weaponLimits": [
-            1,
-            25
-          ],
-          "armorLimits": [
-            400,
-            1500
-          ]
-        },
-        {
-          "name": "Normal",
-          "weaponLimits": [
-            1,
-            25
-          ],
-          "armorLimits": [
-            400,
-            1500
-          ]
-        },
-        {
-          "name": "Hard",
-          "weaponLimits": [
-            25,
-            50
-          ],
-          "armorLimits": [
-            1500,
-            3000
-          ]
-        },
+        {"name": "Easy", "weaponLimits": [1, 25], "armorLimits": [400, 1500]},
+        {"name": "Normal", "weaponLimits": [1, 25], "armorLimits": [400, 1500]},
+        {"name": "Hard", "weaponLimits": [25, 50], "armorLimits": [1500, 3000]},
         {
           "name": "Hardest",
-          "weaponLimits": [
-            50,
-            75
-          ],
-          "armorLimits": [
-            3000,
-            4000
-          ]
+          "weaponLimits": [50, 75],
+          "armorLimits": [3000, 4000]
         },
         {
           "name": "Inferno",
-          "weaponLimits": [
-            75,
-            100,
-            null,
-            null
-          ],
+          "weaponLimits": [75, 100, null, null],
           "armorLimits": null
         }
       ]

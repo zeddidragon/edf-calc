@@ -992,7 +992,7 @@ const headers = [{
       return display
     }
     el.classList.add(difficulty.name)
-    el.textContent = display 
+    el.textContent = display
     return el
   },
 }, {
@@ -1021,13 +1021,13 @@ const headers = [{
       if(tag === 'reload_quick') {
         // Ignore
       } else if(tag === 'reload_none') {
-        // Ignore
+        acc.push('Cannot Reload')
       } else if(tag === 'reload_auto') {
         // Ignore
       } else if(tag === 'burst') {
-        acc.push('Burst Fire')
+        acc.push('Burst')
       } else if(tag === 'delay') {
-        acc.push('Delayed Trigger')
+        acc.push('Windup')
       } else if(tag === 'bouncing') {
         acc.push('Shots Bounce')
       } else if(tag === 'growth_range') {
@@ -1037,7 +1037,7 @@ const headers = [{
       } else if(tag === 'scope') {
         acc.push('Scope')
       } else if(tag === 'roulette') {
-        acc.push(`Roulette: ${wpn.crit_chance}% of ${wpn.crit_damage}`)
+        acc.push(`${wpn.crit_chance}% of ${wpn.crit_damage}`)
       } else {
         acc.push(tag)
       }

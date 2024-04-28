@@ -939,6 +939,7 @@ const headers = [{
   id: 'stars',
   label: '★',
   tooltip: 'Max Rank',
+  iff: () => gameHasStars(),
   cb: wpn => {
     if(!wpn.id) {
       return ''
@@ -1291,6 +1292,10 @@ const headers = [{
     if(wpn.rof) {
       return wpn.rof
     }
+    const rof = +(FPS / (wpn.interval || 1)).toFixed(2)
+    if(wpn.category === 'grenade' && !wpn.reload) {
+      return rof
+    }
     if((wpn.ammo || 1) < 2 && wpn.reload < FPS) {
       return (FPS / wpn.reload).toFixed(1)
     }
@@ -1314,7 +1319,6 @@ const headers = [{
       const rof = FPS / ((wpn.burst - 1) * wpn.burstRate + wpn.interval)
       return `${+rof.toFixed(2)} x ${wpn.burst}`
     }
-    const rof = +(FPS / (wpn.interval || 1)).toFixed(2)
     if(rof === Infinity) {
       return '-'
     }

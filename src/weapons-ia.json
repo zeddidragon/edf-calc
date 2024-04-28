@@ -1,27 +1,12 @@
 {
-  "langs": [
-    "en"
-  ],
-  "classes": [
-    "fencer",
-    "winger",
-    "bomber",
-    "ranger"
-  ],
-  "charLabels": [
-    "Battle",
-    "Jet",
-    "Tactical",
-    "Trooper"
-  ],
+  "langs": ["en"],
+  "classes": ["fencer", "winger", "bomber", "ranger"],
+  "charLabels": ["Battle", "Jet", "Tactical", "Trooper"],
   "headers": {
     "ranger": [
       {
         "category": "assault",
-        "names": {
-          "en": "Assault Rifle",
-          "ja": "アサルトライフル"
-        },
+        "names": {"en": "Assault Rifle", "ja": "アサルトライフル"},
         "headers": [
           "checkbox",
           "unlock",
@@ -38,10 +23,7 @@
       },
       {
         "category": "shotgun",
-        "names": {
-          "en": "Shotguns",
-          "ja": "ショットガン"
-        },
+        "names": {"en": "Shotguns", "ja": "ショットガン"},
         "headers": [
           "checkbox",
           "unlock",
@@ -58,10 +40,7 @@
       },
       {
         "category": "sniper",
-        "names": {
-          "en": "Sniper Rifles",
-          "ja": "スナイパーライフル"
-        },
+        "names": {"en": "Sniper Rifles", "ja": "スナイパーライフル"},
         "headers": [
           "checkbox",
           "unlock",
@@ -78,10 +57,7 @@
       },
       {
         "category": "rocket",
-        "names": {
-          "en": "Rocket Launchers",
-          "ja": "ロケットランチャー"
-        },
+        "names": {"en": "Rocket Launchers", "ja": "ロケットランチャー"},
         "headers": [
           "checkbox",
           "unlock",
@@ -99,10 +75,7 @@
       },
       {
         "category": "grenade",
-        "names": {
-          "en": "Grenade Launchers",
-          "ja": "グレネードランチャー"
-        },
+        "names": {"en": "Grenade Launchers", "ja": "グレネードランチャー"},
         "headers": [
           "checkbox",
           "unlock",
@@ -120,10 +93,7 @@
       },
       {
         "category": "missile",
-        "names": {
-          "en": "Missile Launchers",
-          "ja": "戦術アイテム"
-        },
+        "names": {"en": "Missile Launchers", "ja": "戦術アイテム"},
         "headers": [
           "checkbox",
           "unlock",
@@ -143,10 +113,7 @@
     "winger": [
       {
         "category": "assault",
-        "names": {
-          "en": "Assault Rifle",
-          "ja": "アサルトライフル"
-        },
+        "names": {"en": "Assault Rifle", "ja": "アサルトライフル"},
         "headers": [
           "checkbox",
           "unlock",
@@ -163,10 +130,7 @@
       },
       {
         "category": "sniper",
-        "names": {
-          "en": "Sniper Rifles",
-          "ja": "スナイパーライフル"
-        },
+        "names": {"en": "Sniper Rifles", "ja": "スナイパーライフル"},
         "headers": [
           "checkbox",
           "unlock",
@@ -183,10 +147,7 @@
       },
       {
         "category": "rocket",
-        "names": {
-          "en": "Rocket Launchers",
-          "ja": "ロケットランチャー"
-        },
+        "names": {"en": "Rocket Launchers", "ja": "ロケットランチャー"},
         "headers": [
           "checkbox",
           "unlock",
@@ -204,10 +165,7 @@
       },
       {
         "category": "grenade",
-        "names": {
-          "en": "Grenade Launchers",
-          "ja": "グレネードランチャー"
-        },
+        "names": {"en": "Grenade Launchers", "ja": "グレネードランチャー"},
         "headers": [
           "checkbox",
           "unlock",
@@ -225,10 +183,7 @@
       },
       {
         "category": "missile",
-        "names": {
-          "en": "Missile Launchers",
-          "ja": "戦術アイテム"
-        },
+        "names": {"en": "Missile Launchers", "ja": "戦術アイテム"},
         "headers": [
           "checkbox",
           "unlock",
@@ -248,10 +203,7 @@
     "fencer": [
       {
         "category": "assault",
-        "names": {
-          "en": "Assault Rifle",
-          "ja": "アサルトライフル"
-        },
+        "names": {"en": "Assault Rifle", "ja": "アサルトライフル"},
         "headers": [
           "checkbox",
           "unlock",
@@ -268,10 +220,7 @@
       },
       {
         "category": "shotgun",
-        "names": {
-          "en": "Shotguns",
-          "ja": "ショットガン"
-        },
+        "names": {"en": "Shotguns", "ja": "ショットガン"},
         "headers": [
           "checkbox",
           "unlock",
@@ -288,10 +237,7 @@
       },
       {
         "category": "rocket",
-        "names": {
-          "en": "Rocket Launchers",
-          "ja": "ロケットランチャー"
-        },
+        "names": {"en": "Rocket Launchers", "ja": "ロケットランチャー"},
         "headers": [
           "checkbox",
           "unlock",
@@ -309,10 +255,7 @@
       },
       {
         "category": "grenade",
-        "names": {
-          "en": "Grenade Launchers",
-          "ja": "グレネードランチャー"
-        },
+        "names": {"en": "Grenade Launchers", "ja": "グレネードランチャー"},
         "headers": [
           "checkbox",
           "unlock",
@@ -330,10 +273,7 @@
       },
       {
         "category": "missile",
-        "names": {
-          "en": "Missile Launchers",
-          "ja": "戦術アイテム"
-        },
+        "names": {"en": "Missile Launchers", "ja": "戦術アイテム"},
         "headers": [
           "checkbox",
           "unlock",
@@ -353,10 +293,7 @@
     "bomber": [
       {
         "category": "assault",
-        "names": {
-          "en": "Assault Rifle",
-          "ja": "アサルトライフル"
-        },
+        "names": {"en": "Assault Rifle", "ja": "アサルトライフル"},
         "headers": [
           "checkbox",
           "unlock",
@@ -373,10 +310,7 @@
       },
       {
         "category": "shotgun",
-        "names": {
-          "en": "Shotguns",
-          "ja": "ショットガン"
-        },
+        "names": {"en": "Shotguns", "ja": "ショットガン"},
         "headers": [
           "checkbox",
           "unlock",
@@ -393,10 +327,7 @@
       },
       {
         "category": "rocket",
-        "names": {
-          "en": "Rocket Launchers",
-          "ja": "ロケットランチャー"
-        },
+        "names": {"en": "Rocket Launchers", "ja": "ロケットランチャー"},
         "headers": [
           "checkbox",
           "unlock",
@@ -414,10 +345,7 @@
       },
       {
         "category": "grenade",
-        "names": {
-          "en": "Grenade Launchers",
-          "ja": "グレネードランチャー"
-        },
+        "names": {"en": "Grenade Launchers", "ja": "グレネードランチャー"},
         "headers": [
           "checkbox",
           "unlock",
@@ -435,10 +363,7 @@
       },
       {
         "category": "missile",
-        "names": {
-          "en": "Missile Launchers",
-          "ja": "戦術アイテム"
-        },
+        "names": {"en": "Missile Launchers", "ja": "戦術アイテム"},
         "headers": [
           "checkbox",
           "unlock",
@@ -456,10 +381,7 @@
       },
       {
         "category": "deploy",
-        "names": {
-          "en": "Tactical Equipment",
-          "ja": "戦術アイテム"
-        },
+        "names": {"en": "Tactical Equipment", "ja": "戦術アイテム"},
         "headers": [
           "checkbox",
           "level",
@@ -5307,37 +5229,11 @@
       "name": "ON",
       "missions": 15,
       "difficulties": [
-        {
-          "name": "Easy",
-          "weaponLimits": [
-            0,
-            1
-          ]
-        },
-        {
-          "name": "Normal",
-          "weaponLimits": [
-            2,
-            3
-          ]
-        },
-        {
-          "name": "Hard",
-          "weaponLimits": [
-            4,
-            5
-          ]
-        },
-        {
-          "name": "Hardest",
-          "weaponLimits": [
-            6,
-            7
-          ]
-        },
-        {
-          "name": "Inferno"
-        }
+        {"name": "Easy", "weaponLimits": [0, 1]},
+        {"name": "Normal", "weaponLimits": [2, 3]},
+        {"name": "Hard", "weaponLimits": [4, 5]},
+        {"name": "Hardest", "weaponLimits": [6, 7]},
+        {"name": "Inferno"}
       ]
     }
   ]

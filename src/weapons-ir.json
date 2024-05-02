@@ -34,6 +34,7 @@
           "remarks",
           "ammo",
           "damage",
+          "radius",
           "interval",
           "reload",
           "reloadQuick",
@@ -677,7 +678,7 @@
       "tags": ["roulette"],
       "crit_chance": 1,
       "crit_damage": 1500,
-      "area": 5,
+      "radius": 5,
       "fear": 10
     },
     {
@@ -697,7 +698,7 @@
       "tags": ["roulette"],
       "crit_chance": 10,
       "crit_damage": 200,
-      "area": 2,
+      "radius": 2,
       "fear": 5
     },
     {
@@ -717,7 +718,7 @@
       "tags": ["scope", "roulette"],
       "crit_chance": 0.1,
       "crit_damage": 33000,
-      "area": 7,
+      "radius": 7,
       "fear": 12
     },
     {
@@ -737,7 +738,7 @@
       "tags": ["roulette"],
       "crit_chance": 25,
       "crit_damage": 180,
-      "area": 0.5,
+      "radius": 0.5,
       "fear": 3
     },
     {
@@ -757,7 +758,7 @@
       "tags": ["roulette"],
       "crit_chance": 1,
       "crit_damage": 6000,
-      "area": 7,
+      "radius": 7,
       "fear": 12
     },
     {
@@ -774,7 +775,7 @@
       "reloadSeconds": 3,
       "rof": 1.5,
       "type": "Sparrow",
-      "accuracyRank": "↔"
+      "accuracyRank": "Horizontal"
     },
     {
       "id": "weapon-shotgun-2",
@@ -790,7 +791,7 @@
       "reloadSeconds": 15,
       "rof": 1,
       "type": "Sparrow",
-      "accuracyRank": "↕",
+      "accuracyRank": "Vertical",
       "tags": ["scope"]
     },
     {
@@ -807,7 +808,7 @@
       "reloadSeconds": 6,
       "rof": 1,
       "type": "Sparrow",
-      "accuracyRank": "↔",
+      "accuracyRank": "Horizontal",
       "burstRange": 30,
       "tags": ["delay_burst"]
     },
@@ -825,7 +826,7 @@
       "reloadSeconds": 4.5,
       "rof": 0.5,
       "type": "Sparrow",
-      "accuracyRank": "↕",
+      "accuracyRank": "Vertical",
       "tags": ["reload_quick"]
     },
     {
@@ -842,7 +843,7 @@
       "reloadSeconds": 10,
       "rof": 1,
       "type": "Sparrow",
-      "accuracyRank": "↔",
+      "accuracyRank": "Horizontal",
       "tags": ["reload_auto", "pushback"]
     },
     {
@@ -859,7 +860,7 @@
       "reloadSeconds": 7,
       "rof": 1.5,
       "type": "Sparrow Split Tongue",
-      "accuracyRank": "↔"
+      "accuracyRank": "Horizontal"
     },
     {
       "id": "weapon-shotgun-7",
@@ -875,7 +876,7 @@
       "reloadSeconds": 14,
       "rof": 3,
       "type": "Peacock",
-      "accuracyRank": "○"
+      "accuracyRank": "Circle"
     },
     {
       "id": "weapon-shotgun-8",
@@ -891,7 +892,7 @@
       "reloadSeconds": 12,
       "rof": 5,
       "type": "Peacock",
-      "accuracyRank": "○"
+      "accuracyRank": "Circle"
     },
     {
       "id": "weapon-shotgun-9",
@@ -907,7 +908,7 @@
       "reloadSeconds": 24,
       "rof": 4,
       "type": "Peacock",
-      "accuracyRank": "○",
+      "accuracyRank": "Circle",
       "tags": ["reload_quick", "growth_range", "growth_damage"]
     },
     {
@@ -924,7 +925,7 @@
       "reloadSeconds": 10,
       "rof": 1,
       "type": "Peacock",
-      "accuracyRank": "○",
+      "accuracyRank": "Circle",
       "tags": ["delay"]
     },
     {
@@ -941,7 +942,7 @@
       "reloadSeconds": 15,
       "rof": 3,
       "type": "Peacock Argus",
-      "accuracyRank": "○",
+      "accuracyRank": "Circle",
       "burstRange": 30,
       "tags": ["delay", "delay_burst"]
     },
@@ -1020,6 +1021,60 @@
       "rof": 0.3,
       "type": "Sparrow",
       "accuracyRank": "A"
+    },
+    {
+      "id": "weapon-shotgun-17",
+      "character": "weapons",
+      "level": 1,
+      "category": "shotgun",
+      "name": "PC-Puncher",
+      "rank": "D",
+      "damage": 62,
+      "count": 15,
+      "ammo": 5,
+      "range": 50,
+      "reloadSeconds": 5,
+      "rof": 1.5,
+      "type": "Peacock",
+      "accuracyRank": "Horizontal",
+      "tags": ["puncher"],
+      "radius": 2
+    },
+    {
+      "id": "weapon-shotgun-18",
+      "character": "weapons",
+      "level": 2,
+      "category": "shotgun",
+      "name": "PC-Hard Puncher",
+      "rank": "C",
+      "damage": 93,
+      "count": 15,
+      "ammo": 5,
+      "range": 50,
+      "reloadSeconds": 5,
+      "rof": 1.5,
+      "type": "Peacock",
+      "accuracyRank": "Horizontal",
+      "tags": ["puncher"],
+      "radius": 6
+    },
+    {
+      "id": "weapon-shotgun-19",
+      "character": "weapons",
+      "level": 3,
+      "category": "shotgun",
+      "name": "PC-Tycoon",
+      "rank": "B",
+      "damage": 102,
+      "count": 15,
+      "ammo": 5,
+      "range": 100,
+      "reloadSeconds": 5,
+      "rof": 1.5,
+      "type": "Peacock",
+      "accuracyRank": "Circle",
+      "tags": ["bouncing", "puncher"],
+      "radius": 4
     }
   ],
   "modes": [

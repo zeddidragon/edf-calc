@@ -1027,7 +1027,7 @@ const headers = [{
       } else if(tag === 'burst') {
         acc.push('Burst')
       } else if(tag === 'delay_burst') {
-        acc.push(`+100% dmg ${wpn.burstRange}m`)
+        acc.push(`+100% Dmg ${wpn.burstRange}m`)
       } else if(tag === 'delay') {
         acc.push('Windup')
       } else if(tag === 'bouncing') {
@@ -1042,6 +1042,8 @@ const headers = [{
         acc.push('Scope')
       } else if(tag === 'roulette') {
         acc.push(`${wpn.crit_chance}% of ${wpn.crit_damage}`)
+      } else if(tag === 'puncher') {
+        acc.push('Explodes Ground')
       } else {
         acc.push(tag)
       }
@@ -1422,7 +1424,16 @@ const headers = [{
   starProp: 'accuracy',
   cb: wpn => {
     if(wpn.accuracyRank) {
-      return wpn.accuracyRank
+      switch(wpn.accuracyRank) {
+        case 'Horizontal':
+          return '↔'
+        case 'Vertical':
+          return '↕'
+        case 'Circle':
+          return '○'
+        default:
+          return wpn.accuracyRank
+      }
     }
     if(!wpn.speed) return '-'
     if(wpn.accuracy == null) return '-'

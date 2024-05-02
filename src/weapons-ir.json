@@ -1141,6 +1141,36 @@
       "type": "Sparrow",
       "accuracyRank": "Horizontal",
       "tags": ["reload_none", "recoil"]
+    },
+    {
+      "id": "weapon-shotgun-23",
+      "character": "weapons",
+      "level": 1,
+      "category": "shotgun",
+      "name": "PC-Green Cross",
+      "rank": "D",
+      "damage": 1000,
+      "ammo": 40,
+      "range": 80,
+      "rof": 1,
+      "type": "Peacock",
+      "accuracyRank": "AA",
+      "tags": ["healing", "reload_none"]
+    },
+    {
+      "id": "weapon-shotgun-24",
+      "character": "weapons",
+      "level": 2,
+      "category": "shotgun",
+      "name": "PC-Green Megacross",
+      "rank": "C",
+      "damage": 10000,
+      "ammo": 10,
+      "range": 80,
+      "rof": 1,
+      "type": "Peacock",
+      "accuracyRank": "AA",
+      "tags": ["healing", "reload_none"]
     }
   ],
   "modes": [

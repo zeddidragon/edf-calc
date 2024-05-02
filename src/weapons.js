@@ -1046,6 +1046,8 @@ const headers = [{
         acc.push('Explodes Ground')
       } else if(tag === 'recoil') {
         acc.push('Recoil')
+      } else if(tag === 'healing') {
+        acc.push('Heals')
       } else {
         acc.push(tag)
       }

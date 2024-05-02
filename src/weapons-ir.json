@@ -774,7 +774,7 @@
       "reloadSeconds": 3,
       "rof": 1.5,
       "type": "Sparrow",
-      "accuracyRank": "Horizontal"
+      "accuracyRank": "↔"
     },
     {
       "id": "weapon-shotgun-2",
@@ -790,7 +790,7 @@
       "reloadSeconds": 15,
       "rof": 1,
       "type": "Sparrow",
-      "accuracyRank": "Vertical",
+      "accuracyRank": "↕",
       "tags": ["scope"]
     },
     {
@@ -807,7 +807,7 @@
       "reloadSeconds": 6,
       "rof": 1,
       "type": "Sparrow",
-      "accuracyRank": "Horizontal",
+      "accuracyRank": "↔",
       "burstRange": 30,
       "tags": ["delay_burst"]
     },
@@ -825,7 +825,7 @@
       "reloadSeconds": 4.5,
       "rof": 0.5,
       "type": "Sparrow",
-      "accuracyRank": "Vertical",
+      "accuracyRank": "↕",
       "tags": ["reload_quick"]
     },
     {
@@ -842,7 +842,7 @@
       "reloadSeconds": 10,
       "rof": 1,
       "type": "Sparrow",
-      "accuracyRank": "Horizontal",
+      "accuracyRank": "↔",
       "tags": ["reload_auto", "pushback"]
     },
     {
@@ -859,7 +859,7 @@
       "reloadSeconds": 7,
       "rof": 1.5,
       "type": "Sparrow Split Tongue",
-      "accuracyRank": "Horizontal"
+      "accuracyRank": "↔"
     },
     {
       "id": "weapon-shotgun-7",
@@ -875,7 +875,7 @@
       "reloadSeconds": 14,
       "rof": 3,
       "type": "Peacock",
-      "accuracyRank": "Even"
+      "accuracyRank": "○"
     },
     {
       "id": "weapon-shotgun-8",
@@ -891,7 +891,7 @@
       "reloadSeconds": 12,
       "rof": 5,
       "type": "Peacock",
-      "accuracyRank": "Even"
+      "accuracyRank": "○"
     },
     {
       "id": "weapon-shotgun-9",
@@ -907,7 +907,7 @@
       "reloadSeconds": 24,
       "rof": 4,
       "type": "Peacock",
-      "accuracyRank": "Even",
+      "accuracyRank": "○",
       "tags": ["reload_quick", "growth_range", "growth_damage"]
     },
     {
@@ -924,7 +924,7 @@
       "reloadSeconds": 10,
       "rof": 1,
       "type": "Peacock",
-      "accuracyRank": "Even",
+      "accuracyRank": "○",
       "tags": ["delay"]
     },
     {
@@ -941,9 +941,85 @@
       "reloadSeconds": 15,
       "rof": 3,
       "type": "Peacock Argus",
-      "accuracyRank": "Even",
+      "accuracyRank": "○",
       "burstRange": 30,
       "tags": ["delay", "delay_burst"]
+    },
+    {
+      "id": "weapon-shotgun-12",
+      "character": "weapons",
+      "level": 0,
+      "category": "shotgun",
+      "name": "SP-Cornet",
+      "rank": "E",
+      "damage": 231,
+      "ammo": 6,
+      "range": 80,
+      "reloadSeconds": 2,
+      "rof": 1,
+      "type": "Sparrow",
+      "accuracyRank": "C"
+    },
+    {
+      "id": "weapon-shotgun-13",
+      "character": "weapons",
+      "level": 1,
+      "category": "shotgun",
+      "name": "SP-Cornet Ex",
+      "rank": "D",
+      "damage": 333,
+      "ammo": 8,
+      "range": 100,
+      "reloadSeconds": 3,
+      "rof": 1,
+      "type": "Sparrow",
+      "accuracyRank": "A"
+    },
+    {
+      "id": "weapon-shotgun-14",
+      "character": "weapons",
+      "level": 2,
+      "category": "shotgun",
+      "name": "SP-Euphonium GD",
+      "rank": "C",
+      "damage": 577,
+      "ammo": 1,
+      "range": 50,
+      "reloadSeconds": 1,
+      "type": "Sparrow",
+      "accuracyRank": "A",
+      "tags": ["reload_quick", "scope"]
+    },
+    {
+      "id": "weapon-shotgun-15",
+      "character": "weapons",
+      "level": 3,
+      "category": "shotgun",
+      "name": "SP-Trumpet",
+      "rank": "B",
+      "damage": 1000,
+      "ammo": 5,
+      "range": 80,
+      "reloadSeconds": 8,
+      "rof": 1,
+      "type": "Sparrow",
+      "accuracyRank": "B",
+      "tags": ["reload_auto"]
+    },
+    {
+      "id": "weapon-shotgun-16",
+      "character": "weapons",
+      "level": 4,
+      "category": "shotgun",
+      "name": "SP-Euphonium Forte",
+      "rank": "A",
+      "damage": 1577,
+      "ammo": 8,
+      "range": 70,
+      "reloadSeconds": 3,
+      "rof": 0.3,
+      "type": "Sparrow",
+      "accuracyRank": "A"
     }
   ],
   "modes": [

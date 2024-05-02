@@ -1026,12 +1026,16 @@ const headers = [{
         // Ignore
       } else if(tag === 'burst') {
         acc.push('Burst')
+      } else if(tag === 'delay_burst') {
+        acc.push(`+100% dmg ${wpn.burstRange}m`)
       } else if(tag === 'delay') {
         acc.push('Windup')
       } else if(tag === 'bouncing') {
-        acc.push('Shots Bounce')
+        acc.push('Bouncing')
       } else if(tag === 'growth_range') {
-        acc.push('Range Growth')
+        acc.push('Range++')
+      } else if(tag === 'growth_damage') {
+        acc.push('Damage++')
       } else if(tag === 'pushback') {
         acc.push('Pushback')
       } else if(tag === 'scope') {

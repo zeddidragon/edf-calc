@@ -1048,6 +1048,8 @@ const headers = [{
         acc.push('Recoil')
       } else if(tag === 'healing') {
         acc.push('Heals')
+      } else if(tag === 'tracer') {
+        acc.push('Flare (Frightens)')
       } else {
         acc.push(tag)
       }

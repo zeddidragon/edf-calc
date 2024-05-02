@@ -1155,7 +1155,7 @@
       "rof": 1,
       "type": "Peacock",
       "accuracyRank": "AA",
-      "tags": ["healing", "reload_none"]
+      "tags": ["reload_none", "healing"]
     },
     {
       "id": "weapon-shotgun-24",
@@ -1170,7 +1170,68 @@
       "rof": 1,
       "type": "Peacock",
       "accuracyRank": "AA",
-      "tags": ["healing", "reload_none"]
+      "tags": ["reload_none", "healing"]
+    },
+    {
+      "id": "weapon-shotgun-25",
+      "character": "weapons",
+      "level": 1,
+      "category": "shotgun",
+      "name": "SP-Kalahari",
+      "rank": "D",
+      "damage": 670,
+      "ammo": 1,
+      "range": 100,
+      "reloadSeconds": 30,
+      "type": "Sparrow",
+      "accuracyRank": "A",
+      "tags": ["reload_auto", "tracer"]
+    },
+    {
+      "id": "weapon-shotgun-25",
+      "character": "weapons",
+      "level": 2,
+      "category": "shotgun",
+      "name": "SP-Sahara",
+      "rank": "C",
+      "damage": 1009,
+      "ammo": 1,
+      "range": 30,
+      "reloadSeconds": 1,
+      "type": "Sparrow",
+      "accuracyRank": "A",
+      "tags": ["scope", "reload_auto", "tracer"]
+    },
+    {
+      "id": "weapon-shotgun-26",
+      "character": "weapons",
+      "level": 3,
+      "category": "shotgun",
+      "name": "SP-Sahara Rev",
+      "rank": "B",
+      "damage": 655,
+      "count": 3,
+      "ammo": 1,
+      "range": 100,
+      "reloadSeconds": 30,
+      "type": "Sparrow",
+      "accuracyRank": "A",
+      "tags": ["reload_auto", "tracer"]
+    },
+    {
+      "id": "weapon-shotgun-27",
+      "character": "weapons",
+      "level": 4,
+      "category": "shotgun",
+      "name": "SP-Sahara \"SEB\"",
+      "rank": "A",
+      "damage": 3010,
+      "ammo": 1,
+      "range": 160,
+      "reloadSeconds": 15,
+      "type": "Sparrow",
+      "accuracyRank": "A",
+      "tags": ["reload_auto", "scope", "tracer"]
     }
   ],
   "modes": [

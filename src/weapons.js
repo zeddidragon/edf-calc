@@ -1044,6 +1044,8 @@ const headers = [{
         acc.push(`${wpn.crit_chance}% of ${wpn.crit_damage}`)
       } else if(tag === 'puncher') {
         acc.push('Explodes Ground')
+      } else if(tag === 'recoil') {
+        acc.push('Recoil')
       } else {
         acc.push(tag)
       }

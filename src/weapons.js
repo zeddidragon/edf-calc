@@ -1060,6 +1060,8 @@ const headers = [{
         acc.push('Heals')
       } else if(tag === 'tracer') {
         acc.push('Flare (Frightens)')
+      } else if(tag === 'no_move') {
+        acc.push('Immobile')
       } else if(tag) {
         acc.push(tag)
       }
@@ -2078,12 +2080,18 @@ const headers = [{
       return '-'
     }
     if(wpn.rof || wpn.reloadSeconds) {
-      if(wpn.tags?.includes('reload_none')) {
-        return '-'
-      }
       const ammo = wpn.ammo || 1
+      const magTime = (ammo > 1 && ammo / wpn.rof) || 0
       let damage = critAvg(wpn)
-      const duration = ((ammo / wpn.rof) || 0) + (wpn.reloadSeconds || 0)
+      const duration = magTime + (wpn.reloadSeconds || 0)
+      console.log({
+        name: wpn.names.en,
+        damage,
+        ammo,
+        duration,
+        rof: wpn.rof,
+        reload: wpn.reloadSeconds,
+      })
       return ((damage * ammo) / duration).toFixed()
     }
     if(!wpn.ammo) {
@@ -2095,6 +2103,9 @@ const headers = [{
     if(wpn.reload < 0) {
       return '-'
     }
+    if(wpn.reloadSeconds <= 0) {
+      return '-'
+    }
     if(wpn.shotInterval) { // Turret
       return +tacticalDps({
         ...wpn,
@@ -2104,6 +2115,7 @@ const headers = [{
       }).toFixed()
     }
     const tdps = tacticalDps(wpn)
+    console.log({ tdps })
     return tdps.toFixed()
   },
 }, {
@@ -2113,9 +2125,10 @@ const headers = [{
   cb: wpn => {
     if(wpn.reloadQuick && (wpn.rof || wpn.reloadSeconds)) {
       const ammo = wpn.ammo || 1
+      const magTime = (ammo > 1 && ammo / wpn.rof) || 0
       let damage = critAvg(wpn)
       const reload = wpn.reloadSeconds * wpn.reloadQuick / 100
-      const duration = ((ammo / wpn.rof) || 0) + (reload || 0)
+      const duration = magTime + (reload || 0)
       return ((damage * ammo) / duration).toFixed()
     }
     return '-'

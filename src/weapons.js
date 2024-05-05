@@ -1045,9 +1045,9 @@ const headers = [{
       } else if(tag === 'bouncing') {
         acc.push('Bouncing')
       } else if(tag === 'growth_range') {
-        acc.push('Range++')
+        // acc.push('→Range')
       } else if(tag === 'growth_damage') {
-        acc.push('Damage++')
+        // acc.push('→Damage')
       } else if(tag === 'pushback') {
         acc.push('Pushback')
       } else if(tag === 'scope') {
@@ -1228,7 +1228,7 @@ const headers = [{
       return '-'
     }
     if(wpn.damage2 && wpn.tags?.includes('puncher')) {
-      return `(${wpn.damage} | ${wpn.damage2}) x ${wpn.count} `
+      return `${wpn.damage} | ${wpn.damage2} x ${wpn.count} `
     }
     if(['power', 'guard'].includes(wpn.supportType)) {
       return `${(+wpn.damage).toFixed(2)}`
@@ -1239,6 +1239,12 @@ const headers = [{
     let dmg = +Math.abs(wpn.damage).toFixed(1)
     if(wpn.falloff) {
       dmg = falloff(wpn, dmg)
+    }
+    if(wpn.growth) {
+      const maxDmg = wpn.growth[wpn.growth.length - 1].damage
+      if(maxDmg > dmg) {
+        dmg = `${dmg}→${maxDmg}`
+      }
     }
     if(wpn.count > 1) {
       dmg = `${dmg} x ${wpn.count}`
@@ -1629,6 +1635,10 @@ const headers = [{
   tooltip: 'Range',
   starProp: 'speed',
   cb: wpn => {
+    if(wpn.range && wpn.growth) {
+      const maxRange = wpn.growth[wpn.growth.length - 1].range
+      return `${wpn.range}→${maxRange}`
+    }
     if(wpn.range) {
       return wpn.range
     }
@@ -2084,6 +2094,9 @@ const headers = [{
     if(!wpn.damage) {
       return '-'
     }
+    if(wpn.reloadSeconds <= 0) {
+      return '-'
+    }
     if(wpn.rof || wpn.reloadSeconds) {
       const ammo = wpn.ammo || 1
       const magTime = (ammo > 1 && ammo / wpn.rof) || 0
@@ -2106,9 +2119,6 @@ const headers = [{
       return '-'
     }
     if(wpn.reload < 0) {
-      return '-'
-    }
-    if(wpn.reloadSeconds <= 0) {
       return '-'
     }
     if(wpn.shotInterval) { // Turret

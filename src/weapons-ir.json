@@ -351,6 +351,7 @@
       "reloadSeconds": 1.5,
       "reloadOverdrive": 5,
       "accuracyRank": "D→A",
+      "growth": [{"n": 20, "range": 300, "damage": 18}],
       "tags": ["growth_range"]
     },
     {
@@ -389,6 +390,7 @@
       "reloadSeconds": 0.3,
       "reloadOverdrive": 5,
       "accuracyRank": "D→A",
+      "growth": [{"n": 20, "range": 300, "damage": 22}],
       "tags": ["growth_range"]
     },
     {
@@ -448,6 +450,7 @@
       "reloadSeconds": 7,
       "reloadOverdrive": 5,
       "accuracyRank": "D→A",
+      "growth": [{"n": 20, "range": 300, "damage": 69}],
       "tags": ["growth_range"]
     },
     {
@@ -1075,6 +1078,10 @@
       "reloadQuick": 47.916668,
       "reloadQuickWindow": 1,
       "accuracyRank": "circle",
+      "growth": [
+        {"n": 3, "range": 75, "damage": 70},
+        {"n": 6, "range": 100, "damage": 80}
+      ],
       "tags": ["growth_range", "growth_damage"]
     },
     {
@@ -1610,7 +1617,7 @@
       "ammo": 1,
       "range": 800,
       "speed": 150,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 3,
       "reloadSeconds": 10,
       "reloadOverdrive": 4,
@@ -1631,7 +1638,7 @@
       "ammo": 1,
       "range": 800,
       "speed": 150,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 3,
       "reloadSeconds": 6.5,
       "reloadOverdrive": 3,
@@ -1651,7 +1658,7 @@
       "ammo": 1,
       "range": 800,
       "speed": 150,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 3,
       "reloadSeconds": 9,
       "reloadOverdrive": 4,
@@ -1866,7 +1873,7 @@
       "ammo": 1,
       "range": 1000,
       "speed": 1200,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 0,
       "reloadOverdrive": 5,
@@ -1887,7 +1894,7 @@
       "ammo": 1,
       "range": 1000,
       "speed": 1200,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 0,
       "reloadOverdrive": 5,
@@ -1908,7 +1915,7 @@
       "burst": 295,
       "range": 800,
       "speed": 1200,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 0,
       "reloadOverdrive": 5,
@@ -1929,7 +1936,7 @@
       "burst": 280,
       "range": 800,
       "speed": 1200,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 0,
       "reloadOverdrive": 5,
@@ -2163,7 +2170,7 @@
       "ammo": 1,
       "range": 700,
       "speed": 800,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 8,
       "reloadOverdrive": 5,
@@ -2186,7 +2193,7 @@
       "ammo": 1,
       "range": 700,
       "speed": 800,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 9,
       "reloadOverdrive": 5,
@@ -2679,7 +2686,7 @@
       "ammo": 1,
       "range": 600,
       "speed": 150,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 29,
       "reloadOverdrive": 5,
@@ -2699,7 +2706,7 @@
       "ammo": 1,
       "range": 600,
       "speed": 150,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 9,
       "reloadOverdrive": 5
@@ -2718,7 +2725,7 @@
       "ammo": 1,
       "range": 600,
       "speed": 150,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 13,
       "reloadOverdrive": 5,
@@ -2738,7 +2745,7 @@
       "ammo": 1,
       "range": 600,
       "speed": 150,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 9,
       "reloadOverdrive": 5
@@ -2757,7 +2764,7 @@
       "ammo": 1,
       "range": 600,
       "speed": 150,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 38,
       "reloadOverdrive": 5,
@@ -2798,7 +2805,7 @@
       "count": 6,
       "range": 350,
       "speed": 150,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 6,
       "reloadOverdrive": 5,
@@ -3104,7 +3111,7 @@
       "count": 4,
       "range": 400,
       "speed": 150,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 3,
       "reloadOverdrive": 5
@@ -3124,7 +3131,7 @@
       "count": 4,
       "range": 400,
       "speed": 150,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 9,
       "reloadOverdrive": 5,
@@ -3145,7 +3152,7 @@
       "count": 4,
       "range": 400,
       "speed": 150,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 8,
       "reloadOverdrive": 8
@@ -3165,7 +3172,7 @@
       "count": 4,
       "range": 400,
       "speed": 150,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 6,
       "reloadOverdrive": 5
@@ -3227,6 +3234,7 @@
       "reloadSeconds": 7,
       "reloadOverdrive": 5,
       "accuracyRank": "AA",
+      "growth": [{"n": 30, "range": 80, "damage": 22}],
       "tags": ["growth_damage"]
     },
     {
@@ -3251,6 +3259,7 @@
       "reloadSeconds": 28,
       "reloadOverdrive": 5,
       "accuracyRank": "AA",
+      "growth": [{"n": 30, "range": 110, "damage": 32}],
       "tags": ["growth_damage", "reload_charge"]
     },
     {
@@ -3275,6 +3284,7 @@
       "reloadSeconds": 24,
       "reloadOverdrive": 5,
       "accuracyRank": "AA",
+      "growth": [{"n": 15, "range": 90, "damage": 105}],
       "tags": ["growth_damage", "reload_charge"]
     },
     {
@@ -3298,6 +3308,7 @@
       "reloadQuick": 45.833332,
       "reloadQuickWindow": 0.5,
       "accuracyRank": "AA",
+      "growth": [{"n": 30, "range": 120, "damage": 155}],
       "tags": ["growth_damage"]
     },
     {
@@ -3318,6 +3329,10 @@
       "reloadSeconds": 40,
       "reloadOverdrive": 5,
       "accuracyRank": "B→A",
+      "growth": [
+        {"n": 5, "range": 280, "damage": 22},
+        {"n": 5, "range": 280, "damage": 44}
+      ],
       "tags": ["growth_damage", "reload_charge"]
     },
     {
@@ -3339,6 +3354,10 @@
       "reloadSeconds": 12,
       "reloadOverdrive": 5,
       "accuracyRank": "B→A",
+      "growth": [
+        {"n": 5, "range": 280, "damage": 18},
+        {"n": 5, "range": 280, "damage": 36}
+      ],
       "tags": ["growth_damage", "reload_charge"]
     },
     {
@@ -3360,6 +3379,10 @@
       "reloadSeconds": 80,
       "reloadOverdrive": 5,
       "accuracyRank": "B→A",
+      "growth": [
+        {"n": 7, "range": 330, "damage": 28},
+        {"n": 7, "range": 330, "damage": 56}
+      ],
       "tags": ["growth_damage", "reload_charge"]
     },
     {
@@ -3380,6 +3403,10 @@
       "reloadSeconds": 24,
       "reloadOverdrive": 5,
       "accuracyRank": "C→A",
+      "growth": [
+        {"n": 12, "range": 280, "damage": 30},
+        {"n": 9, "range": 280, "damage": 130}
+      ],
       "tags": ["growth_damage", "reload_charge"]
     },
     {
@@ -3425,6 +3452,10 @@
       "reloadSeconds": 76,
       "reloadOverdrive": 5,
       "accuracyRank": "A",
+      "growth": [
+        {"n": 4, "range": 200, "damage": 15},
+        {"n": 4, "range": 200, "damage": 30}
+      ],
       "tags": ["growth_damage", "reload_charge"]
     },
     {
@@ -3448,6 +3479,10 @@
       "reloadSeconds": 60,
       "reloadOverdrive": 5,
       "accuracyRank": "A",
+      "growth": [
+        {"n": 4, "range": 200, "damage": 25},
+        {"n": 4, "range": 200, "damage": 30}
+      ],
       "tags": ["growth_damage", "reload_charge"]
     },
     {
@@ -3472,6 +3507,10 @@
       "reloadSeconds": 44,
       "reloadOverdrive": 5,
       "accuracyRank": "A",
+      "growth": [
+        {"n": 4, "range": 200, "damage": 18},
+        {"n": 4, "range": 200, "damage": 36}
+      ],
       "tags": ["growth_damage", "reload_charge"]
     },
     {
@@ -3492,6 +3531,10 @@
       "reloadSeconds": 16,
       "reloadOverdrive": 5,
       "accuracyRank": "A",
+      "growth": [
+        {"n": 4, "range": 170, "damage": 15},
+        {"n": 4, "range": 170, "damage": 20}
+      ],
       "tags": ["growth_damage"]
     },
     {
@@ -3513,6 +3556,10 @@
       "reloadSeconds": 14,
       "reloadOverdrive": 5,
       "accuracyRank": "A",
+      "growth": [
+        {"n": 4, "range": 170, "damage": 11},
+        {"n": 4, "range": 170, "damage": 17}
+      ],
       "tags": ["growth_damage", "reload_charge"]
     },
     {
@@ -3553,6 +3600,10 @@
       "reloadSeconds": 28,
       "reloadOverdrive": 5,
       "accuracyRank": "A",
+      "growth": [
+        {"n": 3, "range": 150, "damage": 0},
+        {"n": 3, "range": 150, "damage": 0}
+      ],
       "tags": ["growth_damage", "reload_charge"]
     },
     {
@@ -3574,6 +3625,10 @@
       "reloadSeconds": 40,
       "reloadOverdrive": 5,
       "accuracyRank": "A",
+      "growth": [
+        {"n": 3, "range": 150, "damage": 0},
+        {"n": 3, "range": 150, "damage": 0}
+      ],
       "tags": ["growth_damage", "reload_charge"]
     },
     {
@@ -3594,6 +3649,10 @@
       "reloadSeconds": 16,
       "reloadOverdrive": 5,
       "accuracyRank": "A",
+      "growth": [
+        {"n": 3, "range": 150, "damage": 0},
+        {"n": 3, "range": 150, "damage": 0}
+      ],
       "tags": ["growth_damage", "reload_charge"]
     },
     {
@@ -3611,7 +3670,7 @@
       "burst": 10,
       "range": 150,
       "speed": 150,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 0,
       "reloadOverdrive": 1,
@@ -3632,7 +3691,7 @@
       "burst": 10,
       "range": 150,
       "speed": 150,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 0,
       "reloadOverdrive": 1,
@@ -3656,6 +3715,10 @@
       "reloadSeconds": 16,
       "reloadOverdrive": 5,
       "accuracyRank": "round",
+      "growth": [
+        {"n": 2, "range": 50, "damage": 0},
+        {"n": 2, "range": 50, "damage": 0}
+      ],
       "tags": ["growth_damage", "reload_charge"]
     },
     {
@@ -3676,6 +3739,10 @@
       "reloadSeconds": 6,
       "reloadOverdrive": 5,
       "accuracyRank": "round",
+      "growth": [
+        {"n": 2, "range": 50, "damage": 0},
+        {"n": 2, "range": 50, "damage": 0}
+      ],
       "tags": ["growth_damage", "reload_charge"]
     },
     {
@@ -4525,6 +4592,10 @@
       "intervalOverdrive": 1.3,
       "reloadSeconds": 40,
       "reloadOverdrive": 5,
+      "growth": [
+        {"n": 15, "range": 240, "damage": 33},
+        {"n": 15, "range": 400, "damage": 33}
+      ],
       "tags": ["delay", "reload_charge"]
     },
     {
@@ -5189,7 +5260,7 @@
       "effect": "shock",
       "range": 150,
       "speed": 150,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 30,
       "reloadOverdrive": 2,
@@ -5208,7 +5279,7 @@
       "effect": "shock",
       "range": 150,
       "speed": 150,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 30,
       "reloadOverdrive": 2,
@@ -5384,7 +5455,7 @@
       "ammo": 1,
       "range": 700,
       "speed": 700,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 50,
       "reloadOverdrive": 1,
@@ -5404,7 +5475,7 @@
       "ammo": 1,
       "range": 700,
       "speed": 700,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 70,
       "reloadOverdrive": 1,
@@ -5425,7 +5496,7 @@
       "ammo": 1,
       "range": 700,
       "speed": 700,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 65,
       "reloadOverdrive": 1,
@@ -5448,7 +5519,7 @@
       "ammo": 1,
       "range": 700,
       "speed": 700,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 80,
       "reloadOverdrive": 1,
@@ -5508,6 +5579,13 @@
       "reloadSeconds": 40,
       "reloadOverdrive": 10,
       "accuracyRank": "AA",
+      "growth": [
+        {"n": 20, "range": 300, "damage": 23},
+        {"n": 20, "range": 300, "damage": 117},
+        {"n": 20, "range": 300, "damage": 235},
+        {"n": 20, "range": 300, "damage": 11},
+        {"n": 20, "range": 300, "damage": 11}
+      ],
       "tags": ["no_move_aim", "growth_damage", "reload_charge"]
     },
     {
@@ -5528,6 +5606,13 @@
       "reloadSeconds": 25,
       "reloadOverdrive": 10,
       "accuracyRank": "AA",
+      "growth": [
+        {"n": 20, "range": 300, "damage": 93},
+        {"n": 20, "range": 300, "damage": 130},
+        {"n": 20, "range": 300, "damage": 186},
+        {"n": 20, "range": 300, "damage": 36},
+        {"n": 20, "range": 300, "damage": 36}
+      ],
       "tags": ["no_move_aim", "growth_damage", "reload_charge"]
     },
     {
@@ -5548,6 +5633,13 @@
       "reloadSeconds": 18,
       "reloadOverdrive": 10,
       "accuracyRank": "AA",
+      "growth": [
+        {"n": 20, "range": 300, "damage": 37},
+        {"n": 20, "range": 300, "damage": 187},
+        {"n": 20, "range": 300, "damage": 375},
+        {"n": 20, "range": 300, "damage": 18},
+        {"n": 20, "range": 300, "damage": 18}
+      ],
       "tags": ["no_move_aim", "growth_damage", "reload_charge"]
     },
     {
@@ -5568,6 +5660,13 @@
       "reloadSeconds": 60,
       "reloadOverdrive": 10,
       "accuracyRank": "AA",
+      "growth": [
+        {"n": 20, "range": 200, "damage": 70},
+        {"n": 20, "range": 200, "damage": 352},
+        {"n": 20, "range": 200, "damage": 705},
+        {"n": 20, "range": 200, "damage": 35},
+        {"n": 20, "range": 200, "damage": 35}
+      ],
       "tags": ["no_move_aim", "growth_damage", "reload_charge"]
     },
     {
@@ -5588,6 +5687,13 @@
       "reloadSeconds": 30,
       "reloadOverdrive": 10,
       "accuracyRank": "AA",
+      "growth": [
+        {"n": 20, "range": 500, "damage": 12},
+        {"n": 20, "range": 500, "damage": 62},
+        {"n": 20, "range": 500, "damage": 124},
+        {"n": 20, "range": 600, "damage": 6},
+        {"n": 20, "range": 600, "damage": 6}
+      ],
       "tags": ["no_move_aim", "growth_damage", "reload_charge"]
     },
     {
@@ -5608,6 +5714,13 @@
       "reloadSeconds": 25,
       "reloadOverdrive": 10,
       "accuracyRank": "AA",
+      "growth": [
+        {"n": 20, "range": 500, "damage": 38},
+        {"n": 20, "range": 500, "damage": 190},
+        {"n": 20, "range": 500, "damage": 381},
+        {"n": 20, "range": 1200, "damage": 19},
+        {"n": 20, "range": 1200, "damage": 19}
+      ],
       "tags": ["no_move_aim", "growth_damage", "reload_charge"]
     },
     {
@@ -5628,6 +5741,13 @@
       "reloadSeconds": 18,
       "reloadOverdrive": 10,
       "accuracyRank": "AA",
+      "growth": [
+        {"n": 20, "range": 500, "damage": 12},
+        {"n": 20, "range": 500, "damage": 61},
+        {"n": 20, "range": 500, "damage": 123},
+        {"n": 20, "range": 600, "damage": 6},
+        {"n": 20, "range": 600, "damage": 6}
+      ],
       "tags": ["no_move_aim", "growth_damage", "reload_charge"]
     },
     {
@@ -5648,6 +5768,13 @@
       "reloadSeconds": 20,
       "reloadOverdrive": 10,
       "accuracyRank": "AA",
+      "growth": [
+        {"n": 20, "range": 500, "damage": 32},
+        {"n": 20, "range": 500, "damage": 159},
+        {"n": 20, "range": 500, "damage": 318},
+        {"n": 20, "range": 900, "damage": 16},
+        {"n": 20, "range": 900, "damage": 16}
+      ],
       "tags": ["no_move_aim", "growth_damage", "reload_charge"]
     },
     {
@@ -5702,7 +5829,7 @@
       "burst": 5,
       "range": 700,
       "speed": 600,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 1,
       "reloadOverdrive": 3,
@@ -5723,7 +5850,7 @@
       "burst": 5,
       "range": 700,
       "speed": 600,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 1,
       "reloadOverdrive": 3,
@@ -5782,7 +5909,7 @@
       "ammo": 1,
       "range": 700,
       "speed": 800,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 3,
       "reloadOverdrive": 1,
@@ -5803,7 +5930,7 @@
       "burst": 3,
       "range": 700,
       "speed": 800,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 3,
       "reloadOverdrive": 1,
@@ -5906,7 +6033,7 @@
       "ammo": 1,
       "range": 700,
       "speed": 800,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 8,
       "reloadOverdrive": 5,
@@ -5954,6 +6081,10 @@
       "reloadSeconds": 50,
       "reloadOverdrive": 5,
       "accuracyRank": "A",
+      "growth": [
+        {"n": 6, "range": 200, "damage": 48},
+        {"n": 6, "range": 200, "damage": 64}
+      ],
       "tags": ["growth_damage", "reload_charge"]
     },
     {
@@ -6064,7 +6195,7 @@
       "ammo": 1,
       "range": 800,
       "speed": 150,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 3,
       "reloadSeconds": 3,
       "reloadOverdrive": 2,
@@ -6129,6 +6260,13 @@
       "reloadSeconds": 10,
       "reloadOverdrive": 10,
       "accuracyRank": "AA",
+      "growth": [
+        {"n": 20, "range": 500, "damage": 18},
+        {"n": 20, "range": 500, "damage": 93},
+        {"n": 20, "range": 500, "damage": 186},
+        {"n": 20, "range": 900, "damage": 9},
+        {"n": 20, "range": 900, "damage": 9}
+      ],
       "tags": ["no_move_aim", "growth_damage", "reload_charge"]
     },
     {
@@ -6230,7 +6368,7 @@
       "ammo": 1,
       "range": 600,
       "speed": 150,
-      "rof": null,
+      "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 7,
       "reloadOverdrive": 5

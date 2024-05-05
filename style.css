@@ -226,10 +226,10 @@ th.P, th.CR {
   padding-right: 0.5em;
 }
 
-.ranger b, .dlc2 b, .Inferno, .lowOdds, .edf3 b, .edf3p b, .ja b {
+.ranger b, .dlc2 b, .Inferno, .lowOdds, .edf3 b, .edf3p b, .ja b, .damage-type.flame {
   color: #e88;
 }
-.winger b, .off b, .Normal, .edf5 b, .en b, .rank-C, #save-load-copy {
+.winger b, .off b, .Normal, .edf5 b, .en b, .rank-C, .edfir b, #save-load-copy {
   color: #88e;
 }
 .bomber b, .on b, .Hard, .highOdds, .edf4 b, .edf41 b, .edfia b, .rank-D, #save-load-import {
@@ -239,7 +239,7 @@ th.P, th.CR {
   color: #ea8;
 }
 
-.short b, .spear b, .heli b, .stats b, .limpet b, .booster b, .repair b, .star-10, .star-5 {
+.short b, .spear b, .heli b, .stats b, .limpet b, .booster b, .repair b, .star-10, .star-5, .damage-type.physical {
   color: #eee;
 }
 .assault b, .laser b, .light b, .gunship b {
@@ -251,7 +251,7 @@ th.P, th.CR {
 .sniper b, .heavy b, .satellite b, .muzzle b {
   color: #88e;
 }
-.rocket b, .particle b, .hammer b, .dlc, .planes b, .tank b, .rank-AA, .Hardest {
+.rocket b, .particle b, .hammer b, .dlc, .planes b, .tank b, .rank-AA, .Hardest, .damage-type.optics {
   color: #ee8;
 }
 .missile b, .guide b, .na {

@@ -627,6 +627,9 @@ function populateWeaponStats(ch, cat) {
         const cell = $('td')
         let contents = header.cb(weapon)
         cell.classList.add(header.label)
+        if(header.headerClass) {
+          cell.classList.add(header.headerClass)
+        }
         row.appendChild(cell)
 
         if(header.label === 'Dmg') {
@@ -809,6 +812,14 @@ function shotDamage(wpn) {
   )
 }
 
+function critAvg(wpn) {
+  let dmg = wpn.damage
+  if(wpn.critOver) {
+    dmg += (wpn.damage2 - dmg) / wpn.critOver
+  }
+  return dmg * (wpn.count || 1)
+}
+
 function burstDamage(wpn) {
   return shotDamage(wpn) * (wpn.burst || 1)
 }
@@ -845,7 +856,7 @@ function quickDps(wpn) {
   const bDmg = burstDamage(wpn)
   const bTime = burstTime(wpn)
   const dps = (bDmg * FPS / bTime)
-  return dps.toFixed(1)
+  return dps
 }
 
 function tacticalDps(wpn) {
@@ -1017,17 +1028,16 @@ const headers = [{
     if(!wpn.tags?.length) {
       return ''
     }
-    const remarks = wpn.tags.reduce((acc, tag) => {
+    const tags = [wpn.effect, ...wpn.tags]
+    const remarks = tags.reduce((acc, tag) => {
       if(tag === 'reload_quick') {
         // Ignore
       } else if(tag === 'reload_none') {
-        acc.push('Cannot Reload')
+        // Ignore
       } else if(tag === 'reload_auto') {
         // Ignore
-      } else if(tag === 'burst') {
-        acc.push('Burst')
       } else if(tag === 'delay_burst') {
-        acc.push(`+100% Dmg ${wpn.burstRange}m`)
+        acc.push(`+${wpn.damage2} Dmg <30m`)
       } else if(tag === 'delay') {
         acc.push('Windup')
       } else if(tag === 'bouncing') {
@@ -1041,16 +1051,16 @@ const headers = [{
       } else if(tag === 'scope') {
         acc.push('Scope')
       } else if(tag === 'roulette') {
-        acc.push(`${wpn.crit_chance}% of ${wpn.crit_damage}`)
+        acc.push(`1/${wpn.critOver} of ${wpn.damage2}`)
       } else if(tag === 'puncher') {
-        acc.push('Explodes Ground')
+        acc.push(`Explodes`)
       } else if(tag === 'recoil') {
         acc.push('Recoil')
-      } else if(tag === 'healing') {
+      } else if(tag === 'recovertime') {
         acc.push('Heals')
       } else if(tag === 'tracer') {
         acc.push('Flare (Frightens)')
-      } else {
+      } else if(tag) {
         acc.push(tag)
       }
       return acc
@@ -1213,6 +1223,9 @@ const headers = [{
     if(!wpn.damage) {
       return '-'
     }
+    if(wpn.damage2 && wpn.tags?.includes('puncher')) {
+      return `(${wpn.damage} | ${wpn.damage2}) x ${wpn.count} `
+    }
     if(['power', 'guard'].includes(wpn.supportType)) {
       return `${(+wpn.damage).toFixed(2)}`
     }
@@ -1258,6 +1271,31 @@ const headers = [{
     return +Math.abs(dmg * wpn.duration).toFixed(1)
   },
 }, {
+  id: 'damageType',
+  label: 'T',
+  tooltip: 'Damage Type',
+  cb: wpn => {
+    const tag = document.createElement('span')
+    tag.classList.add('damage-type')
+    tag.classList.add(wpn.damageType)
+    switch(wpn.damageType) {
+      case 'physical': {
+        tag.textContent = 'P'
+        return tag
+      }
+      case 'optics': {
+        tag.textContent = 'O'
+        return tag
+      }
+      case 'flame': {
+        tag.textContent = 'F'
+        return tag
+      }
+      default: 
+        return '-'
+    }
+  },
+}, {
   id: 'shots',
   label: 'Shots',
   tooltip: 'Shots',
@@ -1301,8 +1339,11 @@ const headers = [{
   tooltip: 'Rate of Fire',
   starProp: 'interval',
   cb: wpn => {
+    if(wpn.burst > 1 && wpn.rof) {
+      return `${wpn.rof.toFixed(1)} x ${wpn.burst}`
+    }
     if(wpn.rof) {
-      return wpn.rof
+      return wpn.rof.toFixed(1)
     }
     const rof = +(FPS / (wpn.interval || 1)).toFixed(2)
     if(wpn.category === 'grenade' && !wpn.reload) {
@@ -1348,6 +1389,13 @@ const headers = [{
       return '-'
     }
     return (FPS / wpn.shotInterval).toFixed(1)
+  },
+}, {
+  id: 'intervalOD',
+  label: 'OD',
+  tooltip: 'Rate of Fire Multiplier (OverDrive)',
+  cb: wpn => {
+    return `${wpn.intervalOverdrive}x`
   },
 }, {
   id: 'windup',
@@ -1403,15 +1451,24 @@ const headers = [{
 }, {
   id: 'reloadQuick',
   label: 'Q.Rl',
-  tooltip: 'Quick Reload Possible?',
+  tooltip: 'Quick Reload',
   cb: wpn => {
-    if(wpn.tags?.includes('reload_quick')) {
-      return '✓'
-    }
     if(wpn.tags?.includes('reload_auto')) {
       return 'Auto'
     }
+    if(wpn.reloadQuick && wpn.reloadSeconds) {
+      const start = (wpn.reloadSeconds * wpn.reloadQuick * 0.01)
+      const end = start + wpn.reloadQuickWindow
+      return `${start.toFixed(1)} - ${end.toFixed(1)}`
+    }
     return ''
+  },
+}, {
+  id: 'reloadOD',
+  label: 'OD',
+  tooltip: 'Reload Time Multiplier (OverDrive)',
+  cb: wpn => {
+    return `${wpn.reloadOverdrive}x`
   },
 }, {
   id: 'swing',
@@ -1431,11 +1488,11 @@ const headers = [{
   cb: wpn => {
     if(wpn.accuracyRank) {
       switch(wpn.accuracyRank) {
-        case 'Horizontal':
+        case 'horizontal':
           return '↔'
-        case 'Vertical':
+        case 'vertical':
           return '↕'
-        case 'Circle':
+        case 'circle':
           return '○'
         default:
           return wpn.accuracyRank
@@ -1468,8 +1525,12 @@ const headers = [{
   },
 }, {
   id: 'zoom',
-  label: 'Zoom',
+  label: 'Zm',
+  tooltip: 'Zoom',
   cb: wpn => {
+    if(wpn.zoom === true) {
+      return '✓'
+    }
     if(!wpn.zoom) {
       return '-'
     }
@@ -1664,6 +1725,15 @@ const headers = [{
     if(spd > 10000) return '-'
     if(!spd) return '-'
     return spd.toFixed(1)
+  },
+}, {
+  id: 'speed2',
+  label: 'Spd',
+  tooltip: 'Shot Speed',
+  cb: wpn => {
+    const spd = wpn.speed
+    if(!spd) return '-'
+    return spd.toFixed()
   },
 }, {
   id: 'flightBoost',
@@ -1919,13 +1989,12 @@ const headers = [{
   label: 'DPS',
   tooltip: 'Damage Per Second',
   cb: wpn => {
-    if(wpn.crit_chance) { // Iron Rain Ghost line
-      const avgDamage = wpn.damage
-        + wpn.crit_chance * (wpn.crit_damage - wpn.damage) / 100
-      return (avgDamage * wpn.rof).toFixed(1)
+    if(wpn.critOver) { // Iron Rain Ghost line
+      let damage = critAvg(wpn)
+      return (damage * wpn.rof).toFixed()
     }
     if(wpn.recoveryAmount) {
-      return (wpn.recoveryAmount * FPS).toFixed(1)
+      return (wpn.recoveryAmount * FPS).toFixed()
     }
     if(!wpn.damage) {
       return '-'
@@ -1944,22 +2013,22 @@ const headers = [{
       return (wpn.damage * (wpn.count || 1) * wpn.rof).toFixed()
     }
     if(wpn.burst > 100) {
-      return (wpn.damage * FPS / (wpn.burstRate || 1)).toFixed(1)
+      return (wpn.damage * FPS / (wpn.burstRate || 1)).toFixed()
     }
     if(wpn.category === 'support') {
       if(!['life', 'plasma'].includes(wpn.supportType)) {
         return '-'
       }
-      return +(wpn.damage * FPS).toFixed(1)
+      return +(wpn.damage * FPS).toFixed()
     }
     if(wpn.duration && !wpn.continous) {
       const bDmg = burstDamage(wpn)
-      return +(bDmg * FPS / wpn.duration).toFixed(1)
+      return +(bDmg * FPS / wpn.duration).toFixed()
     }
     if(!wpn.interval) {
       return '-'
     }
-    return quickDps(wpn)
+    return quickDps(wpn).toFixed()
   },
 }, {
   id: 'dps2',
@@ -1977,7 +2046,7 @@ const headers = [{
       return '-'
     }
     if(wpn.recoveryAmount) {
-      return (wpn.ammo * wpn.recoveryAmount * FPS).toFixed(1)
+      return (wpn.ammo * wpn.recoveryAmount * FPS).toFixed()
     }
     if(wpn.category === 'support') {
       if(!['life', 'plasma'].includes(wpn.supportType)) {
@@ -1986,14 +2055,14 @@ const headers = [{
       if(wpn.ammo < 2) {
         return '-'
       }
-      return +(wpn.damage * FPS * wpn.ammo).toFixed(1)
+      return +(wpn.damage * FPS * wpn.ammo).toFixed()
     }
     if(wpn.continous) {
       return +Math.abs((wpn.damage
         * wpn.duration
         * FPS
         / (wpn.interval || 1)
-      )).toFixed(1)
+      )).toFixed()
     }
     return '-'
   },
@@ -2013,13 +2082,9 @@ const headers = [{
         return '-'
       }
       const ammo = wpn.ammo || 1
-      let damage = wpn.damage * (wpn.count || 1)
-      if(wpn.crit_chance) {
-        damage = damage
-          + wpn.crit_chance * (wpn.crit_damage - damage) / 100
-      }
+      let damage = critAvg(wpn)
       const duration = ((ammo / wpn.rof) || 0) + (wpn.reloadSeconds || 0)
-      return ((damage * ammo) / duration).toFixed(1)
+      return ((damage * ammo) / duration).toFixed()
     }
     if(!wpn.ammo) {
       return '-'
@@ -2036,10 +2101,24 @@ const headers = [{
         shots: wpn.ammo,
         interval: wpn.shotInterval,
         ammo: wpn.shots,
-      }).toFixed(1)
+      }).toFixed()
     }
     const tdps = tacticalDps(wpn)
-    return tdps.toFixed(1)
+    return tdps.toFixed()
+  },
+}, {
+  id: 'qrdps',
+  label: 'Q.DPS',
+  tooltip: 'Total Damage Per Second (including quick reload)',
+  cb: wpn => {
+    if(wpn.reloadQuick && (wpn.rof || wpn.reloadSeconds)) {
+      const ammo = wpn.ammo || 1
+      let damage = critAvg(wpn)
+      const reload = wpn.reloadSeconds * wpn.reloadQuick / 100
+      const duration = ((ammo / wpn.rof) || 0) + (reload || 0)
+      return ((damage * ammo) / duration).toFixed()
+    }
+    return '-'
   },
 }, {
   id: 'tdps2',
@@ -2088,12 +2167,11 @@ const headers = [{
     if(wpn.ammoDamageCurve || wpn.ammoCountCurve) {
       return magDamage(wpn).toFixed(1)
     }
-    const dump = Math.abs(wpn.damage
-      * (wpn.count || 1)
+    const dump = Math.abs(critAvg(wpn)
       * (wpn.ammo || 1)
       * (wpn.shots || 1)
       * (wpn.units || 1))
-    return +dump.toFixed(1)
+    return +dump.toFixed()
   },
 }, {
   id: 'total2',
@@ -2186,6 +2264,7 @@ const gameLabels = [
 
 const gamePrefixes = {
   'ia': 4,
+  'ir': 4,
 }
 
 const gameMenu = document.getElementById('game-dropdown')

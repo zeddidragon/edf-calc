@@ -162,8 +162,7 @@
       "intervalOverdrive": 2,
       "reloadSeconds": 0,
       "reloadOverdrive": 5,
-      "accuracyRank": "A",
-      "tags": ["reload_none"]
+      "accuracyRank": "A"
     },
     {
       "id": "weapon-1040",
@@ -199,7 +198,7 @@
       "intervalOverdrive": 2,
       "reloadSeconds": 4.5,
       "reloadOverdrive": 5,
-      "accuracyRank": "D"
+      "accuracyRank": "D→A"
     },
     {
       "id": "weapon-1060",
@@ -256,7 +255,7 @@
       "intervalOverdrive": 2,
       "reloadSeconds": 2.5,
       "reloadOverdrive": 5,
-      "accuracyRank": "C"
+      "accuracyRank": "C→A"
     },
     {
       "id": "weapon-1090",
@@ -351,7 +350,7 @@
       "intervalOverdrive": 2.5,
       "reloadSeconds": 1.5,
       "reloadOverdrive": 5,
-      "accuracyRank": "D",
+      "accuracyRank": "D→A",
       "tags": ["growth_range"]
     },
     {
@@ -389,7 +388,7 @@
       "intervalOverdrive": 2.5,
       "reloadSeconds": 0.3,
       "reloadOverdrive": 5,
-      "accuracyRank": "D",
+      "accuracyRank": "D→A",
       "tags": ["growth_range"]
     },
     {
@@ -448,7 +447,7 @@
       "intervalOverdrive": 3,
       "reloadSeconds": 7,
       "reloadOverdrive": 5,
-      "accuracyRank": "D",
+      "accuracyRank": "D→A",
       "tags": ["growth_range"]
     },
     {
@@ -596,7 +595,7 @@
       "intervalOverdrive": 4,
       "reloadSeconds": 10,
       "reloadOverdrive": 5,
-      "accuracyRank": "D",
+      "accuracyRank": "D→B",
       "tags": ["delay", "pushback"]
     },
     {
@@ -615,7 +614,7 @@
       "intervalOverdrive": 4,
       "reloadSeconds": 8,
       "reloadOverdrive": 5,
-      "accuracyRank": "D",
+      "accuracyRank": "D→B",
       "tags": ["delay", "pushback"]
     },
     {
@@ -636,7 +635,7 @@
       "reloadOverdrive": 5,
       "reloadQuick": 46.666668,
       "reloadQuickWindow": 1,
-      "accuracyRank": "D",
+      "accuracyRank": "D→B",
       "tags": ["delay", "pushback"]
     },
     {
@@ -1327,7 +1326,7 @@
       "reloadSeconds": 0,
       "reloadOverdrive": 5,
       "accuracyRank": "circle",
-      "tags": ["reload_none", "recoil"]
+      "tags": ["recoil"]
     },
     {
       "id": "weapon-2500",
@@ -1346,8 +1345,7 @@
       "intervalOverdrive": 2,
       "reloadSeconds": 0,
       "reloadOverdrive": 5,
-      "accuracyRank": "AA",
-      "tags": ["reload_none"]
+      "accuracyRank": "AA"
     },
     {
       "id": "weapon-2510",
@@ -1366,8 +1364,7 @@
       "intervalOverdrive": 2,
       "reloadSeconds": 0,
       "reloadOverdrive": 5,
-      "accuracyRank": "AA",
-      "tags": ["reload_none"]
+      "accuracyRank": "AA"
     },
     {
       "id": "weapon-2600",
@@ -1581,7 +1578,7 @@
       "intervalOverdrive": 6,
       "reloadSeconds": 15,
       "reloadOverdrive": 15,
-      "accuracyRank": "B"
+      "accuracyRank": "B→AA"
     },
     {
       "id": "weapon-3130",
@@ -1698,7 +1695,8 @@
       "reloadSeconds": 40,
       "reloadOverdrive": 5,
       "accuracyRank": "A+",
-      "zoom": true
+      "zoom": true,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-3320",
@@ -1736,7 +1734,8 @@
       "reloadSeconds": 60,
       "reloadOverdrive": 5,
       "accuracyRank": "A+",
-      "zoom": true
+      "zoom": true,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-3400",
@@ -1791,7 +1790,8 @@
       "reloadSeconds": 20,
       "reloadOverdrive": 2,
       "accuracyRank": "A+",
-      "zoom": true
+      "zoom": true,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-3500",
@@ -1811,7 +1811,7 @@
       "reloadOverdrive": 3,
       "accuracyRank": "AA",
       "zoom": true,
-      "tags": ["delay"]
+      "tags": ["delay", "reload_charge"]
     },
     {
       "id": "weapon-3510",
@@ -1831,7 +1831,7 @@
       "reloadOverdrive": 6,
       "accuracyRank": "AA",
       "zoom": true,
-      "tags": ["delay"]
+      "tags": ["delay", "reload_charge"]
     },
     {
       "id": "weapon-3520",
@@ -1851,7 +1851,7 @@
       "reloadOverdrive": 3,
       "accuracyRank": "AA",
       "zoom": true,
-      "tags": ["delay"]
+      "tags": ["delay", "reload_charge"]
     },
     {
       "id": "weapon-3600",
@@ -1872,7 +1872,7 @@
       "reloadOverdrive": 5,
       "accuracyRank": "AA",
       "zoom": true,
-      "tags": ["reload_none", "recoil"]
+      "tags": ["recoil"]
     },
     {
       "id": "weapon-3610",
@@ -1893,7 +1893,7 @@
       "reloadOverdrive": 5,
       "accuracyRank": "AA",
       "zoom": true,
-      "tags": ["reload_none", "recoil"]
+      "tags": ["recoil"]
     },
     {
       "id": "weapon-3700",
@@ -1914,7 +1914,7 @@
       "reloadOverdrive": 5,
       "accuracyRank": "AA",
       "zoom": true,
-      "tags": ["no_move", "reload_none"]
+      "tags": ["no_move"]
     },
     {
       "id": "weapon-3710",
@@ -1935,7 +1935,7 @@
       "reloadOverdrive": 5,
       "accuracyRank": "AA",
       "zoom": true,
-      "tags": ["no_move", "reload_none"]
+      "tags": ["no_move"]
     },
     {
       "id": "weapon-3800",
@@ -1995,7 +1995,7 @@
       "reloadOverdrive": 5,
       "accuracyRank": "AA",
       "zoom": true,
-      "tags": ["bouncing"]
+      "tags": ["bouncing", "reload_charge"]
     },
     {
       "id": "weapon-4000",
@@ -2233,7 +2233,8 @@
       "intervalOverdrive": 2,
       "reloadSeconds": 40,
       "reloadOverdrive": 5,
-      "accuracyRank": "A"
+      "accuracyRank": "A",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-4320",
@@ -2253,7 +2254,8 @@
       "intervalOverdrive": 2,
       "reloadSeconds": 60,
       "reloadOverdrive": 5,
-      "accuracyRank": "A"
+      "accuracyRank": "A",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-4330",
@@ -2273,7 +2275,8 @@
       "intervalOverdrive": 2,
       "reloadSeconds": 14,
       "reloadOverdrive": 5,
-      "accuracyRank": "A"
+      "accuracyRank": "A",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-4400",
@@ -2353,7 +2356,8 @@
       "intervalOverdrive": 2,
       "reloadSeconds": 5,
       "reloadOverdrive": 5,
-      "accuracyRank": "A+"
+      "accuracyRank": "A+",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-4510",
@@ -2373,8 +2377,7 @@
       "intervalOverdrive": 2,
       "reloadSeconds": 0,
       "reloadOverdrive": 5,
-      "accuracyRank": "AA",
-      "tags": ["reload_none"]
+      "accuracyRank": "AA"
     },
     {
       "id": "weapon-4520",
@@ -2394,7 +2397,8 @@
       "intervalOverdrive": 2,
       "reloadSeconds": 40,
       "reloadOverdrive": 5,
-      "accuracyRank": "AA"
+      "accuracyRank": "AA",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-4600",
@@ -2860,7 +2864,8 @@
       "rof": 1,
       "intervalOverdrive": 3,
       "reloadSeconds": 0,
-      "reloadOverdrive": 5
+      "reloadOverdrive": 5,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-5310",
@@ -2879,7 +2884,8 @@
       "rof": 1,
       "intervalOverdrive": 3,
       "reloadSeconds": 0,
-      "reloadOverdrive": 5
+      "reloadOverdrive": 5,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-5320",
@@ -2898,7 +2904,8 @@
       "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 0,
-      "reloadOverdrive": 5
+      "reloadOverdrive": 5,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-5330",
@@ -2920,7 +2927,8 @@
       "rof": 1,
       "intervalOverdrive": 3,
       "reloadSeconds": 0,
-      "reloadOverdrive": 5
+      "reloadOverdrive": 5,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-5340",
@@ -2939,7 +2947,8 @@
       "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 0,
-      "reloadOverdrive": 5
+      "reloadOverdrive": 5,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-5400",
@@ -2958,7 +2967,8 @@
       "rof": 1,
       "intervalOverdrive": 1,
       "reloadSeconds": 8,
-      "reloadOverdrive": 2
+      "reloadOverdrive": 2,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-5410",
@@ -2977,7 +2987,8 @@
       "rof": 1,
       "intervalOverdrive": 1,
       "reloadSeconds": 15,
-      "reloadOverdrive": 2
+      "reloadOverdrive": 2,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-5420",
@@ -2996,7 +3007,8 @@
       "rof": 1,
       "intervalOverdrive": 1,
       "reloadSeconds": 9,
-      "reloadOverdrive": 2
+      "reloadOverdrive": 2,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-5500",
@@ -3014,7 +3026,8 @@
       "rof": 1,
       "intervalOverdrive": 1,
       "reloadSeconds": 25,
-      "reloadOverdrive": 5
+      "reloadOverdrive": 5,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-5510",
@@ -3032,7 +3045,8 @@
       "rof": 1,
       "intervalOverdrive": 1,
       "reloadSeconds": 35,
-      "reloadOverdrive": 5
+      "reloadOverdrive": 5,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-5520",
@@ -3050,7 +3064,8 @@
       "rof": 1,
       "intervalOverdrive": 1,
       "reloadSeconds": 9,
-      "reloadOverdrive": 18
+      "reloadOverdrive": 18,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-5530",
@@ -3071,7 +3086,8 @@
       "rof": 1,
       "intervalOverdrive": 1,
       "reloadSeconds": 30,
-      "reloadOverdrive": 10
+      "reloadOverdrive": 10,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-5600",
@@ -3171,8 +3187,7 @@
       "rof": 10,
       "intervalOverdrive": 1,
       "reloadSeconds": 0,
-      "reloadOverdrive": 5,
-      "tags": ["reload_none"]
+      "reloadOverdrive": 5
     },
     {
       "id": "weapon-5710",
@@ -3191,8 +3206,7 @@
       "rof": 10,
       "intervalOverdrive": 1,
       "reloadSeconds": 0,
-      "reloadOverdrive": 5,
-      "tags": ["reload_none"]
+      "reloadOverdrive": 5
     },
     {
       "id": "weapon-6000",
@@ -3237,7 +3251,7 @@
       "reloadSeconds": 28,
       "reloadOverdrive": 5,
       "accuracyRank": "AA",
-      "tags": ["growth_damage"]
+      "tags": ["growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-6020",
@@ -3261,7 +3275,7 @@
       "reloadSeconds": 24,
       "reloadOverdrive": 5,
       "accuracyRank": "AA",
-      "tags": ["growth_damage"]
+      "tags": ["growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-6030",
@@ -3303,8 +3317,8 @@
       "intervalOverdrive": 4,
       "reloadSeconds": 40,
       "reloadOverdrive": 5,
-      "accuracyRank": "B",
-      "tags": ["growth_damage"]
+      "accuracyRank": "B→A",
+      "tags": ["growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-6210",
@@ -3324,8 +3338,8 @@
       "intervalOverdrive": 2,
       "reloadSeconds": 12,
       "reloadOverdrive": 5,
-      "accuracyRank": "B",
-      "tags": ["growth_damage"]
+      "accuracyRank": "B→A",
+      "tags": ["growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-6220",
@@ -3345,8 +3359,8 @@
       "intervalOverdrive": 2,
       "reloadSeconds": 80,
       "reloadOverdrive": 5,
-      "accuracyRank": "B",
-      "tags": ["growth_damage"]
+      "accuracyRank": "B→A",
+      "tags": ["growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-6230",
@@ -3365,8 +3379,8 @@
       "intervalOverdrive": 3,
       "reloadSeconds": 24,
       "reloadOverdrive": 5,
-      "accuracyRank": "C",
-      "tags": ["growth_damage"]
+      "accuracyRank": "C→A",
+      "tags": ["growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-6240",
@@ -3389,7 +3403,8 @@
       "intervalOverdrive": 2,
       "reloadSeconds": 20,
       "reloadOverdrive": 5,
-      "accuracyRank": "A"
+      "accuracyRank": "A",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-6300",
@@ -3410,7 +3425,7 @@
       "reloadSeconds": 76,
       "reloadOverdrive": 5,
       "accuracyRank": "A",
-      "tags": ["growth_damage"]
+      "tags": ["growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-6310",
@@ -3433,7 +3448,7 @@
       "reloadSeconds": 60,
       "reloadOverdrive": 5,
       "accuracyRank": "A",
-      "tags": ["growth_damage"]
+      "tags": ["growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-6320",
@@ -3457,7 +3472,7 @@
       "reloadSeconds": 44,
       "reloadOverdrive": 5,
       "accuracyRank": "A",
-      "tags": ["growth_damage"]
+      "tags": ["growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-6400",
@@ -3498,7 +3513,7 @@
       "reloadSeconds": 14,
       "reloadOverdrive": 5,
       "accuracyRank": "A",
-      "tags": ["growth_damage"]
+      "tags": ["growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-6420",
@@ -3517,7 +3532,8 @@
       "intervalOverdrive": 1.333,
       "reloadSeconds": 60,
       "reloadOverdrive": 8,
-      "accuracyRank": "A"
+      "accuracyRank": "A",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-6500",
@@ -3537,7 +3553,7 @@
       "reloadSeconds": 28,
       "reloadOverdrive": 5,
       "accuracyRank": "A",
-      "tags": ["growth_damage"]
+      "tags": ["growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-6510",
@@ -3558,7 +3574,7 @@
       "reloadSeconds": 40,
       "reloadOverdrive": 5,
       "accuracyRank": "A",
-      "tags": ["growth_damage"]
+      "tags": ["growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-6520",
@@ -3578,7 +3594,7 @@
       "reloadSeconds": 16,
       "reloadOverdrive": 5,
       "accuracyRank": "A",
-      "tags": ["growth_damage"]
+      "tags": ["growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-6600",
@@ -3599,8 +3615,7 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 0,
       "reloadOverdrive": 1,
-      "accuracyRank": "AA",
-      "tags": ["reload_none"]
+      "accuracyRank": "AA"
     },
     {
       "id": "weapon-6610",
@@ -3621,8 +3636,7 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 0,
       "reloadOverdrive": 1,
-      "accuracyRank": "AA",
-      "tags": ["reload_none"]
+      "accuracyRank": "AA"
     },
     {
       "id": "weapon-6700",
@@ -3642,7 +3656,7 @@
       "reloadSeconds": 16,
       "reloadOverdrive": 5,
       "accuracyRank": "round",
-      "tags": ["growth_damage"]
+      "tags": ["growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-6710",
@@ -3662,7 +3676,7 @@
       "reloadSeconds": 6,
       "reloadOverdrive": 5,
       "accuracyRank": "round",
-      "tags": ["growth_damage"]
+      "tags": ["growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-6800",
@@ -3679,8 +3693,7 @@
       "rof": 3.4965034965034967,
       "intervalOverdrive": 2,
       "reloadSeconds": 0,
-      "reloadOverdrive": 6,
-      "tags": ["reload_none"]
+      "reloadOverdrive": 6
     },
     {
       "id": "weapon-6810",
@@ -3697,8 +3710,7 @@
       "rof": 3.4965034965034967,
       "intervalOverdrive": 2,
       "reloadSeconds": 0,
-      "reloadOverdrive": 6,
-      "tags": ["reload_none"]
+      "reloadOverdrive": 6
     },
     {
       "id": "weapon-6820",
@@ -3715,8 +3727,7 @@
       "rof": 3.4965034965034967,
       "intervalOverdrive": 2,
       "reloadSeconds": 0,
-      "reloadOverdrive": 6,
-      "tags": ["reload_none"]
+      "reloadOverdrive": 6
     },
     {
       "id": "weapon-6830",
@@ -3734,7 +3745,8 @@
       "rof": 1.6666666666666667,
       "intervalOverdrive": 2,
       "reloadSeconds": 0,
-      "reloadOverdrive": 5
+      "reloadOverdrive": 5,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-7000",
@@ -3917,7 +3929,8 @@
       "intervalOverdrive": 1.5,
       "reloadSeconds": 10,
       "reloadOverdrive": 5,
-      "accuracyRank": "AA"
+      "accuracyRank": "AA",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-7210",
@@ -3936,7 +3949,8 @@
       "rof": 1.5015015015015014,
       "intervalOverdrive": 1.5,
       "reloadSeconds": 10,
-      "reloadOverdrive": 5
+      "reloadOverdrive": 5,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-7220",
@@ -3956,7 +3970,8 @@
       "intervalOverdrive": 1.5,
       "reloadSeconds": 6,
       "reloadOverdrive": 5,
-      "accuracyRank": "AA"
+      "accuracyRank": "AA",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-7230",
@@ -3976,7 +3991,8 @@
       "intervalOverdrive": 1.5,
       "reloadSeconds": 20,
       "reloadOverdrive": 5,
-      "accuracyRank": "AA"
+      "accuracyRank": "AA",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-7240",
@@ -3996,7 +4012,8 @@
       "intervalOverdrive": 1.5,
       "reloadSeconds": 4,
       "reloadOverdrive": 5,
-      "accuracyRank": "AA"
+      "accuracyRank": "AA",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-7300",
@@ -4015,7 +4032,7 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 10,
       "reloadOverdrive": 2,
-      "tags": ["sticky"]
+      "tags": ["sticky", "reload_charge"]
     },
     {
       "id": "weapon-7310",
@@ -4034,7 +4051,7 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 14,
       "reloadOverdrive": 2,
-      "tags": ["sticky"]
+      "tags": ["sticky", "reload_charge"]
     },
     {
       "id": "weapon-7320",
@@ -4053,7 +4070,7 @@
       "reloadSeconds": 0,
       "reloadOverdrive": 2,
       "accuracyRank": "AA",
-      "tags": ["sticky", "reload_none"]
+      "tags": ["sticky"]
     },
     {
       "id": "weapon-7330",
@@ -4073,7 +4090,7 @@
       "reloadSeconds": 20,
       "reloadOverdrive": 2,
       "accuracyRank": "AA",
-      "tags": ["sticky"]
+      "tags": ["sticky", "reload_charge"]
     },
     {
       "id": "weapon-7420",
@@ -4092,8 +4109,7 @@
       "intervalOverdrive": 2.5,
       "reloadSeconds": 0,
       "reloadOverdrive": 8,
-      "accuracyRank": "AA",
-      "tags": ["reload_none"]
+      "accuracyRank": "AA"
     },
     {
       "id": "weapon-7500",
@@ -4112,7 +4128,8 @@
       "rof": 1,
       "intervalOverdrive": 1,
       "reloadSeconds": 9,
-      "reloadOverdrive": 1
+      "reloadOverdrive": 1,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-7510",
@@ -4131,7 +4148,8 @@
       "rof": 1,
       "intervalOverdrive": 1,
       "reloadSeconds": 10,
-      "reloadOverdrive": 1
+      "reloadOverdrive": 1,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-7520",
@@ -4150,7 +4168,8 @@
       "rof": 1,
       "intervalOverdrive": 1,
       "reloadSeconds": 1.5,
-      "reloadOverdrive": 1
+      "reloadOverdrive": 1,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-8500",
@@ -4167,7 +4186,8 @@
       "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 10,
-      "reloadOverdrive": 1
+      "reloadOverdrive": 1,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-8510",
@@ -4184,7 +4204,8 @@
       "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 20,
-      "reloadOverdrive": 1
+      "reloadOverdrive": 1,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-9000",
@@ -4202,7 +4223,7 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 3.5,
       "reloadOverdrive": 5,
-      "accuracyRank": "G",
+      "accuracyRank": "G→A",
       "tags": ["slow_aim", "delay"]
     },
     {
@@ -4221,7 +4242,7 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 15,
       "reloadOverdrive": 5,
-      "accuracyRank": "E",
+      "accuracyRank": "E→A+",
       "tags": ["slow_aim", "delay", "reload_auto"]
     },
     {
@@ -4240,8 +4261,8 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 0,
       "reloadOverdrive": 5,
-      "accuracyRank": "D",
-      "tags": ["reload_none", "slow_aim", "delay"]
+      "accuracyRank": "D→B",
+      "tags": ["slow_aim", "delay"]
     },
     {
       "id": "weapon-9030",
@@ -4259,7 +4280,7 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 6,
       "reloadOverdrive": 5,
-      "accuracyRank": "D",
+      "accuracyRank": "D→A",
       "tags": ["slow_aim", "delay"]
     },
     {
@@ -4278,7 +4299,7 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 9.5,
       "reloadOverdrive": 5,
-      "accuracyRank": "G",
+      "accuracyRank": "G→A",
       "tags": ["slow_aim", "delay"]
     },
     {
@@ -4297,7 +4318,7 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 18,
       "reloadOverdrive": 5,
-      "accuracyRank": "C",
+      "accuracyRank": "C→A+",
       "tags": ["slow_aim", "delay", "reload_auto"]
     },
     {
@@ -4316,7 +4337,7 @@
       "intervalOverdrive": 1.3,
       "reloadSeconds": 10,
       "reloadOverdrive": 5,
-      "accuracyRank": "E",
+      "accuracyRank": "E→A",
       "tags": ["slow_aim", "delay"]
     },
     {
@@ -4335,7 +4356,7 @@
       "intervalOverdrive": 1.3,
       "reloadSeconds": 14,
       "reloadOverdrive": 5,
-      "accuracyRank": "D",
+      "accuracyRank": "D→A",
       "tags": ["no_move_aim", "delay", "reload_auto"]
     },
     {
@@ -4354,7 +4375,7 @@
       "intervalOverdrive": 1.3,
       "reloadSeconds": 18,
       "reloadOverdrive": 5,
-      "accuracyRank": "D",
+      "accuracyRank": "D→B",
       "tags": ["slow_aim", "delay"]
     },
     {
@@ -4373,7 +4394,7 @@
       "intervalOverdrive": 1.3,
       "reloadSeconds": 16,
       "reloadOverdrive": 5,
-      "accuracyRank": "B",
+      "accuracyRank": "B→A+",
       "tags": ["no_move_aim", "delay", "reload_auto"]
     },
     {
@@ -4393,7 +4414,7 @@
       "reloadSeconds": 30,
       "reloadOverdrive": 5,
       "accuracyRank": "A",
-      "tags": ["slow_aim", "delay"]
+      "tags": ["slow_aim", "delay", "reload_charge"]
     },
     {
       "id": "weapon-9210",
@@ -4411,7 +4432,7 @@
       "intervalOverdrive": 1.2,
       "reloadSeconds": 4,
       "reloadOverdrive": 5,
-      "accuracyRank": "B",
+      "accuracyRank": "B→A+",
       "tags": ["slow_aim", "delay", "reload_auto"]
     },
     {
@@ -4430,7 +4451,7 @@
       "intervalOverdrive": 1.2,
       "reloadSeconds": 10,
       "reloadOverdrive": 5,
-      "accuracyRank": "C",
+      "accuracyRank": "C→A",
       "tags": ["slow_aim"]
     },
     {
@@ -4450,7 +4471,7 @@
       "reloadSeconds": 60,
       "reloadOverdrive": 5,
       "accuracyRank": "A",
-      "tags": ["slow_aim", "delay"]
+      "tags": ["slow_aim", "delay", "reload_charge"]
     },
     {
       "id": "weapon-9300",
@@ -4468,7 +4489,7 @@
       "intervalOverdrive": 1.3,
       "reloadSeconds": 20,
       "reloadOverdrive": 5,
-      "tags": ["delay"]
+      "tags": ["delay", "reload_charge"]
     },
     {
       "id": "weapon-9310",
@@ -4486,7 +4507,7 @@
       "intervalOverdrive": 1.3,
       "reloadSeconds": 30,
       "reloadOverdrive": 5,
-      "tags": ["delay"]
+      "tags": ["delay", "reload_charge"]
     },
     {
       "id": "weapon-9320",
@@ -4504,7 +4525,7 @@
       "intervalOverdrive": 1.3,
       "reloadSeconds": 40,
       "reloadOverdrive": 5,
-      "tags": ["delay"]
+      "tags": ["delay", "reload_charge"]
     },
     {
       "id": "weapon-9400",
@@ -4523,7 +4544,7 @@
       "reloadSeconds": 20,
       "reloadOverdrive": 5,
       "accuracyRank": "AA",
-      "tags": ["delay"]
+      "tags": ["delay", "reload_charge"]
     },
     {
       "id": "weapon-9410",
@@ -4542,7 +4563,7 @@
       "reloadSeconds": 60,
       "reloadOverdrive": 5,
       "accuracyRank": "AA",
-      "tags": ["delay"]
+      "tags": ["delay", "reload_charge"]
     },
     {
       "id": "weapon-9420",
@@ -4562,7 +4583,7 @@
       "reloadSeconds": 7,
       "reloadOverdrive": 7,
       "accuracyRank": "AA",
-      "tags": ["delay"]
+      "tags": ["delay", "reload_charge"]
     },
     {
       "id": "weapon-10000",
@@ -4602,7 +4623,8 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 20,
       "reloadOverdrive": 8,
-      "accuracyRank": "G"
+      "accuracyRank": "G",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-10020",
@@ -4622,7 +4644,8 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 16,
       "reloadOverdrive": 8,
-      "accuracyRank": "AA"
+      "accuracyRank": "AA",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-10030",
@@ -4662,7 +4685,8 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 44,
       "reloadOverdrive": 8,
-      "accuracyRank": "D"
+      "accuracyRank": "D",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-10100",
@@ -4855,7 +4879,8 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 72,
       "reloadOverdrive": 5,
-      "accuracyRank": "B"
+      "accuracyRank": "B",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-10400",
@@ -4874,8 +4899,7 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 0,
       "reloadOverdrive": 5,
-      "accuracyRank": "AA",
-      "tags": ["reload_none"]
+      "accuracyRank": "AA"
     },
     {
       "id": "weapon-10410",
@@ -4895,8 +4919,7 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 0,
       "reloadOverdrive": 5,
-      "accuracyRank": "AA",
-      "tags": ["reload_none"]
+      "accuracyRank": "AA"
     },
     {
       "id": "weapon-10500",
@@ -5169,7 +5192,8 @@
       "rof": null,
       "intervalOverdrive": 1,
       "reloadSeconds": 30,
-      "reloadOverdrive": 2
+      "reloadOverdrive": 2,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-11510",
@@ -5187,7 +5211,8 @@
       "rof": null,
       "intervalOverdrive": 1,
       "reloadSeconds": 30,
-      "reloadOverdrive": 2
+      "reloadOverdrive": 2,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-12000",
@@ -5206,7 +5231,8 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 20,
       "reloadOverdrive": 1,
-      "accuracyRank": "AA"
+      "accuracyRank": "AA",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-12010",
@@ -5228,7 +5254,8 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 60,
       "reloadOverdrive": 1,
-      "accuracyRank": "AA"
+      "accuracyRank": "AA",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-12020",
@@ -5250,7 +5277,8 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 45,
       "reloadOverdrive": 1,
-      "accuracyRank": "AA"
+      "accuracyRank": "AA",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-12030",
@@ -5272,7 +5300,8 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 30,
       "reloadOverdrive": 1,
-      "accuracyRank": "AA"
+      "accuracyRank": "AA",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-12040",
@@ -5294,7 +5323,8 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 12,
       "reloadOverdrive": 1,
-      "accuracyRank": "AA"
+      "accuracyRank": "AA",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-12100",
@@ -5358,7 +5388,8 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 50,
       "reloadOverdrive": 1,
-      "accuracyRank": "AA"
+      "accuracyRank": "AA",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-12210",
@@ -5377,7 +5408,8 @@
       "intervalOverdrive": 1,
       "reloadSeconds": 70,
       "reloadOverdrive": 1,
-      "accuracyRank": "AA"
+      "accuracyRank": "AA",
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-12300",
@@ -5476,7 +5508,7 @@
       "reloadSeconds": 40,
       "reloadOverdrive": 10,
       "accuracyRank": "AA",
-      "tags": ["no_move_aim", "growth_damage"]
+      "tags": ["no_move_aim", "growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-13010",
@@ -5496,7 +5528,7 @@
       "reloadSeconds": 25,
       "reloadOverdrive": 10,
       "accuracyRank": "AA",
-      "tags": ["no_move_aim", "growth_damage"]
+      "tags": ["no_move_aim", "growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-13020",
@@ -5516,7 +5548,7 @@
       "reloadSeconds": 18,
       "reloadOverdrive": 10,
       "accuracyRank": "AA",
-      "tags": ["no_move_aim", "growth_damage"]
+      "tags": ["no_move_aim", "growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-13030",
@@ -5536,7 +5568,7 @@
       "reloadSeconds": 60,
       "reloadOverdrive": 10,
       "accuracyRank": "AA",
-      "tags": ["no_move_aim", "growth_damage"]
+      "tags": ["no_move_aim", "growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-13100",
@@ -5556,7 +5588,7 @@
       "reloadSeconds": 30,
       "reloadOverdrive": 10,
       "accuracyRank": "AA",
-      "tags": ["no_move_aim", "growth_damage"]
+      "tags": ["no_move_aim", "growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-13110",
@@ -5576,7 +5608,7 @@
       "reloadSeconds": 25,
       "reloadOverdrive": 10,
       "accuracyRank": "AA",
-      "tags": ["no_move_aim", "growth_damage"]
+      "tags": ["no_move_aim", "growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-13120",
@@ -5596,7 +5628,7 @@
       "reloadSeconds": 18,
       "reloadOverdrive": 10,
       "accuracyRank": "AA",
-      "tags": ["no_move_aim", "growth_damage"]
+      "tags": ["no_move_aim", "growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-13130",
@@ -5616,7 +5648,7 @@
       "reloadSeconds": 20,
       "reloadOverdrive": 10,
       "accuracyRank": "AA",
-      "tags": ["no_move_aim", "growth_damage"]
+      "tags": ["no_move_aim", "growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-500000",
@@ -5675,7 +5707,8 @@
       "reloadSeconds": 1,
       "reloadOverdrive": 3,
       "accuracyRank": "AA",
-      "zoom": true
+      "zoom": true,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-500110",
@@ -5695,7 +5728,8 @@
       "reloadSeconds": 1,
       "reloadOverdrive": 3,
       "accuracyRank": "AA",
-      "zoom": true
+      "zoom": true,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-500200",
@@ -5795,7 +5829,7 @@
       "reloadOverdrive": 6.5,
       "reloadQuick": 37.5,
       "reloadQuickWindow": 1,
-      "accuracyRank": "E"
+      "accuracyRank": "E→A+"
     },
     {
       "id": "weapon-600210",
@@ -5816,7 +5850,7 @@
       "reloadOverdrive": 6.5,
       "reloadQuick": 25,
       "reloadQuickWindow": 1,
-      "accuracyRank": "E",
+      "accuracyRank": "E→A+",
       "tags": ["pushback"]
     },
     {
@@ -5837,7 +5871,7 @@
       "intervalOverdrive": 1.5,
       "reloadSeconds": 10,
       "reloadOverdrive": 6.5,
-      "accuracyRank": "E",
+      "accuracyRank": "E→A+",
       "tags": ["reload_auto"]
     },
     {
@@ -5898,7 +5932,8 @@
       "rof": 1,
       "intervalOverdrive": 1,
       "reloadSeconds": 9,
-      "reloadOverdrive": 2
+      "reloadOverdrive": 2,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-600330",
@@ -5919,7 +5954,7 @@
       "reloadSeconds": 50,
       "reloadOverdrive": 5,
       "accuracyRank": "A",
-      "tags": ["growth_damage"]
+      "tags": ["growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-600360",
@@ -5995,7 +6030,8 @@
       "rof": 20,
       "intervalOverdrive": 1,
       "reloadSeconds": 6,
-      "reloadOverdrive": 1
+      "reloadOverdrive": 1,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-600410",
@@ -6013,7 +6049,7 @@
       "intervalOverdrive": 1.3,
       "reloadSeconds": 16,
       "reloadOverdrive": 2,
-      "accuracyRank": "E",
+      "accuracyRank": "E→A+",
       "tags": ["no_move_aim", "delay", "reload_auto"]
     },
     {
@@ -6054,7 +6090,7 @@
       "reloadOverdrive": 5,
       "accuracyRank": "AA",
       "zoom": true,
-      "tags": ["delay"]
+      "tags": ["delay", "reload_charge"]
     },
     {
       "id": "weapon-601020",
@@ -6072,7 +6108,8 @@
       "rof": 1.6666666666666667,
       "intervalOverdrive": 2,
       "reloadSeconds": 0,
-      "reloadOverdrive": 5
+      "reloadOverdrive": 5,
+      "tags": ["reload_charge"]
     },
     {
       "id": "weapon-601030",
@@ -6092,7 +6129,7 @@
       "reloadSeconds": 10,
       "reloadOverdrive": 10,
       "accuracyRank": "AA",
-      "tags": ["no_move_aim", "growth_damage"]
+      "tags": ["no_move_aim", "growth_damage", "reload_charge"]
     },
     {
       "id": "weapon-601040",
@@ -6216,7 +6253,8 @@
       "intervalOverdrive": 3,
       "reloadSeconds": 48,
       "reloadOverdrive": 5,
-      "accuracyRank": "A"
+      "accuracyRank": "A",
+      "tags": ["reload_charge"]
     }
   ],
   "modes": [

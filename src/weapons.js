@@ -1036,6 +1036,8 @@ const headers = [{
         // Ignore
       } else if(tag === 'reload_auto') {
         // Ignore
+      } else if(tag === 'reload_charge') {
+        // Ignore
       } else if(tag === 'delay_burst') {
         acc.push(`+${wpn.damage2} Dmg <30m`)
       } else if(tag === 'delay') {
@@ -1457,6 +1459,9 @@ const headers = [{
   cb: wpn => {
     if(wpn.tags?.includes('reload_auto')) {
       return 'Auto'
+    }
+    if(wpn.tags?.includes('reload_charge')) {
+      return 'Charge'
     }
     if(wpn.reloadQuick && wpn.reloadSeconds) {
       const start = (wpn.reloadSeconds * wpn.reloadQuick * 0.01)

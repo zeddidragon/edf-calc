@@ -158,7 +158,22 @@ td.isStar {
   border-left: none;
 }
 
-.name {
+nav ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.nav-selected {
+  border-bottom: thin solid;
+}
+
+nav a {
+  padding-left: 0.5em;
+  padding-right: 1.5em;
+}
+
+.name, nav a {
   color: #80c3f5;
   text-align: left;
   overflow: hidden;

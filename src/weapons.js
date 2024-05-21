@@ -842,6 +842,18 @@ function magDamage(wpn) {
     }
     return sum
   }
+  if(wpn.growth?.length) {
+    let i = 0
+    let dmg = critAvg(wpn)
+    let sum  = 0
+    for(const step of wpn.growth) {
+      sum += (step.n - i) * dmg
+      dmg = step.damage * (wpn.count || 1)
+      i = step.n
+    }
+    sum += dmg * (wpn.ammo - i)
+    return sum
+  }
   return shotDamage(wpn) * wpn.ammo
 }
 
@@ -1040,6 +1052,8 @@ const headers = [{
         // Ignore
       } else if(tag === 'delay_burst') {
         acc.push(`+${wpn.damage2} Dmg <30m`)
+      } else if(tag === 'delay_blast') {
+        acc.push(`Timer`)
       } else if(tag === 'delay') {
         acc.push('Windup')
       } else if(tag === 'bouncing') {
@@ -1507,6 +1521,10 @@ const headers = [{
           return '↕'
         case 'circle':
           return '○'
+        case 'spherical':
+          return 'Sphere'
+        case 'downward':
+          return 'Down'
         default:
           return wpn.accuracyRank
       }
@@ -2100,17 +2118,9 @@ const headers = [{
     if(wpn.rof || wpn.reloadSeconds) {
       const ammo = wpn.ammo || 1
       const magTime = (ammo > 1 && ammo / wpn.rof) || 0
-      let damage = critAvg(wpn)
+      const magDump = magDamage(wpn)
       const duration = magTime + (wpn.reloadSeconds || 0)
-      console.log({
-        name: wpn.names.en,
-        damage,
-        ammo,
-        duration,
-        rof: wpn.rof,
-        reload: wpn.reloadSeconds,
-      })
-      return ((damage * ammo) / duration).toFixed()
+      return (magDump / duration).toFixed()
     }
     if(!wpn.ammo) {
       return '-'
@@ -2130,7 +2140,6 @@ const headers = [{
       }).toFixed()
     }
     const tdps = tacticalDps(wpn)
-    console.log({ tdps })
     return tdps.toFixed()
   },
 }, {
@@ -2141,10 +2150,10 @@ const headers = [{
     if(wpn.reloadQuick && (wpn.rof || wpn.reloadSeconds)) {
       const ammo = wpn.ammo || 1
       const magTime = (ammo > 1 && ammo / wpn.rof) || 0
-      let damage = critAvg(wpn)
+      const magDump = magDamage(wpn)
       const reload = wpn.reloadSeconds * wpn.reloadQuick / 100
       const duration = magTime + (reload || 0)
-      return ((damage * ammo) / duration).toFixed()
+      return (magDump / duration).toFixed()
     }
     return '-'
   },
@@ -2181,7 +2190,7 @@ const headers = [{
         .fill(0)
         .map((w, i) => attacks[i % attacks.length])
         .reduce((dmg, sum) => dmg + sum, 0)
-      return +(dump * (wpn.count || 1)).toFixed(1)
+      return +(dump * (wpn.count || 1)).toFixed()
     }
     if(!wpn.damage) {
       return '-'
@@ -2190,10 +2199,10 @@ const headers = [{
       if(!['life', 'plasma'].includes(wpn.supportType)) {
         return '-'
       }
-      return +(wpn.damage * wpn.life).toFixed(1)
+      return +(wpn.damage * wpn.life).toFixed()
     }
-    if(wpn.ammoDamageCurve || wpn.ammoCountCurve) {
-      return magDamage(wpn).toFixed(1)
+    if(wpn.ammoDamageCurve || wpn.ammoCountCurve || wpn.growth?.length) {
+      return magDamage(wpn).toFixed()
     }
     const dump = Math.abs(critAvg(wpn)
       * (wpn.ammo || 1)

@@ -169,7 +169,8 @@ nav ul {
 }
 
 nav a {
-  padding-right: 2em;
+  padding-left: 0.5em;
+  padding-right: 1.5em;
 }
 
 .name, nav a {

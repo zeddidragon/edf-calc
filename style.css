@@ -241,20 +241,20 @@ th.P, th.CR {
   padding-right: 0.5em;
 }
 
-.ranger b, .dlc2 b, .Inferno, .lowOdds, .edf3 b, .edf3p b, .ja b, .damage-type.flame, .status-effect.flame {
+.ranger b, .dlc2 b, .Inferno, .lowOdds, .edf3 b, .edf3p b, .ja b, .weapons b, .damage-type.flame, .status-effect.flame {
   color: #e88;
 }
-.winger b, .off b, .Normal, .edf5 b, .en b, .rank-C, .edfir b, .status-effect.frozen, #save-load-copy {
+.winger b, .off b, .Normal, .edf5 b, .en b, .rank-C, .edfir b {
   color: #88e;
 }
-.bomber b, .on b, .Hard, .highOdds, .edf4 b, .edf41 b, .edfia b, .rank-D, .status-effect.poison, #save-load-import {
+.bomber b, .on b, .Hard, .highOdds, .edf4 b, .edf41 b, .edfia b, .items b, .rank-D, .status-effect.poison, #save-load-import {
   color: #8e8;
 }
 .fencer b, .dlc1 b, .edf2pv2 b {
   color: #ea8;
 }
 
-.short b, .spear b, .heli b, .stats b, .limpet b, .booster b, .repair b, .star-10, .star-5, .damage-type.physical {
+.short b, .spear b, .heli b, .stats b, .limpet b, .booster b, .repair b, .sword b, .star-10, .star-5, .damage-type.physical {
   color: #eee;
 }
 .assault b, .laser b, .light b, .gunship b {
@@ -278,11 +278,17 @@ th.P, th.CR {
 .special b, .super b, .rank-B, .status-effect.recover, .status-effect.recovertime, #save-load-toggle b {
   color: #e8a;
 }
-.deploy b, .Easy, .starter, .star-0 {
+.deploy b, .gatling b, .Easy, .starter, .star-0 {
   color: #8aa
 }
-.mech b, .core b, .equipment b, .exo b {
+.mech b, .core b, .equipment b, .exo b, .thrower b {
   color: #e8e;
+}
+.railgun b, .status-effect.frozen {
+  color: #8ae;
+}
+.cannon b  {
+  color: #8ea;
 }
 
 @media only screen and (max-width: 540px) {

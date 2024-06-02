@@ -1056,6 +1056,12 @@ const headers = [{
         acc.push(`Timer`)
       } else if(tag === 'delay') {
         acc.push('Windup')
+      } else if(tag === 'slow_aim') {
+        acc.push('Slows Aim')
+      } else if(tag === 'no_move_aim') {
+        acc.push('Immobile')
+      } else if(tag === 'energyconsume') {
+        acc.push('Uses Energy')
       } else if(tag === 'bouncing') {
         acc.push('Bouncing')
       } else if(tag === 'growth_range') {
@@ -1078,6 +1084,14 @@ const headers = [{
         acc.push('Flare (Frightens)')
       } else if(tag === 'no_move') {
         acc.push('Immobile')
+      } else if(tag === 'sticky') {
+        acc.push('Sticky')
+      } else if(tag === 'shock') {
+        // acc.push('Shock')
+      } else if(tag === 'frozen') {
+        // acc.push('Freeze')
+      } else if(tag === 'flame') {
+        // acc.push('Burn')
       } else if(tag) {
         acc.push(tag)
       }
@@ -1318,6 +1332,47 @@ const headers = [{
       default: 
         return '-'
     }
+  },
+}, {
+  id: 'effect',
+  label: 'FX',
+  tooltip: 'Status Effect',
+  cb: wpn => {
+    if(!wpn.effect) {
+      return '-'
+    }
+    const tag = document.createElement('span')
+    tag.classList.add('status-effect')
+    tag.classList.add(wpn.effect)
+    switch(wpn.effect) {
+      case 'flame': {
+        tag.textContent = 'Fire'
+        break
+      }
+      case 'frozen': {
+        tag.textContent = 'Freeze'
+        break
+      }
+      case 'shock': {
+        tag.textContent = 'Shock'
+        break
+      }
+      case 'poison': {
+        tag.textContent = 'Poison'
+        break
+      }
+      case 'recover': {
+        tag.textContent = 'Heal'
+        break
+      }
+      case 'recovertime': {
+        tag.textContent = 'Regen'
+        break
+      }
+      default: 
+        tag.textContent = wpn.effect
+    }
+    return tag
   },
 }, {
   id: 'shots',
@@ -1659,7 +1714,9 @@ const headers = [{
   cb: wpn => {
     if(wpn.range && wpn.growth) {
       const maxRange = wpn.growth[wpn.growth.length - 1].range
-      return `${wpn.range}→${maxRange}`
+      if(maxRange !== wpn.range) {
+        return `${wpn.range}→${maxRange}`
+      }
     }
     if(wpn.range) {
       return wpn.range

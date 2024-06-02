@@ -9,7 +9,7 @@ header {
 }
 
 table, th, td {
-  border: 1px solid #4e5d6f;
+  border: none;
   border-collapse: collapse;
 }
 

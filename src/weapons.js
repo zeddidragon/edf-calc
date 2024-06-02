@@ -1388,7 +1388,8 @@ const headers = [{
     if(wpn.category === 'short' && wpn.burst > 1) {
       return `- x ${wpn.burst}`
     }
-    if(wpn.category === 'missile' && wpn.lockTime && wpn.burstRate) {
+    const isLockTime = wpn.lockTime || wpn.lockTimeSeconds
+    if(wpn.category === 'missile' && isLockTime && wpn.burstRate) {
       return (FPS / wpn.burstRate).toFixed(1)
     }
     if(wpn.burst > 1 && wpn.interval > 1) {
@@ -1438,6 +1439,9 @@ const headers = [{
   tooltip: 'Lock Time',
   starProp: 'lockTime',
   cb: wpn => {
+    if(wpn.lockTimeSeconds) {
+      return wpn.lockTimeSeconds
+    }
     if(!wpn.lockTime) {
       return '-'
     }

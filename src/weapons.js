@@ -2072,6 +2072,7 @@ const games = [
   '4',
   '41',
   '5',
+  '6',
   'ia',
 ]
 
@@ -2082,6 +2083,7 @@ const gameLabels = [
   'EDF4',
   'EDF4.1',
   'EDF5',
+  'EDF6',
   'EDF:IA',
 ]
 

@@ -278,11 +278,23 @@ th.P, th.CR {
 .special b, .super b, #save-load-toggle b {
   color: #e8a;
 }
-.deploy b, .Easy, .starter, .star-0 {
+.edf6 b, .deploy b, .Easy, .starter, .star-0 {
   color: #8aa
 }
 .mech b, .core b, .equipment b, .exo b {
   color: #e8e;
+}
+.bomb b, .trap b, .droneguard b {
+  color: #ae8;
+}
+.handgrenade b, .cannon b, .droneshooter b {
+  color: #8ae;
+}
+.specialgrenade b, .submissile b, .dronechaser b {
+  color: #8ea;
+}
+.saber b, .droneauto b {
+  color: #aaa;
 }
 
 @media only screen and (max-width: 540px) {

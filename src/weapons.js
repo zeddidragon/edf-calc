@@ -831,7 +831,6 @@ function magDamage(wpn) {
     }
     return sum
   }
-  console.log(wpn)
   return shotDamage(wpn) * Math.ceil(wpn.ammo / (wpn.drain || 1))
 }
 
@@ -1111,15 +1110,30 @@ const headers = [{
     return '-'
   },
 }, {
+  id: 'boost',
+  label: 'Boost',
+  tooltip: 'Boost',
+  starProp: 'damage',
+  cb: wpn => {
+    if(wpn.supportType) {
+      return `${(wpn.damage * 100).toFixed(2)}%`
+    }
+    return '-'
+  },
+}, {
   id: 'defense',
   label: 'Def',
   tooltip: 'Defense',
+  starProp: 'damage',
   cb: wpn => {
     if(wpn.shieldDamageReduction) {
       return `${Math.round((1 - wpn.shieldDamageReduction) * 100)}%`
     }
     if(wpn.defense) {
       return `${wpn.defense}%`
+    }
+    if(wpn.supportType === 'guard') {
+      return `${(wpn.damage * 100).toFixed(2)}%`
     }
     return '-'
   },
@@ -1214,6 +1228,13 @@ const headers = [{
       return `${wpn.units} x ${wpn.shots || 1} `
     }
     return wpn.shots || 1
+  },
+}, {
+  id: 'units',
+  label: 'Units',
+  tooltip: 'Number of Units',
+  cb: wpn => {
+    return wpn.units || 1
   },
 }, {
   id: 'radius',
@@ -1786,7 +1807,12 @@ const headers = [{
   label: 'Conv',
   tooltip: 'Conversion',
   cb: wpn => {
-    console.log(wpn)
+    if(wpn.dashToBoost) {
+      return `⇒ → ⇑`
+    }
+    if(wpn.boostToDash) {
+      return `⇑ → ⇒`
+    }
     return '-'
   },
 }, {

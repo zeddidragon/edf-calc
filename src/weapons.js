@@ -116,7 +116,7 @@ function pickLang(lang) {
 
 function pickGame(game) {
   if(!games.includes(game)) {
-    game = '5'
+    game = '6'
   }
   const gameChanged = active.game != game
   const button = document
@@ -823,7 +823,7 @@ function magDamage(wpn) {
     const dmgCurve = wpn.ammoDamageCurve || 0
     const countCurve = wpn.ammoCountCurve || 0
     let sum = 0
-    for(let i = 0; i < wpn.ammo; i++) {
+    for(let i = 0; i < wpn.ammo; i += (wpn.drain || 1)) {
       const x = (wpn.ammo - i) / wpn.ammo
       const count = Math.ceil(wpn.count * Math.pow(x, countCurve)) || 1
       const dmg = wpn.damage * Math.pow(x, dmgCurve)
@@ -831,7 +831,8 @@ function magDamage(wpn) {
     }
     return sum
   }
-  return shotDamage(wpn) * wpn.ammo
+  console.log(wpn)
+  return shotDamage(wpn) * Math.ceil(wpn.ammo / (wpn.drain || 1))
 }
 
 function falloff(wpn, dmg) {
@@ -1096,6 +1097,16 @@ const headers = [{
     }
     if(wpn.ammo) {
       return wpn.ammo
+    }
+    return '-'
+  },
+}, {
+  id: 'drain',
+  label: 'Drain',
+  tooltip: 'Ammo Consumed Per Attack',
+  cb: wpn => {
+    if(wpn.drain) {
+      return wpn.drain
     }
     return '-'
   },
@@ -1993,7 +2004,7 @@ const headers = [{
     }
     const dump = Math.abs(wpn.damage
       * (wpn.count || 1)
-      * (wpn.ammo || 1)
+      * Math.ceil((wpn.ammo || 1) / (wpn.drain || 1))
       * (wpn.shots || 1)
       * (wpn.units || 1))
     return +dump.toFixed(1)

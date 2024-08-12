@@ -1782,6 +1782,14 @@ const headers = [{
     return '-'
   },
 }, {
+  id: 'convertible',
+  label: 'Conv',
+  tooltip: 'Conversion',
+  cb: wpn => {
+    console.log(wpn)
+    return '-'
+  },
+}, {
   id: 'shieldUse',
   label: 'Cns',
   tooltip: 'Shield Consumption',

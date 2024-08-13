@@ -930,100 +930,208 @@
       {
         "category": "artillery",
         "names": {"en": "Request Artillery Units", "ja": "砲兵隊"},
-        "appendix": "*Area for each blast",
-        "headers": [
-          "checkbox",
-          "stars",
-          "level",
-          "name",
-          "damage",
-          "shots",
-          "radius",
-          "subRadius",
-          "reload",
-          "total"
+        "tables": [
+          {
+            "subCategory": "artillery",
+            "names": {"en": "Artillery Crew", "ja": "砲兵隊"},
+            "appendix": "*Area for each blast",
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "damage",
+              "shots",
+              "radius",
+              "subRadius",
+              "reload",
+              "total"
+            ]
+          },
+          {
+            "subCategory": "drone",
+            "names": {"en": "Drone-Based", "ja": "ピックアップ"},
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "interval",
+              "radius",
+              "dps",
+              "total"
+            ]
+          }
         ]
       },
       {
         "category": "gunship",
         "names": {"en": "Request Gunships", "ja": "攻撃機ホエール"},
         "appendix": "*For barrage shots",
-        "headers": [
-          "checkbox",
-          "stars",
-          "level",
-          "name",
-          "ammo",
-          "damage",
-          "shots",
-          "radius",
-          "subRadius",
-          "interval",
-          "interval2",
-          "reload",
-          "zoom",
-          "range",
-          "speed",
-          "dps",
-          "dps2",
-          "tdps",
-          "total"
+        "tables": [
+          {
+            "subCategory": "gunship",
+            "names": {"en": "Request Gunships", "ja": "攻撃機ホエール"},
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "shots",
+              "radius",
+              "subRadius",
+              "interval",
+              "interval2",
+              "reload",
+              "zoom",
+              "range",
+              "speed",
+              "dps",
+              "dps2",
+              "tdps",
+              "total"
+            ]
+          },
+          {
+            "subCategory": "drone",
+            "names": {"en": "Drone-Based", "ja": "ピックアップ"},
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "units",
+              "damage",
+              "interval",
+              "dps",
+              "total"
+            ]
+          }
         ]
       },
       {
         "category": "planes",
         "names": {"en": "Request Bombers", "ja": "爆撃機カロン＆ミッドナイト"},
-        "appendix": "*Area for each blast",
-        "headers": [
-          "checkbox",
-          "stars",
-          "level",
-          "name",
-          "damage",
-          "shots",
-          "radius",
-          "subRadius",
-          "duration",
-          "reload",
-          "total"
+        "tables": [
+          {
+            "subCategory": "planes",
+            "names": {"en": "Request Bombers", "ja": "爆撃機カロン＆ミッドナイト"},
+            "appendix": "*Area for each blast",
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "damage",
+              "shots",
+              "radius",
+              "subRadius",
+              "duration",
+              "reload",
+              "total"
+            ]
+          },
+          {
+            "subCategory": "drone",
+            "names": {"en": "Drone-Based", "ja": "ピックアップ"},
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "units",
+              "damage",
+              "radius",
+              "interval",
+              "dps",
+              "total"
+            ]
+          }
         ]
       },
       {
         "category": "missile",
         "names": {"en": "Request Missiles", "ja": "ミサイル"},
-        "headers": [
-          "checkbox",
-          "stars",
-          "level",
-          "name",
-          "damage",
-          "shots",
-          "radius",
-          "credits",
-          "reload",
-          "zoom",
-          "range",
-          "tdps",
-          "total"
+        "tables": [
+          {
+            "subCategory": "missile",
+            "names": {"en": "Request Missiles", "ja": "ミサイル"},
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "damage",
+              "shots",
+              "radius",
+              "credits",
+              "reload",
+              "zoom",
+              "range",
+              "tdps",
+              "total"
+            ]
+          },
+          {
+            "subCategory": "drone",
+            "names": {"en": "Drone-Based", "ja": "ピックアップ"},
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "units",
+              "damage",
+              "radius",
+              "total"
+            ]
+          }
         ]
       },
       {
         "category": "satellite",
         "names": {"en": "Request Satellites", "ja": "攻撃機ホエール"},
-        "headers": [
-          "checkbox",
-          "stars",
-          "level",
-          "name",
-          "damage",
-          "shots",
-          "radius",
-          "credits",
-          "reload",
-          "zoom",
-          "range",
-          "tdps",
-          "total"
+        "tables": [
+          {
+            "subCategory": "satellite",
+            "names": {"en": "Request Satellites", "ja": "攻撃機ホエール"},
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "damage",
+              "shots",
+              "radius",
+              "credits",
+              "reload",
+              "zoom",
+              "range",
+              "tdps",
+              "total"
+            ]
+          },
+          {
+            "subCategory": "drone",
+            "names": {"en": "Drone-Based", "ja": "ピックアップ"},
+            "headers": [
+              "checkbox",
+              "stars",
+              "level",
+              "name",
+              "ammo",
+              "damage",
+              "interval",
+              "dps",
+              "total"
+            ]
+          }
         ]
       },
       {
@@ -49045,7 +49153,8 @@
       "strikeType": "shelling",
       "shots": 10,
       "shotInterval": 15,
-      "subRadius": 11
+      "subRadius": 11,
+      "subCategory": "artillery"
     },
     {
       "id": "eRequestMortar01",
@@ -49083,7 +49192,8 @@
       "strikeType": "shelling",
       "shots": 10,
       "shotInterval": 15,
-      "subRadius": 30
+      "subRadius": 30,
+      "subCategory": "artillery"
     },
     {
       "id": "eRequestMortar02",
@@ -49121,7 +49231,8 @@
       "strikeType": "shelling",
       "shots": 20,
       "shotInterval": 15,
-      "subRadius": 6
+      "subRadius": 6,
+      "subCategory": "artillery"
     },
     {
       "id": "eWeapon003",
@@ -49159,7 +49270,8 @@
       "strikeType": "shelling",
       "shots": 20,
       "shotInterval": 15,
-      "subRadius": 12
+      "subRadius": 12,
+      "subCategory": "artillery"
     },
     {
       "id": "eWeapon004",
@@ -49197,7 +49309,8 @@
       "strikeType": "shelling",
       "shots": 20,
       "shotInterval": 15,
-      "subRadius": 6
+      "subRadius": 6,
+      "subCategory": "artillery"
     },
     {
       "id": "eWeapon005",
@@ -49235,7 +49348,8 @@
       "strikeType": "shelling",
       "shots": 11,
       "shotInterval": 15,
-      "subRadius": 12
+      "subRadius": 12,
+      "subCategory": "artillery"
     },
     {
       "id": "eWeapon006",
@@ -49273,7 +49387,8 @@
       "strikeType": "shelling",
       "shots": 10,
       "shotInterval": 15,
-      "subRadius": 40
+      "subRadius": 40,
+      "subCategory": "artillery"
     },
     {
       "id": "eWeapon007",
@@ -49311,7 +49426,8 @@
       "strikeType": "shelling",
       "shots": 10,
       "shotInterval": 15,
-      "subRadius": 11
+      "subRadius": 11,
+      "subCategory": "artillery"
     },
     {
       "id": "eWeapon008",
@@ -49349,7 +49465,8 @@
       "strikeType": "shelling",
       "shots": 20,
       "shotInterval": 15,
-      "subRadius": 12
+      "subRadius": 12,
+      "subCategory": "artillery"
     },
     {
       "id": "eWeapon009",
@@ -49390,7 +49507,8 @@
       "strikeType": "shelling",
       "shots": 20,
       "shotInterval": 15,
-      "subRadius": 12
+      "subRadius": 12,
+      "subCategory": "artillery"
     },
     {
       "id": "eWeapon010",
@@ -49428,7 +49546,8 @@
       "strikeType": "shelling",
       "shots": 20,
       "shotInterval": 15,
-      "subRadius": 12
+      "subRadius": 12,
+      "subCategory": "artillery"
     },
     {
       "id": "eWeapon011",
@@ -49466,7 +49585,8 @@
       "strikeType": "shelling",
       "shots": 10,
       "shotInterval": 15,
-      "subRadius": 11
+      "subRadius": 11,
+      "subCategory": "artillery"
     },
     {
       "id": "eWeapon012",
@@ -49504,7 +49624,8 @@
       "strikeType": "shelling",
       "shots": 10,
       "shotInterval": 15,
-      "subRadius": 50
+      "subRadius": 50,
+      "subCategory": "artillery"
     },
     {
       "id": "eWeapon013",
@@ -49542,7 +49663,8 @@
       "strikeType": "shelling",
       "shots": 10,
       "shotInterval": 15,
-      "subRadius": 60
+      "subRadius": 60,
+      "subCategory": "artillery"
     },
     {
       "id": "eWeapon014",
@@ -49580,7 +49702,8 @@
       "strikeType": "shelling",
       "shots": 20,
       "shotInterval": 15,
-      "subRadius": 12
+      "subRadius": 12,
+      "subCategory": "artillery"
     },
     {
       "id": "eWeapon015",
@@ -49618,7 +49741,8 @@
       "strikeType": "shelling",
       "shots": 20,
       "shotInterval": 15,
-      "subRadius": 12
+      "subRadius": 12,
+      "subCategory": "artillery"
     },
     {
       "id": "eWeapon017",
@@ -49676,7 +49800,8 @@
       "strikeType": "shelling",
       "shots": 1,
       "shotInterval": 60,
-      "subRadius": 10
+      "subRadius": 10,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon018",
@@ -49734,7 +49859,8 @@
       "strikeType": "shelling",
       "shots": 1,
       "shotInterval": 60,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon019",
@@ -49792,7 +49918,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 10,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon020",
@@ -49850,7 +49977,8 @@
       "strikeType": "shelling",
       "shots": 1,
       "shotInterval": 15,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon021",
@@ -49895,7 +50023,8 @@
       "strikeType": "shelling",
       "shots": 22,
       "shotInterval": 8,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon022",
@@ -49953,7 +50082,8 @@
       "strikeType": "shelling",
       "shots": 1,
       "shotInterval": 60,
-      "subRadius": 12
+      "subRadius": 12,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon023",
@@ -49998,7 +50128,8 @@
       "strikeType": "shelling",
       "shots": 100,
       "shotInterval": 1,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon024",
@@ -50056,7 +50187,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 11,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon025",
@@ -50114,7 +50246,8 @@
       "strikeType": "shelling",
       "shots": 1,
       "shotInterval": 15,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon026",
@@ -50172,7 +50305,8 @@
       "strikeType": "shelling",
       "shots": 1,
       "shotInterval": 60,
-      "subRadius": 13
+      "subRadius": 13,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon027",
@@ -50217,7 +50351,8 @@
       "strikeType": "shelling",
       "shots": 110,
       "shotInterval": 1,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon028",
@@ -50262,7 +50397,8 @@
       "strikeType": "shelling",
       "shots": 24,
       "shotInterval": 7,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon029",
@@ -50320,7 +50456,8 @@
       "strikeType": "shelling",
       "shots": 1,
       "shotInterval": 15,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon030",
@@ -50365,7 +50502,8 @@
       "strikeType": "shelling",
       "shots": 150,
       "shotInterval": 1,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon031",
@@ -50423,7 +50561,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 13,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon032",
@@ -50471,7 +50610,8 @@
       "strikeType": "shelling",
       "shots": 35,
       "shotInterval": 6,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon033",
@@ -50530,7 +50670,8 @@
       "strikeType": "shelling",
       "shots": 3,
       "shotInterval": 10,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon034",
@@ -50575,7 +50716,8 @@
       "strikeType": "shelling",
       "shots": 150,
       "shotInterval": 1,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon035",
@@ -50633,7 +50775,8 @@
       "strikeType": "shelling",
       "shots": 1,
       "shotInterval": 60,
-      "subRadius": 14
+      "subRadius": 14,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon036",
@@ -50678,7 +50821,8 @@
       "strikeType": "shelling",
       "shots": 24,
       "shotInterval": 7,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon037",
@@ -50739,7 +50883,8 @@
       "strikeType": "shelling",
       "shots": 1,
       "shotInterval": 15,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon038",
@@ -50787,7 +50932,8 @@
       "strikeType": "shelling",
       "shots": 45,
       "shotInterval": 7,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon039",
@@ -50845,7 +50991,8 @@
       "strikeType": "shelling",
       "shots": 1,
       "shotInterval": 15,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon040",
@@ -50903,7 +51050,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 15,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon041",
@@ -50948,7 +51096,8 @@
       "strikeType": "shelling",
       "shots": 25,
       "shotInterval": 6,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon042",
@@ -50993,7 +51142,8 @@
       "strikeType": "shelling",
       "shots": 110,
       "shotInterval": 1,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon043",
@@ -51051,7 +51201,8 @@
       "strikeType": "shelling",
       "shots": 1,
       "shotInterval": 60,
-      "subRadius": 19
+      "subRadius": 19,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon044",
@@ -51110,7 +51261,8 @@
       "strikeType": "shelling",
       "shots": 4,
       "shotInterval": 8,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon045",
@@ -51171,7 +51323,8 @@
       "underground": "blocked",
       "strikeType": "shelling",
       "shots": 20,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon046",
@@ -51216,7 +51369,8 @@
       "strikeType": "shelling",
       "shots": 150,
       "shotInterval": 1,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon047",
@@ -51274,7 +51428,8 @@
       "strikeType": "shelling",
       "shots": 1,
       "shotInterval": 15,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon048",
@@ -51319,7 +51474,8 @@
       "strikeType": "shelling",
       "shots": 24,
       "shotInterval": 5,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon049",
@@ -51377,7 +51533,8 @@
       "strikeType": "shelling",
       "shots": 1,
       "shotInterval": 60,
-      "subRadius": 22
+      "subRadius": 22,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon050",
@@ -51435,7 +51592,8 @@
       "strikeType": "shelling",
       "shots": 1,
       "shotInterval": 15,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "gunship"
     },
     {
       "id": "eWeapon051",
@@ -51472,7 +51630,8 @@
       "underground": "blocked",
       "units": 2,
       "shots": 70,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "planes"
     },
     {
       "id": "eRequestBomber01",
@@ -51509,7 +51668,8 @@
       "underground": "blocked",
       "units": 1,
       "shots": 20,
-      "subRadius": 10
+      "subRadius": 10,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon052",
@@ -51546,7 +51706,8 @@
       "underground": "blocked",
       "units": 1,
       "shots": 10,
-      "subRadius": 10
+      "subRadius": 10,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon053",
@@ -51584,7 +51745,8 @@
       "units": 1,
       "shots": 10,
       "subRadius": 0,
-      "duration": 1920
+      "duration": 1920,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon054",
@@ -51621,7 +51783,8 @@
       "underground": "blocked",
       "units": 3,
       "shots": 100,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon055",
@@ -51658,7 +51821,8 @@
       "underground": "blocked",
       "units": 1,
       "shots": 40,
-      "subRadius": 12
+      "subRadius": 12,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon056",
@@ -51695,7 +51859,8 @@
       "underground": "blocked",
       "units": 2,
       "shots": 100,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon057",
@@ -51732,7 +51897,8 @@
       "underground": "blocked",
       "units": 2,
       "shots": 20,
-      "subRadius": 15
+      "subRadius": 15,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon058",
@@ -51770,7 +51936,8 @@
       "units": 1,
       "shots": 20,
       "subRadius": 0,
-      "duration": 3000
+      "duration": 3000,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon059",
@@ -51807,7 +51974,8 @@
       "underground": "blocked",
       "units": 2,
       "shots": 150,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon060",
@@ -51844,7 +52012,8 @@
       "underground": "blocked",
       "units": 1,
       "shots": 10,
-      "subRadius": 11
+      "subRadius": 11,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon061",
@@ -51881,7 +52050,8 @@
       "underground": "blocked",
       "units": 3,
       "shots": 40,
-      "subRadius": 15
+      "subRadius": 15,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon062",
@@ -51918,7 +52088,8 @@
       "underground": "blocked",
       "units": 4,
       "shots": 100,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon063",
@@ -51955,7 +52126,8 @@
       "underground": "blocked",
       "units": 1,
       "shots": 10,
-      "subRadius": 12
+      "subRadius": 12,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon064",
@@ -51992,7 +52164,8 @@
       "underground": "blocked",
       "units": 1,
       "shots": 100,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon065",
@@ -52029,7 +52202,8 @@
       "underground": "blocked",
       "units": 4,
       "shots": 30,
-      "subRadius": 15
+      "subRadius": 15,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon066",
@@ -52067,7 +52241,8 @@
       "units": 2,
       "shots": 15,
       "subRadius": 0,
-      "duration": 3200
+      "duration": 3200,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon067",
@@ -52104,7 +52279,8 @@
       "underground": "blocked",
       "units": 9,
       "shots": 50,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon068",
@@ -52141,7 +52317,8 @@
       "underground": "blocked",
       "units": 1,
       "shots": 150,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon069",
@@ -52178,7 +52355,8 @@
       "underground": "blocked",
       "units": 1,
       "shots": 11,
-      "subRadius": 13
+      "subRadius": 13,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon070",
@@ -52215,7 +52393,8 @@
       "underground": "blocked",
       "units": 10,
       "shots": 16,
-      "subRadius": 15
+      "subRadius": 15,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon071",
@@ -52252,7 +52431,8 @@
       "underground": "blocked",
       "units": 1,
       "shots": 40,
-      "subRadius": 15
+      "subRadius": 15,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon072",
@@ -52289,7 +52469,8 @@
       "underground": "blocked",
       "units": 3,
       "shots": 120,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon073",
@@ -52329,7 +52510,8 @@
       "underground": "blocked",
       "units": 1,
       "shots": 200,
-      "subRadius": 10
+      "subRadius": 10,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon074",
@@ -52369,7 +52551,8 @@
       "underground": "blocked",
       "units": 2,
       "shots": 150,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon075",
@@ -52407,7 +52590,8 @@
       "units": 2,
       "shots": 16,
       "subRadius": 0,
-      "duration": 2400
+      "duration": 2400,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon076",
@@ -52444,7 +52628,8 @@
       "underground": "blocked",
       "units": 1,
       "shots": 20,
-      "subRadius": 50
+      "subRadius": 50,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon077",
@@ -52481,7 +52666,8 @@
       "underground": "blocked",
       "units": 5,
       "shots": 100,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon078",
@@ -52518,7 +52704,8 @@
       "underground": "blocked",
       "units": 1,
       "shots": 12,
-      "subRadius": 15
+      "subRadius": 15,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon079",
@@ -52555,7 +52742,8 @@
       "underground": "blocked",
       "units": 1,
       "shots": 200,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon080",
@@ -52593,7 +52781,8 @@
       "units": 1,
       "shots": 40,
       "subRadius": 0,
-      "duration": 3200
+      "duration": 3200,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon081",
@@ -52630,7 +52819,8 @@
       "underground": "blocked",
       "units": 4,
       "shots": 150,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon082",
@@ -52667,7 +52857,8 @@
       "underground": "blocked",
       "units": 4,
       "shots": 20,
-      "subRadius": 20
+      "subRadius": 20,
+      "subCategory": "planes"
     },
     {
       "id": "eWeapon083",
@@ -52711,7 +52902,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "missile",
-      "shots": 4
+      "shots": 4,
+      "subCategory": "missile"
     },
     {
       "id": "eWeapon084",
@@ -52755,7 +52947,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "missile",
-      "shots": 20
+      "shots": 20,
+      "subCategory": "missile"
     },
     {
       "id": "eWeapon085",
@@ -52799,7 +52992,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "missile",
-      "shots": 4
+      "shots": 4,
+      "subCategory": "missile"
     },
     {
       "id": "eWeapon086",
@@ -52843,7 +53037,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "missile",
-      "shots": 20
+      "shots": 20,
+      "subCategory": "missile"
     },
     {
       "id": "eWeapon087",
@@ -52888,7 +53083,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "missile",
-      "shots": 1
+      "shots": 1,
+      "subCategory": "missile"
     },
     {
       "id": "eWeapon088",
@@ -52932,7 +53128,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "missile",
-      "shots": 30
+      "shots": 30,
+      "subCategory": "missile"
     },
     {
       "id": "eWeapon089",
@@ -52977,7 +53174,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "missile",
-      "shots": 1
+      "shots": 1,
+      "subCategory": "missile"
     },
     {
       "id": "eWeapon090",
@@ -53021,7 +53219,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "missile",
-      "shots": 5
+      "shots": 5,
+      "subCategory": "missile"
     },
     {
       "id": "eWeapon091",
@@ -53065,7 +53264,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "missile",
-      "shots": 35
+      "shots": 35,
+      "subCategory": "missile"
     },
     {
       "id": "eWeapon093",
@@ -53109,7 +53309,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "missile",
-      "shots": 6
+      "shots": 6,
+      "subCategory": "missile"
     },
     {
       "id": "eWeapon094",
@@ -53154,7 +53355,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "missile",
-      "shots": 1
+      "shots": 1,
+      "subCategory": "missile"
     },
     {
       "id": "eWeapon095",
@@ -53199,7 +53401,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "missile",
-      "shots": 1
+      "shots": 1,
+      "subCategory": "missile"
     },
     {
       "id": "eWeapon096",
@@ -53243,7 +53446,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "missile",
-      "shots": 45
+      "shots": 45,
+      "subCategory": "missile"
     },
     {
       "id": "eWeapon097",
@@ -53287,7 +53491,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "missile",
-      "shots": 6
+      "shots": 6,
+      "subCategory": "missile"
     },
     {
       "id": "eWeapon098",
@@ -53332,7 +53537,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "missile",
-      "shots": 1
+      "shots": 1,
+      "subCategory": "missile"
     },
     {
       "id": "eWeapon099",
@@ -53377,7 +53583,8 @@
       "strikeType": "shelling",
       "shots": 600,
       "shotInterval": 2,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "eWeapon100",
@@ -53422,7 +53629,8 @@
       "strikeType": "shelling",
       "shots": 600,
       "shotInterval": 2,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "eWeapon101",
@@ -53469,7 +53677,8 @@
       "strikeType": "shelling",
       "shots": 90,
       "shotInterval": 8,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "eWeapon102",
@@ -53514,7 +53723,8 @@
       "strikeType": "shelling",
       "shots": 600,
       "shotInterval": 2,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "eWeapon103",
@@ -53559,7 +53769,8 @@
       "strikeType": "shelling",
       "shots": 600,
       "shotInterval": 2,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "eWeapon104",
@@ -53606,7 +53817,8 @@
       "strikeType": "shelling",
       "shots": 90,
       "shotInterval": 8,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "eWeapon105",
@@ -53651,7 +53863,8 @@
       "strikeType": "shelling",
       "shots": 800,
       "shotInterval": 2,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "eWeapon106",
@@ -53697,7 +53910,8 @@
       "strikeType": "shelling",
       "shots": 1,
       "shotInterval": 8,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "eWeapon107",
@@ -53742,7 +53956,8 @@
       "strikeType": "shelling",
       "shots": 800,
       "shotInterval": 2,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "eWeapon108",
@@ -53789,7 +54004,8 @@
       "strikeType": "shelling",
       "shots": 90,
       "shotInterval": 8,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "eWeapon109",
@@ -53834,7 +54050,8 @@
       "strikeType": "shelling",
       "shots": 1600,
       "shotInterval": 2,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "eWeapon110",
@@ -53881,7 +54098,8 @@
       "strikeType": "shelling",
       "shots": 120,
       "shotInterval": 8,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "eWeapon111",
@@ -53927,7 +54145,8 @@
       "strikeType": "shelling",
       "shots": 700,
       "shotInterval": 2,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "eWeapon112",
@@ -53974,7 +54193,8 @@
       "strikeType": "shelling",
       "shots": 80,
       "shotInterval": 8,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "eWeapon113",
@@ -54020,7 +54240,8 @@
       "strikeType": "shelling",
       "shots": 1,
       "shotInterval": 8,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "eWeapon114",
@@ -54065,7 +54286,8 @@
       "strikeType": "shelling",
       "shots": 600,
       "shotInterval": 2,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "eWeapon115",
@@ -54112,7 +54334,8 @@
       "strikeType": "shelling",
       "shots": 60,
       "shotInterval": 2,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "eWeapon116",
@@ -54159,7 +54382,8 @@
       "strikeType": "shelling",
       "shots": 160,
       "shotInterval": 8,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "eWeapon117",
@@ -54205,7 +54429,8 @@
       "strikeType": "shelling",
       "shots": 1,
       "shotInterval": 8,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "eWeapon118",
@@ -54250,7 +54475,8 @@
       "strikeType": "shelling",
       "shots": 600,
       "shotInterval": 2,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "eLimpetGun01",
@@ -60487,7 +60713,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 600
+      "reload": 600,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon262",
@@ -60529,7 +60757,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 600
+      "reload": 600,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon263",
@@ -60571,7 +60801,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 600
+      "reload": 600,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon264",
@@ -60613,7 +60845,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 600
+      "reload": 600,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon265",
@@ -60655,7 +60889,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 600
+      "reload": 600,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon266",
@@ -60697,7 +60933,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 600
+      "reload": 600,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon267",
@@ -60739,7 +60977,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 600
+      "reload": 600,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon268",
@@ -60781,7 +61021,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 600
+      "reload": 600,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon269",
@@ -60823,7 +61065,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 600
+      "reload": 600,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon270",
@@ -60865,7 +61109,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 600
+      "reload": 600,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon271",
@@ -60907,7 +61153,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 600
+      "reload": 600,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eDrone_attacker01",
@@ -60955,7 +61203,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 240
+      "reload": 240,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon272",
@@ -60992,7 +61242,9 @@
       "piercing": true,
       "life": 180,
       "interval": 5,
-      "reload": 240
+      "reload": 240,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon273",
@@ -61025,7 +61277,9 @@
       "interval": 5,
       "reload": 240,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon274",
@@ -61073,7 +61327,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 240
+      "reload": 240,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon275",
@@ -61104,7 +61360,9 @@
       },
       "life": 160,
       "interval": 5,
-      "reload": 420
+      "reload": 420,
+      "units": 2,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon276",
@@ -61152,7 +61410,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 240
+      "reload": 240,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon277",
@@ -61200,7 +61460,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 240
+      "reload": 240,
+      "units": 3,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon278",
@@ -61244,7 +61506,9 @@
         "type": "int"
       },
       "interval": 5,
-      "reload": 240
+      "reload": 240,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon279",
@@ -61292,7 +61556,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 240
+      "reload": 240,
+      "units": 3,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon280",
@@ -61325,7 +61591,9 @@
       "interval": 5,
       "reload": 240,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 2,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon281",
@@ -61374,7 +61642,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 240
+      "reload": 240,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon282",
@@ -61422,7 +61692,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 240
+      "reload": 240,
+      "units": 5,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon283",
@@ -61459,7 +61731,9 @@
       "piercing": true,
       "life": 180,
       "interval": 5,
-      "reload": 240
+      "reload": 240,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon284",
@@ -61490,7 +61764,9 @@
       },
       "life": 160,
       "interval": 5,
-      "reload": 420
+      "reload": 420,
+      "units": 2,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon285",
@@ -61538,7 +61814,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 240
+      "reload": 240,
+      "units": 6,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon286",
@@ -61586,7 +61864,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 240
+      "reload": 240,
+      "units": 5,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon287",
@@ -61619,7 +61899,9 @@
       "interval": 5,
       "reload": 240,
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon288",
@@ -61667,7 +61949,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 240
+      "reload": 240,
+      "units": 3,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon289",
@@ -61711,7 +61995,9 @@
         "type": "int"
       },
       "interval": 5,
-      "reload": 240
+      "reload": 240,
+      "units": 3,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon290",
@@ -61744,7 +62030,9 @@
       "interval": 5,
       "reload": 420,
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "units": 2,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon291",
@@ -61792,7 +62080,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 240
+      "reload": 240,
+      "units": 7,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon292",
@@ -61831,7 +62121,9 @@
       "interval": 5,
       "reload": 240,
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon293",
@@ -61879,7 +62171,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 240
+      "reload": 240,
+      "units": 5,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon294",
@@ -61912,7 +62206,9 @@
       "interval": 5,
       "reload": 240,
       "secondary": 1,
-      "zoom": 5
+      "zoom": 5,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon295",
@@ -61961,7 +62257,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 240
+      "reload": 240,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon296",
@@ -62009,7 +62307,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 240
+      "reload": 240,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon297",
@@ -62042,7 +62342,9 @@
       "interval": 5,
       "reload": 420,
       "secondary": 1,
-      "zoom": 3
+      "zoom": 3,
+      "units": 2,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon298",
@@ -62081,7 +62383,9 @@
       "interval": 5,
       "reload": 240,
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon299",
@@ -62129,7 +62433,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 240
+      "reload": 240,
+      "units": 7,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon300",
@@ -62162,7 +62468,9 @@
       "interval": 5,
       "reload": 240,
       "secondary": 1,
-      "zoom": 6
+      "zoom": 6,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon301",
@@ -62206,7 +62514,9 @@
         "type": "int"
       },
       "interval": 5,
-      "reload": 240
+      "reload": 240,
+      "units": 2,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon302",
@@ -62245,7 +62555,9 @@
       "interval": 5,
       "reload": 240,
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "eDrone_airstrike01",
@@ -62271,7 +62583,9 @@
       "speed": 4,
       "life": 20,
       "interval": 3,
-      "reload": 240
+      "reload": 240,
+      "units": 3,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon303",
@@ -62297,7 +62611,9 @@
       "speed": 4,
       "life": 20,
       "interval": 1,
-      "reload": 230
+      "reload": 230,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon304",
@@ -62323,7 +62639,9 @@
       "speed": 4,
       "life": 20,
       "interval": 3,
-      "reload": 240
+      "reload": 240,
+      "units": 3,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon305",
@@ -62355,7 +62673,9 @@
       "gravity": 1,
       "life": 20,
       "interval": 15,
-      "reload": 240
+      "reload": 240,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon306",
@@ -62381,7 +62701,9 @@
       "speed": 4,
       "life": 20,
       "interval": 1,
-      "reload": 240
+      "reload": 240,
+      "units": 2,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon307",
@@ -62413,7 +62735,9 @@
       "gravity": 1,
       "life": 20,
       "interval": 12,
-      "reload": 240
+      "reload": 240,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon308",
@@ -62439,7 +62763,9 @@
       "speed": 4,
       "life": 20,
       "interval": 3,
-      "reload": 240
+      "reload": 240,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon309",
@@ -62467,7 +62793,9 @@
       "piercing": true,
       "life": 60,
       "interval": 2,
-      "reload": 240
+      "reload": 240,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon310",
@@ -62499,7 +62827,9 @@
       "gravity": 1,
       "life": 20,
       "interval": 30,
-      "reload": 240
+      "reload": 240,
+      "units": 2,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon311",
@@ -62525,7 +62855,9 @@
       "speed": 4,
       "life": 20,
       "interval": 3,
-      "reload": 240
+      "reload": 240,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon312",
@@ -62551,7 +62883,9 @@
       "speed": 4,
       "life": 20,
       "interval": 1,
-      "reload": 240
+      "reload": 240,
+      "units": 2,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon313",
@@ -62577,7 +62911,9 @@
       "speed": 4,
       "life": 20,
       "interval": 3,
-      "reload": 240
+      "reload": 240,
+      "units": 3,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon314",
@@ -62609,7 +62945,9 @@
       "gravity": 1,
       "life": 20,
       "interval": 15,
-      "reload": 240
+      "reload": 240,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon315",
@@ -62635,7 +62973,9 @@
       "speed": 4,
       "life": 20,
       "interval": 3,
-      "reload": 240
+      "reload": 240,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon316",
@@ -62661,7 +63001,9 @@
       "speed": 4,
       "life": 20,
       "interval": 3,
-      "reload": 240
+      "reload": 240,
+      "units": 3,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon317",
@@ -62693,7 +63035,9 @@
       "gravity": 1,
       "life": 20,
       "interval": 15,
-      "reload": 240
+      "reload": 240,
+      "units": 2,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon318",
@@ -62721,7 +63065,9 @@
       "piercing": true,
       "life": 60,
       "interval": 2,
-      "reload": 240
+      "reload": 240,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon319",
@@ -62747,7 +63093,9 @@
       "speed": 4,
       "life": 20,
       "interval": 3,
-      "reload": 240
+      "reload": 240,
+      "units": 8,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon320",
@@ -62773,7 +63121,9 @@
       "speed": 4,
       "life": 20,
       "interval": 1,
-      "reload": 240
+      "reload": 240,
+      "units": 2,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon321",
@@ -62799,7 +63149,9 @@
       "speed": 4,
       "life": 20,
       "interval": 3,
-      "reload": 240
+      "reload": 240,
+      "units": 8,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon322",
@@ -62827,7 +63179,9 @@
       "piercing": true,
       "life": 60,
       "interval": 2,
-      "reload": 240
+      "reload": 240,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon323",
@@ -62853,7 +63207,9 @@
       "speed": 4,
       "life": 20,
       "interval": 1,
-      "reload": 240
+      "reload": 240,
+      "units": 2,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon324",
@@ -62885,7 +63241,9 @@
       "gravity": 1,
       "life": 20,
       "interval": 15,
-      "reload": 240
+      "reload": 240,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon325",
@@ -62911,7 +63269,9 @@
       "speed": 4,
       "life": 20,
       "interval": 3,
-      "reload": 240
+      "reload": 240,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "eDrone_suicider01",
@@ -62952,7 +63312,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon326",
@@ -62993,7 +63355,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 8,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon327",
@@ -63034,7 +63398,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 2,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon328",
@@ -63075,7 +63441,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon329",
@@ -63116,7 +63484,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 10,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon330",
@@ -63157,7 +63527,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 2,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon331",
@@ -63198,7 +63570,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 12,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon332",
@@ -63239,7 +63613,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon333",
@@ -63280,7 +63656,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 2,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon334",
@@ -63321,7 +63699,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 16,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon335",
@@ -63362,7 +63742,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 3,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon336",
@@ -63403,7 +63785,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 12,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon337",
@@ -63444,7 +63828,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 6,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon338",
@@ -63485,7 +63871,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 24,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon339",
@@ -63526,7 +63914,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 3,
+      "subCategory": "drone"
     },
     {
       "id": "eDrone_exposure01",
@@ -63567,7 +63957,9 @@
       },
       "secondary": 1,
       "zoom": 4,
-      "drain": 1
+      "drain": 1,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon340",
@@ -63609,7 +64001,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon341",
@@ -63653,7 +64047,9 @@
       },
       "secondary": 1,
       "zoom": 4,
-      "drain": 1
+      "drain": 1,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon342",
@@ -63694,7 +64090,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon343",
@@ -63736,7 +64134,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon344",
@@ -63777,7 +64177,9 @@
       },
       "secondary": 1,
       "zoom": 4,
-      "drain": 1
+      "drain": 1,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon345",
@@ -63818,7 +64220,9 @@
       },
       "secondary": 1,
       "zoom": 4,
-      "drain": 1
+      "drain": 1,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon346",
@@ -63860,7 +64264,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon347",
@@ -63901,7 +64307,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon348",
@@ -63945,7 +64353,9 @@
       },
       "secondary": 1,
       "zoom": 4,
-      "drain": 1
+      "drain": 1,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon349",
@@ -63987,7 +64397,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon350",
@@ -64028,7 +64440,9 @@
       },
       "secondary": 1,
       "zoom": 4,
-      "drain": 1
+      "drain": 1,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon351",
@@ -64069,7 +64483,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon352",
@@ -64110,7 +64526,9 @@
       },
       "secondary": 1,
       "zoom": 4,
-      "drain": 1
+      "drain": 1,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon353",
@@ -64152,7 +64570,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon354",
@@ -64196,7 +64616,9 @@
       },
       "secondary": 1,
       "zoom": 4,
-      "drain": 1
+      "drain": 1,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eWeapon355",
@@ -64237,7 +64659,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "eVehicleNone",
@@ -73713,7 +74137,8 @@
       "strikeType": "shelling",
       "shots": 20,
       "shotInterval": 15,
-      "subRadius": 15
+      "subRadius": 15,
+      "subCategory": "artillery"
     },
     {
       "id": "MPACK_A_Weapon058",
@@ -73754,7 +74179,8 @@
       "underground": "blocked",
       "units": 1,
       "shots": 200,
-      "subRadius": 10
+      "subRadius": 10,
+      "subCategory": "planes"
     },
     {
       "id": "MPACK_A_Weapon059",
@@ -73799,7 +74225,8 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "missile",
-      "shots": 45
+      "shots": 45,
+      "subCategory": "missile"
     },
     {
       "id": "MPACK_A_Weapon060",
@@ -73847,7 +74274,8 @@
       "strikeType": "shelling",
       "shots": 160,
       "shotInterval": 2,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "satellite"
     },
     {
       "id": "MPACK_A_Weapon061",
@@ -73890,7 +74318,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 600
+      "reload": 600,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "MPACK_A_Weapon062",
@@ -73924,7 +74354,9 @@
       "interval": 5,
       "reload": 240,
       "secondary": 1,
-      "zoom": 6
+      "zoom": 6,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "MPACK_A_Weapon063",
@@ -73969,7 +74401,9 @@
         "type": "int"
       },
       "interval": 5,
-      "reload": 240
+      "reload": 240,
+      "units": 2,
+      "subCategory": "drone"
     },
     {
       "id": "MPACK_A_Weapon064",
@@ -73998,7 +74432,9 @@
       "piercing": true,
       "life": 60,
       "interval": 1,
-      "reload": 240
+      "reload": 240,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "MPACK_A_Weapon065",
@@ -74031,7 +74467,9 @@
       "gravity": 1,
       "life": 20,
       "interval": 15,
-      "reload": 240
+      "reload": 240,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "MPACK_A_Weapon066",
@@ -74073,7 +74511,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 6,
+      "subCategory": "drone"
     },
     {
       "id": "MPACK_A_Weapon067",
@@ -74115,7 +74555,9 @@
       },
       "secondary": 1,
       "zoom": 4,
-      "drain": 1
+      "drain": 1,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "MPACK_A_Weapon068",
@@ -74157,7 +74599,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "MPACK_A_Weapon069",
@@ -78898,7 +79342,8 @@
       "strikeType": "shelling",
       "shots": 1,
       "shotInterval": 60,
-      "subRadius": 22
+      "subRadius": 22,
+      "subCategory": "gunship"
     },
     {
       "id": "MPACK_B_Weapon084",
@@ -78936,7 +79381,8 @@
       "underground": "blocked",
       "units": 18,
       "shots": 50,
-      "subRadius": 0
+      "subRadius": 0,
+      "subCategory": "planes"
     },
     {
       "id": "MPACK_B_Weapon085",
@@ -78975,7 +79421,8 @@
       "units": 2,
       "shots": 20,
       "subRadius": 0,
-      "duration": 3200
+      "duration": 3200,
+      "subCategory": "planes"
     },
     {
       "id": "MPACK_B_Weapon086",
@@ -79131,7 +79578,9 @@
         "type": "int"
       },
       "reload": 240,
-      "drain": 1
+      "drain": 1,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "MPACK_B_Weapon089",
@@ -79165,7 +79614,9 @@
       "interval": 5,
       "reload": 420,
       "secondary": 1,
-      "zoom": 3
+      "zoom": 3,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "MPACK_B_Weapon090",
@@ -79205,7 +79656,9 @@
       "interval": 5,
       "reload": 240,
       "secondary": 1,
-      "zoom": 2
+      "zoom": 2,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "MPACK_B_Weapon091",
@@ -79255,7 +79708,9 @@
         "type": "int"
       },
       "reload": 240,
-      "drain": 1
+      "drain": 1,
+      "units": 8,
+      "subCategory": "drone"
     },
     {
       "id": "MPACK_B_Weapon092",
@@ -79282,7 +79737,9 @@
       "speed": 4,
       "life": 20,
       "interval": 3,
-      "reload": 240
+      "reload": 240,
+      "units": 4,
+      "subCategory": "drone"
     },
     {
       "id": "MPACK_B_Weapon093",
@@ -79311,7 +79768,9 @@
       "life": 10,
       "interval": 1,
       "reload": 240,
-      "drain": 1
+      "drain": 1,
+      "units": 10,
+      "subCategory": "drone"
     },
     {
       "id": "MPACK_B_Weapon094",
@@ -79353,7 +79812,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 24,
+      "subCategory": "drone"
     },
     {
       "id": "MPACK_B_Weapon095",
@@ -79395,7 +79856,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 3,
+      "subCategory": "drone"
     },
     {
       "id": "MPACK_B_Weapon096",
@@ -79438,7 +79901,9 @@
         "type": "int"
       },
       "secondary": 1,
-      "zoom": 4
+      "zoom": 4,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "MPACK_B_Weapon097",
@@ -79481,7 +79946,9 @@
         "exp": 0.5,
         "type": "int"
       },
-      "reload": 600
+      "reload": 600,
+      "units": 1,
+      "subCategory": "drone"
     },
     {
       "id": "MPACK_B_Weapon098",

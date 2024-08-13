@@ -1,3 +1,4 @@
+const DEFAULT_GAME = '6'
 const $ = document.createElement.bind(document)
 let active = {}
 let table
@@ -116,7 +117,7 @@ function pickLang(lang) {
 
 function pickGame(game) {
   if(!games.includes(game)) {
-    game = '6'
+    game = DEFAULT_GAME
   }
   const gameChanged = active.game != game
   const button = document
@@ -2349,4 +2350,4 @@ document
       .setAttribute('data-state', stateName)
   })
 
-loadWeapons(active.game || '5')
+loadWeapons(active.game || DEFAULT_GAME)

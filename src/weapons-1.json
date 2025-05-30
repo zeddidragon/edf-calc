@@ -138,7 +138,6 @@
           {
             "subCategory": "flame",
             "names": {"en": "Flamethrowers", "ja": "火炎放射器シリーズ"},
-            "appendix": "*Assuming flame hits every frame of duration.",
             "headers": [
               "checkbox",
               "name",

@@ -254,7 +254,7 @@ th.P, th.CR {
   color: #ea8;
 }
 
-.short b, .spear b, .heli b, .stats b, .limpet b, .booster b, .repair b, .star-10, .star-5 {
+.short b, .spear b, .heli b, .stats b, .limpet b, .booster b, .repair b, .star-10, .star-5, .edf1 b {
   color: #eee;
 }
 .assault b, .laser b, .light b, .gunship b {

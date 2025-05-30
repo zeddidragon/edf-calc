@@ -392,7 +392,7 @@ function populateModes() {
     writeState()
   })
   for(const mode of modes) {
-    if(!mode.difficulties[0].dropsLow) {
+    if(!mode.difficulties?.[0].dropsLow) {
       continue
     }
     const mLabel = `Drops ${mode.name}`
@@ -1535,6 +1535,9 @@ const headers = [{
   tooltip: 'Lock-Range',
   starProp: 'lockRange',
   cb: wpn => {
+    if(wpn.lockRangeRank) {
+      return wpn.lockRangeRank
+    }
     if(wpn.category === 'missile') {
       if(!wpn.lockRange) {
         return '-'
@@ -2112,6 +2115,7 @@ const headers = [{
 
 
 const games = [
+  '1',
   '2pv2',
   '3',
   '3p',
@@ -2123,6 +2127,7 @@ const games = [
 ]
 
 const gameLabels = [
+  'EDF1',
   'EDF2PV2',
   'EDF3',
   'EDF3P',

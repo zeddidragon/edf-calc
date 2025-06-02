@@ -9,6 +9,7 @@
         "names": {"en": "Particle Cannon", "ja": "中距離-粒子砲"},
         "headers": [
           "checkbox",
+          "level",
           "name",
           "damage",
           "interval",
@@ -22,6 +23,7 @@
         "names": {"en": "Short-Range", "ja": "近距離"},
         "headers": [
           "checkbox",
+          "level",
           "name",
           "damage",
           "interval",
@@ -35,8 +37,10 @@
       {
         "category": "missile",
         "names": {"en": "Homing", "ja": "ホーミング兵器"},
+        "appendix": "Stats are missing for some weapons. Please contact me if you know them.",
         "headers": [
           "checkbox",
+          "level",
           "name",
           "damage",
           "radius",
@@ -51,10 +55,11 @@
       {
         "category": "electro",
         "names": {"en": "Electroshock", "ja": "中距離-電撃"},
+        "appendix": "Stats are missing for some weapons. Please contact me if you know them.",
         "headers": [
           "checkbox",
+          "level",
           "name",
-          "ammo",
           "damage",
           "interval",
           "energy",
@@ -68,6 +73,7 @@
         "names": {"en": "Laser", "ja": "中距離-レーザー"},
         "headers": [
           "checkbox",
+          "level",
           "name",
           "damage",
           "interval",
@@ -81,8 +87,10 @@
       {
         "category": "plasma",
         "names": {"en": "Ranged", "ja": "範囲攻撃"},
+        "appendix": "Stats are missing for some weapons. Please contact me if you know them.",
         "headers": [
           "checkbox",
+          "level",
           "name",
           "damage",
           "radius",
@@ -93,6 +101,11 @@
           "eps",
           "dpe"
         ]
+      },
+      {
+        "category": "special",
+        "names": {"en": "Original", "ja": "特殊"},
+        "headers": ["checkbox", "level", "name"]
       }
     ]
   },
@@ -170,6 +183,14 @@
       "accuracyRank": "B",
       "energy": 8,
       "names": {"en": "E1 Plasma Launcher"}
+    },
+    {
+      "id": "winger-special-0",
+      "idx": 0,
+      "character": "winger",
+      "category": "special",
+      "level": 5,
+      "names": {"en": "Thunder Ball"}
     },
     {
       "id": "winger-particle-1",
@@ -581,14 +602,8 @@
       "idx": 6,
       "character": "winger",
       "category": "missile",
-      "level": 56,
-      "rof": 0.6,
-      "damage": 256,
-      "count": 5,
-      "lockTimeSeconds": 0.1,
-      "energy": 12,
-      "radius": 1,
-      "names": {"en": "Mirage 5-Way S"}
+      "level": 52,
+      "names": {"en": "Fenrir"}
     },
     {
       "id": "winger-electro-6",
@@ -659,14 +674,14 @@
       "idx": 7,
       "character": "winger",
       "category": "missile",
-      "level": 63,
-      "rof": 1,
-      "damage": 220,
-      "count": 3,
+      "level": 56,
+      "rof": 0.6,
+      "damage": 256,
+      "count": 5,
       "lockTimeSeconds": 0.1,
-      "energy": 6,
-      "radius": 5,
-      "names": {"en": "Geist D"}
+      "energy": 12,
+      "radius": 1,
+      "names": {"en": "Mirage 5-Way S"}
     },
     {
       "id": "winger-electro-7",
@@ -734,14 +749,14 @@
       "idx": 8,
       "character": "winger",
       "category": "missile",
-      "level": 92,
-      "rof": 0.4,
-      "damage": 100,
+      "level": 63,
+      "rof": 1,
+      "damage": 220,
       "count": 3,
       "lockTimeSeconds": 0.1,
-      "energy": 20,
-      "radius": 7,
-      "names": {"en": "Mirage β"}
+      "energy": 6,
+      "radius": 5,
+      "names": {"en": "Geist D"}
     },
     {
       "id": "winger-electro-8",
@@ -807,6 +822,14 @@
       "names": {"en": "Plasma Sweeper"}
     },
     {
+      "id": "winger-missile-9",
+      "idx": 9,
+      "character": "winger",
+      "category": "missile",
+      "level": 82,
+      "names": {"en": "Fenrir 3-Way"}
+    },
+    {
       "id": "winger-electro-9",
       "idx": 9,
       "character": "winger",
@@ -829,6 +852,14 @@
       "accuracyRank": "S+",
       "energy": 0.05,
       "names": {"en": "SIZ-LAZR"}
+    },
+    {
+      "id": "winger-plasma-9",
+      "idx": 9,
+      "character": "winger",
+      "category": "plasma",
+      "level": 92,
+      "names": {"en": "RZR Plasma Launcher"}
     },
     {
       "id": "winger-particle-10",
@@ -854,6 +885,28 @@
       "accuracyRank": "F",
       "energy": 0.3,
       "names": {"en": "Master Rapier"}
+    },
+    {
+      "id": "winger-missile-10",
+      "idx": 10,
+      "character": "winger",
+      "category": "missile",
+      "level": 92,
+      "rof": 0.4,
+      "damage": 100,
+      "count": 3,
+      "lockTimeSeconds": 0.1,
+      "energy": 20,
+      "radius": 7,
+      "names": {"en": "Mirage β"}
+    },
+    {
+      "id": "winger-electro-10",
+      "idx": 10,
+      "character": "winger",
+      "category": "electro",
+      "level": 92,
+      "names": {"en": "Thunder Bow XD"}
     }
   ],
   "modes": [{"name": "OFF", "missions": 6}]

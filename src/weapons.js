@@ -202,7 +202,7 @@ function pickMode(mode) {
     .querySelector('#mode-button')
   button.classList.remove(...button.classList)
   button.classList.add('button')
-  const m = modes.find(m => m.name.toLowerCase() === mode)
+  const m = modes?.find(m => m.name.toLowerCase() === mode)
   styleButton({
     button,
     label: m ? `Drops ${m.name}` : 'Stats',
@@ -1002,8 +1002,9 @@ const headers = [{
       return '-'
     }
     const el = $('div')
-    const difficulty = (modes[1] || modes[0])
-      .difficulties
+    const difficulty = (
+      (modes[1] || modes[0]).difficulties || []
+    )
       .slice(1)
       .find(d => {
         const limits = d.weaponLimits

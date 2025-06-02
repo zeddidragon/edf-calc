@@ -275,7 +275,7 @@ th.P, th.CR {
 .grenade b, .plasma b, .raid b, .artillery b, .rank-A {
   color: #ea8;
 }
-.special b, .super b, .rank-B, .status-effect.recover, .status-effect.recovertime, #save-load-toggle b {
+.special b, .super b, .rank-B, .status-effect.recover, .status-effect.recovertime, #save-load-toggle b, .edfwdts b {
   color: #e8a;
 }
 .edf6 b, .deploy b, .gatling b, .Easy, .starter, .star-0 {
@@ -290,7 +290,7 @@ th.P, th.CR {
 .railgun b, .status-effect.frozen, .cannon b, .handgrenade b, .cannon b, .droneshooter b {
   color: #8ae;
 }
-.specialgrenade b, .submissile b, .dronechaser b {
+.specialgrenade b, .submissile b, .dronechaser b, {
   color: #8ea;
 }
 .saber b, .droneauto b {

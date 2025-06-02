@@ -1579,7 +1579,7 @@
       "accuracyRank": "D",
       "reloadSeconds": 1,
       "energy": 3,
-      "names": {"en": "Eclat 10", "ja": "エクレール10"}
+      "names": {"en": "Eclair 10", "ja": "エクレール10"}
     },
     {
       "id": "winger-sniper-16",
@@ -2041,7 +2041,7 @@
       "radius": 10,
       "accuracyRank": "B",
       "energy": 15,
-      "names": {"en": "Dual Plasma Launcher", "ja": "2連プラズマ・ランチャー"}
+      "names": {"en": "Twin Plasma Launcher", "ja": "2連プラズマ・ランチャー"}
     },
     {
       "id": "bomber-limpet-15",
@@ -2750,7 +2750,7 @@
       "accuracyRank": "D",
       "reloadSeconds": 1,
       "energy": 7,
-      "names": {"en": "Eclat 20", "ja": "エクレール20"}
+      "names": {"en": "Eclair 20", "ja": "エクレール20"}
     },
     {
       "id": "winger-sniper-4",
@@ -3453,7 +3453,7 @@
       "accuracyRank": "B-",
       "reloadSeconds": 3,
       "energy": 20,
-      "names": {"en": "Laser Lance Rカスタム", "ja": "レーザーランスRカスタム"}
+      "names": {"en": "Laser Lance R Custom", "ja": "レーザーランスRカスタム"}
     },
     {
       "id": "winger-particle-18",
@@ -5811,7 +5811,7 @@
       "accuracyRank": "C+",
       "reloadSeconds": 1,
       "energy": 12,
-      "names": {"en": "RapierG Thrusts", "ja": "レイピアGスラスト"}
+      "names": {"en": "Rapier G Thrust", "ja": "レイピアGスラスト"}
     },
     {
       "id": "winger-sniper-8",
@@ -6325,7 +6325,7 @@
       "accuracyRank": "C+",
       "reloadSeconds": 5,
       "energy": 28,
-      "names": {"en": "RapierG Thrusts 2", "ja": "レイピアGスラスト2"}
+      "names": {"en": "Rapier G Thrust 2", "ja": "レイピアGスラスト2"}
     },
     {
       "id": "ranger-rocket-14",
@@ -6792,7 +6792,7 @@
       "accuracyRank": "D",
       "reloadSeconds": 1.2,
       "energy": 11,
-      "names": {"en": "Eclat 30", "ja": "エクレール30"}
+      "names": {"en": "Eclair 30", "ja": "エクレール30"}
     },
     {
       "id": "bomber-deploy-22",
@@ -7950,7 +7950,7 @@
       "accuracyRank": "D",
       "reloadSeconds": 1.2,
       "energy": 12,
-      "names": {"en": "Eclat LIM", "ja": "エクレールLIM"}
+      "names": {"en": "Eclair LIM", "ja": "エクレールLIM"}
     },
     {
       "id": "winger-short-23",

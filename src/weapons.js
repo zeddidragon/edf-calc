@@ -1,3 +1,4 @@
+const DEFAULT_GAME = '6'
 const $ = document.createElement.bind(document)
 let active = {}
 let table
@@ -116,7 +117,7 @@ function pickLang(lang) {
 
 function pickGame(game) {
   if(!games.includes(game)) {
-    game = '5'
+    game = DEFAULT_GAME
   }
   const gameChanged = active.game != game
   const button = document
@@ -391,7 +392,7 @@ function populateModes() {
     writeState()
   })
   for(const mode of modes) {
-    if(!mode.difficulties[0].dropsLow) {
+    if(!mode.difficulties?.[0].dropsLow) {
       continue
     }
     const mLabel = `Drops ${mode.name}`
@@ -834,7 +835,7 @@ function magDamage(wpn) {
     const dmgCurve = wpn.ammoDamageCurve || 0
     const countCurve = wpn.ammoCountCurve || 0
     let sum = 0
-    for(let i = 0; i < wpn.ammo; i++) {
+    for(let i = 0; i < wpn.ammo; i += (wpn.drain || 1)) {
       const x = (wpn.ammo - i) / wpn.ammo
       const count = Math.ceil(wpn.count * Math.pow(x, countCurve)) || 1
       const dmg = wpn.damage * Math.pow(x, dmgCurve)
@@ -854,7 +855,7 @@ function magDamage(wpn) {
     sum += dmg * (wpn.ammo - i)
     return sum
   }
-  return shotDamage(wpn) * wpn.ammo
+  return shotDamage(wpn) * Math.ceil(wpn.ammo / (wpn.drain || 1))
 }
 
 function falloff(wpn, dmg) {
@@ -1205,15 +1206,40 @@ const headers = [{
     return '-'
   },
 }, {
+  id: 'drain',
+  label: 'Drain',
+  tooltip: 'Ammo Consumed Per Attack',
+  cb: wpn => {
+    if(wpn.drain) {
+      return wpn.drain
+    }
+    return '-'
+  },
+}, {
+  id: 'boost',
+  label: 'Boost',
+  tooltip: 'Boost',
+  starProp: 'damage',
+  cb: wpn => {
+    if(wpn.supportType) {
+      return `${(wpn.damage * 100).toFixed(2)}%`
+    }
+    return '-'
+  },
+}, {
   id: 'defense',
   label: 'Def',
   tooltip: 'Defense',
+  starProp: 'damage',
   cb: wpn => {
     if(wpn.shieldDamageReduction) {
       return `${Math.round((1 - wpn.shieldDamageReduction) * 100)}%`
     }
     if(wpn.defense) {
       return `${wpn.defense}%`
+    }
+    if(wpn.supportType === 'guard') {
+      return `${(wpn.damage * 100).toFixed(2)}%`
     }
     return '-'
   },
@@ -1383,6 +1409,13 @@ const headers = [{
       return `${wpn.units} x ${wpn.shots || 1} `
     }
     return wpn.shots || 1
+  },
+}, {
+  id: 'units',
+  label: 'Units',
+  tooltip: 'Number of Units',
+  cb: wpn => {
+    return wpn.units || 1
   },
 }, {
   id: 'radius',
@@ -1744,6 +1777,9 @@ const headers = [{
   tooltip: 'Lock-Range',
   starProp: 'lockRange',
   cb: wpn => {
+    if(wpn.lockRangeRank) {
+      return wpn.lockRangeRank
+    }
     if(wpn.category === 'missile') {
       if(!wpn.lockRange) {
         return '-'
@@ -2022,6 +2058,19 @@ const headers = [{
     return '-'
   },
 }, {
+  id: 'convertible',
+  label: 'Conv',
+  tooltip: 'Conversion',
+  cb: wpn => {
+    if(wpn.dashToBoost) {
+      return `⇒ → ⇑`
+    }
+    if(wpn.boostToDash) {
+      return `⇑ → ⇒`
+    }
+    return '-'
+  },
+}, {
   id: 'shieldUse',
   label: 'Cns',
   tooltip: 'Shield Consumption',
@@ -2266,7 +2315,8 @@ const headers = [{
       return magDamage(wpn).toFixed()
     }
     const dump = Math.abs(critAvg(wpn)
-      * (wpn.ammo || 1)
+      * (wpn.count || 1)
+      * Math.ceil((wpn.ammo || 1) / (wpn.drain || 1))
       * (wpn.shots || 1)
       * (wpn.units || 1))
     return +dump.toFixed()
@@ -2339,30 +2389,38 @@ const headers = [{
 
 
 const games = [
+  '1',
+  '2',
   '2pv2',
   '3',
   '3p',
   '4',
   '41',
   '5',
+  '6',
   'ia',
   'ir',
 ]
 
 const gameLabels = [
+  'EDF1',
+  'EDF2',
   'EDF2PV2',
   'EDF3',
   'EDF3P',
   'EDF4',
   'EDF4.1',
   'EDF5',
+  'EDF6',
   'EDF:IA',
   'EDF:IR',
+  'EDF:WDTS',
 ]
 
 const gamePrefixes = {
   'ia': 4,
   'ir': 4,
+  'wdts': 4,
 }
 
 const gameMenu = document.getElementById('game-dropdown')
@@ -2578,4 +2636,4 @@ document
       .setAttribute('data-state', stateName)
   })
 
-loadWeapons(active.game || '5')
+loadWeapons(active.game || DEFAULT_GAME)

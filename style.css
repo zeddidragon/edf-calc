@@ -250,11 +250,11 @@ th.P, th.CR {
 .bomber b, .on b, .Hard, .highOdds, .edf4 b, .edf41 b, .edfia b, .items b, .rank-D, .status-effect.poison, #save-load-import {
   color: #8e8;
 }
-.fencer b, .dlc1 b, .edf2pv2 b {
+.fencer b, .dlc1 b, .edf2 b, .edf2pv2 b {
   color: #ea8;
 }
 
-.short b, .spear b, .heli b, .stats b, .limpet b, .booster b, .repair b, .sword b, .star-10, .star-5, .damage-type.physical {
+.short b, .spear b, .heli b, .stats b, .limpet b, .booster b, .repair b, .sword b, .star-10, .star-5, .edf1 b, .damage-type.physical {
   color: #eee;
 }
 .assault b, .laser b, .light b, .gunship b {
@@ -278,17 +278,23 @@ th.P, th.CR {
 .special b, .super b, .rank-B, .status-effect.recover, .status-effect.recovertime, #save-load-toggle b {
   color: #e8a;
 }
-.deploy b, .gatling b, .Easy, .starter, .star-0 {
+.edf6 b, .deploy b, .gatling b, .Easy, .starter, .star-0 {
   color: #8aa
 }
 .mech b, .core b, .equipment b, .exo b, .thrower b {
   color: #e8e;
 }
-.railgun b, .status-effect.frozen {
+.bomb b, .trap b, .droneguard b {
+  color: #ae8;
+}
+.railgun b, .status-effect.frozen, .cannon b, .handgrenade b, .cannon b, .droneshooter b {
   color: #8ae;
 }
-.cannon b  {
+.specialgrenade b, .submissile b, .dronechaser b {
   color: #8ea;
+}
+.saber b, .droneauto b {
+  color: #aaa;
 }
 
 @media only screen and (max-width: 540px) {

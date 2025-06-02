@@ -2079,7 +2079,7 @@ const headers = [{
   label: 'EPS',
   tooltip: 'Energy Per Second',
   cb: wpn => {
-    if(wpn.energy < 0.05) {
+    if((wpn.energy || 0) < 0.05) {
       return '-'
     }
     if(wpn.rof && !(wpn.ammo > 1 )) {
@@ -2099,7 +2099,7 @@ const headers = [{
   label: 'DPE',
   tooltip: 'Damage Per Energy',
   cb: wpn => {
-    if(wpn.energy < 0.05) {
+    if((wpn.energy || 0) < 0.05) {
       return '-'
     }
     if(!wpn.damage) {
@@ -2116,6 +2116,7 @@ const headers = [{
 
 const games = [
   '1',
+  '2',
   '2pv2',
   '3',
   '3p',
@@ -2128,6 +2129,7 @@ const games = [
 
 const gameLabels = [
   'EDF1',
+  'EDF2',
   'EDF2PV2',
   'EDF3',
   'EDF3P',
@@ -2136,10 +2138,14 @@ const gameLabels = [
   'EDF5',
   'EDF6',
   'EDF:IA',
+  'EDF:IR',
+  'EDF:WDTS',
 ]
 
 const gamePrefixes = {
   'ia': 4,
+  'ir': 4,
+  'wdts': 4,
 }
 
 const gameMenu = document.getElementById('game-dropdown')

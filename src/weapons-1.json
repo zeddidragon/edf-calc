@@ -94,25 +94,31 @@
         ]
       },
       {
-        "category": "handgrenade",
-        "names": {"en": "Hand Grenades", "ja": "ハンドグレネード"},
-        "headers": ["checkbox", "name", "damage", "duration", "radius"]
-      },
-      {
         "category": "grenade",
-        "names": {"en": "Grenade Launchers", "ja": "グレネードランチャー"},
-        "headers": [
-          "checkbox",
-          "name",
-          "ammo",
-          "damage",
-          "radius",
-          "duration",
-          "interval",
-          "reload",
-          "dps",
-          "tdps",
-          "total"
+        "names": {"en": "Grenades", "ja": "グレネード"},
+        "tables": [
+          {
+            "subCategory": "hg",
+            "names": {"en": "Hand Grenades", "ja": "ハンドグレネード"},
+            "headers": ["checkbox", "name", "damage", "duration", "radius"]
+          },
+          {
+            "subCategory": "gl",
+            "names": {"en": "Grenade Launchers", "ja": "グレネードランチャー"},
+            "headers": [
+              "checkbox",
+              "name",
+              "ammo",
+              "damage",
+              "radius",
+              "duration",
+              "interval",
+              "reload",
+              "dps",
+              "tdps",
+              "total"
+            ]
+          }
         ]
       },
       {
@@ -154,8 +160,8 @@
   },
   "weapons": [
     {
-      "id": "ranger-assault-0",
-      "idx": 0,
+      "id": "ranger-assault-1",
+      "idx": 1,
       "character": "ranger",
       "category": "assault",
       "ammo": 120,
@@ -167,8 +173,8 @@
       "names": {"en": "AS-18", "ja": "AS-18"}
     },
     {
-      "id": "ranger-shotgun-0",
-      "idx": 0,
+      "id": "ranger-shotgun-1",
+      "idx": 1,
       "character": "ranger",
       "category": "shotgun",
       "ammo": 8,
@@ -181,8 +187,8 @@
       "names": {"en": "SG-4", "ja": "SG-4"}
     },
     {
-      "id": "ranger-sniper-0",
-      "idx": 0,
+      "id": "ranger-sniper-1",
+      "idx": 1,
       "character": "ranger",
       "category": "sniper",
       "ammo": 5,
@@ -195,8 +201,8 @@
       "names": {"en": "SNR-227", "ja": "SNR-227"}
     },
     {
-      "id": "ranger-rocket-0",
-      "idx": 0,
+      "id": "ranger-rocket-1",
+      "idx": 1,
       "character": "ranger",
       "category": "rocket",
       "ammo": 2,
@@ -208,8 +214,8 @@
       "names": {"en": "Goliath-1", "ja": "ゴリアス-1"}
     },
     {
-      "id": "ranger-missile-0",
-      "idx": 0,
+      "id": "ranger-missile-1",
+      "idx": 1,
       "character": "ranger",
       "category": "missile",
       "ammo": 2,
@@ -222,33 +228,20 @@
       "names": {"en": "Emerald M-0", "ja": "エメロードM-0"}
     },
     {
-      "id": "ranger-handgrenade-0",
-      "idx": 0,
+      "id": "ranger-grenade-1",
+      "idx": 1,
       "character": "ranger",
-      "category": "handgrenade",
+      "category": "grenade",
       "damage": 400,
       "fuseType": {"ja": "時間", "en": "timed"},
       "fuseSeconds": 5,
       "radius": 5,
+      "subCategory": "hg",
       "names": {"en": "HG-01", "ja": "HG-01"}
     },
     {
-      "id": "ranger-grenade-0",
-      "idx": 0,
-      "character": "ranger",
-      "category": "grenade",
-      "ammo": 4,
-      "rof": 2,
-      "damage": 200,
-      "reloadSeconds": 2,
-      "fuseType": {"ja": "時間", "en": "timed"},
-      "fuseSeconds": 5,
-      "radius": 5,
-      "names": {"en": "G Launcher UM-1", "ja": "Gランチャー-UM-1"}
-    },
-    {
-      "id": "ranger-special-0",
-      "idx": 0,
+      "id": "ranger-special-1",
+      "idx": 1,
       "character": "ranger",
       "category": "special",
       "ammo": 120,
@@ -261,8 +254,8 @@
       "names": {"en": "Bound Gun", "ja": "バウンドガン"}
     },
     {
-      "id": "ranger-assault-1",
-      "idx": 1,
+      "id": "ranger-assault-2",
+      "idx": 2,
       "character": "ranger",
       "category": "assault",
       "ammo": 200,
@@ -274,8 +267,8 @@
       "names": {"en": "AS-18R", "ja": "AS-18R"}
     },
     {
-      "id": "ranger-shotgun-1",
-      "idx": 1,
+      "id": "ranger-shotgun-2",
+      "idx": 2,
       "character": "ranger",
       "category": "shotgun",
       "ammo": 8,
@@ -288,8 +281,8 @@
       "names": {"en": "SG-5", "ja": "SG-5"}
     },
     {
-      "id": "ranger-sniper-1",
-      "idx": 1,
+      "id": "ranger-sniper-2",
+      "idx": 2,
       "character": "ranger",
       "category": "sniper",
       "ammo": 5,
@@ -302,8 +295,8 @@
       "names": {"en": "SNR-227R", "ja": "SNR-227R"}
     },
     {
-      "id": "ranger-rocket-1",
-      "idx": 1,
+      "id": "ranger-rocket-2",
+      "idx": 2,
       "character": "ranger",
       "category": "rocket",
       "ammo": 2,
@@ -315,8 +308,8 @@
       "names": {"en": "Goliath-D", "ja": "ゴリアス-D"}
     },
     {
-      "id": "ranger-missile-1",
-      "idx": 1,
+      "id": "ranger-missile-2",
+      "idx": 2,
       "character": "ranger",
       "category": "missile",
       "ammo": 2,
@@ -329,31 +322,19 @@
       "names": {"en": "Emerald M", "ja": "エメロードM"}
     },
     {
-      "id": "ranger-handgrenade-1",
-      "idx": 1,
+      "id": "ranger-grenade-2",
+      "idx": 2,
       "character": "ranger",
-      "category": "handgrenade",
+      "category": "grenade",
       "damage": 200,
       "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 5,
+      "subCategory": "hg",
       "names": {"en": "HG-01A", "ja": "HG-01A"}
     },
     {
-      "id": "ranger-grenade-1",
-      "idx": 1,
-      "character": "ranger",
-      "category": "grenade",
-      "ammo": 4,
-      "rof": 2,
-      "damage": 100,
-      "reloadSeconds": 2,
-      "fuseType": {"ja": "接触", "en": "contact"},
-      "radius": 5,
-      "names": {"en": "G Launcher UM-1A", "ja": "Gランチャー-UM-1A"}
-    },
-    {
-      "id": "ranger-special-1",
-      "idx": 1,
+      "id": "ranger-special-2",
+      "idx": 2,
       "character": "ranger",
       "category": "special",
       "ammo": 120,
@@ -366,8 +347,8 @@
       "names": {"en": "Bound Gun M2", "ja": "バウンドガンM2"}
     },
     {
-      "id": "ranger-assault-2",
-      "idx": 2,
+      "id": "ranger-assault-3",
+      "idx": 3,
       "character": "ranger",
       "category": "assault",
       "ammo": 10,
@@ -379,8 +360,8 @@
       "names": {"en": "AS-18D", "ja": "AS-18D"}
     },
     {
-      "id": "ranger-shotgun-2",
-      "idx": 2,
+      "id": "ranger-shotgun-3",
+      "idx": 3,
       "character": "ranger",
       "category": "shotgun",
       "ammo": 8,
@@ -393,8 +374,8 @@
       "names": {"en": "SG-6", "ja": "SG-6"}
     },
     {
-      "id": "ranger-sniper-2",
-      "idx": 2,
+      "id": "ranger-sniper-3",
+      "idx": 3,
       "character": "ranger",
       "category": "sniper",
       "ammo": 1,
@@ -407,8 +388,8 @@
       "names": {"en": "SNR-227D", "ja": "SNR-227D"}
     },
     {
-      "id": "ranger-rocket-2",
-      "idx": 2,
+      "id": "ranger-rocket-3",
+      "idx": 3,
       "character": "ranger",
       "category": "rocket",
       "ammo": 2,
@@ -420,8 +401,8 @@
       "names": {"en": "Goliath-DD", "ja": "ゴリアス-DD"}
     },
     {
-      "id": "ranger-missile-2",
-      "idx": 2,
+      "id": "ranger-missile-3",
+      "idx": 3,
       "character": "ranger",
       "category": "missile",
       "ammo": 4,
@@ -434,32 +415,19 @@
       "names": {"en": "Emerald M-2", "ja": "エメロードM-2"}
     },
     {
-      "id": "ranger-handgrenade-2",
-      "idx": 2,
+      "id": "ranger-grenade-3",
+      "idx": 3,
       "character": "ranger",
-      "category": "handgrenade",
+      "category": "grenade",
       "damage": 250,
       "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 12,
+      "subCategory": "hg",
       "names": {"en": "HG-02A", "ja": "HG-02A"}
     },
     {
-      "id": "ranger-grenade-2",
-      "idx": 2,
-      "character": "ranger",
-      "category": "grenade",
-      "ammo": 4,
-      "rof": 2,
-      "damage": 400,
-      "reloadSeconds": 3,
-      "fuseType": {"ja": "時間", "en": "timed"},
-      "fuseSeconds": 5,
-      "radius": 7,
-      "names": {"en": "G Launcher UM-2", "ja": "Gランチャー-UM-2"}
-    },
-    {
-      "id": "ranger-special-2",
-      "idx": 2,
+      "id": "ranger-special-3",
+      "idx": 3,
       "character": "ranger",
       "category": "special",
       "ammo": 120,
@@ -472,8 +440,8 @@
       "names": {"en": "Bound Gun S", "ja": "バウンドガンS"}
     },
     {
-      "id": "ranger-assault-3",
-      "idx": 3,
+      "id": "ranger-assault-4",
+      "idx": 4,
       "character": "ranger",
       "category": "assault",
       "ammo": 150,
@@ -485,8 +453,8 @@
       "names": {"en": "AS-18RR", "ja": "AS-18RR"}
     },
     {
-      "id": "ranger-shotgun-3",
-      "idx": 3,
+      "id": "ranger-shotgun-4",
+      "idx": 4,
       "character": "ranger",
       "category": "shotgun",
       "ammo": 15,
@@ -499,8 +467,8 @@
       "names": {"en": "SG-7", "ja": "SG-7"}
     },
     {
-      "id": "ranger-sniper-3",
-      "idx": 3,
+      "id": "ranger-sniper-4",
+      "idx": 4,
       "character": "ranger",
       "category": "sniper",
       "ammo": 7,
@@ -513,8 +481,8 @@
       "names": {"en": "SNR-228", "ja": "SNR-228"}
     },
     {
-      "id": "ranger-rocket-3",
-      "idx": 3,
+      "id": "ranger-rocket-4",
+      "idx": 4,
       "character": "ranger",
       "category": "rocket",
       "ammo": 10,
@@ -526,8 +494,8 @@
       "names": {"en": "Goliath-R", "ja": "ゴリアス-R"}
     },
     {
-      "id": "ranger-missile-3",
-      "idx": 3,
+      "id": "ranger-missile-4",
+      "idx": 4,
       "character": "ranger",
       "category": "missile",
       "ammo": 10,
@@ -540,31 +508,19 @@
       "names": {"en": "ML-R", "ja": "ML-R"}
     },
     {
-      "id": "ranger-handgrenade-3",
-      "idx": 3,
+      "id": "ranger-grenade-4",
+      "idx": 4,
       "character": "ranger",
-      "category": "handgrenade",
+      "category": "grenade",
       "damage": 2000,
       "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 15,
+      "subCategory": "hg",
       "names": {"en": "HG-13A", "ja": "HG-13A"}
     },
     {
-      "id": "ranger-grenade-3",
-      "idx": 3,
-      "character": "ranger",
-      "category": "grenade",
-      "ammo": 12,
-      "rof": 7.5,
-      "damage": 100,
-      "reloadSeconds": 3,
-      "fuseType": {"ja": "接触", "en": "contact"},
-      "radius": 3,
-      "names": {"en": "G Launcher UM-2A", "ja": "Gランチャー-UM-2A"}
-    },
-    {
-      "id": "ranger-special-3",
-      "idx": 3,
+      "id": "ranger-special-4",
+      "idx": 4,
       "character": "ranger",
       "category": "special",
       "ammo": 10,
@@ -577,8 +533,8 @@
       "names": {"en": "Bound Gun B08", "ja": "バウンドガンB08"}
     },
     {
-      "id": "ranger-assault-4",
-      "idx": 4,
+      "id": "ranger-assault-5",
+      "idx": 5,
       "character": "ranger",
       "category": "assault",
       "ammo": 100,
@@ -590,8 +546,8 @@
       "names": {"en": "AS-19", "ja": "AS-19"}
     },
     {
-      "id": "ranger-shotgun-4",
-      "idx": 4,
+      "id": "ranger-shotgun-5",
+      "idx": 5,
       "character": "ranger",
       "category": "shotgun",
       "ammo": 15,
@@ -604,8 +560,8 @@
       "names": {"en": "SG-99", "ja": "SG-99"}
     },
     {
-      "id": "ranger-sniper-4",
-      "idx": 4,
+      "id": "ranger-sniper-5",
+      "idx": 5,
       "character": "ranger",
       "category": "sniper",
       "ammo": 7,
@@ -618,8 +574,8 @@
       "names": {"en": "Lysander 1", "ja": "ライサンダー1"}
     },
     {
-      "id": "ranger-rocket-4",
-      "idx": 4,
+      "id": "ranger-rocket-5",
+      "idx": 5,
       "character": "ranger",
       "category": "rocket",
       "ammo": 1,
@@ -632,8 +588,8 @@
       "names": {"en": "Goliath-S Custom", "ja": "ゴリアス-Sカスタム"}
     },
     {
-      "id": "ranger-missile-4",
-      "idx": 4,
+      "id": "ranger-missile-5",
+      "idx": 5,
       "character": "ranger",
       "category": "missile",
       "ammo": 30,
@@ -646,32 +602,20 @@
       "names": {"en": "ML-2R", "ja": "ML-2R"}
     },
     {
-      "id": "ranger-handgrenade-4",
-      "idx": 4,
+      "id": "ranger-grenade-5",
+      "idx": 5,
       "character": "ranger",
-      "category": "handgrenade",
+      "category": "grenade",
       "damage": 2000,
       "fuseType": {"ja": "時間", "en": "timed"},
       "fuseSeconds": 3,
       "radius": 15,
+      "subCategory": "hg",
       "names": {"en": "HG-13 Mk.2", "ja": "HG-13改"}
     },
     {
-      "id": "ranger-grenade-4",
-      "idx": 4,
-      "character": "ranger",
-      "category": "grenade",
-      "ammo": 5,
-      "rof": 2,
-      "damage": 600,
-      "reloadSeconds": 2,
-      "fuseType": {"ja": "接触", "en": "contact"},
-      "radius": 7,
-      "names": {"en": "G Launcher UM-3A", "ja": "Gランチャー-UM-3A"}
-    },
-    {
-      "id": "ranger-special-4",
-      "idx": 4,
+      "id": "ranger-special-5",
+      "idx": 5,
       "character": "ranger",
       "category": "special",
       "ammo": 120,
@@ -684,8 +628,8 @@
       "names": {"en": "Bound Gun B08S", "ja": "バウンドガンB08S"}
     },
     {
-      "id": "ranger-assault-5",
-      "idx": 5,
+      "id": "ranger-assault-6",
+      "idx": 6,
       "character": "ranger",
       "category": "assault",
       "ammo": 8,
@@ -697,8 +641,8 @@
       "names": {"en": "AS-19D", "ja": "AS-19D"}
     },
     {
-      "id": "ranger-shotgun-5",
-      "idx": 5,
+      "id": "ranger-shotgun-6",
+      "idx": 6,
       "character": "ranger",
       "category": "shotgun",
       "ammo": 10,
@@ -711,8 +655,8 @@
       "names": {"en": "Sparrow Shot", "ja": "スパローショット"}
     },
     {
-      "id": "ranger-sniper-5",
-      "idx": 5,
+      "id": "ranger-sniper-6",
+      "idx": 6,
       "character": "ranger",
       "category": "sniper",
       "ammo": 5,
@@ -725,8 +669,8 @@
       "names": {"en": "SNR-229", "ja": "SNR-229"}
     },
     {
-      "id": "ranger-rocket-5",
-      "idx": 5,
+      "id": "ranger-rocket-6",
+      "idx": 6,
       "character": "ranger",
       "category": "rocket",
       "ammo": 20,
@@ -738,8 +682,8 @@
       "names": {"en": "Goliath-R Custom", "ja": "ゴリアス-Rカスタム"}
     },
     {
-      "id": "ranger-missile-5",
-      "idx": 5,
+      "id": "ranger-missile-6",
+      "idx": 6,
       "character": "ranger",
       "category": "missile",
       "ammo": 1,
@@ -752,32 +696,20 @@
       "names": {"en": "Sky Turtle Prototype", "ja": "スカイタートル試作"}
     },
     {
-      "id": "ranger-handgrenade-5",
-      "idx": 5,
+      "id": "ranger-grenade-6",
+      "idx": 6,
       "character": "ranger",
-      "category": "handgrenade",
+      "category": "grenade",
       "damage": 1500,
       "fuseType": {"ja": "時間", "en": "timed"},
       "fuseSeconds": 5,
       "radius": 10,
+      "subCategory": "hg",
       "names": {"en": "GHG-17", "ja": "GHG-17"}
     },
     {
-      "id": "ranger-grenade-5",
-      "idx": 5,
-      "character": "ranger",
-      "category": "grenade",
-      "ammo": 1,
-      "rof": 1,
-      "damage": 2000,
-      "reloadSeconds": 3,
-      "fuseType": {"ja": "接触", "en": "contact"},
-      "radius": 20,
-      "names": {"en": "G Launcher UM-4A", "ja": "Gランチャー-UM-4A"}
-    },
-    {
-      "id": "ranger-special-5",
-      "idx": 5,
+      "id": "ranger-special-6",
+      "idx": 6,
       "character": "ranger",
       "category": "special",
       "ammo": 150,
@@ -790,8 +722,8 @@
       "names": {"en": "Bound Gun XS", "ja": "バウンドガンXS"}
     },
     {
-      "id": "ranger-assault-6",
-      "idx": 6,
+      "id": "ranger-assault-7",
+      "idx": 7,
       "character": "ranger",
       "category": "assault",
       "ammo": 200,
@@ -803,8 +735,8 @@
       "names": {"en": "AS-19R", "ja": "AS-19R"}
     },
     {
-      "id": "ranger-shotgun-6",
-      "idx": 6,
+      "id": "ranger-shotgun-7",
+      "idx": 7,
       "character": "ranger",
       "category": "shotgun",
       "ammo": 10,
@@ -817,8 +749,8 @@
       "names": {"en": "Sparrow Shot M2", "ja": "スパローショットM2"}
     },
     {
-      "id": "ranger-sniper-6",
-      "idx": 6,
+      "id": "ranger-sniper-7",
+      "idx": 7,
       "character": "ranger",
       "category": "sniper",
       "ammo": 20,
@@ -831,8 +763,8 @@
       "names": {"en": "SNR-229R", "ja": "SNR-229R"}
     },
     {
-      "id": "ranger-rocket-6",
-      "idx": 6,
+      "id": "ranger-rocket-7",
+      "idx": 7,
       "character": "ranger",
       "category": "rocket",
       "ammo": 5,
@@ -844,8 +776,8 @@
       "names": {"en": "Goliath-2", "ja": "ゴリアス-2"}
     },
     {
-      "id": "ranger-missile-6",
-      "idx": 6,
+      "id": "ranger-missile-7",
+      "idx": 7,
       "character": "ranger",
       "category": "missile",
       "ammo": 1,
@@ -858,31 +790,19 @@
       "names": {"en": "Sky Turtle", "ja": "スカイタートル"}
     },
     {
-      "id": "ranger-handgrenade-6",
-      "idx": 6,
+      "id": "ranger-grenade-7",
+      "idx": 7,
       "character": "ranger",
-      "category": "handgrenade",
+      "category": "grenade",
       "damage": 1000,
       "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 10,
+      "subCategory": "hg",
       "names": {"en": "GHG-17A", "ja": "GHG-17A"}
     },
     {
-      "id": "ranger-grenade-6",
-      "idx": 6,
-      "character": "ranger",
-      "category": "grenade",
-      "ammo": 4,
-      "rof": 1,
-      "damage": 2000,
-      "reloadSeconds": 5,
-      "fuseType": {"ja": "接触", "en": "contact"},
-      "radius": 20,
-      "names": {"en": "G Launcher UM-XA", "ja": "Gランチャー-UM-XA"}
-    },
-    {
-      "id": "ranger-special-6",
-      "idx": 6,
+      "id": "ranger-special-7",
+      "idx": 7,
       "character": "ranger",
       "category": "special",
       "ammo": 60,
@@ -895,8 +815,8 @@
       "names": {"en": "Flamethrower F1", "ja": "火炎放射器F1"}
     },
     {
-      "id": "ranger-assault-7",
-      "idx": 7,
+      "id": "ranger-assault-8",
+      "idx": 8,
       "character": "ranger",
       "category": "assault",
       "ammo": 120,
@@ -908,8 +828,8 @@
       "names": {"en": "AS-20", "ja": "AS-20"}
     },
     {
-      "id": "ranger-shotgun-7",
-      "idx": 7,
+      "id": "ranger-shotgun-8",
+      "idx": 8,
       "character": "ranger",
       "category": "shotgun",
       "ammo": 15,
@@ -922,8 +842,8 @@
       "names": {"en": "Sparrow Shot M3", "ja": "スパローショットM3"}
     },
     {
-      "id": "ranger-sniper-7",
-      "idx": 7,
+      "id": "ranger-sniper-8",
+      "idx": 8,
       "character": "ranger",
       "category": "sniper",
       "ammo": 8,
@@ -936,8 +856,8 @@
       "names": {"en": "SNR-230", "ja": "SNR-230"}
     },
     {
-      "id": "ranger-rocket-7",
-      "idx": 7,
+      "id": "ranger-rocket-8",
+      "idx": 8,
       "character": "ranger",
       "category": "rocket",
       "ammo": 10,
@@ -949,8 +869,8 @@
       "names": {"en": "Goliath-2R", "ja": "ゴリアス-2R"}
     },
     {
-      "id": "ranger-missile-7",
-      "idx": 7,
+      "id": "ranger-missile-8",
+      "idx": 8,
       "character": "ranger",
       "category": "missile",
       "ammo": 1,
@@ -964,33 +884,19 @@
       "names": {"en": "Prominence 1", "ja": "プロミネンス1"}
     },
     {
-      "id": "ranger-handgrenade-7",
-      "idx": 7,
+      "id": "ranger-grenade-8",
+      "idx": 8,
       "character": "ranger",
-      "category": "handgrenade",
+      "category": "grenade",
       "damage": 2000,
       "fuseType": {"ja": "接触", "en": "contact"},
       "radius": 10,
+      "subCategory": "hg",
       "names": {"en": "GHG-99A", "ja": "GHG-99A"}
     },
     {
-      "id": "ranger-grenade-7",
-      "idx": 7,
-      "character": "ranger",
-      "category": "grenade",
-      "ammo": 1,
-      "rof": 1,
-      "damage": 150,
-      "count": 20,
-      "reloadSeconds": 6,
-      "fuseType": {"ja": "時間", "en": "timed"},
-      "fuseSeconds": 5,
-      "radius": 5,
-      "names": {"en": "Soccer GR Prototype", "ja": "サッカーGR試作"}
-    },
-    {
-      "id": "ranger-special-7",
-      "idx": 7,
+      "id": "ranger-special-8",
+      "idx": 8,
       "character": "ranger",
       "category": "special",
       "ammo": 40,
@@ -1003,8 +909,8 @@
       "names": {"en": "Flamethrower F2", "ja": "火炎放射器F2"}
     },
     {
-      "id": "ranger-assault-8",
-      "idx": 8,
+      "id": "ranger-assault-9",
+      "idx": 9,
       "character": "ranger",
       "category": "assault",
       "ammo": 10,
@@ -1016,8 +922,8 @@
       "names": {"en": "AS-20D", "ja": "AS-20D"}
     },
     {
-      "id": "ranger-shotgun-8",
-      "idx": 8,
+      "id": "ranger-shotgun-9",
+      "idx": 9,
       "character": "ranger",
       "category": "shotgun",
       "ammo": 15,
@@ -1030,8 +936,8 @@
       "names": {"en": "Sparrow Shot X", "ja": "スパローショットX"}
     },
     {
-      "id": "ranger-sniper-8",
-      "idx": 8,
+      "id": "ranger-sniper-9",
+      "idx": 9,
       "character": "ranger",
       "category": "sniper",
       "ammo": 1,
@@ -1044,8 +950,8 @@
       "names": {"en": "SNR-230D", "ja": "SNR-230D"}
     },
     {
-      "id": "ranger-rocket-8",
-      "idx": 8,
+      "id": "ranger-rocket-9",
+      "idx": 9,
       "character": "ranger",
       "category": "rocket",
       "ammo": 5,
@@ -1057,8 +963,8 @@
       "names": {"en": "Goliath-99", "ja": "ゴリアス-99"}
     },
     {
-      "id": "ranger-missile-8",
-      "idx": 8,
+      "id": "ranger-missile-9",
+      "idx": 9,
       "character": "ranger",
       "category": "missile",
       "ammo": 1,
@@ -1072,34 +978,20 @@
       "names": {"en": "Prominence 2", "ja": "プロミネンス2"}
     },
     {
-      "id": "ranger-handgrenade-8",
-      "idx": 8,
+      "id": "ranger-grenade-9",
+      "idx": 9,
       "character": "ranger",
-      "category": "handgrenade",
+      "category": "grenade",
       "damage": 3500,
       "fuseType": {"ja": "時間", "en": "timed"},
       "fuseSeconds": 10,
       "radius": 20,
+      "subCategory": "hg",
       "names": {"en": "GHG-MAX", "ja": "GHG-MAX"}
     },
     {
-      "id": "ranger-grenade-8",
-      "idx": 8,
-      "character": "ranger",
-      "category": "grenade",
-      "ammo": 1,
-      "rof": 1,
-      "damage": 400,
-      "count": 20,
-      "reloadSeconds": 6,
-      "fuseType": {"ja": "時間", "en": "timed"},
-      "fuseSeconds": 5,
-      "radius": 7,
-      "names": {"en": "Soccer Grenade", "ja": "サッカーグレネード"}
-    },
-    {
-      "id": "ranger-special-8",
-      "idx": 8,
+      "id": "ranger-special-9",
+      "idx": 9,
       "character": "ranger",
       "category": "special",
       "ammo": 60,
@@ -1113,8 +1005,8 @@
       "names": {"en": "Flamethrower F3R", "ja": "火炎放射器F3R"}
     },
     {
-      "id": "ranger-assault-9",
-      "idx": 9,
+      "id": "ranger-assault-10",
+      "idx": 10,
       "character": "ranger",
       "category": "assault",
       "ammo": 250,
@@ -1126,8 +1018,8 @@
       "names": {"en": "AS-20R", "ja": "AS-20R"}
     },
     {
-      "id": "ranger-shotgun-9",
-      "idx": 9,
+      "id": "ranger-shotgun-10",
+      "idx": 10,
       "character": "ranger",
       "category": "shotgun",
       "ammo": 8,
@@ -1140,8 +1032,8 @@
       "names": {"en": "Governor S", "ja": "ガバナーS"}
     },
     {
-      "id": "ranger-sniper-9",
-      "idx": 9,
+      "id": "ranger-sniper-10",
+      "idx": 10,
       "character": "ranger",
       "category": "sniper",
       "ammo": 20,
@@ -1154,8 +1046,8 @@
       "names": {"en": "SNR-X", "ja": "SNR-X"}
     },
     {
-      "id": "ranger-rocket-9",
-      "idx": 9,
+      "id": "ranger-rocket-10",
+      "idx": 10,
       "character": "ranger",
       "category": "rocket",
       "ammo": 1,
@@ -1168,8 +1060,8 @@
       "names": {"en": "Goliath-SSS", "ja": "ゴリアス-SSS"}
     },
     {
-      "id": "ranger-missile-9",
-      "idx": 9,
+      "id": "ranger-missile-10",
+      "idx": 10,
       "character": "ranger",
       "category": "missile",
       "ammo": 1,
@@ -1183,22 +1075,8 @@
       "names": {"en": "Sol Ring A20", "ja": "ソルリングA20"}
     },
     {
-      "id": "ranger-grenade-9",
-      "idx": 9,
-      "character": "ranger",
-      "category": "grenade",
-      "ammo": 1,
-      "rof": 1,
-      "damage": 5000,
-      "reloadSeconds": 3,
-      "fuseType": {"ja": "時間", "en": "timed"},
-      "fuseSeconds": 5,
-      "radius": 15,
-      "names": {"en": "Soccer Grenade D", "ja": "サッカーグレネードD"}
-    },
-    {
-      "id": "ranger-special-9",
-      "idx": 9,
+      "id": "ranger-special-10",
+      "idx": 10,
       "character": "ranger",
       "category": "special",
       "ammo": 30,
@@ -1211,8 +1089,8 @@
       "names": {"en": "Flamethrower F4", "ja": "火炎放射器F4"}
     },
     {
-      "id": "ranger-assault-10",
-      "idx": 10,
+      "id": "ranger-assault-11",
+      "idx": 11,
       "character": "ranger",
       "category": "assault",
       "ammo": 150,
@@ -1225,8 +1103,8 @@
       "names": {"en": "AS-20SSS", "ja": "AS-20SSS"}
     },
     {
-      "id": "ranger-shotgun-10",
-      "idx": 10,
+      "id": "ranger-shotgun-11",
+      "idx": 11,
       "character": "ranger",
       "category": "shotgun",
       "ammo": 3,
@@ -1239,8 +1117,8 @@
       "names": {"en": "Governor SX", "ja": "ガバナーSX"}
     },
     {
-      "id": "ranger-sniper-10",
-      "idx": 10,
+      "id": "ranger-sniper-11",
+      "idx": 11,
       "character": "ranger",
       "category": "sniper",
       "ammo": 8,
@@ -1254,8 +1132,8 @@
       "names": {"en": "Five Star SR", "ja": "ファイブスターSR"}
     },
     {
-      "id": "ranger-rocket-10",
-      "idx": 10,
+      "id": "ranger-rocket-11",
+      "idx": 11,
       "character": "ranger",
       "category": "rocket",
       "ammo": 2,
@@ -1268,8 +1146,8 @@
       "names": {"en": "Volcano-3A", "ja": "ボルケーノ-3A"}
     },
     {
-      "id": "ranger-missile-10",
-      "idx": 10,
+      "id": "ranger-missile-11",
+      "idx": 11,
       "character": "ranger",
       "category": "missile",
       "ammo": 1,
@@ -1283,23 +1161,23 @@
       "names": {"en": "Sol Ring X", "ja": "ソルリングX"}
     },
     {
-      "id": "ranger-grenade-10",
-      "idx": 10,
+      "id": "ranger-grenade-11",
+      "idx": 11,
       "character": "ranger",
       "category": "grenade",
-      "ammo": 1,
-      "rof": 1,
+      "ammo": 4,
+      "rof": 2,
       "damage": 200,
-      "count": 20,
-      "reloadSeconds": 6,
+      "reloadSeconds": 2,
       "fuseType": {"ja": "時間", "en": "timed"},
       "fuseSeconds": 5,
       "radius": 5,
-      "names": {"en": "Splash GR Prototype", "ja": "スプラッシュGR試作"}
+      "subCategory": "gl",
+      "names": {"en": "G Launcher UM-1", "ja": "Gランチャー-UM-1"}
     },
     {
-      "id": "ranger-special-10",
-      "idx": 10,
+      "id": "ranger-special-11",
+      "idx": 11,
       "character": "ranger",
       "category": "special",
       "ammo": 20,
@@ -1312,8 +1190,8 @@
       "names": {"en": "Flamethrower F5", "ja": "火炎放射器F5"}
     },
     {
-      "id": "ranger-assault-11",
-      "idx": 11,
+      "id": "ranger-assault-12",
+      "idx": 12,
       "character": "ranger",
       "category": "assault",
       "ammo": 120,
@@ -1325,8 +1203,8 @@
       "names": {"en": "AS-21", "ja": "AS-21"}
     },
     {
-      "id": "ranger-sniper-11",
-      "idx": 11,
+      "id": "ranger-sniper-12",
+      "idx": 12,
       "character": "ranger",
       "category": "sniper",
       "ammo": 8,
@@ -1340,8 +1218,8 @@
       "names": {"en": "Five Star SR-B", "ja": "ファイブスターSR-B"}
     },
     {
-      "id": "ranger-rocket-11",
-      "idx": 11,
+      "id": "ranger-rocket-12",
+      "idx": 12,
       "character": "ranger",
       "category": "rocket",
       "ammo": 2,
@@ -1354,8 +1232,8 @@
       "names": {"en": "Volcano-6A", "ja": "ボルケーノ-6A"}
     },
     {
-      "id": "ranger-missile-11",
-      "idx": 11,
+      "id": "ranger-missile-12",
+      "idx": 12,
       "character": "ranger",
       "category": "missile",
       "ammo": 1,
@@ -1370,23 +1248,22 @@
       "names": {"en": "Lucifer S", "ja": "ルシフェルS"}
     },
     {
-      "id": "ranger-grenade-11",
-      "idx": 11,
+      "id": "ranger-grenade-12",
+      "idx": 12,
       "character": "ranger",
       "category": "grenade",
-      "ammo": 1,
-      "rof": 1,
-      "damage": 1000,
-      "count": 20,
-      "reloadSeconds": 6,
-      "fuseType": {"ja": "時間", "en": "timed"},
-      "fuseSeconds": 5,
-      "radius": 7,
-      "names": {"en": "Splash GR", "ja": "スプラッシュGR"}
+      "ammo": 4,
+      "rof": 2,
+      "damage": 100,
+      "reloadSeconds": 2,
+      "fuseType": {"ja": "接触", "en": "contact"},
+      "radius": 5,
+      "subCategory": "gl",
+      "names": {"en": "G Launcher UM-1A", "ja": "Gランチャー-UM-1A"}
     },
     {
-      "id": "ranger-special-11",
-      "idx": 11,
+      "id": "ranger-special-12",
+      "idx": 12,
       "character": "ranger",
       "category": "special",
       "ammo": 150,
@@ -1395,8 +1272,8 @@
       "names": {"en": "Flamethrower F6", "ja": "火炎放射器F6"}
     },
     {
-      "id": "ranger-assault-12",
-      "idx": 12,
+      "id": "ranger-assault-13",
+      "idx": 13,
       "character": "ranger",
       "category": "assault",
       "ammo": 10,
@@ -1408,8 +1285,8 @@
       "names": {"en": "AS-21D", "ja": "AS-21D"}
     },
     {
-      "id": "ranger-sniper-12",
-      "idx": 12,
+      "id": "ranger-sniper-13",
+      "idx": 13,
       "character": "ranger",
       "category": "sniper",
       "ammo": 7,
@@ -1422,8 +1299,8 @@
       "names": {"en": "Lysander 2", "ja": "ライサンダー2"}
     },
     {
-      "id": "ranger-rocket-12",
-      "idx": 12,
+      "id": "ranger-rocket-13",
+      "idx": 13,
       "character": "ranger",
       "category": "rocket",
       "ammo": 1,
@@ -1435,8 +1312,23 @@
       "names": {"en": "Genocide Cannon", "ja": "ジェノサイド砲"}
     },
     {
-      "id": "ranger-assault-13",
+      "id": "ranger-grenade-13",
       "idx": 13,
+      "character": "ranger",
+      "category": "grenade",
+      "ammo": 4,
+      "rof": 2,
+      "damage": 400,
+      "reloadSeconds": 3,
+      "fuseType": {"ja": "時間", "en": "timed"},
+      "fuseSeconds": 5,
+      "radius": 7,
+      "subCategory": "gl",
+      "names": {"en": "G Launcher UM-2", "ja": "Gランチャー-UM-2"}
+    },
+    {
+      "id": "ranger-assault-14",
+      "idx": 14,
       "character": "ranger",
       "category": "assault",
       "ammo": 250,
@@ -1448,8 +1340,8 @@
       "names": {"en": "AS-21RL", "ja": "AS-21RL"}
     },
     {
-      "id": "ranger-sniper-13",
-      "idx": 13,
+      "id": "ranger-sniper-14",
+      "idx": 14,
       "character": "ranger",
       "category": "sniper",
       "ammo": 7,
@@ -1462,8 +1354,22 @@
       "names": {"en": "Lysander F", "ja": "ライサンダーF"}
     },
     {
-      "id": "ranger-assault-14",
+      "id": "ranger-grenade-14",
       "idx": 14,
+      "character": "ranger",
+      "category": "grenade",
+      "ammo": 12,
+      "rof": 7.5,
+      "damage": 100,
+      "reloadSeconds": 3,
+      "fuseType": {"ja": "接触", "en": "contact"},
+      "radius": 3,
+      "subCategory": "gl",
+      "names": {"en": "G Launcher UM-2A", "ja": "Gランチャー-UM-2A"}
+    },
+    {
+      "id": "ranger-assault-15",
+      "idx": 15,
       "character": "ranger",
       "category": "assault",
       "ammo": 140,
@@ -1476,8 +1382,22 @@
       "names": {"en": "AS-22", "ja": "AS-22"}
     },
     {
-      "id": "ranger-assault-15",
+      "id": "ranger-grenade-15",
       "idx": 15,
+      "character": "ranger",
+      "category": "grenade",
+      "ammo": 5,
+      "rof": 2,
+      "damage": 600,
+      "reloadSeconds": 2,
+      "fuseType": {"ja": "接触", "en": "contact"},
+      "radius": 7,
+      "subCategory": "gl",
+      "names": {"en": "G Launcher UM-3A", "ja": "Gランチャー-UM-3A"}
+    },
+    {
+      "id": "ranger-assault-16",
+      "idx": 16,
       "character": "ranger",
       "category": "assault",
       "ammo": 5,
@@ -1489,8 +1409,22 @@
       "names": {"en": "AS-22D", "ja": "AS-22D"}
     },
     {
-      "id": "ranger-assault-16",
+      "id": "ranger-grenade-16",
       "idx": 16,
+      "character": "ranger",
+      "category": "grenade",
+      "ammo": 1,
+      "rof": 1,
+      "damage": 2000,
+      "reloadSeconds": 3,
+      "fuseType": {"ja": "接触", "en": "contact"},
+      "radius": 20,
+      "subCategory": "gl",
+      "names": {"en": "G Launcher UM-4A", "ja": "Gランチャー-UM-4A"}
+    },
+    {
+      "id": "ranger-assault-17",
+      "idx": 17,
       "character": "ranger",
       "category": "assault",
       "ammo": 999,
@@ -1502,8 +1436,22 @@
       "names": {"en": "AS-22RR", "ja": "AS-22RR"}
     },
     {
-      "id": "ranger-assault-17",
+      "id": "ranger-grenade-17",
       "idx": 17,
+      "character": "ranger",
+      "category": "grenade",
+      "ammo": 4,
+      "rof": 1,
+      "damage": 2000,
+      "reloadSeconds": 5,
+      "fuseType": {"ja": "接触", "en": "contact"},
+      "radius": 20,
+      "subCategory": "gl",
+      "names": {"en": "G Launcher UM-XA", "ja": "Gランチャー-UM-XA"}
+    },
+    {
+      "id": "ranger-assault-18",
+      "idx": 18,
       "character": "ranger",
       "category": "assault",
       "ammo": 160,
@@ -1516,8 +1464,24 @@
       "names": {"en": "AS-99", "ja": "AS-99"}
     },
     {
-      "id": "ranger-assault-18",
+      "id": "ranger-grenade-18",
       "idx": 18,
+      "character": "ranger",
+      "category": "grenade",
+      "ammo": 1,
+      "rof": 1,
+      "damage": 150,
+      "count": 20,
+      "reloadSeconds": 6,
+      "fuseType": {"ja": "時間", "en": "timed"},
+      "fuseSeconds": 5,
+      "radius": 5,
+      "subCategory": "gl",
+      "names": {"en": "Soccer GR Prototype", "ja": "サッカーGR試作"}
+    },
+    {
+      "id": "ranger-assault-19",
+      "idx": 19,
       "character": "ranger",
       "category": "assault",
       "ammo": 10,
@@ -1527,6 +1491,69 @@
       "range": 400,
       "accuracyRank": "A+",
       "names": {"en": "AS-99D", "ja": "AS-99D"}
+    },
+    {
+      "id": "ranger-grenade-19",
+      "idx": 19,
+      "character": "ranger",
+      "category": "grenade",
+      "ammo": 1,
+      "rof": 1,
+      "damage": 400,
+      "count": 20,
+      "reloadSeconds": 6,
+      "fuseType": {"ja": "時間", "en": "timed"},
+      "fuseSeconds": 5,
+      "radius": 7,
+      "subCategory": "gl",
+      "names": {"en": "Soccer Grenade", "ja": "サッカーグレネード"}
+    },
+    {
+      "id": "ranger-grenade-20",
+      "idx": 20,
+      "character": "ranger",
+      "category": "grenade",
+      "ammo": 1,
+      "rof": 1,
+      "damage": 5000,
+      "reloadSeconds": 3,
+      "fuseType": {"ja": "時間", "en": "timed"},
+      "fuseSeconds": 5,
+      "radius": 15,
+      "subCategory": "gl",
+      "names": {"en": "Soccer Grenade D", "ja": "サッカーグレネードD"}
+    },
+    {
+      "id": "ranger-grenade-21",
+      "idx": 21,
+      "character": "ranger",
+      "category": "grenade",
+      "ammo": 1,
+      "rof": 1,
+      "damage": 200,
+      "count": 20,
+      "reloadSeconds": 6,
+      "fuseType": {"ja": "時間", "en": "timed"},
+      "fuseSeconds": 5,
+      "radius": 5,
+      "subCategory": "gl",
+      "names": {"en": "Splash GR Prototype", "ja": "スプラッシュGR試作"}
+    },
+    {
+      "id": "ranger-grenade-22",
+      "idx": 22,
+      "character": "ranger",
+      "category": "grenade",
+      "ammo": 1,
+      "rof": 1,
+      "damage": 1000,
+      "count": 20,
+      "reloadSeconds": 6,
+      "fuseType": {"ja": "時間", "en": "timed"},
+      "fuseSeconds": 5,
+      "radius": 7,
+      "subCategory": "gl",
+      "names": {"en": "Splash GR", "ja": "スプラッシュGR"}
     }
   ],
   "modes": [{"name": "OFF", "missions": 17}]

@@ -2400,6 +2400,7 @@ const games = [
   '6',
   'ia',
   'ir',
+  'wdts',
 ]
 
 const gameLabels = [

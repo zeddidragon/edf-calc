@@ -1001,6 +1001,9 @@ const headers = [{
     if(level == null) {
       return '-'
     }
+    if(isNaN(level)) {
+      return level
+    }
     const el = $('div')
     const difficulty = (
       (modes[1] || modes[0]).difficulties || []

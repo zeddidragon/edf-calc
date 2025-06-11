@@ -29,7 +29,6 @@
           "checkbox",
           "name",
           "ammo",
-          "piercing",
           "damage",
           "interval",
           "reload",
@@ -162,7 +161,7 @@
           {
             "subCategory": "firecracker",
             "names": {"en": "Firecrackers", "ja": "かんしゃく玉シリーズ"},
-            "headers": ["checkbox", "level", "name", "damage", "radius"]
+            "headers": ["checkbox", "name", "damage", "radius"]
           }
         ]
       }
@@ -175,7 +174,6 @@
           "checkbox",
           "name",
           "ammo",
-          "piercing",
           "damage",
           "interval",
           "reload",
@@ -196,7 +194,6 @@
           "checkbox",
           "name",
           "ammo",
-          "piercing",
           "damage",
           "interval",
           "reload",
@@ -252,7 +249,6 @@
         "headers": [
           "checkbox",
           "name",
-          "piercing",
           "damage",
           "interval",
           "accuracy",

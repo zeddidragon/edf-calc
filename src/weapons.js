@@ -546,6 +546,7 @@ function composeAttack(weapon, attack) {
     count: weapon.count,
     life: weapon.life,
     isSwing: weapon.attacks.length > 1,
+    isSubAttack: true,
   }
 }
 
@@ -2300,11 +2301,15 @@ const headers = [{
     }
     if(wpn.attacks?.length) {
       const attacks = wpn.attacks.map(a => a.damage * wpn.damage)
-      const dump = Array(wpn.ammo)
+      const count = wpn.count || 1
+      const dump = Array(Math.floor(wpn.ammo / count))
         .fill(0)
-        .map((w, i) => attacks[i % attacks.length])
+        .map((w, i) => attacks[i % attacks.length] * count)
         .reduce((dmg, sum) => dmg + sum, 0)
-      return +(dump * (wpn.count || 1)).toFixed()
+      return +dump.toFixed()
+    }
+    if(!wpn.ammo && wpn.isSubAttack) {
+      return '-'
     }
     if(!wpn.damage) {
       return '-'

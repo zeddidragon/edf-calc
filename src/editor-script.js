@@ -1,6 +1,8 @@
 let weapon = {}
 
 async function loadWeapon(game, id) {
+  document.getElementById('weapon-editor').innerHTML = template({})
+  return
   const response = await fetch(`https://raw.githubusercontent.com/zeddidragon/sgott/refs/heads/master/data/${game}/weapon/${id}.json`)
   const data = await response.json()
   renderWeapon(data)

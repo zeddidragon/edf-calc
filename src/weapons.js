@@ -1652,6 +1652,25 @@ const headers = [{
     ].find(([a]) => a >= wpn.accuracy)[1]
   },
 }, {
+  id: 'altFire',
+  label: 'f()',
+  tooltip: 'Function',
+  cb: wpn => {
+    if(wpn.zoom > 0) {
+      return `⌖ ${+wpn.zoom.toFixed(1)}x`
+    }
+    switch(wpn.secondary) {
+      case 4: // Boost
+        return '⇑'
+      case 5: // Dash
+        return '⇒'
+      case 6:
+        return '🛡'
+      default:
+        return '-'
+    }
+  },
+}, {
   id: 'zoom',
   label: 'Zm',
   tooltip: 'Zoom',
@@ -1659,10 +1678,12 @@ const headers = [{
     if(wpn.zoom === true) {
       return '✓'
     }
-    if(!wpn.zoom) {
-      return '-'
+
+    if(wpn.zoom > 0) {
+      return `${+wpn.zoom.toFixed(1)}x`
     }
-    return `${+wpn.zoom.toFixed(1)}x`
+
+    return '-'
   },
 }, {
   id: 'energy',

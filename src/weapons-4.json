@@ -19426,10 +19426,7 @@
           "energy",
           "range",
           "speed",
-          "tdps",
-          "total",
-          "eps",
-          "dpe"
+          "tdps"
         ]
       },
       {
@@ -19525,6 +19522,7 @@
           "damage",
           "radius",
           "reload",
+          "altFire",
           "range"
         ]
       },
@@ -19540,6 +19538,7 @@
           "damage",
           "interval",
           "reload",
+          "altFire",
           "range",
           "dps",
           "tdps",
@@ -19556,6 +19555,7 @@
           "ammo",
           "defense",
           "reload",
+          "altFire",
           "energy",
           "range"
         ]
@@ -19573,6 +19573,7 @@
           "windup",
           "reload",
           "accuracy",
+          "altFire",
           "range",
           "speed",
           "dps",
@@ -19597,7 +19598,7 @@
               "interval",
               "reload",
               "accuracy",
-              "zoom",
+              "altFire",
               "range",
               "speed",
               "dps",
@@ -19618,7 +19619,7 @@
               "interval",
               "reload",
               "accuracy",
-              "zoom",
+              "altFire",
               "range",
               "speed",
               "dps",
@@ -19642,6 +19643,7 @@
           "interval",
           "lockTime",
           "reload",
+          "altFire",
           "lockRange",
           "tdps",
           "tdps2",

@@ -6808,14 +6808,15 @@
       "damage": 67.5,
       "damageType": "physical",
       "ammo": 4,
-      "count": 180,
+      "count": 60,
       "range": 40,
       "speed": 1000,
       "rof": 0.03333333333333333,
       "intervalOverdrive": 1,
       "reloadSeconds": 0,
       "reloadOverdrive": 12,
-      "accuracyRank": "AA"
+      "accuracyRank": "AA",
+      "shots": 3
     },
     {
       "id": "weapon-13410",
@@ -6827,14 +6828,15 @@
       "damage": 117.5,
       "damageType": "physical",
       "ammo": 4,
-      "count": 300,
+      "count": 60,
       "range": 40,
       "speed": 1000,
       "rof": 0.03333333333333333,
       "intervalOverdrive": 1,
       "reloadSeconds": 0,
       "reloadOverdrive": 12,
-      "accuracyRank": "AA"
+      "accuracyRank": "AA",
+      "shots": 5
     },
     {
       "id": "weapon-500000",

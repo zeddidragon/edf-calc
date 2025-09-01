@@ -62,6 +62,7 @@ async function loadWeapons(game) {
   charLabels = data.charLabels
   charHeaders = data.headers
   langs = data.langs
+  window.data = data
   populateLangs()
   populateCharacters()
   populateModes()
@@ -439,7 +440,7 @@ function populateWeaponDrops(mode, ch, cat) {
   const thead = $('thead')
   const theadrow = $('tr')
   const dropHeaders = headers
-    .slice(0, 5)
+    .slice(0, 7)
     .filter(h => !h.iff || h.iff(ch, cat))
   for(const header of dropHeaders) {
     const cell = $('th')
@@ -579,6 +580,7 @@ function populateWeaponStats(ch, cat) {
       }
       return [w]
     })
+  window.weapons = weapons
   const category = charHeaders[ch].find(h => h.category === cat)
   const tables = category.tables || [category]
   for(const table of tables) {
@@ -1028,6 +1030,7 @@ const headers = [{
   id: 'rank',
   label: 'Rank',
   tooltip: 'Rank',
+  iff: () => false, // Filter out in drops table
   cb: wpn => {
     const { rank } = wpn
     if(rank == null) {
@@ -1042,6 +1045,7 @@ const headers = [{
   id: 'remarks',
   label: 'Remarks',
   tooltip: 'Special Attributes',
+  iff: () => false, // Filter out in drops table
   cb: wpn => {
     if(!wpn.tags?.length) {
       return ''
@@ -2345,7 +2349,6 @@ const headers = [{
       return magDamage(wpn).toFixed()
     }
     const dump = Math.abs(critAvg(wpn)
-      * (wpn.count || 1)
       * Math.ceil((wpn.ammo || 1) / (wpn.drain || 1))
       * (wpn.shots || 1)
       * (wpn.units || 1))

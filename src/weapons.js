@@ -6,6 +6,7 @@ let modes
 let characters
 let charLabels
 let charHeaders
+let gameValues
 let langs
 
 function localize(prop, fallback) {
@@ -61,6 +62,7 @@ async function loadWeapons(game) {
   characters = data.classes
   charLabels = data.charLabels
   charHeaders = data.headers
+  gameValues = data.gameValues
   langs = data.langs
   window.data = data
   populateLangs()
@@ -484,7 +486,7 @@ function populateWeaponDrops(mode, ch, cat) {
     const { level, odds, dlc: weaponDlc } = weapon
     for(const header of dropHeaders) {
       const cell = $('td')
-      const contents = header.cb(weapon)
+      const contents = header.cb(weapon, ch)
       if(contents instanceof HTMLElement) {
         cell.appendChild(contents)
       } else {
@@ -629,7 +631,7 @@ function populateWeaponStats(ch, cat) {
       const row = $('tr')
       for(const header of wHeaders) {
         const cell = $('td')
-        let contents = header.cb(weapon)
+        let contents = header.cb(weapon, ch)
         cell.classList.add(header.label)
         if(header.headerClass) {
           cell.classList.add(header.headerClass)
@@ -892,36 +894,36 @@ function cycleTime(wpn) {
   return (magTime || interval) / FPS
 }
 
-function chargeRate(wpn) {
+function chargeRate(wpn, ch) {
   const {
     baseEnergy: nrg = wpn.baseEnergy,
     chargeSpeed: spd = 1.0
   } = wpn
-  return (nrg * spd * FPS * 0.001)
+  return (nrg * spd * gameValues[ch].charge)
 }
 
-function chargeEmergencyRate(wpn) {
+function chargeEmergencyRate(wpn, ch) {
   const {
     energy: nrg,
     emergencyChargeSpeed: spd = 1.0
   } = wpn
-  return (nrg * spd * FPS * 0.002)
+  return (nrg * spd * gameValues[ch].chargeEmergency)
 }
 
-function energyUse(wpn) {
+function energyUse(wpn, ch) {
   const {
     baseEnergy: nrg = wpn.energy,
     flightConsumption: usg = 1.0
   } = wpn
-  return (nrg * usg * FPS * 0.0025)
+  return (nrg * usg * gameValues[ch].flightUse)
 }
 
-function boostUse(wpn) {
+function boostUse(wpn, ch) {
   const {
     baseEnergy: nrg = wpn.energy,
     boostConsumption: usg = 1.0
   } = wpn
-  return (nrg * usg * 0.03)
+  return (nrg * usg * gameValues[ch].boostUse)
 }
 
 const gameScopes = {
@@ -1704,58 +1706,58 @@ const headers = [{
   id: 'chargeRate',
   label: 'Chg',
   tooltip: 'Charge Rate',
-  cb: wpn => {
-    return chargeRate(wpn).toFixed(1)
+  cb: (wpn, ch) => {
+    return chargeRate(wpn, ch).toFixed(1)
   },
 }, {
   id: 'chargeRatio',
   label: '%',
   tooltip: 'Charge Rate',
-  cb: wpn => {
-    return (100 * chargeRate(wpn) / wpn.energy).toFixed(1)
+  cb: (wpn, ch) => {
+    return (100 * chargeRate(wpn, ch) / wpn.energy).toFixed(2) + '%'
   },
 }, {
   id: 'chargeEmergencyRate',
   label: 'Em.C',
   tooltip: 'Emergency Charge Rate',
   starProp: 'energy',
-  cb: wpn => {
-    return chargeEmergencyRate(wpn).toFixed(1)
+  cb: (wpn, ch) => {
+    return chargeEmergencyRate(wpn, ch).toFixed(1)
   },
 }, {
   id: 'chargeEmergencyRatio',
   label: '%',
   tooltip: 'Emergency Charge Rate %',
-  cb: wpn => {
-    return (100 * chargeEmergencyRate(wpn) / wpn.energy).toFixed(1)
+  cb: (wpn, ch) => {
+    return (100 * chargeEmergencyRate(wpn, ch) / wpn.energy).toFixed(2) + '%'
   },
 }, {
   id: 'energyUse',
   label: 'Cns',
   tooltip: 'Flight Consumption',
-  cb: wpn => {
-    return energyUse(wpn).toFixed(1)
+  cb: (wpn, ch) => {
+    return energyUse(wpn, ch).toFixed(1)
   },
 }, {
   id: 'energyUseRatio',
   label: '%',
   tooltip: 'Flight Consumption %',
-  cb: wpn => {
-    return (100 * energyUse(wpn) / wpn.energy).toFixed(1)
+  cb: (wpn, ch) => {
+    return (100 * energyUse(wpn, ch) / wpn.energy).toFixed(2) + '%'
   },
 }, {
   id: 'boostUse',
   label: 'B.Cns',
   tooltip: 'Boost Consumption',
-  cb: wpn => {
-    return boostUse(wpn).toFixed(1)
+  cb: (wpn, ch) => {
+    return boostUse(wpn, ch).toFixed(1)
   },
 }, {
   id: 'boostUseRatio',
   label: '%',
   tooltip: 'Boost Consumption %',
-  cb: wpn => {
-    return (100 * boostUse(wpn) / wpn.energy).toFixed(1)
+  cb: (wpn, ch) => {
+    return (100 * boostUse(wpn, ch) / wpn.energy).toFixed(2) + '%'
   },
 }, {
   id: 'piercingRange',

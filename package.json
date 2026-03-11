@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "scripts": {
     "compile": "pug --client --no-debug src/editor-template.pug -o build"
   },
@@ -6,6 +7,7 @@
     "pug": "^3.0.3"
   },
   "devDependencies": {
+    "json-stringify-pretty-compact": "^4.0.0",
     "pug-cli": "^1.0.0-alpha6"
   }
 }

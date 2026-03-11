@@ -400,7 +400,6 @@ const headers = {
       'reload',
       'range',
       'speed',
-      'tdps',
     ],
   }, {
     category: 'bomb',

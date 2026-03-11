@@ -870,6 +870,49 @@ function falloff(wpn, dmg) {
   ].join('~')
 }
 
+function accuracy(wpn) {
+  if(wpn.accuracyRank) {
+    switch(wpn.accuracyRank) {
+      case 'horizontal':
+        return '↔'
+      case 'vertical':
+        return '↕'
+      case 'circle':
+        return '○'
+      case 'spherical':
+        return 'Sphere'
+      case 'downward':
+        return 'Down'
+      default:
+        return wpn.accuracyRank
+    }
+  }
+  if(!wpn.speed) return '-'
+  if(wpn.accuracy == null) return '-'
+  return [
+    [0.0005, 'S++'],
+    [0.0025, 'S+'],
+    [0.01, 'A+'],
+    [0.014999, 'A'],
+    [0.02, 'A-'],
+    [0.03, 'B+'],
+    [0.05, 'B'],
+    [0.10, 'B-'],
+    [0.15, 'C+'],
+    [0.20, 'C'],
+    [0.24998, 'C-'],
+    [0.3, 'D'],
+    [0.4, 'E'],
+    [0.5, 'F'],
+    [0.6, 'G'],
+    [0.8, 'I'],
+    [1.0, 'J'],
+    [1.2, 'K'],
+    [1.6, 'L'],
+    [Infinity, 'Z'],
+  ].find(([a]) => a >= wpn.accuracy)[1]
+}
+
 function quickDps(wpn) {
   const bDmg = burstDamage(wpn)
   const bTime = burstTime(wpn)
@@ -1616,46 +1659,13 @@ const headers = [{
   tooltip: 'Accuracy',
   starProp: 'accuracy',
   cb: wpn => {
-    if(wpn.accuracyRank) {
-      switch(wpn.accuracyRank) {
-        case 'horizontal':
-          return '↔'
-        case 'vertical':
-          return '↕'
-        case 'circle':
-          return '○'
-        case 'spherical':
-          return 'Sphere'
-        case 'downward':
-          return 'Down'
-        default:
-          return wpn.accuracyRank
-      }
-    }
-    if(!wpn.speed) return '-'
-    if(wpn.accuracy == null) return '-'
-    return [
-      [0.0005, 'S++'],
-      [0.0025, 'S+'],
-      [0.01, 'A+'],
-      [0.014999, 'A'],
-      [0.02, 'A-'],
-      [0.03, 'B+'],
-      [0.05, 'B'],
-      [0.10, 'B-'],
-      [0.15, 'C+'],
-      [0.20, 'C'],
-      [0.24998, 'C-'],
-      [0.3, 'D'],
-      [0.4, 'E'],
-      [0.5, 'F'],
-      [0.6, 'G'],
-      [0.8, 'I'],
-      [1.0, 'J'],
-      [1.2, 'K'],
-      [1.6, 'L'],
-      [Infinity, 'Z'],
-    ].find(([a]) => a >= wpn.accuracy)[1]
+    const el = $('div')
+    if(wpn.accuracy == null)
+      el.setAttribute('title', 'Accuracy only known by rank')
+    else
+      el.setAttribute('title', wpn.accuracy)
+    el.textContent = accuracy(wpn)
+    return el
   },
 }, {
   id: 'altFire',

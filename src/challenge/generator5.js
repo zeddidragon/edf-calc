@@ -1,3 +1,5 @@
+import fs from 'fs'
+
 const data = {}
 const isWeb = typeof process === 'undefined'
 const precision = (1000 * 60 * 60 * 24 * 3)
@@ -56,7 +58,7 @@ const {
   },
 } : {
   load: (prop, source) => {
-    data[prop] = JSON.parse(require('fs').readFileSync(source, 'utf8'))
+    data[prop] = JSON.parse(fs.readFileSync(source, 'utf8'))
   },
 
   addChallenge: print,
@@ -65,6 +67,7 @@ const {
   },
 }
 
+// TODO: Should be able to use the stuff in just src/ ????
 load('enemies', './src/data/5/hp.json')
 load('weapons', './src/data/5/weapons.json')
 load('missions', './src/data/5/missions.json')

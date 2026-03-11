@@ -2181,7 +2181,7 @@ const headers = [{
         ...wpn,
         shots: wpn.ammo,
         interval: wpn.shotInterval,
-      })
+      }).toFixed()
     }
     if(wpn.ammo < 2 && !wpn.duration) {
       return '-'
@@ -2217,7 +2217,7 @@ const headers = [{
         ...wpn,
         shots: 1,
         interval: wpn.shotInterval,
-      })
+      }).toFixed()
     }
     if(wpn.category === 'gunship') {
       return '-'

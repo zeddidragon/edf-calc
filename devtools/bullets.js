@@ -232,7 +232,7 @@ export function NapalmBullet01(wpn) {
 export function CentryGun01(wpn) {
   wpn.searchRange = wpn.custom[6].value
   wpn.shots = wpn.custom[12].value
-  wpn.shotInterval = wpn.custom[13].value
+  wpn.shotInterval = wpn.custom[13].value + 2
   wpn.speed = wpn.custom[15].value
   wpn.life = wpn.custom[14].value
   wpn.turnRate = wpn.custom[15].value
@@ -240,7 +240,7 @@ export function CentryGun01(wpn) {
 
 export function SentryGunBullet01(wpn) {
   wpn.shots = wpn.custom[10].value
-  wpn.shotInterval = wpn.custom[11].value
+  wpn.shotInterval = wpn.custom[11].value + 2 // Sentries have an extra 2 frame between shots
   wpn.searchRange = wpn.custom[4].value
   wpn.life = wpn.custom[12].value
   wpn.speed = wpn.custom[13].value

@@ -3007,7 +3007,7 @@
       "accuracy": 0,
       "searchRange": 150,
       "shots": 200,
-      "shotInterval": 8,
+      "shotInterval": 10,
       "turnRate": 10,
       "subCategory": "turret"
     },
@@ -3029,7 +3029,7 @@
       "accuracy": 0,
       "searchRange": 150,
       "shots": 400,
-      "shotInterval": 4,
+      "shotInterval": 6,
       "turnRate": 20,
       "subCategory": "turret"
     },
@@ -3051,7 +3051,7 @@
       "accuracy": 0,
       "searchRange": 800,
       "shots": 20,
-      "shotInterval": 120,
+      "shotInterval": 122,
       "turnRate": 10,
       "subCategory": "turret"
     },
@@ -3074,7 +3074,7 @@
       "accuracy": 0,
       "searchRange": 150,
       "shots": 20,
-      "shotInterval": 120,
+      "shotInterval": 122,
       "turnRate": 0.10000000149011612,
       "subCategory": "turret"
     },
@@ -3096,7 +3096,7 @@
       "accuracy": 0,
       "searchRange": 150,
       "shots": 400,
-      "shotInterval": 4,
+      "shotInterval": 6,
       "turnRate": 20,
       "subCategory": "turret"
     },
@@ -3118,7 +3118,7 @@
       "accuracy": 0,
       "searchRange": 150,
       "shots": 100,
-      "shotInterval": 16,
+      "shotInterval": 18,
       "turnRate": 10,
       "subCategory": "turret"
     },
@@ -3141,7 +3141,7 @@
       "accuracy": 0,
       "searchRange": 150,
       "shots": 40,
-      "shotInterval": 60,
+      "shotInterval": 62,
       "turnRate": 1,
       "subCategory": "turret"
     },
@@ -3163,7 +3163,7 @@
       "accuracy": 0,
       "searchRange": 150,
       "shots": 500,
-      "shotInterval": 4,
+      "shotInterval": 6,
       "turnRate": 20,
       "subCategory": "turret"
     },

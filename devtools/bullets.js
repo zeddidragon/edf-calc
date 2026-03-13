@@ -455,6 +455,7 @@ export async function SmokeCandleBullet01(wpn) {
 
   const vehicle = await loadLinked(wpn.custom[4].value[2].value)
   const vehicleType = getNode(vehicle, 'xgs_scene_object_class').value
+  const attackList = getNode(vehicle, 'attack_list') // Combo list for barga
 
   const hp = getNode(vehicle, 'game_object_durability').value
   wpn.hp = Math.floor(hp * hpFactor + 0.001)
@@ -559,6 +560,32 @@ export async function SmokeCandleBullet01(wpn) {
       damage: buffer.readFloatLE(),
       interval: 1,
     }]
+  }
+
+  if(attackList) {
+    const groups = {}
+    for(const { value: attack } of attackList.value) {
+      const name = attack[0].value
+      const [main, side] = name.split('_')
+      const damage = attack[5].value[0].value
+
+      if(!groups[main])
+        groups[main] = { sides: [], damage: damage * dmgFactor }
+
+      if(side)
+        groups[main].sides.push(side)
+    }
+
+    const blacklist = ['stompLoop', 'ground', 'lift']
+    wpn.attacks = Object.entries(groups)
+      .filter(([name]) => !blacklist.includes(name))
+      .map(([name, { sides, damage }]) => {
+        name = name.replace(/([a-z0-9])([A-Z])/g, '$1 $2')
+        if(sides.length)
+          name += ` (${sides.map(s => s.toUpperCase().replace(/[0-9]/, '')).join('/')})`
+        name = name[0].toUpperCase() + name.slice(1)
+        return { name, damage }
+      })
   }
 }
 

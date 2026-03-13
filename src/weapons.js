@@ -543,7 +543,7 @@ const scaledProps = [
 function composeAttack(weapon, attack) {
   return {
     ...attack,
-    damage: weapon.damage * attack.damage,
+    damage: (weapon.damage || 1) * attack.damage,
     speed: weapon.speed * attack.speed,
     piercing: weapon.piercing,
     count: weapon.count,
@@ -571,6 +571,12 @@ function populateWeaponStats(ch, cat) {
       return obj
     })
     .flatMap(w => {
+      if(w.attacks?.length && ch === 'bomber') { // Balam/Barga
+        return [w,
+          ...(w.weapons || []),
+          ...w.attacks.map(atk => composeAttack(w, atk)),
+        ]
+      }
       if(w.attacks?.length) {
         return [
           { ...w, ...composeAttack(w, w.attacks[0]), name: w.name },
@@ -2336,7 +2342,7 @@ const headers = [{
     if(wpn.total) {
       return wpn.total
     }
-    if(wpn.attacks?.length) {
+    if(wpn.attacks?.length && wpn.damage) {
       const attacks = wpn.attacks.map(a => a.damage * wpn.damage)
       const count = wpn.count || 1
       const dump = Array(Math.floor(wpn.ammo / count))

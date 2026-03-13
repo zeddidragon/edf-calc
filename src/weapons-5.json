@@ -64260,37 +64260,16 @@
       "credits": true,
       "underground": "blocked",
       "hp": 125000,
-      "weapons": [
-        {
-          "names": {"ja": "ガン・タレット", "en": "Gun Turret"},
-          "type": "SolidBullet01",
-          "ammo": 400,
-          "weapon": "Weapon_VehicleShoot",
-          "damage": 20,
-          "speed": 6,
-          "accuracy": 0.03,
-          "life": 120,
-          "piercing": 1,
-          "burst": 50,
-          "burstRate": 3,
-          "count": 1,
-          "interval": 240
-        },
-        {
-          "names": {"ja": "ガン・タレット", "en": "Gun Turret"},
-          "type": "SolidBullet01",
-          "ammo": 400,
-          "weapon": "Weapon_VehicleShoot",
-          "damage": 20,
-          "speed": 6,
-          "accuracy": 0.03,
-          "life": 120,
-          "piercing": 1,
-          "burst": 50,
-          "burstRate": 3,
-          "count": 1,
-          "interval": 240
-        }
+      "attacks": [
+        {"name": "Jab (L/R)", "damage": 1000},
+        {"name": "Longhook (L/R)", "damage": 2000},
+        {"name": "Chop (L)", "damage": 3000},
+        {"name": "Straight (R)", "damage": 3000},
+        {"name": "Gravityzero", "damage": 8000},
+        {"name": "Heavy Chop (R)", "damage": 5000},
+        {"name": "Max Beat", "damage": 8000},
+        {"name": "Max Hook (L)", "damage": 7000},
+        {"name": "Stomp (L/R)", "damage": 500}
       ]
     },
     {
@@ -64406,35 +64385,16 @@
       "credits": true,
       "underground": "blocked",
       "hp": 225000,
-      "weapons": [
-        {
-          "names": {"ja": "レーザー・タレット", "en": "Laser Turret"},
-          "type": "LaserBullet01",
-          "ammo": 1200,
-          "weapon": "Weapon_VehicleShoot",
-          "damage": 18,
-          "speed": 60,
-          "life": 8,
-          "burst": 300,
-          "burstRate": 1,
-          "count": 1,
-          "interval": 1,
-          "accuracy": 0
-        },
-        {
-          "names": {"ja": "レーザー・タレット", "en": "Laser Turret"},
-          "type": "LaserBullet01",
-          "ammo": 1200,
-          "weapon": "Weapon_VehicleShoot",
-          "damage": 18,
-          "speed": 60,
-          "life": 8,
-          "burst": 300,
-          "burstRate": 1,
-          "count": 1,
-          "interval": 1,
-          "accuracy": 0
-        }
+      "attacks": [
+        {"name": "Jab (L/R)", "damage": 1800},
+        {"name": "Longhook (L/R)", "damage": 3600},
+        {"name": "Chop (L)", "damage": 5400},
+        {"name": "Straight (R)", "damage": 5400},
+        {"name": "Gravityzero", "damage": 14400},
+        {"name": "Heavy Chop (R)", "damage": 9000},
+        {"name": "Max Beat", "damage": 14400},
+        {"name": "Max Hook (L)", "damage": 12600},
+        {"name": "Stomp (L/R)", "damage": 900}
       ]
     },
     {
@@ -64547,7 +64507,18 @@
       "credits": true,
       "underground": "blocked",
       "hp": 625000,
-      "weapons": []
+      "weapons": [],
+      "attacks": [
+        {"name": "Jab (L/R)", "damage": 5000},
+        {"name": "Longhook (L/R)", "damage": 10000},
+        {"name": "Chop (L)", "damage": 15000},
+        {"name": "Straight (R)", "damage": 15000},
+        {"name": "Gravityzero", "damage": 40000},
+        {"name": "Heavy Chop (R)", "damage": 25000},
+        {"name": "Max Beat", "damage": 40000},
+        {"name": "Max Hook (L)", "damage": 35000},
+        {"name": "Stomp (L/R)", "damage": 2500}
+      ]
     },
     {
       "id": "eWeapon265",
@@ -71480,7 +71451,18 @@
       "credits": true,
       "underground": "blocked",
       "hp": 1250000,
-      "weapons": []
+      "weapons": [],
+      "attacks": [
+        {"name": "Jab (L/R)", "damage": 10000},
+        {"name": "Longhook (L/R)", "damage": 20000},
+        {"name": "Chop (L)", "damage": 30000},
+        {"name": "Straight (R)", "damage": 30000},
+        {"name": "Gravityzero", "damage": 80000},
+        {"name": "Heavy Chop (R)", "damage": 50000},
+        {"name": "Max Beat", "damage": 80000},
+        {"name": "Max Hook (L)", "damage": 70000},
+        {"name": "Stomp (L/R)", "damage": 5000}
+      ]
     },
     {
       "id": "EX_B_Weapon039",

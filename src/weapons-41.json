@@ -16800,6 +16800,14 @@
       "credits": true,
       "hp": 50000,
       "weapons": [],
+      "attacks": [
+        {"name": "Jab (L/R)", "damage": 400},
+        {"name": "Straight (L/R)", "damage": 1200},
+        {"name": "Hook (L/R)", "damage": 800},
+        {"name": "Chop (L/R)", "damage": 2000},
+        {"name": "Upper (L/R)", "damage": 3200},
+        {"name": "Stomp (L/R)", "damage": 200}
+      ],
       "underground": "blocked"
     },
     {
@@ -17775,6 +17783,14 @@
           "count": 1,
           "interval": 240
         }
+      ],
+      "attacks": [
+        {"name": "Jab (L/R)", "damage": 1000},
+        {"name": "Straight (L/R)", "damage": 3000},
+        {"name": "Hook (L/R)", "damage": 2000},
+        {"name": "Chop (L/R)", "damage": 5000},
+        {"name": "Upper (L/R)", "damage": 8000},
+        {"name": "Stomp (L/R)", "damage": 500}
       ],
       "underground": "blocked"
     },
@@ -18768,6 +18784,14 @@
           "interval": 1,
           "accuracy": 0
         }
+      ],
+      "attacks": [
+        {"name": "Jab (L/R)", "damage": 1800},
+        {"name": "Straight (L/R)", "damage": 5400},
+        {"name": "Hook (L/R)", "damage": 3600},
+        {"name": "Chop (L/R)", "damage": 9000},
+        {"name": "Upper (L/R)", "damage": 14400},
+        {"name": "Stomp (L/R)", "damage": 900}
       ],
       "underground": "blocked"
     },
@@ -20457,6 +20481,14 @@
       "credits": true,
       "hp": 625000,
       "weapons": [],
+      "attacks": [
+        {"name": "Jab (L/R)", "damage": 5000},
+        {"name": "Straight (L/R)", "damage": 15000},
+        {"name": "Hook (L/R)", "damage": 10000},
+        {"name": "Chop (L/R)", "damage": 25000},
+        {"name": "Upper (L/R)", "damage": 40000},
+        {"name": "Stomp (L/R)", "damage": 2500}
+      ],
       "underground": "blocked"
     }
   ],

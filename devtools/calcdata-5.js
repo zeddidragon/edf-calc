@@ -1785,6 +1785,14 @@ export default async function extractCalcdata() {
     extractWeaponData(),
     extractModesData('CONFIG'),
   ])
+  for(const wpn of weapons) {
+    delete wpn.rawLevel
+    delete wpn.rawCategory
+    // Barga and Barga Type G have weapons in the data but not mounting points
+    if (['eWeapon260', ,'eWeapon262'].includes(wpn.id)) {
+      delete wpn.weapons
+    }
+  }
   return {
     langs: ['en', 'ja'],
     classes: [

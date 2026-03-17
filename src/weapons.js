@@ -1596,6 +1596,16 @@ const headers = [{
     return +(wpn.lockTime / FPS).toFixed(2)
   },
 }, {
+  id: 'delay',
+  label: 'Delay',
+  tooltip: 'Waiting Time',
+  cb: wpn => {
+    if(!wpn.delay) {
+      return '-'
+    }
+    return +(wpn.delay / FPS).toFixed(2)
+  },
+}, {
   id: 'credits',
   headerClass: 'CR',
   label: 'CR',

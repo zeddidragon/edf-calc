@@ -1084,6 +1084,7 @@
               "damage",
               "shots",
               "radius",
+              "lockTime",
               "credits",
               "reload",
               "zoom",
@@ -1124,6 +1125,8 @@
               "damage",
               "shots",
               "radius",
+              "lockTime",
+              "delay",
               "credits",
               "reload",
               "zoom",
@@ -73116,6 +73119,7 @@
       "gravity": 1,
       "life": 750,
       "interval": 120,
+      "lockTime": 120,
       "reload": {
         "base": 3000,
         "algo": 21,
@@ -73204,6 +73208,7 @@
       "gravity": 1,
       "life": 750,
       "interval": 120,
+      "lockTime": 60,
       "reload": {
         "base": 7200,
         "algo": 21,
@@ -73335,6 +73340,7 @@
       "gravity": 1,
       "life": 750,
       "interval": 120,
+      "lockTime": 120,
       "reload": {
         "base": 4500,
         "algo": 21,
@@ -73380,6 +73386,7 @@
       "gravity": 1,
       "life": 750,
       "interval": 120,
+      "lockTime": 60,
       "reload": {
         "base": 7200,
         "algo": 21,
@@ -73425,6 +73432,7 @@
       "gravity": 1,
       "life": 750,
       "interval": 120,
+      "lockTime": 400,
       "reload": {
         "base": 4800,
         "algo": 21,
@@ -73600,6 +73608,7 @@
       "gravity": 1,
       "life": 900,
       "interval": 120,
+      "lockTime": 120,
       "reload": {
         "base": 7200,
         "algo": 21,
@@ -73688,6 +73697,7 @@
       "gravity": 1,
       "life": 1200,
       "interval": 120,
+      "lockTime": 400,
       "reload": {
         "base": 4800,
         "algo": 21,
@@ -73777,6 +73787,7 @@
       "gravity": 1,
       "life": 775,
       "interval": 120,
+      "lockTime": 60,
       "reload": {
         "base": 3000,
         "algo": 21,
@@ -73865,6 +73876,7 @@
       "gravity": 1,
       "life": 900,
       "interval": 120,
+      "lockTime": 60,
       "reload": {
         "base": 7200,
         "algo": 21,
@@ -73910,6 +73922,7 @@
       "gravity": 1,
       "life": 900,
       "interval": 120,
+      "lockTime": 120,
       "reload": {
         "base": 3000,
         "algo": 21,
@@ -74041,6 +74054,7 @@
       "gravity": 1,
       "life": 1200,
       "interval": 120,
+      "lockTime": 400,
       "reload": {
         "base": 4800,
         "algo": 21,
@@ -74087,6 +74101,7 @@
       "gravity": 1,
       "life": 1200,
       "interval": 120,
+      "lockTime": 400,
       "reload": {
         "base": 4800,
         "algo": 21,
@@ -74176,6 +74191,7 @@
       "gravity": 1,
       "life": 900,
       "interval": 120,
+      "lockTime": 15,
       "reload": {
         "base": 7200,
         "algo": 21,
@@ -74307,6 +74323,7 @@
       "gravity": 1,
       "life": 900,
       "interval": 120,
+      "lockTime": 30,
       "reload": {
         "base": 3000,
         "algo": 21,
@@ -74352,6 +74369,7 @@
       "gravity": 1,
       "life": 1200,
       "interval": 120,
+      "lockTime": 300,
       "reload": {
         "base": 4800,
         "algo": 21,
@@ -74443,6 +74461,7 @@
       "gravity": 1,
       "life": 1000,
       "interval": 120,
+      "lockTime": 15,
       "reload": {
         "base": 7200,
         "algo": 21,
@@ -74618,6 +74637,7 @@
       "gravity": 1,
       "life": 700,
       "interval": 120,
+      "lockTime": 60,
       "reload": {
         "base": 5400,
         "algo": 21,
@@ -74630,6 +74650,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 60,
       "shots": 600,
       "shotInterval": 2,
       "subRadius": 0,
@@ -74664,6 +74685,7 @@
       "gravity": 1,
       "life": 700,
       "interval": 120,
+      "lockTime": 60,
       "reload": {
         "base": 5400,
         "algo": 21,
@@ -74676,6 +74698,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 60,
       "shots": 600,
       "shotInterval": 2,
       "subRadius": 0,
@@ -74755,6 +74778,7 @@
       "gravity": 1,
       "life": 400,
       "interval": 120,
+      "lockTime": 60,
       "reload": {
         "base": 2400,
         "algo": 21,
@@ -74768,6 +74792,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 120,
       "shots": 90,
       "shotInterval": 8,
       "subRadius": 0,
@@ -74802,6 +74827,7 @@
       "gravity": 1,
       "life": 700,
       "interval": 120,
+      "lockTime": 60,
       "reload": {
         "base": 4600,
         "algo": 21,
@@ -74814,6 +74840,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 60,
       "shots": 600,
       "shotInterval": 2,
       "subRadius": 0,
@@ -74894,6 +74921,7 @@
       "gravity": 1,
       "life": 700,
       "interval": 120,
+      "lockTime": 60,
       "reload": {
         "base": 6000,
         "algo": 21,
@@ -74906,6 +74934,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 60,
       "shots": 600,
       "shotInterval": 2,
       "subRadius": 0,
@@ -75028,6 +75057,7 @@
       "gravity": 1,
       "life": 400,
       "interval": 120,
+      "lockTime": 60,
       "reload": {
         "base": 2400,
         "algo": 21,
@@ -75041,6 +75071,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 120,
       "shots": 90,
       "shotInterval": 8,
       "subRadius": 0,
@@ -75118,6 +75149,7 @@
       "gravity": 1,
       "life": 700,
       "interval": 120,
+      "lockTime": 60,
       "reload": {
         "base": 6600,
         "algo": 21,
@@ -75130,6 +75162,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 60,
       "shots": 800,
       "shotInterval": 2,
       "subRadius": 0,
@@ -75164,6 +75197,7 @@
       "gravity": 1,
       "life": 750,
       "interval": 120,
+      "lockTime": 60,
       "reload": {
         "base": 100,
         "algo": 21,
@@ -75177,6 +75211,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 60,
       "shots": 1,
       "shotInterval": 8,
       "subRadius": 0,
@@ -75254,6 +75289,7 @@
       "gravity": 1,
       "life": 700,
       "interval": 120,
+      "lockTime": 60,
       "reload": {
         "base": 7200,
         "algo": 21,
@@ -75266,6 +75302,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 60,
       "shots": 800,
       "shotInterval": 2,
       "subRadius": 0,
@@ -75345,6 +75382,7 @@
       "gravity": 1,
       "life": 500,
       "interval": 120,
+      "lockTime": 60,
       "reload": {
         "base": 2400,
         "algo": 21,
@@ -75358,6 +75396,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 120,
       "shots": 90,
       "shotInterval": 8,
       "subRadius": 0,
@@ -75435,6 +75474,7 @@
       "gravity": 1,
       "life": 700,
       "interval": 120,
+      "lockTime": 120,
       "reload": {
         "base": 14400,
         "algo": 21,
@@ -75447,6 +75487,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 60,
       "shots": 1600,
       "shotInterval": 2,
       "subRadius": 0,
@@ -75572,6 +75613,7 @@
       "gravity": 1,
       "life": 600,
       "interval": 120,
+      "lockTime": 60,
       "reload": {
         "base": 2600,
         "algo": 21,
@@ -75585,6 +75627,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 180,
       "shots": 120,
       "shotInterval": 8,
       "subRadius": 0,
@@ -75663,6 +75706,7 @@
       "gravity": 1,
       "life": 700,
       "interval": 120,
+      "lockTime": 60,
       "reload": {
         "base": 9000,
         "algo": 21,
@@ -75675,6 +75719,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 60,
       "shots": 700,
       "shotInterval": 2,
       "subRadius": 0,
@@ -75753,6 +75798,7 @@
       "gravity": 1,
       "life": 600,
       "interval": 120,
+      "lockTime": 60,
       "reload": {
         "base": 2800,
         "algo": 21,
@@ -75766,6 +75812,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 120,
       "shots": 80,
       "shotInterval": 8,
       "subRadius": 0,
@@ -75800,6 +75847,7 @@
       "gravity": 1,
       "life": 800,
       "interval": 120,
+      "lockTime": 30,
       "reload": {
         "base": 100,
         "algo": 21,
@@ -75813,6 +75861,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 10,
       "shots": 1,
       "shotInterval": 8,
       "subRadius": 0,
@@ -75890,6 +75939,7 @@
       "gravity": 1,
       "life": 700,
       "interval": 120,
+      "lockTime": 60,
       "reload": {
         "base": 5000,
         "algo": 21,
@@ -75902,6 +75952,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 60,
       "shots": 600,
       "shotInterval": 2,
       "subRadius": 0,
@@ -75937,6 +75988,7 @@
       "gravity": 1,
       "life": 600,
       "interval": 120,
+      "lockTime": 30,
       "reload": {
         "base": 3000,
         "algo": 21,
@@ -75950,6 +76002,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 180,
       "shots": 60,
       "shotInterval": 2,
       "subRadius": 0,
@@ -75985,6 +76038,7 @@
       "gravity": 1,
       "life": 600,
       "interval": 120,
+      "lockTime": 30,
       "reload": {
         "base": 3200,
         "algo": 21,
@@ -75998,6 +76052,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 120,
       "shots": 160,
       "shotInterval": 8,
       "subRadius": 0,
@@ -76076,6 +76131,7 @@
       "gravity": 1,
       "life": 900,
       "interval": 120,
+      "lockTime": 10,
       "reload": {
         "base": 100,
         "algo": 21,
@@ -76089,6 +76145,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 5,
       "shots": 1,
       "shotInterval": 8,
       "subRadius": 0,
@@ -76169,6 +76226,7 @@
       "gravity": 1,
       "life": 700,
       "interval": 120,
+      "lockTime": 30,
       "reload": {
         "base": 4800,
         "algo": 21,
@@ -76181,6 +76239,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 30,
       "shots": 600,
       "shotInterval": 2,
       "subRadius": 0,
@@ -76348,6 +76407,7 @@
       "gravity": 1,
       "life": 600,
       "interval": 120,
+      "lockTime": 30,
       "reload": {
         "base": 3200,
         "algo": 21,
@@ -76361,6 +76421,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 120,
       "shots": 160,
       "shotInterval": 2,
       "subRadius": 0,

@@ -324,6 +324,9 @@ export async function AirRaids(wpn) {
   if(type === 'satellite' && strike[4]?.value === 'MissileBullet01') {
     type = 'missile'
   }
+  if(wpn.category === 'satellite') {
+    type = wpn.category
+  }
 
   if(wpn.weapon === 'Weapon_RadioContact') {
     type = 'bomber'
@@ -357,6 +360,10 @@ export async function AirRaids(wpn) {
         wpn.duration = fireCfg[2].value * fireCfg[3].value
       }
       break
+    }
+    case 'satellite': {
+      wpn.delay = wpn.custom[0].value
+      // Intentional fall-through to Shelling
     }
     default: { // Shelling
       wpn.shots = strike[2].value
@@ -651,6 +658,10 @@ export function Weapon_Drone(wpn) {
   wpn.units = traceCount || formation?.length
 }
 
+export function Weapon_LaserMarkerCallFire(wpn) {
+  wpn.lockTime = wpn.wCustom[0].value
+}
+
 export default {
   assignGame,
   '': BlankBullet,
@@ -691,6 +702,7 @@ export default {
   Weapon_Drone_Area: Weapon_Drone,
   Weapon_Drone_MarkerShoot: Weapon_Drone,
   Weapon_Drone_LaserMarker: Weapon_Drone,
+  Weapon_LaserMarkerCallFire: Weapon_LaserMarkerCallFire,
   Weapon_Gatling,
   Weapon_SubDrone: Weapon_Drone,
 

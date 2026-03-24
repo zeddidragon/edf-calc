@@ -668,6 +668,7 @@ export function Weapon_Drone(wpn) {
 }
 
 export function Weapon_LaserMarkerCallFire(wpn) {
+  if(!wpn.wCustom) return
   wpn.lockTime = wpn.wCustom[0].value
 }
 

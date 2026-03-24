@@ -10223,6 +10223,7 @@
       "speed": 0,
       "radius": 3,
       "life": 9999,
+      "count": 15,
       "interval": 120,
       "reload": 480,
       "secondary": 4,
@@ -10534,6 +10535,7 @@
       "life": 2400,
       "burst": 2,
       "burstRate": 60,
+      "count": 10,
       "lockRange": 300,
       "lockTime": 120,
       "lockType": 1,
@@ -10715,6 +10717,7 @@
       "life": 2400,
       "burst": 2,
       "burstRate": 60,
+      "count": 10,
       "lockRange": 300,
       "lockTime": 120,
       "lockType": 1,
@@ -15523,7 +15526,8 @@
           "burst": 8,
           "burstRate": 2,
           "count": 1,
-          "interval": 80
+          "interval": 80,
+          "fuse": 240
         },
         {
           "names": {"ja": null, "en": null},
@@ -15540,7 +15544,8 @@
           "burst": 8,
           "burstRate": 2,
           "count": 1,
-          "interval": 80
+          "interval": 80,
+          "fuse": 240
         }
       ]
     },
@@ -16021,7 +16026,7 @@
           "gravity": 0.75,
           "burst": 10,
           "burstRate": 15,
-          "count": 1,
+          "count": 4,
           "interval": 480,
           "lockRange": 700,
           "lockTime": 16,
@@ -16993,7 +16998,8 @@
           "count": 1,
           "interval": 360,
           "lockRange": 500,
-          "lockTime": 30
+          "lockTime": 30,
+          "duration": 480
         }
       ]
     },
@@ -18445,7 +18451,8 @@
           "count": 1,
           "interval": 360,
           "lockRange": 500,
-          "lockTime": 30
+          "lockTime": 30,
+          "duration": 480
         }
       ]
     },
@@ -18549,7 +18556,7 @@
           "gravity": 0.75,
           "burst": 10,
           "burstRate": 15,
-          "count": 1,
+          "count": 4,
           "interval": 480,
           "lockRange": 700,
           "lockTime": 16,

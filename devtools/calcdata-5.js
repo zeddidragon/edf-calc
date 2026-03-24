@@ -1460,6 +1460,7 @@ const headers = {
       'piercing',
       'damage',
       'radius',
+      'duration',
       'interval',
       'accuracy',
       'lockTime',

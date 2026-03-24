@@ -1229,6 +1229,7 @@
           "piercing",
           "damage",
           "radius",
+          "duration",
           "interval",
           "accuracy",
           "lockTime",
@@ -19081,7 +19082,8 @@
           "count": 20,
           "interval": 180,
           "lockRange": 500,
-          "lockTime": 30
+          "lockTime": 30,
+          "fuse": 10
         }
       ]
     },
@@ -46233,6 +46235,7 @@
         "exp": 0.5,
         "type": "int"
       },
+      "count": 20,
       "interval": 0,
       "lockRange": {
         "base": 300,
@@ -46792,6 +46795,7 @@
         "exp": 0.5,
         "type": "int"
       },
+      "count": 10,
       "interval": 0,
       "lockRange": {
         "base": 300,
@@ -53670,7 +53674,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 120,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -53721,7 +53725,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 60,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -53772,7 +53776,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 120,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -53823,7 +53827,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 60,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -53874,7 +53878,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 400,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -53926,7 +53930,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 120,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -53977,7 +53981,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 400,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -54029,7 +54033,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 60,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -54080,7 +54084,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 60,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -54131,7 +54135,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 120,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -54182,7 +54186,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 400,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -54234,7 +54238,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 400,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -54286,7 +54290,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 15,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -54337,7 +54341,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 30,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -54388,7 +54392,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 300,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -54440,7 +54444,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 60,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -54455,6 +54459,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 60,
       "shots": 600,
       "shotInterval": 2,
       "subRadius": 0
@@ -54493,7 +54498,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 60,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -54508,6 +54513,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 60,
       "shots": 600,
       "shotInterval": 2,
       "subRadius": 0
@@ -54546,7 +54552,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 60,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -54562,6 +54568,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 120,
       "shots": 90,
       "shotInterval": 8,
       "subRadius": 0
@@ -54600,7 +54607,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 60,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -54615,6 +54622,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 60,
       "shots": 600,
       "shotInterval": 2,
       "subRadius": 0
@@ -54653,7 +54661,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 60,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -54668,6 +54676,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 60,
       "shots": 600,
       "shotInterval": 2,
       "subRadius": 0
@@ -54706,7 +54715,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 60,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -54722,6 +54731,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 120,
       "shots": 90,
       "shotInterval": 8,
       "subRadius": 0
@@ -54760,7 +54770,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 60,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -54775,6 +54785,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 60,
       "shots": 800,
       "shotInterval": 2,
       "subRadius": 0
@@ -54813,7 +54824,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 60,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -54829,6 +54840,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 60,
       "shots": 1,
       "shotInterval": 8,
       "subRadius": 0
@@ -54867,7 +54879,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 60,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -54882,6 +54894,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 60,
       "shots": 800,
       "shotInterval": 2,
       "subRadius": 0
@@ -54920,7 +54933,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 60,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -54936,6 +54949,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 120,
       "shots": 90,
       "shotInterval": 8,
       "subRadius": 0
@@ -54974,7 +54988,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 120,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -54989,6 +55003,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 60,
       "shots": 1600,
       "shotInterval": 2,
       "subRadius": 0
@@ -55027,7 +55042,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 60,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -55043,6 +55058,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 180,
       "shots": 120,
       "shotInterval": 8,
       "subRadius": 0
@@ -55081,7 +55097,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 60,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -55096,6 +55112,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 60,
       "shots": 700,
       "shotInterval": 2,
       "subRadius": 0
@@ -55134,7 +55151,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 60,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -55150,6 +55167,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 120,
       "shots": 80,
       "shotInterval": 8,
       "subRadius": 0
@@ -55188,7 +55206,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 30,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -55204,6 +55222,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 10,
       "shots": 1,
       "shotInterval": 8,
       "subRadius": 0
@@ -55242,7 +55261,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 60,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -55257,6 +55276,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 60,
       "shots": 600,
       "shotInterval": 2,
       "subRadius": 0
@@ -55295,7 +55315,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 30,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -55311,6 +55331,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 180,
       "shots": 60,
       "shotInterval": 2,
       "subRadius": 0
@@ -55349,7 +55370,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 30,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -55365,6 +55386,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 120,
       "shots": 160,
       "shotInterval": 8,
       "subRadius": 0
@@ -55403,7 +55425,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 10,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -55419,6 +55441,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 5,
       "shots": 1,
       "shotInterval": 8,
       "subRadius": 0
@@ -55457,7 +55480,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 30,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -55472,6 +55495,7 @@
       "zoom": 4,
       "underground": "blocked",
       "strikeType": "shelling",
+      "delay": 30,
       "shots": 600,
       "shotInterval": 2,
       "subRadius": 0
@@ -61674,7 +61698,8 @@
           "count": 1,
           "interval": 420,
           "lockRange": 500,
-          "lockTime": 30
+          "lockTime": 30,
+          "fuse": 240
         },
         {
           "names": {"ja": "グレネードポッド（左）", "en": "Grenade Pod (Left)"},
@@ -61692,7 +61717,8 @@
           "count": 1,
           "interval": 420,
           "lockRange": 500,
-          "lockTime": 30
+          "lockTime": 30,
+          "fuse": 240
         }
       ]
     },
@@ -61858,7 +61884,8 @@
           "gravity": 2,
           "burst": 1,
           "count": 1,
-          "interval": 40
+          "interval": 40,
+          "fuse": 240
         },
         {
           "names": {"ja": "エクスプロージョン（左）", "en": "Explosion (Left)"},
@@ -61874,7 +61901,8 @@
           "piercing": 1,
           "burst": 1,
           "count": 20,
-          "interval": 120
+          "interval": 120,
+          "fuse": 10
         }
       ]
     },
@@ -62548,7 +62576,8 @@
           "gravity": 2,
           "burst": 1,
           "count": 1,
-          "interval": 40
+          "interval": 40,
+          "fuse": 240
         },
         {
           "names": {"ja": "エクスプロージョン（右）", "en": "Explosion (Right)"},
@@ -62564,7 +62593,8 @@
           "piercing": 1,
           "burst": 1,
           "count": 20,
-          "interval": 120
+          "interval": 120,
+          "fuse": 10
         },
         {
           "names": {"ja": "エクスプロージョン（左）", "en": "Explosion (Left)"},
@@ -62580,7 +62610,8 @@
           "piercing": 1,
           "burst": 1,
           "count": 20,
-          "interval": 120
+          "interval": 120,
+          "fuse": 10
         }
       ]
     },
@@ -63305,7 +63336,8 @@
           "gravity": 2,
           "burst": 1,
           "count": 1,
-          "interval": 40
+          "interval": 40,
+          "fuse": 240
         },
         {
           "names": {
@@ -63323,7 +63355,8 @@
           "gravity": 2,
           "burst": 1,
           "count": 1,
-          "interval": 40
+          "interval": 40,
+          "fuse": 240
         },
         {
           "names": {"ja": "エクスプロージョン（右）", "en": "Explosion (Right)"},
@@ -63339,7 +63372,8 @@
           "piercing": 1,
           "burst": 1,
           "count": 20,
-          "interval": 120
+          "interval": 120,
+          "fuse": 10
         },
         {
           "names": {"ja": "エクスプロージョン（左）", "en": "Explosion (Left)"},
@@ -63355,7 +63389,8 @@
           "piercing": 1,
           "burst": 1,
           "count": 20,
-          "interval": 120
+          "interval": 120,
+          "fuse": 10
         }
       ]
     },
@@ -63588,8 +63623,11 @@
           "life": 30,
           "burst": 1,
           "count": 1,
-          "accuracy": 0,
-          "piercing": true
+          "piercing": true,
+          "duration": 30,
+          "continous": true,
+          "interval": 1,
+          "accuracy": 0
         },
         {
           "names": {"ja": "インシネレーター（右）", "en": "Incinerator (Right)"},
@@ -63601,8 +63639,11 @@
           "life": 30,
           "burst": 1,
           "count": 1,
-          "accuracy": 0,
-          "piercing": true
+          "piercing": true,
+          "duration": 30,
+          "continous": true,
+          "interval": 1,
+          "accuracy": 0
         }
       ]
     },
@@ -63894,8 +63935,11 @@
           "life": 30,
           "burst": 1,
           "count": 1,
-          "accuracy": 0,
-          "piercing": true
+          "piercing": true,
+          "duration": 30,
+          "continous": true,
+          "interval": 1,
+          "accuracy": 0
         },
         {
           "names": {"ja": "ヘビーショットガン（右）", "en": "Heavy Shotgun (Right)"},
@@ -64758,7 +64802,8 @@
           "count": 1,
           "interval": 360,
           "lockRange": 500,
-          "lockTime": 30
+          "lockTime": 30,
+          "duration": 480
         }
       ],
       "fuel": 20000,
@@ -64920,7 +64965,8 @@
           "count": 1,
           "interval": 360,
           "lockRange": 500,
-          "lockTime": 30
+          "lockTime": 30,
+          "duration": 480
         }
       ],
       "fuel": 30000,
@@ -65349,7 +65395,7 @@
           "gravity": 0.75,
           "burst": 10,
           "burstRate": 15,
-          "count": 1,
+          "count": 4,
           "interval": 240,
           "lockRange": 700,
           "lockTime": 8,
@@ -65888,7 +65934,7 @@
           "gravity": 0.75,
           "burst": 10,
           "burstRate": 15,
-          "count": 1,
+          "count": 4,
           "interval": 240,
           "lockRange": 700,
           "lockTime": 8,
@@ -65935,7 +65981,8 @@
           "count": 1,
           "interval": 60,
           "lockRange": 500,
-          "lockTime": 30
+          "lockTime": 30,
+          "fuse": 15
         }
       ]
     },
@@ -66137,7 +66184,8 @@
           "burst": 8,
           "burstRate": 2,
           "count": 1,
-          "interval": 80
+          "interval": 80,
+          "fuse": 240
         },
         {
           "names": {"ja": "グレネード射出器（右）", "en": "Grenade Discharger (Right)"},
@@ -66153,7 +66201,8 @@
           "burst": 8,
           "burstRate": 2,
           "count": 1,
-          "interval": 80
+          "interval": 80,
+          "fuse": 240
         }
       ]
     },
@@ -68553,6 +68602,7 @@
         "exp": 0.5,
         "type": "int"
       },
+      "count": 10,
       "interval": 0,
       "lockRange": {
         "base": 300,
@@ -68800,7 +68850,7 @@
       "burstRate": 0,
       "interval": 120,
       "lockRange": 0,
-      "lockTime": 0,
+      "lockTime": 15,
       "lockType": 0,
       "lockDist": 0,
       "reload": {
@@ -69014,7 +69064,8 @@
           "burst": 8,
           "burstRate": 2,
           "count": 1,
-          "interval": 80
+          "interval": 80,
+          "fuse": 240
         },
         {
           "names": {"ja": "グレネード射出器（右）", "en": "Grenade Discharger (Right)"},
@@ -69030,7 +69081,8 @@
           "burst": 8,
           "burstRate": 2,
           "count": 1,
-          "interval": 80
+          "interval": 80,
+          "fuse": 240
         }
       ]
     },
@@ -71414,7 +71466,8 @@
           "count": 1,
           "interval": 360,
           "lockRange": 500,
-          "lockTime": 30
+          "lockTime": 30,
+          "duration": 480
         }
       ],
       "fuel": 30000,
@@ -71536,7 +71589,8 @@
           "piercing": 1,
           "burst": 1,
           "count": 20,
-          "interval": 120
+          "interval": 120,
+          "fuse": 10
         }
       ]
     }

@@ -10502,6 +10502,7 @@
       "speed": 0,
       "radius": 3,
       "life": 9999,
+      "count": 30,
       "interval": 120,
       "reload": 480,
       "secondary": 4,
@@ -10813,6 +10814,7 @@
       "life": 2400,
       "burst": 2,
       "burstRate": 60,
+      "count": 20,
       "lockRange": 300,
       "lockTime": 120,
       "lockType": 1,
@@ -10997,6 +10999,7 @@
       "life": 2400,
       "burst": 2,
       "burstRate": 60,
+      "count": 10,
       "lockRange": 300,
       "lockTime": 120,
       "lockType": 1,
@@ -12984,6 +12987,7 @@
       "zoom": 4,
       "accuracy": 0,
       "shots": 4,
+      "lockTime": 60,
       "underground": "blocked",
       "subCategory": "missile"
     },
@@ -13008,6 +13012,7 @@
       "zoom": 4,
       "accuracy": 0,
       "shots": 15,
+      "lockTime": 60,
       "underground": "blocked",
       "subCategory": "missile"
     },
@@ -13032,6 +13037,7 @@
       "zoom": 4,
       "accuracy": 0,
       "shots": 1,
+      "lockTime": 300,
       "underground": "blocked",
       "subCategory": "missile"
     },
@@ -13056,6 +13062,7 @@
       "zoom": 4,
       "accuracy": 0,
       "shots": 5,
+      "lockTime": 60,
       "underground": "blocked",
       "subCategory": "missile"
     },
@@ -13080,6 +13087,7 @@
       "zoom": 4,
       "accuracy": 0,
       "shots": 20,
+      "lockTime": 60,
       "underground": "blocked",
       "subCategory": "missile"
     },
@@ -13104,6 +13112,7 @@
       "zoom": 4,
       "accuracy": 0,
       "shots": 1,
+      "lockTime": 300,
       "underground": "blocked",
       "subCategory": "missile"
     },
@@ -13128,6 +13137,7 @@
       "zoom": 4,
       "accuracy": 0,
       "shots": 6,
+      "lockTime": 60,
       "underground": "blocked",
       "subCategory": "missile"
     },
@@ -13152,6 +13162,7 @@
       "zoom": 4,
       "accuracy": 0,
       "shots": 1,
+      "lockTime": 300,
       "underground": "blocked",
       "subCategory": "missile"
     },
@@ -13176,6 +13187,7 @@
       "zoom": 4,
       "accuracy": 0,
       "shots": 30,
+      "lockTime": 60,
       "underground": "blocked",
       "subCategory": "missile"
     },
@@ -13200,6 +13212,7 @@
       "zoom": 4,
       "accuracy": 0,
       "shots": 1,
+      "lockTime": 300,
       "underground": "blocked",
       "subCategory": "missile"
     },
@@ -13225,6 +13238,7 @@
       "shots": 600,
       "shotInterval": 2,
       "subRadius": 0,
+      "lockTime": 60,
       "underground": "blocked",
       "subCategory": "laser"
     },
@@ -13251,6 +13265,7 @@
       "shots": 45,
       "shotInterval": 8,
       "subRadius": 0,
+      "lockTime": 60,
       "underground": "blocked",
       "subCategory": "laser"
     },
@@ -13276,6 +13291,7 @@
       "shots": 600,
       "shotInterval": 2,
       "subRadius": 0,
+      "lockTime": 60,
       "underground": "blocked",
       "subCategory": "laser"
     },
@@ -13301,6 +13317,7 @@
       "shots": 600,
       "shotInterval": 2,
       "subRadius": 0,
+      "lockTime": 60,
       "underground": "blocked",
       "subCategory": "laser"
     },
@@ -13327,6 +13344,7 @@
       "shots": 60,
       "shotInterval": 8,
       "subRadius": 0,
+      "lockTime": 60,
       "underground": "blocked",
       "subCategory": "laser"
     },
@@ -13352,6 +13370,7 @@
       "shots": 600,
       "shotInterval": 2,
       "subRadius": 0,
+      "lockTime": 60,
       "underground": "blocked",
       "subCategory": "laser"
     },
@@ -13378,6 +13397,7 @@
       "shots": 80,
       "shotInterval": 8,
       "subRadius": 0,
+      "lockTime": 60,
       "underground": "blocked",
       "subCategory": "laser"
     },
@@ -13403,6 +13423,7 @@
       "shots": 600,
       "shotInterval": 2,
       "subRadius": 0,
+      "lockTime": 60,
       "underground": "blocked",
       "subCategory": "laser"
     },
@@ -13428,6 +13449,7 @@
       "shots": 200,
       "shotInterval": 4,
       "subRadius": 10,
+      "lockTime": 300,
       "underground": "blocked",
       "subCategory": "laser"
     },
@@ -13451,6 +13473,7 @@
       "secondary": 1,
       "zoom": 4,
       "accuracy": 0,
+      "lockTime": 300,
       "underground": "blocked",
       "subCategory": "laser"
     },
@@ -16236,8 +16259,11 @@
           "life": 30,
           "burst": 1,
           "count": 1,
-          "accuracy": 0,
-          "piercing": true
+          "piercing": true,
+          "duration": 30,
+          "continous": true,
+          "interval": 1,
+          "accuracy": 0
         },
         {
           "names": {"ja": "インシネレーター（右）", "en": "Incinerator (Right)"},
@@ -16249,8 +16275,11 @@
           "life": 30,
           "burst": 1,
           "count": 1,
-          "accuracy": 0,
-          "piercing": true
+          "piercing": true,
+          "duration": 30,
+          "continous": true,
+          "interval": 1,
+          "accuracy": 0
         }
       ]
     },
@@ -16342,7 +16371,8 @@
           "burst": 8,
           "burstRate": 2,
           "count": 1,
-          "interval": 80
+          "interval": 80,
+          "fuse": 240
         },
         {
           "names": {"ja": "グレネード射出器（右）", "en": "Grenade Discharger (Right)"},
@@ -16358,7 +16388,8 @@
           "burst": 8,
           "burstRate": 2,
           "count": 1,
-          "interval": 80
+          "interval": 80,
+          "fuse": 240
         }
       ],
       "underground": "blocked"
@@ -16928,7 +16959,7 @@
           "gravity": 0.75,
           "burst": 10,
           "burstRate": 15,
-          "count": 1,
+          "count": 4,
           "interval": 240,
           "lockRange": 700,
           "lockTime": 8,
@@ -18001,7 +18032,8 @@
           "count": 1,
           "interval": 360,
           "lockRange": 500,
-          "lockTime": 30
+          "lockTime": 30,
+          "duration": 480
         }
       ],
       "underground": "blocked"
@@ -18389,8 +18421,11 @@
           "life": 30,
           "burst": 1,
           "count": 1,
-          "accuracy": 0,
-          "piercing": true
+          "piercing": true,
+          "duration": 30,
+          "continous": true,
+          "interval": 1,
+          "accuracy": 0
         },
         {
           "names": {"ja": "ヘビーショットガン（右）", "en": "Heavy Shotgun (Right)"},
@@ -19763,7 +19798,8 @@
           "count": 1,
           "interval": 360,
           "lockRange": 500,
-          "lockTime": 30
+          "lockTime": 30,
+          "duration": 480
         }
       ],
       "underground": "blocked"
@@ -19871,7 +19907,7 @@
           "gravity": 0.75,
           "burst": 10,
           "burstRate": 15,
-          "count": 1,
+          "count": 4,
           "interval": 240,
           "lockRange": 700,
           "lockTime": 8,

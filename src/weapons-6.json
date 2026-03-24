@@ -53871,6 +53871,7 @@
         "exp": 0.5,
         "type": "int"
       },
+      "count": 20,
       "lockRange": {
         "base": 300,
         "algo": 36,
@@ -54549,6 +54550,7 @@
         "exp": 0.5,
         "type": "int"
       },
+      "count": 10,
       "lockRange": {
         "base": 400,
         "algo": 36,
@@ -54940,6 +54942,7 @@
         "exp": 0.5,
         "type": "int"
       },
+      "count": 10,
       "lockRange": {
         "base": 500,
         "algo": 36,
@@ -55608,6 +55611,7 @@
         "exp": 0.5,
         "type": "int"
       },
+      "count": 10,
       "lockRange": {
         "base": 600,
         "algo": 36,
@@ -55673,6 +55677,7 @@
         "exp": 0.5,
         "type": "int"
       },
+      "count": 10,
       "lockRange": {
         "base": 700,
         "algo": 36,

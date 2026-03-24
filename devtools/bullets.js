@@ -224,6 +224,11 @@ export function MissileAmmo01(wpn) {
   }
 }
 
+export function MissileBullet02(wpn) {
+  // This is blood storm
+  wpn.count = wpn.custom[15].value[2].value
+}
+
 export function NapalmBullet01(wpn) {
   const fireCfg = wpn.custom[4].value
   wpn.duration = fireCfg[2].value * fireCfg[3].value
@@ -687,6 +692,7 @@ export default {
   LaserBullet01,
   LaserBullet03: LaserBullet01,
   MissileAmmo01,
+  MissileBullet02,
   NapalmBullet01,
   RepairAmmo01: FlameBullet02,
   SentryGunBullet01,

@@ -1235,28 +1235,6 @@
         ]
       },
       {
-        "category": "tank",
-        "names": {"en": "Tanks", "ja": "戦闘車両"},
-        "headers": [
-          "checkbox",
-          "stars",
-          "level",
-          "name",
-          "reload",
-          "hp",
-          "ammo",
-          "piercing",
-          "damage",
-          "radius",
-          "interval",
-          "accuracy",
-          "range",
-          "speed",
-          "dps",
-          "total"
-        ]
-      },
-      {
         "category": "support",
         "names": {"en": "Support Equipment", "ja": "サポート装置"},
         "tables": [
@@ -1429,6 +1407,28 @@
         ]
       },
       {
+        "category": "tank",
+        "names": {"en": "Tanks", "ja": "戦闘車両"},
+        "headers": [
+          "checkbox",
+          "stars",
+          "level",
+          "name",
+          "reload",
+          "hp",
+          "ammo",
+          "piercing",
+          "damage",
+          "radius",
+          "interval",
+          "accuracy",
+          "range",
+          "speed",
+          "dps",
+          "total"
+        ]
+      },
+      {
         "category": "ground",
         "names": {"en": "Ground Vehicles", "ja": "車両"},
         "headers": [
@@ -1490,6 +1490,7 @@
           "piercing",
           "damage",
           "radius",
+          "duration",
           "interval",
           "accuracy",
           "lockTime",
@@ -17614,7 +17615,8 @@
           "count": 20,
           "interval": 180,
           "lockRange": 500,
-          "lockTime": 30
+          "lockTime": 30,
+          "fuse": 10
         }
       ]
     },
@@ -61028,7 +61030,8 @@
           "burst": 8,
           "burstRate": 2,
           "count": 1,
-          "interval": 80
+          "interval": 80,
+          "fuse": 240
         },
         {
           "names": {"ja": "グレネード射出器（右）", "en": "Grenade Discharger (Right)"},
@@ -61044,7 +61047,8 @@
           "burst": 8,
           "burstRate": 2,
           "count": 1,
-          "interval": 80
+          "interval": 80,
+          "fuse": 240
         }
       ]
     },
@@ -61974,7 +61978,8 @@
           "burst": 8,
           "burstRate": 2,
           "count": 1,
-          "interval": 80
+          "interval": 80,
+          "fuse": 240
         },
         {
           "names": {"ja": "グレネード射出器（右）", "en": "Grenade Discharger (Right)"},
@@ -61990,7 +61995,8 @@
           "burst": 8,
           "burstRate": 2,
           "count": 1,
-          "interval": 80
+          "interval": 80,
+          "fuse": 240
         }
       ]
     },
@@ -62390,7 +62396,7 @@
           "gravity": 0.75,
           "burst": 10,
           "burstRate": 15,
-          "count": 1,
+          "count": 4,
           "interval": 240,
           "lockRange": 700,
           "lockTime": 8,
@@ -62857,7 +62863,7 @@
           "gravity": 0.75,
           "burst": 10,
           "burstRate": 15,
-          "count": 1,
+          "count": 4,
           "interval": 240,
           "lockRange": 700,
           "lockTime": 8,
@@ -63075,7 +63081,8 @@
           "count": 1,
           "interval": 360,
           "lockRange": 500,
-          "lockTime": 30
+          "lockTime": 30,
+          "duration": 1920
         },
         {
           "names": {"ja": "ＦＵＥＬ", "en": "Fuel"},
@@ -63334,7 +63341,8 @@
           "count": 1,
           "interval": 360,
           "lockRange": 500,
-          "lockTime": 30
+          "lockTime": 30,
+          "duration": 480
         },
         {
           "names": {"ja": "ＦＵＥＬ", "en": "Fuel"},
@@ -63506,7 +63514,8 @@
           "count": 1,
           "interval": 360,
           "lockRange": 500,
-          "lockTime": 30
+          "lockTime": 30,
+          "duration": 480
         },
         {
           "names": {"ja": "ＦＵＥＬ", "en": "Fuel"},
@@ -63679,7 +63688,8 @@
           "count": 1,
           "interval": 360,
           "lockRange": 500,
-          "lockTime": 30
+          "lockTime": 30,
+          "duration": 480
         },
         {
           "names": {"ja": "ＦＵＥＬ", "en": "Fuel"},
@@ -63763,7 +63773,8 @@
           "count": 1,
           "interval": 420,
           "lockRange": 500,
-          "lockTime": 30
+          "lockTime": 30,
+          "fuse": 240
         },
         {
           "names": {"ja": "グレネードポッド（左）", "en": "Grenade Pod (Left)"},
@@ -63781,7 +63792,8 @@
           "count": 1,
           "interval": 420,
           "lockRange": 500,
-          "lockTime": 30
+          "lockTime": 30,
+          "fuse": 240
         }
       ]
     },
@@ -63880,7 +63892,8 @@
           "gravity": 2,
           "burst": 1,
           "count": 1,
-          "interval": 40
+          "interval": 40,
+          "fuse": 240
         },
         {
           "names": {"ja": "エクスプロージョン（左）", "en": "Explosion (Left)"},
@@ -63896,7 +63909,8 @@
           "piercing": 1,
           "burst": 1,
           "count": 20,
-          "interval": 120
+          "interval": 120,
+          "fuse": 10
         }
       ]
     },
@@ -64168,9 +64182,9 @@
           "damage": 2.4,
           "speed": 10,
           "life": 30,
-          "burst": 1,
           "count": 1,
           "interval": 1,
+          "drain": 1,
           "accuracy": 0
         },
         {
@@ -64184,9 +64198,9 @@
           "damage": 2.4,
           "speed": 10,
           "life": 30,
-          "burst": 1,
           "count": 1,
           "interval": 1,
+          "drain": 1,
           "accuracy": 0
         }
       ]
@@ -64581,7 +64595,8 @@
           "gravity": 2,
           "burst": 1,
           "count": 1,
-          "interval": 40
+          "interval": 40,
+          "fuse": 240
         },
         {
           "names": {"ja": "エクスプロージョン（右）", "en": "Explosion (Right)"},
@@ -64597,7 +64612,8 @@
           "piercing": 1,
           "burst": 1,
           "count": 20,
-          "interval": 120
+          "interval": 120,
+          "fuse": 10
         },
         {
           "names": {"ja": "エクスプロージョン（左）", "en": "Explosion (Left)"},
@@ -64613,7 +64629,8 @@
           "piercing": 1,
           "burst": 1,
           "count": 20,
-          "interval": 120
+          "interval": 120,
+          "fuse": 10
         }
       ]
     },
@@ -64653,9 +64670,9 @@
           "damage": 8.4,
           "speed": 10,
           "life": 30,
-          "burst": 1,
           "count": 1,
           "interval": 1,
+          "drain": 1,
           "accuracy": 0
         },
         {
@@ -64669,9 +64686,9 @@
           "damage": 8.4,
           "speed": 10,
           "life": 30,
-          "burst": 1,
           "count": 1,
           "interval": 1,
+          "drain": 1,
           "accuracy": 0
         },
         {
@@ -65180,9 +65197,9 @@
           "damage": 18,
           "speed": 10,
           "life": 30,
-          "burst": 1,
           "count": 1,
           "interval": 1,
+          "drain": 1,
           "accuracy": 0
         },
         {
@@ -65196,9 +65213,9 @@
           "damage": 18,
           "speed": 10,
           "life": 30,
-          "burst": 1,
           "count": 1,
           "interval": 1,
+          "drain": 1,
           "accuracy": 0
         },
         {
@@ -65443,7 +65460,8 @@
           "gravity": 2,
           "burst": 1,
           "count": 1,
-          "interval": 40
+          "interval": 40,
+          "fuse": 240
         },
         {
           "names": {
@@ -65461,7 +65479,8 @@
           "gravity": 2,
           "burst": 1,
           "count": 1,
-          "interval": 40
+          "interval": 40,
+          "fuse": 240
         },
         {
           "names": {"ja": "エクスプロージョン（右）", "en": "Explosion (Right)"},
@@ -65477,7 +65496,8 @@
           "piercing": 1,
           "burst": 1,
           "count": 20,
-          "interval": 120
+          "interval": 120,
+          "fuse": 10
         },
         {
           "names": {"ja": "エクスプロージョン（左）", "en": "Explosion (Left)"},
@@ -65493,7 +65513,8 @@
           "piercing": 1,
           "burst": 1,
           "count": 20,
-          "interval": 120
+          "interval": 120,
+          "fuse": 10
         }
       ]
     },
@@ -65626,9 +65647,9 @@
           "damage": 30,
           "speed": 10,
           "life": 30,
-          "burst": 1,
           "count": 1,
           "interval": 1,
+          "drain": 1,
           "accuracy": 0
         },
         {
@@ -65642,9 +65663,9 @@
           "damage": 30,
           "speed": 10,
           "life": 30,
-          "burst": 1,
           "count": 1,
           "interval": 1,
+          "drain": 1,
           "accuracy": 0
         },
         {
@@ -65756,7 +65777,8 @@
           "count": 1,
           "interval": 420,
           "lockRange": 500,
-          "lockTime": 30
+          "lockTime": 30,
+          "fuse": 240
         },
         {
           "names": {"ja": "グレネードポッド（左）", "en": "Grenade Pod (Left)"},
@@ -65774,7 +65796,8 @@
           "count": 1,
           "interval": 420,
           "lockRange": 500,
-          "lockTime": 30
+          "lockTime": 30,
+          "fuse": 240
         }
       ]
     },
@@ -65930,7 +65953,8 @@
           "piercing": 1,
           "burst": 1,
           "count": 20,
-          "interval": 120
+          "interval": 120,
+          "fuse": 10
         },
         {
           "names": {"ja": "パワーダインＧＣ", "en": "Powerdyne GC"},
@@ -76595,8 +76619,11 @@
           "life": 30,
           "burst": 1,
           "count": 1,
-          "accuracy": 0,
-          "piercing": true
+          "piercing": true,
+          "duration": 30,
+          "continous": true,
+          "interval": 1,
+          "accuracy": 0
         },
         {
           "names": {"ja": "インシネレーター（右）", "en": "Incinerator (Right)"},
@@ -76608,8 +76635,11 @@
           "life": 30,
           "burst": 1,
           "count": 1,
-          "accuracy": 0,
-          "piercing": true
+          "piercing": true,
+          "duration": 30,
+          "continous": true,
+          "interval": 1,
+          "accuracy": 0
         }
       ]
     },
@@ -76717,9 +76747,9 @@
           "speed": 10,
           "life": 50,
           "piercing": 1,
-          "burst": 1,
           "count": 1,
           "interval": 1,
+          "drain": 1,
           "accuracy": 0
         },
         {
@@ -76731,9 +76761,9 @@
           "speed": 10,
           "life": 50,
           "piercing": 1,
-          "burst": 1,
           "count": 1,
           "interval": 1,
+          "drain": 1,
           "accuracy": 0
         },
         {
@@ -77063,8 +77093,11 @@
           "life": 30,
           "burst": 1,
           "count": 1,
-          "accuracy": 0,
-          "piercing": true
+          "piercing": true,
+          "duration": 30,
+          "continous": true,
+          "interval": 1,
+          "accuracy": 0
         },
         {
           "names": {"ja": "ヘビーショットガン（右）", "en": "Heavy Shotgun (Right)"},
@@ -77375,9 +77408,9 @@
           "speed": 10,
           "life": 50,
           "piercing": 1,
-          "burst": 1,
           "count": 1,
           "interval": 1,
+          "drain": 1,
           "accuracy": 0
         },
         {

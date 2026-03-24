@@ -13,7 +13,7 @@ function digValue(node, path) {
     const key = path[i]
     if(typeof key === 'number') {
       node = node[key]
-    } else {
+    } else if(Array.isArray(node)) {
       node = node.find(n => n.name === key)
     }
     if(node) {
@@ -225,7 +225,7 @@ export function MissileAmmo01(wpn) {
 }
 
 export function MissileBullet02(wpn) {
-  // This is blood storm
+  // This is Blood Storm or Naegling Convergence Cannon
   wpn.count = wpn.custom[15].value[2].value
 }
 
@@ -269,6 +269,7 @@ const subWeaponProps = {
   lockRange: 'LockonRange',
   lockTime: 'LockonTime',
   lockType: 'LockonType',
+  custom: 'Ammo_CustomParameter',
 }
 
 export function ShieldBashBullet01(wpn) {
@@ -524,6 +525,9 @@ export async function SmokeCandleBullet01(wpn) {
       }
     }
 
+    bullets[subWpn.type]?.(subWpn)
+    delete subWpn.custom
+
     subWpn.damage *= dmgFactor
     subWpn.accuracy = +(subWpn.accuracy || 0).toFixed(2)
     if(subWpn.type === 'FlameBullet02') {
@@ -667,7 +671,7 @@ export function Weapon_LaserMarkerCallFire(wpn) {
   wpn.lockTime = wpn.wCustom[0].value
 }
 
-export default {
+const bullets = {
   assignGame,
   '': BlankBullet,
   undefined: BlankBullet,
@@ -711,5 +715,6 @@ export default {
   Weapon_LaserMarkerCallFire: Weapon_LaserMarkerCallFire,
   Weapon_Gatling,
   Weapon_SubDrone: Weapon_Drone,
-
 }
+
+export default bullets

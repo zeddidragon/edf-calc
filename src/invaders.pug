@@ -13,11 +13,55 @@ mixin game(game)
 mixin mode(mode)
   b= mode.name
 
+mixin char(char)
+  b= char.name.slice(0, 3)
+  span= char.name.slice(3)
+
 mixin star(star)
   if star >= 10
     b= `★${star}`
   else
     span= `☆${star}`
+
+mixin topMenus
+  header#top-menus
+    #game-tabs.dropdown
+      #game-button.button(class=[`edf${game}`])
+        +game(game)
+      menu#game-dropdown
+        each g in games
+          a(onclick=`selectGame("${g}")` class={ [`edf${g}`]: true, selected: g === game })
+            +game(g)
+    #mode-tabs.dropdown
+      #mode-button.button.stats
+        b Stats
+      menu#mode-dropdown
+        a(onclick=`selectMode("stats")` class={ stats: true, selected: mode === "stats" })
+          b Stats
+        each m in modes
+          a(onclick=`selectMode("${m.name}")` class={ [m.name.toLowerCase()]: true, selected: mode === m.name })
+            span Drops 
+            b= m.name
+
+mixin menus
+  header#menus
+    #char-tabs.dropdown
+      #char-button.button(class={ [char.id]: true })
+        +char(char)
+      menu#char-dropdown
+        for c in classes
+          a(onclick=`selectChar("${c.id}")` class={ [c.id]: true, selected: c.id === char.id })
+            +char(c)
+    if gameValues && gameValues.hasStars
+      #star-tabs.dropdown
+        #star-button.button(class=[`star-${star}`])
+          +star(star)
+        - let s = 0
+        menu#star-dropdown
+          while s <= 10
+            a(onclick=`selectStar("${s}")` class={ [`star-${s}`]: true, selected: star === s })
+              +star(s)
+            - s++
 
 nav#links
   ul
@@ -26,31 +70,8 @@ nav#links
     li |
     li
       a(href="https://atwiki.jp/edf6") Japanese EDF Wiki
-header#top-menus
-  #game-tabs.dropdown
-    #game-button.button(class=[`edf${game}`])
-      +game(game)
-    menu#game-dropdown
-      each g in games
-        a(onclick=`selectGame("${g}")` class={ [`edf${g}`]: true, selected: g === game })
-          +game(g)
-  #mode-tabs.dropdown
-    #mode-button.button.stats
-      b Stats
-    menu#mode-dropdown
-      a(onclick=`selectMode("stats")` class={ stats: true, selected: mode === "stats" })
-        b Stats
-      each m in modes
-        a(onclick=`selectMode("${m.name}")` class={ [m.name.toLowerCase()]: true, selected: mode === m.name })
-          span Drops 
-          b= m.name
-  if gameValues && gameValues.hasStars
-    #star-tabs.dropdown
-      #star-button.button(class=[`star-${star}`])
-        +star(star)
-      - let s = 0
-      menu#star-dropdown
-        while s <= 10
-          a(onclick=`selectStar("${s}")` class={ [`star-${s}`]: true, selected: star === s })
-            +star(s)
-          - s++
+if isLoading
+  .loading Loading...
+else
+  +topMenus
+  +menus

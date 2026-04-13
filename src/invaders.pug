@@ -1,67 +1,43 @@
-mixin game(game)
-  if game === '41'
-    b EDF4
-    span .1
-  else if spinoffs.includes(game)
-    span EDF:
-    b= game.toUpperCase()
-  else
-    b EDF
-    b= game.slice(0, 1)
-    span= game.slice(1).toUpperCase()
-
-mixin mode(mode)
-  b= mode.name
-
-mixin char(char)
-  b= char.name.slice(0, 3)
-  span= char.name.slice(3)
-
-mixin star(star)
-  if star >= 10
-    b= `★${star}`
-  else
-    span= `☆${star}`
+mixin dropdown(scope, list, selection)
+  .dropdown
+    .button(class={ [selection.id]: true })
+      != slice3(selection.name)
+    menu
+      each item in list
+        a(onclick=`selectItem("${scope}", "${item.id}")`
+          class={ [item.id]: true, selected: selection.id === item.id }
+        )!= slice3(item.name)
 
 mixin topMenus
   header#top-menus
-    #game-tabs.dropdown
-      #game-button.button(class=[`edf${game}`])
-        +game(game)
-      menu#game-dropdown
-        each g in games
-          a(onclick=`selectGame("${g}")` class={ [`edf${g}`]: true, selected: g === game })
-            +game(g)
-    #mode-tabs.dropdown
-      #mode-button.button.stats
-        b Stats
-      menu#mode-dropdown
-        a(onclick=`selectMode("stats")` class={ stats: true, selected: mode === "stats" })
-          b Stats
-        each m in modes
-          a(onclick=`selectMode("${m.name}")` class={ [m.name.toLowerCase()]: true, selected: mode === m.name })
-            span Drops 
-            b= m.name
+    +dropdown("game", games, game)
+    if modes
+      +dropdown("mode", modes, mode)
 
 mixin menus
   header#menus
-    #char-tabs.dropdown
-      #char-button.button(class={ [char.id]: true })
-        +char(char)
-      menu#char-dropdown
-        for c in classes
-          a(onclick=`selectChar("${c.id}")` class={ [c.id]: true, selected: c.id === char.id })
-            +char(c)
+    if classes
+      +dropdown("class", classes, char)
+    if categories
+      +dropdown("category", categories, cat)
     if gameValues && gameValues.hasStars
-      #star-tabs.dropdown
-        #star-button.button(class=[`star-${star}`])
-          +star(star)
-        - let s = 0
-        menu#star-dropdown
-          while s <= 10
-            a(onclick=`selectStar("${s}")` class={ [`star-${s}`]: true, selected: star === s })
-              +star(s)
-            - s++
+      +dropdown("star", stars, star)
+
+mixin stats
+  each table in tables
+    if tables.length > 1 && table.name
+      h3= localize(table.names, table.name)
+    table.weapon-table
+      thead
+        tr
+          for header in table.headers
+            - let h = headerDefinitions[header] || { label: '???' }
+            th(title=h.tooltip)= h.label
+      tbody
+        for weapon in table.weapons
+          tr
+            for header in table.headers
+              td!= weaponStat(weapon, header)
 
 nav#links
   ul
@@ -75,3 +51,6 @@ if isLoading
 else
   +topMenus
   +menus
+
+  if mode.id === 'stats' && cat && tables
+    +stats

@@ -986,21 +986,9 @@ function weaponKey(wpn, type = 'owned') {
 
 const FPS = 60
 const headers = [{
-  id: 'checkbox',
-  label: '✓',
-  tooltip: 'Weapon Acquired',
+  id: 'checkbox'
   cb: wpn => {
-    if(!wpn.id) {
-      return ''
-    }
-    const { game } = active
-    const el = $('input')
-    const key = weaponKey(wpn)
-    el.setAttribute('id', key)
-    el.setAttribute('type', 'checkbox')
-    if(localStorage[key] > 0) {
-      el.setAttribute('checked', '1')
-    }
+    // TODO
     el.addEventListener('change', () => {
       closeSaveLoad()
       const v = 1 - (localStorage[key] || 0)
@@ -1011,26 +999,10 @@ const headers = [{
         el.removeAttribute('checked')
       }
     })
-    return el
-  },
 }, {
   id: 'stars',
-  label: '★',
-  tooltip: 'Max Rank',
-  iff: () => gameHasStars(),
   cb: wpn => {
-    if(!wpn.id) {
-      return ''
-    }
-    const { game } = active
-    const scope = gameScopes[game] || `.${game}`
-    const el = $('input')
-    const key = weaponKey(wpn, 'starred')
-    const ownedKey = weaponKey(wpn)
-    el.setAttribute('type', 'checkbox')
-    if(localStorage[key] > 0) {
-      el.setAttribute('checked', '1')
-    }
+    // TODO
     el.addEventListener('change', () => {
       closeSaveLoad()
       const owned = document.getElementById(ownedKey)
@@ -1044,172 +1016,6 @@ const headers = [{
         el.removeAttribute('checked')
       }
     })
-    return el
-  },
-}, {
-  id: 'level',
-  label: 'Lv',
-  tooltip: 'Level',
-  cb: wpn => {
-    const { level } = wpn
-    if(level == null) {
-      return '-'
-    }
-    if(isNaN(level)) {
-      return level
-    }
-    const el = $('div')
-    const difficulty = (
-      (modes[1] || modes[0]).difficulties || []
-    )
-      .slice(1)
-      .find(d => {
-        const limits = d.weaponLimits
-        if(!Array.isArray(limits)) return
-        const upper = limits[limits.length - 1]
-        return upper > 0 && upper >= level
-      })
-    const display = Math.max(0, level)
-    if(!difficulty) {
-      return display
-    }
-    el.classList.add(difficulty.name)
-    el.textContent = display
-    return el
-  },
-}, {
-  id: 'rank',
-  label: 'Rank',
-  tooltip: 'Rank',
-  iff: () => false, // Filter out in drops table
-  cb: wpn => {
-    const { rank } = wpn
-    if(rank == null) {
-      return '-'
-    }
-    const el = $('div')
-    el.classList.add(`rank-${rank}`)
-    el.textContent = rank
-    return el
-  },
-}, {
-  id: 'remarks',
-  label: 'Remarks',
-  tooltip: 'Special Attributes',
-  iff: () => false, // Filter out in drops table
-  cb: wpn => {
-    if(!wpn.tags?.length) {
-      return ''
-    }
-    const tags = [wpn.effect, ...wpn.tags]
-    const remarks = tags.reduce((acc, tag) => {
-      if(tag === 'reload_quick') {
-        // Ignore
-      } else if(tag === 'reload_none') {
-        // Ignore
-      } else if(tag === 'reload_auto') {
-        // Ignore
-      } else if(tag === 'reload_charge') {
-        // Ignore
-      } else if(tag === 'delay_burst') {
-        acc.push(`+${wpn.damage2} Dmg <30m`)
-      } else if(tag === 'delay_blast') {
-        acc.push(`Timer`)
-      } else if(tag === 'delay') {
-        acc.push('Windup')
-      } else if(tag === 'slow_aim') {
-        acc.push('Slows Aim')
-      } else if(tag === 'no_move_aim') {
-        acc.push('Immobile')
-      } else if(tag === 'energyconsume') {
-        acc.push('Uses Energy')
-      } else if(tag === 'bouncing') {
-        acc.push('Bouncing')
-      } else if(tag === 'growth_range') {
-        // acc.push('→Range')
-      } else if(tag === 'growth_damage') {
-        // acc.push('→Damage')
-      } else if(tag === 'pushback') {
-        acc.push('Pushback')
-      } else if(tag === 'scope') {
-        acc.push('Scope')
-      } else if(tag === 'roulette') {
-        acc.push(`1/${wpn.critOver} of ${wpn.damage2}`)
-      } else if(tag === 'puncher') {
-        acc.push(`Explodes`)
-      } else if(tag === 'recoil') {
-        acc.push('Recoil')
-      } else if(tag === 'recovertime') {
-        acc.push('Heals')
-      } else if(tag === 'tracer') {
-        acc.push('Flare (Frightens)')
-      } else if(tag === 'no_move') {
-        acc.push('Immobile')
-      } else if(tag === 'sticky') {
-        acc.push('Sticky')
-      } else if(tag === 'shock') {
-        // acc.push('Shock')
-      } else if(tag === 'frozen') {
-        // acc.push('Freeze')
-      } else if(tag === 'flame') {
-        // acc.push('Burn')
-      } else if(tag) {
-        acc.push(tag)
-      }
-      return acc
-    }, [])
-    return remarks.join(', ')
-  },
-}, {
-  id: 'name',
-  label: 'Name',
-  cb: wpn => {
-    const el = $('div')
-    el.classList.add('name')
-    const name = localize(wpn.names, wpn.name)
-    el.textContent += name
-    return el
-  },
-}, {
-  id: 'dropWeight',
-  label: 'Weight',
-  tooltip: 'Relative Drop Chance',
-  cb: wpn => {
-    const odds = wpn.odds || 100
-    if(!+odds) {
-      const el = $('div')
-      if(wpn.level === 100) { // Genocide weapons
-        el.classList.add('na')
-        el.textContent = 'N/A'
-      } else {
-        el.classList.add(odds)
-        el.textContent = odds.toUpperCase()
-      }
-      return el
-    }
-    const label = `${odds}%`
-    if(odds !== 100) {
-      const el = $('div')
-      el.classList.add(odds < 100 ? 'lowOdds' : 'highOdds')
-      el.textContent = label
-      return el
-    }
-    return label
-  },
-}, {
-  id: 'unlock',
-  label: '🔒',
-  tooltip: 'Obtainment method',
-  cb: wpn => {
-    if(!wpn.unlock) {
-      return '€'
-    }
-    if(wpn.unlock === 'box') {
-      return 'Box ☢'
-    }
-    const el = $('div')
-    el.classList.add('highOdds')
-    el.textContent = 'DLC ☢'
     return el
   },
 }, {

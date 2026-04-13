@@ -2,6 +2,7 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "start": "webpack serve",
     "build": "webpack"
   },
   "devDependencies": {

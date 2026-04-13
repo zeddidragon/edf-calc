@@ -266,7 +266,7 @@ th.P, th.CR {
 .sniper b, .heavy b, .satellite b, .muzzle b {
   color: #88e;
 }
-.rocket b, .particle b, .hammer b, .dlc, .planes b, .tank b, .rank-AA, .Hardest, .damage-type.optics, .status-effect.shock {
+.rocket b, .particle b, .hammer b, .dlc, .planes b, .tank b, .rank-AA, .Hardest, .damage-type.optics, .status-effect.shock, .scaling b {
   color: #ee8;
 }
 .missile b, .guide b, .na {

@@ -1,13 +1,13 @@
 {
   "type": "module",
+  "private": true,
   "scripts": {
-    "compile": "pug --client --no-debug src/editor-template.pug -o build"
-  },
-  "dependencies": {
-    "pug": "^3.0.3"
+    "build": "webpack"
   },
   "devDependencies": {
-    "json-stringify-pretty-compact": "^4.0.0",
-    "pug-cli": "^1.0.0-alpha6"
+    "pug-loader": "^2.4.0",
+    "webpack": "^5.106.1",
+    "webpack-cli": "^7.0.2",
+    "webpack-dev-server": "^5.2.3"
   }
 }

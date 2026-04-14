@@ -554,7 +554,7 @@ export async function SmokeCandleBullet01(wpn) {
       .value
       .map(v => v.value)
     wpn.fuel = fuel
-    wpn.fuelUsage = +usage.toFixed(2)
+    wpn.fuelUse = +usage.toFixed(2)
     wpn.weapons.pop()
   }
 

@@ -943,38 +943,6 @@ function cycleTime(wpn) {
   return (magTime || interval) / FPS
 }
 
-function chargeRate(wpn, ch) {
-  const {
-    baseEnergy: nrg = wpn.baseEnergy,
-    chargeSpeed: spd = 1.0
-  } = wpn
-  return (nrg * spd * gameValues[ch].charge)
-}
-
-function chargeEmergencyRate(wpn, ch) {
-  const {
-    energy: nrg,
-    emergencyChargeSpeed: spd = 1.0
-  } = wpn
-  return (nrg * spd * gameValues[ch].chargeEmergency)
-}
-
-function energyUse(wpn, ch) {
-  const {
-    baseEnergy: nrg = wpn.energy,
-    flightConsumption: usg = 1.0
-  } = wpn
-  return (nrg * usg * gameValues[ch].flightUse)
-}
-
-function boostUse(wpn, ch) {
-  const {
-    baseEnergy: nrg = wpn.energy,
-    boostConsumption: usg = 1.0
-  } = wpn
-  return (nrg * usg * gameValues[ch].boostUse)
-}
-
 const gameScopes = {
   4: '',
 }
@@ -1048,7 +1016,7 @@ const headers = [{
     return wpn.fuel
   },
 }, {
-  id: 'fuelUse',
+  id: 'fuelUsage',
   label: 'Cns',
   tooltip: 'Fuel Consumption',
   cb: wpn => {

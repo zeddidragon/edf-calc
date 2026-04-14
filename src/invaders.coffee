@@ -1,6 +1,6 @@
 import template from "pug-loader!./invaders.pug"
 import headers from "coffee-loader!./headers.coffee"
-import { localize, weaponStats } from "coffee-loader!./weapons.coffee"
+import { localize, weaponStats, processWeapon } from "coffee-loader!./weapons.coffee"
 
 games = [
   '1', '2', '2pv2',
@@ -16,10 +16,19 @@ last = (list) => list[list.length - 1]
 
 locals =
   lang: 'en'
-  stars: { id: "star-#{star}", name: if star >= 10 then "★  #{star}" else "☆  #{star}" } for star in [0..10]
+  stars: [0..10].map (star) =>
+    id: "star-#{star}"
+    star: star
+    name: if star >= 10 then "★  #{star}" else "☆  #{star}"
   games: [
-    games.map (g) => { id: "edf#{g}", name: "EDF#{g.toUpperCase()}" }
-    spinoffs.map (g) => { id: "edf#{g}", name: "EDF:#{g.toUpperCase()}" }
+    games.map (g) =>
+      id: "edf#{g}"
+      num: g.toString()
+      name: "EDF#{g.toUpperCase()}"
+    spinoffs.map (g) =>
+      id: "edf#{g}"
+      num: g.toString()
+      name: "EDF:#{g.toUpperCase()}"
   ].flat()
   localize: localize
   spinoffs: spinoffs
@@ -27,7 +36,6 @@ locals =
 
 window.locals = locals
 locals.star = last locals.stars
-locals.game = locals.games.find (g) => g.id is 'edf6'
 
 window.selectItem = (scope, id) =>
   switch scope
@@ -38,26 +46,31 @@ window.selectItem = (scope, id) =>
     when 'star' then selectStar id
 
 window.selectMode = (modeId) =>
-  locals.modeId = locals.modes.find (m) => m.id is modeId
+  locals.mode = locals.modes.find (m) => m.id is modeId
+  locals.mode or= locals.modes[0]
   render()
 
 window.selectChar = (charId) =>
   locals.char = locals.classes.find (c) => c.id is charId
+  locals.char or= locals.classes[0]
+
   locals.categories =
     for cat in locals.headers[locals.char.id]
       { cat...
         id: cat.category
         name: cat.name or cat.names[locals.lang] or 'ERROR'
       }
-  selectCategory locals.categories[0].category
+  selectCategory params.wpn
 
 window.slice3 = (str) => "<b>#{str[0..2]}</b>#{str[3..]}"
 
 window.selectCategory = (categoryId) =>
   locals.cat = locals.categories.find (c) => c.id is categoryId
+  locals.cat or= locals.categories[0]
 
-  weapons = locals.weapons.filter (wpn) =>
-    wpn.character is locals.char.id and wpn.category is locals.cat.id
+  weapons = locals.weapons
+    .filter (wpn) => wpn.character is locals.char.id and wpn.category is locals.cat.id
+    .map processWeapon
 
   locals.tables =
     if locals.cat.tables
@@ -73,22 +86,26 @@ window.selectCategory = (categoryId) =>
 
 window.selectStar = (starId) =>
   locals.star = locals.stars.find (s) => s.id is starId
+  locals.star or= last locals.stars
   render()
 
 window.weaponStat = (weapon, stat) =>
-  if weaponStats[stat]?
-    weaponStats[stat](weapon, stat)
-  else if weapon[stat]?
-    weapon[stat]
-  else
-    '-'
+  stat =
+    if weaponStats[stat]?
+      weaponStats[stat](weapon, stat)
+    else if weapon[stat]?
+      weapon[stat]
+  stat ? '-'
 
 loadData = (gameId) =>
-  locals.game = locals.games.find (g) => g.id is gameId
+  locals.game = locals.games.find (g) => g.num is gameId
+  locals.game or= locals.games.find (g) => g.id is gameId
+  locals.game or= locals.games.find (g) => g.id is 'edf6'
+  locals.game or= locals.games[0]
   locals.isLoading = true
   render()
 
-  data = await fetch "./weapons-#{gameId[3...]}.json"
+  data = await fetch "./weapons-#{locals.game.num}.json"
     .then (res) => res.json()
 
   locals.isLoading = false
@@ -97,14 +114,21 @@ loadData = (gameId) =>
   locals.modes = [
     { id: 'stats', name: 'Stats' }
     ...(data.modes
-      .filter (m) -> m.difficulties?[0].dropsLow
-      .map (m) -> { id: m.name.toLowerCase(), ...m })
+      .filter (m) => m.difficulties?[0].dropsLow
+      .map (m) => { id: m.name.toLowerCase(), ...m })
   ]
   locals.mode = locals.modes[0]
-  locals.classes = data.classes.map (id, i) -> { id, name: data.charLabels[i] }
-  selectChar locals.classes[0].id
+  locals.classes = data.classes.map (id, i) => { id, name: data.charLabels[i] }
+  selectChar params.char
 
 render = =>
   document.body.innerHTML = template(locals)
 
-loadData locals.game.id
+pairs = window.location.hash
+  .slice 1
+  .split '&'
+  .map (item) => item.split '='
+params = Object.fromEntries pairs
+await loadData params.game
+selectMode params.mode if params.mode
+selectStar params.star if params.star isnt 10

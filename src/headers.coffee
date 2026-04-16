@@ -1,4 +1,4 @@
-export default
+export headers =
   checkbox:
     label: '✓'
     tooltip: 'Weapon Acquired'
@@ -284,4 +284,3 @@ export default
   dpe:
     label: 'DPE'
     tooltip: 'Damage Per Energy'
-

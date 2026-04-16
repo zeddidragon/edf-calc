@@ -1,12 +1,19 @@
+mixin dropdownItem(item)
+  if item.label
+    != item.label
+  else
+    != slice3(item.name)
+
 mixin dropdown(scope, list, selection)
   .dropdown
     .button(class={ [selection.id]: true })
-      != slice3(selection.name)
+      +dropdownItem(selection)
     menu
       each item in list
         a(onclick=`selectItem("${scope}", "${item.id}")`
           class={ [item.id]: true, selected: selection.id === item.id }
-        )!= slice3(item.name)
+        )
+          +dropdownItem(item)
 
 mixin topMenus
   header#top-menus

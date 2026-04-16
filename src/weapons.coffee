@@ -1,12 +1,41 @@
-import { accuracy } from 'coffee-loader!./accuracy.coffee'
-import { FPS, byFps } from 'coffee-loader!./framerate.coffee'
-import { headers as damageHeaders } from 'coffee-loader!./damage.coffee'
+import { accuracy } from './accuracy.coffee'
+import { FPS, byFps } from './framerate.coffee'
+import { headers as damageHeaders } from './damage.coffee'
 
 $ = document.createElement.bind document
 
-weaponKey = (wpn ,type = 'owned') =>
+weaponKey = (wpn, type = 'owned') =>
   scope = if locals.game.id is '41' then '' else ".#{locals.game.id[3..]}"
   "#{type}#{scope}.#{wpn.id}"
+
+checkbox = (scope) =>
+  (wpn) =>
+    return null unless wpn.id
+    key = weaponKey wpn, scope
+    el = $ 'input'
+    el.setAttribute 'type' ,'checkbox'
+    el.setAttribute 'checked', '1' if localStorage[key] > 0
+    el.setAttribute 'onchange', "toggleCheckWeapon('#{scope}', '#{wpn.id}')"
+    el.setAttribute 'id', key
+    el.outerHTML
+
+window.toggleCheckWeapon = (scope, id) =>
+  closeSaveLoad()
+  wpn = locals.weapons.find (w) => w.id is id
+  unless wpn
+    throw new Error "Weapon not found: #{id}"
+
+  key = weaponKey wpn, scope
+  checked = 1 - (localStorage[key] or 0)
+  localStorage[key] = checked
+
+  # If a weapon is starred, it must be owned. Enforce this.
+  if scope is 'starred' and checked
+    key = weaponKey wpn, 'owned'
+    localStorage[key] = checked
+    document
+      .getElementById key
+      .checked = checked
 
 starValue = ({ base, algo, lvMax, zero, exp, type }, star) =>
   sign = 1.0
@@ -33,6 +62,19 @@ starValue = ({ base, algo, lvMax, zero, exp, type }, star) =>
 
   [star, result]
 
+getValue = (wpn, prop, obj) =>
+  value = wpn[prop]
+  return value if not value? or typeof value is 'number'
+
+  if prop is 'energy' and wpn.category is 'core'
+    obj.baseEnergy = if isNaN(value) then value.base else value
+
+  if value?.base?
+    [star, v] = starValue value, locals.star.star
+    obj["#{prop}Star"] = star
+    obj["#{prop}StarMax"] = value.lvMax
+    v
+
 SCALED_PROPS = [
   'ammo'
   'hp'
@@ -50,29 +92,43 @@ SCALED_PROPS = [
   'windup'
 ]
 
-getValue = (wpn, prop, obj) =>
-  value = wpn[prop]
-  return value if not value? or typeof value is 'number'
+export processWeapon = (weapon) =>
+  wpn = { ...weapon }
 
-  if prop is 'energy' and wpn.category is 'core'
-    obj.baseEnergy = if isNaN(value) then value.base else value
-
-  if value?.base?
-    [star, v] = starValue value, locals.star.star
-    obj["#{prop}Star"] = star
-    obj["#{prop}StarMax"] = value.lvMax
-    v
-
-export processWeapon = (wpn) =>
-  obj = { wpn... }
-
-  if wpn.category is 'core' and wpn.energy
-    obj.baseEnergy = wpn.energy.base or wpn.energy
+  if weapon.category is 'core' and weapon.energy
+    wpn.baseEnergy = weapon.energy.base or weapon.energy
 
   for prop in SCALED_PROPS
-    if wpn[prop]?.base?
-      obj[prop] = getValue wpn, prop, obj
-  obj
+    if weapon[prop]?.base?
+      wpn[prop] = getValue weapon, prop, wpn
+
+  if wpn.attacks?.length and wpn.character is 'bomber' # Balam / Barga
+    [ wpn,
+      ...(wpn.weapons or [])
+      ...wpn.attacks.map composeAttack wpn
+    ]
+  else if wpn.attacks?.length
+    [ { ...wpn, ...composeAttack(wpn, wpn.attacks[0]), name: wpn.name }
+      ...wpn.attacks[1..].map composeAttack wpn
+    ]
+  else if wpn.weapons?.length
+    [ wpn
+      ...wpn.weapons
+    ]
+  else
+    wpn
+
+composeAttack = (weapon) => (attack) =>
+  {
+    ...attack,
+    damage: (weapon.damage or 1) * attack.damage
+    speed: weapon.speed * attack.speed
+    piercing: weapon.piercing
+    count: weapon.count
+    life: weapon.life
+    isSwing: weapon.attacks.length > 1
+    isSubAttack: true
+  }
 
 percent = (val, decimals) =>
   (100 * val).toFixed(decimals) + '%'
@@ -152,25 +208,10 @@ boostProp = (propOverride) =>
       percent value, 0
 
 export weaponStats = {
-  damageHeaders...
+  ...damageHeaders
 
-  checkbox: (wpn) =>
-    return '' unless wpn.id
-    key = weaponKey wpn
-    el = $ 'input'
-    el.setAttribute 'type' ,'checkbox'
-    el.setAttribute 'checked', '1' if localStorage[key] > 0
-    el.setAttribute 'onchange', "toggleCheckWeapon('owned', '#{wpn.id}')"
-    el.outerHTML
-
-  stars: (wpn) =>
-    return '' unless wpn.id
-    key = weaponKey wpn, 'starred'
-    el = $ 'input'
-    el.setAttribute 'type' ,'checkbox'
-    el.setAttribute 'checked', '1' if localStorage[key] > 0
-    el.setAttribute 'onchange', "toggleCheckWeapon('owned', '#{wpn.id}')"
-    el.outerHTML
+  checkbox: checkbox 'owned'
+  stars: checkbox 'starred'
 
   level: (wpn) =>
     { level } = wpn

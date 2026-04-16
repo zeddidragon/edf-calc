@@ -1,4 +1,4 @@
-import { FPS, byFps } from 'coffee-loader!./framerate.coffee'
+import { FPS, byFps } from './framerate.coffee'
 $ = document.createElement.bind document
 
 critAvg = (wpn) =>
@@ -155,7 +155,7 @@ export headers =
 
     if wpn.shotInterval and wpn.category isnt 'gunship' # Turret
       return quickDps({
-        wpn...
+        ...wpn
         shots: wpn.ammo
         interval: wpn.shotInterval
       }).toFixed()
@@ -185,7 +185,7 @@ export headers =
   dps2: (wpn) =>
     if wpn.shotInterval && wpn.shots > 5 # Turret or gunship
       return quickDps({
-        wpn...
+        ...wpn
         shots: 1
         interval: wpn.shotInterval
       }).toFixed()
@@ -229,7 +229,7 @@ export headers =
 
     if wpn.shotInterval # Turret
       return +tacticalDps({
-        wpn...
+        ...wpn
         shots: wpn.ammo
         interval: wpn.shotInterval
         ammo: wpn.shots

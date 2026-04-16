@@ -8,8 +8,17 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export default {
-  entry: "./src/index.js",
+  entry: "./src/invaders.coffee",
   mode: 'development',
+  module: {
+    rules: [{
+      test: /\.coffee$/,
+      use: ['coffee-loader'],
+    }, {
+      test: /\.pug/,
+      use: ['pug-loader'],
+    }],
+  },
   devServer: {
     client: {
       overlay: true,

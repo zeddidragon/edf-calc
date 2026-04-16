@@ -1,6 +1,7 @@
-import template from "pug-loader!./invaders.pug"
-import headers from "coffee-loader!./headers.coffee"
-import { localize, weaponStats, processWeapon } from "coffee-loader!./weapons.coffee"
+import template from './invaders.pug'
+import { headers } from './headers.coffee'
+import { readState, writeState } from './saving.coffee'
+import { localize, weaponStats, processWeapon } from './weapons.coffee'
 
 games = [
   '1', '2', '2pv2',
@@ -25,14 +26,22 @@ locals =
       id: "edf#{g}"
       num: g.toString()
       name: "EDF#{g.toUpperCase()}"
+      label: "<b>EDF#{g[0]}</b>#{g[1..].toUpperCase()}"
     spinoffs.map (g) =>
       id: "edf#{g}"
       num: g.toString()
       name: "EDF:#{g.toUpperCase()}"
+      label: "EDF:<b>#{g.toUpperCase()}</b>"
   ].flat()
   localize: localize
   spinoffs: spinoffs
   headerDefinitions: headers
+
+# Put the dot in 4.1
+locals
+  .games
+  .find (g) => g.id is 'edf41'
+  .label = '<b>EDF4</b>.1'
 
 window.locals = locals
 locals.star = last locals.stars
@@ -50,15 +59,33 @@ window.selectMode = (modeId) =>
   locals.mode or= locals.modes[0]
   render()
 
+buttonPrefixes = [
+  'Drops '
+  'CC '
+  'Enhanced '
+  'Request '
+  'Mid-Rg '
+]
+
 window.selectChar = (charId) =>
   locals.char = locals.classes.find (c) => c.id is charId
   locals.char or= locals.classes[0]
 
   locals.categories =
     for cat in locals.headers[locals.char.id]
-      { cat...
+      name = cat.name or cat.names[locals.lang] or 'ERROR'
+      prefix = buttonPrefixes.find (pfx) => name.startsWith pfx
+      label =
+        if prefix
+          l = prefix.length
+          "#{prefix}<b>#{name[l..(l + 1)]}</b>#{name[(l + 2)..]}"
+        else
+          "<b>#{name[0..1]}</b>#{name[2..]}"
+
+      { ...cat
         id: cat.category
-        name: cat.name or cat.names[locals.lang] or 'ERROR'
+        name
+        label
       }
   selectCategory params.wpn
 
@@ -70,17 +97,17 @@ window.selectCategory = (categoryId) =>
 
   weapons = locals.weapons
     .filter (wpn) => wpn.character is locals.char.id and wpn.category is locals.cat.id
-    .map processWeapon
+    .flatMap processWeapon
 
   locals.tables =
     if locals.cat.tables
       locals.cat.tables.map (table) =>
-        { locals.cat...
-          table...
+        { ...locals.cat
+          ...table
           weapons: weapons.filter (wpn) => wpn.subCategory is table.subCategory
         }
     else
-      [{ locals.cat..., weapons: weapons }]
+      [{ ...locals.cat, weapons: weapons }]
 
   render()
 
@@ -115,20 +142,22 @@ loadData = (gameId) =>
     { id: 'stats', name: 'Stats' }
     ...(data.modes
       .filter (m) => m.difficulties?[0].dropsLow
-      .map (m) => { id: m.name.toLowerCase(), ...m })
+      .map (m) => {
+        id: m.name.toLowerCase()
+        label: "Drops <b>#{m.name}</b>"
+          ...m
+      }
+    )
   ]
   locals.mode = locals.modes[0]
   locals.classes = data.classes.map (id, i) => { id, name: data.charLabels[i] }
   selectChar params.char
 
 render = =>
-  document.body.innerHTML = template(locals)
+  writeState()
+  document.body.innerHTML = template locals
 
-pairs = window.location.hash
-  .slice 1
-  .split '&'
-  .map (item) => item.split '='
-params = Object.fromEntries pairs
+params = readState()
 await loadData params.game
 selectMode params.mode if params.mode
 selectStar params.star if params.star isnt 10

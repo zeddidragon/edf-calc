@@ -1,7 +1,8 @@
 import { accuracy } from 'coffee-loader!./accuracy.coffee'
+import { FPS, byFps } from 'coffee-loader!./framerate.coffee'
+import { headers as damageHeaders } from 'coffee-loader!./damage.coffee'
 
 $ = document.createElement.bind document
-FPS = 60
 
 weaponKey = (wpn ,type = 'owned') =>
   scope = if locals.game.id is '41' then '' else ".#{locals.game.id[3..]}"
@@ -33,20 +34,20 @@ starValue = ({ base, algo, lvMax, zero, exp, type }, star) =>
   [star, result]
 
 SCALED_PROPS = [
-  'ammo',
-  'hp',
-  'damage',
-  'count',
-  'radius',
-  'interval',
-  'reload',
-  'accuracy',
-  'speed',
-  'burstRate',
-  'lockRange',
-  'lockTime',
-  'energy',
-  'windup',
+  'ammo'
+  'hp'
+  'damage'
+  'count'
+  'radius'
+  'interval'
+  'reload'
+  'accuracy'
+  'speed'
+  'burstRate'
+  'lockRange'
+  'lockTime'
+  'energy'
+  'windup'
 ]
 
 getValue = (wpn, prop, obj) =>
@@ -76,18 +77,15 @@ export processWeapon = (wpn) =>
 percent = (val, decimals) =>
   (100 * val).toFixed(decimals) + '%'
 
-byFps = (val, decimals) =>
-  (val / FPS).toFixed(decimals)
-
 decimalProp = (decimals, propOverride) =>
   (wpn, prop) =>
     value = wpn[propOverride or prop]
     value.toFixed(decimals) if value
 
-percentProp = (decimals, propOverride) =>
+percentProp = (decimals, propOverride, offset = 0) =>
   (wpn, prop) =>
     value = wpn[propOverride or prop]
-    percent value, decimals if value
+    percent (value + offset), decimals if value
 
 invertPercentProp = (decimals, propOverride) =>
   (wpn, prop) =>
@@ -99,19 +97,14 @@ fpsProp = (decimals, propOverride) =>
     value = wpn[propOverride or prop]
     byFps value, decimals if value
 
-suffixProp = (mark = "x", propOverride) =>
+suffixProp = (propOverride, mark = 'x') =>
   (wpn, prop) =>
     value = wpn[propOverride or prop]
-    "#{value}x" if value
+    "#{value}#{mark}" if value
 
-bool = (mark, propOverride) =>
+bool = (propOverride, mark = '✓') =>
   (wpn, prop) =>
     mark if wpn[propOverride or prop]
-
-falloff = (wpn, dmg) =>
-  [ (+dmg).toFixed(1),
-    (dmg * wpn.falloff[0]).toFixed(1)
-  ].join('~')
 
 export localize = (prop, fallback) =>
   unless prop
@@ -158,7 +151,9 @@ boostProp = (propOverride) =>
     if value and value isnt 1
       percent value, 0
 
-export weaponStats =
+export weaponStats = {
+  damageHeaders...
+
   checkbox: (wpn) =>
     return '' unless wpn.id
     key = weaponKey wpn
@@ -326,71 +321,34 @@ export weaponStats =
     else if wpn.supportType is 'guard'
       percent wpn.damage, 2
 
-  boost: percentProp 2
+  boost: (wpn) => percent wpn.damage, 2 if wpn.damage
   chargeTime: fpsProp 1
   piercing: bool '[PT]'
+  range: (wpn) =>
+    if wpn.range and wpn.growth
+      maxRange = wpn.growth[wpn.growth.length - 1].range
+      return "#{wpn.range}→#{maxRange}" unless maxRange is wpn.range
 
-  damage: (wpn) =>
-    return localize wpn.damageRank if wpn.damageRank?
-    return wpn.recoveryAmount if wpn.recoveryAmount?
-    return null unless wpn.damage
+    return wpn.searchRange if wpn.searchRange
+    return "+#{wpn.shieldAngle}°" if wpn.shieldAngle
+    return "#{wpn.range}°" if wpn.category is 'shield'
+    return wpn.range if wpn.range
+    return null if (wpn.speed or 0) <= 0 or (wpn.life or 0) <= 0
+    (wpn.speed * wpn.life).toFixed(1)
 
-    if wpn.damage2 and wpn.tags?.includes 'puncher'
-      return "#{wpn.damage} | #{wpn.damage2} x #{wpn.count}"
+  piercingRange: (wpn) =>
+    return null unless wpn.piercing
+    life = if wpn.piercingLife then wpn.piercingLife + 1 else wpn.life
+    (wpn.speed * (life or 1)).toFixed(1)
 
-    if ['power', 'guard'].includes wpn.supportType
-      return "#{(+wpn.damage).toFixed(2)}"
+  lockRange: (wpn) =>
+    return wpn.lockRangeRank if wpn.lockRangeRank
+    if wpn.category is 'missile'
+      return null unless wpn.lockRange
+      return (+wpn.lockRange).toFixed(0)
 
-    if wpn.damage < 1 and wpn.damage > -1
-      return +Math.abs(wpn.damage).toFixed(2)
-
-    dmg = +Math.abs(wpn.damage).toFixed(1)
-    if wpn.falloff
-      dmg = falloff wpn, dmg
-
-    if wpn.growth
-      maxDmg = wpn.growth[wpn.growth.length - 1].damage
-      if maxDmg > dmg
-        dmg = "#{dmg}→#{maxDmg}"
-
-    if wpn.count > 1
-      dmg = "#{dmg} x #{wpn.count}"
-
-    return dmg if wpn.type is 'SentryGunBullet01'
-
-    ignoreShots = [
-      'raid',
-      'artillery',
-      'gunship',
-      'planes',
-      'missile',
-      'satellite',
-    ].includes(wpn.category) or (
-      wpn.character is 'winger' and [
-        'special',
-      ].includes(wpn.category))
-
-    if wpn.shots > 1 and not ignoreShots
-      dmg = "#{dmg} x #{wpn.shots}"
-
-    dmg
-
-  damage2: (wpn) =>
-    return null unless wpn.continous
-    dmg = Math.abs wpn.damage
-    return +Math.abs(dmg * wpn.duration).toFixed(1)
-
-  damageType: (wpn) =>
-    type = switch wpn.damageType
-      when 'physical' then 'P'
-      when 'optics' then 'O'
-      when 'flame' then 'F'
-    return null unless type
-    tag = $ 'span'
-    tag.classList.add 'damage-type'
-    tag.classList.add wpn.damageType
-    tag.textContent = type
-    tag.outerHTML
+    return null if (wpn.speed or 0) <= 0 or (wpn.life or 0) <= 0
+    (wpn.speed * wpn.life).toFixed(0)
 
   effect: (wpn) =>
     return null unless wpn.effect
@@ -407,6 +365,7 @@ export weaponStats =
       else wpn.effect
     tag.outerHTML
 
+  revive: suffixProp 'revive', '%'
   shots: (wpn) =>
     shots = wpn.shots or 1
     if wpn.units > 1 then "#{wpn.units} x #{shots}" else shots
@@ -460,16 +419,16 @@ export weaponStats =
     if wpn.shotInterval and wpn.shots >= 5
       (FPS / wpn.shotInterval).toFixed(1)
 
-  intervalOD: suffixProp 'x', 'intervalOverdrive'
-  reloadOD: suffixProp 'x', 'reloadOverdrive'
+  intervalOD: suffixProp 'intervalOverdrive'
+  reloadOD: suffixProp 'reloadOverdrive'
   windup: fpsProp 2
-  swing: suffixProp 'x', 'swing'
+  swing: suffixProp 'swing'
 
   lockTime: (wpn) =>
     return wpn.lockTimeSeconds if wpn.lockTimeSeconds
     byFps wpn.lockTime, 2 if wpn.lockTime
 
-  credits: bool '(CR)'
+  credits: bool 'credits', '(CR)'
 
   reload: (wpn) =>
     return wpn.reloadSeconds if wpn.reloadSeconds
@@ -534,13 +493,16 @@ export weaponStats =
   sprintSpeedBoost: percentProp 0, 'sprintSpeed'
   sprintTurnBoost: percentProp 0, 'sprintSwirl'
   sprintAccelerationBoost: percentProp 0, 'sprintAcceleration'
-  sprintHitSlowDown: percentProp 0
-  sprintBreakObstacles: bool '✓', 'sprintDestruction'
-  lockSpeedBoost: suffixProp 'x', 'lockTime'
-  lockRangeBoost: suffixProp 'x', 'lockRange'
-  lockMulti: bool '✓', 'isMultiLock'
+  sprintHitSlowdown: percentProp 0
+  sprintBreakObstacles: bool 'sprintDestruction'
+  lockSpeedBoost: suffixProp 'lockTime'
+  lockRangeBoost: suffixProp 'lockRange'
+  lockMulti: bool 'isMultiLock'
   dashCooldown: percentProp 0, 'dashInterval'
   boostSpeed: percentProp 0
+  healAllyBoost: percentProp 0, 'allyRecovery'
+  probeRadius: percentProp 0, 'itemRange', -1
+  knockdownImmunity: bool 'isKnockImmune'
 
   convertible: (wpn) =>
     if wpn.dashToBoost then "⇒ → ⇑"
@@ -552,3 +514,4 @@ export weaponStats =
   equipWalkReduction: invertPercentProp 0, 'equipWeightMoveReduction'
   equipTurnReduction: invertPercentProp 0, 'equipWeightTurnReduction'
   recoil: invertPercentProp 0, 'equipRecoil'
+}

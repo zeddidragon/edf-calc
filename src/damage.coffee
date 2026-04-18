@@ -50,20 +50,20 @@ magDamage = (wpn) =>
   else
     shotDamage(wpn) * Math.ceil(wpn.ammo / (wpn.drain or 1))
 
-burstTime = (wpn) =>
-  (wpn.burst or 1) * (wpn.burstRate or 0) + (wpn.interval or 1)
+window.burstTime = (wpn) =>
+  (wpn.burst or 1) * (wpn.burstRate or 1) + (wpn.interval or 1)
 
-quickDps = (wpn) =>
+window.quickDps = (wpn) =>
   FPS * burstDamage(wpn) / burstTime(wpn)
 
-tacticalDps = (wpn) =>
+window.tacticalDps = (wpn) =>
   magDamage(wpn) / cycleTime(wpn)
 
-cycleTime = (wpn) =>
+window.cycleTime = (wpn) =>
   interval = wpn.interval or 1
   bursts = wpn.ammo / (wpn.burst or 1)
   bTime = burstTime(wpn)
-  magTime = bursts * bTime + wpn.reload - interval + (wpn.windup || 0)
+  magTime = bursts * bTime + (wpn.reload or 0) - interval + (wpn.windup || 0)
   if wpn.lockType is 1
     count = if wpn.lockDist is 1 then wpn.count else wpn.ammo
     magTime += (wpn.lockTime or 0) * count
@@ -225,7 +225,7 @@ export headers =
 
     return null unless wpn.ammo
     return null if wpn.attacks?.length
-    return null if wpn.reload < 0
+    return null unless wpn.reload > 0
 
     if wpn.shotInterval # Turret
       return +tacticalDps({

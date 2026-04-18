@@ -617,6 +617,9 @@ const headers = {
       en: 'Mid-Rg Lasers',
       ja: '中距離-レーザー',
     },
+    labels: {
+      en: 'Mid-Rg <b>La</b>sers',
+    },
     headers: [
       'checkbox',
       'stars',
@@ -642,6 +645,9 @@ const headers = {
     names: {
       en: 'Mid-Rg Electroshock',
       ja: '中距離-電撃',
+    },
+    labels: {
+      en: 'Mid-Rg <b>El</b>ectroshock',
     },
     headers: [
       'checkbox',
@@ -819,6 +825,9 @@ const headers = {
       en: 'CC Strikers',
       ja: '近接-打',
     },
+    labels: {
+      en: 'CC <b>St</b>rikers',
+    },
     headers: [
       'checkbox',
       'stars',
@@ -838,6 +847,9 @@ const headers = {
     names: {
       en: 'CC Piercers',
       ja: 'ブレード系',
+    },
+    labels: {
+      en: 'CC <b>Pi</b>ercers',
     },
     headers: [
       'checkbox',
@@ -984,6 +996,9 @@ const headers = {
       en: 'Enhanced Boosters',
       ja: '補助装備',
     },
+    labels: {
+      en: 'Enhanced <b>Bo</b>osters'
+    },
     headers: [
       'checkbox',
       'level',
@@ -998,6 +1013,9 @@ const headers = {
     names: {
       en: 'Enhanced Shields',
       ja: 'シールド強化',
+    },
+    labels: {
+      en: 'Enhanced <b>Sh</b>ields'
     },
     headers: [
       'checkbox',
@@ -1016,6 +1034,9 @@ const headers = {
       en: 'Enhanced Cannons',
       ja: '砲撃強化',
     },
+    labels: {
+      en: 'Enhanced <b>Ca</b>nnons'
+    },
     headers: [
       'checkbox',
       'level',
@@ -1027,6 +1048,9 @@ const headers = {
     names: {
       en: 'Enhanced Exoskeleton',
       ja: 'スケルトン強化',
+    },
+    labels: {
+      en: 'Enhanced <b>Ex</b>oskeleton'
     },
     headers: [
       'checkbox',
@@ -1044,6 +1068,9 @@ const headers = {
     names: {
       en: 'Request Artillery Units',
       ja: '砲兵隊',
+    },
+    labels: {
+      en: 'Request <b>Ar</b>tillery Units',
     },
     appendix: '*Area for each blast',
     headers: [
@@ -1063,6 +1090,9 @@ const headers = {
     names: {
       en: 'Request Gunships',
       ja: '攻撃機ホエール',
+    },
+    labels: {
+      en: 'Request <b>Gu</b>nships',
     },
     appendix: '*For barrage shots',
     headers: [
@@ -1092,6 +1122,9 @@ const headers = {
       en: 'Request Bombers',
       ja: '爆撃機カロン＆ミッドナイト',
     },
+    labels: {
+      en: 'Request <b>Bo</b>mbers',
+    },
     appendix: '*Area for each blast',
     headers: [
       'checkbox',
@@ -1111,6 +1144,9 @@ const headers = {
     names: {
       en: 'Request Missiles',
       ja: 'ミサイル',
+    },
+    labels: {
+      en: 'Request <b>Mi</b>ssiles',
     },
     headers: [
       'checkbox',
@@ -1132,6 +1168,9 @@ const headers = {
     names: {
       en: 'Request Satellites',
       ja: '攻撃機ホエール',
+    },
+    labels: {
+      en: 'Request <b>Sa</b>tellites',
     },
     headers: [
       'checkbox',

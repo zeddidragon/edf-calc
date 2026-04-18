@@ -3,11 +3,13 @@
   "private": true,
   "scripts": {
     "start": "webpack serve",
-    "build": "webpack"
+    "build": "webpack",
+    "calcdata": "node devtools/calcdata.js"
   },
   "devDependencies": {
     "coffee-loader": "^5.0.0",
     "coffeescript": "^2.7.0",
+    "json-stringify-pretty-compact": "^4.0.0",
     "pug-loader": "^2.4.0",
     "webpack": "^5.106.1",
     "webpack-cli": "^7.0.2",

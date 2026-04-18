@@ -14,7 +14,7 @@ extractCalcdata()
     if(isDebug) {
       console.log(data)
     } else {
-      const path = `src/weapons-${game}.json`
+      const path = `public/weapons-${game}.json`
       console.log(path)
       await fs.writeFile(path, json(data))
     }

@@ -18,7 +18,7 @@ export writeState = () =>
   if locals.star
     state.star = locals.star.star
   if locals.lang
-    state.lang = locals.lang
+    state.lang = locals.lang.id
 
   window.location.hash = Object.entries state
     .map (pair) => pair.join '='

@@ -3,6 +3,8 @@ import { headers } from './headers.coffee'
 import { readState, writeState } from './saving.coffee'
 import { localize, weaponStats, processWeapon } from './weapons.coffee'
 
+params = readState()
+
 games = [
   '1', '2', '2pv2',
   '3', '3p', '4', '41',
@@ -16,7 +18,6 @@ gameLabels[game] = "EDF:#{game}" for game in spinoffs
 last = (list) => list[list.length - 1]
 
 locals =
-  lang: 'en'
   stars: [0..10].map (star) =>
     id: "star-#{star}"
     star: star
@@ -37,6 +38,8 @@ locals =
   spinoffs: spinoffs
   headerDefinitions: headers
 
+window.slice3 = (str) => "<b>#{str[0..2]}</b>#{str[3..]}"
+
 # Put the dot in 4.1
 locals
   .games
@@ -53,18 +56,17 @@ window.selectItem = (scope, id) =>
     when 'class' then selectChar id
     when 'category' then selectCategory id
     when 'star' then selectStar id
+    when 'lang' then selectLang id
 
 window.selectMode = (modeId) =>
   locals.mode = locals.modes.find (m) => m.id is modeId
   locals.mode or= locals.modes[0]
+
+  params.mode = locals.mode.id
   render()
 
 buttonPrefixes = [
   'Drops '
-  'CC '
-  'Enhanced '
-  'Request '
-  'Mid-Rg '
 ]
 
 window.selectChar = (charId) =>
@@ -73,23 +75,18 @@ window.selectChar = (charId) =>
 
   locals.categories =
     for cat in locals.headers[locals.char.id]
-      name = cat.name or cat.names[locals.lang] or 'ERROR'
-      prefix = buttonPrefixes.find (pfx) => name.startsWith pfx
-      label =
-        if prefix
-          l = prefix.length
-          "#{prefix}<b>#{name[l..(l + 1)]}</b>#{name[(l + 2)..]}"
-        else
-          "<b>#{name[0..1]}</b>#{name[2..]}"
+      name = cat.name or cat.names[locals.lang.id] or 'ERROR'
+      label = cat.label or cat.labels?[locals.lang.id]
+      label or= "<b>#{name[0..1]}</b>#{name[2..]}"
 
       { ...cat
         id: cat.category
         name
         label
       }
-  selectCategory params.wpn
 
-window.slice3 = (str) => "<b>#{str[0..2]}</b>#{str[3..]}"
+  params.char = locals.char.id
+  selectCategory params.wpn
 
 window.selectCategory = (categoryId) =>
   locals.cat = locals.categories.find (c) => c.id is categoryId
@@ -109,11 +106,22 @@ window.selectCategory = (categoryId) =>
     else
       [{ ...locals.cat, weapons: weapons }]
 
+  params.wpn = locals.cat.id
   render()
 
 window.selectStar = (starId) =>
   locals.star = locals.stars.find (s) => s.id is starId
+  locals.star or= locals.stars.find (s) => s.star is starId
   locals.star or= last locals.stars
+
+  params.star = locals.star?.star
+  render()
+
+window.selectLang = (langId) =>
+  locals.lang = locals.langs.find (l) => l.id is langId
+  locals.lang or= locals.langs[0]
+
+  params.lang = locals.lang.id
   render()
 
 window.weaponStat = (weapon, stat) =>
@@ -151,13 +159,14 @@ loadData = (gameId) =>
   ]
   locals.mode = locals.modes[0]
   locals.classes = data.classes.map (id, i) => { id, name: data.charLabels[i] }
+  locals.langs = data.langs.map (lang) => { id: lang, name: lang } if data.langs
+  locals.lang = locals.langs?.find (l) => l.id is  locals.langs?[0] or { id: 'lang-en', name: 'en' }
   selectChar params.char
 
 render = =>
   writeState()
   document.body.innerHTML = template locals
 
-params = readState()
 await loadData params.game
 selectMode params.mode if params.mode
 selectStar params.star if params.star isnt 10

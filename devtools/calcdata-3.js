@@ -3,8 +3,6 @@ import { getNode } from './get-node.js'
 import { loadJson } from './load-sgott.js'
 import bullets from './bullets.js'
 
-bullets.assignGame(3)
-
 const classes = [
   'ranger',
 ]
@@ -555,6 +553,8 @@ async function processMode({ value: mode }) {
 }
  
 export default async function extractCalcdata() {
+  bullets.assignGame(3)
+
   const [
     weapons,
     pWeapons,
@@ -563,6 +563,9 @@ export default async function extractCalcdata() {
   ])
   return {
     langs: ['en'],
+    gameValues: {
+      hasDropWeights: true,
+    },
     classes,
     charLabels: [
       'Storm',

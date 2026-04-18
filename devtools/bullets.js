@@ -350,9 +350,9 @@ export async function AirRaids(wpn) {
     }
     case 'bomber': {
       let subMunitions
-      if(game === 4) {
+      if(game == 4) {
         subMunitions = wpn.custom[4].value[10].value
-      } else if(game === 41) {
+      } else if(game == 41) {
         subMunitions = wpn.custom[4].value[10].value
       } else {
         subMunitions = wpn.custom[2].value[10].value
@@ -499,14 +499,14 @@ export async function SmokeCandleBullet01(wpn) {
     .map(v => v.value[0])
     .map(v => v?.value)
     .filter(v => v)
-
+  
   const weapons = await Promise.all([
     ...(setup || []),
     ...(setupBikes || []),
     ...(setupVegalta || []),
   ].map(loadLinked))
   wpn.weapons = weapons.map(template => {
-    const subWpn = { names: { ja: null, en: null } }
+    const subWpn = {}
     const namesNode = getNode(template, 'name')
     if(Array.isArray(namesNode?.value)) {
       const [ja, en] = namesNode.value.map(v => v.value)

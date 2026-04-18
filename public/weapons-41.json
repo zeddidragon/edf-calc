@@ -1,5 +1,6 @@
 {
   "langs": ["en", "ja"],
+  "gameValues": {"hasDropWeights": true},
   "classes": ["ranger", "winger", "bomber", "fencer"],
   "charLabels": ["Ranger", "Wing Diver", "Air Raider", "Fencer"],
   "weapons": [

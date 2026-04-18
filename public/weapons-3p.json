@@ -1,5 +1,6 @@
 {
   "langs": ["en"],
+  "gameValues": {"hasDropWeights": true},
   "classes": ["ranger", "winger"],
   "charLabels": ["Storm", "Pale Wing"],
   "headers": {

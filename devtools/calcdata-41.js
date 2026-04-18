@@ -3,8 +3,6 @@ import { getNode } from './get-node.js'
 import { loadJson } from './load-sgott.js'
 import bullets from './bullets.js'
 
-bullets.assignGame(41)
-
 const classes = [
   'ranger',
   'winger',
@@ -1407,6 +1405,8 @@ async function extractModesData(config) {
 }
 
 export default async function extractCalcdata() {
+  bullets.assignGame(41)
+
   const [
     weapons,
     modes,
@@ -1420,6 +1420,9 @@ export default async function extractCalcdata() {
   ])
   return {
     langs: ['en', 'ja'],
+    gameValues: {
+      hasDropWeights: true,
+    },
     classes: [
       'ranger',
       'winger',

@@ -3,6 +3,8 @@
   "classes": ["ranger", "winger", "bomber", "fencer"],
   "charLabels": ["Ranger", "Wing Diver", "Air Raider", "Fencer"],
   "gameValues": {
+    "hasStars": true,
+    "hasDropWeight": true,
     "winger": {
       "charge": 0.06,
       "chargeEmergency": 0.15,

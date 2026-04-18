@@ -1,5 +1,6 @@
 {
   "langs": ["en"],
+  "gameValues": {"hasDropWeights": true},
   "classes": ["ranger"],
   "charLabels": ["Storm"],
   "headers": {

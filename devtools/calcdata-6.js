@@ -3,8 +3,6 @@ import { getNode } from './get-node.js'
 import { setGame, loadJson } from './load-sgott.js'
 import bullets from './bullets.js'
 
-bullets.assignGame(6)
-
 const classes = [
   'ranger',
   'winger',
@@ -2164,6 +2162,8 @@ async function extractModesData(config) {
 }
 
 export default async function extractCalcdata() {
+  bullets.assignGame(6)
+
   const [
     weapons,
     modes,
@@ -2199,6 +2199,8 @@ export default async function extractCalcdata() {
       'Fencer',
     ],
     gameValues: {
+      hasStars: true,
+      hasDropWeight: true,
       winger: {
         charge: 0.06,
         chargeEmergency: 0.15,

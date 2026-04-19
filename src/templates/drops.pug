@@ -1,3 +1,5 @@
+include ./tables.pug
+
 - table = tables[0]
 table.drops-table
   thead
@@ -11,7 +13,7 @@ table.drops-table
     for weapon in table.weapons
       tr
         for header in table.headers
-          td!= weaponStat(weapon, header)
+          +statCells(weapon, header, weaponStat(weapon, header))
         for drop in weapon.drops
           if drop && drop.from
             td.from= drop.from

@@ -1,0 +1,28 @@
+mixin statCells(weapon, header, value)
+  if Array.isArray(value)
+    for v in value
+      +statCells(weapon, header, v)
+  else if typeof value === 'object'
+    td(class=value.class colspan=value.colspan)
+      +statSubCell(weapon, header, value.value)
+  else if value == null
+    td(class=header)
+      +statSubCell(weapon, header, value)
+
+mixin statSubCell(weapon, header, value)
+  if value == null
+    | -
+  else if isHtml(value)
+    != value.outerHTML
+  else
+    != value 
+
+mixin starCell(weapon, prop)
+  - let star = weapon[`${prop}Star`]
+  - let max = weapon[`${prop}StarMax`]
+  td(class={
+    starfiller: star == null,
+    star: star != null,
+    max: star != null && star === max
+  })= star
+

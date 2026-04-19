@@ -462,7 +462,7 @@ export weaponStats = {
   speed: (wpn) =>
     return percent wpn.walkSpeed, 0 if wpn.walkSpeed
     return percent wpn.flightSpeedHorizontal if wpn.flightSpeedHorizontal
-    speed = wpn.speed / FPS
+    speed = wpn.speed * FPS
     return null if speed > 10000 or not speed
     speed.toFixed(1)
 

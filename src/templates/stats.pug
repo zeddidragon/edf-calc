@@ -1,16 +1,21 @@
 mixin statCells(weapon, header, value)
-  if isHtml(value)
-    != value.outerHTML
-  else if Array.isArray(value)
+  if Array.isArray(value)
     for v in value
       +statCells(weapon, header, v)
   else if typeof value === 'object'
     td(class=value.class colspan=value.colspan)
-      +statCells(weapon, header, value.value)
+      +statSubCell(weapon, header, value.value)
   else if value == null
+    td(class=header)
+      +statSubCell(weapon, header, value)
+
+mixin statSubCell(weapon, header, value)
+  if value == null
     | -
+  else if isHtml(value)
+    != value.outerHTML
   else
-    = value 
+    != value 
 
 mixin starCell(weapon, prop)
   - let star = weapon[`${prop}Star`]

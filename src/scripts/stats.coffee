@@ -137,11 +137,8 @@ window.weaponStat = (weapon, stat) =>
   header = locals.headerDefinitions[stat]
   cell = { class: stat, value: value ? '-' }
 
-  if not value?
-    cell
-
-  else if stat is 'damage'
-    [dmg, count, count2] = value
+  if stat is 'damage'
+    [dmg, count, count2] = (value ? '')
       .toString()
       .split 'x'
       .map (v) => v.trim()
@@ -156,7 +153,6 @@ window.weaponStat = (weapon, stat) =>
 
     if count2
       items.push { value: count2, class: 'Count' }
-      items.push { value: count, class: 'Count DmgEnd' }
     if count
       items.push { value: count, class: 'Count' + if count2 then ' DmgEnd' else '' }
     else
@@ -167,7 +163,7 @@ window.weaponStat = (weapon, stat) =>
     items
 
   else if stat is 'interval'
-    [rof, burst] = value
+    [rof, burst] = (value ? '')
       .toString()
       .split 'x'
       .map (v) => v.trim()

@@ -38,6 +38,7 @@ locals =
   localize: localize
   spinoffs: spinoffs
   headerDefinitions: headers
+  saveLoadState: false
 
 window.slice3 = (str) => "<b>#{str[0..2]}</b>#{str[3..]}"
 
@@ -167,7 +168,7 @@ loadData = (gameId) =>
   locals.lang = locals.langs?.find (l) => l.id is  locals.langs?[0] or { id: 'lang-en', name: 'en' }
   selectChar params.char
 
-render = =>
+window.render = () =>
   writeState()
   document.body.innerHTML = template locals
 

@@ -1,0 +1,8 @@
+#save-load-text
+  p Copy this text to another instance or paste it from one
+  textarea#save-load-textarea= saveLoadText
+  .save-load-buttons
+    #save-load-copy.button(onclick='copySaveData()')
+      b Copy
+    #save-load-import.button(onclick='importSaveData()')
+      b Import

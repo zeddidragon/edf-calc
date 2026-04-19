@@ -5,6 +5,13 @@ nav#links
     li |
     li
       a(href='https://atwiki.jp/edf6') Japanese EDF Wiki
+    li.spacer
+    if !isLoading
+      li#save-load-toggle
+        .button(onclick="toggleSave()") Save <b>Data</b>
+
+if saveLoadState && !isLoading
+  include ./saving.pug
 
 if isLoading
   .loading Loading...

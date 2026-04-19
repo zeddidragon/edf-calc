@@ -4,7 +4,7 @@ import { headers as damageHeaders } from './damage'
 
 $ = document.createElement.bind document
 
-weaponKey = (wpn, type = 'owned') =>
+export weaponKey = (wpn, type = 'owned') =>
   scope = if locals.game.id is '41' then '' else ".#{locals.game.id[2..]}"
   "#{type}#{scope}.#{wpn.id}"
 
@@ -18,24 +18,6 @@ checkbox = (scope) =>
     el.setAttribute 'onchange', "toggleCheckWeapon('#{scope}', '#{wpn.id}')"
     el.setAttribute 'id', key
     el.outerHTML
-
-window.toggleCheckWeapon = (scope, id) =>
-  closeSaveLoad()
-  wpn = locals.weapons.find (w) => w.id is id
-  unless wpn
-    throw new Error "Weapon not found: #{id}"
-
-  key = weaponKey wpn, scope
-  checked = 1 - (localStorage[key] or 0)
-  localStorage[key] = checked
-
-  # If a weapon is starred, it must be owned. Enforce this.
-  if scope is 'starred' and checked
-    key = weaponKey wpn, 'owned'
-    localStorage[key] = checked
-    document
-      .getElementById key
-      .checked = checked
 
 starValue = ({ base, algo, lvMax, zero, exp, type }, star) =>
   sign = 1.0

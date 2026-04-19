@@ -244,7 +244,7 @@ th.P, th.CR {
 .ranger b, .dlc2 b, .Inferno, .lowOdds, .edf3 b, .edf3p b, .ja b, .weapons b, .damage-type.flame, .status-effect.flame {
   color: #e88;
 }
-.winger b, .off b, .Normal, .edf5 b, .en b, .rank-C, .edfir b {
+.winger b, .off b, .Normal, .edf5 b, .en b, .rank-C, .edfir b, #save-load-copy {
   color: #88e;
 }
 .bomber b, .on b, .Hard, .highOdds, .edf4 b, .edf41 b, .edfia b, .items b, .rank-D, .status-effect.poison, #save-load-import {

@@ -8,8 +8,11 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export default {
-  entry: "./src/invaders.coffee",
+  entry: "./src/scripts/invaders.coffee",
   mode: 'development',
+  resolve: {
+    extensions: ['.coffee', '.js'],
+  },
   module: {
     rules: [{
       test: /\.coffee$/,
@@ -32,4 +35,5 @@ export default {
     filename: "main.js",
     path: path.resolve(__dirname, "public"),
   },
+  devtool: 'source-map',
 };

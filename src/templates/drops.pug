@@ -1,0 +1,20 @@
+- table = tables[0]
+table.drops-table
+  thead
+    tr
+      for header in table.headers
+        - let h = headerDefinitions[header] || { label: '???' }
+        th(title=h.tooltip)= h.label
+      for diff in mode.difficulties
+        th(colspan=2 title=diff.name class={[diff.name]: true })= diff.name
+  tbody
+    for weapon in table.weapons
+      tr
+        for header in table.headers
+          td!= weaponStat(weapon, header)
+        for drop in weapon.drops
+          if drop && drop.from
+            td.from= drop.from
+            td.to= drop.to
+          else
+            td(colspan=2) -

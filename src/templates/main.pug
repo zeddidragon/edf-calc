@@ -1,0 +1,21 @@
+nav#links
+  ul
+    li.nav-selected
+      a(href='/') Earth Defense Force
+    li |
+    li
+      a(href='https://atwiki.jp/edf6') Japanese EDF Wiki
+
+if isLoading
+  .loading Loading...
+else
+  include ./menus.pug
+
+  if mode.id === 'stats' && cat && tables
+    include ./stats.pug
+
+  else if mode.hasDrops
+    include ./drops.pug
+
+  else
+    p Whatever this mode is, it's not implemented

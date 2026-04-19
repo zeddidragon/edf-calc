@@ -1,0 +1,31 @@
+mixin dropdownItem(item)
+  if item.label
+    != item.label
+  else
+    != slice3(item.name)
+
+mixin dropdown(scope, list, selection)
+  .dropdown
+    .button(class={ [selection.id]: true })
+      +dropdownItem(selection)
+    menu
+      each item in list
+        a(onclick=`selectItem('${scope}', '${item.id}')`
+          class={ [item.id]: true, selected: selection.id === item.id }
+        )
+          +dropdownItem(item)
+
+header#top-menus
+  +dropdown('game', games, game)
+  if modes
+    +dropdown('mode', modes, mode)
+  .spacer
+  if langs
+    +dropdown('lang', langs, lang)
+header#menus
+  if classes
+    +dropdown('class', classes, char)
+  if categories
+    +dropdown('category', categories, cat)
+  if gameValues && gameValues.hasStars
+    +dropdown('star', stars, star)

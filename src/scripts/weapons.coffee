@@ -1,11 +1,11 @@
-import { accuracy } from './accuracy.coffee'
-import { FPS, byFps } from './framerate.coffee'
-import { headers as damageHeaders } from './damage.coffee'
+import { accuracy } from './accuracy'
+import { FPS, byFps } from './framerate'
+import { headers as damageHeaders } from './damage'
 
 $ = document.createElement.bind document
 
 weaponKey = (wpn, type = 'owned') =>
-  scope = if locals.game.id is '41' then '' else ".#{locals.game.id[3..]}"
+  scope = if locals.game.id is '41' then '' else ".#{locals.game.id[2..]}"
   "#{type}#{scope}.#{wpn.id}"
 
 checkbox = (scope) =>
@@ -314,17 +314,17 @@ export weaponStats = {
   dropWeight: (wpn) =>
     odds = wpn.odds ? 100
 
-    unless !+odds
+    if isNaN odds
       el = $ 'div'
       if wpn.level is 100 # Genocide weapons
         el.classList.add 'na'
         el.textContent = 'N/A'
       else
         el.classList.add odds
-        el.textContent = odds.toUpperwhen()
+        el.textContent = odds.toString().toUpperCase()
       return el.outerHTML
 
-    label = percent odds, 0
+    label = percent odds / 100, 0
     if odds isnt 100
       el = $('div')
       el.classList.add if odds < 100 then 'lowOdds' else 'highOdds'

@@ -1,4 +1,4 @@
-import { FPS, byFps } from './framerate.coffee'
+import { FPS, byFps } from './framerate'
 $ = document.createElement.bind document
 
 critAvg = (wpn) =>

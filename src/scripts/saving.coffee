@@ -33,5 +33,7 @@ stateKeys = [
   'lang',
 ]
 
+saveLoadState = 0
 window.closeSaveLoad = () =>
-  # TODO
+  return unless saveLoadState
+  saveLoadState = 0

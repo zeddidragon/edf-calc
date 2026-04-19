@@ -1,7 +1,8 @@
-import template from './invaders.pug'
-import { headers } from './headers.coffee'
-import { readState, writeState } from './saving.coffee'
-import { localize, weaponStats, processWeapon } from './weapons.coffee'
+import template from '../templates/main.pug'
+import { headers } from './headers'
+import { readState, writeState } from './saving'
+import { localize, weaponStats, processWeapon } from './weapons'
+import { populateWeaponDrops } from './drops'
 
 params = readState()
 
@@ -63,6 +64,8 @@ window.selectMode = (modeId) =>
   locals.mode or= locals.modes[0]
 
   params.mode = locals.mode.id
+  if locals.mode.hasDrops
+    populateWeaponDrops()
   render()
 
 buttonPrefixes = [
@@ -153,6 +156,7 @@ loadData = (gameId) =>
       .map (m) => {
         id: m.name.toLowerCase()
         label: "Drops <b>#{m.name}</b>"
+        hasDrops: true
           ...m
       }
     )

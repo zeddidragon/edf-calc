@@ -1,7 +1,7 @@
 import template from '../templates/main.pug'
-import { headers } from './headers'
+import { localize } from './lang'
 import { readState, writeState } from './saving'
-import { localize, weaponStats, processWeapon } from './weapons'
+import { populateWeaponStats, processHeaders } from './stats'
 import { populateWeaponDrops } from './drops'
 
 params = readState()
@@ -37,7 +37,6 @@ locals =
   ].flat()
   localize: localize
   spinoffs: spinoffs
-  headerDefinitions: headers
   saveLoadState: false
 
 window.slice3 = (str) => "<b>#{str[0..2]}</b>#{str[3..]}"
@@ -65,9 +64,7 @@ window.selectMode = (modeId) =>
   locals.mode or= locals.modes[0]
 
   params.mode = locals.mode.id
-  if locals.mode.hasDrops
-    populateWeaponDrops()
-  render()
+  selectChar params.char
 
 buttonPrefixes = [
   'Drops '
@@ -96,19 +93,10 @@ window.selectCategory = (categoryId) =>
   locals.cat = locals.categories.find (c) => c.id is categoryId
   locals.cat or= locals.categories[0]
 
-  weapons = locals.weapons
-    .filter (wpn) => wpn.character is locals.char.id and wpn.category is locals.cat.id
-    .flatMap processWeapon
-
-  locals.tables =
-    if locals.cat.tables
-      locals.cat.tables.map (table) =>
-        { ...locals.cat
-          ...table
-          weapons: weapons.filter (wpn) => wpn.subCategory is table.subCategory
-        }
-    else
-      [{ ...locals.cat, weapons: weapons }]
+  if locals.mode.hasDrops
+    populateWeaponDrops()
+  else if locals.mode.id is 'stats'
+    populateWeaponStats()
 
   params.wpn = locals.cat.id
   render()
@@ -127,14 +115,6 @@ window.selectLang = (langId) =>
 
   params.lang = locals.lang.id
   render()
-
-window.weaponStat = (weapon, stat) =>
-  stat =
-    if weaponStats[stat]?
-      weaponStats[stat](weapon, stat)
-    else if weapon[stat]?
-      weapon[stat]
-  stat ? '-'
 
 loadData = (gameId) =>
   locals.game = locals.games.find (g) => g.num is gameId
@@ -166,6 +146,8 @@ loadData = (gameId) =>
   locals.classes = data.classes.map (id, i) => { id, name: data.charLabels[i] }
   locals.langs = data.langs.map (lang) => { id: lang, name: lang } if data.langs
   locals.lang = locals.langs?.find (l) => l.id is  locals.langs?[0] or { id: 'lang-en', name: 'en' }
+  processHeaders()
+
   selectChar params.char
 
 window.render = () =>

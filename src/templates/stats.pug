@@ -1,3 +1,26 @@
+mixin statCells(weapon, header, value)
+  if isHtml(value)
+    != value.outerHTML
+  else if Array.isArray(value)
+    for v in value
+      +statCells(weapon, header, v)
+  else if typeof value === 'object'
+    td(class=value.class colspan=value.colspan)
+      +statCells(weapon, header, value.value)
+  else if value == null
+    | -
+  else
+    = value 
+
+mixin starCell(weapon, prop)
+  - let star = weapon[`${prop}Star`]
+  - let max = weapon[`${prop}StarMax`]
+  td(class={
+    starfiller: star == null,
+    star: star != null,
+    max: star != null && star === max
+  })= star
+
 each table in tables
   if tables.length > 1 && table.name
     h3= localize(table.names, table.name)
@@ -6,11 +29,16 @@ each table in tables
       tr
         for header in table.headers
           - let h = headerDefinitions[header] || { label: '???' }
-          th(title=h.tooltip)= h.label
+          th(title=h.tooltip colspan=h.colspan)= h.label
     tbody
       for weapon in table.weapons
         tr
           for header in table.headers
-            td!= weaponStat(weapon, header)
+            +statCells(weapon, header, weaponStat(weapon, header))
+            - let h = headerDefinitions[header]
+            if h && h.starProp
+              +starCell(weapon, h.starProp)
+            if h && h.starProp2
+              +starCell(weapon, h.starProp2)
   if table.appendix
     p!= table.appendix

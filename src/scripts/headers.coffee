@@ -38,15 +38,18 @@ export headers =
   ammo:
     label: 'Cap'
     tooltip: 'Ammo Capacity'
+    starProp: 'ammo'
   drain:
     label: 'Drain'
     tooltip: 'Ammo Consumed Per Attack'
   boost:
     label: 'Boost'
     tooltip: 'Boost'
+    starProp: 'damage'
   defense:
     label: 'Def'
     tooltip: 'Defense'
+    starProp: 'damage'
   chargeTime:
     label: 'Chg'
     tooltip: 'Charge Time'
@@ -56,6 +59,8 @@ export headers =
   damage:
     label: 'Dmg'
     tooltip: 'Damage'
+    starProp: 'damage'
+    starProp2: 'count'
   damage2:
     label: 'Dmg*'
     tooltip: 'Damage*'
@@ -74,6 +79,7 @@ export headers =
   radius:
     label: 'Area'
     tooltip: 'Area'
+    starProp: 'radius'
   subRadius:
     label: 'Area*'
     tooltip: 'Area*'
@@ -83,6 +89,7 @@ export headers =
   interval:
     label: 'RoF'
     tooltip: 'Rate of Fire'
+    starProp: 'interval'
   interval2:
     label: 'RoF*'
     tooltip: 'Rate of Fire (Barrage)'
@@ -92,9 +99,11 @@ export headers =
   windup:
     label: 'Delay'
     tooltip: 'Windup Time'
+    starProp: 'windup'
   lockTime:
     label: 'Lock'
     tooltip: 'Lock Time'
+    starProp: 'lockTime'
   delay:
     label: 'Delay'
     tooltip: 'Waiting Time'
@@ -104,6 +113,7 @@ export headers =
   reload:
     label: 'Rel'
     tooltip: 'Reload Time'
+    starProp: 'reload'
   reloadQuick:
     label: 'Q.Rl'
     tooltip: 'Quick Reload'
@@ -116,6 +126,7 @@ export headers =
   accuracy:
     label: 'Acc'
     tooltip: 'Accuracy'
+    starProp: 'accuracy'
   altFire:
     label: 'f()'
     tooltip: 'Function'
@@ -125,6 +136,7 @@ export headers =
   energy:
     label: 'Enr'
     tooltip: 'Energy'
+    starProp: 'energy'
   chargeRate:
     label: 'Chg'
     tooltip: 'Charge Rate'
@@ -134,6 +146,7 @@ export headers =
   chargeEmergencyRate:
     label: 'Em.C'
     tooltip: 'Emergency Charge Rate'
+    starProp: 'energy'
   chargeEmergencyRatio:
     label: '%'
     tooltip: 'Emergency Charge Rate %'
@@ -152,12 +165,15 @@ export headers =
   piercingRange:
     label: 'PtRng'
     tooltip: 'Piercing Range'
+    starProp: 'speed'
   range:
     label: 'Rng'
     tooltip: 'Range'
+    starProp: 'speed'
   lockRange:
     label: 'Rng'
     tooltip: 'Lock-Range'
+    starProp: 'lockRange'
   boost:
     label: 'Boost'
     tooltip: 'Boost'
@@ -176,6 +192,7 @@ export headers =
   speed:
     label: 'Spd'
     tooltip: 'Move Speed'
+    starProp: 'speed'
   speed2:
     label: 'Spd'
     tooltip: 'Shot Speed'

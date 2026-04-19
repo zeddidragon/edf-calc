@@ -29,6 +29,6 @@ export accuracy = (wpn) =>
     when 'spherical' then 'Sphere'
     when 'downward' then 'Down'
     else rank
-  else if wpn.speed and wpn.accuracy?
-    accuracyTable.find(([a]) => a >= wpn.accuracy)[1]
+  else if wpn.speed
+    accuracyTable.find(([a]) => a >= (wpn.accuracy or 0))[1]
 

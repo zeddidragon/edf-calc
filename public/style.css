@@ -153,11 +153,6 @@ td.hasStar {
   border-right: none;
 }
 
-td.isStar {
-  color: #8d8d8d;
-  border-left: none;
-}
-
 nav ul {
   display: flex;
   list-style-type: none;
@@ -224,6 +219,20 @@ th.P, th.CR {
 }
 .Falloff::before {
   content: '~ ';
+}
+
+.star {
+  color: #8d8d8d;
+  padding-left: 0em;
+  padding-right: 0.2em;
+}
+
+.star::before {
+  content: '☆';
+}
+
+.star.max::before {
+  content: '★';
 }
 
 .spacer {

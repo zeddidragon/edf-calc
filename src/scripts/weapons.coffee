@@ -1,8 +1,7 @@
-import { accuracy } from './accuracy'
-import { FPS, byFps } from './framerate'
-import { headers as damageHeaders } from './damage'
-
-$ = document.createElement.bind document
+import { $ } from './html'
+import { accuracy } from './accuracy.coffee'
+import { FPS, byFps } from './framerate.coffee'
+import { headers as damageHeaders } from './damage.coffee'
 
 export weaponKey = (wpn, type = 'owned') =>
   scope = if locals.game.id is '41' then '' else ".#{locals.game.id[2..]}"
@@ -17,45 +16,7 @@ checkbox = (scope) =>
     el.setAttribute 'checked', '1' if localStorage[key] > 0
     el.setAttribute 'onchange', "toggleCheckWeapon('#{scope}', '#{wpn.id}')"
     el.setAttribute 'id', key
-    el.outerHTML
-
-starValue = ({ base, algo, lvMax, zero, exp, type }, star) =>
-  sign = 1.0
-  if base < 0
-    base = -base
-    sign = -1.0
-
-  star = Math.min(Math.max(0, star), Math.max(5, lvMax))
-  curveBase = base * zero
-  curvePoint = curveBase * Math.pow star / 5.0, exp
-  result = 0
-
-  if (algo & 3) is 0
-    result = base - curveBase + curvePoint
-  else if (algo & 3) is 1
-    result = base + curveBase - curvePoint
-  else
-    console.error "Invalid algorithm: #{algo}"
-
-  result = sign * Math.max 0, result
-
-  if type is 'int'
-    result = Math.floor result + 0.5
-
-  [star, result]
-
-getValue = (wpn, prop, obj) =>
-  value = wpn[prop]
-  return value if not value? or typeof value is 'number'
-
-  if prop is 'energy' and wpn.category is 'core'
-    obj.baseEnergy = if isNaN(value) then value.base else value
-
-  if value?.base?
-    [star, v] = starValue value, locals.star.star
-    obj["#{prop}Star"] = star
-    obj["#{prop}StarMax"] = value.lvMax
-    v
+    el
 
 SCALED_PROPS = [
   'ammo'
@@ -216,7 +177,7 @@ export weaponStats = {
 
     el.classList.add difficulty.name
     el.textContent = display
-    el.outerHTML
+    el
 
   rank: (wpn) =>
     { rank } = wpn
@@ -224,7 +185,7 @@ export weaponStats = {
     el = $ 'div'
     el.classList.add "rank-#{rank}"
     el.textContent = rank
-    el.outerHTML
+    el
 
   remarks: (wpn) =>
     return null unless wpn.tags?.length
@@ -291,27 +252,27 @@ export weaponStats = {
     el.classList.add 'name'
     name = localize wpn.names, wpn.name
     el.textContent += name
-    el.outerHTML
+    el
 
   dropWeight: (wpn) =>
     odds = wpn.odds ? 100
 
-    if isNaN odds
+    unless !+odds
       el = $ 'div'
       if wpn.level is 100 # Genocide weapons
         el.classList.add 'na'
         el.textContent = 'N/A'
       else
         el.classList.add odds
-        el.textContent = odds.toString().toUpperCase()
-      return el.outerHTML
+        el.textContent = odds.toUpperwhen()
+      return el
 
-    label = percent odds / 100, 0
+    label = percent odds, 0
     if odds isnt 100
       el = $('div')
       el.classList.add if odds < 100 then 'lowOdds' else 'highOdds'
       el.textContent = label
-      return el.outerHTML
+      return el
 
     return label
 
@@ -324,7 +285,7 @@ export weaponStats = {
     else
       el.classList.add 'highOdds'
       el.textContent = 'DLC ☢'
-    el.outerHTML
+    el
 
   fuseType: (wpn) =>
     return null unless wpn.fuseType
@@ -346,7 +307,7 @@ export weaponStats = {
 
   boost: (wpn) => percent wpn.damage, 2 if wpn.damage
   chargeTime: fpsProp 1
-  piercing: bool '[PT]'
+  piercing: bool 'piercing', '[PT]'
   range: (wpn) =>
     if wpn.range and wpn.growth
       maxRange = wpn.growth[wpn.growth.length - 1].range
@@ -386,7 +347,7 @@ export weaponStats = {
       when 'recover' then 'Heal'
       when 'recovertime' then 'Regen'
       else wpn.effect
-    tag.outerHTML
+    tag
 
   revive: suffixProp 'revive', '%'
   shots: (wpn) =>
@@ -475,7 +436,7 @@ export weaponStats = {
       if wpn.accuracy? wpn.accuracy
       else 'Accuracy only known by rank'
     el.textContent = accuracy wpn
-    el.outerHTML
+    el
 
   altFire: (wpn) =>
     if wpn.zoom > 0 then "⌖ #{+wpn.zoom.toFixed(1)}x"

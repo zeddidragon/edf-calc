@@ -6,12 +6,12 @@ mixin dropdownItem(item)
 
 mixin dropdown(scope, list, selection)
   .dropdown
-    .button(class={ [selection.id]: true })
+    .button(class={ [selection.class || selection.id]: true })
       +dropdownItem(selection)
     menu
       each item in list
         a(onclick=`selectItem('${scope}', '${item.id}')`
-          class={ [item.id]: true, selected: selection.id === item.id }
+          class={ [item.class || item.id]: true, selected: selection.id === item.id }
         )
           +dropdownItem(item)
 

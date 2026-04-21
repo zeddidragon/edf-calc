@@ -80858,6 +80858,1561 @@
       "units": 1
     }
   ],
+  "enemies": [
+    {
+      "id": "DRAGONSMALL401",
+      "name": "DRAGONSMALL401",
+      "group": "Dragon",
+      "hp": 50,
+      "drops": 0.17399999499320984,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "DRAGONSMALL401_HS",
+      "name": "DRAGONSMALL401_HS",
+      "group": "Dragon",
+      "hp": 50,
+      "drops": 0.17399999499320984,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E503_ARMORFROG_AF",
+      "name": "E503_ARMORFROG_AF",
+      "group": "Frog",
+      "hp": 500,
+      "credits": 0.6000000238418579,
+      "drops": 1.690000057220459,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E503_ARMORFROG_AF_LEADER",
+      "name": "E503_ARMORFROG_AF_LEADER",
+      "group": "Frog",
+      "hp": 500,
+      "credits": 0.6000000238418579,
+      "drops": 1.690000057220459,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E503_ARMORFROG_LC",
+      "name": "E503_ARMORFROG_LC",
+      "group": "Frog",
+      "hp": 500,
+      "credits": 0.6000000238418579,
+      "drops": 1.690000057220459,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E503_ARMORFROG_LC_LEADER",
+      "name": "E503_ARMORFROG_LC_LEADER",
+      "group": "Frog",
+      "hp": 500,
+      "credits": 0.6000000238418579,
+      "drops": 1.690000057220459,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E503_ARMORFROG_SG",
+      "name": "E503_ARMORFROG_SG",
+      "group": "Frog",
+      "hp": 500,
+      "credits": 0.6000000238418579,
+      "drops": 1.690000057220459,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E503_ARMORFROG_SG_LEADER",
+      "name": "E503_ARMORFROG_SG_LEADER",
+      "group": "Frog",
+      "hp": 500,
+      "credits": 0.6000000238418579,
+      "drops": 1.690000057220459,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E503_FROG_AF",
+      "name": "E503_FROG_AF",
+      "group": "Frog",
+      "hp": 500,
+      "credits": 0.6000000238418579,
+      "drops": 1.690000057220459,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E503_FROG_AF_LEADER",
+      "name": "E503_FROG_AF_LEADER",
+      "group": "Frog",
+      "hp": 500,
+      "credits": 0.6000000238418579,
+      "drops": 1.690000057220459,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E503_FROG_LC",
+      "name": "E503_FROG_LC",
+      "group": "Frog",
+      "hp": 500,
+      "credits": 0.6000000238418579,
+      "drops": 1.690000057220459,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E503_FROG_LC_LEADER",
+      "name": "E503_FROG_LC_LEADER",
+      "group": "Frog",
+      "hp": 500,
+      "credits": 0.6000000238418579,
+      "drops": 1.690000057220459,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E503_FROG_SG",
+      "name": "E503_FROG_SG",
+      "group": "Frog",
+      "hp": 500,
+      "credits": 0.6000000238418579,
+      "drops": 1.690000057220459,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E503_FROG_SG_LEADER",
+      "name": "E503_FROG_SG_LEADER",
+      "group": "Frog",
+      "hp": 500,
+      "credits": 0.6000000238418579,
+      "drops": 1.690000057220459,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E504_MONSTERA",
+      "name": "E504_MONSTERA",
+      "group": "Monster504",
+      "hp": 32000,
+      "drops": 7.289999961853027,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E504_MONSTERA_M034_3",
+      "name": "E504_MONSTERA_M034_3",
+      "group": "Monster504",
+      "hp": 32000,
+      "drops": 7.289999961853027,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E505_GENERATOR",
+      "name": "E505_GENERATOR",
+      "group": "TeleportionAnchor",
+      "hp": 1250,
+      "credits": 0.5,
+      "drops": 4.289999961853027,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E505_GENERATOR_DIRT",
+      "name": "E505_GENERATOR_DIRT",
+      "group": "TeleportionAnchor",
+      "hp": 1250,
+      "credits": 0.5,
+      "drops": 4.289999961853027,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E505_GENERATOR_LARGE",
+      "name": "E505_GENERATOR_LARGE",
+      "group": "TeleportionAnchor",
+      "hp": 2500,
+      "credits": 0.5,
+      "drops": 4.289999961853027,
+      "aggro": [0, 300]
+    },
+    {
+      "id": "E505_GENERATOR_LARGE_FAR",
+      "name": "E505_GENERATOR_LARGE_FAR",
+      "group": "TeleportionAnchor",
+      "hp": 2500,
+      "credits": 0.5,
+      "drops": 4.289999961853027,
+      "aggro": [0, 300]
+    },
+    {
+      "id": "E505_GENERATOR_SUPERLARGE",
+      "name": "E505_GENERATOR_SUPERLARGE",
+      "group": "TeleportionAnchor",
+      "hp": 14000,
+      "credits": 0.5,
+      "drops": 4.289999961853027,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E506_BIGGREY_AF",
+      "name": "E506_BIGGREY_AF",
+      "group": "Grey",
+      "hp": 400,
+      "credits": 1.25,
+      "drops": 3.390000104904175,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E506_BIGGREY_AF_LEADER",
+      "name": "E506_BIGGREY_AF_LEADER",
+      "group": "Grey",
+      "hp": 400,
+      "credits": 1.25,
+      "drops": 3.390000104904175,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E506_BIGGREY_LL",
+      "name": "E506_BIGGREY_LL",
+      "group": "Grey",
+      "hp": 400,
+      "credits": 1.25,
+      "drops": 3.390000104904175,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E506_BIGGREY_LL_LEADER",
+      "name": "E506_BIGGREY_LL_LEADER",
+      "group": "Grey",
+      "hp": 400,
+      "credits": 1.25,
+      "drops": 3.390000104904175,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E506_BIGGREY_SG",
+      "name": "E506_BIGGREY_SG",
+      "group": "Grey",
+      "hp": 400,
+      "credits": 1.25,
+      "drops": 3.390000104904175,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E506_BIGGREY_SG_LEADER",
+      "name": "E506_BIGGREY_SG_LEADER",
+      "group": "Grey",
+      "hp": 400,
+      "credits": 1.25,
+      "drops": 3.390000104904175,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E506_HA_BIGGREY_FL",
+      "name": "E506_HA_BIGGREY_FL",
+      "group": "Grey",
+      "hp": 400,
+      "credits": 3.125,
+      "drops": 8.475000381469727,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E506_HA_BIGGREY_FL_LEADER",
+      "name": "E506_HA_BIGGREY_FL_LEADER",
+      "group": "Grey",
+      "hp": 400,
+      "credits": 3.125,
+      "drops": 8.475000381469727,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E506_HA_BIGGREY_HMG",
+      "name": "E506_HA_BIGGREY_HMG",
+      "group": "Grey",
+      "hp": 400,
+      "credits": 3.125,
+      "drops": 8.475000381469727,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E506_HA_BIGGREY_HMG_LEADER",
+      "name": "E506_HA_BIGGREY_HMG_LEADER",
+      "group": "Grey",
+      "hp": 400,
+      "credits": 3.125,
+      "drops": 8.475000381469727,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E506_HA_BIGGREY_LL",
+      "name": "E506_HA_BIGGREY_LL",
+      "group": "Grey",
+      "hp": 400,
+      "credits": 3.125,
+      "drops": 8.475000381469727,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E506_HA_BIGGREY_LL_LEADER",
+      "name": "E506_HA_BIGGREY_LL_LEADER",
+      "group": "Grey",
+      "hp": 400,
+      "credits": 3.125,
+      "drops": 8.475000381469727,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E506_HA_BIGGREY_ML",
+      "name": "E506_HA_BIGGREY_ML",
+      "group": "Grey",
+      "hp": 400,
+      "credits": 3.125,
+      "drops": 8.475000381469727,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E506_HA_BIGGREY_ML_LEADER",
+      "name": "E506_HA_BIGGREY_ML_LEADER",
+      "group": "Grey",
+      "hp": 400,
+      "credits": 3.125,
+      "drops": 8.475000381469727,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E506_NUDE_BIGGREY_AF",
+      "name": "E506_NUDE_BIGGREY_AF",
+      "group": "Grey",
+      "hp": 400,
+      "credits": 1.25,
+      "drops": 1.1299999952316284,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E506_NUDE_BIGGREY_LL",
+      "name": "E506_NUDE_BIGGREY_LL",
+      "group": "Grey",
+      "hp": 400,
+      "credits": 1.25,
+      "drops": 1.1299999952316284,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E506_NUDE_BIGGREY_SG",
+      "name": "E506_NUDE_BIGGREY_SG",
+      "group": "Grey",
+      "hp": 400,
+      "credits": 1.25,
+      "drops": 1.1299999952316284,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E506_NUDE_HA_BIGGREY_FL",
+      "name": "E506_NUDE_HA_BIGGREY_FL",
+      "group": "Grey",
+      "hp": 400,
+      "credits": 3.125,
+      "drops": 2.825000047683716,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E506_NUDE_HA_BIGGREY_HMG",
+      "name": "E506_NUDE_HA_BIGGREY_HMG",
+      "group": "Grey",
+      "hp": 400,
+      "credits": 3.125,
+      "drops": 2.825000047683716,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E506_NUDE_HA_BIGGREY_ML",
+      "name": "E506_NUDE_HA_BIGGREY_ML",
+      "group": "Grey",
+      "hp": 400,
+      "credits": 3.125,
+      "drops": 2.825000047683716,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E507_GOLDUFO",
+      "name": "E507_GOLDUFO",
+      "group": "GoldUfo",
+      "hp": 75,
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E507_GOLDUFO_ACE",
+      "name": "E507_GOLDUFO_ACE",
+      "group": "GoldUfoAce",
+      "hp": 200,
+      "credits": 5,
+      "drops": 6.579999923706055,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E507_GOLDUFO_BIG",
+      "name": "E507_GOLDUFO_BIG",
+      "group": "GoldUfo",
+      "hp": 3500,
+      "drops": 6.579999923706055,
+      "aggro": [100, 225]
+    },
+    {
+      "id": "E507_GOLDUFO_CHARGE",
+      "name": "E507_GOLDUFO_CHARGE",
+      "group": "GoldUfo",
+      "hp": 75,
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E507_GOLDUFO_HI",
+      "name": "E507_GOLDUFO_HI",
+      "group": "GoldUfo",
+      "hp": 75,
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E508_CARRIER",
+      "name": "E508_CARRIER",
+      "group": "Carrier1",
+      "hp": 1000,
+      "credits": 0.5,
+      "drops": 4.289999961853027,
+      "aggro": [0, 200]
+    },
+    {
+      "id": "E508_CARRIER_FAR",
+      "name": "E508_CARRIER_FAR",
+      "group": "Carrier1",
+      "hp": 1000,
+      "drops": 4.289999961853027,
+      "aggro": [0, 200]
+    },
+    {
+      "id": "E508_CARRIER_FAR_LIGHT",
+      "name": "E508_CARRIER_FAR_LIGHT",
+      "group": "Carrier1",
+      "hp": 1000,
+      "drops": 4.289999961853027,
+      "aggro": [0, 200]
+    },
+    {
+      "id": "E509_DEIROI",
+      "name": "E509_DEIROI",
+      "group": "Deiroi",
+      "hp": 1350,
+      "drops": 3.5999999046325684,
+      "aggro": [40, 150]
+    },
+    {
+      "id": "E509_DEIROI_L",
+      "name": "E509_DEIROI_L",
+      "group": "Deiroi",
+      "hp": 1500,
+      "drops": 3.5999999046325684,
+      "aggro": [40, 150]
+    },
+    {
+      "id": "E509_DEIROI_L2",
+      "name": "E509_DEIROI_L2",
+      "group": "Deiroi",
+      "hp": 1500,
+      "drops": 3.5999999046325684,
+      "aggro": [40, 150]
+    },
+    {
+      "id": "E509_DEIROI_M",
+      "name": "E509_DEIROI_M",
+      "group": "Deiroi",
+      "hp": 1350,
+      "drops": 3.5999999046325684,
+      "aggro": [40, 150]
+    },
+    {
+      "id": "E509_DEIROI_S",
+      "name": "E509_DEIROI_S",
+      "group": "Deiroi",
+      "hp": 825,
+      "drops": 3.5999999046325684,
+      "aggro": [40, 150]
+    },
+    {
+      "id": "E509_DEIROI_SM",
+      "name": "E509_DEIROI_SM",
+      "group": "Deiroi",
+      "hp": 825,
+      "drops": 3.5999999046325684,
+      "aggro": [40, 150]
+    },
+    {
+      "id": "E509_DEIROI_XL",
+      "name": "E509_DEIROI_XL",
+      "group": "Deiroi",
+      "hp": 2250,
+      "drops": 3.5999999046325684,
+      "aggro": [40, 150]
+    },
+    {
+      "id": "E509_DEIROI_XL2",
+      "name": "E509_DEIROI_XL2",
+      "group": "Deiroi",
+      "hp": 2250,
+      "drops": 3.5999999046325684,
+      "aggro": [40, 150]
+    },
+    {
+      "id": "E510_FORTRESS",
+      "name": "E510_FORTRESS",
+      "group": "Fortress",
+      "hp": 8000,
+      "drops": 3.5999999046325684,
+      "aggro": [40, 1000]
+    },
+    {
+      "id": "E510_FORTRESS_M055",
+      "name": "E510_FORTRESS_M055",
+      "group": "Fortress",
+      "hp": 8000,
+      "drops": 3.5999999046325684,
+      "aggro": [40, 1000]
+    },
+    {
+      "id": "E511_MOTHERSHIP",
+      "name": "E511_MOTHERSHIP",
+      "group": "MotherShip",
+      "hp": 5600,
+      "aggro": [0, 2000]
+    },
+    {
+      "id": "E511_MOTHERSHIP_DLC",
+      "name": "E511_MOTHERSHIP_DLC",
+      "group": "MotherShip",
+      "hp": 5600,
+      "aggro": [0, 2000]
+    },
+    {
+      "id": "E511_MOTHERSHIP_EDF6",
+      "name": "E511_MOTHERSHIP_EDF6",
+      "group": "MotherShip",
+      "hp": 5600,
+      "aggro": [0, 2000]
+    },
+    {
+      "id": "E511_MOTHERSHIP_LIGHT",
+      "name": "E511_MOTHERSHIP_LIGHT",
+      "group": "MotherShip",
+      "hp": 5600,
+      "aggro": [0, 2000]
+    },
+    {
+      "id": "E513_SHIELDBEARER",
+      "name": "E513_SHIELDBEARER",
+      "group": "ShieldBearer",
+      "hp": 1000,
+      "drops": 3.390000104904175,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E513_SHIELDBEARER_FIXED",
+      "name": "E513_SHIELDBEARER_FIXED",
+      "group": "ShieldBearer",
+      "hp": 1000,
+      "drops": 3.390000104904175,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E513_SHIELDBEARER_FIXEDL",
+      "name": "E513_SHIELDBEARER_FIXEDL",
+      "group": "ShieldBearer",
+      "hp": 1000,
+      "drops": 3.390000104904175,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E513_SHIELDBEARER_FIXEDXL",
+      "name": "E513_SHIELDBEARER_FIXEDXL",
+      "group": "ShieldBearer",
+      "hp": 1000,
+      "drops": 3.390000104904175,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E513_SHIELDBEARER_L",
+      "name": "E513_SHIELDBEARER_L",
+      "group": "ShieldBearer",
+      "hp": 1000,
+      "drops": 3.390000104904175,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E513_SHIELDBEARER_XL",
+      "name": "E513_SHIELDBEARER_XL",
+      "group": "ShieldBearer",
+      "hp": 1000,
+      "drops": 3.390000104904175,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E514_DANGO",
+      "name": "E514_DANGO",
+      "group": "Dango",
+      "hp": 80,
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E515_IMPERIALUFO",
+      "name": "E515_IMPERIALUFO",
+      "group": "ImperialUfo",
+      "hp": 120,
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E515_IMPERIALUFO_ACE",
+      "name": "E515_IMPERIALUFO_ACE",
+      "group": "ImperialUfoAce",
+      "hp": 300,
+      "drops": 6.579999923706055,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E515_IMPERIALUFO_PROTOTYPE",
+      "name": "E515_IMPERIALUFO_PROTOTYPE",
+      "group": "ImperialUfo",
+      "hp": 60,
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E516_BIGGREYBOSS",
+      "name": "E516_BIGGREYBOSS",
+      "group": "BigGreyBoss",
+      "hp": 32000,
+      "drops": 100,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E517_ANTHILL",
+      "name": "E517_ANTHILL",
+      "group": "AntHill",
+      "hp": 1500,
+      "credits": 0.5,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E601_MARTIAN_GG",
+      "name": "E601_MARTIAN_GG",
+      "group": "Martian",
+      "hp": [700, 500, 450, 400],
+      "credits": 0.8399999737739563,
+      "drops": 2.5350000858306885,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E601_MARTIAN_GGSS",
+      "name": "E601_MARTIAN_GGSS",
+      "group": "Martian",
+      "hp": [700, 500, 450, 400],
+      "credits": 0.8399999737739563,
+      "drops": 2.5350000858306885,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E601_MARTIAN_GS",
+      "name": "E601_MARTIAN_GS",
+      "group": "Martian",
+      "hp": [700, 500, 450, 400],
+      "credits": 0.8399999737739563,
+      "drops": 2.5350000858306885,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E601_MARTIAN_SSSS",
+      "name": "E601_MARTIAN_SSSS",
+      "group": "Martian",
+      "hp": [700, 500, 450, 400],
+      "credits": 0.8399999737739563,
+      "drops": 2.5350000858306885,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E602_BERSERKER",
+      "name": "E602_BERSERKER",
+      "group": "BerserkerA",
+      "hp": 180,
+      "credits": 0.6000000238418579,
+      "drops": 0.4350000023841858,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E602_BERSERKERUG",
+      "name": "E602_BERSERKERUG",
+      "group": "BerserkerA",
+      "hp": 180,
+      "credits": 0.6000000238418579,
+      "drops": 0.4350000023841858,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E602_BERSERKERUG_BEAMA",
+      "name": "E602_BERSERKERUG_BEAMA",
+      "group": "BerserkerA",
+      "hp": 120,
+      "credits": 0.6000000238418579,
+      "drops": 0.4350000023841858,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E602_BERSERKERUG_BEAMB",
+      "name": "E602_BERSERKERUG_BEAMB",
+      "group": "BerserkerA",
+      "hp": 180,
+      "credits": 0.6000000238418579,
+      "drops": 0.4350000023841858,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E602_BERSERKER_ACE",
+      "name": "E602_BERSERKER_ACE",
+      "group": "BerserkerB",
+      "hp": [1200, 1000],
+      "credits": 0.6000000238418579,
+      "drops": 2.871000051498413,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E602_BERSERKER_BEAMA",
+      "name": "E602_BERSERKER_BEAMA",
+      "group": "BerserkerA",
+      "hp": 120,
+      "credits": 0.6000000238418579,
+      "drops": 0.4350000023841858,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E602_BERSERKER_BEAMB",
+      "name": "E602_BERSERKER_BEAMB",
+      "group": "BerserkerA",
+      "hp": 180,
+      "credits": 0.6000000238418579,
+      "drops": 0.4350000023841858,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E602_BERSERKER_BOMMER",
+      "name": "E602_BERSERKER_BOMMER",
+      "group": "BerserkerD",
+      "hp": 240,
+      "credits": 0.20000000298023224,
+      "drops": 0.4350000023841858,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E602_BERSERKER_BOMMER_ST",
+      "name": "E602_BERSERKER_BOMMER_ST",
+      "group": "BerserkerD",
+      "hp": 240,
+      "credits": 0.20000000298023224,
+      "drops": 0.4350000023841858,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E602_BERSERKER_GRAPPLE",
+      "name": "E602_BERSERKER_GRAPPLE",
+      "group": "BerserkerC",
+      "hp": 120,
+      "credits": 0.6000000238418579,
+      "drops": 0.4350000023841858,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E602_BERSERKER_LARGE_ACE",
+      "name": "E602_BERSERKER_LARGE_ACE",
+      "group": "BerserkerLarge",
+      "hp": 1750,
+      "credits": 0.5,
+      "drops": 10.289999961853027,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E602_BERSERKER_LARGE_PUNCH",
+      "name": "E602_BERSERKER_LARGE_PUNCH",
+      "group": "BerserkerLarge",
+      "hp": 1750,
+      "credits": 0.5,
+      "drops": 10.289999961853027,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E602_BERSERKER_MIDDLE",
+      "name": "E602_BERSERKER_MIDDLE",
+      "group": "BerserkerMiddle",
+      "hp": 1400,
+      "credits": 0.5,
+      "drops": 2.2899999618530273,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E602_BERSERKER_MIDDLEUG",
+      "name": "E602_BERSERKER_MIDDLEUG",
+      "group": "BerserkerMiddle",
+      "hp": 1400,
+      "credits": 0.5,
+      "drops": 2.2899999618530273,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E602_BERSERKER_MIDDLEUG_MG",
+      "name": "E602_BERSERKER_MIDDLEUG_MG",
+      "group": "BerserkerMiddle",
+      "hp": 1400,
+      "credits": 0.5,
+      "drops": 2.2899999618530273,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E602_BERSERKER_MIDDLEUG_PUNCH",
+      "name": "E602_BERSERKER_MIDDLEUG_PUNCH",
+      "group": "BerserkerMiddle",
+      "hp": 700,
+      "credits": 0.5,
+      "drops": 2.2899999618530273,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E602_BERSERKER_MIDDLE_BOMMER",
+      "name": "E602_BERSERKER_MIDDLE_BOMMER",
+      "group": "BerserkerMiddleBommer",
+      "hp": 2800,
+      "credits": 0.1666666716337204,
+      "drops": 2.2899999618530273,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E602_BERSERKER_MIDDLE_MG",
+      "name": "E602_BERSERKER_MIDDLE_MG",
+      "group": "BerserkerMiddle",
+      "hp": 1400,
+      "credits": 0.5,
+      "drops": 2.2899999618530273,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E602_BERSERKER_MIDDLE_PUNCH",
+      "name": "E602_BERSERKER_MIDDLE_PUNCH",
+      "group": "BerserkerMiddle",
+      "hp": 700,
+      "credits": 0.5,
+      "drops": 2.2899999618530273,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E602_BERSERKER_MIDDLE_SPREAD",
+      "name": "E602_BERSERKER_MIDDLE_SPREAD",
+      "group": "BerserkerMiddle",
+      "hp": 1400,
+      "credits": 0.5,
+      "drops": 2.2899999618530273,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E602_BERSERKER_ST",
+      "name": "E602_BERSERKER_ST",
+      "group": "BerserkerA",
+      "hp": 180,
+      "credits": 0.6000000238418579,
+      "drops": 0.4350000023841858,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E603_MERMAN",
+      "name": "E603_MERMAN",
+      "group": "Merman",
+      "hp": 4800,
+      "credits": 0.800000011920929,
+      "drops": 4.380000114440918,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E603_MERMAN_LIGHT",
+      "name": "E603_MERMAN_LIGHT",
+      "group": "Merman",
+      "hp": 4800,
+      "credits": 0.800000011920929,
+      "drops": 4.380000114440918,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E603_MERMAN_M063",
+      "name": "E603_MERMAN_M063",
+      "group": "Merman",
+      "hp": 4800,
+      "credits": 0.800000011920929,
+      "drops": 4.380000114440918,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E605_SPINNERUFO",
+      "name": "E605_SPINNERUFO",
+      "group": "SpinnerUfo",
+      "hp": 90,
+      "drops": 0.36250001192092896,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E605_SPINNERUFO_ACE",
+      "name": "E605_SPINNERUFO_ACE",
+      "group": "SpinnerUfoAce",
+      "hp": 405,
+      "drops": 3.2899999618530273,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E605_SPINNERUFO_BLUE",
+      "name": "E605_SPINNERUFO_BLUE",
+      "group": "SpinnerUfo",
+      "hp": 60,
+      "drops": 0.36250001192092896,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E605_SPINNERUFO_BLUE_ACE",
+      "name": "E605_SPINNERUFO_BLUE_ACE",
+      "group": "SpinnerUfoAce",
+      "hp": 405,
+      "drops": 3.2899999618530273,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E606_SHELLFISH",
+      "name": "E606_SHELLFISH",
+      "group": "ShellFish",
+      "hp": 30,
+      "drops": 0.28999999165534973,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E606_SHELLFISH_ACE",
+      "name": "E606_SHELLFISH_ACE",
+      "group": "ShellFishAce",
+      "hp": [150, 150, 300],
+      "drops": 2.0999999046325684,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E609_JORMUNGAND_FACE",
+      "name": "E609_JORMUNGAND_FACE",
+      "group": "Jormungand",
+      "hp": 12000,
+      "drops": 30,
+      "aggro": [35, 100000]
+    },
+    {
+      "id": "E612_ANCHOR",
+      "name": "E612_ANCHOR",
+      "group": "TimeShipAnchor",
+      "hp": 960,
+      "credits": 0.5,
+      "drops": 5.289999961853027,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E612_ANCHOR_FULL_LIGHT",
+      "name": "E612_ANCHOR_FULL_LIGHT",
+      "group": "TimeShipAnchor",
+      "hp": 960,
+      "credits": 0.5,
+      "drops": 5.289999961853027,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E612_ANCHOR_HEAVYFIRE",
+      "name": "E612_ANCHOR_HEAVYFIRE",
+      "group": "TimeShipAnchor",
+      "hp": 960,
+      "credits": 0.5,
+      "drops": 5.289999961853027,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E612_ANCHOR_LIGHT",
+      "name": "E612_ANCHOR_LIGHT",
+      "group": "TimeShipAnchor",
+      "hp": 960,
+      "credits": 0.5,
+      "drops": 5.289999961853027,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E614_GRANDMOTHER",
+      "name": "E614_GRANDMOTHER",
+      "group": "RingMother",
+      "hp": 18000,
+      "drops": 0.28999999165534973,
+      "aggro": [35, 100000]
+    },
+    {
+      "id": "E615_HORNETNEST_SMALL01",
+      "name": "E615_HORNETNEST_SMALL01",
+      "group": "HornetNestSnall",
+      "hp": 1000,
+      "credits": 0.5,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E615_HORNETNEST_SMALL02",
+      "name": "E615_HORNETNEST_SMALL02",
+      "group": "HornetNestSnall",
+      "hp": 1000,
+      "credits": 0.5,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E615_HORNETNEST_SMALL03",
+      "name": "E615_HORNETNEST_SMALL03",
+      "group": "HornetNestSnall",
+      "hp": 1000,
+      "credits": 0.5,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E616_VENUS_CCSS",
+      "name": "E616_VENUS_CCSS",
+      "group": "Venus",
+      "hp": [2700, 2700, 2250, 2160],
+      "credits": 0.6499999761581421,
+      "drops": 4.112500190734863,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E616_VENUS_GG",
+      "name": "E616_VENUS_GG",
+      "group": "Venus",
+      "hp": [2700, 2700, 2250, 2160],
+      "credits": 0.6499999761581421,
+      "drops": 4.112500190734863,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E616_VENUS_GGSS",
+      "name": "E616_VENUS_GGSS",
+      "group": "Venus",
+      "hp": [2700, 2700, 2250, 2160],
+      "credits": 0.6499999761581421,
+      "drops": 4.112500190734863,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E616_VENUS_GS",
+      "name": "E616_VENUS_GS",
+      "group": "Venus",
+      "hp": [2700, 2700, 2250, 2160],
+      "credits": 0.6499999761581421,
+      "drops": 4.112500190734863,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E616_VENUS_LLSS",
+      "name": "E616_VENUS_LLSS",
+      "group": "Venus",
+      "hp": [2700, 2700, 2250, 2160],
+      "credits": 0.6499999761581421,
+      "drops": 4.112500190734863,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E617_WILDFROG_G",
+      "name": "E617_WILDFROG_G",
+      "group": "Frog",
+      "hp": 500,
+      "credits": 0.699999988079071,
+      "drops": 1.690000057220459,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E617_WILDFROG_G2",
+      "name": "E617_WILDFROG_G2",
+      "group": "Frog",
+      "hp": 500,
+      "credits": 0.699999988079071,
+      "drops": 1.690000057220459,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E618_SQUID_SMALL",
+      "name": "E618_SQUID_SMALL",
+      "group": "SquidSmall",
+      "hp": 55,
+      "drops": 0.3499999940395355,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E618_SQUID_SMALL_HI",
+      "name": "E618_SQUID_SMALL_HI",
+      "group": "SquidSmall",
+      "hp": 400,
+      "drops": 1.25,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E618_SQUID_SMALL_HI_NOSMOKE",
+      "name": "E618_SQUID_SMALL_HI_NOSMOKE",
+      "group": "SquidSmall",
+      "hp": 400,
+      "drops": 1.25,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E618_SQUID_SMALL_NOSMOKE",
+      "name": "E618_SQUID_SMALL_NOSMOKE",
+      "group": "SquidSmall",
+      "hp": 55,
+      "drops": 0.3499999940395355,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E618_SQUID_SMALL_SSMOKE",
+      "name": "E618_SQUID_SMALL_SSMOKE",
+      "group": "SquidSmall",
+      "hp": 55,
+      "drops": 0.3499999940395355,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E650_GIANTANT01",
+      "name": "E650_GIANTANT01",
+      "group": "GiantAnt",
+      "hp": [120, 90, 105],
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E650_GIANTANT01_NETLIGHTSYNCMODE",
+      "name": "E650_GIANTANT01_NETLIGHTSYNCMODE",
+      "group": "GiantAnt",
+      "hp": [120, 90, 105],
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E650_GIANTANT02B",
+      "name": "E650_GIANTANT02B",
+      "group": "GiantAnt",
+      "hp": [360, 270, 315],
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E650_GIANTANT03B",
+      "name": "E650_GIANTANT03B",
+      "group": "GiantAnt",
+      "hp": 270,
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E650_GIANTANT_GOLD",
+      "name": "E650_GIANTANT_GOLD",
+      "group": "GiantAnt",
+      "hp": 45,
+      "credits": 5,
+      "drops": 0.6499999761581421,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E650_GIANTANT_QUEEN",
+      "name": "E650_GIANTANT_QUEEN",
+      "group": "GiantAntQueen",
+      "hp": [8000, 6000, 7000],
+      "drops": 6.579999923706055,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E650_GIANTANT_QUEEN_GOLD",
+      "name": "E650_GIANTANT_QUEEN_GOLD",
+      "group": "GiantAntQueen",
+      "hp": 2800,
+      "drops": 6.579999923706055,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E651_SPIDER01",
+      "name": "E651_SPIDER01",
+      "group": "GiantSpider",
+      "hp": 55,
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E651_SPIDER01_LIGHT",
+      "name": "E651_SPIDER01_LIGHT",
+      "group": "GiantSpider",
+      "hp": 55,
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E651_SPIDER01_NETLIGHTSYNCMODE",
+      "name": "E651_SPIDER01_NETLIGHTSYNCMODE",
+      "group": "GiantSpider",
+      "hp": 55,
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E651_SPIDER01_SILVER",
+      "name": "E651_SPIDER01_SILVER",
+      "group": "GiantSpider",
+      "hp": 550,
+      "credits": 5,
+      "drops": 2.4000000953674316,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E651_SPIDER_QUEEN",
+      "name": "E651_SPIDER_QUEEN",
+      "group": "BigGiantSpider",
+      "hp": 3000,
+      "drops": 6.579999923706055,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E661_MARTIAN_LEADER_AASS",
+      "name": "E661_MARTIAN_LEADER_AASS",
+      "group": "Martian",
+      "hp": [750, 750, 675, 600],
+      "credits": 0.8399999737739563,
+      "drops": 2.5350000858306885,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E661_MARTIAN_LEADER_CS",
+      "name": "E661_MARTIAN_LEADER_CS",
+      "group": "Martian",
+      "hp": [750, 750, 675, 600],
+      "credits": 0.8399999737739563,
+      "drops": 2.5350000858306885,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E661_MARTIAN_LEADER_GGSS",
+      "name": "E661_MARTIAN_LEADER_GGSS",
+      "group": "Martian",
+      "hp": [750, 750, 675, 600],
+      "credits": 0.8399999737739563,
+      "drops": 2.5350000858306885,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E662_GIANTANT_QUEEN_RED",
+      "name": "E662_GIANTANT_QUEEN_RED",
+      "group": "GiantAntQueen",
+      "hp": [5000, 4000],
+      "drops": 6.579999923706055,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E664_ARMOR_VENUS_BB",
+      "name": "E664_ARMOR_VENUS_BB",
+      "group": "Venus",
+      "hp": [400],
+      "credits": 0.6499999761581421,
+      "drops": 1.2899999618530273,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E664_ARMOR_VENUS_GGGG",
+      "name": "E664_ARMOR_VENUS_GGGG",
+      "group": "Venus",
+      "hp": [400],
+      "credits": 0.6499999761581421,
+      "drops": 1.2899999618530273,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E664_ARMOR_VENUS_WW",
+      "name": "E664_ARMOR_VENUS_WW",
+      "group": "Venus",
+      "hp": [400],
+      "credits": 0.6499999761581421,
+      "drops": 1.2899999618530273,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E665_GIANTANT_MEDIUM",
+      "name": "E665_GIANTANT_MEDIUM",
+      "group": "GiantAnt",
+      "hp": 188.39999389648438,
+      "credits": 0.5,
+      "drops": 0.37700000405311584,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E666_ANCHOR_SMALL_HEAVYFIRE",
+      "name": "E666_ANCHOR_SMALL_HEAVYFIRE",
+      "group": "TimeShipAnchor",
+      "hp": 480,
+      "credits": 0.5,
+      "drops": 2.6449999809265137,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E667_SPIDER_MEDIUM",
+      "name": "E667_SPIDER_MEDIUM",
+      "group": "GiantSpider",
+      "hp": 275,
+      "credits": 0.30000001192092896,
+      "drops": 0.4350000023841858,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E667_SPIDER_QUEEN",
+      "name": "E667_SPIDER_QUEEN",
+      "group": "BigGiantSpider",
+      "hp": 4500,
+      "drops": 6.579999923706055,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E668_GIANTBEE_MEDIUM",
+      "name": "E668_GIANTBEE_MEDIUM",
+      "group": "GiantBee",
+      "hp": 225,
+      "credits": 0.4000000059604645,
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E668_GIANTBEE_QUEEN",
+      "name": "E668_GIANTBEE_QUEEN",
+      "group": "GiantBeeQueen",
+      "hp": 2250,
+      "drops": 10.579999923706055,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "GIANTANT01",
+      "name": "GIANTANT01",
+      "group": "GiantAnt",
+      "hp": 60,
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "GIANTANT01B",
+      "name": "GIANTANT01B",
+      "group": "GiantAnt",
+      "hp": 60,
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "GIANTANT01NETLIGHTSYNCMODE",
+      "name": "GIANTANT01NETLIGHTSYNCMODE",
+      "group": "GiantAnt",
+      "hp": 60,
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "GIANTANT02B",
+      "name": "GIANTANT02B",
+      "group": "GiantAnt",
+      "hp": 180,
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "GIANTANT03B",
+      "name": "GIANTANT03B",
+      "group": "GiantAnt",
+      "hp": 270,
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "GIANTANT04",
+      "name": "GIANTANT04",
+      "group": "GiantAnt",
+      "hp": 15,
+      "drops": 0.07249999791383743,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "GIANTANT04SB",
+      "name": "GIANTANT04SB",
+      "group": "GiantAnt",
+      "hp": 15,
+      "drops": 0.07249999791383743,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "GIANTANTQUEEN",
+      "name": "GIANTANTQUEEN",
+      "group": "GiantAntQueen",
+      "hp": 4000,
+      "drops": 6.579999923706055,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "GIANTBEE01",
+      "name": "GIANTBEE01",
+      "group": "GiantBee",
+      "hp": 45,
+      "drops": 0.2029999941587448,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "GIANTBEE01CHARGE",
+      "name": "GIANTBEE01CHARGE",
+      "group": "GiantBee",
+      "hp": 45,
+      "drops": 0.2029999941587448,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "GIANTBEE02CHARGE",
+      "name": "GIANTBEE02CHARGE",
+      "group": "GiantBee",
+      "hp": 90,
+      "drops": 1.2899999618530273,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "GIANTBEEQUEEN",
+      "name": "GIANTBEEQUEEN",
+      "group": "GiantBeeQueen",
+      "hp": 3000,
+      "drops": 5.289999961853027,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "GIANTBEEQUEEN02",
+      "name": "GIANTBEEQUEEN02",
+      "group": "GiantBeeQueen",
+      "hp": 3000,
+      "drops": 10.579999923706055,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "GIANTSPIDER01",
+      "name": "GIANTSPIDER01",
+      "group": "GiantSpider",
+      "hp": 55,
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "GIANTSPIDER01NETLIGHTSYNCMODE",
+      "name": "GIANTSPIDER01NETLIGHTSYNCMODE",
+      "group": "GiantSpider",
+      "hp": 55,
+      "drops": 0.28999999165534973,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "GIANTSPIDERQUEEN",
+      "name": "GIANTSPIDERQUEEN",
+      "group": "BigGiantSpider",
+      "hp": 3000,
+      "drops": 6.579999923706055,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "GOLDANT",
+      "name": "GOLDANT",
+      "group": "GiantAnt",
+      "hp": 30,
+      "credits": 5,
+      "drops": 0.6499999761581421,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "GOLDANTQUEEN",
+      "name": "GOLDANTQUEEN",
+      "group": "GiantAntQueen",
+      "hp": 2800,
+      "drops": 16.450000762939453,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "HORNETNEST401",
+      "name": "HORNETNEST401",
+      "group": "HornetNest",
+      "hp": 28000,
+      "aggro": [0, 500]
+    },
+    {
+      "id": "MONSTER501",
+      "name": "MONSTER501",
+      "group": "Monster501",
+      "hp": 32000,
+      "drops": 7.289999961853027,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "MONSTER501_KING",
+      "name": "MONSTER501_KING",
+      "group": "Monster501",
+      "hp": 64000,
+      "drops": 7.289999961853027,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "NEPHILA",
+      "name": "NEPHILA",
+      "group": "Nephila",
+      "hp": 600,
+      "drops": 1.4900000095367432,
+      "aggro": [35, 200]
+    },
+    {
+      "id": "REDSMALLDRAGON",
+      "name": "REDSMALLDRAGON",
+      "group": "DragonAce",
+      "hp": 1200,
+      "credits": 3,
+      "drops": 2.319999933242798,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "REDSMALLDRAGON_HS",
+      "name": "REDSMALLDRAGON_HS",
+      "group": "DragonAce",
+      "hp": 1200,
+      "credits": 3,
+      "drops": 2.319999933242798,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "SILVERSPIDER",
+      "name": "SILVERSPIDER",
+      "group": "GiantSpider",
+      "hp": 450,
+      "credits": 5,
+      "drops": 2.4000000953674316,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "SILVERSPIDERQUEEN",
+      "name": "SILVERSPIDERQUEEN",
+      "group": "BigGiantSpider",
+      "hp": 8000,
+      "drops": 14.800000190734863,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "YERROWSMALLDRAGON",
+      "name": "YERROWSMALLDRAGON",
+      "group": "Dragon",
+      "hp": 20,
+      "drops": 0.1899999976158142,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "YERROWSMALLDRAGON_HS",
+      "name": "YERROWSMALLDRAGON_HS",
+      "group": "Dragon",
+      "hp": 20,
+      "drops": 0.1899999976158142,
+      "aggro": [50, 150]
+    }
+  ],
   "modes": [
     {
       "name": "OFF",

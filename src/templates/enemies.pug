@@ -1,0 +1,30 @@
+include ./tables.pug
+
+table.drops-table
+  thead
+    tr
+      th Enemy
+      for diff in mode.difficulties
+        th(
+          colspan=2
+          title=diff.name
+          class=diff.name
+        )= diff.name
+      th Drops
+      th Aggro
+      th Alert
+  tbody
+    - let group = ''
+    for enemy in enemies
+      if enemy.group != group
+        tr
+          td(colspan="100")= enemy.group
+        - group = enemy.group
+      tr
+        td.name= enemy.name
+        for diff, i in mode.difficulties
+          td.from= getHpLow(enemy, diff, i).toFixed()
+          td.to= getHpHigh(enemy, diff, i).toFixed()
+        td= ((enemy.drops || 0) / 0.947).toFixed(2)
+        td= enemy.aggro[0]
+        td= enemy.aggro[1]

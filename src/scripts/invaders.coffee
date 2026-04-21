@@ -1,4 +1,6 @@
 import template from '../templates/main.pug'
+import './enemies'
+import { last } from './utils'
 import { localize } from './lang'
 import { readState, writeState } from './saving'
 import { populateWeaponStats, processHeaders } from './stats'
@@ -15,8 +17,6 @@ spinoffs = ['ia', 'ir', 'wdts']
 gameLabels = {}
 gameLabels[game] = "EDF#{game}" for game in games
 gameLabels[game] = "EDF:#{game}" for game in spinoffs
-
-last = (list) => list[list.length - 1]
 
 locals =
   stars: [0..10].map (star) =>
@@ -132,16 +132,36 @@ loadData = (gameId) =>
   Object.assign locals, data
   locals.modes = [
     { id: 'stats', name: 'Stats' }
-    ...(data.modes
+    ...data.modes
       .filter (m) => m.difficulties?[0].dropsLow
       .map (m) => {
         id: m.name.toLowerCase()
         label: "Drops <b>#{m.name}</b>"
+        class: m.name.toLowerCase()
         hasDrops: true
-          ...m
+        ...m
       }
-    )
+    ...data.modes
+      .filter () => locals.enemies?.length
+      .map (m) => {
+        id: "enemies-#{m.name.toLowerCase()}"
+        label: "<i>Enemies</i> <b>#{m.name}</b>"
+        class: m.name.toLowerCase()
+        hasEnemies: true
+        ...m
+      }
   ]
+
+  if data.enemies
+    locals.enemies = data.enemies.sort (a, b) =>
+      groupSort = a.group.localeCompare(b.group)
+      return groupSort if groupSort
+      aHp = if Array.isArray a.hp then a.hp[0] else a.hp
+      bHp = if Array.isArray b.hp then b.hp[0] else b.hp
+      hpSort = aHp - bHp
+      return hpSort if hpSort
+      return a.name.localeCompare(b.name)
+
   locals.mode = locals.modes[0]
   locals.classes = data.classes.map (id, i) => { id, name: data.charLabels[i] }
   locals.langs = data.langs.map (lang) => { id: lang, name: lang } if data.langs

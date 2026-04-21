@@ -8,7 +8,11 @@ table.drops-table
         - let h = headerDefinitions[header] || { label: '???' }
         th(title=h.tooltip)= h.label
       for diff in mode.difficulties
-        th(colspan=2 title=diff.name class={[diff.name]: true })= diff.name
+        th(
+          colspan=2
+          title=diff.name
+          class={[diff.name]: true
+        })= diff.name
   tbody
     for weapon in table.weapons
       tr

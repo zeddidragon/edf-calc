@@ -81448,11 +81448,29 @@
     },
     {
       "id": "E514_DANGO",
-      "name": "E514_DANGO",
+      "name": "Aggressive Species γ (Pillbug)",
       "group": "Dango",
       "hp": 80,
       "drops": 0.28999999165534973,
       "aggro": [50, 150]
+    },
+    {
+      "id": "E660_HEAVY_DANGO_M",
+      "name": "Aggressive Species γ (Large)",
+      "group": "Radon",
+      "hp": 2500,
+      "credits": 0.5,
+      "drops": 1,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E660_HEAVY_DANGO_L",
+      "name": "Aggressive Species γ (Red, Giant)",
+      "group": "Radon",
+      "hp": 5000,
+      "credits": 0.5,
+      "drops": 2.2899999618530273,
+      "aggro": [80, 200]
     },
     {
       "id": "E515_IMPERIALUFO",
@@ -81477,14 +81495,6 @@
       "hp": 60,
       "drops": 0.28999999165534973,
       "aggro": [50, 150]
-    },
-    {
-      "id": "E516_BIGGREYBOSS",
-      "name": "E516_BIGGREYBOSS",
-      "group": "BigGreyBoss",
-      "hp": 32000,
-      "drops": 100,
-      "aggro": [0, 150]
     },
     {
       "id": "E517_ANTHILL",
@@ -81532,52 +81542,16 @@
     },
     {
       "id": "E602_BERSERKER",
-      "name": "E602_BERSERKER",
+      "name": "Android",
       "group": "BerserkerA",
       "hp": 180,
       "credits": 0.6000000238418579,
       "drops": 0.4350000023841858,
-      "aggro": [35, 150]
-    },
-    {
-      "id": "E602_BERSERKERUG",
-      "name": "E602_BERSERKERUG",
-      "group": "BerserkerA",
-      "hp": 180,
-      "credits": 0.6000000238418579,
-      "drops": 0.4350000023841858,
-      "aggro": [35, 150]
-    },
-    {
-      "id": "E602_BERSERKERUG_BEAMA",
-      "name": "E602_BERSERKERUG_BEAMA",
-      "group": "BerserkerA",
-      "hp": 120,
-      "credits": 0.6000000238418579,
-      "drops": 0.4350000023841858,
-      "aggro": [35, 150]
-    },
-    {
-      "id": "E602_BERSERKERUG_BEAMB",
-      "name": "E602_BERSERKERUG_BEAMB",
-      "group": "BerserkerA",
-      "hp": 180,
-      "credits": 0.6000000238418579,
-      "drops": 0.4350000023841858,
-      "aggro": [35, 150]
-    },
-    {
-      "id": "E602_BERSERKER_ACE",
-      "name": "E602_BERSERKER_ACE",
-      "group": "BerserkerB",
-      "hp": [1200, 1000],
-      "credits": 0.6000000238418579,
-      "drops": 2.871000051498413,
       "aggro": [35, 150]
     },
     {
       "id": "E602_BERSERKER_BEAMA",
-      "name": "E602_BERSERKER_BEAMA",
+      "name": "Android (Blue A)",
       "group": "BerserkerA",
       "hp": 120,
       "credits": 0.6000000238418579,
@@ -81586,7 +81560,7 @@
     },
     {
       "id": "E602_BERSERKER_BEAMB",
-      "name": "E602_BERSERKER_BEAMB",
+      "name": "Android (Blue B)",
       "group": "BerserkerA",
       "hp": 180,
       "credits": 0.6000000238418579,
@@ -81594,17 +81568,17 @@
       "aggro": [35, 150]
     },
     {
-      "id": "E602_BERSERKER_BOMMER",
-      "name": "E602_BERSERKER_BOMMER",
-      "group": "BerserkerD",
-      "hp": 240,
-      "credits": 0.20000000298023224,
-      "drops": 0.4350000023841858,
+      "id": "E602_BERSERKER_ACE",
+      "name": "Android (Red)",
+      "group": "BerserkerB",
+      "hp": [1200, 1000],
+      "credits": 0.6000000238418579,
+      "drops": 2.871000051498413,
       "aggro": [35, 150]
     },
     {
-      "id": "E602_BERSERKER_BOMMER_ST",
-      "name": "E602_BERSERKER_BOMMER_ST",
+      "id": "E602_BERSERKER_BOMMER",
+      "name": "Android (Grenadier)",
       "group": "BerserkerD",
       "hp": 240,
       "credits": 0.20000000298023224,
@@ -81613,7 +81587,7 @@
     },
     {
       "id": "E602_BERSERKER_GRAPPLE",
-      "name": "E602_BERSERKER_GRAPPLE",
+      "name": "Android (High-Speed)",
       "group": "BerserkerC",
       "hp": 120,
       "credits": 0.6000000238418579,
@@ -81622,7 +81596,7 @@
     },
     {
       "id": "E602_BERSERKER_LARGE_ACE",
-      "name": "E602_BERSERKER_LARGE_ACE",
+      "name": "Cyclop",
       "group": "BerserkerLarge",
       "hp": 1750,
       "credits": 0.5,
@@ -81631,7 +81605,7 @@
     },
     {
       "id": "E602_BERSERKER_LARGE_PUNCH",
-      "name": "E602_BERSERKER_LARGE_PUNCH",
+      "name": "Cyclop (Red)",
       "group": "BerserkerLarge",
       "hp": 1750,
       "credits": 0.5,
@@ -81640,7 +81614,7 @@
     },
     {
       "id": "E602_BERSERKER_MIDDLE",
-      "name": "E602_BERSERKER_MIDDLE",
+      "name": "Anroid (Large)",
       "group": "BerserkerMiddle",
       "hp": 1400,
       "credits": 0.5,
@@ -81649,74 +81623,20 @@
     },
     {
       "id": "E602_BERSERKER_MIDDLEUG",
-      "name": "E602_BERSERKER_MIDDLEUG",
+      "name": "Android (Large, Blue)",
       "group": "BerserkerMiddle",
       "hp": 1400,
-      "credits": 0.5,
-      "drops": 2.2899999618530273,
-      "aggro": [35, 150]
-    },
-    {
-      "id": "E602_BERSERKER_MIDDLEUG_MG",
-      "name": "E602_BERSERKER_MIDDLEUG_MG",
-      "group": "BerserkerMiddle",
-      "hp": 1400,
-      "credits": 0.5,
-      "drops": 2.2899999618530273,
-      "aggro": [35, 150]
-    },
-    {
-      "id": "E602_BERSERKER_MIDDLEUG_PUNCH",
-      "name": "E602_BERSERKER_MIDDLEUG_PUNCH",
-      "group": "BerserkerMiddle",
-      "hp": 700,
       "credits": 0.5,
       "drops": 2.2899999618530273,
       "aggro": [35, 150]
     },
     {
       "id": "E602_BERSERKER_MIDDLE_BOMMER",
-      "name": "E602_BERSERKER_MIDDLE_BOMMER",
+      "name": "Grenadier (Large)",
       "group": "BerserkerMiddleBommer",
       "hp": 2800,
       "credits": 0.1666666716337204,
       "drops": 2.2899999618530273,
-      "aggro": [35, 150]
-    },
-    {
-      "id": "E602_BERSERKER_MIDDLE_MG",
-      "name": "E602_BERSERKER_MIDDLE_MG",
-      "group": "BerserkerMiddle",
-      "hp": 1400,
-      "credits": 0.5,
-      "drops": 2.2899999618530273,
-      "aggro": [35, 150]
-    },
-    {
-      "id": "E602_BERSERKER_MIDDLE_PUNCH",
-      "name": "E602_BERSERKER_MIDDLE_PUNCH",
-      "group": "BerserkerMiddle",
-      "hp": 700,
-      "credits": 0.5,
-      "drops": 2.2899999618530273,
-      "aggro": [35, 150]
-    },
-    {
-      "id": "E602_BERSERKER_MIDDLE_SPREAD",
-      "name": "E602_BERSERKER_MIDDLE_SPREAD",
-      "group": "BerserkerMiddle",
-      "hp": 1400,
-      "credits": 0.5,
-      "drops": 2.2899999618530273,
-      "aggro": [35, 150]
-    },
-    {
-      "id": "E602_BERSERKER_ST",
-      "name": "E602_BERSERKER_ST",
-      "group": "BerserkerA",
-      "hp": 180,
-      "credits": 0.6000000238418579,
-      "drops": 0.4350000023841858,
       "aggro": [35, 150]
     },
     {
@@ -81744,6 +81664,22 @@
       "hp": 4800,
       "credits": 0.800000011920929,
       "drops": 4.380000114440918,
+      "aggro": [35, 150]
+    },
+    {
+      "id": "E516_BIGGREYBOSS",
+      "name": "The Nameless",
+      "group": "BigGreyBoss",
+      "hp": 32000,
+      "drops": 100,
+      "aggro": [0, 150]
+    },
+    {
+      "id": "E604_RADON",
+      "name": "Siren / Glaucos",
+      "group": "Radon",
+      "hp": [64000, 64000, 56000],
+      "drops": 0.28999999165534973,
       "aggro": [35, 150]
     },
     {
@@ -82065,10 +82001,26 @@
     },
     {
       "id": "E651_SPIDER_QUEEN",
-      "name": "E651_SPIDER_QUEEN",
+      "name": "King Spider",
       "group": "BigGiantSpider",
       "hp": 3000,
       "drops": 6.579999923706055,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "E667_SPIDER_QUEEN",
+      "name": "King Spider (Blue)",
+      "group": "BigGiantSpider",
+      "hp": 4500,
+      "drops": 6.579999923706055,
+      "aggro": [50, 150]
+    },
+    {
+      "id": "SILVERSPIDERQUEEN",
+      "name": "King Spider (Silver)",
+      "group": "BigGiantSpider",
+      "hp": 8000,
+      "drops": 14.800000190734863,
       "aggro": [50, 150]
     },
     {
@@ -82158,14 +82110,6 @@
       "hp": 275,
       "credits": 0.30000001192092896,
       "drops": 0.4350000023841858,
-      "aggro": [50, 150]
-    },
-    {
-      "id": "E667_SPIDER_QUEEN",
-      "name": "E667_SPIDER_QUEEN",
-      "group": "BigGiantSpider",
-      "hp": 4500,
-      "drops": 6.579999923706055,
       "aggro": [50, 150]
     },
     {
@@ -82306,14 +82250,6 @@
       "aggro": [50, 150]
     },
     {
-      "id": "GIANTSPIDERQUEEN",
-      "name": "GIANTSPIDERQUEEN",
-      "group": "BigGiantSpider",
-      "hp": 3000,
-      "drops": 6.579999923706055,
-      "aggro": [50, 150]
-    },
-    {
       "id": "GOLDANT",
       "name": "GOLDANT",
       "group": "GiantAnt",
@@ -82386,14 +82322,6 @@
       "hp": 450,
       "credits": 5,
       "drops": 2.4000000953674316,
-      "aggro": [50, 150]
-    },
-    {
-      "id": "SILVERSPIDERQUEEN",
-      "name": "SILVERSPIDERQUEEN",
-      "group": "BigGiantSpider",
-      "hp": 8000,
-      "drops": 14.800000190734863,
       "aggro": [50, 150]
     },
     {

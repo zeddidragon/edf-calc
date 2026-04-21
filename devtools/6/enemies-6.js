@@ -12,14 +12,20 @@ export async function extractEnemyData() {
   return enemies
 }
 
+const groups = {
+  E660_HEAVY_DANGO_M: 'Dango',
+  E660_HEAVY_DANGO_L: 'Dango',
+  E604_RADON: 'Radon'
+}
+
 export function processEnemy(setup, json) {
-  const killCounter = getNode(json, 'game_object_kill_counter')
-  if(!killCounter)
-    return
   const obj = splatNode(json.variables)
+  const group = groups[setup.id] || obj.game_object_kill_counter?.replace('KillCount', '')
+  if (!group)
+    console.error(`Group not found: "${setup.id}"`)
   const enemy = {
     ...setup,
-    group: obj.game_object_kill_counter.replace('KillCount', ''),
+    group: obj.game_object_kill_counter?.replace('KillCount', '') || 'Radon',
     hp: obj.game_object_durability,
     credits: obj.game_object_destroy_score_adjust,
     drops: obj.game_object_drop_item?.[2],

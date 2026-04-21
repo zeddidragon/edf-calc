@@ -1,10 +1,10 @@
 import template from '../templates/main.pug'
-import './enemies'
 import { last } from './utils'
 import { localize } from './lang'
 import { readState, writeState } from './saving'
 import { populateWeaponStats, processHeaders } from './stats'
 import { populateWeaponDrops } from './drops'
+import { processEnemies } from './enemies'
 
 params = readState()
 
@@ -153,14 +153,7 @@ loadData = (gameId) =>
   ]
 
   if data.enemies
-    locals.enemies = data.enemies.sort (a, b) =>
-      groupSort = a.group.localeCompare(b.group)
-      return groupSort if groupSort
-      aHp = if Array.isArray a.hp then a.hp[0] else a.hp
-      bHp = if Array.isArray b.hp then b.hp[0] else b.hp
-      hpSort = aHp - bHp
-      return hpSort if hpSort
-      return a.name.localeCompare(b.name)
+    processEnemies data
 
   locals.mode = locals.modes[0]
   locals.classes = data.classes.map (id, i) => { id, name: data.charLabels[i] }

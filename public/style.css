@@ -372,3 +372,7 @@ th.P, th.CR {
 .to {
   border-right: thin dotted var(--faded-text);
 }
+
+.duplicate td {
+  background: red;
+}

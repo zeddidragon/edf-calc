@@ -20,7 +20,7 @@ table.drops-table
         tr
           td(colspan="100")= enemy.group
         - group = enemy.group
-      tr
+      tr(class={ duplicate: enemy.isDuplicate })
         td.name= enemy.name
         for diff, i in mode.difficulties
           td.from= getHpLow(enemy, diff, i).toFixed()

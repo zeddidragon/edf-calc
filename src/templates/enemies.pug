@@ -1,30 +1,38 @@
 include ./tables.pug
 
+header#menus
+  if mode.difficulties
+    +dropdown('difficulty', mode.difficulties, diff)
+  if diff && diff.players
+    +dropdown('players', diff.players, playerCount)
+  div
+    | M
+    input#mission-input(
+      type="number"
+      min=1
+      max=mode.missions
+      value=mission
+      onchange="calcMissionHps()")
+
 table.drops-table
   thead
     tr
       th Enemy
-      for diff in mode.difficulties
-        th(
-          colspan=2
-          title=diff.name
-          class=diff.name
-        )= diff.name
+      th HP
+      th Stun
       th Drops
+      th Credits
       th Aggro
       th Alert
   tbody
     - let group = ''
     for enemy in enemies
-      if enemy.group != group
-        tr
-          td(colspan="100")= enemy.group
-        - group = enemy.group
-      tr(class={ duplicate: enemy.isDuplicate })
-        td.name= enemy.name
-        for diff, i in mode.difficulties
-          td.from= getHpLow(enemy, diff, i).toFixed()
-          td.to= getHpHigh(enemy, diff, i).toFixed()
+      tr(class={ duplicate: enemy.isDuplicate } data-enem=enemy.id)
+        - var hp = getMissionHp(enemy, diff, mission)
+        td.name= enemy.name || enemy.id
+        td.mission-hp= hp.toFixed()
+        td.stagger= enemy.stagger ? (hp * enemy.stagger).toFixed() : '-'
         td= ((enemy.drops || 0) / 0.947).toFixed(2)
-        td= enemy.aggro[0]
-        td= enemy.aggro[1]
+        td= getCredits(enemy).toFixed()
+        td= enemy.aggro[0] || '-'
+        td= enemy.aggro[1] || '-'

@@ -21,6 +21,10 @@ export writeState = () =>
     state.star = locals.star.star
   if locals.lang
     state.lang = locals.lang.id
+  if locals.diff
+    state.diff = locals.diff.id
+  if locals.playerCount
+    state.p = locals.playerCount.count
 
   window.location.hash = Object.entries state
     .map (pair) => pair.join '='
@@ -56,15 +60,6 @@ restoreSaveData = (payload, scope) =>
       char = parsed.charCodeAt i
     else
       pow++
-
-stateKeys = [
-  'game',
-  'mode',
-  'char',
-  'wpn',
-  'star',
-  'lang',
-]
 
 flashButton = (id, text, revertTo) =>
   button = document.getElementById id

@@ -26,6 +26,14 @@ mixin starCell(weapon, prop)
     max: star != null && star === max
   })= star
 
+header#menus
+  if classes
+    +dropdown('class', classes, char)
+  if categories
+    +dropdown('category', categories, cat)
+  if gameValues && gameValues.hasStars
+    +dropdown('star', stars, star)
+
 each table in tables
   if tables.length > 1 && table.name
     h3= localize(table.names, table.name)

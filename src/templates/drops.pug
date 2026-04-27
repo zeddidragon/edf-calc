@@ -1,5 +1,11 @@
 include ./tables.pug
 
+header#menus
+  if classes
+    +dropdown('class', classes, char)
+  if categories
+    +dropdown('category', categories, cat)
+
 - table = tables[0]
 table.drops-table
   thead

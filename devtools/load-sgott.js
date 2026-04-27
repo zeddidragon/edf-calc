@@ -1,4 +1,5 @@
 import fs from 'fs/promises'
+import { splatNode } from './get-node.js'
 
 let game
 export function setGame(g) {
@@ -12,6 +13,10 @@ export function listDir(path) {
 export async function loadJson(path) {
   const module = await import(`../../sgott/data/${game}/${path}.json`, { with: { type: 'json' } })
   return module.default
+}
+
+export function transformJson(path) {
+  return loadJson(path).then(obj => splatNode(obj.variables))
 }
 
 export function loadFile(path) {

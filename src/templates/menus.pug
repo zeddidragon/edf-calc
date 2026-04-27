@@ -22,10 +22,3 @@ header#top-menus
   .spacer
   if langs
     +dropdown('lang', langs, lang)
-header#menus
-  if classes
-    +dropdown('class', classes, char)
-  if categories
-    +dropdown('category', categories, cat)
-  if gameValues && gameValues.hasStars
-    +dropdown('star', stars, star)

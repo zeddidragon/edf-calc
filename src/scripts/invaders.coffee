@@ -4,7 +4,7 @@ import { localize } from './lang'
 import { readState, writeState } from './saving'
 import { populateWeaponStats, processHeaders } from './stats'
 import { populateWeaponDrops } from './drops'
-import { processEnemies } from './enemies'
+import { processEnemies, enemyStatModes } from './enemies'
 
 params = readState()
 
@@ -58,17 +58,47 @@ window.selectItem = (scope, id) =>
     when 'category' then selectCategory id
     when 'star' then selectStar id
     when 'lang' then selectLang id
+    when 'difficulty' then selectDiff id
+    when 'players' then selectPlayerCount id
 
 window.selectMode = (modeId) =>
   locals.mode = locals.modes.find (m) => m.id is modeId
   locals.mode or= locals.modes[0]
-
   params.mode = locals.mode.id
-  selectChar params.char
+  
+  if locals.mode.hasEnemies
+    locals.mission = Math.ceil(locals.mode.missions / 2)
+    delete params.char
+    delete params.star
+    delete locals.char
+    delete locals.star
+    selectDiff params.diff
+  else
+    delete params.diff
+    delete params.m
+    delete locals.diff
+    delete locals.mission
+    selectChar params.char
 
 buttonPrefixes = [
   'Drops '
 ]
+
+window.selectDiff = (diffId) =>
+  locals.diff = locals.mode.difficulties.find (d) => d.id is diffId
+  locals.diff or= locals.mode.difficulties[0]
+  locals.mission = 1
+  params.m = 1
+
+  params.diff = locals.diff?.id
+  selectPlayerCount params.p
+
+window.selectPlayerCount = (count) =>
+  locals.playerCount = locals.diff?.players.find (p) => +p.id is +count
+  locals.playerCount or= locals.diff?.players?[0]
+  params.p = locals.playerCount?.id
+
+  render()
 
 window.selectChar = (charId) =>
   locals.char = locals.classes.find (c) => c.id is charId
@@ -141,15 +171,7 @@ loadData = (gameId) =>
         hasDrops: true
         ...m
       }
-    ...data.modes
-      .filter () => locals.enemies?.length
-      .map (m) => {
-        id: "enemies-#{m.name.toLowerCase()}"
-        label: "<i>Enemies</i> <b>#{m.name}</b>"
-        class: m.name.toLowerCase()
-        hasEnemies: true
-        ...m
-      }
+    ...(enemyStatModes data.modes if locals.enemies?.length)
   ]
 
   if data.enemies

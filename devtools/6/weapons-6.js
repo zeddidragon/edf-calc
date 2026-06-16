@@ -479,6 +479,7 @@ export const headers = {
         'radius',
         'interval',
         'reload',
+        'range',
         'dps',
         'dps2',
         'tdps',

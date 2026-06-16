@@ -1,5 +1,5 @@
 import fs from 'fs/promises'
-import { getNode } from './get-node.js'
+import { getNode, splatNode } from './get-node.js'
 import { setGame, loadJson } from './load-sgott.js'
 
 let game
@@ -545,6 +545,7 @@ export async function SmokeCandleBullet01(wpn) {
     return subWpn
   })
 
+  // EDF 5 Fuel
   if(wpn.weapons[wpn.weapons.length - 1]?.names?.en === 'FUEL') {
     const [fuel, usage] = wpn.custom
       .find(n => n.type === 'ptr')
@@ -553,6 +554,13 @@ export async function SmokeCandleBullet01(wpn) {
       .value[2]
       .value
       .map(v => v.value)
+    wpn.fuel = fuel
+    wpn.fuelUse = +usage.toFixed(2)
+    wpn.weapons.pop()
+  }
+  // EDF 6 Fuel
+  if(wpn.weapons[wpn.weapons.length - 1]?.names?.en === 'Fuel') {
+    const [fuel, usage] = splatNode(wpn.custom)[4][3][2];
     wpn.fuel = fuel
     wpn.fuelUse = +usage.toFixed(2)
     wpn.weapons.pop()

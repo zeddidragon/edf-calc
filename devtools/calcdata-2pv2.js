@@ -609,6 +609,7 @@ const headers = {
         'damage',
         'shots',
         'reload',
+        'range',
         'total',
       ],
     }, {
@@ -930,7 +931,7 @@ const dictionary = {
   '有効距離 (半径m)': 'range',
   '搭載弾薬 (発)': 'shots',
   '探知距離 (半径m)': 'searchRange', // Ranger mines
-  '索敵距離 (m)': 'turretRange', // Air Raider turrets
+  '索敵距離 (m)': 'searchRange', // Air Raider turrets
   '探知距離 (m)': 'patrollerRange',
   '全弾直撃火力': 'shotTotal',
   '発射数': 'shots',

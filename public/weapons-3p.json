@@ -232,6 +232,7 @@
               "radius",
               "interval",
               "reload",
+              "range",
               "dps",
               "tdps",
               "total"

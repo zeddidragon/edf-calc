@@ -532,6 +532,7 @@
               "damage",
               "shots",
               "reload",
+              "range",
               "total"
             ]
           },
@@ -1050,7 +1051,7 @@
       "shots": 100,
       "damage": 7,
       "reloadSeconds": 20,
-      "turretRange": 150,
+      "searchRange": 150,
       "subCategory": "turret",
       "names": {"en": "ZE-GUN Prototype", "ja": "ZE-GUN試作型"}
     },
@@ -2180,7 +2181,7 @@
       "shots": 200,
       "damage": 10,
       "reloadSeconds": 20,
-      "turretRange": 150,
+      "searchRange": 150,
       "subCategory": "turret",
       "names": {"en": "ZE-GUN", "ja": "ZE-GUN"}
     },
@@ -2728,7 +2729,7 @@
       "shots": 400,
       "damage": 2.3,
       "reloadSeconds": 20,
-      "turretRange": 300,
+      "searchRange": 300,
       "subCategory": "turret",
       "names": {"en": "ZER-GUN", "ja": "ZER-GUN"}
     },
@@ -3581,7 +3582,7 @@
       "shots": 20,
       "damage": 25,
       "reloadSeconds": 20,
-      "turretRange": 1200,
+      "searchRange": 1200,
       "subCategory": "turret",
       "names": {"en": "ZE Sniper", "ja": "ZEスナイパー"}
     },
@@ -4214,7 +4215,7 @@
       "shots": 20,
       "damage": 100,
       "reloadSeconds": 20,
-      "turretRange": 498,
+      "searchRange": 498,
       "subCategory": "turret",
       "names": {"en": "ZE Launcher", "ja": "ZEランチャー"}
     },
@@ -5899,7 +5900,7 @@
       "shots": 400,
       "damage": 20,
       "reloadSeconds": 20,
-      "turretRange": 300,
+      "searchRange": 300,
       "subCategory": "turret",
       "names": {"en": "ZERA-GUN", "ja": "ZERA-GUN"}
     },
@@ -7472,7 +7473,7 @@
       "shots": 100,
       "damage": 40,
       "reloadSeconds": 20,
-      "turretRange": 150,
+      "searchRange": 150,
       "subCategory": "turret",
       "names": {"en": "ZE-GUN10", "ja": "ZE-GUN10"}
     },
@@ -7773,7 +7774,7 @@
       "shots": 40,
       "damage": 450,
       "reloadSeconds": 20,
-      "turretRange": 600,
+      "searchRange": 600,
       "subCategory": "turret",
       "names": {"en": "ZEX Launcher", "ja": "ZEXランチャー"}
     },
@@ -8318,7 +8319,7 @@
       "shots": 500,
       "damage": 35,
       "reloadSeconds": 20,
-      "turretRange": 300,
+      "searchRange": 300,
       "subCategory": "turret",
       "names": {"en": "ZEXR-GUN", "ja": "ZEXR-GUN"}
     },

@@ -978,6 +978,7 @@ const headers = {
         'radius',
         'interval',
         'reload',
+        'range',
         'dps',
         'tdps',
         'total',

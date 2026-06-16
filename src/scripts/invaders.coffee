@@ -171,7 +171,7 @@ loadData = (gameId) =>
         hasDrops: true
         ...m
       }
-    ...(enemyStatModes data.modes if locals.enemies?.length)
+    # ...(enemyStatModes data.modes if locals.enemies?.length)
   ]
 
   if data.enemies

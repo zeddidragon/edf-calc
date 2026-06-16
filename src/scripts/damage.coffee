@@ -1,4 +1,6 @@
 import { FPS, byFps } from './framerate'
+import { localize } from './lang'
+
 $ = document.createElement.bind document
 
 critAvg = (wpn) =>

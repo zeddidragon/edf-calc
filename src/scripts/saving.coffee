@@ -26,9 +26,12 @@ export writeState = () =>
   if locals.playerCount
     state.p = locals.playerCount.count
 
-  window.location.hash = Object.entries state
-    .map (pair) => pair.join '='
-    .join '&'
+  try
+    window.location.hash = Object.entries state
+      .map (pair) => pair.join '='
+      .join '&'
+  catch err
+    console.error err
 
 restoreSave = (data) =>
   [game, owned, starred] = data.split(':')

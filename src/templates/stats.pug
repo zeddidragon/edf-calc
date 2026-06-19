@@ -42,7 +42,7 @@ each table in tables
       tr
         for header in table.headers
           - let h = headerDefinitions[header] || { label: '???' }
-          th(title=h.tooltip colspan=h.colspan)= h.label
+          th(title=(h.tooltip || '') colspan=(h.colspan || 1))= h.label
     tbody
       for weapon in table.weapons
         tr

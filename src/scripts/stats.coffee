@@ -113,8 +113,10 @@ starValue = ({ base, algo, lvMax, zero, exp, type }, star) =>
 export processHeaders = () =>
   locals.headerDefinitions = { ...headers }
   { gameValues: { hasStars } = {} } = locals
+  console.log headers
   for header in Object.keys headers
-    def = locals.headerDefinitions[header]
+    def = { ...locals.headerDefinitions[header] }
+    locals.headerDefinitions[header] = def
     unless hasStars
       delete def.starProp
       delete def.starProp2

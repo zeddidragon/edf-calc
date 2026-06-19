@@ -35,6 +35,7 @@ locals =
       name: "EDF:#{g.toUpperCase()}"
       label: "EDF:<b>#{g.toUpperCase()}</b>"
   ].flat()
+  gameValues: {}
   localize: localize
   spinoffs: spinoffs
   saveLoadState: false

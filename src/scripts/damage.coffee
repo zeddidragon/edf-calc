@@ -44,7 +44,7 @@ growingMagDamage = (wpn) =>
     i = step.n
   sum + dmg * (wpn.ammo - i)
 
-magDamage = (wpn) =>
+window.magDamage = (wpn) =>
   if wpn.ammoDamageCurve or wpn.ammoCountCurve
     curvedMagDamage wpn
   else if wpn.growth?.length

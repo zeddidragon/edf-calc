@@ -16,13 +16,3 @@ mixin statSubCell(weapon, header, value)
     != value.outerHTML
   else
     != value 
-
-mixin starCell(weapon, prop)
-  - let star = weapon[`${prop}Star`]
-  - let max = weapon[`${prop}StarMax`]
-  td(class={
-    starfiller: star == null,
-    star: star != null,
-    max: star != null && star === max
-  })= star
-

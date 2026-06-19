@@ -162,7 +162,7 @@ export weaponStats = {
     return level if isNaN(level)
     [offline, online] = locals.modes[1..]
     mode = [online, offline].find (m) => m?.difficulties?.length
-    return null unless mode
+    return level unless mode # ????
 
     el = $ 'div'
 
@@ -257,17 +257,19 @@ export weaponStats = {
   dropWeight: (wpn) =>
     odds = wpn.odds ? 100
 
-    unless !+odds
+    unless +odds
       el = $ 'div'
       if wpn.level is 100 # Genocide weapons
         el.classList.add 'na'
         el.textContent = 'N/A'
+      else if odds is 0
+        return '-'
       else
         el.classList.add odds
-        el.textContent = odds.toUpperwhen()
+        el.textContent = odds.toUpperCase()
       return el
 
-    label = percent odds, 0
+    label = odds + '%'
     if odds isnt 100
       el = $('div')
       el.classList.add if odds < 100 then 'lowOdds' else 'highOdds'

@@ -552,6 +552,7 @@ async function extractWeaponData() {
 
 
 export default async function extractCalcdata() {
+  throw new Error('weapons-2.json was manually altered and should not be further altered')
   const [
     weapons,
   ] = await Promise.all([
@@ -559,11 +560,12 @@ export default async function extractCalcdata() {
   ])
   return {
     langs: ['en', 'ja'],
+    gameValues: {
+      hasDropWeights: true,
+      widechar: true,
+    },
     classes,
-    charLabels: [
-      'Trooper',
-      'Palewing',
-    ],
+    charLabels: ['Ｉｎｆａｎｔｒｙ', 'ＰａｌｅＷｉｎｇ'],
     headers,
     weapons,
     modes,

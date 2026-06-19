@@ -1,0 +1,1 @@
+- Support Equipment missing guide laser and guide beacons

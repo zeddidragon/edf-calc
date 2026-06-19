@@ -138,6 +138,10 @@ menu a {
   width: 100%;
 }
 
+.dropdown.widechar {
+  min-width: 16em;
+}
+
 @media (hover) {
   #top-menus, #menus {
     flex-direction: row;

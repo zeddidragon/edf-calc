@@ -59,11 +59,12 @@ export populateWeaponDrops = () =>
     { level, odds, dlc: weaponDlc } = wpn
     wpn.drops = difficulties.map (diff) =>
       { firstDrops, lastDrops } = diffSpreads[diff.name]
-      from = firstDrops[level]
-      to = lastDrops[level]
-      max = diff.drops[1]
+      from = diff.dropsHigh.findIndex (v) => v >= level
+      to = diff.dropsLow.findLastIndex (v) => v <= level
       isDropped = (
-        to > -1 or from > -1
+        typeof odds isnt 'string' and odds isnt 0
+      ) and (
+        from > -1 and to > -1
       ) and (
         not weaponDlc or weaponDlc is dlc
       )

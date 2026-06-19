@@ -159,7 +159,7 @@ loadData = (gameId) =>
 
   locals.isLoading = false
 
-  Object.assign locals, data
+  Object.assign locals, { gameValues: {} }, data
   locals.modes = [
     { id: 'stats', name: 'Stats' }
     ...data.modes

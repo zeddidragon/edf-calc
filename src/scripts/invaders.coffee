@@ -155,7 +155,7 @@ loadData = (gameId) =>
   locals.isLoading = true
   render()
 
-  data = await fetch "./weapons-#{locals.game.num}.json"
+  data = await fetch "./edf/weapons-#{locals.game.num}.json"
     .then (res) => res.json()
 
   locals.isLoading = false

@@ -32,7 +32,7 @@ export default {
     },
   },
   output: {
-    filename: "main.js",
+    filename: "edf/main.js",
     path: path.resolve(__dirname, "public"),
   },
   devtool: 'source-map',

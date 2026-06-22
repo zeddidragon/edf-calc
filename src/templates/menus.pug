@@ -5,7 +5,8 @@ mixin dropdownItem(item)
     != slice3(item.name)
 
 mixin dropdown(scope, list, selection)
-  .dropdown(class={ widechar: gameValues && gameValues.widechar })
+  .dropdown(id=`dropdown-${scope}`
+    class={ widechar: gameValues && gameValues.widechar }, onclick=`selectDropdown('${scope}')`)
     .button(class={ [selection.class || selection.id]: true })
       +dropdownItem(selection)
     menu

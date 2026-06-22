@@ -39,6 +39,18 @@ locals =
   localize: localize
   spinoffs: spinoffs
   saveLoadState: false
+  openMenu: null
+
+window.selectDropdown = (scope) =>
+  for el in document.querySelectorAll '.dropdown'
+    el.classList.remove 'hover'
+  if locals.openMenu is scope
+    locals.openMenu = null
+  else
+    locals.openMenu = scope
+    document
+      .getElementById "dropdown-#{scope}"
+      .classList.add 'hover'
 
 window.slice3 = (str) => "<b>#{str[0..2]}</b>#{str[3..]}"
 

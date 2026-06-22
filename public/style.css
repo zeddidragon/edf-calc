@@ -123,6 +123,10 @@ menu a {
   border-bottom: thick solid #edf;
 }
 
+.dropdown a:hover {
+  border-bottom: thick solid #edf;
+}
+
 .dropdown, .dropdown menu {
   display: flex;
   flex-direction: row;
@@ -142,60 +146,58 @@ menu a {
   min-width: 16em;
 }
 
-@media (hover) {
-  #top-menus, #menus {
-    flex-direction: row;
-  }
+#top-menus, #menus {
+  flex-direction: row;
+}
 
-  menu {
-    position: absolute;
-  }
+menu {
+  position: absolute;
+}
 
-  menu a {
-    display: none;
-  }
+menu a {
+  display: none;
+}
 
-  .selected {
-    display: none;
-  }
+.selected {
+  display: none;
+}
 
-  .dropdown, .dropdown menu {
-    flex-direction: column;
-  }
+.dropdown, .dropdown menu {
+  flex-direction: column;
+}
 
-  .dropdown {
-    flex: 1;
-    max-width: 6em;
-    padding: 0.4em 0.2em;
-  }
+.dropdown {
+  flex: 1;
+  max-width: 6em;
+  padding: 0.4em 0.2em;
+}
 
-  #char-tabs {
-    max-width: 8em;
-  }
+#char-tabs {
+  max-width: 8em;
+}
 
-  #category-tabs {
-    max-width: 12em;
-  }
+#category-tabs {
+  max-width: 12em;
+}
 
-  #star-tabs {
-    max-width: 3em;
-  }
+#star-tabs {
+  max-width: 3em;
+}
 
-  #mission-input {
-    max-width: 3em;
-  }
+#mission-input {
+  max-width: 3em;
+}
 
-  .dropdown:hover menu {
-    display: flex;
-  }
+.dropdown.hover menu {
+  display: flex;
+}
 
-  menu:hover .selected, .dropdown:hover .selected {
-    display: block;
-  }
+.dropdown.hover .selected {
+  display: block;
+}
 
-  menu:hover a, .dropdown:hover a {
-    display: block;
-  }
+.dropdown.hover a {
+  display: block;
 }
 
 td {

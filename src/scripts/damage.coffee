@@ -50,7 +50,7 @@ window.magDamage = (wpn) =>
   else if wpn.growth?.length
     growingMagDamage wpn
   else
-    shotDamage(wpn) * Math.ceil(wpn.ammo / (wpn.drain or 1))
+    shotDamage(wpn) * Math.ceil((wpn.ammo || 1) / (wpn.drain or 1))
 
 window.burstTime = (wpn) =>
   (wpn.burst or 1) * (wpn.burstRate or 1) + (wpn.interval or 1)

@@ -4,7 +4,7 @@ import { FPS, byFps } from './framerate.coffee'
 import { headers as damageHeaders } from './damage.coffee'
 
 export weaponKey = (wpn, type = 'owned') =>
-  scope = if locals.game.id is '41' then '' else ".#{locals.game.id[2..]}"
+  scope = if locals.game.id is '41' then '' else ".#{locals.game.id[3..]}"
   "#{type}#{scope}.#{wpn.id}"
 
 checkbox = (scope) =>

@@ -268,7 +268,7 @@ export headers =
       return wpn.total
 
     if wpn.attacks?.length and wpn.damage
-      attacks = wpn.attacks.map(a => a.damage * wpn.damage)
+      attacks = wpn.attacks.map((a) => a.damage * wpn.damage)
       count = wpn.count or 1
       dump = Array(Math.floor(wpn.ammo / count))
         .fill 0

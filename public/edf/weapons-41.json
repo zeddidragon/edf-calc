@@ -21196,6 +21196,7 @@
               "damage",
               "shots",
               "radius",
+              "lockTime",
               "zoom",
               "reload",
               "total"
@@ -21213,6 +21214,7 @@
               "shots",
               "radius",
               "subRadius",
+              "lockTime",
               "zoom",
               "reload",
               "total"

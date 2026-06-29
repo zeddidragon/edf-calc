@@ -13,13 +13,13 @@ async function processGame(game) {
   const data = await extractCalcdata(game)
   if(isDebug)
     return console.log(data)
-  const path = `public/weapons-${game}.json`
+  const path = `public/edf/weapons-${game}.json`
   console.log(path)
   await fs.writeFile(path, json(data))
 }
 
 async function processGames() {
-  for(const file of await fs.readdir('public/')) {
+  for(const file of await fs.readdir('public/edf/')) {
     const match = /weapons-(\S+).json/.exec(file)
     if(!match)
       continue

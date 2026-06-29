@@ -1378,6 +1378,7 @@ export const headers = {
         'lockTime',
         'credits',
         'reload',
+        'lockTime',
         'zoom',
         'range',
         'tdps',

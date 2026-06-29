@@ -129,7 +129,7 @@ export headers =
     starProp: 'accuracy'
   altFire:
     label: 'f()'
-    tooltip: 'Function'
+    tooltip: 'Alt-Fire Function'
   zoom:
     label: 'Zm'
     tooltip: 'Zoom'

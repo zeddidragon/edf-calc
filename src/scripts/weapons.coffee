@@ -440,11 +440,21 @@ export weaponStats = {
     el
 
   altFire: (wpn) =>
-    if wpn.zoom > 0 then "⌖ #{+wpn.zoom.toFixed(1)}x"
-    else switch wpn.secondary
-      when 4 then '⇑' # Boost
-      when 5 then '⇒' # Dash
-      when 6 then '🛡' # Reflect
+    [text, title] =
+      if wpn.zoom > 0
+        zoom = +wpn.zoom.toFixed(1)
+        ["⌖ #{zoom}x", "Zooms with #{zoom}x magnification"]
+      else switch wpn.secondary
+        when 4 then ['⇑', 'Boost module'] # Boost
+        when 5 then ['⇒', 'Dash module'] # Dash
+        when 6 then ['🛡', 'Reflects on alt-fire'] # Reflect
+        else []
+    return null unless text
+
+    el = $ 'div'
+    el.textContent = text
+    el.setAttribute 'title', title
+    el
 
   zoom: (wpn) =>
     if wpn.zoom is true then '✓'

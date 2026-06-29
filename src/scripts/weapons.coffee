@@ -434,7 +434,7 @@ export weaponStats = {
   accuracy: (wpn) =>
     el = $ 'div'
     el.setAttribute 'title',
-      if wpn.accuracy? wpn.accuracy
+      if wpn.accuracy? then wpn.accuracy
       else 'Accuracy only known by rank'
     el.textContent = accuracy wpn
     el

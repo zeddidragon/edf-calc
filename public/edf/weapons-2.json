@@ -2,96 +2,33 @@
   "langs": ["en", "ja"],
   "classes": ["ranger", "winger"],
   "charLabels": ["Ｉｎｆａｎｔｒｙ", "ＰａｌｅＷｉｎｇ"],
-  "gameValues": { "hasDropWeights": true, "widechar": true },
+  "gameValues": {"hasDropWeights": true, "widechar": true},
   "headers": {
     "ranger": [
       {
         "category": "assault",
         "names": {"en": "Ａｓｓａｕｌｔ　Ｒｉｆｌｅ", "ja": "アサルトライフル"},
-        "headers": [
-          "checkbox",
-          "name",
-          "ammo",
-          "damage",
-          "interval",
-          "reload",
-          "accuracy",
-          "zoom",
-          "range",
-          "dps",
-          "tdps",
-          "total"
-        ]
+        "headers": ["checkbox", "name", "ammo", "damage", "interval", "reload", "accuracy", "zoom", "range", "dps", "tdps", "total"]
       },
       {
         "category": "sniper",
         "names": {"en": "Ｓｎｉｐｅｒ　Ｒｉｆｌｅ", "ja": "スナイパーライフル"},
-        "headers": [
-          "checkbox",
-          "name",
-          "ammo",
-          "damage",
-          "interval",
-          "reload",
-          "accuracy",
-          "zoom",
-          "range",
-          "dps",
-          "tdps",
-          "total"
-        ]
+        "headers": ["checkbox", "name", "ammo", "damage", "interval", "reload", "accuracy", "zoom", "range", "dps", "tdps", "total"]
       },
       {
         "category": "shotgun",
         "names": {"en": "Ｓｈｏｔｇｕｎ", "ja": "ショットガン"},
-        "headers": [
-          "checkbox",
-          "name",
-          "ammo",
-          "damage",
-          "interval",
-          "reload",
-          "accuracy",
-          "range",
-          "dps",
-          "tdps",
-          "total"
-        ]
+        "headers": ["checkbox", "name", "ammo", "damage", "interval", "reload", "accuracy", "range", "dps", "tdps", "total"]
       },
       {
         "category": "rocket",
         "names": {"en": "Ｒｏｃｋｅｔ　Ｌａｕｎｃｈｅｒ", "ja": "ロケットランチャー"},
-        "headers": [
-          "checkbox",
-          "name",
-          "ammo",
-          "damage",
-          "radius",
-          "interval",
-          "reload",
-          "accuracy",
-          "zoom",
-          "dps",
-          "tdps",
-          "total"
-        ]
+        "headers": ["checkbox", "name", "ammo", "damage", "radius", "interval", "reload", "accuracy", "zoom", "dps", "tdps", "total"]
       },
       {
         "category": "missile",
         "names": {"en": "Ｍｉｓｓｉｌｅ", "ja": "ミサイルランチャー"},
-        "headers": [
-          "checkbox",
-          "name",
-          "ammo",
-          "damage",
-          "radius",
-          "interval",
-          "reload",
-          "lockRange",
-          "zoom",
-          "tdps",
-          "total"
-        ]
+        "headers": ["checkbox", "name", "ammo", "damage", "radius", "interval", "reload", "lockRange", "zoom", "tdps", "total"]
       },
       {
         "category": "grenade",
@@ -105,19 +42,7 @@
           {
             "subCategory": "gl",
             "names": {"en": "Grenade Launchers", "ja": "グレネードランチャー"},
-            "headers": [
-              "checkbox",
-              "name",
-              "ammo",
-              "damage",
-              "radius",
-              "duration",
-              "interval",
-              "reload",
-              "dps",
-              "tdps",
-              "total"
-            ]
+            "headers": ["checkbox", "name", "ammo", "damage", "radius", "duration", "interval", "reload", "dps", "tdps", "total"]
           }
         ]
       },
@@ -128,31 +53,12 @@
           {
             "subCategory": "bound",
             "names": {"en": "Bound Guns", "ja": "バウンドガン・シリーズ"},
-            "headers": [
-              "checkbox",
-              "name",
-              "ammo",
-              "damage",
-              "interval",
-              "reload",
-              "range",
-              "dps",
-              "tdps",
-              "total"
-            ]
+            "headers": ["checkbox", "name", "ammo", "damage", "interval", "reload", "range", "dps", "tdps", "total"]
           },
           {
             "subCategory": "flame",
             "names": {"en": "Flamethrowers", "ja": "火炎放射器シリーズ"},
-            "headers": [
-              "checkbox",
-              "name",
-              "ammo",
-              "damage",
-              "interval",
-              "reload",
-              "range"
-            ]
+            "headers": ["checkbox", "name", "ammo", "damage", "interval", "reload", "range"]
           },
           {
             "names": {"en": "Reversers", "ja": "リバーサー"},
@@ -171,144 +77,42 @@
       {
         "category": "short",
         "names": {"en": "Ｃｌｏｓｅ　Ｃｏｍｂａｔ", "ja": "近距離"},
-        "headers": [
-          "checkbox",
-          "name",
-          "ammo",
-          "damage",
-          "interval",
-          "reload",
-          "accuracy",
-          "energy",
-          "range",
-          "dps",
-          "tdps",
-          "total",
-          "eps",
-          "dpe"
-        ]
+        "headers": ["checkbox", "name", "ammo", "damage", "interval", "reload", "accuracy", "energy", "range", "dps", "tdps", "total", "eps", "dpe"]
       },
       {
         "category": "laser",
         "names": {"en": "Ｍｉｄ−Ｒａｎｇｅ−Ｌａｓｅｒ", "ja": "中距離-レーザー"},
-        "headers": [
-          "checkbox",
-          "name",
-          "ammo",
-          "damage",
-          "interval",
-          "reload",
-          "accuracy",
-          "energy",
-          "range",
-          "dps",
-          "tdps",
-          "total",
-          "eps",
-          "dpe"
-        ]
+        "headers": ["checkbox", "name", "ammo", "damage", "interval", "reload", "accuracy", "energy", "range", "dps", "tdps", "total", "eps", "dpe"]
       },
       {
         "category": "electro",
         "names": {"en": "Ｍｉｄ−Ｒａｎｇｅ−Ｅｌｅｃｔｒｉｃ", "ja": "中距離-電撃"},
-        "headers": [
-          "checkbox",
-          "name",
-          "ammo",
-          "damage",
-          "interval",
-          "reload",
-          "accuracy",
-          "energy",
-          "range",
-          "dps",
-          "tdps",
-          "total",
-          "eps",
-          "dpe"
-        ]
+        "headers": ["checkbox", "name", "ammo", "damage", "interval", "reload", "accuracy", "energy", "range", "dps", "tdps", "total", "eps", "dpe"]
       },
       {
         "category": "particle",
         "names": {"en": "Ｍｉｄ−Ｒａｎｇｅ−Ｐａｒｔｉｃｌｅ　Ｃａｎｎｏｎ", "ja": "中距離-粒子砲"},
-        "headers": [
-          "checkbox",
-          "name",
-          "damage",
-          "interval",
-          "accuracy",
-          "energy",
-          "range",
-          "dps",
-          "eps",
-          "dpe"
-        ]
+        "headers": ["checkbox", "name", "damage", "interval", "accuracy", "energy", "range", "dps", "eps", "dpe"]
       },
       {
         "category": "sniper",
         "names": {"en": "Ｓｎｉｐｉｎｇ", "ja": "狙撃兵器"},
-        "headers": [
-          "checkbox",
-          "name",
-          "damage",
-          "interval",
-          "accuracy",
-          "energy",
-          "range",
-          "dps",
-          "eps",
-          "dpe"
-        ]
+        "headers": ["checkbox", "name", "damage", "interval", "accuracy", "energy", "range", "dps", "eps", "dpe"]
       },
       {
         "category": "plasma",
         "names": {"en": "Ｗｉｄｅ　Ｒａｎｇｅ", "ja": "範囲攻撃"},
-        "headers": [
-          "checkbox",
-          "name",
-          "damage",
-          "radius",
-          "interval",
-          "reload",
-          "accuracy",
-          "energy",
-          "range",
-          "dps",
-          "tdps",
-          "eps",
-          "dpe"
-        ]
+        "headers": ["checkbox", "name", "damage", "radius", "interval", "reload", "accuracy", "energy", "range", "dps", "tdps", "eps", "dpe"]
       },
       {
         "category": "missile",
         "names": {"en": "Ｈｏｍｉｎｇ", "ja": "ホーミング兵器"},
-        "headers": [
-          "checkbox",
-          "name",
-          "damage",
-          "radius",
-          "interval",
-          "energy",
-          "dps",
-          "eps",
-          "dpe"
-        ]
+        "headers": ["checkbox", "name", "damage", "radius", "interval", "energy", "dps", "eps", "dpe"]
       },
       {
         "category": "special",
         "names": {"en": "Ｓｕｐｐｏｒｔ", "ja": "特殊"},
-        "headers": [
-          "checkbox",
-          "name",
-          "damage",
-          "shots",
-          "reload",
-          "energy",
-          "tdps",
-          "total",
-          "eps",
-          "dpe"
-        ]
+        "headers": ["checkbox", "name", "damage", "shots", "reload", "energy", "tdps", "total", "eps", "dpe"]
       }
     ]
   },
@@ -375,36 +179,6 @@
       "accuracyRank": "B",
       "zoom": 100,
       "names": {"en": "Ｇｏｌｉａｔｈ　１", "ja": "ゴリアス‐1"}
-    },
-    {
-      "id": "ranger-missile-1",
-      "idx": 2,
-      "character": "ranger",
-      "level": 0,
-      "odds": 100,
-      "category": "missile",
-      "ammo": 2,
-      "rof": 1,
-      "damage": 150,
-      "reloadSeconds": 1.5,
-      "radius": 5,
-      "homingRank": "C",
-      "lockRangeRank": 300,
-      "names": {"en": "Ｅｍｌｏａｄ　Ｍ−０", "ja": "エメロードM-0"}
-    },
-    {
-      "id": "ranger-grenade-1",
-      "idx": 2,
-      "character": "ranger",
-      "level": 0,
-      "odds": "starter",
-      "category": "grenade",
-      "damage": 400,
-      "fuseType": {"ja": "時間", "en": "timed"},
-      "fuseSeconds": 5,
-      "radius": 5,
-      "subCategory": "hg",
-      "names": {"en": "ＨＧ−０１", "ja": "HG-01★"}
     },
     {
       "id": "ranger-special-1",
@@ -548,6 +322,64 @@
       "names": {"en": "Ｐａｎｄｏｒａ", "ja": "パンドラ"}
     },
     {
+      "id": "ranger-grenade-2",
+      "idx": 1,
+      "character": "ranger",
+      "level": 0,
+      "odds": "starter",
+      "category": "grenade",
+      "damage": 200,
+      "fuseType": {"ja": "接触", "en": "contact"},
+      "radius": 5,
+      "subCategory": "hg",
+      "names": {"en": "ＨＧ−０１Ａ", "ja": "HG-01A★"}
+    },
+    {
+      "id": "ranger-missile-9",
+      "idx": 1,
+      "character": "ranger",
+      "level": 0,
+      "odds": 100,
+      "category": "missile",
+      "ammo": 1,
+      "damage": 400,
+      "reloadSeconds": 10,
+      "radius": 10,
+      "homingRank": "A",
+      "lockRangeRank": 370,
+      "names": {"en": "Ｓｋｙ　Ｔｕｒｔｌｅ　Ｐｒｏｔｏｔｙｐｅ", "ja": "スカイタートル試作★"}
+    },
+    {
+      "id": "ranger-missile-1",
+      "idx": 2,
+      "character": "ranger",
+      "level": 0,
+      "odds": 100,
+      "category": "missile",
+      "ammo": 2,
+      "rof": 1,
+      "damage": 150,
+      "reloadSeconds": 1.5,
+      "radius": 5,
+      "homingRank": "C",
+      "lockRangeRank": 300,
+      "names": {"en": "Ｅｍｌｏａｄ　Ｍ−０", "ja": "エメロードM-0"}
+    },
+    {
+      "id": "ranger-grenade-1",
+      "idx": 2,
+      "character": "ranger",
+      "level": 0,
+      "odds": "starter",
+      "category": "grenade",
+      "damage": 400,
+      "fuseType": {"ja": "時間", "en": "timed"},
+      "fuseSeconds": 5,
+      "radius": 5,
+      "subCategory": "hg",
+      "names": {"en": "ＨＧ−０１", "ja": "HG-01★"}
+    },
+    {
       "id": "ranger-assault-2",
       "idx": 2,
       "character": "ranger",
@@ -609,35 +441,6 @@
       "accuracyRank": "B",
       "zoom": 130,
       "names": {"en": "Ｇｏｌｉａｔｈ−Ｄ", "ja": "ゴリアス‐D"}
-    },
-    {
-      "id": "ranger-missile-2",
-      "idx": 5,
-      "character": "ranger",
-      "level": 5,
-      "odds": 100,
-      "category": "missile",
-      "ammo": 2,
-      "rof": 1,
-      "damage": 150,
-      "reloadSeconds": 1.5,
-      "radius": 5,
-      "homingRank": "C+",
-      "lockRangeRank": 300,
-      "names": {"en": "Ｅｍｌｏａｄ　Ｍ", "ja": "エメロードM"}
-    },
-    {
-      "id": "ranger-grenade-2",
-      "idx": 1,
-      "character": "ranger",
-      "level": 0,
-      "odds": "starter",
-      "category": "grenade",
-      "damage": 200,
-      "fuseType": {"ja": "接触", "en": "contact"},
-      "radius": 5,
-      "subCategory": "hg",
-      "names": {"en": "ＨＧ−０１Ａ", "ja": "HG-01A★"}
     },
     {
       "id": "ranger-special-2",
@@ -842,22 +645,6 @@
       "names": {"en": "Ｖｏｌｃａｎｏ　２Ｗ", "ja": "ボルケーノ2W☆"}
     },
     {
-      "id": "ranger-missile-3",
-      "idx": 7,
-      "character": "ranger",
-      "level": 15,
-      "odds": 100,
-      "category": "missile",
-      "ammo": 2,
-      "rof": 1,
-      "damage": 200,
-      "reloadSeconds": 1.5,
-      "radius": 5,
-      "homingRank": "B",
-      "lockRangeRank": 600,
-      "names": {"en": "Ｅｍｌｏａｄ　ＭＥ", "ja": "エメロードME☆"}
-    },
-    {
       "id": "ranger-grenade-3",
       "idx": 3,
       "character": "ranger",
@@ -1012,6 +799,22 @@
       "names": {"en": "Ｔｈｕｎｄｅｒ　Ｃｌｕｓｔｅｒ", "ja": "サンダー・クラスター"}
     },
     {
+      "id": "ranger-missile-5",
+      "idx": 3,
+      "character": "ranger",
+      "level": 0,
+      "odds": 100,
+      "category": "missile",
+      "ammo": 10,
+      "rof": 6,
+      "damage": 32,
+      "reloadSeconds": 3,
+      "radius": 1,
+      "homingRank": "B-",
+      "lockRangeRank": 600,
+      "names": {"en": "ＭＬ−Ｒ", "ja": "ML-R"}
+    },
+    {
       "id": "ranger-assault-4",
       "idx": 4,
       "character": "ranger",
@@ -1075,22 +878,6 @@
       "names": {"en": "Ｇｏｌｉａｔｈ−ＤＤ", "ja": "ゴリアス‐DD"}
     },
     {
-      "id": "ranger-missile-4",
-      "idx": 12,
-      "character": "ranger",
-      "level": 43.5,
-      "odds": 100,
-      "category": "missile",
-      "ammo": 4,
-      "rof": 1,
-      "damage": 400,
-      "reloadSeconds": 2,
-      "radius": 7,
-      "homingRank": "A",
-      "lockRangeRank": 900,
-      "names": {"en": "Ｅｍｌｏａｄ　Ｍ−２", "ja": "エメロードM-2"}
-    },
-    {
       "id": "ranger-grenade-4",
       "idx": 4,
       "character": "ranger",
@@ -1102,23 +889,6 @@
       "radius": 12,
       "subCategory": "hg",
       "names": {"en": "ＨＧ−０３Ａ", "ja": "HG-03A☆"}
-    },
-    {
-      "id": "ranger-special-4",
-      "idx": 5,
-      "character": "ranger",
-      "level": 35.5,
-      "odds": 100,
-      "category": "special",
-      "ammo": 120,
-      "rof": 12,
-      "damage": 60,
-      "reloadSeconds": 1.5,
-      "range": 180,
-      "accuracyRank": "D",
-      "zoom": null,
-      "subCategory": "bound",
-      "names": {"en": "Ｂｏｕｎｄ　Ｇｕｎ　Ｓ", "ja": "バウンドガンS"}
     },
     {
       "id": "winger-short-4",
@@ -1245,6 +1015,71 @@
       "names": {"en": "Ｐａｎｄｏｒａ　Ｕｐｇｒａｄｅ", "ja": "パンドラ改"}
     },
     {
+      "id": "ranger-special-5",
+      "idx": 4,
+      "character": "ranger",
+      "level": 25,
+      "odds": 100,
+      "category": "special",
+      "ammo": 10,
+      "rof": 5,
+      "damage": 100,
+      "reloadSeconds": 5,
+      "range": 200,
+      "accuracyRank": "A",
+      "zoom": null,
+      "subCategory": "bound",
+      "names": {"en": "Ｂｏｕｎｄ　Ｇｕｎ　Ｂ０８", "ja": "バウンドガンB08"}
+    },
+    {
+      "id": "ranger-missile-10",
+      "idx": 4,
+      "character": "ranger",
+      "level": 3,
+      "odds": 100,
+      "category": "missile",
+      "ammo": 1,
+      "damage": 800,
+      "reloadSeconds": 10,
+      "radius": 20,
+      "homingRank": "A",
+      "lockRangeRank": 370,
+      "names": {"en": "Ｓｋｙ　Ｔｕｒｔｌｅ　Ｐｒｏｔｏｔｙｐｅ　β", "ja": "スカイタートル試作β☆"}
+    },
+    {
+      "id": "ranger-missile-2",
+      "idx": 5,
+      "character": "ranger",
+      "level": 5,
+      "odds": 100,
+      "category": "missile",
+      "ammo": 2,
+      "rof": 1,
+      "damage": 150,
+      "reloadSeconds": 1.5,
+      "radius": 5,
+      "homingRank": "C+",
+      "lockRangeRank": 300,
+      "names": {"en": "Ｅｍｌｏａｄ　Ｍ", "ja": "エメロードM"}
+    },
+    {
+      "id": "ranger-special-4",
+      "idx": 5,
+      "character": "ranger",
+      "level": 35.5,
+      "odds": 100,
+      "category": "special",
+      "ammo": 120,
+      "rof": 12,
+      "damage": 60,
+      "reloadSeconds": 1.5,
+      "range": 180,
+      "accuracyRank": "D",
+      "zoom": null,
+      "subCategory": "bound",
+      "names": {"en": "Ｂｏｕｎｄ　Ｇｕｎ　Ｓ", "ja": "バウンドガンS"}
+    },
+    {
       "id": "ranger-assault-5",
       "idx": 5,
       "character": "ranger",
@@ -1309,22 +1144,6 @@
       "names": {"en": "Ｖｏｌｃａｎｏ　３Ａ", "ja": "ボルケーノ‐3A"}
     },
     {
-      "id": "ranger-missile-5",
-      "idx": 3,
-      "character": "ranger",
-      "level": 0,
-      "odds": 100,
-      "category": "missile",
-      "ammo": 10,
-      "rof": 6,
-      "damage": 32,
-      "reloadSeconds": 3,
-      "radius": 1,
-      "homingRank": "B-",
-      "lockRangeRank": 600,
-      "names": {"en": "ＭＬ−Ｒ", "ja": "ML-R"}
-    },
-    {
       "id": "ranger-grenade-5",
       "idx": 5,
       "character": "ranger",
@@ -1336,23 +1155,6 @@
       "radius": 15,
       "subCategory": "hg",
       "names": {"en": "ＨＧ−１３Ａ", "ja": "HG-13A"}
-    },
-    {
-      "id": "ranger-special-5",
-      "idx": 4,
-      "character": "ranger",
-      "level": 25,
-      "odds": 100,
-      "category": "special",
-      "ammo": 10,
-      "rof": 5,
-      "damage": 100,
-      "reloadSeconds": 5,
-      "range": 200,
-      "accuracyRank": "A",
-      "zoom": null,
-      "subCategory": "bound",
-      "names": {"en": "Ｂｏｕｎｄ　Ｇｕｎ　Ｂ０８", "ja": "バウンドガンB08"}
     },
     {
       "id": "winger-short-5",
@@ -1713,6 +1515,22 @@
       "names": {"en": "Ｓａｉ−Ｃｌｕｓｔｅｒ", "ja": "サイ・クラスター"}
     },
     {
+      "id": "ranger-missile-3",
+      "idx": 7,
+      "character": "ranger",
+      "level": 15,
+      "odds": 100,
+      "category": "missile",
+      "ammo": 2,
+      "rof": 1,
+      "damage": 200,
+      "reloadSeconds": 1.5,
+      "radius": 5,
+      "homingRank": "B",
+      "lockRangeRank": 600,
+      "names": {"en": "Ｅｍｌｏａｄ　ＭＥ", "ja": "エメロードME☆"}
+    },
+    {
       "id": "ranger-assault-7",
       "idx": 7,
       "character": "ranger",
@@ -1774,36 +1592,6 @@
       "accuracyRank": "B+",
       "zoom": 300,
       "names": {"en": "Ｇｏｌｉａｔｈ−Ｒ", "ja": "ゴリアス‐R"}
-    },
-    {
-      "id": "ranger-missile-7",
-      "idx": 8,
-      "character": "ranger",
-      "level": 20,
-      "odds": 100,
-      "category": "missile",
-      "ammo": 30,
-      "rof": 10,
-      "damage": 50,
-      "reloadSeconds": 5,
-      "radius": 1,
-      "homingRank": "S",
-      "lockRangeRank": 600,
-      "names": {"en": "ＭＬ−２Ｒ", "ja": "ML-2R"}
-    },
-    {
-      "id": "ranger-grenade-7",
-      "idx": 8,
-      "character": "ranger",
-      "level": 16,
-      "odds": 100,
-      "category": "grenade",
-      "damage": 1500,
-      "fuseType": {"ja": "時間", "en": "timed"},
-      "fuseSeconds": 5,
-      "radius": 10,
-      "subCategory": "hg",
-      "names": {"en": "ＧＨＧ−１７", "ja": "GHG-17"}
     },
     {
       "id": "ranger-special-7",
@@ -1947,6 +1735,49 @@
       "names": {"en": "Ｐａｎｄｏｒａ　α", "ja": "パンドラα"}
     },
     {
+      "id": "ranger-grenade-8",
+      "idx": 7,
+      "character": "ranger",
+      "level": 14,
+      "odds": 100,
+      "category": "grenade",
+      "damage": 1000,
+      "fuseType": {"ja": "接触", "en": "contact"},
+      "radius": 10,
+      "subCategory": "hg",
+      "names": {"en": "ＧＨＧ−１７Ａ", "ja": "GHG-17A"}
+    },
+    {
+      "id": "ranger-missile-7",
+      "idx": 8,
+      "character": "ranger",
+      "level": 20,
+      "odds": 100,
+      "category": "missile",
+      "ammo": 30,
+      "rof": 10,
+      "damage": 50,
+      "reloadSeconds": 5,
+      "radius": 1,
+      "homingRank": "S",
+      "lockRangeRank": 600,
+      "names": {"en": "ＭＬ−２Ｒ", "ja": "ML-2R"}
+    },
+    {
+      "id": "ranger-grenade-7",
+      "idx": 8,
+      "character": "ranger",
+      "level": 16,
+      "odds": 100,
+      "category": "grenade",
+      "damage": 1500,
+      "fuseType": {"ja": "時間", "en": "timed"},
+      "fuseSeconds": 5,
+      "radius": 10,
+      "subCategory": "hg",
+      "names": {"en": "ＧＨＧ−１７", "ja": "GHG-17"}
+    },
+    {
       "id": "ranger-assault-8",
       "idx": 8,
       "character": "ranger",
@@ -2008,36 +1839,6 @@
       "accuracyRank": "B+",
       "zoom": 200,
       "names": {"en": "Ｇｏｌｉａｔｈ−ＤＣ", "ja": "ゴリアス‐DC"}
-    },
-    {
-      "id": "ranger-missile-8",
-      "idx": 11,
-      "character": "ranger",
-      "level": 35.25,
-      "odds": 100,
-      "category": "missile",
-      "ammo": 20,
-      "rof": 10,
-      "damage": 70,
-      "count": 2,
-      "reloadSeconds": 5,
-      "radius": 1,
-      "homingRank": "S",
-      "lockRangeRank": 600,
-      "names": {"en": "ＭＬ−２ＲＷ", "ja": "ML-2RW☆"}
-    },
-    {
-      "id": "ranger-grenade-8",
-      "idx": 7,
-      "character": "ranger",
-      "level": 14,
-      "odds": 100,
-      "category": "grenade",
-      "damage": 1000,
-      "fuseType": {"ja": "接触", "en": "contact"},
-      "radius": 10,
-      "subCategory": "hg",
-      "names": {"en": "ＧＨＧ−１７Ａ", "ja": "GHG-17A"}
     },
     {
       "id": "winger-short-8",
@@ -2224,21 +2025,6 @@
       "names": {"en": "Ｇｏｌｉａｔｈ−Ｓ　Ｃｕｓｔｏｍ", "ja": "ゴリアス‐Sカスタム"}
     },
     {
-      "id": "ranger-missile-9",
-      "idx": 1,
-      "character": "ranger",
-      "level": 0,
-      "odds": 100,
-      "category": "missile",
-      "ammo": 1,
-      "damage": 400,
-      "reloadSeconds": 10,
-      "radius": 10,
-      "homingRank": "A",
-      "lockRangeRank": 370,
-      "names": {"en": "Ｓｋｙ　Ｔｕｒｔｌｅ　Ｐｒｏｔｏｔｙｐｅ", "ja": "スカイタートル試作★"}
-    },
-    {
       "id": "ranger-grenade-9",
       "idx": 9,
       "character": "ranger",
@@ -2396,6 +2182,22 @@
       "names": {"en": "Ｈｅａｖｅｎ’ｓ　Ｇａｔｅ　β", "ja": "ヘブンズ・ゲートβ"}
     },
     {
+      "id": "ranger-missile-13",
+      "idx": 9,
+      "character": "ranger",
+      "level": 27,
+      "odds": 100,
+      "category": "missile",
+      "ammo": 1,
+      "damage": 1500,
+      "reloadSeconds": 5,
+      "radius": 15,
+      "homingRank": "C+",
+      "lockRangeRank": 600,
+      "zoom": 6,
+      "names": {"en": "Ｐｒｏｍｉｎｅｎｃｅ　１", "ja": "プロミネンス1"}
+    },
+    {
       "id": "ranger-assault-10",
       "idx": 10,
       "character": "ranger",
@@ -2457,21 +2259,6 @@
       "accuracyRank": "D",
       "zoom": 900,
       "names": {"en": "Ｇｏｌｉａｔｈ−Ｒ　Ｃｕｓｔｏｍ", "ja": "ゴリアス‐Rカスタム"}
-    },
-    {
-      "id": "ranger-missile-10",
-      "idx": 4,
-      "character": "ranger",
-      "level": 3,
-      "odds": 100,
-      "category": "missile",
-      "ammo": 1,
-      "damage": 800,
-      "reloadSeconds": 10,
-      "radius": 20,
-      "homingRank": "A",
-      "lockRangeRank": 370,
-      "names": {"en": "Ｓｋｙ　Ｔｕｒｔｌｅ　Ｐｒｏｔｏｔｙｐｅ　β", "ja": "スカイタートル試作β☆"}
     },
     {
       "id": "ranger-grenade-10",
@@ -2628,6 +2415,39 @@
       "names": {"en": "Ｔｈｕｎｄｅｒ　Ｃｌｕｓｔｅｒ　α", "ja": "サンダー・クラスターα"}
     },
     {
+      "id": "ranger-missile-15",
+      "idx": 10,
+      "character": "ranger",
+      "level": 29,
+      "odds": 100,
+      "category": "missile",
+      "ammo": 1,
+      "damage": 50,
+      "count": 20,
+      "reloadSeconds": 3,
+      "radius": 1,
+      "homingRank": "S",
+      "lockRangeRank": 300,
+      "names": {"en": "Ｓｏａｒｉｎｇ　Ａ２０", "ja": "ソルリングA20"}
+    },
+    {
+      "id": "ranger-missile-8",
+      "idx": 11,
+      "character": "ranger",
+      "level": 35.25,
+      "odds": 100,
+      "category": "missile",
+      "ammo": 20,
+      "rof": 10,
+      "damage": 70,
+      "count": 2,
+      "reloadSeconds": 5,
+      "radius": 1,
+      "homingRank": "S",
+      "lockRangeRank": 600,
+      "names": {"en": "ＭＬ−２ＲＷ", "ja": "ML-2RW☆"}
+    },
+    {
       "id": "ranger-assault-11",
       "idx": 11,
       "character": "ranger",
@@ -2691,21 +2511,6 @@
       "names": {"en": "Ｇｏｌｉａｔｈ　２", "ja": "ゴリアス‐2"}
     },
     {
-      "id": "ranger-missile-11",
-      "idx": 13,
-      "character": "ranger",
-      "level": 47.5,
-      "odds": 100,
-      "category": "missile",
-      "ammo": 1,
-      "damage": 4000,
-      "reloadSeconds": 10,
-      "radius": 30,
-      "homingRank": "A",
-      "lockRangeRank": 370,
-      "names": {"en": "Ｓｋｙ　Ｔｕｒｔｌｅ", "ja": "スカイタートル"}
-    },
-    {
       "id": "ranger-grenade-11",
       "idx": 11,
       "character": "ranger",
@@ -2718,23 +2523,6 @@
       "radius": 20,
       "subCategory": "hg",
       "names": {"en": "ＧＨＧ−ＭＡＸ", "ja": "GHG-MAX"}
-    },
-    {
-      "id": "ranger-special-11",
-      "idx": 12,
-      "character": "ranger",
-      "level": 15,
-      "odds": 100,
-      "category": "special",
-      "ammo": 60,
-      "rof": 60,
-      "damageRank": {"ja": "B"},
-      "reloadSeconds": 4,
-      "range": 60,
-      "accuracyRank": "D",
-      "zoom": null,
-      "subCategory": "flame",
-      "names": {"en": "Ｆｌａｍｅ　Ｔｈｒｏｗｅｒ　Ｆ３Ｒ", "ja": "火炎放射器F3R★"}
     },
     {
       "id": "winger-short-11",
@@ -2861,6 +2649,55 @@
       "names": {"en": "Ｈｅａｖｅｎ’ｓ　Ｇａｔｅ　α", "ja": "ヘブンズ・ゲートα"}
     },
     {
+      "id": "ranger-special-15",
+      "idx": 11,
+      "character": "ranger",
+      "level": 10,
+      "odds": 100,
+      "category": "special",
+      "ammo": 1500,
+      "rof": 60,
+      "damageRank": {"ja": "C++"},
+      "reloadSeconds": 10,
+      "range": 110,
+      "accuracyRank": "A",
+      "subCategory": "flame",
+      "names": {"en": "Ｆｌａｍｅ　Ｃａｎｎｏｎ", "ja": "火炎砲☆"}
+    },
+    {
+      "id": "ranger-missile-4",
+      "idx": 12,
+      "character": "ranger",
+      "level": 43.5,
+      "odds": 100,
+      "category": "missile",
+      "ammo": 4,
+      "rof": 1,
+      "damage": 400,
+      "reloadSeconds": 2,
+      "radius": 7,
+      "homingRank": "A",
+      "lockRangeRank": 900,
+      "names": {"en": "Ｅｍｌｏａｄ　Ｍ−２", "ja": "エメロードM-2"}
+    },
+    {
+      "id": "ranger-special-11",
+      "idx": 12,
+      "character": "ranger",
+      "level": 15,
+      "odds": 100,
+      "category": "special",
+      "ammo": 60,
+      "rof": 60,
+      "damageRank": {"ja": "B"},
+      "reloadSeconds": 4,
+      "range": 60,
+      "accuracyRank": "D",
+      "zoom": null,
+      "subCategory": "flame",
+      "names": {"en": "Ｆｌａｍｅ　Ｔｈｒｏｗｅｒ　Ｆ３Ｒ", "ja": "火炎放射器F3R★"}
+    },
+    {
       "id": "ranger-assault-12",
       "idx": 12,
       "character": "ranger",
@@ -2924,37 +2761,6 @@
       "accuracyRank": "B",
       "zoom": 1440,
       "names": {"en": "Ｇｏｌｉａｔｈ−２Ｒ", "ja": "ゴリアス‐2R"}
-    },
-    {
-      "id": "ranger-missile-12",
-      "idx": 17,
-      "character": "ranger",
-      "level": 77.5,
-      "odds": 10,
-      "category": "missile",
-      "ammo": 1,
-      "damage": 40000,
-      "reloadSeconds": 20,
-      "radius": 40,
-      "homingRank": "A",
-      "lockRangeRank": 710,
-      "names": {"en": "Ｌｅｖｉａｔｈａｎ", "ja": "リバイアサン☆"}
-    },
-    {
-      "id": "ranger-special-12",
-      "idx": 13,
-      "character": "ranger",
-      "level": 25,
-      "odds": 100,
-      "category": "special",
-      "ammo": 30,
-      "rof": 6,
-      "damageRank": {"ja": "B"},
-      "reloadSeconds": 6,
-      "range": 50,
-      "accuracyRank": "B",
-      "subCategory": "flame",
-      "names": {"en": "Ｆｌａｍｅ　Ｔｈｒｏｗｅｒ　Ｆ４", "ja": "火炎放射器F4★"}
     },
     {
       "id": "winger-short-12",
@@ -3074,6 +2880,37 @@
       "names": {"en": "Ａｒｍａｇｅｄｄｏｎ　Ｃｌｕｓｔｅｒ", "ja": "アルマゲドン・クラスター"}
     },
     {
+      "id": "ranger-missile-11",
+      "idx": 13,
+      "character": "ranger",
+      "level": 47.5,
+      "odds": 100,
+      "category": "missile",
+      "ammo": 1,
+      "damage": 4000,
+      "reloadSeconds": 10,
+      "radius": 30,
+      "homingRank": "A",
+      "lockRangeRank": 370,
+      "names": {"en": "Ｓｋｙ　Ｔｕｒｔｌｅ", "ja": "スカイタートル"}
+    },
+    {
+      "id": "ranger-special-12",
+      "idx": 13,
+      "character": "ranger",
+      "level": 25,
+      "odds": 100,
+      "category": "special",
+      "ammo": 30,
+      "rof": 6,
+      "damageRank": {"ja": "B"},
+      "reloadSeconds": 6,
+      "range": 50,
+      "accuracyRank": "B",
+      "subCategory": "flame",
+      "names": {"en": "Ｆｌａｍｅ　Ｔｈｒｏｗｅｒ　Ｆ４", "ja": "火炎放射器F4★"}
+    },
+    {
       "id": "ranger-assault-13",
       "idx": 13,
       "character": "ranger",
@@ -3137,55 +2974,6 @@
       "accuracyRank": "C",
       "zoom": 4200,
       "names": {"en": "Ｖｏｌｃａｎｏ　６Ａ", "ja": "ボルケーノ-6A★"}
-    },
-    {
-      "id": "ranger-missile-13",
-      "idx": 9,
-      "character": "ranger",
-      "level": 27,
-      "odds": 100,
-      "category": "missile",
-      "ammo": 1,
-      "damage": 1500,
-      "reloadSeconds": 5,
-      "radius": 15,
-      "homingRank": "C+",
-      "lockRangeRank": 600,
-      "zoom": 6,
-      "names": {"en": "Ｐｒｏｍｉｎｅｎｃｅ　１", "ja": "プロミネンス1"}
-    },
-    {
-      "id": "ranger-grenade-13",
-      "idx": 14,
-      "character": "ranger",
-      "level": 2.5,
-      "odds": 100,
-      "category": "grenade",
-      "ammo": 4,
-      "rof": 2,
-      "damage": 200,
-      "reloadSeconds": 2,
-      "fuseType": {"ja": "時間", "en": "timed"},
-      "fuseSeconds": 4,
-      "radius": 9,
-      "subCategory": "gl",
-      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ−１", "ja": "GランチャーUM-1"}
-    },
-    {
-      "id": "ranger-special-13",
-      "idx": 15,
-      "character": "ranger",
-      "level": 41.5,
-      "odds": 100,
-      "category": "special",
-      "ammo": 20,
-      "rof": 6,
-      "damageRank": {"ja": "B+"},
-      "reloadSeconds": 6,
-      "range": 90,
-      "accuracyRank": "B",
-      "subCategory": "flame",
-      "names": {"en": "Ｆｌａｍｅｒ　Ｔｈｒｏｗｅｒ　Ｆ５", "ja": "火炎放射器F5★"}
     },
     {
       "id": "winger-short-13",
@@ -3301,6 +3089,39 @@
       "names": {"en": "Ｍｉｒａｇｅ　５　Ｗａｙ−Ｓ", "ja": "ミラージュ5WAY-S"}
     },
     {
+      "id": "ranger-grenade-15",
+      "idx": 13,
+      "character": "ranger",
+      "level": 0,
+      "odds": 100,
+      "category": "grenade",
+      "ammo": 4,
+      "rof": 2,
+      "damage": 110,
+      "reloadSeconds": 2,
+      "fuseType": {"ja": "接触", "en": "contact"},
+      "radius": 5,
+      "subCategory": "gl",
+      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ−１Ａ", "ja": "GランチャーUM-1A★"}
+    },
+    {
+      "id": "ranger-grenade-13",
+      "idx": 14,
+      "character": "ranger",
+      "level": 2.5,
+      "odds": 100,
+      "category": "grenade",
+      "ammo": 4,
+      "rof": 2,
+      "damage": 200,
+      "reloadSeconds": 2,
+      "fuseType": {"ja": "時間", "en": "timed"},
+      "fuseSeconds": 4,
+      "radius": 9,
+      "subCategory": "gl",
+      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ−１", "ja": "GランチャーUM-1"}
+    },
+    {
       "id": "ranger-assault-14",
       "idx": 14,
       "character": "ranger",
@@ -3377,40 +3198,6 @@
       "lockRangeRank": 1180,
       "zoom": 6,
       "names": {"en": "Ｐｒｏｍｉｎｅｎｃｅ　２", "ja": "プロミネンス2"}
-    },
-    {
-      "id": "ranger-grenade-14",
-      "idx": 16,
-      "character": "ranger",
-      "level": 12.5,
-      "odds": 100,
-      "category": "grenade",
-      "ammo": 4,
-      "rof": 2,
-      "damage": 230,
-      "reloadSeconds": 2,
-      "fuseType": {"ja": "時間", "en": "timed"},
-      "fuseSeconds": 4,
-      "radius": 9,
-      "subCategory": "gl",
-      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ−１　Ｃｕｓｔｏｍ", "ja": "GランチャーUM-1改☆"}
-    },
-    {
-      "id": "ranger-special-14",
-      "idx": 16,
-      "character": "ranger",
-      "level": 65,
-      "odds": 100,
-      "category": "special",
-      "ammo": 150,
-      "rof": 60,
-      "damageRank": {"ja": "A"},
-      "reloadSeconds": 6,
-      "range": 170,
-      "accuracyRank": "B",
-      "zoom": null,
-      "subCategory": "flame",
-      "names": {"en": "Ｆｌａｍｅ　Ｔｈｒｏｗｅｒ　Ｆ６", "ja": "火炎放射器F6★"}
     },
     {
       "id": "winger-short-14",
@@ -3505,6 +3292,38 @@
       "names": {"en": "Ｓａｉ−Ｂｌａｄｅ　α", "ja": "サイ・ブレードα"}
     },
     {
+      "id": "ranger-special-16",
+      "idx": 14,
+      "character": "ranger",
+      "level": 32.5,
+      "odds": 100,
+      "category": "special",
+      "ammo": 1500,
+      "rof": 60,
+      "damageRank": {"ja": "B"},
+      "reloadSeconds": 10,
+      "range": 110,
+      "accuracyRank": "B",
+      "subCategory": "flame",
+      "names": {"en": "Ｈｅｌｌ　Ｃａｎｎｏｎ", "ja": "灼熱火炎砲☆"}
+    },
+    {
+      "id": "ranger-special-13",
+      "idx": 15,
+      "character": "ranger",
+      "level": 41.5,
+      "odds": 100,
+      "category": "special",
+      "ammo": 20,
+      "rof": 6,
+      "damageRank": {"ja": "B+"},
+      "reloadSeconds": 6,
+      "range": 90,
+      "accuracyRank": "B",
+      "subCategory": "flame",
+      "names": {"en": "Ｆｌａｍｅｒ　Ｔｈｒｏｗｅｒ　Ｆ５", "ja": "火炎放射器F5★"}
+    },
+    {
       "id": "ranger-assault-15",
       "idx": 15,
       "character": "ranger",
@@ -3550,54 +3369,6 @@
       "accuracyRank": "B+",
       "zoom": 1200,
       "names": {"en": "Ｇｏｌｉａｔｈ−９９", "ja": "ゴリアス‐99"}
-    },
-    {
-      "id": "ranger-missile-15",
-      "idx": 10,
-      "character": "ranger",
-      "level": 29,
-      "odds": 100,
-      "category": "missile",
-      "ammo": 1,
-      "damage": 50,
-      "count": 20,
-      "reloadSeconds": 3,
-      "radius": 1,
-      "homingRank": "S",
-      "lockRangeRank": 300,
-      "names": {"en": "Ｓｏａｒｉｎｇ　Ａ２０", "ja": "ソルリングA20"}
-    },
-    {
-      "id": "ranger-grenade-15",
-      "idx": 13,
-      "character": "ranger",
-      "level": 0,
-      "odds": 100,
-      "category": "grenade",
-      "ammo": 4,
-      "rof": 2,
-      "damage": 110,
-      "reloadSeconds": 2,
-      "fuseType": {"ja": "接触", "en": "contact"},
-      "radius": 5,
-      "subCategory": "gl",
-      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ−１Ａ", "ja": "GランチャーUM-1A★"}
-    },
-    {
-      "id": "ranger-special-15",
-      "idx": 11,
-      "character": "ranger",
-      "level": 10,
-      "odds": 100,
-      "category": "special",
-      "ammo": 1500,
-      "rof": 60,
-      "damageRank": {"ja": "C++"},
-      "reloadSeconds": 10,
-      "range": 110,
-      "accuracyRank": "A",
-      "subCategory": "flame",
-      "names": {"en": "Ｆｌａｍｅ　Ｃａｎｎｏｎ", "ja": "火炎砲☆"}
     },
     {
       "id": "winger-short-15",
@@ -3695,6 +3466,72 @@
       "names": {"en": "Ｇａｉｓｔ　Ｄ", "ja": "ガイストD"}
     },
     {
+      "id": "ranger-missile-16",
+      "idx": 15,
+      "character": "ranger",
+      "level": 67.5,
+      "odds": 100,
+      "category": "missile",
+      "ammo": 1,
+      "damage": 90,
+      "count": 20,
+      "reloadSeconds": 3,
+      "radius": 2,
+      "homingRank": "S",
+      "lockRangeRank": 300,
+      "names": {"en": "Ｓｏａｒｉｎｇ　Ｘ", "ja": "ソルリングX"}
+    },
+    {
+      "id": "ranger-grenade-16",
+      "idx": 15,
+      "character": "ranger",
+      "level": 7.5,
+      "odds": 100,
+      "category": "grenade",
+      "ammo": 4,
+      "rof": 2,
+      "damage": 160,
+      "reloadSeconds": 2,
+      "fuseType": {"ja": "接触", "en": "contact"},
+      "radius": 6,
+      "subCategory": "gl",
+      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ−１Ａ　Ｃｕｓｔｏｍ", "ja": "GランチャーUM-1A改☆"}
+    },
+    {
+      "id": "ranger-grenade-14",
+      "idx": 16,
+      "character": "ranger",
+      "level": 12.5,
+      "odds": 100,
+      "category": "grenade",
+      "ammo": 4,
+      "rof": 2,
+      "damage": 230,
+      "reloadSeconds": 2,
+      "fuseType": {"ja": "時間", "en": "timed"},
+      "fuseSeconds": 4,
+      "radius": 9,
+      "subCategory": "gl",
+      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ−１　Ｃｕｓｔｏｍ", "ja": "GランチャーUM-1改☆"}
+    },
+    {
+      "id": "ranger-special-14",
+      "idx": 16,
+      "character": "ranger",
+      "level": 65,
+      "odds": 100,
+      "category": "special",
+      "ammo": 150,
+      "rof": 60,
+      "damageRank": {"ja": "A"},
+      "reloadSeconds": 6,
+      "range": 170,
+      "accuracyRank": "B",
+      "zoom": null,
+      "subCategory": "flame",
+      "names": {"en": "Ｆｌａｍｅ　Ｔｈｒｏｗｅｒ　Ｆ６", "ja": "火炎放射器F6★"}
+    },
+    {
       "id": "ranger-assault-16",
       "idx": 16,
       "character": "ranger",
@@ -3742,54 +3579,6 @@
       "accuracyRank": "A",
       "zoom": 7200,
       "names": {"en": "Ｖｏｌｃａｎｏ　６Ｗ", "ja": "ボルケーノ6W☆"}
-    },
-    {
-      "id": "ranger-missile-16",
-      "idx": 15,
-      "character": "ranger",
-      "level": 67.5,
-      "odds": 100,
-      "category": "missile",
-      "ammo": 1,
-      "damage": 90,
-      "count": 20,
-      "reloadSeconds": 3,
-      "radius": 2,
-      "homingRank": "S",
-      "lockRangeRank": 300,
-      "names": {"en": "Ｓｏａｒｉｎｇ　Ｘ", "ja": "ソルリングX"}
-    },
-    {
-      "id": "ranger-grenade-16",
-      "idx": 15,
-      "character": "ranger",
-      "level": 7.5,
-      "odds": 100,
-      "category": "grenade",
-      "ammo": 4,
-      "rof": 2,
-      "damage": 160,
-      "reloadSeconds": 2,
-      "fuseType": {"ja": "接触", "en": "contact"},
-      "radius": 6,
-      "subCategory": "gl",
-      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ−１Ａ　Ｃｕｓｔｏｍ", "ja": "GランチャーUM-1A改☆"}
-    },
-    {
-      "id": "ranger-special-16",
-      "idx": 14,
-      "character": "ranger",
-      "level": 32.5,
-      "odds": 100,
-      "category": "special",
-      "ammo": 1500,
-      "rof": 60,
-      "damageRank": {"ja": "B"},
-      "reloadSeconds": 10,
-      "range": 110,
-      "accuracyRank": "B",
-      "subCategory": "flame",
-      "names": {"en": "Ｈｅｌｌ　Ｃａｎｎｏｎ", "ja": "灼熱火炎砲☆"}
     },
     {
       "id": "winger-short-16",
@@ -3887,6 +3676,38 @@
       "names": {"en": "Ｇｈｏｓｔ　Ｃｈａｓｅｒ", "ja": "ゴースト・チェイサー"}
     },
     {
+      "id": "ranger-missile-17",
+      "idx": 16,
+      "character": "ranger",
+      "level": 0,
+      "odds": 0,
+      "category": "missile",
+      "ammo": 1,
+      "damage": 800,
+      "count": 32,
+      "reloadSeconds": 30,
+      "radius": 10,
+      "homingRank": "C+",
+      "lockRangeRank": 1500,
+      "zoom": 6,
+      "names": {"en": "Ｌｕｃｉｆｅｒ’ｓ　Ｓｍｉｌｅ", "ja": "ルシフェルS"}
+    },
+    {
+      "id": "ranger-missile-12",
+      "idx": 17,
+      "character": "ranger",
+      "level": 77.5,
+      "odds": 10,
+      "category": "missile",
+      "ammo": 1,
+      "damage": 40000,
+      "reloadSeconds": 20,
+      "radius": 40,
+      "homingRank": "A",
+      "lockRangeRank": 710,
+      "names": {"en": "Ｌｅｖｉａｔｈａｎ", "ja": "リバイアサン☆"}
+    },
+    {
       "id": "ranger-assault-17",
       "idx": 17,
       "character": "ranger",
@@ -3931,40 +3752,6 @@
       "accuracyRank": "B+",
       "zoom": 1000000,
       "names": {"en": "Ｇｅｎｏｃｉｄｅ　Ｃａｎｎｏｎ", "ja": "ジェノサイド砲"}
-    },
-    {
-      "id": "ranger-missile-17",
-      "idx": 16,
-      "character": "ranger",
-      "level": 0,
-      "odds": 0,
-      "category": "missile",
-      "ammo": 1,
-      "damage": 800,
-      "count": 32,
-      "reloadSeconds": 30,
-      "radius": 10,
-      "homingRank": "C+",
-      "lockRangeRank": 1500,
-      "zoom": 6,
-      "names": {"en": "Ｌｕｃｉｆｅｒ’ｓ　Ｓｍｉｌｅ", "ja": "ルシフェルS"}
-    },
-    {
-      "id": "ranger-grenade-17",
-      "idx": 18,
-      "character": "ranger",
-      "level": 0,
-      "odds": 100,
-      "category": "grenade",
-      "ammo": 4,
-      "rof": 2,
-      "damage": 400,
-      "reloadSeconds": 3,
-      "fuseType": {"ja": "時間", "en": "timed"},
-      "fuseSeconds": 4,
-      "radius": 11,
-      "subCategory": "gl",
-      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ−２", "ja": "GランチャーUM-2"}
     },
     {
       "id": "ranger-special-17",
@@ -4076,21 +3863,6 @@
       "names": {"en": "Ｆｅｎｒｉｒ　３　Ｗａｙ", "ja": "フェンリル3WAY"}
     },
     {
-      "id": "ranger-assault-18",
-      "idx": 18,
-      "character": "ranger",
-      "level": 57,
-      "odds": 100,
-      "category": "assault",
-      "ammo": 999,
-      "rof": 60,
-      "damage": 25,
-      "reloadSeconds": 3,
-      "range": 140,
-      "accuracyRank": "B",
-      "names": {"en": "ＡＳ−２２ＲＲ", "ja": "AS-22RR"}
-    },
-    {
       "id": "ranger-grenade-18",
       "idx": 17,
       "character": "ranger",
@@ -4105,6 +3877,38 @@
       "radius": 5,
       "subCategory": "gl",
       "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ−２Ａ", "ja": "GランチャーUM-2A"}
+    },
+    {
+      "id": "ranger-grenade-17",
+      "idx": 18,
+      "character": "ranger",
+      "level": 0,
+      "odds": 100,
+      "category": "grenade",
+      "ammo": 4,
+      "rof": 2,
+      "damage": 400,
+      "reloadSeconds": 3,
+      "fuseType": {"ja": "時間", "en": "timed"},
+      "fuseSeconds": 4,
+      "radius": 11,
+      "subCategory": "gl",
+      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ−２", "ja": "GランチャーUM-2"}
+    },
+    {
+      "id": "ranger-assault-18",
+      "idx": 18,
+      "character": "ranger",
+      "level": 57,
+      "odds": 100,
+      "category": "assault",
+      "ammo": 999,
+      "rof": 60,
+      "damage": 25,
+      "reloadSeconds": 3,
+      "range": 140,
+      "accuracyRank": "B",
+      "names": {"en": "ＡＳ−２２ＲＲ", "ja": "AS-22RR"}
     },
     {
       "id": "winger-short-18",
@@ -4217,22 +4021,6 @@
       "names": {"en": "ＡＳ−９９", "ja": "AS-99"}
     },
     {
-      "id": "ranger-grenade-19",
-      "idx": 21,
-      "character": "ranger",
-      "level": 28.5,
-      "odds": 100,
-      "category": "grenade",
-      "ammo": 5,
-      "rof": 2,
-      "damage": 600,
-      "reloadSeconds": 2,
-      "fuseType": {"ja": "接触", "en": "contact"},
-      "radius": 7,
-      "subCategory": "gl",
-      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ−３Ａ", "ja": "GランチャーUM-3A"}
-    },
-    {
       "id": "ranger-special-19",
       "idx": 19,
       "character": "ranger",
@@ -4306,6 +4094,24 @@
       "names": {"en": "Ｐｌａｓｍａ　Ｇｒｅｎａｄｅ　ＳＰ", "ja": "プラズマ・グレネードSP"}
     },
     {
+      "id": "ranger-grenade-28",
+      "idx": 19,
+      "character": "ranger",
+      "level": 0,
+      "odds": 0,
+      "category": "grenade",
+      "ammo": 1,
+      "rof": 1,
+      "damage": 200,
+      "count": 20,
+      "reloadSeconds": 6,
+      "fuseType": {"ja": "時間", "en": "timed"},
+      "fuseSeconds": 5,
+      "radius": 8,
+      "subCategory": "gl",
+      "names": {"en": "Ｓｐｌａｓｈ　ＧＲ　Ｐｒｏｔｏｔｙｐｅ", "ja": "スプラッシュGR試作"}
+    },
+    {
       "id": "ranger-assault-20",
       "idx": 20,
       "character": "ranger",
@@ -4319,23 +4125,6 @@
       "range": 400,
       "accuracyRank": "A+",
       "names": {"en": "ＡＳ−９９Ｄ", "ja": "AS-99D★"}
-    },
-    {
-      "id": "ranger-grenade-20",
-      "idx": 22,
-      "character": "ranger",
-      "level": 34,
-      "odds": 100,
-      "category": "grenade",
-      "ammo": 2,
-      "rof": 1,
-      "damage": 600,
-      "count": 3,
-      "reloadSeconds": 2,
-      "fuseType": {"ja": "接触", "en": "contact"},
-      "radius": 7,
-      "subCategory": "gl",
-      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ３ＷＡＹ", "ja": "GランチャーUM-3WAY☆"}
     },
     {
       "id": "ranger-special-20",
@@ -4411,6 +4200,40 @@
       "names": {"en": "Ｅ５　Ｐｌａｓｍａ　Ｌａｕｎｃｈｅｒ", "ja": "E5プラズマ・ランチャー"}
     },
     {
+      "id": "ranger-grenade-25",
+      "idx": 20,
+      "character": "ranger",
+      "level": 0,
+      "odds": 0,
+      "category": "grenade",
+      "ammo": 1,
+      "rof": 1,
+      "damage": 150,
+      "count": 20,
+      "reloadSeconds": 6,
+      "fuseType": {"ja": "時間", "en": "timed"},
+      "fuseSeconds": 4,
+      "radius": 8,
+      "subCategory": "gl",
+      "names": {"en": "Ｓｕｃｋｅｒ　ＧＲ　Ｐｒｏｔｏｔｙｐｅ", "ja": "サッカーGR試作"}
+    },
+    {
+      "id": "ranger-grenade-19",
+      "idx": 21,
+      "character": "ranger",
+      "level": 28.5,
+      "odds": 100,
+      "category": "grenade",
+      "ammo": 5,
+      "rof": 2,
+      "damage": 600,
+      "reloadSeconds": 2,
+      "fuseType": {"ja": "接触", "en": "contact"},
+      "radius": 7,
+      "subCategory": "gl",
+      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ−３Ａ", "ja": "GランチャーUM-3A"}
+    },
+    {
       "id": "ranger-assault-21",
       "idx": 21,
       "character": "ranger",
@@ -4425,24 +4248,6 @@
       "accuracyRank": "A+",
       "zoom": 2,
       "names": {"en": "ＡＳ−１００Ｆ", "ja": "AS-100F☆"}
-    },
-    {
-      "id": "ranger-grenade-21",
-      "idx": 24,
-      "character": "ranger",
-      "level": 43,
-      "odds": 100,
-      "category": "grenade",
-      "ammo": 2,
-      "rof": 1,
-      "damage": 900,
-      "count": 3,
-      "reloadSeconds": 2.5,
-      "fuseType": {"ja": "時間", "en": "timed"},
-      "fuseSeconds": 3,
-      "radius": 12,
-      "subCategory": "gl",
-      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ−Ｗ３", "ja": "GランチャーUM-W3☆"}
     },
     {
       "id": "ranger-special-21",
@@ -4502,33 +4307,21 @@
       "names": {"en": "Ｐｌａｓｍａ　Ｇｒｅｎａｄｅ　Ｃ", "ja": "プラズマ・グレネードC"}
     },
     {
-      "id": "ranger-grenade-22",
-      "idx": 26,
+      "id": "ranger-grenade-20",
+      "idx": 22,
       "character": "ranger",
-      "level": 55,
+      "level": 34,
       "odds": 100,
       "category": "grenade",
-      "ammo": 1,
+      "ammo": 2,
       "rof": 1,
-      "damage": 2000,
-      "reloadSeconds": 3,
+      "damage": 600,
+      "count": 3,
+      "reloadSeconds": 2,
       "fuseType": {"ja": "接触", "en": "contact"},
-      "radius": 20,
+      "radius": 7,
       "subCategory": "gl",
-      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ−４Ａ", "ja": "GランチャーUM-4A"}
-    },
-    {
-      "id": "ranger-special-22",
-      "idx": 23,
-      "character": "ranger",
-      "level": 47.5,
-      "odds": 100,
-      "category": "special",
-      "ammo": 10,
-      "damageRank": {"ja": "B+"},
-      "reloadSeconds": 9,
-      "subCategory": "reverser",
-      "names": {"en": "Ｒｅｐａｉｒ　Ｓｐｒａｙ　Ｖ４", "ja": "リペアースプレーV4"}
+      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ３ＷＡＹ", "ja": "GランチャーUM-3WAY☆"}
     },
     {
       "id": "winger-short-22",
@@ -4564,33 +4357,31 @@
       "names": {"en": "Ｄｏｕｂｌｅ　Ｐｌａｓｍａ　Ｌａｕｎｃｈｅｒ　Ｓ", "ja": "2連プラズマ・ランチャーS"}
     },
     {
-      "id": "ranger-grenade-23",
-      "idx": 28,
+      "id": "ranger-special-25",
+      "idx": 22,
       "character": "ranger",
-      "level": 70,
-      "odds": 40,
-      "category": "grenade",
-      "ammo": 4,
-      "rof": 1,
-      "damage": 2000,
-      "reloadSeconds": 6,
-      "fuseType": {"ja": "接触", "en": "contact"},
-      "radius": 20,
-      "subCategory": "gl",
-      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ−ＸＡ", "ja": "GランチャーUM-XA★"}
-    },
-    {
-      "id": "ranger-special-23",
-      "idx": 24,
-      "character": "ranger",
-      "level": 70,
+      "level": 37.5,
       "odds": 100,
       "category": "special",
       "ammo": 10,
-      "damageRank": {"ja": "A"},
+      "damageRank": {"ja": "B"},
+      "reloadSeconds": 9,
+      "zoom": null,
+      "subCategory": "reverser",
+      "names": {"en": "Ｒｅｐａｉｒ　Ｓｎｉｐｅｒ", "ja": "リペアー・スナイパー☆"}
+    },
+    {
+      "id": "ranger-special-22",
+      "idx": 23,
+      "character": "ranger",
+      "level": 47.5,
+      "odds": 100,
+      "category": "special",
+      "ammo": 10,
+      "damageRank": {"ja": "B+"},
       "reloadSeconds": 9,
       "subCategory": "reverser",
-      "names": {"en": "Ｒｅｐａｉｒ　Ｓｐｒａｙ　Ｖ５", "ja": "リペアースプレーV5"}
+      "names": {"en": "Ｒｅｐａｉｒ　Ｓｐｒａｙ　Ｖ４", "ja": "リペアースプレーV4"}
     },
     {
       "id": "winger-short-23",
@@ -4625,35 +4416,53 @@
       "names": {"en": "ＥＸ　Ｐｌａｓｍａ　Ｌａｕｎｃｈｅｒ", "ja": "EXプラズマ・ランチャー"}
     },
     {
-      "id": "ranger-grenade-24",
-      "idx": 29,
+      "id": "ranger-grenade-29",
+      "idx": 23,
       "character": "ranger",
-      "level": 95,
-      "odds": 3,
+      "level": 39.5,
+      "odds": 100,
       "category": "grenade",
-      "ammo": 4,
+      "ammo": 1,
       "rof": 1,
-      "damage": 2000,
-      "count": 2,
+      "damage": 1000,
+      "count": 20,
       "reloadSeconds": 6,
-      "fuseType": {"ja": "接触", "en": "contact"},
-      "radius": 20,
+      "fuseType": {"ja": "時間", "en": "timed"},
+      "fuseSeconds": 5,
+      "radius": 10,
       "subCategory": "gl",
-      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭＶ２", "ja": "Gランチャー-UMV2☆"}
+      "names": {"en": "Ｓｐｌａｓｈ　ＧＲ", "ja": "スプラッシュGR"}
     },
     {
-      "id": "ranger-special-24",
-      "idx": 25,
+      "id": "ranger-grenade-21",
+      "idx": 24,
       "character": "ranger",
-      "level": 77.5,
-      "odds": 10,
+      "level": 43,
+      "odds": 100,
+      "category": "grenade",
+      "ammo": 2,
+      "rof": 1,
+      "damage": 900,
+      "count": 3,
+      "reloadSeconds": 2.5,
+      "fuseType": {"ja": "時間", "en": "timed"},
+      "fuseSeconds": 3,
+      "radius": 12,
+      "subCategory": "gl",
+      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ−Ｗ３", "ja": "GランチャーUM-W3☆"}
+    },
+    {
+      "id": "ranger-special-23",
+      "idx": 24,
+      "character": "ranger",
+      "level": 70,
+      "odds": 100,
       "category": "special",
       "ammo": 10,
-      "damageRank": {"ja": "A+"},
+      "damageRank": {"ja": "A"},
       "reloadSeconds": 9,
-      "zoom": null,
       "subCategory": "reverser",
-      "names": {"en": "Ｒｅｐａｉｒ　Ｓｐｒａｙ　α", "ja": "リペアースプレーα☆"}
+      "names": {"en": "Ｒｅｐａｉｒ　Ｓｐｒａｙ　Ｖ５", "ja": "リペアースプレーV5"}
     },
     {
       "id": "winger-short-24",
@@ -4688,36 +4497,18 @@
       "names": {"en": "ＥＸ３　Ｐｌａｓｍａ　Ｌａｕｎｃｈｅｒ", "ja": "EX3連プラズマ・ランチャー"}
     },
     {
-      "id": "ranger-grenade-25",
-      "idx": 20,
+      "id": "ranger-special-24",
+      "idx": 25,
       "character": "ranger",
-      "level": 0,
-      "odds": 0,
-      "category": "grenade",
-      "ammo": 1,
-      "rof": 1,
-      "damage": 150,
-      "count": 20,
-      "reloadSeconds": 6,
-      "fuseType": {"ja": "時間", "en": "timed"},
-      "fuseSeconds": 4,
-      "radius": 8,
-      "subCategory": "gl",
-      "names": {"en": "Ｓｕｃｋｅｒ　ＧＲ　Ｐｒｏｔｏｔｙｐｅ", "ja": "サッカーGR試作"}
-    },
-    {
-      "id": "ranger-special-25",
-      "idx": 22,
-      "character": "ranger",
-      "level": 37.5,
-      "odds": 100,
+      "level": 77.5,
+      "odds": 10,
       "category": "special",
       "ammo": 10,
-      "damageRank": {"ja": "B"},
+      "damageRank": {"ja": "A+"},
       "reloadSeconds": 9,
       "zoom": null,
       "subCategory": "reverser",
-      "names": {"en": "Ｒｅｐａｉｒ　Ｓｎｉｐｅｒ", "ja": "リペアー・スナイパー☆"}
+      "names": {"en": "Ｒｅｐａｉｒ　Ｓｐｒａｙ　α", "ja": "リペアースプレーα☆"}
     },
     {
       "id": "winger-short-25",
@@ -4769,6 +4560,22 @@
       "radius": 10,
       "subCategory": "gl",
       "names": {"en": "Ｓｕｃｋｅｒ　Ｇｒｅｎａｄｅ", "ja": "サッカーグレネード"}
+    },
+    {
+      "id": "ranger-grenade-22",
+      "idx": 26,
+      "character": "ranger",
+      "level": 55,
+      "odds": 100,
+      "category": "grenade",
+      "ammo": 1,
+      "rof": 1,
+      "damage": 2000,
+      "reloadSeconds": 3,
+      "fuseType": {"ja": "接触", "en": "contact"},
+      "radius": 20,
+      "subCategory": "gl",
+      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ−４Ａ", "ja": "GランチャーUM-4A"}
     },
     {
       "id": "ranger-special-26",
@@ -4847,22 +4654,20 @@
       "names": {"en": "ＲＳＲ　Ｐｌａｓｍａ　Ｌａｕｎｃｈｅｒ", "ja": "RSRプラズマ・ランチャー"}
     },
     {
-      "id": "ranger-grenade-28",
-      "idx": 19,
+      "id": "ranger-grenade-23",
+      "idx": 28,
       "character": "ranger",
-      "level": 0,
-      "odds": 0,
+      "level": 70,
+      "odds": 40,
       "category": "grenade",
-      "ammo": 1,
+      "ammo": 4,
       "rof": 1,
-      "damage": 200,
-      "count": 20,
+      "damage": 2000,
       "reloadSeconds": 6,
-      "fuseType": {"ja": "時間", "en": "timed"},
-      "fuseSeconds": 5,
-      "radius": 8,
+      "fuseType": {"ja": "接触", "en": "contact"},
+      "radius": 20,
       "subCategory": "gl",
-      "names": {"en": "Ｓｐｌａｓｈ　ＧＲ　Ｐｒｏｔｏｔｙｐｅ", "ja": "スプラッシュGR試作"}
+      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭ−ＸＡ", "ja": "GランチャーUM-XA★"}
     },
     {
       "id": "ranger-special-28",
@@ -4892,22 +4697,21 @@
       "names": {"en": "Ｐｌａｓｍａ　Ｇｒｅｎａｄｅ　Ｆ", "ja": "プラズマ・グレネードF"}
     },
     {
-      "id": "ranger-grenade-29",
-      "idx": 23,
+      "id": "ranger-grenade-24",
+      "idx": 29,
       "character": "ranger",
-      "level": 39.5,
-      "odds": 100,
+      "level": 95,
+      "odds": 3,
       "category": "grenade",
-      "ammo": 1,
+      "ammo": 4,
       "rof": 1,
-      "damage": 1000,
-      "count": 20,
+      "damage": 2000,
+      "count": 2,
       "reloadSeconds": 6,
-      "fuseType": {"ja": "時間", "en": "timed"},
-      "fuseSeconds": 5,
-      "radius": 10,
+      "fuseType": {"ja": "接触", "en": "contact"},
+      "radius": 20,
       "subCategory": "gl",
-      "names": {"en": "Ｓｐｌａｓｈ　ＧＲ", "ja": "スプラッシュGR"}
+      "names": {"en": "Ｇ　Ｌａｕｎｃｈｅｒ　ＵＭＶ２", "ja": "Gランチャー-UMV2☆"}
     },
     {
       "id": "ranger-special-29",
@@ -4987,58 +4791,62 @@
       "names": {"en": "Ｄｅａｔｈ　Ｃｒａｃｋｅｒ", "ja": "爆殺かんしゃく玉"}
     }
   ],
-  "modes": [{"name": "OFF",
-    "missions": 71,
-    "difficulties": [
-      {
-        "name": "ＥＡＳＹ",
-        "playerScaling": [1, 1],
-        "drops": [5, 20],
-        "dropSpread": 7.5,
-        "dropsLow": [0,0,0,0,0,0,0,0,0,0,0,0.0352,0.2465,0.4577,0.669,0.8803,1.0915,1.3028,1.5141,1.7254,1.9366,2.1479,2.3592,2.5704,2.7817,2.993,3.2042,3.4155,3.6268,3.838,4.0493,4.2606,4.4718,4.6831,4.8944,5.1056,5.3169,5.5282,5.7394,5.9507,6.162,6.3732,6.5845,6.7958,7.007,7.2183,7.4296,7.6408,7.8521,8.0634,8.2746,8.4859,8.6972,8.9085,9.1197,9.331,9.5423,9.7535,9.9648,10.1761,10.3873,10.5986,10.8099,11.0211,11.2324,11.4437,11.6549,11.8662,12.0775,12.2887,12.5],
-        "dropsHigh": [5.2113,5.4225,5.6338,5.8451,6.0563,6.2676,6.4789,6.6901,6.9014,7.1127,7.3239,7.5352,7.7465,7.9577,8.169,8.3803,8.5915,8.8028,9.0141,9.2254,9.4366,9.6479,9.8592,10.0704,10.2817,10.493,10.7042,10.9155,11.1268,11.338,11.5493,11.7606,11.9718,12.1831,12.3944,12.6056,12.8169,13.0282,13.2394,13.4507,13.662,13.8732,14.0845,14.2958,14.507,14.7183,14.9296,15.1408,15.3521,15.5634,15.7746,15.9859,16.1972,16.4085,16.6197,16.831,17.0423,17.2535,17.4648,17.6761,17.8873,18.0986,18.3099,18.5211,18.7324,18.9437,19.1549,19.3662,19.5775,19.7887,20.0],
-        "weaponLimits": -1,
-        "armorLimits": null
-      },
-      {
-        "name": "ＮＯＲＭＡＬ",
-        "playerScaling": [1, 1],
-        "drops": [0, 25],
-        "dropSpread": 7.5,
-        "dropsLow": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2465,0.5986,0.9507,1.3028,1.6549,2.007,2.3592,2.7113,3.0634,3.4155,3.7676,4.1197,4.4718,4.8239,5.1761,5.5282,5.8803,6.2324,6.5845,6.9366,7.2887,7.6408,7.993,8.3451,8.6972,9.0493,9.4014,9.7535,10.1056,10.4577,10.8099,11.162,11.5141,11.8662,12.2183,12.5704,12.9225,13.2746,13.6268,13.9789,14.331,14.6831,15.0352,15.3873,15.7394,16.0915,16.4437,16.7958,17.1479,17.5],
-        "dropsHigh": [0.3521,0.7042,1.0563,1.4085,1.7606,2.1127,2.4648,2.8169,3.169,3.5211,3.8732,4.2254,4.5775,4.9296,5.2817,5.6338,5.9859,6.338,6.6901,7.0423,7.3944,7.7465,8.0986,8.4507,8.8028,9.1549,9.507,9.8592,10.2113,10.5634,10.9155,11.2676,11.6197,11.9718,12.3239,12.6761,13.0282,13.3803,13.7324,14.0845,14.4366,14.7887,15.1408,15.493,15.8451,16.1972,16.5493,16.9014,17.2535,17.6056,17.9577,18.3099,18.662,19.0141,19.3662,19.7183,20.0704,20.4225,20.7746,21.1268,21.4789,21.831,22.1831,22.5352,22.8873,23.2394,23.5915,23.9437,24.2958,24.6479,25.0],
-        "weaponLimits": -1,
-        "armorLimits": null
-      },
-      {
-        "name": "ＨＡＲＤ",
-        "playerScaling": [1, 1],
-        "drops": [20.75, 50],
-        "dropSpread": 25,
-        "dropsLow": [0,0,0,0,0,0,0,0,0,0,0.2817,0.6937,1.1056,1.5176,1.9296,2.3415,2.7535,3.1655,3.5775,3.9894,4.4014,4.8134,5.2254,5.6373,6.0493,6.4613,6.8732,7.2852,7.6972,8.1092,8.5211,8.9331,9.3451,9.757,10.169,10.581,10.993,11.4049,11.8169,12.2289,12.6408,13.0528,13.4648,13.8768,14.2887,14.7007,15.1127,15.5246,15.9366,16.3486,16.7606,17.1725,17.5845,17.9965,18.4085,18.8204,19.2324,19.6444,20.0563,20.4683,20.8803,21.2923,21.7042,22.1162,22.5282,22.9401,23.3521,23.7641,24.1761,24.588,25.0],
-        "dropsHigh": [21.162,21.5739,21.9859,22.3979,22.8099,23.2218,23.6338,24.0458,24.4577,24.8697,25.2817,25.6937,26.1056,26.5176,26.9296,27.3415,27.7535,28.1655,28.5775,28.9894,29.4014,29.8134,30.2254,30.6373,31.0493,31.4613,31.8732,32.2852,32.6972,33.1092,33.5211,33.9331,34.3451,34.757,35.169,35.581,35.993,36.4049,36.8169,37.2289,37.6408,38.0528,38.4648,38.8768,39.2887,39.7007,40.1127,40.5246,40.9366,41.3486,41.7606,42.1725,42.5845,42.9965,43.4085,43.8204,44.2324,44.6444,45.0563,45.4683,45.8803,46.2923,46.7042,47.1162,47.5282,47.9401,48.3521,48.7641,49.1761,49.588,50.0],
-        "weaponLimits": -1,
-        "armorLimits": null
-      },
-      {
-        "name": "ＨＡＲＤＥＳＴ",
-        "playerScaling": [1, 1],
-        "drops": [44, 75],
-        "dropSpread": 60,
-        "dropsLow": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1549,0.5915,1.0282,1.4648,1.9014,2.338,2.7746,3.2113,3.6479,4.0845,4.5211,4.9577,5.3944,5.831,6.2676,6.7042,7.1408,7.5775,8.0141,8.4507,8.8873,9.3239,9.7606,10.1972,10.6338,11.0704,11.507,11.9437,12.3803,12.8169,13.2535,13.6901,14.1268,14.5634,15.0],
-        "dropsHigh": [44.4366,44.8732,45.3099,45.7465,46.1831,46.6197,47.0563,47.493,47.9296,48.3662,48.8028,49.2394,49.6761,50.1127,50.5493,50.9859,51.4225,51.8592,52.2958,52.7324,53.169,53.6056,54.0423,54.4789,54.9155,55.3521,55.7887,56.2254,56.662,57.0986,57.5352,57.9718,58.4085,58.8451,59.2817,59.7183,60.1549,60.5915,61.0282,61.4648,61.9014,62.338,62.7746,63.2113,63.6479,64.0845,64.5211,64.9577,65.3944,65.831,66.2676,66.7042,67.1408,67.5775,68.0141,68.4507,68.8873,69.3239,69.7606,70.1972,70.6338,71.0704,71.507,71.9437,72.3803,72.8169,73.2535,73.6901,74.1268,74.5634,75.0],
-        "weaponLimits": -1,
-        "armorLimits": null
-      },
-      {
-        "name": "ＩＮＦＥＲＮＯ",
-        "playerScaling": [1, 1],
-        "drops": [50, 100],
-        "dropSpread": 60,
-        "dropsLow": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5634,1.2676,1.9718,2.6761,3.3803,4.0845,4.7887,5.493,6.1972,6.9014,7.6056,8.3099,9.0141,9.7183,10.4225,11.1268,11.831,12.5352,13.2394,13.9437,14.6479,15.3521,16.0563,16.7606,17.4648,18.169,18.8732,19.5775,20.2817,20.9859,21.6901,22.3944,23.0986,23.8028,24.507,25.2113,25.9155,26.6197,27.3239,28.0282,28.7324,29.4366,30.1408,30.8451,31.5493,32.2535,32.9577,33.662,34.3662,35.0704,35.7746,36.4789,37.1831,37.8873,38.5915,39.2958,40.0],
-        "dropsHigh": [50.7042,51.4085,52.1127,52.8169,53.5211,54.2254,54.9296,55.6338,56.338,57.0423,57.7465,58.4507,59.1549,59.8592,60.5634,61.2676,61.9718,62.6761,63.3803,64.0845,64.7887,65.493,66.1972,66.9014,67.6056,68.3099,69.0141,69.7183,70.4225,71.1268,71.831,72.5352,73.2394,73.9437,74.6479,75.3521,76.0563,76.7606,77.4648,78.169,78.8732,79.5775,80.2817,80.9859,81.6901,82.3944,83.0986,83.8028,84.507,85.2113,85.9155,86.6197,87.3239,88.0282,88.7324,89.4366,90.1408,90.8451,91.5493,92.2535,92.9577,93.662,94.3662,95.0704,95.7746,96.4789,97.1831,97.8873,98.5915,99.2958,100.0],
-        "weaponLimits": -1,
-        "armorLimits": null
-      }
-      ]}]
+  "modes": [
+    {
+      "name": "OFF",
+      "missions": 71,
+      "difficulties": [
+        {
+          "name": "ＥＡＳＹ",
+          "playerScaling": [1, 1],
+          "drops": [5, 20],
+          "dropSpread": 7.5,
+          "dropsLow": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0352, 0.2465, 0.4577, 0.669, 0.8803, 1.0915, 1.3028, 1.5141, 1.7254, 1.9366, 2.1479, 2.3592, 2.5704, 2.7817, 2.993, 3.2042, 3.4155, 3.6268, 3.838, 4.0493, 4.2606, 4.4718, 4.6831, 4.8944, 5.1056, 5.3169, 5.5282, 5.7394, 5.9507, 6.162, 6.3732, 6.5845, 6.7958, 7.007, 7.2183, 7.4296, 7.6408, 7.8521, 8.0634, 8.2746, 8.4859, 8.6972, 8.9085, 9.1197, 9.331, 9.5423, 9.7535, 9.9648, 10.1761, 10.3873, 10.5986, 10.8099, 11.0211, 11.2324, 11.4437, 11.6549, 11.8662, 12.0775, 12.2887, 12.5],
+          "dropsHigh": [5.2113, 5.4225, 5.6338, 5.8451, 6.0563, 6.2676, 6.4789, 6.6901, 6.9014, 7.1127, 7.3239, 7.5352, 7.7465, 7.9577, 8.169, 8.3803, 8.5915, 8.8028, 9.0141, 9.2254, 9.4366, 9.6479, 9.8592, 10.0704, 10.2817, 10.493, 10.7042, 10.9155, 11.1268, 11.338, 11.5493, 11.7606, 11.9718, 12.1831, 12.3944, 12.6056, 12.8169, 13.0282, 13.2394, 13.4507, 13.662, 13.8732, 14.0845, 14.2958, 14.507, 14.7183, 14.9296, 15.1408, 15.3521, 15.5634, 15.7746, 15.9859, 16.1972, 16.4085, 16.6197, 16.831, 17.0423, 17.2535, 17.4648, 17.6761, 17.8873, 18.0986, 18.3099, 18.5211, 18.7324, 18.9437, 19.1549, 19.3662, 19.5775, 19.7887, 20],
+          "weaponLimits": -1,
+          "armorLimits": null
+        },
+        {
+          "name": "ＮＯＲＭＡＬ",
+          "playerScaling": [1, 1],
+          "drops": [0, 25],
+          "dropSpread": 7.5,
+          "dropsLow": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2465, 0.5986, 0.9507, 1.3028, 1.6549, 2.007, 2.3592, 2.7113, 3.0634, 3.4155, 3.7676, 4.1197, 4.4718, 4.8239, 5.1761, 5.5282, 5.8803, 6.2324, 6.5845, 6.9366, 7.2887, 7.6408, 7.993, 8.3451, 8.6972, 9.0493, 9.4014, 9.7535, 10.1056, 10.4577, 10.8099, 11.162, 11.5141, 11.8662, 12.2183, 12.5704, 12.9225, 13.2746, 13.6268, 13.9789, 14.331, 14.6831, 15.0352, 15.3873, 15.7394, 16.0915, 16.4437, 16.7958, 17.1479, 17.5],
+          "dropsHigh": [0.3521, 0.7042, 1.0563, 1.4085, 1.7606, 2.1127, 2.4648, 2.8169, 3.169, 3.5211, 3.8732, 4.2254, 4.5775, 4.9296, 5.2817, 5.6338, 5.9859, 6.338, 6.6901, 7.0423, 7.3944, 7.7465, 8.0986, 8.4507, 8.8028, 9.1549, 9.507, 9.8592, 10.2113, 10.5634, 10.9155, 11.2676, 11.6197, 11.9718, 12.3239, 12.6761, 13.0282, 13.3803, 13.7324, 14.0845, 14.4366, 14.7887, 15.1408, 15.493, 15.8451, 16.1972, 16.5493, 16.9014, 17.2535, 17.6056, 17.9577, 18.3099, 18.662, 19.0141, 19.3662, 19.7183, 20.0704, 20.4225, 20.7746, 21.1268, 21.4789, 21.831, 22.1831, 22.5352, 22.8873, 23.2394, 23.5915, 23.9437, 24.2958, 24.6479, 25],
+          "weaponLimits": -1,
+          "armorLimits": null
+        },
+        {
+          "name": "ＨＡＲＤ",
+          "playerScaling": [1, 1],
+          "drops": [20.75, 50],
+          "dropSpread": 25,
+          "dropsLow": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2817, 0.6937, 1.1056, 1.5176, 1.9296, 2.3415, 2.7535, 3.1655, 3.5775, 3.9894, 4.4014, 4.8134, 5.2254, 5.6373, 6.0493, 6.4613, 6.8732, 7.2852, 7.6972, 8.1092, 8.5211, 8.9331, 9.3451, 9.757, 10.169, 10.581, 10.993, 11.4049, 11.8169, 12.2289, 12.6408, 13.0528, 13.4648, 13.8768, 14.2887, 14.7007, 15.1127, 15.5246, 15.9366, 16.3486, 16.7606, 17.1725, 17.5845, 17.9965, 18.4085, 18.8204, 19.2324, 19.6444, 20.0563, 20.4683, 20.8803, 21.2923, 21.7042, 22.1162, 22.5282, 22.9401, 23.3521, 23.7641, 24.1761, 24.588, 25],
+          "dropsHigh": [21.162, 21.5739, 21.9859, 22.3979, 22.8099, 23.2218, 23.6338, 24.0458, 24.4577, 24.8697, 25.2817, 25.6937, 26.1056, 26.5176, 26.9296, 27.3415, 27.7535, 28.1655, 28.5775, 28.9894, 29.4014, 29.8134, 30.2254, 30.6373, 31.0493, 31.4613, 31.8732, 32.2852, 32.6972, 33.1092, 33.5211, 33.9331, 34.3451, 34.757, 35.169, 35.581, 35.993, 36.4049, 36.8169, 37.2289, 37.6408, 38.0528, 38.4648, 38.8768, 39.2887, 39.7007, 40.1127, 40.5246, 40.9366, 41.3486, 41.7606, 42.1725, 42.5845, 42.9965, 43.4085, 43.8204, 44.2324, 44.6444, 45.0563, 45.4683, 45.8803, 46.2923, 46.7042, 47.1162, 47.5282, 47.9401, 48.3521, 48.7641, 49.1761, 49.588, 50],
+          "weaponLimits": -1,
+          "armorLimits": null
+        },
+        {
+          "name": "ＨＡＲＤＥＳＴ",
+          "playerScaling": [1, 1],
+          "drops": [44, 75],
+          "dropSpread": 60,
+          "dropsLow": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.1549, 0.5915, 1.0282, 1.4648, 1.9014, 2.338, 2.7746, 3.2113, 3.6479, 4.0845, 4.5211, 4.9577, 5.3944, 5.831, 6.2676, 6.7042, 7.1408, 7.5775, 8.0141, 8.4507, 8.8873, 9.3239, 9.7606, 10.1972, 10.6338, 11.0704, 11.507, 11.9437, 12.3803, 12.8169, 13.2535, 13.6901, 14.1268, 14.5634, 15],
+          "dropsHigh": [44.4366, 44.8732, 45.3099, 45.7465, 46.1831, 46.6197, 47.0563, 47.493, 47.9296, 48.3662, 48.8028, 49.2394, 49.6761, 50.1127, 50.5493, 50.9859, 51.4225, 51.8592, 52.2958, 52.7324, 53.169, 53.6056, 54.0423, 54.4789, 54.9155, 55.3521, 55.7887, 56.2254, 56.662, 57.0986, 57.5352, 57.9718, 58.4085, 58.8451, 59.2817, 59.7183, 60.1549, 60.5915, 61.0282, 61.4648, 61.9014, 62.338, 62.7746, 63.2113, 63.6479, 64.0845, 64.5211, 64.9577, 65.3944, 65.831, 66.2676, 66.7042, 67.1408, 67.5775, 68.0141, 68.4507, 68.8873, 69.3239, 69.7606, 70.1972, 70.6338, 71.0704, 71.507, 71.9437, 72.3803, 72.8169, 73.2535, 73.6901, 74.1268, 74.5634, 75],
+          "weaponLimits": -1,
+          "armorLimits": null
+        },
+        {
+          "name": "ＩＮＦＥＲＮＯ",
+          "playerScaling": [1, 1],
+          "drops": [50, 100],
+          "dropSpread": 60,
+          "dropsLow": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.5634, 1.2676, 1.9718, 2.6761, 3.3803, 4.0845, 4.7887, 5.493, 6.1972, 6.9014, 7.6056, 8.3099, 9.0141, 9.7183, 10.4225, 11.1268, 11.831, 12.5352, 13.2394, 13.9437, 14.6479, 15.3521, 16.0563, 16.7606, 17.4648, 18.169, 18.8732, 19.5775, 20.2817, 20.9859, 21.6901, 22.3944, 23.0986, 23.8028, 24.507, 25.2113, 25.9155, 26.6197, 27.3239, 28.0282, 28.7324, 29.4366, 30.1408, 30.8451, 31.5493, 32.2535, 32.9577, 33.662, 34.3662, 35.0704, 35.7746, 36.4789, 37.1831, 37.8873, 38.5915, 39.2958, 40],
+          "dropsHigh": [50.7042, 51.4085, 52.1127, 52.8169, 53.5211, 54.2254, 54.9296, 55.6338, 56.338, 57.0423, 57.7465, 58.4507, 59.1549, 59.8592, 60.5634, 61.2676, 61.9718, 62.6761, 63.3803, 64.0845, 64.7887, 65.493, 66.1972, 66.9014, 67.6056, 68.3099, 69.0141, 69.7183, 70.4225, 71.1268, 71.831, 72.5352, 73.2394, 73.9437, 74.6479, 75.3521, 76.0563, 76.7606, 77.4648, 78.169, 78.8732, 79.5775, 80.2817, 80.9859, 81.6901, 82.3944, 83.0986, 83.8028, 84.507, 85.2113, 85.9155, 86.6197, 87.3239, 88.0282, 88.7324, 89.4366, 90.1408, 90.8451, 91.5493, 92.2535, 92.9577, 93.662, 94.3662, 95.0704, 95.7746, 96.4789, 97.1831, 97.8873, 98.5915, 99.2958, 100],
+          "weaponLimits": -1,
+          "armorLimits": null
+        }
+      ]
+    }
+  ]
 }
